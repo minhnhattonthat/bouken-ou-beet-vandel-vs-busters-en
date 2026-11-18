@@ -9,6 +9,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Left for the done-when: **only the re-tour + vqasheets + qa_gate on this build** (Next (1), (5)). The tour
   work/qa/en is mixed: the session-22 re-tour was killed by Claude Code for low system memory partway (some scene
   dirs are new, most from 50c319fb), so run the whole tour again, with `--jobs 1` if memory is short.
+- **Phase 8 session 23 (2026-11-19), Orca worker: re-tour killed again for low memory (no code change).**
+  - Rebuilt: sha1 unchanged (9599030726e8...). Started `warp_all.py build/beet_en.nds --jobs 1 --out work/qa/en
+    --script tools/lua/glyphlog.lua --script tools/lua/textlog.lua`; Claude Code killed it for low system memory
+    (only ~0.6 GB of 16 GB free before the start; no stray DeSmuME, the memory is other apps) after 84 of 117 scene
+    dirs had been rewritten on this build. **Not re-run yet (by dir mtime):** b28_ending,b29_my_castle,b30_aviator,
+    b31_five_keys,clear_save,savepoint_yes,title_clear,title_comm,title_comm_host,title_comm_search,
+    title_story_clear,title_vandel_new,v01_twin_isles..v18_last,vandel_status,vandel_uptake, then book_monsters with
+    `--only book_monsters --script tools/lua/bookloop.lua`. Resume with `--only <that list>` (same build, so the
+    84 done dirs hold), then tagbox, vqasheets, `qa_gate init --build`, todo `--size 6`, visualqa `--jobs 1`.
+    Free memory on the machine (close apps) or run with CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1.
 - **Phase 8 session 22 (2026-11-19), Orca worker: Saiga learn + appraiser level-up shown, tour killed (memory).**
   - **Saiga learn prompt seen** (all 4 lines, Yes/No pass inkbox with `--ink 74,74,74 --diff 40`, rects
     74,304,36,15 155,304,37,15): new `tools/lua/saigalearn.lua` with scene menu_skills, `work/qa/cover/saiga_learn`.
