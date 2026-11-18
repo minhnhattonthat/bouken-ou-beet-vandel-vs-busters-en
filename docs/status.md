@@ -2,8 +2,32 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate (phase 5 done 2026-11-18: marker tour `work/qa/marker3` 101/101 ok, 969 ids, no Japanese
-  drawn; every kind has a budget in `tools/budgets.json`, measured or jp-bound).
+- **Phase:** 6. Translate: all text translated and merged, dialogue review pass 4/33 done (phase 5 done 2026-11-18:
+  marker tour `work/qa/marker3` 101/101 ok, 969 ids, no Japanese drawn; every kind has a budget in `tools/budgets.json`).
+- **Phase 6 session 1 (2026-11-18), Orca worker, no subagents: translation and review run through `codex exec`.**
+  - Done: `docs/synopsis.md` (codex read of the whole script: file -> chapter map, plot of both stories, cast and voice
+    guide), `glossary.md` (rulings, ~270 binding terms, generated "Names from the game tables" section via
+    `tools/glosstables.py`), `docs/translator-brief.md`, `docs/reviewer-brief.md`.
+  - Tools: `tools/batches.py` (split / prompt / check / merge / wrap / status; one row per distinct (kind, jp), the
+    merge writes every copy; dialogue is written as prose and wrapped to the box by `wrap()`; readings filled from
+    names; `--defer-long`), `tools/codex_run.py` (parallel translate + check + 2 fix rounds), `tools/review.py`
+    (review via codex, `apply` puts Critical/Important suggested EN in line by line and keeps width-failing ones out,
+    Minors + blocked fixes -> `docs/polish.md`), `tools/mkpolish.py` (translator CUT lines -> polish), `tools/dumpstory.py`.
+    Batch files, prompts, outputs, reviews: `work/tr/` (gitignored; b001-b017 tables, b018-b051 dialogue).
+  - Status: 9,368 / 9,372 entries translated, lint 0 errors. Tables b001-b017 reviewed and fixes applied; dialogue
+    b018-b020, b023, b026 reviewed and applied.
+  - Budget changes: speaker tag 64 -> 80 px (8 x W name drawn in `work/qa/ne_w2`); lint lets every multi-line kind
+    (desc, ptr.msg) re-wrap, not only msg.
+  - Deferred: 4 appraiser tutorial messages (rom.169D8 16CA8 1711C 17450) need ~350 codes > the 255-code expansion
+    buffer (docs/re/vwf.md: 0x200-byte stack buffer at 0x0201F4A4 / sp+0x1C); English kept in
+    `docs/long-messages.tsv`. Phase 7: enlarge the buffer (static buffer in the hook block), then merge them.
+    `elem.name` (10 属性 kanji) not translated: 18 px canvas, widen the draw code first (`batches.DEFER_KINDS`).
+- **Next (phase 6, finish):** the dialogue review run was killed by low system memory (not a tool failure). Resume:
+  `python -X utf8 tools/review.py run b021 b022 b024 b025 b027 ... b051 --jobs 4` (fewer jobs: memory), then
+  `python -X utf8 tools/review.py apply <same>`, then commit. Then a consistency fix pass: "Seal Ring" (29 lines)
+  vs glossary "Sealing Ring" (60): send those ids through a translator fix prompt (no bulk regex: translation.md).
+  Merge NEW TERM reports (95, `work/tr/out/b*.md`) into glossary.md. Phase 6 is done when every batch's review has
+  no Critical/Important left except width-blocked ones listed in polish.md.
   Last build: 2026-11-18 `python -X utf8 tools/build.py --marker` -> `build/beet_marker.nds` sha1
   9f82ab3e3a4acad381a0bd8b2e8352f0a1c13e23, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
   dump, `--qa ID=TEXT` overrides one entry.)
@@ -56,7 +80,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     scene), `INV_FROM`. Budgets for every remaining kind in `tools/budgets.json`: `jp-bound` (longest JP line at
     12 px; lists not reachable yet, verify in phase 8) or `not-drawn` (readings = sort keys, 説明 placeholders);
     lint skips width for `not-drawn`.
-- **Next (phase 6):** translate in batches (`references/translation.md`): translators get `tools/budgets.json` +
+- **Phase 6 plan as written at phase 5 end (mostly done above):** translate in batches (`references/translation.md`): translators get `tools/budgets.json` +
   `docs/windows.md` + `glossary.md`; readings = English name, 説明 placeholders stay, `ptr.keyboard` stays empty,
   GBA-news fragments are one line each (word order across fragments), `a9.021B1820` follows a name ("<name> joined
   the party"). Polish for later (phase 8): name-entry key letters sit at the cell's left edge (centre them); the comm

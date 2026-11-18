@@ -458,3 +458,40 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.419B0 - CUT (b042): Compressed the Dark Note standard metaphor and repeated emphasis on the tiny interest charge.
 - [ ] rom.4F2B0 - CUT (b049): Condensed greetings, praise and the reference to the magnificent plan to fit the code cap.
 - [ ] rom.4F468 - CUT (b049): Condensed the introductory explanation, repeated promotion and location references, and closing invitations to fit the code cap.
+
+## Review minors b019
+- [ ] quest.04030 - "行方不明となったゼナを探しだす" means find Zena, who has gone missing - "The missing Zena" sounds unnatural - Find Zena, who has gone missing.
+- [ ] quest.04070 - "ビィト戦士団登場" announces the Beet Warriors' arrival - The title drops the arrival - The Beet Warriors Arrive
+- [ ] quest.04618 - "アーク戦士団登場" announces Ark's Squad's arrival - "Ark's Squad Here" reads like clipped translationese - Ark's Squad Arrives
+- [ ] quest.03FBC - review suggestion blocked by width: line 1: 166 px > 120 (12 px font) 'Infiltrate the Twin Islands'
+- [ ] quest.04254 - review suggestion blocked by width: line 1: 156 px > 120 (12 px font) 'Save the Courier Buster'
+- [ ] quest.04298 - review suggestion blocked by width: line 1: 142 px > 120 (12 px font) 'Silver Miner Horey-san'
+- [ ] quest.04430 - review suggestion blocked by width: line 1: 197 px > 120 (12 px font) 'Reunite with the Beet Warriors'
+- [ ] quest.049E4 - review suggestion blocked by width: line 1: 171 px > 120 (12 px font) 'Protect the Bridge Master'
+- [ ] quest.04A74 - review suggestion blocked by width: line 1: 169 px > 120 (12 px font) 'Learn a Secret Technique'
+- [ ] quest.055B4 - review suggestion blocked by width: line 1: 145 px > 120 (12 px font) 'Silver Goddess Statue'
+- [ ] quest.055D8 - review suggestion blocked by width: line 1: 153 px > 120 (12 px font) 'Build the Golden Castle!'
+
+## Review minors b020
+- [ ] quest.057D4 - "山門を破れ" means breach the mountain gate - Drops the gate's identifying qualifier retained in the description - Breach the Mountain Gate
+- [ ] quest.05ABC - "坑道　暗闇の先に" means the mine tunnel: beyond the darkness - Drops the location from the title - The Mine: Beyond the Darkness
+- [ ] quest.05DE0 - "最後の防御線" means the last line of defense - Last Defense Line is an awkward English formulation - The Last Line of Defense
+- [ ] quest.05900 - review suggestion blocked by width: line 1: 202 px > 120 (12 px font) 'Ganeer, the Dark Notes Lender'
+- [ ] quest.05BE8 - review suggestion blocked by width: line 1: 163 px > 120 (12 px font) 'Capture the Village Chief'
+- [ ] quest.05C3C - review suggestion blocked by width: line 1: 167 px > 120 (12 px font) 'Destroy the Sealing Rings'
+- [ ] quest.05CA8 - review suggestion blocked by width: line 1: 152 px > 120 (12 px font) 'Orozon, Lord of Dreams'
+- [ ] quest.05D38 - review suggestion blocked by width: line 1: 191 px > 120 (12 px font) 'The Flame for the Repair Item'
+- [ ] quest.06564 - review suggestion blocked by width: line 1: 135 px > 120 (12 px font) 'Deadly Blade Histario'
+- [ ] quest.06594 - review suggestion blocked by width: line 1: 198 px > 120 (12 px font) 'Garonute, the Immovable Giant'
+- [ ] quest.06618 - review suggestion blocked by width: line 1: 130 px > 120 (12 px font) 'Monster Lieutenant'
+- [ ] quest.06708 - review suggestion blocked by width: line 1: 190 px > 120 (12 px font) 'Giant Butterfly: Even Farther'
+- [ ] quest.06750 - review suggestion blocked by width: line 1: 126 px > 120 (12 px font) 'Vandel Scholar Noa'
+
+## Review minors b023
+- [ ] rom.04A90 - "何の武器が得意なの？" asks which weapon he is skilled with - "What do you use?" loses the proficiency distinction - {hero}! Off to hunt monsters? Kissu says you're new at this. // To thank you for helping Beet, I'll explain weapons. What weapon are you best with, {hero}? // Swords, spears, guns... There are lots of types. Try the Weapon Shop. // You'll have strengths and weaknesses, {hero}, so some weapons may be off limits. I can't carry axes. Too heavy! Try different ones, okay?
+- [ ] rom.05820 - "高価買取キャンペーン中" advertises temporarily generous purchase prices - "buyback sale" sounds like she is selling goods rather than buying them - I'll give ya a good deal, so buy something! I buy stuff, too!! I'm paying top coin right now!!
+
+## Review minors b026
+- [ ] rom.0ADA4 - "いつもの夫婦ゲンカ" teasingly calls their familiar bickering a marital spat - "Another married-couple quarrel" sounds stiff and weakens the joke - (Here we go again! Bickering like an old married couple!)
+- [ ] rom.0AF20 - "おまえ 二刀流なのか!?" expresses surprise that the hero fights with two weapons - "You use Dual Wielding" sounds like a menu description - Oh... // Whoa!! {hero}, you know Dual Wielding?!
+- [ ] rom.09A98 - review suggestion blocked by width: message over 255 codes
