@@ -5,7 +5,7 @@
    "id": "a9.0219AD0C",
    "jp": "バスター",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0200B0B8"
    ]
@@ -14,7 +14,7 @@
    "id": "a9.0219AD18",
    "jp": "ハーデンの配下",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0200B0C0"
    ]
@@ -23,7 +23,7 @@
    "id": "a9.0219B030",
    "jp": "護衛",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0219B08C"
    ]
@@ -32,7 +32,7 @@
    "id": "a9.0219B038",
    "jp": "討伐",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0219B084"
    ]
@@ -41,7 +41,7 @@
    "id": "a9.0219B040",
    "jp": "配達",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0219B088"
    ]
@@ -50,7 +50,7 @@
    "id": "a9.0219B048",
    "jp": "収集",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0219B090"
    ]
@@ -59,7 +59,7 @@
    "id": "a9.0219B058",
    "jp": "その他",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "0219B094"
    ]
@@ -68,7 +68,7 @@
    "id": "a9.021A9D04",
    "jp": "セーブに失敗しました{br}Ａボタンを押すと戻ります{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "021A9D00"
    ]
@@ -77,7 +77,7 @@
    "id": "a9.021A9D38",
    "jp": "セーブデータが破壊されています{br}Ａボタンを押すと{br}セーブデータを初期化します{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "021A9CFC"
    ]
@@ -86,7 +86,7 @@
    "id": "a9.021A9D8C",
    "jp": "セーブデータの読み込みに失敗しました{br}電源を切って{br}カードを差し込み直してください{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "021A9CF8"
    ]
@@ -95,7 +95,7 @@
    "id": "a9.021A9DE4",
    "jp": "バックアップメモリが認識できませんでした{br}電源を切って{br}カードを差し込み直してください{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "021A9CF4"
    ]
@@ -104,17 +104,17 @@
    "id": "a9.021AA0F8",
    "jp": "あかさたなはまやらわ",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029B68"
    ],
-   "notes": "name-entry keyboard row (kana grid; English entry needs a Latin layout, phase 5)"
+   "notes": "name-entry kana keyboard row: keep Japanese (ptr.keyboard is never inserted)"
   },
   {
    "id": "a9.021AA110",
    "jp": "いきしちにひみ　り　",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029B6C"
    ]
@@ -123,7 +123,7 @@
    "id": "a9.021AA128",
    "jp": "うくすつぬふむゆるを",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029B70"
    ]
@@ -132,7 +132,7 @@
    "id": "a9.021AA140",
    "jp": "えけせてねへめ　れ　",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029B78"
    ]
@@ -141,7 +141,7 @@
    "id": "a9.021AA158",
    "jp": "おこそとのほもよろん",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029B7C"
    ]
@@ -150,7 +150,7 @@
    "id": "a9.021AA290",
    "jp": "＊＄％＆∽＃♭♪ΩΦ",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029BCC"
    ]
@@ -159,16 +159,17 @@
    "id": "a9.021AA2A8",
    "jp": "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.keyboard",
    "ptrs": [
     "02029BD0"
-   ]
+   ],
+   "notes": "name-entry kana list (keyboard logic): keep Japanese"
   },
   {
    "id": "a9.021AAE9C",
    "jp": "リングを破壊された{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "020471B0"
    ]
@@ -177,7 +178,7 @@
    "id": "a9.021AAEB4",
    "jp": "リングを修復された{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "020471B4"
    ]
@@ -186,7 +187,7 @@
    "id": "a9.021AAECC",
    "jp": "鑑定士",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.speaker",
    "ptrs": [
     "02048AFC"
    ]
@@ -195,7 +196,7 @@
    "id": "a9.021AAED8",
    "jp": "[FF00]は{br}これでレベル[FF01]だ{page}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "02048B0C"
    ]
@@ -204,7 +205,7 @@
    "id": "a9.021AAEF4",
    "jp": "今回の報酬は{br}[FF01]マギーだ{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "02048B18"
    ]
@@ -213,7 +214,7 @@
    "id": "a9.021AAF14",
    "jp": "この間の鑑定から{br}まだ何も上がっておらんよ{close}",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.msg",
    "ptrs": [
     "02048B1C"
    ]
@@ -222,7 +223,7 @@
    "id": "a9.021AB998",
    "jp": "両手持ち武器を装備しているため",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "0205B2E0"
    ]
@@ -231,7 +232,7 @@
    "id": "a9.021AB9BC",
    "jp": "盾を装備することができません",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "0205B2E4"
    ]
@@ -240,7 +241,7 @@
    "id": "a9.021ADF44",
    "jp": "無期限",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.label",
    "ptrs": [
     "020752E4"
    ]
@@ -249,7 +250,7 @@
    "id": "a9.021AE554",
    "jp": "これ以上買えません",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "0207619C"
    ]
@@ -258,7 +259,7 @@
    "id": "a9.021AE56C",
    "jp": "武器がいっぱいです",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020761A0"
    ]
@@ -267,7 +268,7 @@
    "id": "a9.021AE584",
    "jp": "防具がいっぱいです",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020761A4"
    ]
@@ -276,7 +277,7 @@
    "id": "a9.021AE59C",
    "jp": "モンスターがいっぱいです",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020761A8"
    ]
@@ -285,16 +286,17 @@
    "id": "a9.021B1820",
    "jp": "が仲間になった",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020A4BF0"
-   ]
+   ],
+   "notes": "appended after a buster name: \"<name> joined the party\""
   },
   {
    "id": "a9.021B424C",
    "jp": "この才牙を修得します",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020CC118"
    ]
@@ -303,7 +305,7 @@
    "id": "a9.021B4264",
    "jp": "一度決定すると、他の才牙は",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020CC11C"
    ]
@@ -312,7 +314,7 @@
    "id": "a9.021B4284",
    "jp": "修得できなくなります",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020CC120"
    ]
@@ -321,7 +323,7 @@
    "id": "a9.021B429C",
    "jp": "本当によろしいですか？",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.line",
    "ptrs": [
     "020CC124"
    ]
@@ -330,7 +332,7 @@
    "id": "a9.021B4EA8",
    "jp": "通信エラーが発生しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D8570"
    ]
@@ -339,7 +341,7 @@
    "id": "a9.021B4EC8",
    "jp": "リセットを行います。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D8574"
    ]
@@ -348,7 +350,7 @@
    "id": "a9.021B4EE0",
    "jp": "Ａボタンを押して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D8578"
    ]
@@ -357,7 +359,7 @@
    "id": "a9.021B4FD0",
    "jp": "通信モードを選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D8F08",
     "020D9F28"
@@ -367,7 +369,7 @@
    "id": "a9.021B50EC",
    "jp": "通信エラーが発生しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D9418"
    ]
@@ -376,7 +378,7 @@
    "id": "a9.021B510C",
    "jp": "接続しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D9570"
    ]
@@ -385,7 +387,7 @@
    "id": "a9.021B5120",
    "jp": "接続中です。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D985C"
    ]
@@ -394,7 +396,7 @@
    "id": "a9.021B5130",
    "jp": "検索中です。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D9A38"
    ]
@@ -403,7 +405,7 @@
    "id": "a9.021B51E0",
    "jp": "受付中です。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020D9C80"
    ]
@@ -412,7 +414,7 @@
    "id": "a9.021B53D8",
    "jp": "キャラクターを選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DB6B4"
    ]
@@ -421,7 +423,7 @@
    "id": "a9.021B556C",
    "jp": "スタートボタンを押すと",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DCB94"
    ]
@@ -430,7 +432,7 @@
    "id": "a9.021B5588",
    "jp": "パーティを決定します。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DCB98"
    ]
@@ -439,7 +441,7 @@
    "id": "a9.021B573C",
    "jp": "陣営を選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DD818"
    ]
@@ -448,7 +450,7 @@
    "id": "a9.021B5758",
    "jp": "同じ陣営では対戦できません。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DDD34"
    ]
@@ -457,7 +459,7 @@
    "id": "a9.021B5778",
    "jp": "もう一度選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DDD38"
    ]
@@ -466,7 +468,7 @@
    "id": "a9.021B5794",
    "jp": "バトルを選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DDFDC"
    ]
@@ -475,7 +477,7 @@
    "id": "a9.021B587C",
    "jp": "しばらくお待ちください。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020DEAFC"
    ]
@@ -484,7 +486,7 @@
    "id": "a9.021B592C",
    "jp": "条件を選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E04F0"
    ]
@@ -493,7 +495,7 @@
    "id": "a9.021B5A58",
    "jp": "セーブデータがないので",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15B0"
    ]
@@ -502,7 +504,7 @@
    "id": "a9.021B5A74",
    "jp": "仲間の受け渡しはできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15B4"
    ]
@@ -511,7 +513,7 @@
    "id": "a9.021B5A94",
    "jp": "仲間の受け取りはできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15B8"
    ]
@@ -520,7 +522,7 @@
    "id": "a9.021B5AB4",
    "jp": "相手はすでにもっています。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15BC"
    ]
@@ -529,7 +531,7 @@
    "id": "a9.021B5AD4",
    "jp": "受け渡しはできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15C0"
    ]
@@ -538,7 +540,7 @@
    "id": "a9.021B5AF0",
    "jp": "仲間はすでにもっています。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15C4"
    ]
@@ -547,7 +549,7 @@
    "id": "a9.021B5B10",
    "jp": "受け取りはできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15C8"
    ]
@@ -556,7 +558,7 @@
    "id": "a9.021B5B2C",
    "jp": "通信エラーが発生しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15CC"
    ]
@@ -565,7 +567,7 @@
    "id": "a9.021B5C54",
    "jp": "選択して下さい",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E15EC"
    ]
@@ -574,7 +576,7 @@
    "id": "a9.021B5C68",
    "jp": "完了しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E1610"
    ]
@@ -583,7 +585,7 @@
    "id": "a9.021B5D84",
    "jp": "ゲームデータを保存しています",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E162C"
    ]
@@ -592,7 +594,7 @@
    "id": "a9.021B5DA4",
    "jp": "電源を切らないでください",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E1630"
    ]
@@ -601,7 +603,7 @@
    "id": "a9.021B5DC0",
    "jp": "条件が合いませんでした。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E1634"
    ]
@@ -610,7 +612,7 @@
    "id": "a9.021B5DDC",
    "jp": "もう一度条件を選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E1638"
    ]
@@ -619,7 +621,7 @@
    "id": "a9.021B5E1C",
    "jp": "しばらくお待ちください。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E176C"
    ]
@@ -628,7 +630,7 @@
    "id": "a9.021B60A4",
    "jp": "選択して下さい",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E3180",
     "020E387C",
@@ -639,7 +641,7 @@
    "id": "a9.021B60B8",
    "jp": "ゲームデータを保存しています",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E3184",
     "020E5498"
@@ -649,7 +651,7 @@
    "id": "a9.021B60D8",
    "jp": "電源を切らないでください",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E3188",
     "020E549C"
@@ -659,7 +661,7 @@
    "id": "a9.021B60F4",
    "jp": "完了しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E318C",
     "020E54A0"
@@ -669,7 +671,7 @@
    "id": "a9.021B6108",
    "jp": "モンスターを選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E4C20"
    ]
@@ -678,7 +680,7 @@
    "id": "a9.021B63A8",
    "jp": "条件を選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E5964"
    ]
@@ -687,7 +689,7 @@
    "id": "a9.021B641C",
    "jp": "セーブデータがないので",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60CC"
    ]
@@ -696,7 +698,7 @@
    "id": "a9.021B6438",
    "jp": "モンスターの交換はできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60D0"
    ]
@@ -705,7 +707,7 @@
    "id": "a9.021B645C",
    "jp": "モンスターを所持していないので",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60D4"
    ]
@@ -714,7 +716,7 @@
    "id": "a9.021B6480",
    "jp": "受け渡しはできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60D8"
    ]
@@ -723,7 +725,7 @@
    "id": "a9.021B649C",
    "jp": "モンスター数が一杯です。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60DC"
    ]
@@ -732,7 +734,7 @@
    "id": "a9.021B64B8",
    "jp": "受け取りはできません！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60E0"
    ]
@@ -741,7 +743,7 @@
    "id": "a9.021B64D4",
    "jp": "相手のモンスター数が一杯です。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60E4"
    ]
@@ -750,7 +752,7 @@
    "id": "a9.021B64F8",
    "jp": "通信エラーが発生しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60E8"
    ]
@@ -759,7 +761,7 @@
    "id": "a9.021B6518",
    "jp": "条件が合いませんでした。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60F0"
    ]
@@ -768,7 +770,7 @@
    "id": "a9.021B6534",
    "jp": "もう一度条件を選択して下さい。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E60F4"
    ]
@@ -777,7 +779,7 @@
    "id": "a9.021B6574",
    "jp": "しばらくお待ちください。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.comm",
    "ptrs": [
     "020E652C"
    ]
@@ -786,17 +788,18 @@
    "id": "a9.021B68B0",
    "jp": "魔賓館で",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B7C",
     "021B6B88"
-   ]
+   ],
+   "notes": "GBA-link news lines are built from these fragments (line by line)"
   },
   {
    "id": "a9.021B68BC",
    "jp": "「グリニデ」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6BB8"
    ]
@@ -805,7 +808,7 @@
    "id": "a9.021B68D0",
    "jp": "レジスタンスが",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B18",
     "021B6B24",
@@ -821,7 +824,7 @@
    "id": "a9.021B68E4",
    "jp": "「ロズゴート」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B94"
    ]
@@ -830,7 +833,7 @@
    "id": "a9.021B68F8",
    "jp": "「マスターボウ」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B70"
    ]
@@ -839,7 +842,7 @@
    "id": "a9.021B6910",
    "jp": "ヴァンデルモードの",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B78",
     "021B6B84"
@@ -849,7 +852,7 @@
    "id": "a9.021B6928",
    "jp": "「フラウスキー」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6BA0"
    ]
@@ -858,7 +861,7 @@
    "id": "a9.021B6940",
    "jp": "魔賓館が石像トラップ",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B90",
     "021B6B9C",
@@ -871,7 +874,7 @@
    "id": "a9.021B6958",
    "jp": "「マスターマント」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B34"
    ]
@@ -880,7 +883,7 @@
    "id": "a9.021B6970",
    "jp": "「マスターナイフ」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B58"
    ]
@@ -889,7 +892,7 @@
    "id": "a9.021B6988",
    "jp": "販売を開始しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B20",
     "021B6B2C",
@@ -910,7 +913,7 @@
    "id": "a9.021B69A0",
    "jp": "「マスターシールド」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B1C"
    ]
@@ -919,7 +922,7 @@
    "id": "a9.021B69BC",
    "jp": "「マスターバングル」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B28"
    ]
@@ -928,7 +931,7 @@
    "id": "a9.021B69D8",
    "jp": "「マスターグローブ」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B40"
    ]
@@ -937,7 +940,7 @@
    "id": "a9.021B69F4",
    "jp": "「マスターグレイブ」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B4C"
    ]
@@ -946,7 +949,7 @@
    "id": "a9.021B6A10",
    "jp": "「マスターハンマー」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B64"
    ]
@@ -955,7 +958,7 @@
    "id": "a9.021B6A2C",
    "jp": "「ノア」が出現しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B80"
    ]
@@ -964,7 +967,7 @@
    "id": "a9.021B6A48",
    "jp": "「グリニデ（変身後）」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6BC4"
    ]
@@ -973,7 +976,7 @@
    "id": "a9.021B6A64",
    "jp": "「ベルトーゼ（分身体）」の",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6BAC"
    ]
@@ -982,7 +985,7 @@
    "id": "a9.021B6A84",
    "jp": "バスターモードでスレッドが",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B0C"
    ]
@@ -991,7 +994,7 @@
    "id": "a9.021B6AC4",
    "jp": "「ロディーナ」が出現しました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B8C"
    ]
@@ -1000,7 +1003,7 @@
    "id": "a9.021B6AE8",
    "jp": "仲間入りできるようになりました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "021B6B10"
    ]
@@ -1009,7 +1012,7 @@
    "id": "a9.021B6BCC",
    "jp": "このカートリッジから取得できる",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9B3C"
    ]
@@ -1018,7 +1021,7 @@
    "id": "a9.021B6BF0",
    "jp": "ボーナスは既に取得済みです。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9B40"
    ]
@@ -1027,7 +1030,7 @@
    "id": "a9.021B6C10",
    "jp": "ヴァンデルモードが追加されました。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9B44"
    ]
@@ -1036,7 +1039,7 @@
    "id": "a9.021B6C38",
    "jp": "なにもおきませんでした。",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9B48"
    ]
@@ -1045,7 +1048,7 @@
    "id": "a9.021B6C54",
    "jp": "ダブルスロットのカートリッジを",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9BF0"
    ]
@@ -1054,7 +1057,7 @@
    "id": "a9.021B6C78",
    "jp": "チェックしています。電源を切ったり、",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9BF4"
    ]
@@ -1063,7 +1066,7 @@
    "id": "a9.021B6CA0",
    "jp": "カートリッジを抜かないで下さい！",
    "en": "",
-   "kind": "ptr",
+   "kind": "ptr.gba",
    "ptrs": [
     "020E9BF8"
    ]

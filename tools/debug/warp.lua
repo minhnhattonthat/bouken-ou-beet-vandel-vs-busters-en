@@ -211,9 +211,11 @@ local pc_after = nil
 -- touch kind: `set` = "@FRAME tok tok ..." ; tok = a button or tX,Y (pressed 6 frames, then 90 frames idle),
 -- or wN (idle N frames). Inputs start at FRAME (absolute, from boot); A-mashing stops 60 frames before it.
 -- Event scenes take the same "@FRAME tok .." inputs when `set` has an @FRAME (e.g. close a shopkeeper's greeting
--- and open the shop menu); fNNN/sNNN/qXXXX tokens are warp writes, not inputs.
+-- and open the shop menu); fNNN/sNNN/qXXXX tokens are warp writes, not inputs. namentry scenes too (type a name,
+-- touch 決定 at t243,176; the keyboard opens on 英字 in the English build: row y 64+16*r, column x 86+16*c).
 local touches, touch_at = {}, nil
-if kind == "touch" or kind == "titletouch" or (kind == "event" and (sc.set or ""):match("@%d+")) then
+if kind == "touch" or kind == "titletouch"
+    or ((kind == "event" or kind == "namentry") and (sc.set or ""):match("@%d+")) then
   for tok in (sc.set or ""):gmatch("%S+") do
     local at = tok:match("^@(%d+)$")
     if at then touch_at = tonumber(at)

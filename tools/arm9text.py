@@ -51,8 +51,34 @@ TABLES = [
 NOT_TEXT = {0x0210D328, 0x0210D338, 0x02194FD8, 0x021958B8, 0x021AE0C8, 0x021AE13C, 0x021AE15C,
             0x021AE1F0, 0x021AE2A4, 0x021AE2F0, 0x021AE34C, 0x021B6E9C, 0x021B6EA8, 0x021B6EE4, 0x021B6EF0,
             0x021B6FEC}
-# Name-entry kana keyboard rows (021AA0F8-021AA2A8) stay in as text: they are drawn on the entry screen.
-NOTES = {0x021AA0F8: 'name-entry keyboard row (kana grid; English entry needs a Latin layout, phase 5)'}
+# Name-entry kana keyboard rows (021AA0F8-021AA2A8) stay in as text (kind ptr.keyboard, never written: the 英字 tab
+# is the English keyboard; docs/re/vwf.md §Name entry).
+NOTES = {0x021AA0F8: 'name-entry kana keyboard row: keep Japanese (ptr.keyboard is never inserted)',
+         0x021AA2A8: 'name-entry kana list (keyboard logic): keep Japanese',
+         0x021B1820: 'appended after a buster name: "<name> joined the party"',
+         0x021B68B0: 'GBA-link news lines are built from these fragments (line by line)'}
+# Pointer strings by screen (kind ptr.<group>; budgets in tools/budgets.json): first address of each group, in order.
+PTR_GROUPS = [
+    (0x0219AD0C, 'label'),      # バスター / ハーデンの配下 (b14 caption), quest categories 護衛 討伐..
+    (0x021A9D04, 'msg'),        # save / backup errors (message window)
+    (0x021AA0F8, 'keyboard'),   # name-entry kana rows + kana list
+    (0x021AAE9C, 'msg'),        # ring broken/repaired, appraiser lines
+    (0x021AAECC, 'speaker'),    # 鑑定士
+    (0x021AAED8, 'msg'),
+    (0x021AB998, 'line'),       # one-line notices: equip, shop full, joined the party, skill confirm
+    (0x021ADF44, 'label'),      # 無期限 (quest deadline)
+    (0x021AE554, 'line'),
+    (0x021B4EA8, 'comm'),       # wireless (通信) screens, 8 px font
+    (0x021B68B0, 'gba'),        # GBA-link news and cartridge check, 12 px font, bottom screen
+]
+
+
+def ptr_kind(v):
+    kind = 'ptr'
+    for lo, g in PTR_GROUPS:
+        if v >= lo:
+            kind = 'ptr.' + g
+    return kind
 
 
 def u16(a, p):
@@ -167,7 +193,7 @@ def extract(a, codec):
                                        table_entries(a, codec, key, base, size, count, fields))
     ents = []
     for v, (end, ptrs) in sorted(pointer_strings(a, table_spans(a)).items()):
-        e = {'id': 'a9.%08X' % v, 'jp': codec.decode(a, v - BASE)[0], 'en': '', 'kind': 'ptr',
+        e = {'id': 'a9.%08X' % v, 'jp': codec.decode(a, v - BASE)[0], 'en': '', 'kind': ptr_kind(v),
              'ptrs': ['%08X' % p for p in ptrs]}
         if v in NOTES:
             e['notes'] = NOTES[v]

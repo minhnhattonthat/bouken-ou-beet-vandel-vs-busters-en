@@ -44,5 +44,12 @@
   "tengeki.reading": {"status": "not-drawn", "shot": "as armor.reading"},
   "meigeki.reading": {"status": "not-drawn", "shot": "as armor.reading"},
   "buster.desc":     {"status": "not-drawn", "shot": "all 51 are the placeholder 説明; keep"},
-  "vandel.desc":     {"status": "not-drawn", "shot": "all 31 are the placeholder 説明; keep"}
+  "vandel.desc":     {"status": "not-drawn", "shot": "all 31 are the placeholder 説明; keep"},
+  "ptr.msg":      {"font": 12, "px": 240, "lines": 3, "last_px": 222, "status": "jp-bound", "shot": "save errors, ring, appraiser: message window = msg budget; not reached yet"},
+  "ptr.speaker":  {"font": 12, "px": 64, "lines": 1, "status": "jp-bound", "shot": "鑑定士 speaker tag = speaker budget"},
+  "ptr.label":    {"font": 12, "px": 84, "lines": 1, "status": "jp-bound", "shot": "captions and quest categories; 7 chars (ハーデンの配下 seen in b14_idiot at x 10)"},
+  "ptr.line":     {"font": 12, "px": 180, "lines": 1, "status": "jp-bound", "shot": "one-line notices (equip, shop full, joined, skill confirm); 15 chars; not reached yet"},
+  "ptr.comm":     {"font": 8, "px": 128, "lines": 1, "status": "measured", "shot": "work/qa/ptr_title_comm_search/f001100.png (top-screen box wraps by itself at ~130 px, mid-word)"},
+  "ptr.gba":      {"font": 12, "px": 212, "lines": 1, "status": "measured", "shot": "work/qa/ptr_title_gbalink/f000600.png (text x 24, the box wraps at ~238)"},
+  "ptr.keyboard": {"status": "not-drawn", "shot": "kana keyboard of the name entry: never inserted (insert.KEEP_KINDS)"}
 }

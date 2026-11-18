@@ -72,6 +72,14 @@ def crop_font(font, size):
 # ARM hook source. {NAME} fields are filled in by Engine.asm(). Sites are listed in SITES.
 ASM = r"""
 hook12:
+    sub ip, r1, #{FW_UP}
+    cmp ip, #26
+    movlo r1, ip, lsl #7
+    addlo r1, r1, #{PC_UP}
+    sub ip, r1, #{FW_LO}
+    cmp ip, #26
+    movlo r1, ip, lsl #7
+    addlo r1, r1, #{PC_LO}
     cmp r1, #0x2000
     blo orig12
     cmp r1, #0x6000
@@ -82,6 +90,14 @@ orig12:
     push {{r4, r5, r6, r7, r8, sb, sl, fp, lr}}
     b #0x02007914
 hook8:
+    sub ip, r1, #{FW_UP}
+    cmp ip, #26
+    movlo r1, ip, lsl #7
+    addlo r1, r1, #{PC_UP}
+    sub ip, r1, #{FW_LO}
+    cmp ip, #26
+    movlo r1, ip, lsl #7
+    addlo r1, r1, #{PC_LO}
     cmp r1, #0x2000
     blo orig8
     cmp r1, #0x6000
@@ -178,6 +194,14 @@ adv:
     bx lr
 
 wcode:
+    sub r3, r1, #{FW_UP}
+    cmp r3, #26
+    movlo r1, r3, lsl #7
+    addlo r1, r1, #{PC_UP}
+    sub r3, r1, #{FW_LO}
+    cmp r3, #26
+    movlo r1, r3, lsl #7
+    addlo r1, r1, #{PC_LO}
     sub r3, r1, #0x2000
     cmp r3, #0x4000
     bhs wfix
@@ -233,6 +257,14 @@ nhd:
     pop {{r1, r2, r3, r4, r5, r6, lr}}
     bx lr
 
+ne_init:
+    push {{lr}}
+    bl #0x02029A14
+    mov r0, #1
+    str r0, [r4, #0xdc]
+    pop {{lr}}
+    bx lr
+
 lit_ones: .word 0x11111111
 lit_t12: .word {T12}
 lit_t8: .word {T8}
@@ -256,7 +288,22 @@ SITES = {
     0x02022884: ('130050e3', 'cmp r0, #0xFF'),   # typewriter auto-wrap after 19 codes -> off (explicit breaks)
     0x02095314: ('0600a0e3', 'bl name_half'),     # speaker tag centring: mov r0, #6; mul r0, r1, r0 (6 px x count)
     0x02095318: ('910000e0', 'mov r0, r0'),       #   -> half the pixel width
+    0x0202B6F0: ('c7f8ffeb', 'bl ne_init'),       # name entry constructor: bl 0x02029A14 (keyboard rows), then
+                                                  #   the keyboard opens on 英字 (mode obj+0xDC = 1; docs/re/vwf.md)
 }
+
+# Name entry writes full-width Latin codes (Ａ-Ｚ 0x00DD.., ａ-ｚ 0x00FD..); the hooks draw and measure them as
+# the single proportional letter, so a typed name looks like the English around it (FW_* = first code, PC_* = the
+# pair code of the single letter 'A' / 'a').
+FW = {'FW_UP': 0xDD, 'FW_LO': 0xFD, 'PC_UP': 0x2000 + SLOT['A'] * 128, 'PC_LO': 0x2000 + SLOT['a'] * 128}
+
+
+def fullwidth_code(code):
+    """The English single-letter code a full-width Latin code is drawn as, else the code itself."""
+    for fw, pc in ((FW['FW_UP'], FW['PC_UP']), (FW['FW_LO'], FW['PC_LO'])):
+        if 0 <= code - fw < 26:
+            return pc + (code - fw) * 128
+    return code
 
 
 # arm9 tables moved into the hook block because their slots cannot hold English (docs/re/arm9.md). Per table: the
@@ -276,6 +323,19 @@ class Engine:
         self.w8, self.t8 = crop_font(f8, 8)
         self.codec = codec
         self.reloc = {}   # RELOC key -> new table bytes (set by insert.Inserter)
+        self.strings = []   # pointer strings moved into the block: (old address, [pointer word addrs], bytes + 0000)
+
+    def relocate_string(self, old, ptrs, data):
+        """Put a pointer string that outgrew its old room into the block; patch_arm9 repoints its pointer words."""
+        self.strings.append((old, list(ptrs), bytes(data) + b'\0\0'))
+
+    def _pool(self):
+        """(pool bytes, {old address: offset in the pool}) of the relocated pointer strings, each 4-aligned."""
+        pool, offs = bytearray(), {}
+        for old, _, data in self.strings:
+            offs[old] = len(pool)
+            pool += data.ljust((len(data) + 3) & ~3, b'\0')
+        return bytes(pool), offs
 
     def reloc_default(self, arm9, key):
         """The table at its new record size, filled with the original records (zero-padded)."""
@@ -292,6 +352,7 @@ class Engine:
             blob = self.reloc.get(key) or bytes(r['count'] * r['new'])
             assert len(blob) == r['count'] * r['new'], key
             blobs.append(('R_' + key, bytes(blob)))
+        blobs.append(('R_STRINGS', self._pool()[0]))
         return blobs
 
     @classmethod
@@ -304,6 +365,7 @@ class Engine:
         return (self.w12 if font == 12 else self.w8)[SLOT[ch]]
 
     def code_width(self, code, font=12):
+        code = fullwidth_code(code)
         if EBASE <= code < EEND:
             w = self.w12 if font == 12 else self.w8
             return w[(code - EBASE) >> 7] + w[(code - EBASE) & 0x7F]
@@ -371,7 +433,9 @@ class Engine:
         for name, blob in data:
             lay[name] = BLOCK + pos
             pos += (len(blob) + 3) & ~3
-        src = ASM.format(**{k: '0x%08X' % v for k, v in lay.items() if not k.startswith('R_')})
+        fields = {k: '0x%08X' % v for k, v in lay.items() if not k.startswith('R_')}
+        fields.update({k: '0x%X' % v for k, v in FW.items()})
+        src = ASM.format(**fields)
         ks = Ks(KS_ARCH_ARM, KS_MODE_ARM)
         enc, _ = ks.asm(src, BLOCK)
         code = bytes(enc)
@@ -438,5 +502,14 @@ class Engine:
             new[o:o + 4] = enc
             if log is not None:
                 log.append('arm9 %08X reloc %s -> %08X (%s)' % (r['lit'], key, labels['R_' + key], r['repl']))
+        offs = self._pool()[1]
+        for old, ptrs, _ in self.strings:
+            to = labels['R_STRINGS'] + offs[old]
+            for w in ptrs:
+                o = w - A9
+                assert struct.unpack_from('<I', a, o)[0] == old, 'pointer word %08X does not hold %08X' % (w, old)
+                struct.pack_into('<I', new, o, to)
+                if log is not None:
+                    log.append('arm9 %08X ptr %08X -> %08X' % (w, old, to))
         rom.arm9 = bytes(new)
         return labels

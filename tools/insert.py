@@ -5,7 +5,8 @@ Sources (same as extract.py):
                        appended to the file (4-aligned) and every operand that pointed at it (Script.refs) is repointed;
   names                16-byte slots in status/bustername/*.bin (max 14 bytes + 0000);
   arm9 tables          fixed slots at `addr`, `max` bytes (zero-filled);
-  arm9 pointer strings in place when the new bytes fit the old string, else an error (relocation: phase 7).
+  arm9 pointer strings in place when the new bytes fit the old string, else moved into the hook block
+                       (engine.relocate_string; every word in `ptrs` repointed). Kinds in KEEP_KINDS are never written.
 Text is encoded by engine.Engine (English pair codes). An entry with empty `en` keeps its Japanese.
 
 Marker mode (`text_for = marker`) replaces every entry by a short id plus filler of about the translated length, so a
@@ -28,6 +29,9 @@ NAME_FILES = {'m': 'status/bustername/busterman.bin', 'w': 'status/bustername/bu
 NAME_REC, NAME_MAX = 22, 14
 # Byte caps tighter than the slot, measured in the marker tour (docs/windows.md): the monster book copies `area`
 # through a 10-code buffer with no room for a terminator (10 codes drew a stray glyph after them).
+# Never written: the kana keyboard rows and the kana list of the name entry (the 英字 tab is the English keyboard;
+# docs/re/vwf.md §Name entry).
+KEEP_KINDS = {'ptr.keyboard'}
 KIND_CAP = {}   # (monster.area was capped at 16 for a "stray 沼": that was the 属性 attribute, table `elem`)
 
 
@@ -151,7 +155,7 @@ class Inserter:
         a = bytearray(self.rom.arm9)
         n = 0
         for e in entries:
-            text = self.text_for(e)
+            text = None if e['kind'] in KEEP_KINDS else self.text_for(e)
             if not text:
                 continue
             new = self.eng.encode(text)
@@ -174,10 +178,11 @@ class Inserter:
                 while a[p:p + 2] != b'\0\0':
                     p += 2
                 room = p - off
-                if self.fit and len(new) > room:
-                    new = self.eng.encode(fit_bytes(text, self.eng, room))
-                assert len(new) <= room, (e['id'], text, len(new), room)
-                self.put(a, off, new.ljust(room, b'\0'), 'arm9')
+                if len(new) <= room:
+                    self.put(a, off, new.ljust(room, b'\0'), 'arm9')
+                else:                     # outgrew its room: moved into the hook block, pointer words repointed
+                    self.eng.relocate_string(A9 + off, [int(w, 16) for w in e['ptrs']], new)
+                    self.log.append('arm9 relocate %s %d bytes' % (e['id'], len(new)))
             n += 1
         self.rom.arm9 = bytes(a)
         self.counts['arm9'] = n
@@ -194,9 +199,7 @@ def text_marker(eng):
     def f(e):
         if 'max' in e:
             return fit_bytes(short_id(e) + ' ' + FILLER, eng, text_cap(e))
-        if e['id'].startswith('a9.0'):
-            return short_id(e) + ' ' + FILLER   # cut to the old string's room (Inserter.fit)
-        return marker(e, eng)
+        return marker(e, eng)                   # pointer strings that outgrow their room are relocated
     return f
 
 

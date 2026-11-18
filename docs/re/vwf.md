@@ -33,3 +33,17 @@
   line so far; the 19-code auto-wrap -> off (the script carries explicit `{br}`).
 - Verified in game 2026-11-18 (`work/qa/p5_t1`, b03_village with `--qa rom.0213C=...`): proportional text, no
   clipping, page breaks and close work.
+
+## Name entry (phase 5, session 3)
+- The game already has a Latin keyboard: tabs かな / 英字 / 記号 (graphics buttons). Object (heap, e.g. 0x0225EF60):
+  keyboard rows at +0xE0 + k*0x16 (18 rows of 10 codes, copied by 0x02029A14 from the arm9 strings 0x021AA0F8..;
+  rows 0-5 kana, 6-11 `ＡＢＣ..ｕｖｗｘｙｚ`, 12-17 digits/symbols), **mode at +0xDC** (0 かな, 1 英字, 2 記号, 3 kana
+  candidates; set by 0x0202A2F8, cycled by a button at 0x0202B2AC), max length at +0x364 (constructor 0x0202B6DC:
+  8 for entry types 0/1/3, 10 for 2/4; type at +0xD8). Found by RAM diff (`tools/lua/objdump.lua`).
+- Names are stored as full-width codes (Ａ = 0x00DD.., ａ = 0x00FD..). The hooks map those 52 codes to the single
+  proportional letter (`engine.FW`, `fullwidth_code`) in both glyph fetches and in `wcode`, so a typed name looks like
+  the English around it in the tag, dialogue and menus. Digits and symbols stay full-width (right-aligned number code
+  counts 12 px per digit).
+- `ne_init` (site 0x0202B6F0) makes the keyboard open on 英字. Proven 2026-11-18 (`work/qa/ne_m`, `ne_hero`,
+  `ne_w`, `ne_w2`): 8 x W fits the speaker tag (it widens), `{hero}` in dialogue spaces right. The key cells now draw
+  their letter at the cell's left edge instead of centred (polish).

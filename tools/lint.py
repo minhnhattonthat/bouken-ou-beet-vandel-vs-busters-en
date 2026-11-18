@@ -6,7 +6,7 @@ Errors (exit 1): Japanese left in `en`; text the engine cannot encode; control c
 and page breaks may differ in `msg`); an arm9 / name slot over its byte cap (insert.text_cap); a dialogue message over
 255 codes; a line wider than its kind's budget, or more lines per page than the box has (tools/budgets.json, measured
 in phase 5, evidence in docs/windows.md). Kinds with English but no budget yet are counted in one warning line.
-Runtime variables are measured with stand-ins (VARS): `{hero}` as the longest default the name entry allows.
+Runtime variables are measured with stand-ins (VARS): `{hero}` as the widest name the name entry allows.
 """
 import argparse
 import json
@@ -23,8 +23,10 @@ BUDGETS = json.loads((ROOT / 'tools' / 'budgets.json').read_text(encoding='utf-8
 JP = re.compile(r'[぀-ヿ㐀-鿿ｦ-ﾟ]')
 CTRL = insert.CTRL
 BREAKS = ('{br}', '{page}')
-# stand-ins for text the game inserts at runtime (guesses until the Latin name entry exists; docs/status.md)
-VARS = {'{hero}': 'Beetmm', '{vandel}': 'Beelzebub', '{name93}': 'Mmmmmmmm', '{monster}': 'Sand Owl Mmmm',
+# stand-ins for text the game inserts at runtime. Player names: the name entry takes 8 letters (obj+0x364 = 8 for
+# entry types 0/1/3, 10 for 2/4; docs/re/vwf.md §Name entry), drawn proportionally: 8 x M or W = 80 px, the widest.
+# {name93} is unidentified, so it gets the 10-letter limit.
+VARS = {'{hero}': 'Mmmmmmmm', '{vandel}': 'Mmmmmmmm', '{name93}': 'Mmmmmmmmmm', '{monster}': 'Sand Owl Mmmm',
         '{count}': '9999'}
 
 
@@ -50,6 +52,8 @@ def lint_entry(e, eng):
     en = e.get('en')
     if not en:
         return []
+    if e['kind'] in insert.KEEP_KINDS:
+        return ['%s is never inserted: leave en empty' % e['kind']]
     errs = []
     if JP.search(en):
         errs.append('Japanese in en')

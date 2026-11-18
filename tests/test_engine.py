@@ -45,6 +45,38 @@ def test_controls_pass_through(eng):
     assert eng.width('Hi') == eng.letter_width('H') + eng.letter_width('i')
 
 
+def test_fullwidth_latin_maps_to_single_letters(eng):
+    # name entry writes full-width Latin (code = glyph index + 1); the hooks draw them as single English letters
+    for ch in 'AZaz':
+        fw = engine.glyph_index(ch) + 1
+        assert engine.fullwidth_code(fw) == engine.EBASE + engine.SLOT[ch] * 128, ch
+        assert eng.code_width(fw) == eng.letter_width(ch)
+    for c in (engine.FW['FW_UP'] - 1, engine.FW['FW_UP'] + 26, engine.FW['FW_LO'] + 26, 0x0001, 0xFF70):
+        assert engine.fullwidth_code(c) == c
+
+
+def test_relocated_pointer_string(rom):
+    # a pointer string that outgrew its room moves into the block; every pointer word then points at the copy
+    import copy
+    r = copy.copy(rom)
+    e = engine.Engine.from_rom(rom)
+    old, ptrs = 0x021B6C78, [0x02000000 + o for o in range(0, len(rom.arm9) - 3, 4)
+                             if struct.unpack_from('<I', rom.arm9, o)[0] == 0x021B6C78]
+    assert ptrs
+    data = e.encode('A line much longer than the Japanese it replaces, to force a move')
+    e.relocate_string(old, ptrs, data)
+    labels = e.patch_arm9(r)
+    a = bytes(r.arm9)
+    p = struct.unpack_from('<9I', a, engine.MODPARAMS - engine.A9)
+    size = struct.unpack_from('<3I', a, p[1] - engine.A9 - 12)[1]
+    blk = p[0] - engine.A9 - size
+    for w in ptrs:
+        to = struct.unpack_from('<I', a, w - engine.A9)[0]
+        assert to == labels['R_STRINGS']
+        o = blk + to - engine.BLOCK
+        assert a[o:o + len(data) + 2] == data + b'\0\0'
+
+
 def test_unknown_letter_rejected(eng):
     with pytest.raises(ValueError):
         eng.codes('café')
