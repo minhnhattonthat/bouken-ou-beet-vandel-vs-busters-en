@@ -3,8 +3,33 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (session 8), check.py green (64 tests). **The tour in
-  work/qa/en is older than this build** (398 messages rewrapped, tag hook): full re-tour first (Next (1)).
+  Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (sessions 8-9), check.py green (65 tests). Tour work/qa/en
+  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (6,075/9,472,
+  Next (2)) and the Vandel-mode list (Next (4)).
+- **Phase 8 session 9 (2026-11-19), Orca worker: re-tour, verdict run 5, list/book coverage probes.**
+  - Full re-tour on 50c319fb: 101/101 ok (`work/qa/tour_run.txt`), `tools/tagbox.py`: 160 tag shots, 0 off-centre.
+    vqasheets + `qa_gate init` (2 stale v04/v05 sheet_2 lines dropped), verdict run 5 through codex
+    (`work/qa/vqa_run5.txt`): 2 issues, both capture timing (empty box between pages / as an NPC talk reopens;
+    the lines are drawn in the next shots): recheck ok in `work/qa/verdicts/recheck_main_6.tsv`. New scenes' sheets
+    judged too. **`qa_gate check` exit 0, 171 sheets.** The message gallery was NOT re-run (its keys are original
+    rom.img offsets, so coverage still holds; re-run it only if pages must be eyeballed).
+  - textcov.py bug fixed: the weapon accessor (0x02014684) is `and r1,r0,#0xFF; sub r1,r1,#1` (ids 0x1nn) and the
+    vandel/buster ones add a literal (first ids 0x13F / 0x15E): their TAB lines mapped to no record before. Test
+    `test_tab_ids_map_to_records`.
+  - warp.lua token `inv=OFF:CAT:FROM:N` (weapon region 11E0 cat 1, armor 136C cat 2; inventory byte = record+1).
+    New scenes: `shop_wsell_1` (weapons 25-123), `shop_wsell_2` (124-173), `shop_asell` (all 71 armor),
+    `menu_items_pages` (all 34 items), paged with R. Weapon records 0-24 (shields, 才牙光り/詠唱光り/天撃 effects,
+    special weapons), 174-223 (プレイヤー/ヒーロー placeholder weapons) and 224-253 (named weapons, then character
+    names) **hang the sell list** (screen fades, never draws): they need another screen (equip / battle / Vandel
+    mode) or a waiver with that reason.
+  - `tools/lua/bookloop.lua` + scene `book_monsters`: reopens the monster book 319 times with the start entry
+    forced (r4 at 0x0202F108 -> [obj+0x48]); all 319 monster records covered, sheets ok. Buster/vandel: writing the
+    table id (0x15E.. / 0x13F..) into the Info screen's list entry ([[ui+0x74]+0x4C] / [[ui+0x70]+0x40]) still
+    draws an empty page (`work/qa/p8_bbuster`): the book has another check (registration bit or a different list
+    format; the list may hold indexes, and the page draws from something else). Not solved.
+  - Coverage now **6,075/9,472** (was 4,254): area/armor/item/monster/elem complete. Left: shout 814, weapon 380
+    (records above), desc (quest.img) 427, title 301, rom.msg 278, name 256, skill 134, buster 132, meigeki 126,
+    tengeki 108, ptr 99, keyitem 90, vandel 81, wpntype 68, party 48, special 30, area2 25.
 - **Phase 8 session 8 (2026-11-19), Orca worker: verdict run 4 fixed, widows, tag centring (context limit).**
   - Verdict run 4's 13 issues fixed. Speaker tags: 里の門 now "Village Gate" (78 px); "Master" (橋かけ名人, 89 px in
     full), "Mirei Chief" (112 px) and area "Muterin Range" (119 px) kept as short forms with glossary notes
@@ -172,13 +197,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8), in order:** (1) full re-tour on the current build: `python -X utf8 tools/debug/warp_all.py
-  build/beet_en.nds --jobs 2 --out work/qa/en --script tools/lua/glyphlog.lua --script tools/lua/textlog.lua`
-  (no --debugger: tested, same logs; `books` scenes add it themselves), then `tools/tagbox.py work/qa/en` (expect 0),
-  vqasheets, `qa_gate.py init work/qa/manifest.tsv work/qa/vqa_en --build build/beet_en.nds` (drop manifest lines
-  whose sheet is now `missing`), todo `--size 6`, `tools/visualqa.py ... --jobs 2`, fix and recheck. Also re-run the
-  message gallery (text moved: 398 rewraps);
-  (2) coverage: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
+- **Next (phase 8), in order:** (1) done in session 9 (re-tour + verdicts, gate green). After any later build
+  change: re-tour (`python -X utf8 tools/debug/warp_all.py build/beet_en.nds --jobs 2 --out work/qa/en --script
+  tools/lua/glyphlog.lua --script tools/lua/textlog.lua`; `book_monsters` needs `--script tools/lua/bookloop.lua`
+  too: run it with `--only book_monsters`), tagbox, vqasheets, `qa_gate init`, todo `--size 6`, visualqa;
+  (2) coverage, biggest first: shouts (81 records x 11, battle cries: find the battle code that reads 0x020140B0 and
+  force the speaker id, as bookloop does), quests (quest board 4F at 0x3C288: force the random pick), titles (130),
+  names (force r0 at 0x02019608), skills/tengeki/meigeki (skill menu / tactics lists, page them), buster/vandel books
+  (session 9 note), key items (screen unknown: u16 list at [ui+0x118]), the weapon records that hang the sell list,
+  rom.msg 278 (session 7 note). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
   registration bit set, skills); quests and names need the random pick forced (quest board 4F at 0x3C288; name

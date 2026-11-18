@@ -59,6 +59,17 @@ def test_quest_and_ptr_lines_map(tmp_path):
     assert keys['quest.0059C'] == textcov.QUEST_KEY + 0x59C and keys['a9.0219AD0C'] == textcov.PTR_KEY + 0xB0B8
 
 
+@pytest.mark.skipif(not textcov.ARM9.exists(), reason='needs work/fs (tools/romls.py --unpack)')
+def test_tab_ids_map_to_records(tmp_path):
+    # weapon ids are 0x100 + inventory byte (accessor masks & 0xFF, then - 1); vandel/buster ids start 0x13F / 0x15E
+    run = tmp_path / 'logs' / 'scene'
+    run.mkdir(parents=True)
+    (run / 'log.txt').write_text('TAB 2014684 11A\nTAB 2014608 13F\nTAB 2014628 15F\n', encoding='utf-8')
+    textcov.convert(tmp_path / 'logs', tmp_path / 'out')
+    got = set((tmp_path / 'out' / 'scene' / 'log.txt').read_text().split()[1::2])
+    assert got == {'%X' % (textcov.TAB_KEY + (acc << 12) + i) for acc, i in ((0x4684, 0x19), (0x4608, 0), (0x4628, 1))}
+
+
 def test_gallery_spans_cover_dialogue():
     sys.path.insert(0, str(ROOT / 'tools' / 'debug'))
     import gallery

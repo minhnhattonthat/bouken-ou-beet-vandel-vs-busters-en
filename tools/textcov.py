@@ -69,9 +69,17 @@ def tables():
 
 
 def first_id(arm9, acc):
-    """The id the accessor's record 0 has: `sub r1, r0, #N` at acc+4, else 0."""
-    w = struct.unpack_from('<I', arm9, acc + 4 - arm9text.BASE)[0]
-    return w & 0xFF if (w & 0x0FFFF000) == 0x02401000 else 0
+    """(mask, first): record = (id & mask) - first. `sub r1, r0, #N` at acc+4 gives (-1, N); the weapon accessor
+    0x02014684 starts `and r1, r0, #0xFF` and subtracts at acc+12 (ids are 0x1nn: byte 0 of an inventory entry)."""
+    def word(at):
+        return struct.unpack_from('<I', arm9, at - arm9text.BASE)[0]
+    if word(acc) == 0xE20010FF and (word(acc + 12) & 0xFFFFF000) == 0xE2411000:
+        return 0xFF, word(acc + 12) & 0xFF
+    # vandel / buster (0x02014608 / 0x02014628): `ldr r1, [pc, #0x10]; ...; add r1, r0, r1`, literal = -first
+    if word(acc) == 0xE59F1010 and word(acc + 8) == 0xE0801001:
+        return -1, (-word(acc + 0x18)) & 0xFFFFFFFF
+    w = word(acc + 4)
+    return -1, (w & 0xFF if (w & 0x0FFFF000) == 0x02401000 else 0)
 
 
 def key_of(e, tabs, n):
@@ -134,7 +142,8 @@ def convert(logdir, outdir, tag=''):
             elif len(f) == 3 and f[0] == 'TAB':
                 acc, i = int(f[1], 16), int(f[2], 16)
                 if acc in first:
-                    keys.add(TAB_KEY + ((acc & 0xFFFF) << 12) + i - first[acc])
+                    mask, base = first[acc]
+                    keys.add(TAB_KEY + ((acc & 0xFFFF) << 12) + (i & mask) - base)
         if not keys:
             continue
         d = outdir / (tag + str(log.parent.relative_to(logdir)).replace('\\', '/').replace('/', '__'))

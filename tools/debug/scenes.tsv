@@ -40,6 +40,11 @@ shop_armor	event	2B61B	0	1800	q2B652 @1200 a w300	East Village map 74 shop (coun
 shop_item	event	2FC5F	0	1800	q2FC89 @1200 a w300	East Village map 78 shop (counter -> opcode 53 3)
 shop_weapon_buy	event	2B58B	0	1900	q2B5C2 @1200 a w300 t128,36 w200	weapon shop > buy list
 shop_weapon_sell	event	2B58B	0	1900	q2B5C2 @1200 a w300 t128,60 w200	weapon shop > sell list
+shop_wsell_1	event	2B58B	0	5272	q2B5C2 inv=11E0:1:25:99 @1200 a w300 t128,60 w200 r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r	weapon shop > sell list, weapons 25-123 paged (coverage)
+shop_wsell_2	event	2B58B	0	3736	q2B5C2 inv=11E0:1:124:50 @1200 a w300 t128,60 w200 r r r r r r r r r r r r r r r r	weapon shop > sell list, weapons 124-173 paged (coverage; 174-223 are the Player/Hero placeholder weapons, which hang the list)
+shop_asell	event	2B61B	0	4408	q2B652 inv=136C:2:0:71 @1200 a w300 t128,60 w200 r r r r r r r r r r r r r r r r r r r r r r r	armor shop > sell list, all 71 armor paged (coverage)
+book_monsters	touch	1ACB	30	52200	@3600 start t18,80 t180,64	monster book reopened on each of the 319 entries (coverage; needs --script tools/lua/bookloop.lua)
+menu_items_pages	touch	1ACB	30	5096	inv @3600 start t18,40 t46,62 r r r r r r r r	party > items, all 9 pages (coverage)
 shop_weapon_forge	event	2B58B	0	1900	q2B5C2 @1200 a w300 t128,83 w200	weapon shop > forge (鍛える)
 shop_armor_buy	event	2B61B	0	1900	q2B652 @1200 a w300 t128,36 w200	armor shop > buy list
 shop_item_buy	event	2FC5F	0	1900	q2FC89 @1200 a w300 t128,36 w200	item shop > buy list

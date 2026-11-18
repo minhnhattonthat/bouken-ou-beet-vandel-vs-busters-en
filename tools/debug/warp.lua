@@ -27,6 +27,7 @@
 --   books         force the empty buster/vandel book open (see BOOKS below; warp_all adds --debugger)
 --   wOFF=HEX      write the hex bytes at save+OFF at warp time ([0x021BA3A0] + OFF, hex)
 --   inv           fill the inventory with every item (INV_CATS / INV_N globals; see fill_inventory below)
+--   inv=OFF:CAT:FROM:N  fill N inventory slots at save+OFF (hex) with category CAT, ids FROM.. (weapons/armor)
 --   writesave     the scene saves and returns to the title on purpose: no reset check; warp_all runs it alone and
 --                 keeps the battery save as work/saves/<scene>.dsv
 --   sav=NAME      (warp_all) boot with work/saves/NAME.dsv, e.g. sav=clear_save for the post-clear title menus
@@ -180,6 +181,16 @@ function fill_inventory()
   end
   L.log(string.format("INV %d entries", k))
 end
+-- `inv=OFF:CAT:FROM:N` (hex OFF, decimal rest): N entries [id+1, CAT, 0, 0] for ids FROM.. at save+OFF, e.g. the
+-- weapon region inv=11E0:1:0:99 (99 slots to 0x136C) or armor inv=136C:2:0:71 (docs/re/scripts.md §Inventory).
+local function fill_region(spec)
+  local off, cat, from, n = spec:match("^(%x+):(%x+):(%d+):(%d+)$")
+  local base = memory.readdword(0x021BA3A0) + tonumber(off, 16)
+  for k = 0, tonumber(n) - 1 do
+    memory.writedword(base + 4 * k, tonumber(cat, 16) * 0x100 + tonumber(from) + k + 1)
+  end
+  L.log(string.format("INV save+%s cat %s ids %s..+%s", off, cat, from, n))
+end
 
 local warped, warp_frame = false, nil
 local idle, reset_at = 0, nil
@@ -247,6 +258,8 @@ L.on_frame(function(n)
         local off, hex = tok:match("^w(%x+)=(%x+)$")
         if off then poke(tonumber(off, 16), hex) end
         if tok == "inv" then fill_inventory() end
+        local spec = tok:match("^inv=(.+)$")
+        if spec then fill_region(spec) end
       end
       memory.writedword(c + 8, target)
       warped, warp_frame = true, n
