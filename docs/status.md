@@ -23,8 +23,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     avatar's): with weapon 174 equipped (`w185C=AF01`) Buster-mode Status draws in both builds and fetches weapon
     0x1AF + wpntype 0x1E for the stats, but shows no weapon name (`work/qa/p18_bstat/cmp.png`); Status > Equip
     hangs (white), Saiga is empty; Vandel-mode (save+0 = 1) Status hangs in the original too
-    (`work/qa/p18_vstat_jp.png`). Next: grep the shop lists (0x021AE21C) and script give-weapon ops for ids >= 174;
-    if none, waive these as VS-only with this proof. Not done: Vandel-weapons 224-253, Hero wpntypes 15-28.
+    (`work/qa/p18_vstat_jp.png`). Shop lists checked: the 16 lists at 0x021AE21C (u16 entries, cat << 8 | id+1)
+    sell weapon ids 25-172 only, none >= 173. Next: script give-weapon ops and the forge (hone) results for ids
+    >= 173; if none, waive these as VS-only with this proof. Not done: Vandel-weapons 224-253, Hero wpntypes 15-28.
   - New: `tools/debug/blscan.py ADDR..` (every direct ARM/Thumb BL into an address; callers.py misses leaf
     accessors with no push).
 - **Phase 8 session 17 (2026-11-19), Orca worker: rom.msg coverage complete, shop-full lines.**
