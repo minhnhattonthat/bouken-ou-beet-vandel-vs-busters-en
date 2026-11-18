@@ -188,3 +188,212 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.4A1A0 - CUT (b017): Resistance abbreviated to Resist.
 - [ ] rom.4A220 - CUT (b017): Resistance abbreviated to Resist.
 - [ ] rom.4A324 - CUT (b017): Resistance abbreviated to Resist.
+
+## Review minors b001
+- [ ] a9.armor.000.desc - "見習いバスターのジャケット" means an apprentice Buster's jacket - Compressed phrasing breaks the surrounding possessive pattern - An apprentice Buster's jacket.
+- [ ] a9.armor.008.desc - "百戦錬磨バスターのジャケット" means a battle-hardened Buster's jacket - "War-tested" is awkward and unnecessarily implies warfare - A battle-hardened Buster's jacket.
+- [ ] a9.armor.018.desc - "かなり強い素材でできたシャツ" means a shirt made of quite strong material - Telegraphic phrasing - A shirt made of tough material.
+- [ ] a9.armor.019.desc - "非常に強い素材でできたシャツ" means a shirt made of very strong material - "Ultra-tough material shirt" is an awkward noun stack - A shirt made of extremely tough material.
+- [ ] a9.armor.028.desc - "非常に強い素材でできたシールド" means a shield made of very strong material - Awkward noun stack - A shield made of extremely tough material.
+- [ ] a9.armor.029.desc - "防具屋アトスが作った盾" means a shield made by Atos, the armor dealer - "By armor seller" is stiff - A shield made by Atos, the armor dealer.
+- [ ] a9.armor.039.desc - "達人が愛用する強い腕輪" means a strong bangle favored by masters - Compressed phrasing reads awkwardly - A tough bangle favored by masters.
+- [ ] a9.armor.048.desc - "複合特殊鋼材を織り込んだマント" means a cape with special composite steel woven into it - "Special steel-alloy weave" obscures the cape's construction - A cape woven with special composite steel.
+- [ ] a9.armor.049.desc - "非常に強い素材でできたマント" means a cape made of very strong material - Awkward noun stack - A cape made of extremely tough material.
+
+## Review minors b002
+- [ ] a9.armor.057.desc - "多くのバスターが愛用するバンダナ": Bandanna favored by many Busters - Lowercase "bandanna" differs from the binding glossary spelling - A Bandanna favored by many Busters
+- [ ] a9.armor.058.desc - "複合特殊鋼材を織り込んだ": woven with special composite steel - "Alloy-knit" is awkward and changes weaving to knitting - Bandanna woven with special composite steel
+- [ ] a9.armor.068.desc - "複合特殊鋼材を織り込んだ": woven with special composite steel - "Alloy-woven" is awkward and obscures the specific material - Gloves woven with special composite steel
+
+## Review minors b003
+- [ ] a9.keyitem.002.desc - "リング修復アイテムの原材料" means raw material for an item used to repair rings - "Ring repair aid" is an awkward, unclear noun cluster - Material used to make a ring repair item.
+- [ ] a9.keyitem.011.desc - "飛行機をとめる南京錠のカギ１" means key 1 for the padlock securing the Airplane - Missing article makes "Airplane's padlock" sound like a person's possession - Key 1 for the padlock securing the Airplane.
+- [ ] a9.keyitem.012.desc - "飛行機をとめる南京錠のカギ２" means key 2 for the padlock securing the Airplane - Same awkward possessive - Key 2 for the padlock securing the Airplane.
+- [ ] a9.keyitem.013.desc - "飛行機をとめる南京錠のカギ３" means key 3 for the padlock securing the Airplane - Same awkward possessive - Key 3 for the padlock securing the Airplane.
+- [ ] a9.keyitem.014.desc - "飛行機をとめる南京錠のカギ４" means key 4 for the padlock securing the Airplane - Same awkward possessive - Key 4 for the padlock securing the Airplane.
+- [ ] a9.keyitem.015.desc - "飛行機をとめる南京錠のカギ５" means key 5 for the padlock securing the Airplane - Same awkward possessive - Key 5 for the padlock securing the Airplane.
+- [ ] a9.meigeki.003.desc - "単体攻撃用の炎の上位冥撃・大" means an advanced fire Dark Attack with high power against one target - "High Dark Fire+" obscures the distinction between advanced rank and high power and resembles a modified spell name - Advanced fire Dark Attack: one foe, high power.
+
+## Review minors b005
+- [ ] a9.021B5758 - 同じ陣営では対戦できません means players on the same side cannot battle each other - "Same sides cannot fight" is unnatural and unclear - Players on the same side cannot battle each other.
+
+## Review minors b006
+- [ ] a9.shout.010.s03 - "受けてみろ！" challenges the enemy to withstand an attack - "Try taking this!" sounds unnatural - Let's see you take this!
+- [ ] a9.shout.011.s07 - "こいつを受けてみろ！" challenges the enemy to withstand this attack - "Try taking this!" sounds unnatural - Let's see you take this!
+- [ ] a9.shout.013.s06 - "カッコいいとこ見せるぜ！" promises an impressive display - "Watch me look cool!" sounds awkwardly literal - Watch me show off!
+- [ ] a9.shout.015.s02 - "消えろ！" orders an enemy to vanish - "Disappear!" sounds stiff as a combat shout - Begone!
+
+## Review minors b007
+- [ ] a9.shout.031.s04 - "うりゃっ！" is an attack cry - "Hurrah!" reads as a celebratory cheer - Hyaah!
+- [ ] a9.shout.031.s07 - "うりゃーーっ！" is an extended attack cry - "Hurraaaah!" reads as celebration - Hyaaaah!
+- [ ] a9.shout.041.s01 - "わたしの拳を受けてみろっ！" challenges the enemy to withstand a punch - "Try taking my fist!" is an awkward literal rendering - Try taking this punch!
+- [ ] a9.shout.053.s03 - "うりゃぁーーっ！！" is an attack cry - "Hurraaaah!!" reads as celebration - Hyaaaah!!
+- [ ] a9.shout.061.s01 - "ベカトルテ近海最強はオレ様だ！" boasts of being the strongest in the Bekatorte Seas - The place-name possessive sounds unnatural - I'm the strongest in the Bekatorte Seas!
+- [ ] a9.shout.062.s01 - "我こそはベカトルテ近海最強！！" emphatically claims supremacy in the Bekatorte Seas - The place-name possessive is awkward and weakens the proclamation - I am the strongest in the Bekatorte Seas!!
+- [ ] a9.shout.063.s01 - "へッヘッ ベカトルテ近海最強！" repeats the strongest-in-the-region boast - The possessive is awkward; "best" blurs the recurring claim of strength - Heh heh! Strongest in the Bekatorte Seas!
+
+## Review minors b008
+- [ ] a9.shout.066.s00 - "具現化できるんだろうね" expects confirmation that the opponent can manifest a Saiga - The open question loses the speaker's presumptuous expectation - suggested EN: You can summon your Saiga, I trust?
+- [ ] a9.shout.066.s05 - "この世で美しきものは　才牙" praises Saiga as beautiful things in this world - "This world's beauty" sounds unnatural - suggested EN: There is such beauty in Saiga...
+- [ ] a9.shout.073.s03 - "動くと正確に切れんだろーがあっ" angrily demands stillness to allow precise cutting - "Cut clean" is awkward and blurs the emphasis on precision - suggested EN: Hold still! I can't cut accurately if you move!
+- [ ] a9.shout.077.s00 - "我が冥力の極致" announces the pinnacle of the speaker's Dark Power - "My peak Dark Power" sounds mechanical rather than grandiose - suggested EN: Behold the pinnacle of my Dark Power...
+
+## Review minors b009
+- [ ] a9.skill.006.desc - "落下し周囲に衝撃波を出す" means dropping and releasing a surrounding shockwave - "wave all round" is awkward and loses the specific shockwave imagery - suggested EN: Drops and releases a shockwave all around.
+- [ ] a9.skill.007.desc - "敵の左右を往復して攻撃" means attacking while moving back and forth on either side of an enemy - "Hits side to side" makes the movement unclear - suggested EN: Moves back and forth on either side of a foe to attack.
+- [ ] a9.skill.027.desc - "振り回して周囲の敵を攻撃" means swinging the weapon around to attack surrounding enemies - "Swings at all round" is ungrammatical - suggested EN: Swings the weapon to hit surrounding foes.
+- [ ] a9.skill.052.desc - "肩から突進冥力攻撃" means a shoulder-first Dark Power charge - "body rush" loses the shoulder-first action and sounds unnatural - suggested EN: Charges shoulder-first with Dark Power.
+- [ ] a9.skill.058.desc - "その場に冥力輪を放つ" means releasing a Dark Power ring at the user's location - "ring on spot" is awkward shorthand - suggested EN: Releases a Dark Power ring in place.
+
+## Review minors b010
+- [ ] a9.tengeki.007.desc - "単体のマヒの治療": cures paralysis for one target - "on one" sounds unfinished - Cures paralysis for one target.
+- [ ] a9.tengeki.016.desc - "単体の毒の治療": cures poison for one target - "on one" sounds unfinished - Cures poison for one target.
+- [ ] a9.tengeki.017.desc - "単体の物理防御力を２０％上昇": raises one target's physical defense by 20% - "One:" is awkwardly elliptical - Raises one target's physical defense by 20%.
+- [ ] a9.tengeki.035.desc - "攻撃を雷属性にする": changes attacks to the thunder element - "Attacks become thunder" reads literally and awkwardly - Gives attacks the thunder element.
+- [ ] a9.title.116.name - "幼馴染みの家": childhood friend's house - Loses the childhood relationship - Childhood Friend's House
+- [ ] a9.title.120.name - "女神像の場所": goddess statue's location - Omits which statue despite "Goddess Statue" appearing nearby - Goddess Statue Site
+
+## Review minors b011
+- [ ] a9.weapon.010.desc - "エルファストの防具屋が作った盾" means a shield made by Elfast's Armor Shop - "By Elfast's Armor Shop" is an awkward fragment and omits the object - A shield made by Elfast's Armor Shop.
+- [ ] a9.weapon.033.desc - "複合特殊鋼材でできた槍" means a spear made from a special steel composite - "Special steel blend spear" is an awkward noun stack - A spear made from a special steel composite.
+- [ ] a9.weapon.043.desc - "複合特殊鋼材でできた槍斧" means a glaive made from a special steel composite - "Special steel blend glaive" is an awkward noun stack - A glaive made from a special steel composite.
+
+## Review minors b012
+- [ ] a9.weapon.070.desc - "レアメタルでできた両手剣": rare metal Two-Hand Sword - Class-term capitalization differs from the glossary - Rare metal Two-Hand Sword
+
+## Review minors b013
+- [ ] a9.weapon.095.desc - "青銅で強化した" means reinforced with bronze - "Bronze-set" sounds decorative rather than structural - Composite bow reinforced with bronze
+- [ ] a9.weapon.096.desc - "銅で強化した" means reinforced with copper - "Copper-set" sounds decorative rather than structural - Composite bow reinforced with copper
+- [ ] a9.weapon.100.desc - "レアメタルで強化した合成弓" means a composite bow reinforced with rare metal - The reinforcement relationship is unclear - Composite bow reinforced with rare metal
+- [ ] a9.weapon.101.desc - "ハイメタルで強化した合成弓" means a composite bow reinforced with High Metal - The reinforcement relationship is unclear - Composite bow reinforced with High Metal
+- [ ] a9.weapon.102.desc - "合成弓" means composite bow - The bow type is omitted - Composite bow reinforced with Bekatorte Steel
+- [ ] a9.weapon.103.desc - "複合特殊鋼材で強化した" means reinforced with special composite steel - The material and reinforcement are compressed into an ambiguous modifier - Composite bow reinforced with special alloy steel
+- [ ] a9.weapon.104.desc - "非常に強い金属で強化した" means reinforced with exceptionally strong metal - "Tough-metal" is awkward and loses the emphasis - Composite bow reinforced with ultra-strong metal
+- [ ] a9.weapon.114.desc - "銃とナックルの長所を持つ武器" means a weapon combining the advantages of guns and knuckles - "Gun and knuckle strengths" reads like a heading rather than an item description - Combines the strengths of guns and knuckles
+
+## Review minors b016
+- [ ] rom.02130 - "おじさん" denotes a middle-aged man - "Old Man" implies the elderly おじいさん - Middle-aged Man
+
+## Review minors b017
+- [ ] rom.42DF0 - "里の門" means village gate - "Gate" unnecessarily loses the location qualifier - Village Gate
+
+## Review fixes blocked by width (re-apply after the box is measured or widened; suggestion in work/tr/review/<batch>.md)
+- [ ] a9.area.001.name - b001 review: line 1: 119 px > 96 (12 px font) 'Muterin Mountains'
+- [ ] a9.area.007.name - b001 review: line 1: 121 px > 96 (12 px font) 'Mirei Forest Village'
+- [ ] a9.area.017.name - b001 review: line 1: 98 px > 96 (12 px font) 'Benuru Wastes'
+- [ ] a9.area.021.name - b001 review: 26 bytes > slot cap 22
+- [ ] a9.area.022.name - b001 review: line 1: 102 px > 96 (12 px font) 'Norunaji Forest'
+- [ ] a9.area.029.name - b001 review: line 1: 114 px > 96 (12 px font) 'Bim Desert Tower'
+- [ ] a9.area.036.name - b001 review: line 1: 126 px > 96 (12 px font) 'Bakoson Mountains'
+- [ ] a9.area.040.name - b001 review: line 1: 121 px > 96 (12 px font) 'Riberin Lake Tower'
+- [ ] a9.area.046.name - b001 review: line 1: 137 px > 96 (12 px font) 'Sole Valley Labyrinth'
+- [ ] a9.area.050.name - b001 review: line 1: 104 px > 96 (12 px font) 'Byonrin Volcano'
+- [ ] a9.area.051.name - b001 review: line 1: 118 px > 96 (12 px font) 'Rinrago Mountains'
+- [ ] a9.area.054.name - b001 review: line 1: 102 px > 96 (12 px font) 'Zeros Snowfield'
+- [ ] a9.area2.000.name - b001 review: line 1: 91 px > 84 (12 px font) 'Golden Castle'
+- [ ] a9.area2.002.name - b001 review: line 1: 102 px > 84 (12 px font) 'Norunaji Forest'
+- [ ] a9.area2.003.name - b001 review: line 1: 88 px > 84 (12 px font) 'Pasero Marsh'
+- [ ] a9.area2.004.name - b001 review: line 1: 119 px > 84 (12 px font) 'Muterin Mountains'
+- [ ] a9.area2.006.name - b001 review: line 1: 98 px > 84 (12 px font) 'Benuru Wastes'
+- [ ] a9.area2.008.name - b001 review: line 1: 102 px > 84 (12 px font) 'Zeros Snowfield'
+- [ ] a9.area2.009.name - b001 review: line 1: 91 px > 84 (12 px font) 'Rinnam Glacier'
+- [ ] a9.area2.012.name - b001 review: line 1: 104 px > 84 (12 px font) 'Byonrin Volcano'
+- [ ] a9.area2.014.name - b001 review: line 1: 118 px > 84 (12 px font) 'Rinrago Mountains'
+- [ ] a9.area2.023.name - b001 review: line 1: 126 px > 84 (12 px font) 'Bakoson Mountains'
+- [ ] a9.keyitem.001.desc - b003 review: line 1: 283 px > 180 (12 px font) 'A letter to the Village Chief of East Village
+- [ ] a9.keyitem.009.name - b003 review: 22 bytes > slot cap 18
+- [ ] a9.monster.001.area - b004 review: line 1: 126 px > 120 (12 px font) 'Bakoson Mountains'
+- [ ] a9.monster.111.area - b004 review: line 1: 121 px > 120 (12 px font) 'Riberin Lake Tower'
+- [ ] a9.monster.131.area - b004 review: 32 bytes > slot cap 20
+- [ ] a9.monster.157.area - b005 review: 22 bytes > slot cap 20
+- [ ] a9.party.052.name - b005 review: line 1: 98 px > 62 (12 px font) "Harden's Minion"
+- [ ] a9.0219AD18 - b005 review: line 1: 98 px > 84 (12 px font) "Harden's Minion"
+- [ ] a9.021AB998 - b005 review: line 1: 276 px > 180 (12 px font) 'You have a two-handed weapon equipped.'
+- [ ] a9.skill.002.desc - b009 review: 68 bytes > slot cap 26
+- [ ] a9.skill.018.desc - b009 review: 66 bytes > slot cap 26
+- [ ] a9.skill.019.desc - b009 review: 64 bytes > slot cap 26
+- [ ] a9.skill.023.desc - b009 review: 58 bytes > slot cap 26
+- [ ] a9.skill.024.desc - b009 review: 60 bytes > slot cap 26
+- [ ] a9.skill.025.desc - b009 review: 52 bytes > slot cap 26
+- [ ] a9.skill.035.desc - b009 review: 48 bytes > slot cap 26
+- [ ] a9.skill.048.desc - b009 review: 50 bytes > slot cap 26
+- [ ] a9.skill.061.desc - b009 review: 58 bytes > slot cap 26
+- [ ] a9.tengeki.002.desc - b010 review: line 1: 319 px > 168 (12 px font) 'High-power fire Divine Attack against one tar
+- [ ] a9.tengeki.004.desc - b010 review: line 1: 277 px > 168 (12 px font) 'Low-power fire Divine Attack over an area.'
+- [ ] a9.tengeki.005.desc - b010 review: line 1: 297 px > 168 (12 px font) 'Medium-power fire Divine Attack over an area.
+- [ ] a9.tengeki.006.desc - b010 review: line 1: 277 px > 168 (12 px font) 'High-power fire Divine Attack over an area.'
+- [ ] a9.tengeki.009.desc - b010 review: line 1: 316 px > 168 (12 px font) 'Low-power ice Divine Attack against one targe
+- [ ] a9.tengeki.010.desc - b010 review: line 1: 336 px > 168 (12 px font) 'Medium-power ice Divine Attack against one ta
+- [ ] a9.tengeki.011.desc - b010 review: line 1: 316 px > 168 (12 px font) 'High-power ice Divine Attack against one targ
+- [ ] a9.tengeki.013.desc - b010 review: line 1: 314 px > 168 (12 px font) 'Low-power ice Divine Attack against all targe
+- [ ] a9.tengeki.014.desc - b010 review: line 1: 334 px > 168 (12 px font) 'Medium-power ice Divine Attack against all ta
+- [ ] a9.tengeki.015.desc - b010 review: line 1: 314 px > 168 (12 px font) 'High-power ice Divine Attack against all targ
+- [ ] a9.tengeki.018.desc - b010 review: line 1: 326 px > 168 (12 px font) 'Low-power wind Divine Attack against one targ
+- [ ] a9.tengeki.019.desc - b010 review: line 1: 346 px > 168 (12 px font) 'Medium-power wind Divine Attack against one t
+- [ ] a9.tengeki.020.desc - b010 review: line 1: 326 px > 168 (12 px font) 'High-power wind Divine Attack against one tar
+- [ ] a9.tengeki.022.desc - b010 review: line 1: 284 px > 168 (12 px font) 'High-power wind Divine Attack over an area.'
+- [ ] a9.tengeki.028.desc - b010 review: line 1: 350 px > 168 (12 px font) 'Low-power thunder Divine Attack against one t
+- [ ] a9.tengeki.029.desc - b010 review: line 1: 370 px > 168 (12 px font) 'Medium-power thunder Divine Attack against on
+- [ ] a9.tengeki.030.desc - b010 review: line 1: 350 px > 168 (12 px font) 'High-power thunder Divine Attack against one 
+- [ ] a9.tengeki.032.desc - b010 review: line 1: 308 px > 168 (12 px font) 'Low-power thunder Divine Attack over an area.
+- [ ] a9.tengeki.033.desc - b010 review: line 1: 328 px > 168 (12 px font) 'Medium-power thunder Divine Attack over an ar
+- [ ] a9.tengeki.034.desc - b010 review: line 1: 308 px > 168 (12 px font) 'High-power thunder Divine Attack over an area
+- [ ] a9.tengeki.037.desc - b010 review: line 1: 326 px > 168 (12 px font) 'Low-power light Divine Attack against one tar
+- [ ] a9.tengeki.038.desc - b010 review: line 1: 346 px > 168 (12 px font) 'Medium-power light Divine Attack against one 
+- [ ] a9.tengeki.039.desc - b010 review: line 1: 326 px > 168 (12 px font) 'High-power light Divine Attack against one ta
+- [ ] a9.tengeki.040.desc - b010 review: line 1: 304 px > 168 (12 px font) 'Medium-power light Divine Attack over an area
+- [ ] a9.tengeki.041.desc - b010 review: line 1: 284 px > 168 (12 px font) 'High-power light Divine Attack over an area.'
+- [ ] a9.title.021.name - b010 review: 36 bytes > slot cap 18
+- [ ] a9.title.022.name - b010 review: 32 bytes > slot cap 18
+- [ ] a9.title.023.name - b010 review: 28 bytes > slot cap 18
+- [ ] a9.title.034.name - b010 review: 36 bytes > slot cap 18
+- [ ] a9.title.035.name - b010 review: 34 bytes > slot cap 18
+- [ ] a9.title.036.name - b010 review: 38 bytes > slot cap 18
+- [ ] a9.title.037.name - b010 review: 42 bytes > slot cap 18
+- [ ] a9.title.038.name - b010 review: 40 bytes > slot cap 18
+- [ ] a9.title.099.name - b010 review: 20 bytes > slot cap 18
+- [ ] a9.title.102.name - b010 review: 28 bytes > slot cap 18
+- [ ] a9.title.103.name - b010 review: 24 bytes > slot cap 18
+- [ ] a9.weapon.052.desc - b012 review: line 1: 214 px > 194 (12 px font) 'Bekatorte Steel One-Hand Sword'
+- [ ] a9.weapon.053.desc - b012 review: line 1: 282 px > 194 (12 px font) 'One-Hand Sword of special composite steel'
+- [ ] a9.weapon.054.desc - b012 review: line 1: 249 px > 194 (12 px font) 'One-Hand Sword of superstrong metal'
+- [ ] a9.weapon.062.desc - b012 review: line 1: 210 px > 194 (12 px font) 'Bekatorte Steel Throwing Sword'
+- [ ] a9.weapon.063.desc - b012 review: line 1: 278 px > 194 (12 px font) 'Throwing Sword of special composite steel'
+- [ ] a9.weapon.064.desc - b012 review: line 1: 245 px > 194 (12 px font) 'Throwing Sword of superstrong metal'
+- [ ] a9.weapon.072.desc - b012 review: line 1: 217 px > 194 (12 px font) 'Bekatorte Steel Two-Hand Sword'
+- [ ] a9.weapon.073.desc - b012 review: line 1: 285 px > 194 (12 px font) 'Two-Hand Sword of special composite steel'
+- [ ] a9.weapon.074.desc - b012 review: line 1: 252 px > 194 (12 px font) 'Two-Hand Sword of superstrong metal'
+- [ ] a9.weapon.162.desc - b014 review: line 1: 212 px > 194 (12 px font) 'Special steel composite chakram'
+- [ ] a9.weapon.163.name2 - b014 review: 20 bytes > slot cap 18
+- [ ] name.m054 - b015 review: 22 bytes > slot cap 12
+- [ ] rom.11134 - b016 review: line 1: 85 px > 80 (12 px font) 'Resistance B'
+- [ ] rom.11154 - b016 review: line 1: 86 px > 80 (12 px font) 'Resistance C'
+- [ ] rom.11228 - b016 review: line 1: 87 px > 80 (12 px font) 'Resistance A'
+- [ ] rom.137B8 - b017 review: line 1: 89 px > 80 (12 px font) 'Bridge Master'
+- [ ] rom.19F6C - b017 review: line 1: 86 px > 80 (12 px font) 'Weapon Shop'
+- [ ] rom.1B044 - b017 review: line 1: 95 px > 80 (12 px font) 'Tavern Woman'
+- [ ] rom.1B8DC - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance J'
+- [ ] rom.205D8 - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance E'
+- [ ] rom.3D69C - b017 review: line 1: 103 px > 80 (12 px font) 'Greatsword Fire'
+- [ ] rom.3D6BC - b017 review: line 1: 118 px > 80 (12 px font) 'Greatsword Water'
+- [ ] rom.3D6DC - b017 review: line 1: 108 px > 80 (12 px font) 'Greatsword Wind'
+- [ ] rom.3D6FC - b017 review: line 1: 106 px > 80 (12 px font) 'Greatsword Bolt'
+- [ ] rom.3D71C - b017 review: line 1: 113 px > 80 (12 px font) 'Greatsword Light'
+- [ ] rom.3D854 - b017 review: line 1: 133 px > 80 (12 px font) 'One-Hand Sword Fire'
+- [ ] rom.3D874 - b017 review: line 1: 148 px > 80 (12 px font) 'One-Hand Sword Water'
+- [ ] rom.3D894 - b017 review: line 1: 138 px > 80 (12 px font) 'One-Hand Sword Wind'
+- [ ] rom.3D8B4 - b017 review: line 1: 136 px > 80 (12 px font) 'One-Hand Sword Bolt'
+- [ ] rom.3D8D4 - b017 review: line 1: 143 px > 80 (12 px font) 'One-Hand Sword Light'
+- [ ] rom.3D9F8 - b017 review: line 1: 129 px > 80 (12 px font) 'Throwing Sword Fire'
+- [ ] rom.3DA14 - b017 review: line 1: 144 px > 80 (12 px font) 'Throwing Sword Water'
+- [ ] rom.3DA30 - b017 review: line 1: 134 px > 80 (12 px font) 'Throwing Sword Wind'
+- [ ] rom.3DA4C - b017 review: line 1: 132 px > 80 (12 px font) 'Throwing Sword Bolt'
+- [ ] rom.3DA68 - b017 review: line 1: 139 px > 80 (12 px font) 'Throwing Sword Light'
+- [ ] rom.3E108 - b017 review: line 1: 84 px > 80 (12 px font) 'Transformed'
+- [ ] rom.470F4 - b017 review: line 1: 86 px > 80 (12 px font) 'Resistance D'
+- [ ] rom.47758 - b017 review: line 1: 112 px > 80 (12 px font) 'Mirei Forest Chief'
+- [ ] rom.499B4 - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance F'
+- [ ] rom.49A1C - b017 review: line 1: 86 px > 80 (12 px font) 'Resistance G'
+- [ ] rom.49AA8 - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance H'
+- [ ] rom.4A220 - b017 review: line 1: 86 px > 80 (12 px font) 'Resistance K'
+- [ ] rom.4A324 - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance L'

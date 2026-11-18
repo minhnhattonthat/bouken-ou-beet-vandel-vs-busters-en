@@ -67,7 +67,7 @@
   {
    "id": "a9.021A9D04",
    "jp": "セーブに失敗しました{br}Ａボタンを押すと戻ります{close}",
-   "en": "",
+   "en": "Save failed. Press the A Button to{br}return.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "021A9D00"
@@ -76,7 +76,7 @@
   {
    "id": "a9.021A9D38",
    "jp": "セーブデータが破壊されています{br}Ａボタンを押すと{br}セーブデータを初期化します{close}",
-   "en": "",
+   "en": "Save data is corrupted. Press the A{br}Button to reset the save data.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "021A9CFC"
@@ -85,7 +85,7 @@
   {
    "id": "a9.021A9D8C",
    "jp": "セーブデータの読み込みに失敗しました{br}電源を切って{br}カードを差し込み直してください{close}",
-   "en": "",
+   "en": "Failed to load save data. Turn off{br}the power and reinsert the Game{br}Card.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "021A9CF8"
@@ -94,7 +94,7 @@
   {
    "id": "a9.021A9DE4",
    "jp": "バックアップメモリが認識できませんでした{br}電源を切って{br}カードを差し込み直してください{close}",
-   "en": "",
+   "en": "Backup memory could not be{br}detected. Turn off the power and{br}reinsert the Game Card.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "021A9CF4"
@@ -168,7 +168,7 @@
   {
    "id": "a9.021AAE9C",
    "jp": "リングを破壊された{close}",
-   "en": "",
+   "en": "A ring has been destroyed!{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "020471B0"
@@ -177,7 +177,7 @@
   {
    "id": "a9.021AAEB4",
    "jp": "リングを修復された{close}",
-   "en": "",
+   "en": "A ring has been restored!{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "020471B4"
@@ -195,7 +195,7 @@
   {
    "id": "a9.021AAED8",
    "jp": "[FF00]は{br}これでレベル[FF01]だ{page}",
-   "en": "",
+   "en": "[FF00] is now level [FF01].",
    "kind": "ptr.msg",
    "ptrs": [
     "02048B0C"
@@ -204,7 +204,7 @@
   {
    "id": "a9.021AAEF4",
    "jp": "今回の報酬は{br}[FF01]マギーだ{close}",
-   "en": "",
+   "en": "Your reward this time is [FF01] Maggy.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "02048B18"
@@ -213,7 +213,7 @@
   {
    "id": "a9.021AAF14",
    "jp": "この間の鑑定から{br}まだ何も上がっておらんよ{close}",
-   "en": "",
+   "en": "Nothing has gone up since your last{br}appraisal, my boy.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "02048B1C"

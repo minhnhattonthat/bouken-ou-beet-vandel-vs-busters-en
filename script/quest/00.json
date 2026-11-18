@@ -4,637 +4,637 @@
   {
    "id": "quest.0059C",
    "jp": "地底湖に潜むもの",
-   "en": "",
+   "en": "Lake Lurker",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.005B0",
    "jp": "「地底湖（ちていこ）には{br}ヌシが住んでいる・・・」{br}そんなウワサが流れており、{br}人々がふあんにかられている。{br}さわぎが大きくなる前に、{br}調査（ちょうさ）してきてほしい",
-   "en": "",
+   "en": "\"A beast lurks in the{br}Underground Lake...\" This rumor{br}has people worried. Please{br}investigate before the uproar{br}grows any worse.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00658",
    "jp": "地底湖の門",
-   "en": "",
+   "en": "The Lake Gate",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00664",
    "jp": "ウワサのヌシがたいじされた事により{br}地底湖（ちていこ）の調査（ちょうさ）が進み、{br}そのおくに「なぞの門」が発見された。「なぞの門」の調査（ちょうさ）を{br}してきてほしい",
-   "en": "",
+   "en": "With the rumored beast{br}defeated, exploration of the{br}Underground Lake has{br}progressed. A \"mysterious gate\"{br}was found deep inside. Please{br}investigate it.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.0070C",
    "jp": "樹の杯をみたせ",
-   "en": "",
+   "en": "Fill Tree Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.0071C",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「樹の杯（じゅのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Tree Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.007A0",
    "jp": "金色のモンスター？",
-   "en": "",
+   "en": "Golden Monster?",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.007B4",
    "jp": "地底湖の扉（とびら）のおくにあった杯（さかずき）{br}その「絶の杯」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground Lake{br}door.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00818",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「絶の杯（ぜつのさかずき）」をみたすモンスターをたいじする",
-   "en": "",
+   "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground Lake{br}door.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00898",
    "jp": "沼の杯をみたせ",
-   "en": "",
+   "en": "Fill Marsh Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.008A8",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「沼の杯（ぬまのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Marsh Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.0092C",
    "jp": "窟の杯をみたせ",
-   "en": "",
+   "en": "Fill Cavern Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.0093C",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「窟の杯（くつのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Cavern Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.009C0",
    "jp": "渦の杯をみたせ",
-   "en": "",
+   "en": "Whirlpool Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.009D0",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「渦の杯（うずのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Whirlpool Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00A54",
    "jp": "砂の杯をみたせ",
-   "en": "",
+   "en": "Fill Sand Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00A64",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「砂の杯（すなのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Sand Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00AE8",
    "jp": "地の杯をみたせ",
-   "en": "",
+   "en": "Fill Earth Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00AF8",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「地の杯（ちのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Earth Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00B78",
    "jp": "鉱の杯をみたせ",
-   "en": "",
+   "en": "Fill Ore Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00B88",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「鉱の杯（こうのさかずき）」を{br}みたすモンスターをたいじする",
-   "en": "",
+   "en": "A chalice was found beyond the{br}door in the Underground Lake.{br}Defeat the monsters needed to{br}fill this \"Ore Chalice.\"",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00C0C",
    "jp": "極の杯をみたせ",
-   "en": "",
+   "en": "Ultimate Chalice",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00C1C",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「極の杯（きょくのさかずき）」をみたすモンスターをたいじする",
-   "en": "",
+   "en": "Defeat monsters to fill the{br}\"Ultimate Chalice\" found beyond{br}the Underground Lake door.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00CA0",
    "jp": "届けてください",
-   "en": "",
+   "en": "Please Deliver It",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00CB0",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「骨の杯（ほねのさかずき）」をみたすモンスターをたいじする",
-   "en": "",
+   "en": "Defeat monsters to fill the{br}\"Bone Chalice\" found beyond the{br}Underground Lake door.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00D30",
    "jp": "ＢＢミルファ登場",
-   "en": "",
+   "en": "Enter BB Milfa",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00D44",
    "jp": "ＢＢミルファ登場",
-   "en": "",
+   "en": "Enter BB Milfa",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00D58",
    "jp": "ＢＢミルファ登場",
-   "en": "",
+   "en": "Enter BB Milfa",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00D6C",
    "jp": "改心した悪徳バスター",
-   "en": "",
+   "en": "Reformed Busters",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00D84",
    "jp": "改心した悪徳バスター",
-   "en": "",
+   "en": "Crooked Busters Reform",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00D9C",
    "jp": "改心した悪徳バスター",
-   "en": "",
+   "en": "Crooked Busters Reform",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00DB4",
    "jp": "再会　ＢＢミルファ",
-   "en": "",
+   "en": "BB Milfa Reunion",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00DC8",
    "jp": "再会　ＢＢミルファ",
-   "en": "",
+   "en": "A Reunion with BB Milfa",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00DDC",
    "jp": "再会　ＢＢミルファ",
-   "en": "",
+   "en": "A Reunion with BB Milfa",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00DF0",
    "jp": "スレッド登場",
-   "en": "",
+   "en": "Enter Slade",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00E00",
    "jp": "スレッド登場",
-   "en": "",
+   "en": "Enter Slade",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00E10",
    "jp": "スレッド登場",
-   "en": "",
+   "en": "Enter Slade",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00E20",
    "jp": "職人仲間",
-   "en": "",
+   "en": "Fellow Craftsmen",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00E2C",
    "jp": "職人仲間",
-   "en": "",
+   "en": "Fellow Craftsmen",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00E38",
    "jp": "職人仲間",
-   "en": "",
+   "en": "Fellow Craftsmen",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00E44",
    "jp": "ジーク戦士団登場",
-   "en": "",
+   "en": "Zeke's Squad Is In",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00E58",
    "jp": "ジーク戦士団登場",
-   "en": "",
+   "en": "Enter Zeke's Squad",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00E6C",
    "jp": "ジーク戦士団登場",
-   "en": "",
+   "en": "Enter Zeke's Squad",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00E80",
    "jp": "ゴラン、シバ登場",
-   "en": "",
+   "en": "Enter Goran, Shiba",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00E94",
    "jp": "ゴラン、シバ登場",
-   "en": "",
+   "en": "Enter Goran and Shiba",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00EA8",
    "jp": "ゴラン、シバ登場",
-   "en": "",
+   "en": "Enter Goran and Shiba",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00EBC",
    "jp": "船、航行開始",
-   "en": "",
+   "en": "Setting Sail",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00ECC",
    "jp": "船、航行開始",
-   "en": "",
+   "en": "The Ship Sets Sail",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00EDC",
    "jp": "船、航行開始",
-   "en": "",
+   "en": "The Ship Sets Sail",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00EEC",
    "jp": "船よ、西方へ進め",
-   "en": "",
+   "en": "Sail West!",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00F00",
    "jp": "船よ、西方へ進め",
-   "en": "",
+   "en": "Ship, Sail West!",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00F14",
    "jp": "船よ、西方へ進め",
-   "en": "",
+   "en": "Ship, Sail West!",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00F28",
    "jp": "奪われた飛行機",
-   "en": "",
+   "en": "Stolen Airplane",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00F38",
    "jp": "奪われた飛行機",
-   "en": "",
+   "en": "The Stolen Airplane",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00F48",
    "jp": "奪われた飛行機",
-   "en": "",
+   "en": "The Stolen Airplane",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00F58",
    "jp": "飛行機発見！",
-   "en": "",
+   "en": "Airplane Found!",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00F68",
    "jp": "飛行機発見！",
-   "en": "",
+   "en": "Airplane Found!",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00F78",
    "jp": "飛行機発見！",
-   "en": "",
+   "en": "Airplane Found!",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00F88",
    "jp": "飛行機を取り戻せ１",
-   "en": "",
+   "en": "Reclaim Airplane 1",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00F9C",
    "jp": "飛行機を取り戻せ１",
-   "en": "",
+   "en": "Reclaim the Airplane 1",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00FB0",
    "jp": "飛行機を取り戻せ１",
-   "en": "",
+   "en": "Reclaim the Airplane 1",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00FC4",
    "jp": "飛行機を取り戻せ２",
-   "en": "",
+   "en": "Reclaim Airplane 2",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.00FD8",
    "jp": "飛行機を取り戻せ２",
-   "en": "",
+   "en": "Reclaim the Airplane 2",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00FEC",
    "jp": "飛行機を取り戻せ２",
-   "en": "",
+   "en": "Reclaim the Airplane 2",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01000",
    "jp": "飛行機を取り戻せ３",
-   "en": "",
+   "en": "Reclaim Airplane 3",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.01014",
    "jp": "飛行機を取り戻せ３",
-   "en": "",
+   "en": "Reclaim the Airplane 3",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01028",
    "jp": "飛行機を取り戻せ３",
-   "en": "",
+   "en": "Reclaim the Airplane 3",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.0103C",
    "jp": "飛行機を取り戻せ４",
-   "en": "",
+   "en": "Reclaim Airplane 4",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.01050",
    "jp": "飛行機を取り戻せ４",
-   "en": "",
+   "en": "Reclaim the Airplane 4",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01064",
    "jp": "飛行機を取り戻せ４",
-   "en": "",
+   "en": "Reclaim the Airplane 4",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01078",
    "jp": "飛行機を取り戻せ５",
-   "en": "",
+   "en": "Reclaim Airplane 5",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.0108C",
    "jp": "飛行機を取り戻せ５",
-   "en": "",
+   "en": "Reclaim the Airplane 5",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.010A0",
    "jp": "飛行機を取り戻せ５",
-   "en": "",
+   "en": "Reclaim the Airplane 5",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.010B4",
    "jp": "飛行機復活",
-   "en": "",
+   "en": "Airplane Restored",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.010C0",
    "jp": "飛行機復活",
-   "en": "",
+   "en": "Airplane Restored",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.010CC",
    "jp": "飛行機復活",
-   "en": "",
+   "en": "Airplane Restored",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.010D8",
    "jp": "レアモンスター",
-   "en": "",
+   "en": "Rare Monsters",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.010E8",
    "jp": "レアモンスター",
-   "en": "",
+   "en": "Rare Monsters",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.010F8",
    "jp": "レアモンスター",
-   "en": "",
+   "en": "Rare Monsters",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01108",
    "jp": "封印のリング全滅",
-   "en": "",
+   "en": "All Seal Rings Lost",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.0111C",
    "jp": "封印のリング全滅",
-   "en": "",
+   "en": "All Sealing Rings Destroyed",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01130",
    "jp": "封印のリング全滅",
-   "en": "",
+   "en": "All Sealing Rings Destroyed",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01E40",
    "jp": "薬花の採集",
-   "en": "",
+   "en": "Medicinal Flowers",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.01E4C",
    "jp": "ナッシュ平原の薬花の採集",
-   "en": "",
+   "en": "Gather Medicinal Flowers in the{br}Nash Plains.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01E68",
    "jp": "現在　よりよい薬を　研究中だ{br}「ナッシュ平原」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
-   "en": "",
+   "en": "I'm researching better medicine. I{br}need Medicinal Flowers from the{br}\"Nash Plains.\" Please bring me{br}some right away.{close}",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01ED8",
    "jp": "バコソン山地の薬花の採集",
-   "en": "",
+   "en": "Gather Medicinal Flowers in the{br}Bakoson Mountains.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01EF4",
    "jp": "現在　よりよい薬を　研究中だ{br}「バコソン山地」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
-   "en": "",
+   "en": "I'm researching better medicine. I{br}need Medicinal Flowers from the{br}\"Bakoson Mountains.\" Please{br}bring me some right away.{close}",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01F64",
    "jp": "ミレイの森の薬花の採集",
-   "en": "",
+   "en": "Gather Medicinal Flowers in Mirei{br}Forest.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01F7C",
    "jp": "現在　よりよい薬を　研究中だ{br}「ミレイの森」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
-   "en": "",
+   "en": "I'm researching better medicine. I{br}need Medicinal Flowers from{br}\"Mirei Forest.\" Please bring me{br}some right away.{close}",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.01FE8",
    "jp": "薬花の採集",
-   "en": "",
+   "en": "Medicinal Flowers",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.01FF4",
    "jp": "ノルナージの森の薬花の採集",
-   "en": "",
+   "en": "Gather Medicinal Flowers in{br}Norunaji Forest.",
    "kind": "desc",
    "refs": 1
   }

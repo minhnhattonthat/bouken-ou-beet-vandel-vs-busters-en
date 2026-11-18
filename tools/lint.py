@@ -62,7 +62,7 @@ def lint_entry(e, eng):
     except Exception as x:  # noqa: BLE001 - report any encoder failure as a lint error
         return errs + ['not encodable: %s' % x]
     cj, ce = Counter(CTRL.findall(e['jp'])), Counter(CTRL.findall(en))
-    if e['kind'] == 'msg':
+    if (budget(e['kind']) or {}).get('lines', 1) > 1:   # multi-line boxes: breaks are layout, re-wrapped in English
         for b in BREAKS:
             cj.pop(b, None)
             ce.pop(b, None)

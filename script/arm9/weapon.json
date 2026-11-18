@@ -316,7 +316,7 @@
   {
    "id": "a9.weapon.009.name2",
    "jp": "Ｇメタルシールド",
-   "en": "Master Shield",
+   "en": "G-Metal Shield",
    "kind": "weapon.name2",
    "addr": "02153174",
    "max": 20
@@ -1460,7 +1460,7 @@
   {
    "id": "a9.weapon.045.desc",
    "jp": "青銅でできた片手剣",
-   "en": "Bronze one-handed sword",
+   "en": "Bronze One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215C8FC",
    "max": 72
@@ -1492,7 +1492,7 @@
   {
    "id": "a9.weapon.046.desc",
    "jp": "銅でできた片手剣",
-   "en": "Copper one-handed sword",
+   "en": "Copper One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215CD34",
    "max": 72
@@ -1524,7 +1524,7 @@
   {
    "id": "a9.weapon.047.desc",
    "jp": "鉄でできた片手剣",
-   "en": "Iron one-handed sword",
+   "en": "Iron One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215D16C",
    "max": 72
@@ -1556,7 +1556,7 @@
   {
    "id": "a9.weapon.048.desc",
    "jp": "鋼でできた片手剣",
-   "en": "Steel one-handed sword",
+   "en": "Steel One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215D5A4",
    "max": 72
@@ -1588,7 +1588,7 @@
   {
    "id": "a9.weapon.049.desc",
    "jp": "銀でできた片手剣",
-   "en": "Silver one-handed sword",
+   "en": "Silver One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215D9DC",
    "max": 72
@@ -1620,7 +1620,7 @@
   {
    "id": "a9.weapon.050.desc",
    "jp": "レアメタルでできた片手剣",
-   "en": "Rare metal one-handed sword",
+   "en": "Rare metal One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215DE14",
    "max": 72
@@ -1652,7 +1652,7 @@
   {
    "id": "a9.weapon.051.desc",
    "jp": "ハイメタルでできた片手剣",
-   "en": "High metal one-handed sword",
+   "en": "High metal One-Hand Sword",
    "kind": "weapon.desc",
    "addr": "0215E24C",
    "max": 72
@@ -1780,7 +1780,7 @@
   {
    "id": "a9.weapon.055.desc",
    "jp": "青銅でできた投剣",
-   "en": "Bronze throwing blade",
+   "en": "Bronze Throwing Sword",
    "kind": "weapon.desc",
    "addr": "0215F32C",
    "max": 72
@@ -1812,7 +1812,7 @@
   {
    "id": "a9.weapon.056.desc",
    "jp": "銅でできた投剣",
-   "en": "Copper throwing blade",
+   "en": "Copper Throwing Sword",
    "kind": "weapon.desc",
    "addr": "0215F764",
    "max": 72
@@ -1844,7 +1844,7 @@
   {
    "id": "a9.weapon.057.desc",
    "jp": "鉄でできた投剣",
-   "en": "Iron throwing blade",
+   "en": "Iron Throwing Sword",
    "kind": "weapon.desc",
    "addr": "0215FB9C",
    "max": 72
@@ -1876,7 +1876,7 @@
   {
    "id": "a9.weapon.058.desc",
    "jp": "鋼でできた投剣",
-   "en": "Steel throwing blade",
+   "en": "Steel Throwing Sword",
    "kind": "weapon.desc",
    "addr": "0215FFD4",
    "max": 72
@@ -1908,7 +1908,7 @@
   {
    "id": "a9.weapon.059.desc",
    "jp": "銀でできた投剣",
-   "en": "Silver throwing blade",
+   "en": "Silver Throwing Sword",
    "kind": "weapon.desc",
    "addr": "0216040C",
    "max": 72
@@ -1940,7 +1940,7 @@
   {
    "id": "a9.weapon.060.desc",
    "jp": "レアメタルでできた投剣",
-   "en": "Rare metal throwing blade",
+   "en": "Rare metal Throwing Sword",
    "kind": "weapon.desc",
    "addr": "02160844",
    "max": 72
@@ -1972,7 +1972,7 @@
   {
    "id": "a9.weapon.061.desc",
    "jp": "ハイメタルでできた投剣",
-   "en": "High metal throwing blade",
+   "en": "High metal Throwing Sword",
    "kind": "weapon.desc",
    "addr": "02160C7C",
    "max": 72
@@ -2100,7 +2100,7 @@
   {
    "id": "a9.weapon.065.desc",
    "jp": "青銅でできた両手剣",
-   "en": "Bronze two-handed sword",
+   "en": "Bronze Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "02161D5C",
    "max": 72
@@ -2132,7 +2132,7 @@
   {
    "id": "a9.weapon.066.desc",
    "jp": "銅でできた両手剣",
-   "en": "Copper two-handed sword",
+   "en": "Copper Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "02162194",
    "max": 72
@@ -2164,7 +2164,7 @@
   {
    "id": "a9.weapon.067.desc",
    "jp": "鉄でできた両手剣",
-   "en": "Iron two-handed sword",
+   "en": "Iron Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "021625CC",
    "max": 72
@@ -2196,7 +2196,7 @@
   {
    "id": "a9.weapon.068.desc",
    "jp": "鋼でできた両手剣",
-   "en": "Steel two-handed sword",
+   "en": "Steel Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "02162A04",
    "max": 72
@@ -2228,7 +2228,7 @@
   {
    "id": "a9.weapon.069.desc",
    "jp": "銀でできた両手剣",
-   "en": "Silver two-handed sword",
+   "en": "Silver Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "02162E3C",
    "max": 72
@@ -2292,7 +2292,7 @@
   {
    "id": "a9.weapon.071.desc",
    "jp": "ハイメタルでできた両手剣",
-   "en": "High metal two-handed sword",
+   "en": "High metal Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "021636AC",
    "max": 72
@@ -5212,7 +5212,7 @@
   {
    "id": "a9.weapon.162.name2",
    "jp": "ばとるむーんさーくる",
-   "en": "Battle Circle",
+   "en": "Battle Moon Circle",
    "kind": "weapon.name2",
    "addr": "0217B6EC",
    "max": 20
@@ -5596,7 +5596,7 @@
   {
    "id": "a9.weapon.174.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "0217E98C",
    "max": 20
@@ -5628,7 +5628,7 @@
   {
    "id": "a9.weapon.175.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "0217EDC4",
    "max": 20
@@ -5660,7 +5660,7 @@
   {
    "id": "a9.weapon.176.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "0217F1FC",
    "max": 20
@@ -5692,7 +5692,7 @@
   {
    "id": "a9.weapon.177.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "0217F634",
    "max": 20
@@ -5724,7 +5724,7 @@
   {
    "id": "a9.weapon.178.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "0217FA6C",
    "max": 20
@@ -5756,7 +5756,7 @@
   {
    "id": "a9.weapon.179.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "0217FEA4",
    "max": 20
@@ -5788,7 +5788,7 @@
   {
    "id": "a9.weapon.180.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "021802DC",
    "max": 20
@@ -5820,7 +5820,7 @@
   {
    "id": "a9.weapon.181.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "02180714",
    "max": 20
@@ -5852,7 +5852,7 @@
   {
    "id": "a9.weapon.182.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "02180B4C",
    "max": 20
@@ -5884,7 +5884,7 @@
   {
    "id": "a9.weapon.183.name2",
    "jp": "ジャンプソード",
-   "en": "Player Sword",
+   "en": "Jump Sword",
    "kind": "weapon.name2",
    "addr": "02180F84",
    "max": 20
@@ -5916,7 +5916,7 @@
   {
    "id": "a9.weapon.184.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "021813BC",
    "max": 20
@@ -5948,7 +5948,7 @@
   {
    "id": "a9.weapon.185.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "021817F4",
    "max": 20
@@ -5980,7 +5980,7 @@
   {
    "id": "a9.weapon.186.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "02181C2C",
    "max": 20
@@ -6012,7 +6012,7 @@
   {
    "id": "a9.weapon.187.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "02182064",
    "max": 20
@@ -6044,7 +6044,7 @@
   {
    "id": "a9.weapon.188.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "0218249C",
    "max": 20
@@ -6076,7 +6076,7 @@
   {
    "id": "a9.weapon.189.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "021828D4",
    "max": 20
@@ -6108,7 +6108,7 @@
   {
    "id": "a9.weapon.190.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "02182D0C",
    "max": 20
@@ -6140,7 +6140,7 @@
   {
    "id": "a9.weapon.191.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "02183144",
    "max": 20
@@ -6172,7 +6172,7 @@
   {
    "id": "a9.weapon.192.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "0218357C",
    "max": 20
@@ -6204,7 +6204,7 @@
   {
    "id": "a9.weapon.193.name2",
    "jp": "ヒーロースピア",
-   "en": "Player Spear",
+   "en": "Hero Spear",
    "kind": "weapon.name2",
    "addr": "021839B4",
    "max": 20
@@ -6236,7 +6236,7 @@
   {
    "id": "a9.weapon.194.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02183DEC",
    "max": 20
@@ -6268,7 +6268,7 @@
   {
    "id": "a9.weapon.195.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02184224",
    "max": 20
@@ -6300,7 +6300,7 @@
   {
    "id": "a9.weapon.196.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "0218465C",
    "max": 20
@@ -6332,7 +6332,7 @@
   {
    "id": "a9.weapon.197.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02184A94",
    "max": 20
@@ -6364,7 +6364,7 @@
   {
    "id": "a9.weapon.198.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02184ECC",
    "max": 20
@@ -6396,7 +6396,7 @@
   {
    "id": "a9.weapon.199.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02185304",
    "max": 20
@@ -6428,7 +6428,7 @@
   {
    "id": "a9.weapon.200.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "0218573C",
    "max": 20
@@ -6460,7 +6460,7 @@
   {
    "id": "a9.weapon.201.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02185B74",
    "max": 20
@@ -6492,7 +6492,7 @@
   {
    "id": "a9.weapon.202.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "02185FAC",
    "max": 20
@@ -6524,7 +6524,7 @@
   {
    "id": "a9.weapon.203.name2",
    "jp": "ヒーローアックス",
-   "en": "Player Axe",
+   "en": "Hero Axe",
    "kind": "weapon.name2",
    "addr": "021863E4",
    "max": 20
@@ -6556,7 +6556,7 @@
   {
    "id": "a9.weapon.204.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "0218681C",
    "max": 20
@@ -6588,7 +6588,7 @@
   {
    "id": "a9.weapon.205.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "02186C54",
    "max": 20
@@ -6620,7 +6620,7 @@
   {
    "id": "a9.weapon.206.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "0218708C",
    "max": 20
@@ -6652,7 +6652,7 @@
   {
    "id": "a9.weapon.207.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "021874C4",
    "max": 20
@@ -6684,7 +6684,7 @@
   {
    "id": "a9.weapon.208.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "021878FC",
    "max": 20
@@ -6716,7 +6716,7 @@
   {
    "id": "a9.weapon.209.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "02187D34",
    "max": 20
@@ -6748,7 +6748,7 @@
   {
    "id": "a9.weapon.210.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "0218816C",
    "max": 20
@@ -6780,7 +6780,7 @@
   {
    "id": "a9.weapon.211.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "021885A4",
    "max": 20
@@ -6812,7 +6812,7 @@
   {
    "id": "a9.weapon.212.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "021889DC",
    "max": 20
@@ -6844,7 +6844,7 @@
   {
    "id": "a9.weapon.213.name2",
    "jp": "ヒーローガン",
-   "en": "Player Gun",
+   "en": "Hero Gun",
    "kind": "weapon.name2",
    "addr": "02188E14",
    "max": 20
@@ -6868,7 +6868,7 @@
   {
    "id": "a9.weapon.214.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "021891F4",
    "max": 72
@@ -6876,7 +6876,7 @@
   {
    "id": "a9.weapon.214.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218924C",
    "max": 20
@@ -6900,7 +6900,7 @@
   {
    "id": "a9.weapon.215.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218962C",
    "max": 72
@@ -6908,7 +6908,7 @@
   {
    "id": "a9.weapon.215.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "02189684",
    "max": 20
@@ -6932,7 +6932,7 @@
   {
    "id": "a9.weapon.216.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "02189A64",
    "max": 72
@@ -6940,7 +6940,7 @@
   {
    "id": "a9.weapon.216.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "02189ABC",
    "max": 20
@@ -6964,7 +6964,7 @@
   {
    "id": "a9.weapon.217.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "02189E9C",
    "max": 72
@@ -6972,7 +6972,7 @@
   {
    "id": "a9.weapon.217.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "02189EF4",
    "max": 20
@@ -6996,7 +6996,7 @@
   {
    "id": "a9.weapon.218.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218A2D4",
    "max": 72
@@ -7004,7 +7004,7 @@
   {
    "id": "a9.weapon.218.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218A32C",
    "max": 20
@@ -7028,7 +7028,7 @@
   {
    "id": "a9.weapon.219.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218A70C",
    "max": 72
@@ -7036,7 +7036,7 @@
   {
    "id": "a9.weapon.219.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218A764",
    "max": 20
@@ -7060,7 +7060,7 @@
   {
    "id": "a9.weapon.220.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218AB44",
    "max": 72
@@ -7068,7 +7068,7 @@
   {
    "id": "a9.weapon.220.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218AB9C",
    "max": 20
@@ -7092,7 +7092,7 @@
   {
    "id": "a9.weapon.221.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218AF7C",
    "max": 72
@@ -7100,7 +7100,7 @@
   {
    "id": "a9.weapon.221.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218AFD4",
    "max": 20
@@ -7124,7 +7124,7 @@
   {
    "id": "a9.weapon.222.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218B3B4",
    "max": 72
@@ -7132,7 +7132,7 @@
   {
    "id": "a9.weapon.222.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218B40C",
    "max": 20
@@ -7156,7 +7156,7 @@
   {
    "id": "a9.weapon.223.desc",
    "jp": "ヒーローナックル",
-   "en": "Hero Knuckle",
+   "en": "Hero Knuckles",
    "kind": "weapon.desc",
    "addr": "0218B7EC",
    "max": 72
@@ -7164,7 +7164,7 @@
   {
    "id": "a9.weapon.223.name2",
    "jp": "ヒーローシールド",
-   "en": "Player Knuckle",
+   "en": "Hero Shield",
    "kind": "weapon.name2",
    "addr": "0218B844",
    "max": 20
@@ -7652,7 +7652,7 @@
   {
    "id": "a9.weapon.239.name",
    "jp": "グリニデ変身後",
-   "en": "Morphed Grineed",
+   "en": "Grineed (Form 2)",
    "kind": "weapon.name",
    "addr": "0218FB44",
    "max": 20
@@ -7660,7 +7660,7 @@
   {
    "id": "a9.weapon.239.reading",
    "jp": "なし",
-   "en": "Morphed Grineed",
+   "en": "Grineed (Form 2)",
    "kind": "weapon.reading",
    "addr": "0218FB58",
    "max": 20
