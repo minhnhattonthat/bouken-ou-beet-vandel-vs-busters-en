@@ -2,8 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build (not started; phase 2 debug tool done 2026-11-18: 100/100 scenes from cold boot).
-  Last build: none yet (build.py arrives in phase 3).
+- **Phase:** 4. Extract (not started; phase 3 identity build done 2026-11-18).
+  Last build: 2026-11-18 identity build, `build/beet_en.nds` sha1 45fb3632177b1b8490069630b798dc7e52846a1d (= dump),
+  smoke ok.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), DeSmuME QA fork qa-2 in `tools/desmume/`, guard hook wired in
     `.claude/settings.json` (canary blocked), pre-commit runs `tools/check.py` (a failing test was rejected), smoke boot
@@ -26,9 +27,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     shop counters, routines); `@FRAME` inputs; GOD mode; reset check; `writesave` / `sav=NAME` save fixtures
     (clear_save.dsv = Buster clear). RE in `docs/re/scripts.md` (UI state machine, door-trigger tree, facility table).
     Probes: `tools/lua/{uistate,trigdump,triggers,scrpc,scrpos,varlog,statelog,battlelog}.lua`.
-- **Next (phase 3):** identity build: `tools/build.py` unpacks the ROM (ndspy) and repacks it with no edits; a test
-  asserts the rebuilt ROM is byte-identical to the original (`references/pipeline.md` §Identity). Write
-  `build/beet_en.nds`, keep the `rom.sha1` check first.
+  - Phase 3 (done): `tools/build.py` checks `rom.sha1`, loads with ndspy, rebuilds, then restores the 0x1000 word,
+    the 0x00 inter-region padding (ndspy pads 0xFF) and the cartridge length. `tests/test_build.py` asserts the
+    rebuild is byte-identical (also after replacing every file with its own bytes); a one-byte edit gives exactly one
+    diff. Edits slot in at the `# Edits go here` line of `build()`.
+- **Next (phase 4):** extract every text source to `script/` JSON via `tools/tbl.py` + `tbl/jp.tbl`: `field/script/rom.img`
+  (`scr\x1a` container; needs an entry-point walker for `00`/`FF`/`BF` and string pools), `quest/quest.img`, arm9
+  fixed records + pointer-referenced messages, buster-name lists, `kanakan.img`. Done when the roundtrip test
+  (re-encode = original bytes) passes and a coverage test shows the text ranges fully covered
+  (`references/pipeline.md` §Extract). The `.img` container needs its own identity repack test.
 - **Debug-tool gaps (grow later, not blocking):** appraiser's appraisal choice (`4F`, needs story var 0x93); quest
   accept/turn-in flow from quest NPCs (quest.img scripts) beyond the two engine messages; the books show an empty entry 0
   (fill the registration bits for full text coverage in phase 8); shops of other towns if any (only East Village uses
