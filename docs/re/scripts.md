@@ -77,6 +77,14 @@
   and white-screens on ids >= 34. Key items: a u16 list at [ui+0x118] read at 0x02076DC4 takes entries with
   byte1 & 3 as key items (accessor 0x020141FC), others as items (0x02014218); screen not identified yet.
   warp.lua `inv` fills the item region (INV_CATS / INV_FROM / INV_N).
+  **Every inventory add** goes through 0x0201CAE4(inv obj, cat << 8 | id+1) (dispatch on cat: 1 weapon 0x0201C60C,
+  2 armor 0x0201C5BC, 3 0x0201C65C, 4 0x0201C6F4; first free of 0x63 slots). Its only callers (direct BLs, no
+  literal words, no overlays): give-item 0x0204B584, reached only from **script op `09 lo hi`** (u16 = cat << 8 |
+  id+1, handler 0x02055940, opcode table slot 9) and op `0D` (random item 1..0x22, 0x0204B558); and the shop buy
+  0x0207ADC0/AE14/AE68 (adds [ui+0x58], the shop list entry, [ui+0x68] times). Op 09 weapon ids in rom.img: 34 44
+  49 54 64 74 84 94 104 133 143 153 163 173; shop lists 25-172 (session 18). The forge only raises byte 3 of the
+  entry (save+0x11E3: 0 -> 1 -> 2, pc 0x02087C58 / 0x0200A6D0, `work/qa/p19_forge`), never the id. So weapons 0-24
+  and 174-253 can never enter the inventory in a single-player game. `tools/lua/savewatch.lua` logs save writers.
 - **quest.img interpreter** (2026-11-19): loop 0x020111D0(ctx, pc, ..), ctx [0x021BA39C] (+8 = PC), length table
   0x0210D338, handlers 0x0210D36C (20 title 0x02011F70, 1A 0x020123E0, 2D 0x020116F4). Called from 0x02010F38
   (quest offer, via the state wrapper 0x02048494) and 0x0204A860 (rom.img op `99` handler at 0x0204FD40: quest update

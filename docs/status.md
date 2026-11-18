@@ -5,9 +5,33 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,606 shown + 462 waived of 9,472, 404 failing; area2 complete in
-  session 18) and the Vandel-mode list (Next (4)). Left: weapon 296 (74 records), wpntype 64, special 26,
+  Left for the done-when: **text coverage** (8,951 shown + 462 waived of 9,472, **59 failing**; weapons complete in
+  session 19) and the Vandel-mode list (Next (4)). Left: wpntype 15 (8, 11, 15-20, 22-28), special 26 (7, 11-35),
   ptr 18 (list in session 17 below).
+- **Phase 8 session 19 (2026-11-19), Orca worker: weapon records complete (404 -> 59 failing).**
+  - **All weapon records fetched in a real battle:** a battle builds its units from the members' equipped weapon
+    (save+0x185C = id+1 | 0x100, first member) and fetches that weapon record (+ its wpntype for the Player
+    weapons). New `tools/debug/pokesweep.py` (one warp run per id with a save poke built from the id):
+    `--scene b29_my_castle --poke "w185C={lo:02X}{hi:02X}" --add 1 --hi 1 --ids 0,13-19,22-24,174-214,216-226,240,243-248,250-253
+    --out work/qa/cover/wbattle --jobs 4`. Weapon 296 -> 0, wpntype 29-78 covered too. Runs with a Saiga weapon id
+    (0, 14-24) and some vandel ids exit 2 "game reset to the title after the warp (f2297)" but still log the fetch
+    (warp.lua recovers); `work/qa/cover/wstatus` = the same on menu_status (Status fetches the weapon only).
+  - **Proof these weapons are not items** (for any later waiver, docs/re/scripts.md §Inventory): every inventory add
+    goes through 0x0201CAE4; callers are script op `09` (weapon ids given: 34 .. 173 only), op `0D` (items) and the
+    shop buy (lists 25-172); the forge only raises the hone byte. New `tools/lua/savewatch.lua` (save writers).
+  - **Left: the Saiga rows.** wpntype 15-28 and special 7 belong to the Saiga weapons (15-24); a Saiga is not
+    member+0x1FC (poking a Saiga id there resets the game after the warp) but follows the learned tengeki list
+    (save+0x16E8 = ids 1-25 shows Crown Shield on the Saiga screen, `work/qa/p19_slearn3`). Specials 11-35 = the
+    Player weapons' specials (never fetched by battle or Status). Next: find where battle reads the Saiga (b29
+    fetched weapon 0x15 + wpntype 0x15 + special 5 for a member: callcount on 0x0201466C there), sweep it, else
+    waive Player specials as VS-only with the proof above.
+  - Saiga learn prompt (ptr 021B424C-29C): drawn by 0x020CBD18 via 0x0202F160 from UI state 25 (0x02035F0C; the
+    Saiga screen itself is UI state 24) when [[ui+0xD0]+0x34] != 0 and byte [[ui+0xD0]+0xBF] == 1 (else it learns
+    directly). New `tools/lua/pokeat.lua` sets that byte (`POKE_PC=0x02035F18 POKE_REG='r5' POKE_OFF=0xD0
+    POKE_DEREF='0xBF' POKE_VAL=1`), but state 25 never ran: tapping the Saiga row (t60,85) does nothing with
+    tengeki 1-25 learned (`work/qa/p19_slearn4`). Find what moves UI 24 -> 25 (the Saiga list's selectable rows).
+  - New `tools/debug/funcstart.py ADDR` (enclosing ARM function + its callers + literal words).
+  - **Re-tour still needed** before the final gate (tour on 50c319fb; build unchanged this session).
 - **Phase 8 session 18 (2026-11-19), Orca worker: area2 covered, VS-mode findings (context limit).**
   - **area2 done** (25/25 drawn, `work/qa/cover/area2/labels.png`). The board label (0x020D19A0 -> 0x020D3488 for
     area2, 0x020D350C for area; chosen by board+0xC > 1) draws the name of the node the hero walks to. Recipe:
@@ -406,7 +430,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (2) coverage, biggest first (shouts done in session 10, quests in session 12; report over work/qa/en
   work/qa/gallery work/qa/cover with `--waive docs/text_unshown.tsv`):
   names (done), skills/tengeki/meigeki (done session 14; skill rows draw blank, see there), specials, buster/vandel books
-  (done session 16), key items (done session 16), the weapon records that hang the sell list (try a weapon shop list),
+  (done session 16), key items (done session 16), weapon records (done session 19, battle sweep), Saiga wpntypes /
+  specials (session 19 list),
   rom.msg (done session 17), ptr 18 (session 17 list). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
