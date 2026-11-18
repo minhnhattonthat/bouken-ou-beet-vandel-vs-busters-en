@@ -14,6 +14,9 @@ NGLYPH = 7332
 # Control codes (meaning: docs/re/text.md). Argument counts are in 16-bit words, written as bytes for tbl.py.
 CONTROLS = {
     0x0000: "{end}",
+    0xFF70: "{br}",     # line break (verified on screen)
+    0xFF71: "{close}",  # wait, close message (guess)
+    0xFF72: "{page}",   # wait, clear box (guess)
 }
 
 
@@ -62,5 +65,5 @@ if __name__ == "__main__":
     out = ROOT / "tbl" / "jp.tbl"
     out.parent.mkdir(exist_ok=True)
     text = "\n".join(lines()) + "\n"
-    out.write_text(text, encoding="utf-8")
+    out.write_text(text, encoding="utf-8", newline="\n")
     print(out, text.count("\n"), "lines")

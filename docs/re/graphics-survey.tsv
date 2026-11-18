@@ -1,0 +1,315 @@
+sheet	file	text	what
+000	battle/cutin/ark.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/badu.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/beet.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/goran.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/grest.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/hero.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/kiss.nbfc	?	Stylized battle cut-in sound-effect lettering
+000	battle/cutin/lend.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/milfa.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose1.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose2.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose3.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose4.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose5.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose6.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/multipurpose7.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/nack.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/poara.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/ruck.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/shigusa.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/siva.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/sread.nbfc	?	Stylized battle cut-in sound-effect lettering
+001	battle/cutin/zeek.nbfc	?	Stylized battle cut-in sound-effect lettering
+007	bg/credit01.nbfc	原作：三条 陸／漫画：稲田浩司／デザイン協力：中鶴勝祥／「冒険王ビィト」月刊少年ジャンプ（集英社）連載	Credits
+007	bg/credit02.nbfc	－GAME STAFF－／開発 株式会社 デジタル・メディア・ラボ	Credits
+007	bg/credit03.nbfc	プログラマー／村松 幹也／向井 利彦／横山 啓明／高浦 友基／彦野 拓也	Credits
+007	bg/credit04.nbfc	プランナー／倪 健興／村上 聡／安浪 宗彦	Credits
+007	bg/credit05.nbfc	グラフィッカー／濱田 通世／戸田 登／尾崎 成道／西野 貴博／力石 洋介／金原 賢一／大西 紀江／川本 亜希子／名田 芙美	Credits
+007	bg/credit06.nbfc	サウンド／岩本 守弘	Credits
+007	bg/credit07.nbfc	モンスターデザイン＆パッケージデザイン／稲田 浩司／中鶴 勝祥	Credits
+007	bg/credit08.nbfc	監修／町田 宗治／籾山 悠太／月刊少年ジャンプ編集部・集英社／キャラテックス株式会社／東映アニメーション株式会社	Credits
+007	bg/credit09.nbfc	SPECIAL THANKS／月刊少年ジャンプ編集部／週刊少年ジャンプ編集部／Vジャンプ編集部	Credits
+007	bg/credit10.nbfc	SPECIAL THANKS／関 弘美／東映アニメーション株式会社／小林 夏生／東映アニメーション株式会社／小野 孝太郎／ジャンプコミックス出版編集部／中道 茂／ブレインナビ／村本 倫子／キャラメル・ママ／中村 憲二／レイアップ	Credits
+007	bg/credit11.nbfc	SPECIAL THANKS／dentsu／タック／シナテック／ニコー印刷	Credits
+007	bg/credit12.nbfc	株式会社 バンダイ／折原 能章／石田 忠也／金木 勲／松永 聡／西澤 冬樹／楠田 貴彦／今西 智明／鈴木 敏弘／田中 穣／内山 大輔／原田 真史／佐々木 夕介／三戸 亮／田中 良也	Credits
+007	bg/credit13.nbfc	パブリシティスタッフ／渡辺 浩孝／黒澤 豪／安子 太樹／八束 洋子／向山 里映	Credits
+007	bg/credit14.nbfc	セールス＆プロモーションスタッフ／古田 真美／星谷 真樹／山崎 秀之／武井 由香／清水 明日香／川崎 翔也／森岡 彩／野澤 芽与／山田 七絵／中島 光司	Credits
+007	bg/credit15.nbfc	プロデューサー／金 晃秀	Credits
+008	bg/credit16.nbfc	チーフプロデューサー／澤田 悦巳／内山 大輔	Credits
+008	bg/credit17.nbfc	エグゼクティブ・プロデューサー／鵜之澤 伸／東海林 隆	Credits
+008	bg/credit18.nbfc	企画・製作／株式会社 バンダイ	Credits
+008	bg/credit19.nbfc	(C) 三条陸・稲田浩司／集英社・テレビ東京・dentsu／東映アニメーション・ビィト製作委員会／(C) BANDAI 2005	Copyright credits
+008	bg/gameover.nbfc	GAME OVER	Game-over banner
+008	bitmap/battle_hit_hit.nbfc	HIT	Battle hit-counter label, tile-scrambled
+008	bitmap/escape_txt.nbfc	ESCAPE	Battle escape label
+008	bitmap/mg.nbfc	MG	Gauge label
+009	bitmap/target_cursor.nbfc	TARGET	Target cursor label
+009	bitmap/user_cursor.nbfc	USER	User cursor label
+024	screen/battle_base.nbfc	バトルメニュー；道具；隊列；戦術；特技；ターゲット；ポーズ；BATTLE MENU；START	Battle menu and control hints
+024	screen/battle_taget_base.nbfc	ターゲット；もどる；TARGET	Target selection screen
+024	screen/buster_book_base.nbfc	バスター図鑑；攻撃；命中；防御；回避；もどる；BUSTER BOOK；NO.	Buster encyclopedia and stat labels
+024	screen/button_array.nbfc	?	Button
+024	screen/button_array2.nbfc	?	Button
+024	screen/button_assign.nbfc	?	Button
+024	screen/button_back.nbfc	もどる	Button
+024	screen/button_busterbook.nbfc	?	Button
+024	screen/button_category.nbfc	?	Button
+025	screen/button_decision.nbfc	?	Button
+025	screen/button_decision2.nbfc	?	Button
+025	screen/button_detail.nbfc	?	Button
+025	screen/button_dispatch.nbfc	?	Button
+025	screen/button_equip.nbfc	?	Button
+025	screen/button_equipitem.nbfc	?	Button
+025	screen/button_exchange.nbfc	交換	Button
+025	screen/button_fast.nbfc	?	Button
+025	screen/button_finish.nbfc	?	Button
+025	screen/button_give.nbfc	あげる	Button
+025	screen/button_giveup.nbfc	?	Button
+025	screen/button_info.nbfc	情報	Button
+025	screen/button_L.nbfc	L	Controller button indicator
+025	screen/button_lv.nbfc	Lv	Button
+025	screen/button_monster.nbfc	?	Button
+025	screen/button_monsterbook.nbfc	?	Button
+025	screen/button_name.nbfc	名前	Button
+025	screen/button_no.nbfc	いいえ	Button
+025	screen/button_normal.nbfc	ふつう	Button
+026	screen/button_OFF.nbfc	OFF	Button
+026	screen/button_ok.nbfc	OK	Button
+026	screen/button_ON.nbfc	ON	Button
+026	screen/button_option.nbfc	オプション	Button
+026	screen/button_order.nbfc	?	Button
+026	screen/button_party.nbfc	パーティ	Button
+026	screen/button_party_add.nbfc	?	Button
+026	screen/button_party_new.nbfc	?	Button
+026	screen/button_quest.nbfc	クエスト	Button
+026	screen/button_quickcommand.nbfc	?	Button
+026	screen/button_R.nbfc	R	Controller button indicator
+026	screen/button_saiga.nbfc	才牙	Button
+026	screen/button_saiga2.nbfc	才牙	Button
+026	screen/button_save.nbfc	セーブ	Button
+026	screen/button_shop_appraise.nbfc	鑑定	Button
+026	screen/button_shop_armor.nbfc	防具	Button
+026	screen/button_shop_buy.nbfc	買う	Button
+026	screen/button_shop_buy2.nbfc	買う	Button
+026	screen/button_shop_cancel.nbfc	やめる	Button
+026	screen/button_shop_cancel2.nbfc	やめる	Button
+027	screen/button_shop_confidant.nbfc	?	Button
+027	screen/button_shop_hone.nbfc	鍛える	Button
+027	screen/button_shop_item.nbfc	道具	Button
+027	screen/button_shop_monster_buy.nbfc	?	Button
+027	screen/button_shop_no.nbfc	いいえ	Button
+027	screen/button_shop_quest.nbfc	?	Button
+027	screen/button_shop_report.nbfc	報告	Button
+027	screen/button_shop_return.nbfc	?	Button
+027	screen/button_shop_sell.nbfc	売る	Button
+027	screen/button_shop_sell2.nbfc	売る	Button
+027	screen/button_shop_weapon.nbfc	武器	Button
+027	screen/button_shop_yes.nbfc	はい	Button
+027	screen/button_shuffle.nbfc	?	Button
+027	screen/button_skill.nbfc	?	Button
+027	screen/button_skill2.nbfc	?	Button
+027	screen/button_slow.nbfc	おそい	Button
+027	screen/button_sort_armor.nbfc	防具	Button
+027	screen/button_sort_tool.nbfc	道具	Button
+027	screen/button_sort_treasure.nbfc	?	Button
+027	screen/button_sort_weapon.nbfc	武器	Button
+028	screen/button_status.nbfc	ステータス	Button
+028	screen/button_tactics.nbfc	戦術	Button
+028	screen/button_tactics2.nbfc	戦術	Button
+028	screen/button_take.nbfc	もらう	Button
+028	screen/button_tengeki.nbfc	天撃	Button
+028	screen/button_tengeki2.nbfc	天撃	Button
+028	screen/button_tengeki3.nbfc	天撃	Button
+028	screen/button_tool.nbfc	道具	Button
+028	screen/button_tool2.nbfc	道具	Button
+028	screen/button_undo2.nbfc	?	Button
+028	screen/button_uptake.nbfc	?	Button
+028	screen/button_v_arm_L.nbfc	左腕	Body part button
+028	screen/button_v_arm_R.nbfc	右腕	Body part button
+028	screen/button_v_assign.nbfc	?	Button
+028	screen/button_v_body.nbfc	胴	Body part button
+028	screen/button_v_head.nbfc	頭	Body part button
+028	screen/button_v_leg_L.nbfc	左足	Body part button
+028	screen/button_v_leg_R.nbfc	右足	Body part button
+028	screen/button_v_meigeki.nbfc	冥撃	Button
+028	screen/button_v_meigeki2.nbfc	冥撃	Button
+029	screen/button_v_meigeki3.nbfc	冥撃	Button
+029	screen/button_v_party.nbfc	?	Button
+029	screen/button_v_trap.nbfc	?	Button
+029	screen/button_v_uptake.nbfc	?	Button
+029	screen/button_v_waza.nbfc	技	Button
+029	screen/button_v_waza2.nbfc	技	Button
+029	screen/button_vandelbook.nbfc	ヴァンデル図鑑	Button
+029	screen/button_yes.nbfc	はい	Button
+029	screen/char_status.nbfc	Lv	Character status label
+029	screen/char_status_v.nbfc	星	Vandel status label
+029	screen/confirmation_window.nbfc	OK	Confirmation button
+029	screen/copyright.nbfc	三条陸・稲田浩司／集英社・テレビ東京・dentsu・東映アニメーション・ビィト製作委員会；BANDAI 2005	Copyright credits
+029	screen/debug_bg.nbfc	冒険王ビィト；バスターズロード；BANDAI	Title and publisher logos
+029	screen/equip2_base.nbfc	装備；ならびかえ；必要Lv；攻撃；防御；命中；回避；もどる；EQUIP；SELECT	Equipment screen and stat labels
+030	screen/equip_base.nbfc	装備；熟練度；もどる；EQUIP；Lv	Equipment screen
+030	screen/exp.nbfc	EXP	Battle banner
+030	screen/formation_base.nbfc	隊列；詳細；攻撃側；もどる；FORMATION	Formation screen
+030	screen/gba_link_base.nbfc	GBAリンク；GBA LINK	GBA link screen
+030	screen/hit.nbfc	HIT	Battle banner
+030	screen/hone2.nbfc	鍛える；攻撃；防御；命中；回避；必要Lv；もどる；HONE；MG；MAX	Upgrade screen and stat labels
+030	screen/hone_base.nbfc	鍛える；ならびかえ；そうびアイテム；攻撃；防御；命中；回避；必要Lv；もどる；HONE；SELECT；START；MG；MAX	Upgrade screen and control hints
+030	screen/info_base.nbfc	情報；クエスト；モンスター図鑑；バスター図鑑；ヴァンデル図鑑；もどる；INFORMATION	Information menu
+030	screen/item_base.nbfc	道具；ならびかえ；もどる；ITEM；SELECT	Item screen
+030	screen/main_base.nbfc	メインメニュー；パーティ；情報；オプション；セーブ；MAIN MENU；MG	Main menu
+030	screen/main_char_v_win.nbfc	Lv	Character status window
+030	screen/main_char_win.nbfc	Lv	Character status window
+030	screen/main_v_parts.nbfc	星	Vandel status label
+031	screen/mg.nbfc	MG	Battle banner
+031	screen/mode_begin.nbfc	?	Mode selection button
+031	screen/mode_buster.nbfc	バスター	Mode selection button
+031	screen/mode_exchange_mon.nbfc	モンスター交換	Mode selection button
+031	screen/mode_friend.nbfc	仲間と対戦	Mode selection button
+031	screen/mode_gba_link.nbfc	GBAリンク	Mode selection button
+031	screen/mode_load.nbfc	ロード	Mode selection button
+031	screen/mode_radio.nbfc	通信	Mode selection button
+031	screen/mode_story.nbfc	ストーリー	Mode selection button
+031	screen/mode_vandel.nbfc	ヴァンデル	Mode selection button
+031	screen/mode_vs.nbfc	対戦	Mode selection button
+031	screen/mode_vs_battle.nbfc	対戦バトル；VS	Mode selection button
+031	screen/mode_vs_battle2.nbfc	陣取りバトル；VS	Mode selection button
+031	screen/monster_book_base.nbfc	モンスター図鑑；属性；攻撃；命中；防御；回避；懸賞金；昇格値；出現場所；もどる；MONSTER BOOK；NO.	Monster encyclopedia and stat labels
+031	screen/monster_confidental_base.nbfc	モンスター腹心化；ならびかえ；もどる；MONSTER CONFIDANCE；SELECT	Monster recruitment screen
+031	screen/monster_confidental_str.nbfc	このモンスターを腹心にします	Monster recruitment banner
+031	screen/monster_exchange_base.nbfc	モンスター交換；もどる；MONSTER EXCHANGE	Monster exchange screen
+031	screen/monster_exchange_base2.nbfc	モンスター交換；MONSTER EXCHANGE	Monster exchange screen
+031	screen/monster_exchange_give_sub1_1.nbfc	何体あげますか？	Quantity prompt
+032	screen/monster_exchange_give_sub1_2.nbfc	決定	Confirmation button
+032	screen/monster_exchange_give_sub2.nbfc	このモンスターを受け渡します。よろしいですか？ はい いいえ	Monster transfer confirmation window
+032	screen/monster_exchange_take_sub1_1.nbfc	このモンスターを受け取ります。よろしいですか？	Monster receipt confirmation window
+032	screen/monster_exchange_take_sub_2.nbfc	よろしいですか？ はい いいえ	Confirmation window and buttons
+032	screen/name_entry_base.nbfc	名前入力 NAME ENTRY 決定	Name entry caption and confirmation button
+032	screen/name_word_win.nbfc	かな 英字 記号 削除	Keyboard mode and delete buttons
+032	screen/name_word_win_sub.nbfc	かな 英字 記号 削除	Keyboard mode and delete buttons
+032	screen/option_base.nbfc	オプション OPTION メッセージ はやい ふつう おそい BGM SE ON OFF もどる	Options screen labels and buttons
+032	screen/party_base.nbfc	パーティメニュー PARTY MENU 道具 特技 装備 ステータス クイックコマンド 隊列 戦術 パーティ編成 もどる	Party menu caption and buttons
+032	screen/party_base_v_parts.nbfc	軍団メニュー FORCE MENU	Force menu caption
+032	screen/party_breakup_str.nbfc	このパーティを 解散しますか？	Party disband confirmation banner
+032	screen/party_breakup_v_str.nbfc	この軍団を 解散しますか？	Force disband confirmation banner
+032	screen/party_leader_create_str.nbfc	パーティリーダーを設定してください	Party leader selection prompt
+032	screen/party_leader_str.nbfc	主人公はパーティから外せません	Party restriction banner
+032	screen/party_leader_v_str.nbfc	主人公は軍団から外せません	Force restriction banner
+033	screen/party_order2_base.nbfc	パーティ指示 PARTY ORDER SELECT ならびかえ もどる	Party orders caption and buttons
+033	screen/party_order2_v_parts.nbfc	軍団指示 FORCE ORDER SELECT ならびかえ	Force orders caption and sort label
+033	screen/party_order3_parts.nbfc	パーティ指示 PARTY ORDER	Party orders caption
+033	screen/party_order3_v_parts.nbfc	軍団指示 FORCE ORDER	Force orders caption
+033	screen/party_order_base.nbfc	パーティ指示 PARTY ORDER パーティ リーダー 指示 もどる	Party orders screen labels and buttons
+033	screen/party_order_base2.nbfc	パーティ指示 PARTY ORDER パーティ リーダー 指示 もどる	Party orders screen labels and buttons
+033	screen/party_order_v_parts.nbfc	軍団指示 FORCE ORDER 軍団 リーダー	Force orders screen labels
+033	screen/party_v_leader_create_str.nbfc	軍団のリーダーを設定してください	Force leader selection prompt
+033	screen/party_yn_win.nbfc	はい いいえ	Yes/no buttons
+033	screen/quest_accept_win.nbfc	No. MG このクエストを受けますか？ はい いいえ	Quest acceptance window
+033	screen/quest_detail_base.nbfc	クエスト詳細 QUEST DETAIL 報酬 MG 期限 依頼場所 依頼者 もどる	Quest details caption and labels
+033	screen/quest_detail_v_parts.nbfc	BL	Currency label
+033	screen/quest_report.nbfc	クエスト報告 QUEST REPORT MG 詳細 もどる	Quest report screen caption and buttons
+033	screen/quest_report_v_parts.nbfc	BL	Currency label
+033	screen/quest_report_win.nbfc	No. MG このクエストをどうしますか？ 完了報告 あきらめる	Quest report action window
+033	screen/quest_report_win_v_parts.nbfc	BL	Currency label
+033	screen/quest_select_base.nbfc	クエスト選択 QUEST SELECT MG 詳細 もどる	Quest selection caption and buttons
+033	screen/quest_select_win.nbfc	No. MG	Quest listing window labels
+033	screen/quick_base.nbfc	クイックコマンド QUICK COMMAND もどる	Quick command screen caption and back button
+034	screen/quick_base2.nbfc	クイックコマンド QUICK COMMAND SELECT ならびかえ もどる	Quick command screen caption and buttons
+034	screen/radio_battle_draw1.nbfc	?	Fragmented battle draw banner
+034	screen/radio_battle_draw2.nbfc	?	Fragmented battle draw banner
+034	screen/radio_battle_draw3.nbfc	?	Fragmented battle draw banner
+034	screen/radio_battle_draw4.nbfc	?	Fragmented battle draw banner
+034	screen/radio_battle_lose1.nbfc	?	Fragmented defeat banner
+034	screen/radio_battle_lose2.nbfc	?	Fragmented defeat banner
+034	screen/radio_battle_win1.nbfc	?	Fragmented victory banner
+034	screen/radio_battle_win2.nbfc	?	Fragmented victory banner
+034	screen/radio_buster_exchange_base.nbfc	仲間配布 BUSTER DISTRIBUTION もどる	Companion distribution caption and back button
+034	screen/radio_buster_exchange_win2_1.nbfc	仲間を受け渡します。よろしいですか？	Companion transfer confirmation window
+034	screen/radio_buster_exchange_win2_2.nbfc	Lv よろしいですか？ はい いいえ	Companion transfer confirmation buttons and level label
+034	screen/radio_buster_exchange_win_1.nbfc	仲間を受け取ります。すでに仲間を受け取っていた場合は そのデータを上書きします。	Companion receipt warning window
+034	screen/radio_buster_exchange_win_2.nbfc	Lv よろしいですか？ はい いいえ	Companion receipt confirmation buttons and level label
+034	screen/radio_check_base.nbfc	通信チェック COMMUNICATION もどる	Connection check caption and back button
+034	screen/radio_check_parent_base.nbfc	通信チェック COMMUNICATION もどる	Connection check caption and back button
+034	screen/radio_error_base.nbfc	通信エラー ERROR	Communication error caption
+035	screen/radio_vs_base.nbfc	通信対戦 VERSUS もどる	Wireless versus caption and back button
+035	screen/radio_vs_battle_base.nbfc	通信バトル VERSUS BATTLE 指示 もどる	Wireless battle caption and buttons
+035	screen/radio_vs_battle_base2.nbfc	通信バトル VERSUS BATTLE もどる	Wireless battle caption and back button
+035	screen/radio_vs_party_base.nbfc	通信バトル VERSUS BATTLE 道具 特技 装備 ステータス クイックコマンド 隊列 戦術 もどる	Wireless battle menu buttons
+035	screen/radio_vs_select_base.nbfc	通信バトル VERSUS BATTLE もどる	Wireless battle selection caption and back button
+035	screen/radiomode_base.nbfc	通信モード COMMUNICATION もどる	Communication mode caption and back button
+035	screen/radiomode_child.nbfc	通信接続 ?	Fragmented connection mode graphic
+035	screen/radiomode_parent.nbfc	通信受付 ?	Fragmented connection mode graphic
+035	screen/saiga_base.nbfc	才牙 SAIGA Lv タイミング コマンド 天撃 もどる	Saiga screen caption, labels and buttons
+035	screen/saiga_beet.nbfc	才牙 SAIGA もどる	Saiga screen caption and back button
+035	screen/saiga_timing1.nbfc	1 2 3	Timing indicator numerals
+035	screen/saiga_timing2.nbfc	1 2 3	Timing indicator numerals
+035	screen/saiga_timing3.nbfc	1 2 3	Timing indicator numerals
+035	screen/save2_win.nbfc	ゲームデータを セーブしています 電源を 切らないでください！	Save progress warning
+035	screen/save3_win.nbfc	セーブしました！ OK	Save success window
+035	screen/save4_win.nbfc	セーブできませんでした OK	Save failure window
+036	screen/save_finish_str.nbfc	セーブしました！	Save success banner
+036	screen/save_win.nbfc	ゲームデータを セーブしますか？ はい いいえ	Save confirmation window
+036	screen/shop_all_win.nbfc	MG	Currency label
+036	screen/shop_appraise.nbfc	鑑定 ?	Fragmented shop caption
+036	screen/shop_arm.nbfc	防具屋 ?	Fragmented armor shop caption
+036	screen/shop_arm_buy_base.nbfc	防具購入 ARM PURCHASE SELECT ならびかえ MG 攻撃 防御 命中 回避 必要Lv MAX もどる	Armor purchase screen labels and buttons
+036	screen/shop_arm_hone_win.nbfc	MAX 防御 回避 鍛えますか？ はい いいえ	Armor enhancement confirmation window
+036	screen/shop_arm_sell_base.nbfc	防具売却 ARM SELLOUT SELECT ならびかえ MG 攻撃 防御 命中 回避 必要Lv MAX もどる	Armor sale screen labels and buttons
+036	screen/shop_arm_sell_sub.nbfc	所持数 売りますか？ はい いいえ	Sale quantity and confirmation window
+036	screen/shop_inn.nbfc	宿 ?	Fragmented inn caption
+036	screen/shop_item.nbfc	道具屋 ?	Fragmented item shop caption
+036	screen/shop_item_buy_base.nbfc	道具購入 ITEM PURCHASE SELECT ならびかえ もどる	Item purchase caption and buttons
+036	screen/shop_item_sell_base.nbfc	道具売却 ITEM SELLOUT SELECT ならびかえ もどる	Item sale caption and buttons
+036	screen/shop_mahin.nbfc	魔賓館 ?	Fragmented shop caption
+036	screen/shop_monster_buy_base.nbfc	モンスター購入 MONSTER PURCHASE SELECT ならびかえ BL もどる	Monster purchase caption and buttons
+036	screen/shop_monster_sell_base.nbfc	モンスター売却 MONSTER SELLOUT SELECT ならびかえ BL もどる	Monster sale caption and buttons
+036	screen/shop_weapon_buy_base.nbfc	武器購入 WEAPON PURCHASE SELECT ならびかえ MG 攻撃 防御 命中 回避 必要Lv MAX もどる	Weapon purchase screen labels and buttons
+036	screen/shop_weapon_hone_win.nbfc	MAX 攻撃 命中 鍛えますか？ はい いいえ	Weapon enhancement confirmation window
+037	screen/shop_weapon_sell_base.nbfc	武器売却 WEAPON SELLOUT SELECT ならびかえ MG 攻撃 防御 命中 回避 必要Lv MAX もどる	Weapon sale screen labels and buttons
+037	screen/shop_wepon.nbfc	武器屋 ?	Fragmented weapon shop caption
+037	screen/signature.nbfc	BANDAI	Publisher logo
+037	screen/skill_range.nbfc	単体 複数 全体 自分 ?	Fragmented skill target labels
+037	screen/skill_type.nbfc	攻撃 回復 弱体 強化 ?	Fragmented skill type labels
+037	screen/status_base.nbfc	ステータス STATUS Lv 力 素早さ 精神 攻撃 防御 命中 回避 昇格値 才牙 天撃 装備 もどる	Status screen labels and buttons
+037	screen/tactics2_base.nbfc	戦術 TACTICS 武器 攻撃 回復・防御 天撃 もどる	Tactics screen labels and back button
+037	screen/tactics2_v_parts.nbfc	冥撃	Tactics category label
+037	screen/tactics_base.nbfc	戦術 TACTICS 武器 攻撃 回復・防御 天撃 もどる	Tactics screen labels and back button
+037	screen/tactics_v_parts2.nbfc	冥撃	Tactics category label
+037	screen/tengeki_base.nbfc	天撃 TENGEKI Lv 種類 範囲 もどる	Tengeki screen caption, labels and back button
+037	screen/tengeki_D.nbfc	?	Fragmented selector button graphic
+037	screen/tengeki_U.nbfc	?	Fragmented selector button graphic
+037	screen/tengeki_v_parts.nbfc	冥撃 MEIGEKI 星	Meigeki caption and star label
+037	screen/tengeki_v_parts2.nbfc	星	Star label
+038	screen/title.nbfc	冒険王ビィト ヴァンデル バーサス バスターズ VANDEL VS BUSTERS	Title logo
+038	screen/trap_win.nbfc	ここに配置しますか？ はい いいえ	Trap placement confirmation window
+038	screen/trap_win2.nbfc	ここに配置しました。	Trap placement notification
+038	screen/trap_win3.nbfc	ここはすでに配置されています。	Occupied trap location notification
+038	screen/v_shop_all_win.nbfc	BL	Currency label
+038	screen/v_shop_monster_win.nbfc	BL	Monster shop currency label
+038	screen/v_status2_base.nbfc	ステータス STATUS 星 攻撃 防御 命中 回避 技 冥撃 もどる	Vandel status screen labels and buttons
+038	screen/v_status3_base.nbfc	ステータス STATUS 攻撃 防御 命中 回避 もどる	Monster status screen labels and back button
+038	screen/v_status_base.nbfc	ステータス STATUS 星 力 素早さ 精神 攻撃 防御 命中 回避 頭 胴 左腕 右腕 左足 右足 技 冥撃 もどる	Vandel status screen labels and buttons
+038	screen/v_uptake2_base.nbfc	モンスター取込 MONSTER UPTAKE SELECT ならびかえ 攻撃 命中 防御 回避 技 取り込み もどる	Monster absorption screen labels and buttons
+038	screen/v_uptake_base.nbfc	モンスター取込 MONSTER UPTAKE 頭 胴 左腕 右腕 左足 右足 熟練度 もどる	Monster absorption body-part labels and back button
+038	screen/vandel_book_base.nbfc	ヴァンデル図鑑 VANDEL BOOK 属性 攻撃 命中 防御 回避 報奨金 昇格値 出現場所 No. もどる	Vandel encyclopedia labels and back button
+038	screen/waiting_0.nbfc	?	Fragmented waiting banner
+038	screen/waiting_1.nbfc	?	Fragmented waiting banner
+038	screen/waiting_2.nbfc	?	Fragmented waiting banner
+038	screen/waiting_3.nbfc	…	Waiting banner ellipsis
+038	screen/waza_v_parts.nbfc	技 SKILL 星	Skill caption and star label
+039	screen/world_win_buster.nbfc	バスター Lv	World map Buster status labels
+039	screen/world_win_vandel.nbfc	ヴァンデル 星	World map Vandel status labels
+039	skill/command/cmd_BTN_A.ob	A	Command button sprite
+039	skill/command/cmd_BTN_B.ob	B	Command button sprite
+039	status/bitmap/equip_UD.ob	E Lv	Equipment indicator sprites
+039	status/bitmap/main_char_v_parts3.ob	星	Vandel star label sprite
+039	status/bitmap/status_icon.ob	STR INT DEX MAX	Status indicator sprites
+040	tengeki/skill_range_all.ob	全体	Skill target sprite label
+040	tengeki/skill_range_many.ob	複数	Skill target sprite label
+040	tengeki/skill_range_one.ob	単体	Skill target sprite label
+040	tengeki/skill_range_self.ob	自分	Skill target sprite label
+040	tengeki/skill_type_attack.ob	攻撃	Skill type sprite label
+040	tengeki/skill_type_heal.ob	回復	Skill type sprite label
+040	tengeki/skill_type_statusdown.ob	弱体	Skill type sprite label
+040	tengeki/skill_type_statusup.ob	強化	Skill type sprite label
