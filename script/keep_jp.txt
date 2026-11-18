@@ -89,3 +89,38 @@ a9.vandel.027.desc	description placeholder 説明, never drawn (budgets.json not
 a9.vandel.028.desc	description placeholder 説明, never drawn (budgets.json not-drawn)
 a9.vandel.029.desc	description placeholder 説明, never drawn (budgets.json not-drawn)
 a9.vandel.030.desc	description placeholder 説明, never drawn (budgets.json not-drawn)
+a9.party.016.name	generic buster placeholder: 0x02019564 rolls a random name (busterman/busterwoman.bin) only while the name equals the literal 0x003D (－) at 0x021A94D4, so it must keep those bytes (translated "-" left every generic buster named "-")
+a9.party.017.name	as party.016
+a9.party.018.name	as party.016
+a9.party.019.name	as party.016
+a9.party.020.name	as party.016
+a9.party.021.name	as party.016
+a9.party.022.name	as party.016
+a9.party.023.name	as party.016
+a9.party.024.name	as party.016
+a9.party.025.name	as party.016
+a9.party.026.name	as party.016
+a9.party.027.name	as party.016
+a9.party.028.name	as party.016
+a9.party.029.name	as party.016
+a9.party.030.name	as party.016
+a9.party.031.name	as party.016
+a9.party.032.name	as party.016
+a9.party.033.name	as party.016
+a9.party.034.name	as party.016
+a9.party.035.name	as party.016
+a9.party.036.name	as party.016
+a9.party.037.name	as party.016
+a9.party.038.name	as party.016
+a9.party.039.name	as party.016
+a9.party.040.name	as party.016
+a9.party.041.name	as party.016
+a9.party.042.name	as party.016
+a9.party.043.name	as party.016
+a9.party.044.name	as party.016
+a9.party.045.name	as party.016
+a9.party.046.name	as party.016
+a9.party.047.name	as party.016
+a9.party.048.name	as party.016
+a9.party.049.name	as party.016
+a9.party.050.name	as party.016

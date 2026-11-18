@@ -1,6 +1,7 @@
 {
   "_doc": "Width gate data (docs/windows.md has the evidence per row). Per kind: font (12/8), px = widest line, lines = lines per page (msg) or 1, last_px = last line of a page (page arrow), status measured | jp-bound (box not reached in a tour yet: px = the longest Japanese line of the kind at 12 px, which the box holds; verify in phase 8) | not-drawn (no px: never displayed, e.g. sort keys). Kinds not listed get a 'no budget' warning from tools/lint.py. Byte caps of arm9 slots come from insert.text_cap (max-2, KIND_CAP, engine.RELOC).",
   "msg":          {"font": 12, "px": 240, "lines": 3, "last_px": 222, "status": "measured", "shot": "work/qa/p5_t2/f001250.png"},
+  "ptr.save":     {"font": 8, "px": 170, "lines": 3, "status": "measured", "shot": "work/qa/p13_corrupt2/final.png (title-screen box, 8 px font: a 167 px line drew, the A ending a 178 px one was cut off)"},
   "speaker":      {"font": 12, "px": 80, "lines": 1, "status": "measured", "shot": "work/qa/p5_spk2/f001300.png (64 px fits; 90 px is not drawn at all); work/qa/ne_w2/f004900.png (8 x W = 80 px name drawn in the tag)"},
   "item.name":    {"font": 12, "px": 126, "lines": 1, "status": "measured", "shot": "work/qa/p5_inv/final.png (x 48, count digits from ~179)"},
   "item.desc":    {"font": 12, "px": 194, "lines": 1, "status": "measured", "shot": "work/qa/p5_inv/final.png (box x 6-216, text x 16; one line, the 2nd row is off the box)"},

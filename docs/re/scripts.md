@@ -85,7 +85,10 @@
   pick: a quest gallery has to force that pick. `tools/lua/textlog.lua` logs `QST <pc>`.
 - **Generic buster names** (status/bustername/busterman.bin / busterwoman.bin, 128 x 22 bytes): made at 0x02019590
   (types 0x11-0x1F man, 0x20-0x33 woman), random index from bl 0x0201A938 (returns at 0x02019608, r0), re-rolled
-  while it equals a party member's name; `NAM m|w <idx>` in textlog.lua.
+  while it equals a party member's name; `NAM m|w <idx>` in textlog.lua. The roll runs only while the name copied
+  from the party record (0x02018D20) equals the literal at 0x021A94D4 (u16 0x003D "－", compare 0x020195A0), so
+  party records 16-50 keep those bytes. Joins come from op `5A <type u16> <slot>` (0x02052B44 -> 0x0204C41C ->
+  0x0200980C); the per-type join blocks are at rom.img 0x2D151-0x2F309 (scene `buster_join`, `namesweep.py`).
 - Monster attribute (属性) kanji: table `elem` at 0x021233D8 (10 x 4 bytes), accessor 0x020140F4, drawn by
   0x0208FF20 (monster book) and 0x02065504 (a six-row list) into a small canvas; relocated by `engine.RELOC`.
 - Event entries begin `9A id; 66; 64 map; ...` and end `17 <next event or map setup>; FF`. Setting PC to an entry

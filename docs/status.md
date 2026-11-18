@@ -3,11 +3,34 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 9d8be14834b33334d9f6d3eca98b2015f7cd99cf (session 12; arm9 changed), check.py green (68 tests).
+  Build sha1 fb263edd842e99273866f9edf7138ecc323d9164 (session 13; arm9 changed), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (7,534 shown + 111 waived of 9,472; quests now complete) and the
-  Vandel-mode list (Next (4)).
-- **Phase 8 session 12 (2026-11-19), Orca worker: quests done (637 -> 0 missing), two quest draw bugs fixed.**
+  Left for the done-when: **text coverage** (7,793 shown + 182 waived of 9,472, 1,497 failing;
+  generic names now complete) and the Vandel-mode list (Next (4)). Biggest left: weapon 380, rom.msg 278, skill 134,
+  buster 132, meigeki 126, tengeki 108, keyitem 90, vandel 78, wpntype 68, special 30, party 27, area2 25, ptr 21.
+- **Phase 8 session 13 (2026-11-19), Orca worker: generic-buster name bug fixed, names swept, wireless/GBA waived.**
+  - **Bug fixed (real, English only):** generic busters (party types 0x11-0x33 = records 16-50) never got a random
+    name. 0x02019564 copies the party name, then rolls one from busterman/busterwoman.bin only while it equals the
+    literal 0x003D (－) at 0x021A94D4 (compare at 0x020195A0); our "-" made the compare fail, so every hired buster
+    would be named "-". Records 16-50 now keep the original bytes (`en` empty + `script/keep_jp.txt`), test
+    `tests/test_party_placeholder.py`. After the fix the roll runs (`NAM m 87`, work/qa/p13_bj5).
+  - Join path: script op `5A <type u16> <slot>` (handler 0x02052B44 -> 0x0204C41C: types 0x11-0x33 -> new member
+    0x0200980C -> 0x02019564). rom.img has one join block per type x 3 at 0x2D151-0x2F309 (reached from op `61`
+    NPC entries like 0x2C66D/0x2CAC0; the block's own check at 0x2D13D-0x2D141 skips the join in a fresh game, so
+    the scene queues past it). New scene `buster_join` (East Village, q2D14F) and `tools/debug/namesweep.py`
+    (16 queued joins per run, idloop forcing the index at 0x02019608; woman block q2E9A0) -> `work/qa/cover/name_*`.
+    The new member joins the roster, not the lineup: Status / Lineup still show only Beet, so the names are not
+    seen drawn yet (find the roster screen: guild party change? then one zoomed shot).
+  - Waivers: 47 `ptr.comm` (wireless partner) + 25 `ptr.gba` (GBA cartridge in slot 2) in docs/text_unshown.tsv.
+  - Weapons left (95 records): shields 0-10/20 (sold in the armor shop? category), 13/14 effect slots, 15-24 special,
+    174-223 "Player Sword/Spear/..." placeholders, 224-253 Vandel/character weapons; all hang the sell list.
+  - **Save errors (fixed):** a corrupted battery file (work/saves/corrupt.dsv = clear_save.dsv with every 7th byte
+    from 0x40 to 0x1000 xor 0x5A; `emu.py --sav work/saves/corrupt.dsv`, scene title_story_clear, EXTRA
+    't90,94 w400 t90,94 w300') shows "Save data is corrupted..." in a title-screen box that uses the **8 px font**,
+    ~170 px: the A ending line 1 was cut off (work/qa/p13_corrupt2). The four save/backup errors (021A9D04..021A9DE4)
+    are now kind `ptr.save` (arm9text.PTR_GROUPS, budgets.json font 8 px 170) and rewrapped. The other three
+    (save failed, load failed, no backup memory) are not reached yet: load failed / no backup need a read error or
+    no save chip (emu.py has no switch for that); save failed needs a write error.
   - Quest RE in `docs/re/scripts.md` §Quest boards: the board conditions `1C` test event-**seen** bits (warp `sNNN`,
     not `fNNN`); session 10's empty board came from skipping the slot setup `11 00 00`. Real counters: scenes
     `quest_counter` (rom 0x2AFC0) / `quest_counter2` (0x2AFA6) fill 3 random quests at the start of the game.

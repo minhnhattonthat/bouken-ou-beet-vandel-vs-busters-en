@@ -67,8 +67,8 @@
   {
    "id": "a9.021A9D04",
    "jp": "セーブに失敗しました{br}Ａボタンを押すと戻ります{close}",
-   "en": "Save failed. Press the A Button{br}to return.{close}",
-   "kind": "ptr.msg",
+   "en": "Save failed.{br}Press the A Button to return.{close}",
+   "kind": "ptr.save",
    "ptrs": [
     "021A9D00"
    ]
@@ -76,8 +76,8 @@
   {
    "id": "a9.021A9D38",
    "jp": "セーブデータが破壊されています{br}Ａボタンを押すと{br}セーブデータを初期化します{close}",
-   "en": "Save data is corrupted. Press the A{br}Button to reset the save data.{close}",
-   "kind": "ptr.msg",
+   "en": "Save data is corrupted.{br}Press the A Button to reset{br}the save data.{close}",
+   "kind": "ptr.save",
    "ptrs": [
     "021A9CFC"
    ]
@@ -85,8 +85,8 @@
   {
    "id": "a9.021A9D8C",
    "jp": "セーブデータの読み込みに失敗しました{br}電源を切って{br}カードを差し込み直してください{close}",
-   "en": "Failed to load save data. Turn off{br}the power and reinsert the{br}Game Card.{close}",
-   "kind": "ptr.msg",
+   "en": "Failed to load save data.{br}Turn off the power and{br}reinsert the Game Card.{close}",
+   "kind": "ptr.save",
    "ptrs": [
     "021A9CF8"
    ]
@@ -94,8 +94,8 @@
   {
    "id": "a9.021A9DE4",
    "jp": "バックアップメモリが認識できませんでした{br}電源を切って{br}カードを差し込み直してください{close}",
-   "en": "Backup memory could not be{br}detected. Turn off the power and{br}reinsert the Game Card.{close}",
-   "kind": "ptr.msg",
+   "en": "Backup memory not detected.{br}Turn off the power and{br}reinsert the Game Card.{close}",
+   "kind": "ptr.save",
    "ptrs": [
     "021A9CF4"
    ]

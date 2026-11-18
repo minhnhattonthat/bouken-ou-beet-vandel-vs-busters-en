@@ -60,7 +60,7 @@ NOTES = {0x021AA0F8: 'name-entry kana keyboard row: keep Japanese (ptr.keyboard 
 # Pointer strings by screen (kind ptr.<group>; budgets in tools/budgets.json): first address of each group, in order.
 PTR_GROUPS = [
     (0x0219AD0C, 'label'),      # バスター / ハーデンの配下 (b14 caption), quest categories 護衛 討伐..
-    (0x021A9D04, 'msg'),        # save / backup errors (message window)
+    (0x021A9D04, 'save'),       # save / backup errors (title-screen box, ~170 px: work/qa/p13_corrupt2)
     (0x021AA0F8, 'keyboard'),   # name-entry kana rows + kana list
     (0x021AAE9C, 'msg'),        # ring broken/repaired, appraiser lines
     (0x021AAECC, 'speaker'),    # 鑑定士
