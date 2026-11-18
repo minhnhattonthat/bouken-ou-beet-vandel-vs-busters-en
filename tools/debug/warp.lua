@@ -4,7 +4,9 @@
 --
 --   emu.py ROM --out DIR --script tools/debug/warp.lua --var "SCENE='name'" --frames N [--sheet]
 --   optional globals: SCENES='abs/path/scenes.tsv' (default: found relative to the emulator dir or repo),
---                     GOD=1 (party HP pinned; see god_tick), NOMASH=1 (no auto A presses after the warp).
+--                     GOD=0/1 (default 1 for event/touch: party HP pinned, enemies set down after GOD_WIN
+--                     frames of battle; see god_tick), NOMASH=1 (no auto A presses after the warp).
+--   The run fails (exit 2) if the warp never fires or the game resets to the title afterwards (RESET in log).
 --
 -- Scene kinds (tools/debug/scenes.tsv, columns: name kind arg mash frames set note):
 --   title       stay on the title screen (no input)
@@ -14,7 +16,9 @@
 --   gameover    warp to event `arg` (one with a battle), then force battle state 13 (game-over screen)
 --   touch       warp to event `arg`, and after `frames`-300 frames tap the touch points in `set`
 -- `mash` = press A every N frames after the warp (0 = never). `set` (event kind): space-separated writes applied at
--- warp time: fNNN = story flag bit (opcode 41/96), sNNN = event-seen bit (opcode 9A), hex ids.
+-- warp time: fNNN = story flag bit (opcode 41/96), sNNN = event-seen bit (opcode 9A), hex ids; qXXXX = queue the
+-- script at hex offset XXXX to run when `arg` ends (NPC talk events that load no map: warp `arg` = a map-load script,
+-- e.g. 29BFA = East Village; the field's script-running state 0x02030D44 chains to [field_obj+0x3D8]).
 -- RAM layout (docs/re/scripts.md §Interpreter state): ctx ptr 0x021BEDAC (ctx+8 = PC), save base [0x021BA3A0],
 -- slot [0x021BEBE0], flags = [save+0x1580+8], seen = [save+0x158C+8], battle state 0x021BEE90.
 
@@ -84,7 +88,63 @@ if kind ~= "title" then
   L.press("t128,88", 6); L.press("-", 300)
 end
 
+-- GOD mode (default on for event/touch scenes; GOD=0 turns it off): while a battle runs, every party unit's HP is
+-- pinned to the highest value seen; GOD_WIN frames (default 300) into the battle every enemy is set down (HP 0,
+-- status 10), so the state-4 handler takes its own win path (0x020A347C true -> state 6). Battle object = r0 of the
+-- state-4 handler 0x0209E690; units at obj+0x98+side*0x14+i*4 (5 per side), player side [obj+0x58], unit HP u16 at
+-- +0x1E, status +0x274 (10 = down), present flag +0x350 (docs/re/scripts.md §Battle). Holding enemy HP at 1 is not
+-- enough: ordinary hits never take the last point.
+local god = GOD
+if god == nil then god = (kind == "event" or kind == "touch") and 1 or 0 end
+local god_win = GOD_WIN or 300
+local battle_obj, god_max, battle_frames = nil, {}, 0
+if god ~= 0 then
+  L.on_exec(0x0209E690, function() battle_obj = memory.getregister("arm9.r0") end)
+end
+local function god_tick()
+  local o = battle_obj
+  if not o or not ram(o) or memory.readdword(0x021BEE90) ~= 4 then battle_frames = 0; return end
+  battle_frames = battle_frames + 1
+  local kill = battle_frames >= god_win
+  if battle_frames == god_win then L.log(string.format("GOD win forced at f%d", L.frame)) end
+  local mine = memory.readdword(o + 0x58)
+  for side = 0, 1 do
+    for i = 0, 4 do
+      local u = memory.readdword(o + 0x98 + side * 0x14 + i * 4)
+      if ram(u) and memory.readdword(u + 0x350) ~= 0 then
+        local hp = memory.readword(u + 0x1E)
+        if side == mine then
+          if hp > (god_max[u] or 0) then god_max[u] = hp end
+          if hp < god_max[u] then memory.writeword(u + 0x1E, god_max[u]) end
+        elseif kill then
+          memory.writeword(u + 0x1E, 0)
+          memory.writedword(u + 0x274, 10)
+        end
+      end
+    end
+  end
+end
+
 local warped, warp_frame = false, nil
+local idle, reset_at = 0, nil
+
+-- queued follow-up script (qXXXX in `set`): once the field is idle after the warp (field state 1, handler
+-- 0x02030EB4), it asks 0x0203D84C for a script triggered at the player's position; the hook on the instruction after
+-- that call (0x02030F50 `movs r4, r0`) hands back the queued offset, so the field runs it like a stepped-on trigger.
+local queued = tonumber((" " .. (sc.set or "")):match("%sq(%x+)") or "", 16)
+local idle_field = 0
+if queued then
+  L.on_exec(0x02030F50, function()
+    if warped and queued then
+      idle_field = idle_field + 1
+      if idle_field >= 60 then
+        memory.setregister("arm9.r0", queued)
+        L.log(string.format("QUEUE f%d run script %05X", L.frame, queued))
+        queued = nil
+      end
+    end
+  end)
+end
 local pc_after = nil
 -- touch kind: `set` = "@FRAME tok tok ..." ; tok = a button or tX,Y (pressed 6 frames, then 90 frames idle),
 -- or wN (idle N frames). Inputs start at FRAME (absolute, from boot); A-mashing stops 60 frames before it.
@@ -105,8 +165,9 @@ L.on_frame(function(n)
       if pc >= 0x871 and pc <= 0x875 then warped, warp_frame = true, n; L.log("WARP newgame f" .. n) end
     elseif kind ~= "title" and pc >= 0x871 and pc <= 0x875 then
       local fl, se = save_obj(0x1580), save_obj(0x158C)
-      for k, id in (sc.set or ""):gmatch("([fs])(%x+)") do
-        local base = (k == "f") and fl or se
+      for tok in (sc.set or ""):gmatch("%S+") do
+        local k, id = tok:match("^([fs])(%x+)$")
+        local base = k and ((k == "f") and fl or se)
         if base then setbit(base, tonumber(id, 16)) end
       end
       memory.writedword(c + 8, target)
@@ -115,6 +176,15 @@ L.on_frame(function(n)
     end
   end
   if warped then
+    if god ~= 0 then god_tick() end
+    -- reset check: after a lost battle the game goes back to the BANDAI logo and title, where there is no script
+    -- context and the battle state word is 0. 600 such frames in a row after the warp = the scene was not reached.
+    if kind ~= "gameover" then
+      if not c and memory.readdword(0x021BEE90) == 0 then
+        idle = idle + 1
+        if idle == 600 then reset_at = n; L.log(string.format("RESET f%d (no script context, no battle)", n)) end
+      else idle = 0 end
+    end
     local since = n - warp_frame
     if kind == "namentry" then
       -- press A through the opening until the name-entry screen; stop pressing there
@@ -149,5 +219,6 @@ L.on_frame(function(n)
       cc and string.format("%08X", cc) or "-", cc and string.format("%05X", memory.readdword(cc + 8)) or "-",
       memory.readdword(0x021BEE90)))
     if kind ~= "title" and not warped then L.fail("warp never fired (interpreter never reached 0x871)") end
+    if reset_at then L.fail(string.format("game reset to the title after the warp (f%d)", reset_at)) end
   end
 end)

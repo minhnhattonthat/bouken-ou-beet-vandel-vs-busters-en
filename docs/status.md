@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2. Debug tool in progress (warp works for ~50 of 71 scenes; GOD mode, shop and a reset-aware check left).
+- **Phase:** 2. Debug tool in progress (all 71 scene rows land by eye; GOD mode and reset check done; shops, inn,
+  quest board, save point, VS mode still to add to the scene list).
   Last build: none yet (build.py arrives in phase 3).
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), DeSmuME QA fork qa-2 in `tools/desmume/`, guard hook wired in
@@ -26,23 +27,29 @@ Updated at the end of every session. Keep it to what the next session needs; his
     gameover (banner, `gameover.png`), field_nash, all menus except menu_busters/menu_vandels (books don't open this
     early: they stay on the Info screen), and story scenes b02-b05, b07-b10, b12-b15, b19, b21, b25, b26, b28, b29,
     v02-v05, v10, v11.
+  - Phase 2, session 2 (2026-11-18): **GOD mode** in warp.lua (default on for event/touch; party HP pinned, enemies
+    set down 300 battle frames in, so the game's own win path runs: battle object/unit layout in `docs/re/scripts.md`
+    §Battle object). **Reset check**: warp.lua fails (RESET in log) when, after the warp, there is no script context
+    and no battle for 600 frames. **Talk events**: `qXXXX` in `set` runs an NPC talk event from the idle field after
+    warping to a map-load script (`tools/debug/maploads.py` lists them; b22, b30, b31, v07, v15-v18 use it). Story
+    frames raised to 4000. Verified by eye (montages `work/qa/m1.png`..`m6.png`, `tools/debug/montage.py`): b06,
+    b11, b16-b18, b20, b22-b25, b27, b30, b31, v01 (lands on the Vandel name-entry screen), v06-v09, v12-v18 — every
+    story row now shows its scene. Helpers: `tools/debug/tsvset.py` (TSV cell writer), `tools/lua/battlelog.lua`.
 - **Next (phase 2):**
-  1. **GOD mode** (warp.lua `GOD=1`, default on for event scenes): with A mashed, a level-1 party loses each event's
-     battle and the game resets to the BANDAI logo/title. Failing that way: b11 (shows GAME OVER), b16, b18, b20, b23,
-     b24, v06, v08, v09, v12, v14. Find party HP in RAM (ramsearch over a battle: HP 47/70 shows in the party menu)
-     or force a win via the battle state machine (table 0x021957E4; 12/13 are lose/game-over, find the win state).
-  2. Blank/black finals (fade or stall; check with shots every 100 frames and longer `frames`): b06, b17, b22, b27,
-     b30, b31, v01, v07, v13, v15-v18. Vandel-mode events may need the mode/slot set ([0x021BEBE0] = 2?) and the
-     player's Vandel name ([FF92]); v01 (0x3EA5A) is reached from 0x3CA01/0x51B66 — warp there instead.
-  3. warp_all.py pass check is too weak (71/71 "ok" though ~20 reset): fail when the final frame is the title/BANDAI
-     screen or when the interpreter ctx/PC shows a reset after the warp; then re-run and verify by eye.
-  4. Shops (item/weapon/armor, Vandel-mode 魔賓館 monster shop): shop UI is a field submodule (state table 0x0219527C,
+  1. Last full run `python -X utf8 tools/debug/warp_all.py --jobs 6`: 71/71 ok with the reset check, states
+     regenerated in `work/states/`. Re-run after any warp.lua change.
+  2. Shops (item/weapon/armor, Vandel-mode 魔賓館 monster shop): shop UI is a field submodule (state table 0x0219527C,
      owner object methods 0x021959B8, field-submode table 0x02195918); town signs are `field/animation/shop_*.ab`.
      D-pad on the field board only moves the panel cursor; find how a town's facilities open (touch the sign on the top
      screen? a town panel action?) or call the shop module from Lua. Also: inn/guild, quest board accept/complete
      ("クエストの終了条件" @0x3E950), save point (routine 0x459), name entry for the Vandel player, VS mode (title
-     second button), 禁断のヴァンデルモード unlock.
-  5. Then phase 2 is done when every scenes.tsv row lands by eye; add the scene list's command to status and move to
+     second button), 禁断のヴァンデルモード unlock. Leads from session 2: top-level mode word 0x021BEBF0 (4 =
+     0x020D8274, which loops over sub-modes in 0x02195918; sub-mode 1 0x020DF480 owns the 0x021959B8 methods), so
+     the shop may be a top-level sub-mode, not a field submodule; tapping the town icon on Nash Plain's board did
+     nothing. Weapon-shop strings (武器屋 / いらっしゃい) at rom.img 0x19F6C/0x1A134 belong to story events, not
+     the shop UI; shop UI text is probably in arm9. Try: hook 0x020D8274/0x020DF480 entry while walking the
+     board into East Village (map 70, warp `29BFA`), or set 0x021BEBF0 and the sub-mode from Lua.
+  3. Then phase 2 is done when every scenes.tsv row lands by eye; add the scene list's command to status and move to
      phase 3 (identity build).
 - **Open questions for later phases:** opcode lengths now known (table 0x021953D0) but `00`/`FF`/`BF` and string pools
   need an entry-point walker (phase 4); arm9 inline name fields only hold 9-10 full-width chars, so English needs

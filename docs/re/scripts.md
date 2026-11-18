@@ -43,6 +43,24 @@
 - Credits = script routine 0x2EE (`6B` per bg/creditNN, `AD 2C 01` = 300 frames each). Save prompt routine 0x459.
 - Battle mode: state machine dispatched at 0x0209EB90 from table 0x021957E4 (37 states), state word **0x021BEE90**;
   13 = game over (banner after ~90 frames), 4 = battle running. `tools/lua/statelog.lua` logs it (needs --debugger).
+- **Battle object** = r0 of the state-4 handler 0x0209E690. Units: `[obj+0x98+side*0x14+i*4]` (5 per side), player
+  side `[obj+0x58]`. Unit: +0x1E HP (u16; the only HP field), +0x20 SP/break gauge (max +0x32), +0x274 status
+  (10 = down), +0x350 present. State 4 ends the battle: 0x020A3384 (party all down) -> result 1, state 12 (lose);
+  0x020A347C (enemies all down: HP 0 and status 10) -> result 0, state 6 (win); other paths -> 16/19 (VS mode).
+  Ordinary hits never take an enemy's last HP point, so GOD mode sets enemies down instead (`tools/debug/warp.lua`).
+- **Field state machine**: dispatcher 0x0203123C(state, field_obj), table 0x02195264 (0 init, 1 idle/input
+  0x02030EB4, 2 script running 0x02030D44, ...); the state lives in r8 of the field loop 0x0202D0xx, not in RAM.
+  Idle state 1 starts a script by writing its offset to [field_obj+0x3D4] and ctx+8 and returning 2: NPC talk at
+  0x020310A0, position triggers via 0x0203D84C (return value checked at 0x02030F50). State 2 chains to
+  [field_obj+0x3D8] when a script ends. Field obj was 0x0225E3A0.
+- **NPC talk events** (no `64` map load of their own) are reached from NPC handler blocks registered by
+  `61 <npc u16> <x> <y> <u16> <u32 handler>` (also `67/68/04`) in a map's NPC setup; map-load scripts
+  `66 77 xx 64 <map> 69 <u16> <x> <y> <u8> 17 <setup>` load a map and run its setup (`tools/debug/maploads.py`,
+  e.g. 29BFA East Village, 1D3CA Golden Castle, 2FE2C map 79). Warp to a map-load script, then run the talk event
+  from the idle field (`qXXXX` in scenes.tsv).
+- Top-level mode word **0x021BEBF0**: 0 boot, 2 title (0x020274D0), 3 0x02028E1C, 4 0x020D8274 (runs sub-modes from
+  table 0x02195918; sub-mode 1 = 0x020DF480, owner of the 0x021959B8 methods), 5 0x020E96BC. Which mode is story
+  play and which is the shop is not proven yet.
 - Field main 0x0202CC70 (called from 0x02002E30, which also runs battles); shop UI state table 0x0219527C (dispatcher
   0x0203B598, owner object methods at 0x021959B8). How the player opens a shop is still open (see status.md).
 
