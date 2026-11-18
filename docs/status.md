@@ -5,9 +5,33 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,951 shown + 462 waived of 9,472, **59 failing**; weapons complete in
-  session 19) and the Vandel-mode list (Next (4)). Left: wpntype 15 (8, 11, 15-20, 22-28), special 26 (7, 11-35),
-  ptr 18 (list in session 17 below).
+  Left for the done-when: **text coverage** (8,994 shown + 464 waived of 9,472, **14 failing**, all ptr: list in
+  session 20 below) and the Vandel-mode list (Next (4)).
+- **Phase 8 session 20 (2026-11-19), Orca worker: wpntype + special complete, save errors (59 -> 14 failing).**
+  - **wpntype done.** Member 2's weapon is save+0x1988 (member stride 0x12C from 0x185C); in b29 the event script
+    rewrites it at f1626 (0x02018EB4), so hold it after that with memset.lua (FROM=1640): every Saiga weapon and
+    Iron Ball 144 then fetch their wpntype in battle without the reset that the first member's slot gave
+    (`work/qa/cover/wb2`, Claw via member 1 in `wbattle2/7C`). Weapon -> wpntype is weapon+0xA0 (value = idx+1),
+    weapon -> special is weapon+0xB0 (idx+1). `pokesweep.py` now takes `--script/--var/--debugger` (examples in
+    its docstring); `idloop.lua` takes a second hook (`IDLOOP2_*`).
+  - **special done** (7 and 11-35): the battle special cut-in 0x020AF570 (from 0x020AACC4: acting unit's weapon
+    unit+0x55C[unit+0x574] -> weapon+0xB0) runs at f1860 in b29 when member 2 holds weapon 15; forcing r0 at
+    0x020AAD28 to weapon id+1 fetches each special (`work/qa/cover/spsweep/<v>`). The battle then sits dimmed with
+    no name on screen in the natural run too (input wait?), so this is fetch coverage like the weapon rows.
+  - **Save errors:** table 0x021A9CF4 = [no backup, load failed, (2), save failed], shown by 0x02027DD8(idx).
+    Forced and drawn: no backup (idloop 0x02027500 r0=-1, `work/qa/cover/saveerr_nobackup`), load failed
+    (0x0200921C r0=0x20 + IDLOOP2 0x02009250 r0=1, `saveerr_loadfail`). Save failed waived (GBA link screen only).
+  - **Escort waived:** quest type 2 is never set by quest.img op 30 (the only writer of the type field).
+  - **ptr left (14):** ring destroyed/restored 021AAE9C/B4: substep 1 of the 6-ring loop (walk states 0x13-0x24,
+    sub = (state-0x13) % 3, ring = /3) in 0x0204651C = script op 77 (scripted board walk, 295 sites); each ring is
+    an entry of the list [save+0x154C] (0x14 bytes, +0x12 != 0 and 0x020264F8(list, i)); in field_nash op 77 returns
+    at once (hero already on node 0x44), and poking save+0xD (`w000D=43`) did not make it walk. Next: find an op 77
+    that really walks (execlog 0x02046890), then force 0x020468E8 / 0x02046924 r0=1 (idloop + IDLOOP2). Appraiser
+    021AAECC-F14, two-hander/shield 021AB998/BC, roster full 021AE59C, joined 021B1820, Saiga learn 021B424C-29C:
+    as in session 17 below.
+  - **Gotchas:** a run that saves in-game (menu_save Yes) leaves `tools/desmume/desmume-qa/Battery/beet_en.dsv`, and
+    every later warp then fails ("warp never fired"): delete it after such a run. Forcing a register at a `cmp`
+    pc (0x02009270 r5) did not take; forcing it one instruction earlier at the producing `movs` did.
 - **Phase 8 session 19 (2026-11-19), Orca worker: weapon records complete (404 -> 59 failing).**
   - **All weapon records fetched in a real battle:** a battle builds its units from the members' equipped weapon
     (save+0x185C = id+1 | 0x100, first member) and fetches that weapon record (+ its wpntype for the Player
@@ -431,8 +455,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   work/qa/gallery work/qa/cover with `--waive docs/text_unshown.tsv`):
   names (done), skills/tengeki/meigeki (done session 14; skill rows draw blank, see there), specials, buster/vandel books
   (done session 16), key items (done session 16), weapon records (done session 19, battle sweep), Saiga wpntypes /
-  specials (session 19 list),
-  rom.msg (done session 17), ptr 18 (session 17 list). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
+  specials (done session 20),
+  rom.msg (done session 17), ptr 14 (session 20 list). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
   registration bit set, skills); quests and names need the random pick forced (quest board 4F at 0x3C288; name

@@ -11,17 +11,20 @@
 -- Globals: IDLOOP_ACC (accessor address, or the address where r0 holds the id), IDLOOP_REG (default "r0"),
 -- IDLOOP_FROM (first id, default 0), IDLOOP_N (count), IDLOOP_AFTER (frame before which calls are left alone,
 -- default 0). Logs IDLOOP <id> f<frame> per forced call; after the last id calls are left alone.
-local acc = IDLOOP_ACC
-if acc then
-  local reg = "arm9." .. (IDLOOP_REG or "r0")
-  local from, n, after = IDLOOP_FROM or 0, IDLOOP_N or 1, IDLOOP_AFTER or 0
+-- A second, independent hook: the same globals with the prefix IDLOOP2_ (e.g. force a branch flag at one pc and a
+-- result code at a later one: the boot save-load failure, docs/status.md session 20).
+local function hook(acc, reg, from, n, after, tag)
+  reg = "arm9." .. (reg or "r0")
+  from, n, after = from or 0, n or 1, after or 0
   local k = 0
   L.on_exec(acc, function()
     if k < n and L.frame >= after then
       local id = from + k
       memory.setregister(reg, id)
-      L.log(string.format("IDLOOP %X f%d", id, L.frame))
+      L.log(string.format("%s %X f%d", tag, id, L.frame))
       k = k + 1
     end
   end)
 end
+if IDLOOP_ACC then hook(IDLOOP_ACC, IDLOOP_REG, IDLOOP_FROM, IDLOOP_N, IDLOOP_AFTER, "IDLOOP") end
+if IDLOOP2_ACC then hook(IDLOOP2_ACC, IDLOOP2_REG, IDLOOP2_FROM, IDLOOP2_N, IDLOOP2_AFTER, "IDLOOP2") end

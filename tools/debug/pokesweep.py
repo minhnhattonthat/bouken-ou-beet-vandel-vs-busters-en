@@ -5,7 +5,17 @@ its wpntype and its special). Runs land in OUT/<id hex>/ with textlog.lua; point
     python -X utf8 tools/debug/pokesweep.py --scene b29_my_castle --poke "w185C={lo:02X}{hi:02X}" --add 1 --hi 1
       --ids 0,13-19,22-24 --out work/qa/cover/wbattle [--frames 4000] [--jobs 3] [--rom build/beet_en.nds]
 
-{lo}/{hi} = low / high byte of (id + ADD) | HI << 8; {id} = the id. Exit 1 if any run failed (emu exit != 0).
+{lo}/{hi} = low / high byte of (id + ADD) | HI << 8; {v} = that whole value; {id} = the id. Exit 1 if any run
+failed (emu exit != 0).
+
+--poke is optional; --script LUA (inserted before textlog.lua, repeatable) and --var NAME=VALUE (repeatable, same
+{..} fields) add Lua probes that need the id, with --debugger. Session 20 examples:
+  member 2's weapon (the event script rewrites save+0x1988 at f1626, so hold it after that) -> its wpntype:
+    --scene b29_my_castle --add 1 --hi 1 --debugger --script tools/lua/memset.lua --var MEMSET_PTR=0x021BA3A0
+    --var MEMSET_OFF=0x1988 --var MEMSET_VAL={v} --var MEMSET_SIZE=2 --var MEMSET_FROM=1640 --var MEMSET_ONCE=1
+  the battle special cut-in (0x020AF570) with the acting unit's weapon id forced at 0x020AAD28 (r0 = weapon id+1):
+    the memset above with --var MEMSET_VAL=0x110 (weapon 15, whose special member 2 uses at f1860), plus
+    --script tools/lua/idloop.lua --var IDLOOP_ACC=0x020AAD28 --var IDLOOP_FROM={v} --add 1 --frames 2400
 """
 import argparse
 import subprocess
@@ -30,7 +40,7 @@ def ids_of(spec):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--scene', required=True)
-    ap.add_argument('--poke', required=True)
+    ap.add_argument('--poke', default='')
     ap.add_argument('--add', type=lambda s: int(s, 0), default=0)
     ap.add_argument('--hi', type=lambda s: int(s, 0), default=0)
     ap.add_argument('--ids', required=True)
@@ -38,15 +48,28 @@ def main():
     ap.add_argument('--frames', type=int, default=4000)
     ap.add_argument('--jobs', type=int, default=3)
     ap.add_argument('--rom', default='build/beet_en.nds')
+    ap.add_argument('--script', action='append', default=[], help='extra Lua probe, before textlog.lua')
+    ap.add_argument('--var', action='append', default=[], help='NAME=VALUE for the probes ({id} {v} {lo} {hi})')
+    ap.add_argument('--debugger', action='store_true', help='emu.py --debugger (exec hooks)')
+    ap.add_argument('--shot-every', type=int, default=500)
     a = ap.parse_args()
 
     def run(i):
         v = ((i + a.add) & 0xFF) | a.hi << 8
-        tok = a.poke.format(lo=v & 0xFF, hi=v >> 8, id=i)
+        fields = dict(lo=v & 0xFF, hi=v >> 8, id=i, v=v)
+        tok = a.poke.format(**fields)
         out = Path(a.out) / f'{i:X}'
         cmd = [sys.executable, '-X', 'utf8', str(Path(SKILL) / 'scripts' / 'emu.py'), a.rom, '--out', str(out),
-               '--script', 'tools/debug/warp.lua', '--var', f"SCENE='{a.scene}'", '--var', f"EXTRA='{tok}'",
-               '--script', 'tools/lua/textlog.lua', '--frames', str(a.frames), '--shot-every', '500']
+               '--script', 'tools/debug/warp.lua', '--var', f"SCENE='{a.scene}'"]
+        if tok:
+            cmd += ['--var', f"EXTRA='{tok}'"]
+        for s in a.script:
+            cmd += ['--script', s]
+        for kv in a.var:
+            cmd += ['--var', kv.format(**fields)]
+        if a.debugger:
+            cmd += ['--debugger']
+        cmd += ['--script', 'tools/lua/textlog.lua', '--frames', str(a.frames), '--shot-every', str(a.shot_every)]
         r = subprocess.run(cmd, cwd=ROOT, capture_output=True, text=True)
         print(f'{i:X} {tok} exit {r.returncode}', flush=True)
         return r.returncode
