@@ -241,6 +241,34 @@ twd:
     pop {{r0, r2, r3, r4, r5, ip, lr}}
     bx lr
 
+qd_x:
+    push {{r0, r2, r3, r4, r5, ip, lr}}
+    add r4, r6, sl, lsl #1
+    sub r4, r4, sb, lsl #1
+    mov r5, sb
+    mov ip, #0
+qdl:
+    cmp r5, #0
+    beq qdd
+    ldrh r1, [r4], #2
+    mov r0, #2
+    bl wcode
+    add ip, ip, r0
+    sub r5, r5, #1
+    b qdl
+qdd:
+    mov r1, ip
+    pop {{r0, r2, r3, r4, r5, ip, lr}}
+    bx lr
+
+qb_x:
+    push {{r0, r2, r3, r4, r5, ip, lr}}
+    add r4, r5, sb, lsl #1
+    sub r4, r4, r8, lsl #1
+    mov r5, r8
+    mov ip, #0
+    b qdl
+
 name_half:
     push {{r1, r2, r3, r4, r5, r6, lr}}
     mov r4, r3
@@ -310,7 +338,18 @@ SITES = {
     0x020206A0: (None, 'bl adv_r6m'),
     0x02022828: ('081082e2', 'bl tw_x'),      # typewriter: add r1, r2, #8 (x = col*12 + 8) -> sum of widths
     0x02022884: ('130050e3', 'cmp r0, #0xFF'),   # typewriter auto-wrap after 19 codes -> off (explicit breaks)
-    0x02095314: ('0600a0e3', 'bl name_half'),     # speaker tag centring: mov r0, #6; mul r0, r1, r0 (6 px x count)
+    0x0207523C: ('990101e0', 'bl qd_x'),          # Quest Detail description (one code per 0x020201BC call):
+                                                  #   mul r1, sb, r1 (x = col*12) -> sum of widths (codes at
+                                                  #   [r6 + 2*(sl-sb)], sb of them)
+    0x02074200: ('980101e0', 'bl qb_x'),          # Quest Select board preview (`2D` description, 15 codes x 4
+                                                  #   lines): mul r1, r8, r1 -> sum of widths ([r5 + 2*(sb-r8)])
+    0x020741E0: ('0680a091', 'movls r8, #0xFF'),  #   new-line column marker 15 (r6, also the colour arg) -> 255
+    0x0207421C: ('0f0058e3', 'cmp r8, #0xFF'),    #   and the 15-code auto-wrap -> off
+    0x02075148: ('0010a0e3', 'mov r1, #8'),      # Quest Detail deadline "None" (a9.021ADF44): x 0 -> 8, clear of
+                                                  #   the redrawn Deadline label (it ends ~3 px past x 0)
+    0x02075204: ('1370a0e3', 'mov r7, #0xFF'),   #   new-line column marker 19 -> 255, and
+    0x02075258: ('130059e3', 'cmp sb, #0xFF'),    #   the 19-code auto-wrap -> off (explicit {br})
+    0x02095314: ('0600a0e3', 'bl name_half'),    # speaker tag centring: mov r0, #6; mul r0, r1, r0 (6 px x count)
     0x02095318: ('910000e0', 'mov r0, r0'),       #   -> half the pixel width
     0x020951C8: ('0600a0e3', 'bl name_half2'),    # the other tag layout ([obj+0x10] set): mov r0, #6; mul r1, r2, r0
     0x020951CC: ('920001e0', 'mov r0, r0'),       #   (count in r2, string r3) -> r1 = half the pixel width

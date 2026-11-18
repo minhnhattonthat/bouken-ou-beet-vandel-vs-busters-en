@@ -11,8 +11,8 @@
   {
    "id": "quest.02080",
    "jp": "ミュテリン山地の薬花の採集",
-   "en": "Gather Medicinal Flowers in the{br}Muterin Mountains.",
-   "kind": "desc",
+   "en": "Gather Medicinal Flowers in{br}the Muterin Mountains.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -25,8 +25,8 @@
   {
    "id": "quest.0210C",
    "jp": "リンブロ平原の薬花の採集",
-   "en": "Gather Medicinal Flowers in the{br}Rinburo Plains.",
-   "kind": "desc",
+   "en": "Gather Medicinal Flowers in{br}the Rinburo Plains.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -39,8 +39,8 @@
   {
    "id": "quest.02198",
    "jp": "リンラーゴ山地の薬花の採集",
-   "en": "Gather Medicinal Flowers in the{br}Rinrago Mountains.",
-   "kind": "desc",
+   "en": "Gather Medicinal Flowers in{br}the Rinrago Mountains.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -60,8 +60,8 @@
   {
    "id": "quest.02230",
    "jp": "ダチャレイ洞窟の鉱石の採集",
-   "en": "Gather Ore in Dacharei Cave.",
-   "kind": "desc",
+   "en": "Gather Ore in{br}Dacharei Cave.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -75,7 +75,7 @@
    "id": "quest.022D0",
    "jp": "ベヌル荒野の鉱石の採集",
    "en": "Gather Ore in the{br}Benuru Wastes.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -89,7 +89,7 @@
    "id": "quest.02368",
    "jp": "ソーレ谷の鉱石の採集",
    "en": "Gather Ore in Sole Valley.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -109,8 +109,8 @@
   {
    "id": "quest.0240C",
    "jp": "ビム砂漠の鉱石の採集",
-   "en": "Gather Ore in the Bim Desert.",
-   "kind": "desc",
+   "en": "Gather Ore in the{br}Bim Desert.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -124,7 +124,7 @@
    "id": "quest.024A4",
    "jp": "オーラン洞窟の鉱石の採集",
    "en": "Gather Ore in Oran Cave.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -137,8 +137,8 @@
   {
    "id": "quest.02544",
    "jp": "ビョンリン火山の鉱石の採集",
-   "en": "Gather Ore at Byonrin Volcano.",
-   "kind": "desc",
+   "en": "Gather Ore at{br}Byonrin Volcano.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -159,7 +159,7 @@
    "id": "quest.025F4",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -180,7 +180,7 @@
    "id": "quest.02644",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -201,7 +201,7 @@
    "id": "quest.02694",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -222,7 +222,7 @@
    "id": "quest.026E4",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -243,7 +243,7 @@
    "id": "quest.02738",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -264,7 +264,7 @@
    "id": "quest.0278C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -285,7 +285,7 @@
    "id": "quest.027E0",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -306,7 +306,7 @@
    "id": "quest.02830",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -327,7 +327,7 @@
    "id": "quest.02880",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -348,7 +348,7 @@
    "id": "quest.028D0",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -369,7 +369,7 @@
    "id": "quest.0291C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -390,7 +390,7 @@
    "id": "quest.02968",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -411,7 +411,7 @@
    "id": "quest.029B4",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -432,7 +432,7 @@
    "id": "quest.02A04",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -453,7 +453,7 @@
    "id": "quest.02A54",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -474,7 +474,7 @@
    "id": "quest.02AA4",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -495,7 +495,7 @@
    "id": "quest.02AF0",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -516,7 +516,7 @@
    "id": "quest.02B3C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -537,7 +537,7 @@
    "id": "quest.02B88",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -558,7 +558,7 @@
    "id": "quest.02BD8",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -579,7 +579,7 @@
    "id": "quest.02C28",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -600,7 +600,7 @@
    "id": "quest.02C78",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -621,7 +621,7 @@
    "id": "quest.02CC8",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -642,7 +642,7 @@
    "id": "quest.02D18",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -663,7 +663,7 @@
    "id": "quest.02D68",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -684,7 +684,7 @@
    "id": "quest.02DB8",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -705,7 +705,7 @@
    "id": "quest.02E08",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -726,7 +726,7 @@
    "id": "quest.02E58",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -747,7 +747,7 @@
    "id": "quest.02EA8",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -768,7 +768,7 @@
    "id": "quest.02EF8",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -789,7 +789,7 @@
    "id": "quest.02F48",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -810,7 +810,7 @@
    "id": "quest.02F9C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -831,7 +831,7 @@
    "id": "quest.02FF0",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -852,7 +852,7 @@
    "id": "quest.03044",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -873,7 +873,7 @@
    "id": "quest.03098",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -894,7 +894,7 @@
    "id": "quest.030EC",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -915,7 +915,7 @@
    "id": "quest.03140",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -936,7 +936,7 @@
    "id": "quest.03190",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -957,7 +957,7 @@
    "id": "quest.031E0",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -978,7 +978,7 @@
    "id": "quest.03230",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -999,7 +999,7 @@
    "id": "quest.03280",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1020,7 +1020,7 @@
    "id": "quest.032D0",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1041,7 +1041,7 @@
    "id": "quest.03320",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1062,7 +1062,7 @@
    "id": "quest.03374",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1083,7 +1083,7 @@
    "id": "quest.033C8",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1104,7 +1104,7 @@
    "id": "quest.0341C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1125,7 +1125,7 @@
    "id": "quest.0346C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1146,7 +1146,7 @@
    "id": "quest.034BC",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1167,7 +1167,7 @@
    "id": "quest.0350C",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1188,7 +1188,7 @@
    "id": "quest.03560",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1209,7 +1209,7 @@
    "id": "quest.035B4",
    "jp": "{monster}の討伐",
    "en": "Hunt {monster}.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1230,7 +1230,7 @@
    "id": "quest.03FCC",
    "jp": "双子島へ上陸",
    "en": "Land on the Twin Islands.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1251,7 +1251,7 @@
    "id": "quest.03FFC",
    "jp": "ガブリ貝２匹を倒す",
    "en": "Defeat two Snapclams.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   }
  ]

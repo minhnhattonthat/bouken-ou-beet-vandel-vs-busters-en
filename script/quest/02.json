@@ -19,7 +19,7 @@
    "id": "quest.04030",
    "jp": "行方不明となったゼナを探しだす",
    "en": "Find the missing Zena.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -40,7 +40,7 @@
    "id": "quest.04084",
    "jp": "ビィト戦士団との出会い",
    "en": "Meet the Beet Warriors.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -60,8 +60,8 @@
   {
    "id": "quest.040C4",
    "jp": "鑑定小屋が開設された",
-   "en": "The Appraisal Hut has opened.",
-   "kind": "desc",
+   "en": "The Appraisal Hut{br}has opened.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -82,7 +82,7 @@
    "id": "quest.04100",
    "jp": "母親と出会う",
    "en": "Meet your mother.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -103,7 +103,7 @@
    "id": "quest.0412C",
    "jp": "浜辺に出現する{br}モンスター（ガブリ貝）５匹を{br}倒す",
    "en": "Defeat five Snapclams on{br}the beach.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -124,7 +124,7 @@
    "id": "quest.041A0",
    "jp": "バコソン山地の{br}モンスターを倒す",
    "en": "Defeat the monsters in the{br}Bakoson Mountains.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -145,7 +145,7 @@
    "id": "quest.04214",
    "jp": "行く手をふさぐワナを解除する",
    "en": "Disarm the traps blocking{br}your path.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -166,7 +166,7 @@
    "id": "quest.04268",
    "jp": "配達のバスターを救う",
    "en": "Save the Courier Buster.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -186,8 +186,8 @@
   {
    "id": "quest.042B0",
    "jp": "銀堀職人のホーレイさんを訪れる",
-   "en": "Visit Horey-san, the Silver Miner.",
-   "kind": "desc",
+   "en": "Visit Horey-san, the{br}Silver Miner.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -208,7 +208,7 @@
    "id": "quest.04304",
    "jp": "行く手をふさぐ壁を除去",
    "en": "Remove the wall blocking{br}your path.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -229,7 +229,7 @@
    "id": "quest.04344",
    "jp": "坑道内を照らせ",
    "en": "Light up the mine tunnels.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -250,7 +250,7 @@
    "id": "quest.04370",
    "jp": "聖なる炎",
    "en": "Sacred Flame",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -271,7 +271,7 @@
    "id": "quest.0439C",
    "jp": "封印のリング修復",
    "en": "Repair the Sealing Ring.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -292,7 +292,7 @@
    "id": "quest.043D0",
    "jp": "脅威の砂嵐",
    "en": "A menacing sandstorm.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -313,7 +313,7 @@
    "id": "quest.04400",
    "jp": "バスター同士協力せよ",
    "en": "Busters, work together!",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -333,8 +333,8 @@
   {
    "id": "quest.04444",
    "jp": "再会、ビィト戦士団",
-   "en": "Reunite with the Beet Warriors.",
-   "kind": "desc",
+   "en": "Reunite with the{br}Beet Warriors.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -354,8 +354,8 @@
   {
    "id": "quest.0447C",
    "jp": "最近　ゼロス雪原で{br}行方不明者が　続出している{br}この原因を　調査してほしい",
-   "en": "People have been going missing{br}one after another in Zeros{br}Snowfield lately. Please{br}investigate the cause.",
-   "kind": "desc",
+   "en": "People keep going missing{br}in Zeros Snowfield lately.{br}Please find out why.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -375,8 +375,8 @@
   {
    "id": "quest.04514",
    "jp": "最近　ルブレイ湖で{br}人々を襲っているモンスターを{br}討伐してほしい",
-   "en": "Please defeat the monsters{br}that have been attacking people{br}at Rubrei Lake lately.",
-   "kind": "desc",
+   "en": "Please defeat the{br}monsters that have been{br}attacking people at Rubrei{br}Lake lately.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -397,7 +397,7 @@
    "id": "quest.045A4",
    "jp": "ゼナ行方不明",
    "en": "Zena is missing.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -418,7 +418,7 @@
    "id": "quest.045D0",
    "jp": "ゼナの危機",
    "en": "Zena is in danger.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -439,7 +439,7 @@
    "id": "quest.045F8",
    "jp": "レジスタンス",
    "en": "The Resistance",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -460,7 +460,7 @@
    "id": "quest.0462C",
    "jp": "アーク戦士団登場",
    "en": "Ark's Squad arrives.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -481,7 +481,7 @@
    "id": "quest.04668",
    "jp": "いざ、西方の島へ",
    "en": "Onward to West Island!",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -502,7 +502,7 @@
    "id": "quest.04694",
    "jp": "仇のヴァンデルと出会う",
    "en": "Meet the Vandel you seek{br}revenge against.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -523,7 +523,7 @@
    "id": "quest.046D0",
    "jp": "再会　ゼナ",
    "en": "Reunite with Zena.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -544,7 +544,7 @@
    "id": "quest.046F4",
    "jp": "レナの危機",
    "en": "Lena is in danger.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -564,8 +564,8 @@
   {
    "id": "quest.0471C",
    "jp": "行く手を阻む敵",
-   "en": "An enemy blocks your path.",
-   "kind": "desc",
+   "en": "An enemy blocks{br}your path.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -585,8 +585,8 @@
   {
    "id": "quest.0474C",
    "jp": "行く手を阻む敵",
-   "en": "An enemy blocks your path.",
-   "kind": "desc",
+   "en": "An enemy blocks{br}your path.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -606,8 +606,8 @@
   {
    "id": "quest.0477C",
    "jp": "行く手を阻む敵",
-   "en": "An enemy blocks your path.",
-   "kind": "desc",
+   "en": "An enemy blocks{br}your path.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -628,7 +628,7 @@
    "id": "quest.047AC",
    "jp": "姉妹抹殺命令",
    "en": "Orders to kill the sisters.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -649,7 +649,7 @@
    "id": "quest.047DC",
    "jp": "レジスタンス",
    "en": "The Resistance",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -670,7 +670,7 @@
    "id": "quest.04808",
    "jp": "レナの危機",
    "en": "Lena is in danger.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -691,7 +691,7 @@
    "id": "quest.04834",
    "jp": "シルバーチャームが",
    "en": "The Silver Charm...",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -712,7 +712,7 @@
    "id": "quest.0486C",
    "jp": "東の里の異変",
    "en": "Something is wrong in{br}East Village.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -733,7 +733,7 @@
    "id": "quest.04898",
    "jp": "才牙の真髄",
    "en": "The essence of Saiga.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -753,8 +753,8 @@
   {
    "id": "quest.048C4",
    "jp": "採掘所の人々を救え",
-   "en": "Save the people at the mine.",
-   "kind": "desc",
+   "en": "Save the people at{br}the mine.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -774,8 +774,8 @@
   {
    "id": "quest.04900",
    "jp": "採掘所の人々を救え",
-   "en": "Save the people at the mine.",
-   "kind": "desc",
+   "en": "Save the people at{br}the mine.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -796,7 +796,7 @@
    "id": "quest.04930",
    "jp": "黄金城",
    "en": "Golden Castle",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -817,7 +817,7 @@
    "id": "quest.0494C",
    "jp": "橋かけ名人",
    "en": "Bridge Master",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -838,7 +838,7 @@
    "id": "quest.04974",
    "jp": "黄金城前に出現する{br}モンスター（赤銅巨人）５匹を{br}倒す",
    "en": "Defeat five Copper Giants{br}outside the Golden Castle.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -859,7 +859,7 @@
    "id": "quest.049F8",
    "jp": "橋かけ名人を守れ",
    "en": "Protect the Bridge Master.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -880,7 +880,7 @@
    "id": "quest.04A30",
    "jp": "突入！　黄金城",
    "en": "Storm the Golden Castle!",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -901,7 +901,7 @@
    "id": "quest.04A5C",
    "jp": "敵の総攻撃",
    "en": "The enemy launches an{br}all-out attack.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -922,7 +922,7 @@
    "id": "quest.04A80",
    "jp": "奥義修得",
    "en": "Learn a Secret Technique.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -943,7 +943,7 @@
    "id": "quest.04AA4",
    "jp": "レナ救出",
    "en": "Rescue Lena.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -964,7 +964,7 @@
    "id": "quest.04AD0",
    "jp": "突入！　謁見の間",
    "en": "Storm the Audience Hall!",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -985,7 +985,7 @@
    "id": "quest.04B04",
    "jp": "ボスを倒せ",
    "en": "Defeat the boss.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1006,7 +1006,7 @@
    "id": "quest.04B30",
    "jp": "ファイナルバトル",
    "en": "Final Battle",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1027,7 +1027,7 @@
    "id": "quest.04B68",
    "jp": "エンディング",
    "en": "Ending",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1048,7 +1048,7 @@
    "id": "quest.04B9C",
    "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
    "en": "Repair the Sealing Ring in{br}Sole Valley.{close}",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1069,7 +1069,7 @@
    "id": "quest.0552C",
    "jp": "出撃",
    "en": "Sortie",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1090,7 +1090,7 @@
    "id": "quest.05544",
    "jp": "西の里",
    "en": "West Village",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1111,7 +1111,7 @@
    "id": "quest.05560",
    "jp": "門を破れ",
    "en": "Break through the gate.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1132,7 +1132,7 @@
    "id": "quest.0558C",
    "jp": "里の兵士をたおせ",
    "en": "Defeat the village soldiers.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1153,7 +1153,7 @@
    "id": "quest.055C0",
    "jp": "銀の女神像",
    "en": "Silver Goddess Statue",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1173,8 +1173,8 @@
   {
    "id": "quest.055E8",
    "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
-   "en": "Buy ten Build Ants at the Vandel{br}House to build the{br}Golden Castle.",
-   "kind": "desc",
+   "en": "Buy ten Build Ants at the{br}Vandel House to build the{br}Golden Castle.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1194,8 +1194,8 @@
   {
    "id": "quest.0568C",
    "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
-   "en": "Buy ten Build Ants at the Vandel{br}House to build the{br}Golden Castle.",
-   "kind": "desc",
+   "en": "Buy ten Build Ants at the{br}Vandel House to build the{br}Golden Castle.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1216,7 +1216,7 @@
    "id": "quest.0573C",
    "jp": "封印のリング",
    "en": "Sealing Rings",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1237,7 +1237,7 @@
    "id": "quest.0576C",
    "jp": "金の増産指示",
    "en": "Orders to Increase{br}Gold Production",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1258,7 +1258,7 @@
    "id": "quest.057A4",
    "jp": "行く手をふさぐ障害物",
    "en": "Obstacles Blocking the Way",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1279,7 +1279,7 @@
    "id": "quest.057E0",
    "jp": "山門を破れ",
    "en": "Breach the Mountain Gate",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1300,7 +1300,7 @@
    "id": "quest.0580C",
    "jp": "里の兵士をたおせ",
    "en": "Defeat the village soldiers.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1321,7 +1321,7 @@
    "id": "quest.05844",
    "jp": "金の採掘場建設",
    "en": "Build a Gold Mine",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1342,7 +1342,7 @@
    "id": "quest.05874",
    "jp": "バスター登場",
    "en": "A Buster Appears",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1363,7 +1363,7 @@
    "id": "quest.058A4",
    "jp": "借金取立て屋",
    "en": "The Debt Collector",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1384,7 +1384,7 @@
    "id": "quest.058D8",
    "jp": "ＢＢミルファ登場",
    "en": "Enter BB Milfa",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1404,8 +1404,8 @@
   {
    "id": "quest.05918",
    "jp": "魔札貸し屋　ガネール",
-   "en": "Ganeer, the Dark Notes Lender",
-   "kind": "desc",
+   "en": "Ganeer, the Dark{br}Notes Lender",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1426,7 +1426,7 @@
    "id": "quest.0595C",
    "jp": "初めてのごほうび",
    "en": "The First Reward",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1447,7 +1447,7 @@
    "id": "quest.05994",
    "jp": "シャギーの依頼",
    "en": "Shagie's Request",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1468,7 +1468,7 @@
    "id": "quest.059C4",
    "jp": "ディアム登場",
    "en": "Diam Appears",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1489,7 +1489,7 @@
    "id": "quest.059F8",
    "jp": "赤熱の烈火　ギルス",
    "en": "Blazing Inferno Gils",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1510,7 +1510,7 @@
    "id": "quest.05A34",
    "jp": "吹き上がるマグマ",
    "en": "Erupting Magma",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1531,7 +1531,7 @@
    "id": "quest.05A6C",
    "jp": "レジスタンス",
    "en": "The Resistance",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1552,7 +1552,7 @@
    "id": "quest.05A9C",
    "jp": "ハーデンの言葉",
    "en": "Harden's Words",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1572,8 +1572,8 @@
   {
    "id": "quest.05AD0",
    "jp": "坑道　暗闇の先に",
-   "en": "The Mine: Beyond the Darkness",
-   "kind": "desc",
+   "en": "The Mine: Beyond{br}the Darkness",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1594,7 +1594,7 @@
    "id": "quest.05B08",
    "jp": "ハーデンの真意",
    "en": "Harden's True Intentions",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1615,7 +1615,7 @@
    "id": "quest.05B34",
    "jp": "バスター",
    "en": "Buster",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1635,8 +1635,8 @@
   {
    "id": "quest.05B5C",
    "jp": "里を守りし人々",
-   "en": "Those Who Defend the Village",
-   "kind": "desc",
+   "en": "Those Who Defend{br}the Village",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1657,7 +1657,7 @@
    "id": "quest.05B90",
    "jp": "封印のリング修復",
    "en": "Repair the Sealing Ring.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1678,7 +1678,7 @@
    "id": "quest.05BC8",
    "jp": "門を破壊しろ",
    "en": "Destroy the Gate",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1699,7 +1699,7 @@
    "id": "quest.05BF8",
    "jp": "里長を捕まえろ",
    "en": "Capture the Village Chief",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1720,7 +1720,7 @@
    "id": "quest.05C24",
    "jp": "滅び行く里",
    "en": "A Doomed Village",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1741,7 +1741,7 @@
    "id": "quest.05C50",
    "jp": "破壊　封印のリング",
    "en": "Destroy the Sealing Rings",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1762,7 +1762,7 @@
    "id": "quest.05C88",
    "jp": "目障りな姉妹",
    "en": "Those Pesky Sisters",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1783,7 +1783,7 @@
    "id": "quest.05CBC",
    "jp": "夢幻の覇者オロゾン",
    "en": "Orozon, Lord of Dreams",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1804,7 +1804,7 @@
    "id": "quest.05CF8",
    "jp": "里の民をあざむけ",
    "en": "Deceive the Villagers",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1825,7 +1825,7 @@
    "id": "quest.05D28",
    "jp": "おとり",
    "en": "The Decoy",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1845,8 +1845,8 @@
   {
    "id": "quest.05D4C",
    "jp": "修復アイテムの炎",
-   "en": "The Flame for the Repair Item",
-   "kind": "desc",
+   "en": "The Flame for the{br}Repair Item",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1867,7 +1867,7 @@
    "id": "quest.05D84",
    "jp": "最後のリング",
    "en": "The Final Ring",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1887,8 +1887,8 @@
   {
    "id": "quest.05DB8",
    "jp": "開放されない冥力",
-   "en": "Dark Power Still Sealed Away",
-   "kind": "desc",
+   "en": "Dark Power Still{br}Sealed Away",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1909,7 +1909,7 @@
    "id": "quest.05DF0",
    "jp": "最後の防御線",
    "en": "The Last Line of Defense",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1930,7 +1930,7 @@
    "id": "quest.05E1C",
    "jp": "最後の扉",
    "en": "The Final Door",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1951,7 +1951,7 @@
    "id": "quest.05E48",
    "jp": "アーク戦士団登場",
    "en": "Ark's Squad arrives.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1972,7 +1972,7 @@
    "id": "quest.05E7C",
    "jp": "最後の戦い",
    "en": "The Final Battle",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -1993,7 +1993,7 @@
    "id": "quest.05E9C",
    "jp": "父の仇",
    "en": "Father's Killer",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -2014,7 +2014,7 @@
    "id": "quest.05EB8",
    "jp": "最後の一撃",
    "en": "The Final Blow",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -2035,7 +2035,7 @@
    "id": "quest.05EE0",
    "jp": "双子島完全征服",
    "en": "Total Conquest of the{br}Twin Islands",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -2055,8 +2055,8 @@
   {
    "id": "quest.05F14",
    "jp": "人間　希望の逆転",
-   "en": "Humanity: Hope Turns the Tide",
-   "kind": "desc",
+   "en": "Humanity: Hope Turns{br}the Tide",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -2077,7 +2077,7 @@
    "id": "quest.05F44",
    "jp": "下克上",
    "en": "Usurpation",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -2098,7 +2098,7 @@
    "id": "quest.05F64",
    "jp": "ビィト戦士団",
    "en": "Beet Warriors",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {

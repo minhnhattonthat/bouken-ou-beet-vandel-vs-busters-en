@@ -3,9 +3,27 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (sessions 8-11), check.py green (66 tests). Tour work/qa/en
-  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (6,912 shown
-  + 91 waived of 9,472, session 11 notes, Next (2)) and the Vandel-mode list (Next (4)).
+  Build sha1 9d8be14834b33334d9f6d3eca98b2015f7cd99cf (session 12; arm9 changed), check.py green (68 tests).
+  **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
+  Left for the done-when: **text coverage** (7,534 shown + 111 waived of 9,472; quests now complete) and the
+  Vandel-mode list (Next (4)).
+- **Phase 8 session 12 (2026-11-19), Orca worker: quests done (637 -> 0 missing), two quest draw bugs fixed.**
+  - Quest RE in `docs/re/scripts.md` §Quest boards: the board conditions `1C` test event-**seen** bits (warp `sNNN`,
+    not `fNNN`); session 10's empty board came from skipping the slot setup `11 00 00`. Real counters: scenes
+    `quest_counter` (rom 0x2AFC0) / `quest_counter2` (0x2AFA6) fill 3 random quests at the start of the game.
+  - Fixed (seen in game, `work/qa/p12_qb6b5`, `work/qa/p12_gc3`): Quest Detail description and the board preview drew
+    letter pairs at x = col*12 (overlapping / gappy) and auto-wrapped at 19 / 15 codes: `engine.SITES` 0x0207523C
+    `qd_x`, 0x02074200 `qb_x` (+ wrap off). Deadline "No Deadline" -> "None" at x 8 (clear of the redrawn label).
+  - New kind `brief` = quest.img `2D` (board preview, 180 px x 4 lines, `tools/budgets.json`; `extract.py
+    QUEST_KINDS`, re-extracted with `--force`); `1A` stays `desc` (Detail, 216 px x 6). New `tools/rewrap.py KIND
+    [--write]` re-fits a kind after a budget change (28 briefs re-wrapped, quest.0447C shortened by hand).
+  - Coverage runs in work/qa/cover: `quest_00..03` (questloop `QUEST_REG=1`, 101 blocks with `17 <own pc>`),
+    `quest2_00..01` (`QUEST_REG=2`, 41 with `15/16 <own pc>`), `quest3` (`QUEST_PCS={0x35F7,0x4BF3,0x5F83}`), all
+    with `EXTRA='s6B' QUEST_NOREDIR=1 QUEST_ROW='-'` on quest_board; `qrand_quest_counter{,2}` (`tools/lua/randloop.lua`
+    holds the board roll, 49 values). Sample sheets `work/qa/p12_quest_sheet.png`, `p12_quest2_sheet.png`,
+    `p12_qrand_sheet.png`: all drew right. 10 unused blocks (0x4..0x1AF: no registration op, no reference) waived.
+  - Coverage left (waivers on): weapon 380, rom.msg 278, name 256, skill 134, buster 132, meigeki 126, tengeki 108,
+    ptr 94, keyitem 90, vandel 78, wpntype 68, special 30, party 28, area2 25, title 3 (a9 titles?), brief/desc 0.
 - **Phase 8 session 11 (2026-11-19), Orca worker: map-table waiver, party sweep, area2 switch (context limit).**
   - Coverage report with waivers: `python -X utf8 tools/textcov.py report work/qa/en work/qa/gallery work/qa/cover
     --waive docs/text_unshown.tsv` (textcov now expands `prefix*` waiver ids; every waiver needs a reason and must
@@ -252,8 +270,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   change: re-tour (`python -X utf8 tools/debug/warp_all.py build/beet_en.nds --jobs 2 --out work/qa/en --script
   tools/lua/glyphlog.lua --script tools/lua/textlog.lua`; `book_monsters` needs `--script tools/lua/bookloop.lua`
   too: run it with `--only book_monsters`), tagbox, vqasheets, `qa_gate init`, todo `--size 6`, visualqa;
-  (2) coverage, biggest first (shouts done in session 10; report over work/qa/en work/qa/gallery work/qa/cover):
-  quests (desc 427 + 210 of title: session 10 note, make the forced board row draw), arm9 titles (130),
+  (2) coverage, biggest first (shouts done in session 10, quests in session 12; report over work/qa/en
+  work/qa/gallery work/qa/cover with `--waive docs/text_unshown.tsv`):
   names (force r0 at 0x02019608), skills/tengeki/meigeki (skill menu / tactics lists, page them), buster/vandel books
   (session 9 note), key items (screen unknown: u16 list at [ui+0x118]), the weapon records that hang the sell list,
   rom.msg 278 (session 7 note). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then

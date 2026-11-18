@@ -26,6 +26,23 @@
 - quest.img: own opcode-length table at arm9 0x0210D338 (0x31 entries; `17` = 21 bytes and holds rom.img routine
   offsets), string operands `20` title, `1A`/`2D` description; one data block 0x11D1-0x11F4 (`00 00 S` + 8 u32
   quest.img offsets, the table `4F`:9 points at). 1,680 instructions, 637 strings.
+- **Quest boards (verified 2026-11-19, session 12).** rom.img `4F <slots 0x1144> <0x1143> <table> <place> <client>`:
+  the guild counters 0x2AFC0 (table 0x11D4: boards 0x11F4 / 0x135C / 0x14A4) and 0x2AFA6 (table 0x11E4: 0x1298 /
+  0x1400 / 0x1932); 0x3C288 is a test counter (table 0, place/client "場所、テスト" / "依頼者、テスト" in the original too).
+  Interpreter 0x020111D0, handlers 0x0210D36C (u32 per opcode).
+  - `11 n 00; 1C <bit> 00; 12; 06` = condition: event-**seen** bit `bit` (save+0x158C, the `sNNN` warp token, not
+    the story flags) must equal n (`1C` handler 0x02012278 -> 0x020104FC -> 0x0201B1D8). Story slots at 0x1144
+    (5 quests, e.g. seen 6B = 1 and 6C = 0 -> quest 0x3711) end in `05 <quest pc>`.
+  - Random boards: gate `seen 56/58/5A == 0` (open at the start), `23 64` = roll 0..99 (helper 0x02010160 stores it
+    to ctx+0xC at 0x02010170), `13 lo hi pc` = jump if lo <= roll <= hi; board 0x14A4 / 0x1932 roll twice (reward
+    tier, then one of 24 / 27 quests). 55 titles in the six boards.
+  - A fixed quest block registers itself with `17 <own pc> <seen bit> <rom.img routines>` (101 of 152 blocks); only
+    those draw on the board when forced into the slot's `05`. The other 51 (`.. 1F 1B FF`, from 0x4) never reach the
+    board this way.
+  - Draw: board preview (`2D`, 15 codes x 4 lines) 0x02074218, Quest Detail (`1A`, 19 codes x 6 lines) 0x02075254:
+    both one code per 0x020201BC call at x = col*12, hooked to sum the pair widths (`engine.SITES`, `qb_x` / `qd_x`).
+  - Probes: `tools/lua/questloop.lua` (`QUEST_NOREDIR=1 QUEST_REG=1 QUEST_ROW='-'` with `EXTRA='s6B'` on scene
+    quest_board) and `tools/lua/randloop.lua` (scenes quest_counter / quest_counter2).
 
 ## String references (verified for the first scene, survey for the rest)
 - `70 <u32>` = show message at file offset; `.. 9E <u32>` (seen as `2A 9E`) = set speaker name. At 0x08B2 `2A 9E 80 0C 00 00`

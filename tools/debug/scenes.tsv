@@ -57,6 +57,8 @@ mhall_monsters_buy	event	29BFA	0	2600	q305DA q307CA @1600 a w300 t134,59 w200 t1
 savepoint	event	29BFA	0	1500	q459	save routine 0x459 run from the East Village field ("ゲームデータをセーブします")
 savepoint_yes	event	29BFA	0	1700	q459 @1150 a w300 writesave	save routine: past the prompt (yes/no or result)
 quest_board	event	29BFA	0	2400	q3C288	random quest board (rom.img 4F at 0x3C288, table 0)
+quest_counter	event	29BFA	0	2400	q2AFC0	guild quest counter (rom.img 4F at 0x2AFC0: story slots 0x1144 + random boards table 0x11D4)
+quest_counter2	event	29BFA	0	2400	q2AFA6	the other guild counter (4F at 0x2AFA6, random boards table 0x11E4)
 quest_abandon	event	29BFA	0	1300	q3C53E	quest message routine 0x3C53E ("クエストをあきらめます")
 quest_done	event	29BFA	0	1300	q3C546	quest message routine 0x3C546 ("クエストの終了条件を満たしました")
 appraiser	event	2AEB5	0	1260	q2AEDF	East Village appraiser greeting (map 71; the 4F appraisal choice needs story var 0x93)

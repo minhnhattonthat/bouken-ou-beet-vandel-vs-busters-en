@@ -19,17 +19,35 @@ local function blocks()
   local out = {}
   for p = 4, #d - 6 do   -- p = file offset; Lua strings are 1-based
     local op, prev, nxt = d:byte(p + 1), d:byte(p), d:byte(p + 6)
-    if op == 0x20 and (p == 4 or prev == 0xFF) and (nxt == 0x1A or nxt == 0x2D) then out[#out + 1] = p end
+    if op == 0x20 and (p == 4 or prev == 0xFF) and (nxt == 0x1A or nxt == 0x2D) then
+      -- QUEST_REG=1: only blocks that register themselves with `17 <own pc>` (101 of 152); QUEST_REG=2: only the
+      -- ones that do it with `15 <own pc>` or `16 <own pc>` instead; the rest never draw on the board
+      local le = string.char(p % 256, math.floor(p / 256) % 256, math.floor(p / 65536) % 256, 0)
+      local function has(op)
+        local at = d:find(string.char(op) .. le, p + 1, true)
+        return at and at < p + 400
+      end
+      if not QUEST_REG or (QUEST_REG == 1 and has(0x17))
+          or (QUEST_REG == 2 and (has(0x15) or has(0x16)) and not has(0x17)) then
+        out[#out + 1] = p
+      end
+    end
   end
   return out
 end
-local pcs = blocks()
+-- QUEST_PCS={0x35F7, ..}: run exactly these blocks (the finder above needs an FF before the `20`; 0x35F7 0x4BF3
+-- 0x5F83 follow a string pool's 00 padding instead)
+local pcs = QUEST_PCS or blocks()
 L.log("questloop: " .. #pcs .. " quest blocks")
 local from, n = QUEST_FROM or 1, QUEST_N or #pcs
 local start, period = QUEST_START or 1500, QUEST_PERIOD or 400
 local k, cur = 0, nil
+-- QUEST_NOREDIR=1 (with the scene's first slot open: set `s6B`): keep the interpreter start at 0x1144, so the slot
+-- setup (`11 00 00`) runs and the board draws the forced quest; skipping it leaves the board empty (session 10).
 L.on_exec(0x020111D0, function()
-  if cur and memory.getregister("arm9.r1") == 0x1144 then memory.setregister("arm9.r1", 0x115B) end
+  if cur and not QUEST_NOREDIR and memory.getregister("arm9.r1") == 0x1144 then
+    memory.setregister("arm9.r1", 0x115B)
+  end
 end)
 L.on_exec(0x02013AE0, function()
   if cur then
@@ -42,7 +60,7 @@ L.on_frame(function(f)
     cur = pcs[from + k]
     k = k + 1
     L.press("t135,59", 6); L.press("-", 120)
-    L.press(QUEST_ROW or "t128,40", 6); L.press("-", 40)
+    if QUEST_ROW ~= "-" then L.press(QUEST_ROW or "t128,40", 6); L.press("-", 40) end  -- "-": row already selected
     L.press(QUEST_DETAILS or "t14,176", 6); L.press("-", 80)
     L.press("t240,176", 6); L.press("-", 40)
     L.press("t240,176", 6); L.press("-", 60)

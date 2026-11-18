@@ -240,7 +240,7 @@
   {
    "id": "a9.021ADF44",
    "jp": "無期限",
-   "en": "No Deadline",
+   "en": "None",
    "kind": "ptr.label",
    "ptrs": [
     "020752E4"

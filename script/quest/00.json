@@ -54,7 +54,7 @@
    "id": "quest.007B4",
    "jp": "地底湖の扉（とびら）のおくにあった杯（さかずき）{br}その「絶の杯」を{br}みたすモンスターをたいじする",
    "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground{br}Lake door.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -187,7 +187,7 @@
    "id": "quest.00D44",
    "jp": "ＢＢミルファ登場",
    "en": "Enter BB Milfa",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -208,7 +208,7 @@
    "id": "quest.00D84",
    "jp": "改心した悪徳バスター",
    "en": "Crooked Busters Reform",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -229,7 +229,7 @@
    "id": "quest.00DC8",
    "jp": "再会　ＢＢミルファ",
    "en": "A Reunion with BB Milfa",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -250,7 +250,7 @@
    "id": "quest.00E00",
    "jp": "スレッド登場",
    "en": "Enter Slade",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -271,7 +271,7 @@
    "id": "quest.00E2C",
    "jp": "職人仲間",
    "en": "Fellow Craftsmen",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -292,7 +292,7 @@
    "id": "quest.00E58",
    "jp": "ジーク戦士団登場",
    "en": "Enter Zeke's Squad",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -313,7 +313,7 @@
    "id": "quest.00E94",
    "jp": "ゴラン、シバ登場",
    "en": "Enter Goran and Shiba",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -334,7 +334,7 @@
    "id": "quest.00ECC",
    "jp": "船、航行開始",
    "en": "The Ship Sets Sail",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -355,7 +355,7 @@
    "id": "quest.00F00",
    "jp": "船よ、西方へ進め",
    "en": "Ship, Sail West!",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -376,7 +376,7 @@
    "id": "quest.00F38",
    "jp": "奪われた飛行機",
    "en": "The Stolen Airplane",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -397,7 +397,7 @@
    "id": "quest.00F68",
    "jp": "飛行機発見！",
    "en": "Airplane Found!",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -418,7 +418,7 @@
    "id": "quest.00F9C",
    "jp": "飛行機を取り戻せ１",
    "en": "Reclaim the Airplane 1",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -439,7 +439,7 @@
    "id": "quest.00FD8",
    "jp": "飛行機を取り戻せ２",
    "en": "Reclaim the Airplane 2",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -460,7 +460,7 @@
    "id": "quest.01014",
    "jp": "飛行機を取り戻せ３",
    "en": "Reclaim the Airplane 3",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -481,7 +481,7 @@
    "id": "quest.01050",
    "jp": "飛行機を取り戻せ４",
    "en": "Reclaim the Airplane 4",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -502,7 +502,7 @@
    "id": "quest.0108C",
    "jp": "飛行機を取り戻せ５",
    "en": "Reclaim the Airplane 5",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -523,7 +523,7 @@
    "id": "quest.010C0",
    "jp": "飛行機復活",
    "en": "Airplane Restored",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -544,7 +544,7 @@
    "id": "quest.010E8",
    "jp": "レアモンスター",
    "en": "Rare Monsters",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -565,7 +565,7 @@
    "id": "quest.0111C",
    "jp": "封印のリング全滅",
    "en": "All Sealing Rings Destroyed",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -585,8 +585,8 @@
   {
    "id": "quest.01E4C",
    "jp": "ナッシュ平原の薬花の採集",
-   "en": "Gather Medicinal Flowers in the{br}Nash Plains.",
-   "kind": "desc",
+   "en": "Gather Medicinal Flowers in{br}the Nash Plains.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -599,8 +599,8 @@
   {
    "id": "quest.01ED8",
    "jp": "バコソン山地の薬花の採集",
-   "en": "Gather Medicinal Flowers in the{br}Bakoson Mountains.",
-   "kind": "desc",
+   "en": "Gather Medicinal Flowers in{br}the Bakoson Mountains.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -614,7 +614,7 @@
    "id": "quest.01F64",
    "jp": "ミレイの森の薬花の採集",
    "en": "Gather Medicinal Flowers in{br}Mirei Forest.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -635,7 +635,7 @@
    "id": "quest.01FF4",
    "jp": "ノルナージの森の薬花の採集",
    "en": "Gather Medicinal Flowers in{br}Norunaji Forest.",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   }
  ]

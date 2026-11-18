@@ -1,3 +1,23 @@
 # Strings accepted as never shown, with the proof. `id<TAB>reason`; an id ending in * covers every string id with
 # that prefix. Read by `python -X utf8 tools/textcov.py report ... --waive docs/text_unshown.tsv`.
 a9.title.*	map table (0x02123400, 0x4C-byte records): the name field is a dev label, never drawn. Only accessor 0x0201419C reads the table (the one word 0x02123400 in arm9), and its two callers (0x0203DF3C map load, 0x0204E35C map set) use only fields 0x14-0x48 (map files, links), never offset 0 (2026-11-19)
+quest.0059C	unused quest block 0x4 (quest.img): no u32 in quest.img or rom.img points at it (only small-number false hits), and it has no registration op (15/16/17 <own pc>), so it never reaches a board; forced into a board slot it is read but the board stays empty (work/qa/p12_ql, session 12)
+quest.005B0	same block 0x4
+quest.00658	unused quest block 0x23 (as 0x4)
+quest.00664	same block 0x23
+quest.0070C	unused quest block 0x42 (as 0x4)
+quest.0071C	same block 0x42
+quest.00898	unused quest block 0xB3 (as 0x4; one of the 杯をみたせ chalice quests)
+quest.008A8	same block 0xB3
+quest.0092C	unused quest block 0xDD (as 0xB3)
+quest.0093C	same block 0xDD
+quest.009C0	unused quest block 0x107 (as 0xB3)
+quest.009D0	same block 0x107
+quest.00A54	unused quest block 0x131 (as 0xB3)
+quest.00A64	same block 0x131
+quest.00AE8	unused quest block 0x15B (as 0xB3)
+quest.00AF8	same block 0x15B
+quest.00B78	unused quest block 0x185 (as 0xB3)
+quest.00B88	same block 0x185
+quest.00C0C	unused quest block 0x1AF (as 0xB3)
+quest.00C1C	same block 0x1AF

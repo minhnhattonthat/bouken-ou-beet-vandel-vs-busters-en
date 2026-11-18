@@ -11,8 +11,8 @@
   {
    "id": "quest.0639C",
    "jp": "黄金城の上を飛び回る{br}飛行機を無傷で確保する",
-   "en": "Seize the Airplane flying over the{br}Golden Castle without{br}damaging it.",
-   "kind": "desc",
+   "en": "Seize the Airplane flying{br}over the Golden Castle{br}without damaging it.",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -33,7 +33,7 @@
    "id": "quest.0640C",
    "jp": "モンスター取込",
    "en": "Absorb Monsters",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -54,7 +54,7 @@
    "id": "quest.06440",
    "jp": "石像トラップ設置",
    "en": "Set Statue Traps",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -75,7 +75,7 @@
    "id": "quest.06474",
    "jp": "定期収入",
    "en": "Regular Income",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -96,7 +96,7 @@
    "id": "quest.06490",
    "jp": "角",
    "en": "Horns",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -117,7 +117,7 @@
    "id": "quest.064A8",
    "jp": "存在しない薬",
    "en": "A Nonexistent Cure",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -138,7 +138,7 @@
    "id": "quest.064DC",
    "jp": "貴様のモノは・・・",
    "en": "What's Yours...",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -159,7 +159,7 @@
    "id": "quest.06514",
    "jp": "シャギーガール",
    "en": "Shagie Girl",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -180,7 +180,7 @@
    "id": "quest.06544",
    "jp": "天空王バロン",
    "en": "Sky King Baron",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -201,7 +201,7 @@
    "id": "quest.06574",
    "jp": "凶刃ヒスタリオ",
    "en": "Deadly Blade Histario",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -221,8 +221,8 @@
   {
    "id": "quest.065AC",
    "jp": "不動巨人ガロニュート",
-   "en": "Garonute, the Immovable Giant",
-   "kind": "desc",
+   "en": "Garonute, the{br}Immovable Giant",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -243,7 +243,7 @@
    "id": "quest.065F0",
    "jp": "腕試しガロニュート",
    "en": "Test Your Strength{br}Against Garonute",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -264,7 +264,7 @@
    "id": "quest.06628",
    "jp": "腹心モンスター",
    "en": "Monster Lieutenant",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -285,7 +285,7 @@
    "id": "quest.06654",
    "jp": "軍団の派遣",
    "en": "Dispatch the Army",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -306,7 +306,7 @@
    "id": "quest.06680",
    "jp": "ホバーフィッシュ",
    "en": "Hoverfish",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -327,7 +327,7 @@
    "id": "quest.066C0",
    "jp": "ホバーフィッシュ延長",
    "en": "Hoverfish Extension",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -348,7 +348,7 @@
    "id": "quest.066F8",
    "jp": "大怪蝶",
    "en": "Giant Butterfly",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -368,8 +368,8 @@
   {
    "id": "quest.06720",
    "jp": "大怪蝶　さらに遠くへ",
-   "en": "Giant Butterfly: Even Farther",
-   "kind": "desc",
+   "en": "Giant Butterfly:{br}Even Farther",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -390,7 +390,7 @@
    "id": "quest.06760",
    "jp": "魔人博士ノア",
    "en": "Vandel Scholar Noa",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -411,7 +411,7 @@
    "id": "quest.06794",
    "jp": "小悪魔ロディーナ",
    "en": "Little Devil Rodina",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -432,7 +432,7 @@
    "id": "quest.067CC",
    "jp": "レアモンスター",
    "en": "Rare Monsters",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {
@@ -453,7 +453,7 @@
    "id": "quest.067FC",
    "jp": "レアモンスター",
    "en": "Rare Monsters",
-   "kind": "desc",
+   "kind": "brief",
    "refs": 1
   },
   {

@@ -29,7 +29,9 @@ from text16 import Codec  # noqa: E402
 SCRIPT = ROOT / 'script'
 TBL = ROOT / 'tbl' / 'jp.tbl'
 ROM_KINDS = {0x70: 'msg', 0x9E: 'speaker', 0x4F: 'quest', 0x99: 'quest', 0x60: 'file', 0x6B: 'file'}
-QUEST_KINDS = {0x20: 'title', 0x1A: 'desc', 0x2D: 'desc'}
+# 1A = the Quest Detail description (19 codes x 6 lines, 0x02075254); 2D = the Quest Select board preview (15 codes x
+# 4 lines, 0x02074218), so its own kind and budget (phase 8, session 12)
+QUEST_KINDS = {0x20: 'title', 0x1A: 'desc', 0x2D: 'brief'}
 NAME_FILES = ('status/bustername/busterman.bin', 'status/bustername/busterwoman.bin')
 NAME_REC, NAME_SLOT = 22, 16          # record size; name field = up to 7 full-width chars + 0000 (then 6 bytes)
 KEEP = ('en', 'status', 'notes', 'short')   # short: elem.name card-icon form (insert.py, engine.ESHORT_SLOT)

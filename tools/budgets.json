@@ -34,6 +34,7 @@
   "vandel.name2": {"font": 12, "px": 108, "lines": 1, "status": "jp-bound", "shot": "7 chars; as vandel.name"},
   "title":        {"font": 12, "px": 120, "lines": 1, "status": "jp-bound", "shot": "quest titles (quest.img), menu_quests list empty early; 10 chars"},
   "desc":         {"font": 12, "px": 216, "lines": 6, "status": "jp-bound", "shot": "quest descriptions: 18 chars per {br} line for all but 6 lines (22-34 chars, auto-wrapped?); up to 6 lines"},
+  "brief":        {"font": 12, "px": 180, "lines": 4, "status": "measured", "shot": "work/qa/p12_gc3 (Quest Select board preview, quest.img 2D: text x 31, the window clips at x ~211; 15 codes x 4 lines in the original loop 0x02074218)"},
   "quest":        {"font": 12, "px": 120, "lines": 1, "status": "jp-bound", "shot": "rom.img quest labels (place / client names); 10 chars"},
   "name":         {"font": 12, "px": 84, "lines": 1, "status": "jp-bound", "shot": "generic buster names (status/bustername), 7 chars; 14-byte slot"},
   "armor.reading":   {"status": "not-drawn", "shot": "hiragana sort key (comparator 0x02023940 sorts by record+0x18); never seen in the 100-scene tours. Fill with the English name so ならびかえ sorts alphabetically"},
