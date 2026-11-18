@@ -1,0 +1,23 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Title mode buttons are 64x64 OBJ images (@8), not 128x32 strips.
+# Keep their pictograms and borders; lettering uses indices 2 (ink), 1 (shadow).
+screen/mode_begin.nbfc@8	6	45	52	13	sb	2	1	c	1,2	New Game
+screen/mode_buster.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Buster
+screen/mode_exchange_mon.nbfc@8	12	32	40	26	s	2	1	c	1,2	Monster|Trade
+# The image reads 仲間配布, not the survey's 仲間と対戦.
+screen/mode_friend.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Share Allies
+screen/mode_gba_link.nbfc@8	6	45	52	13	sb	2	1	c	1,2	GBA Link
+screen/mode_load.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Load
+# Preserve the console icon at x8..23 beside the link label.
+screen/mode_radio.nbfc@8	26	45	32	13	sb	2	1	c	1,2	Link
+screen/mode_story.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Story
+screen/mode_vandel.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Vandel
+screen/mode_vs.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Versus
+screen/mode_vs_battle.nbfc@8	6	45	52	13	sb	2	1	c	1,2	Battle
+screen/mode_vs_battle2.nbfc@8	6	45	53	13	sb	2	1	c	1,2	Territory
+screen/gba_link_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	GBA Link
+# Preserve the copyright symbol and existing BANDAI/year line.
+screen/copyright.nbfc	24	64	224	40	s	1	-	l	1,2,3,4,5,6,7	Riku Sanjo / Koji Inada / Shueisha|TV Tokyo / dentsu / Toei Animation|Beet Production Committee
+# Unfinished: screen/title.nbfc and screen/debug_bg.nbfc need custom logo art
+# and background restoration; rectangular index erasure cannot preserve the
+# interwoven lettering, borders and decoration. No destructive placeholder.

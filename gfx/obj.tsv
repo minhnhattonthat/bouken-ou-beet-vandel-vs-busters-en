@@ -1,0 +1,24 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Target labels: four 32x16 sprites, each with an icon in columns 0-11.
+# screen order is One, Self, Many, All; the tengeki copies are byte-identical.
+# Many occupies all 20 columns, so its shadow is omitted in both copies.
+screen/skill_range.nbfc@4	12	4	20	12	s	15	13	c	13,15	One
+screen/skill_range.nbfc@4	12	20	20	12	s	15	13	c	13,15	Self
+screen/skill_range.nbfc@4	12	36	20	12	s	15	-	c	13,15	Many
+screen/skill_range.nbfc@4	12	52	20	12	s	15	13	c	13,15	All
+tengeki/skill_range_one.ob@4	12	4	20	12	s	15	13	c	13,15	One
+tengeki/skill_range_self.ob@4	12	4	20	12	s	15	13	c	13,15	Self
+tengeki/skill_range_many.ob@4	12	4	20	12	s	15	-	c	13,15	Many
+tengeki/skill_range_all.ob@4	12	4	20	12	s	15	13	c	13,15	All
+# Waiting banner: three 32x32 tiles read 待 / 機 / 中. All nonzero indices are lettering.
+screen/waiting_0.nbfc@4	0	0	32	32	s	1	o:5	c	1,2,3,4,5	Please
+screen/waiting_1.nbfc@4	0	0	32	32	s	1	o:5	c	1,2,3,4,5	wait
+screen/waiting_2.nbfc@4	0	0	32	32	s	1	o:5	c	1,2,3,4,5	...
+# BLOCKED: screen/skill_type.nbfc and tengeki/skill_type_{attack,heal,statusdown,statusup}.ob.
+# Each 32x16 sprite has only 20 columns beside its icon. Minimum accepted labels with font s,
+# without shadow: Attack 26px, Restore 31px, Weaken 30px, Boost 22px.
+# Need a wider runtime sprite/layout (and corresponding generator support), or an approved
+# narrower lettering option. Preserve the icons and original text pending that work.
+# BLOCKED: status/bitmap/main_char_v_parts3.ob is a 16x8 sprite (@2).
+# Glossary Star is 17px wide with font s, without shadow; font 8 is 20px.
+# Need one extra runtime column or a narrower font; no abbreviation substituted.

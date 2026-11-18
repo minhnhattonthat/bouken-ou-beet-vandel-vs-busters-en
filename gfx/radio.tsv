@@ -1,0 +1,45 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Result banners remain pending: radio_battle_draw1-4, lose1-2, win1-2.
+# Each file is one animated Japanese glyph; require composite sprite positions before lettering whole English words.
+screen/radio_buster_exchange_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Distribute
+screen/radio_buster_exchange_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_check_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Check
+screen/radio_check_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_check_parent_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Check
+screen/radio_check_parent_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_error_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Error
+screen/radio_vs_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Versus
+screen/radio_vs_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_vs_battle_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Battle
+screen/radio_vs_battle_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_vs_battle_base.nbfc	0	169	28	15	s	15	13	c	13,15	Orders
+screen/radio_vs_battle_base2.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Battle
+screen/radio_vs_battle_base2.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_vs_select_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Battle
+screen/radio_vs_select_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radiomode_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Wireless
+screen/radiomode_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_vs_party_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Link Battle
+screen/radio_vs_party_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back
+screen/radio_vs_party_base.nbfc	26	55	36	18	sb	15	13	c	13,15	Items
+screen/radio_vs_party_base.nbfc	82	55	36	18	sb	15	13	c	13,15	Skills
+screen/radio_vs_party_base.nbfc	138	55	36	18	sb	15	13	c	13,15	Equip
+screen/radio_vs_party_base.nbfc	194	55	36	18	sb	15	13	c	13,15	Status
+screen/radio_vs_party_base.nbfc	49	109	38	22	s	15	13	c	13,15	Quick|Command
+screen/radio_vs_party_base.nbfc	106	111	36	18	sb	15	13	c	13,15	Lineup
+screen/radio_vs_party_base.nbfc	162	111	36	18	sb	15	13	c	13,15	Tactics
+# The original sentences cross the 64-pixel seam between each pair of windows.
+# Erase both halves; place complete English lines within individual files.
+screen/radio_buster_exchange_win2_1.nbfc	80	6	118	16	s	15	13	c	13,15	Send this ally.
+screen/radio_buster_exchange_win2_1.nbfc	80	54	118	10	s	15	13	c	13,15	-
+screen/radio_buster_exchange_win2_2.nbfc	80	0	118	22	s	15	13	c	13,15	Are you sure?
+screen/radio_buster_exchange_win2_2.nbfc	90	34	30	13	sb	15	13	c	13,15	Yes
+screen/radio_buster_exchange_win2_2.nbfc	160	34	30	13	sb	15	13	c	13,15	No
+screen/radio_buster_exchange_win_1.nbfc	80	6	118	16	s	15	13	c	13,15	Receive this ally.
+screen/radio_buster_exchange_win_1.nbfc	80	26	118	38	s	15	13	c	13,15	This will overwrite any|ally you have already|received.
+screen/radio_buster_exchange_win_2.nbfc	80	0	118	22	s	15	13	c	13,15	Are you sure?
+screen/radio_buster_exchange_win_2.nbfc	90	34	30	13	sb	15	13	c	13,15	Yes
+screen/radio_buster_exchange_win_2.nbfc	160	34	30	13	sb	15	13	c	13,15	No
+# 64x64 OBJ layout; preserve the DS illustrations above the labels.
+screen/radiomode_child.nbfc@8	7	44	50	15	sb	2	1	c	1,2	Find Host
+screen/radiomode_parent.nbfc@8	7	44	50	15	sb	2	1	c	1,2	Host

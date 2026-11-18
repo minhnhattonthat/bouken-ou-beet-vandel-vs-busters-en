@@ -14,20 +14,21 @@ screen/button_shop_hone.nbfc@8	3	3	58	17	sb	1	2	c	1,2	Hone
 screen/button_shop_no.nbfc@8	3	3	58	17	sb	1	2	c	1,2	No
 screen/button_shop_sell.nbfc@8	3	3	58	17	sb	1	2	c	1,2	Sell
 screen/button_shop_yes.nbfc@8	3	3	58	17	sb	1	2	c	1,2	Yes
-# Pending layout support: the following assets render in scrambled sections at @16
-# (and do not form complete labels at @8). Do not erase their artwork as a flat grid.
-# screen/button_shop_appraise.nbfc
-# screen/button_shop_armor.nbfc
-# screen/button_shop_buy2.nbfc
-# screen/button_shop_cancel.nbfc
-# screen/button_shop_confidant.nbfc
-# screen/button_shop_item.nbfc
-# screen/button_shop_monster_buy.nbfc
-# screen/button_shop_quest.nbfc
-# screen/button_shop_report.nbfc
-# screen/button_shop_return.nbfc
-# screen/button_shop_sell2.nbfc
-# screen/button_shop_weapon.nbfc
+# Wide shop buttons: 64 tiles = two 64x32 OBJs side by side (@8x4 = one 128x32 image); frame interior 98x17 at 3,3.
+# Their Japanese is the 12 px font, so the English is too (網膜鑑定 Retinal Appraisal is 108 px: Appraisal).
+screen/button_shop_appraise.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Appraisal
+screen/button_shop_armor.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Armor
+screen/button_shop_buy2.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Buy
+screen/button_shop_cancel.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Cancel
+screen/button_shop_confidant.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Lieutenants
+screen/button_shop_item.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Items
+screen/button_shop_monster_buy.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Monsters
+screen/button_shop_quest.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Take a Quest
+screen/button_shop_report.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Quest Report
+screen/button_shop_return.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Back
+screen/button_shop_sell2.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Sell
+screen/button_shop_weapon.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Weapons
+# Pending (map files with .nbfs, scrambled): body-part buttons
 # screen/button_v_arm_L.nbfc
 # screen/button_v_arm_R.nbfc
 # screen/button_v_body.nbfc

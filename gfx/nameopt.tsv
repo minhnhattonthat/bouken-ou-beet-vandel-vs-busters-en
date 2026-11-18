@@ -1,0 +1,20 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Name-entry caption and confirmation; preserve the existing NAME ENTRY subtitle.
+screen/name_entry_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Name Entry
+screen/name_entry_base.nbfc	229	168	25	18	sb	15	13	c	13,15	OK
+# Keyboard tabs and delete; preserve the character grid and page arrows.
+screen/name_word_win.nbfc	33	97	30	15	sb	15	10	c	10,15	Kana
+screen/name_word_win.nbfc	65	97	30	15	sb	15	10	c	10,15	ABC
+screen/name_word_win.nbfc	97	97	30	15	sb	15	10	c	10,15	Marks
+screen/name_word_win.nbfc	65	113	30	15	sb	15	10	c	10,15	Delete
+screen/name_word_win_sub.nbfc	33	97	30	15	sb	15	10	c	10,15	Kana
+screen/name_word_win_sub.nbfc	65	97	30	15	sb	15	10	c	10,15	ABC
+screen/name_word_win_sub.nbfc	97	97	30	15	sb	15	10	c	10,15	Marks
+screen/name_word_win_sub.nbfc	65	113	30	15	sb	15	10	c	10,15	Delete
+# Options; retain the existing OPTION, BGM, SE, ON and OFF artwork.
+screen/option_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Options
+screen/option_base.nbfc	15	40	64	16	s	15	13	c	13,15	Message Speed
+screen/option_base.nbfc	95	40	34	16	sb	15	13	c	13,15	Fast
+screen/option_base.nbfc	151	40	34	16	sb	15	13	c	13,15	Normal
+screen/option_base.nbfc	207	40	34	16	sb	15	13	c	13,15	Slow
+screen/option_base.nbfc	229	168	26	18	sb	15	13	c	13,15	Back

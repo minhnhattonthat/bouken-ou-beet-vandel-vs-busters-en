@@ -3,8 +3,23 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build `build/beet_en.nds` sha1 beacd47acfcc3a9503624480facb95b32331d2f2 (battle menu + 57 buttons redrawn), smoke ok,
-  check.py green.
+  Build: see session 3 below; smoke ok, check.py green.
+- **Phase 8 session 3 (2026-11-19), Orca worker: graphics waves.**
+  - Waves via `tools/gfxagent.py` (codex): menus, windows, shopbuttons, shops, radio, info, title, obj, nameopt all
+    merged; agents' reports in `work/gfx_agents/<group>.md`. Build sha1 e36a3686a71980fa832391ad958f6f53656eac0d,
+    check green, smoke ok; title buttons Story / GBA Link seen in game (`work/qa/p8_title/final.png`). Everything else
+    not yet seen in game: re-tour + visualqa. Watch: radio adds 19 tiles to the party menu BG (VRAM budget); info uses
+    回避 Evasion where menus use Evade (unify in the polish pass, glossary has no row).
+  - Fixed by hand: menus pending (Quick Cmd., Mastery, Gear, tactics plates Arms/Strike/Heal/Guard/Divine/Dark; short
+    forms in glossary §Graphics UI labels); 昇格値 battle-result banner = `screen/exp.nbfc` (Rank|Pts, gfx/battle.tsv;
+    found with `warp.lua` `DUMP_AT={..}` + `vramfind.py --fmt gba4 --lo A0000 --hi E0000` on work/fs/fs).
+  - `gfx.py`: `path@WxH` = sprites of WxH tiles side by side (the 64-tile shop buttons are two 64x32 OBJs: @8x4); `-`
+    in `en` = erase-only row (editors strip a trailing tab); outlined left-aligned text no longer wraps its ring.
+  - Still pending: body-part buttons `button_v_*` (map files, scrambled), `main_v_parts` 星 Star (16x16),
+    party_order2 sort strip, cutins (23, scrambled: cell data), credits (19, whole panels), title logo katakana line.
+  - Verdict run: 150/152 sheets have verdicts (missing v17_noah, v18_last); 136 issue, nearly all graphics text, so
+    re-tour + re-verdict after the graphics land. "Vandels." one-word line already fixed in the script (tour was older).
+    "Resist. D" stays: the speaker tag is 80 px and "Resistance D" is 85 (glossary note).
 - **Phase 8 session 2 (2026-11-19), Orca worker: graphics pipeline + pilot.**
   - `tools/gfx.py` + `gfx/*.tsv` (row format in its docstring), wired into `tools/build.py` and `tools/romcheck.py`
     (writes logged, CHANGEABLE = files the rows name); `tests/test_gfx.py`; notes in `docs/re/graphics.md` §Redraw
@@ -48,9 +63,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8):** check the verdict run finished (`qa_gate.py todo ...`, rerun missing chunks); shoot the
-  pilot buttons on their menus; run the graphics groups (`tools/gfxagent.py`, 2 at a time, memory is short: ~1.3 GB
-  free), merge and shoot each wave; title logo katakana line and credits need their own approach (credits: whole
+- **Next (phase 8):** review wave-3 rows (previews), finish the pending graphics listed in session 3, run
+  `cutins` and `credits` (own approach), build, re-tour (`work/qa/en`) + vqasheets + qa_gate init + visualqa on all
+  chunks; title logo katakana line and credits need their own approach (credits: whole
   panels, `bg/credit*.nbfc` + map). Then re-tour, re-verdict; `inkbox.py` on choice/centred boxes; `textcover.py`.
   Open items carried into phase 8:
   - `elem.name` (属性, 10 one-kanji values, still Japanese, listed TEMPORARY in `script/keep_jp.txt`): the value

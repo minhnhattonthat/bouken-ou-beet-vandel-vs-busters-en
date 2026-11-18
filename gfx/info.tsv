@@ -1,0 +1,58 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Rectcover art-join waivers, visually checked in original | English previews:
+# captions: tab border; info book buttons and all Back/Details/Yes/No buttons: button frames;
+# Vandel Element: adjacent background emblem. No Japanese strokes remain outside the clear rects.
+# Information menu and encyclopedia screens; retain the existing English subtitles.
+screen/info_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Info
+screen/info_base.nbfc	59	56	34	16	sb	15	13	c	13,15	Quests
+screen/info_base.nbfc	161	53	38	22	s	15	13	c	13,15	Monster|Book
+screen/info_base.nbfc	58	109	35	22	s	15	13	c	13,15	Buster|Book
+screen/info_base.nbfc	161	109	38	22	s	15	13	c	13,15	Vandel|Book
+screen/info_base.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+screen/buster_book_base.nbfc	0	1	54	13	s	15	13	c	12,13,14,15	Buster Book
+screen/buster_book_base.nbfc	85	72	40	12	s	15	13	r	13,15	Attack
+screen/buster_book_base.nbfc	85	88	40	12	s	15	13	r	13,15	Accuracy
+screen/buster_book_base.nbfc	85	104	40	12	s	15	13	r	13,15	Defense
+screen/buster_book_base.nbfc	85	120	40	12	s	15	13	r	13,15	Evasion
+screen/buster_book_base.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+# Lift the widest caption above the tab's inward-curving right edge.
+screen/monster_book_base.nbfc	0	1	56	13	s	15	13	c	12,13,14,15	-
+screen/monster_book_base.nbfc	0	0	56	11	s	15	13	c	-	Monster Book
+screen/monster_book_base.nbfc	161	24	35	12	s	15	13	r	13,15	Element
+screen/monster_book_base.nbfc	85	56	40	12	s	15	13	r	13,15	Attack
+screen/monster_book_base.nbfc	85	72	40	12	s	15	13	r	13,15	Accuracy
+screen/monster_book_base.nbfc	85	88	40	12	s	15	13	r	13,15	Defense
+screen/monster_book_base.nbfc	85	104	40	12	s	15	13	r	13,15	Evasion
+screen/monster_book_base.nbfc	85	128	40	12	s	15	13	r	13,15	Bounty
+screen/monster_book_base.nbfc	76	144	49	12	s	15	13	r	13,15	Rank Points
+screen/monster_book_base.nbfc	15	167	41	12	s	15	13	l	13,15	Location
+screen/monster_book_base.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+screen/vandel_book_base.nbfc	0	1	54	13	s	15	13	c	12,13,14,15	Vandel Book
+screen/vandel_book_base.nbfc	161	24	35	12	s	15	13	r	13,15	Element
+screen/vandel_book_base.nbfc	85	72	40	12	s	15	13	r	13,15	Attack
+screen/vandel_book_base.nbfc	85	88	40	12	s	15	13	r	13,15	Accuracy
+screen/vandel_book_base.nbfc	85	104	40	12	s	15	13	r	13,15	Defense
+screen/vandel_book_base.nbfc	85	120	40	12	s	15	13	r	13,15	Evasion
+screen/vandel_book_base.nbfc	85	136	40	12	s	15	13	r	13,15	Bounty
+screen/vandel_book_base.nbfc	76	152	49	12	s	15	13	r	13,15	Rank Points
+screen/vandel_book_base.nbfc	15	167	41	12	s	15	13	l	13,15	Location
+screen/vandel_book_base.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+# Quest menus and confirmation windows.
+screen/quest_select_base.nbfc	0	1	54	13	s	15	13	c	12,13,14,15	Quest Select
+screen/quest_select_base.nbfc	1	169	28	15	sb	15	13	c	13,15	Details
+screen/quest_select_base.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+screen/quest_report.nbfc	0	1	54	13	s	15	13	c	12,13,14,15	Quest Report
+screen/quest_report.nbfc	1	169	28	15	sb	15	13	c	13,15	Details
+screen/quest_report.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+screen/quest_detail_base.nbfc	0	1	54	13	s	15	13	c	12,13,14,15	Quest Detail
+screen/quest_detail_base.nbfc	16	140	43	12	s	15	13	l	13,15	Reward
+screen/quest_detail_base.nbfc	169	140	36	12	s	15	13	l	13,15	Deadline
+screen/quest_detail_base.nbfc	16	156	43	12	s	15	13	l	13,15	Location
+screen/quest_detail_base.nbfc	16	172	43	12	s	15	13	l	13,15	Requester
+screen/quest_detail_base.nbfc	228	169	27	15	sb	15	13	c	13,15	Back
+screen/quest_accept_win.nbfc	10	82	156	14	s	15	13	c	13,15	Accept this quest?
+screen/quest_accept_win.nbfc	29	113	38	14	sb	15	13	c	13,15	Yes
+screen/quest_accept_win.nbfc	109	113	38	14	sb	15	13	c	13,15	No
+screen/quest_report_win.nbfc	5	82	166	14	s	15	13	c	13,15	What will you do with this quest?
+screen/quest_report_win.nbfc	28	113	40	14	sb	15	13	c	13,15	Report
+screen/quest_report_win.nbfc	108	113	40	14	sb	15	13	c	13,15	Give Up

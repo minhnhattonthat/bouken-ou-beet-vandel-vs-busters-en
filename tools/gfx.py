@@ -5,7 +5,8 @@ Row format (tab-separated, `#` comments, header line `file ...`):
     file  x  y  w  h  font  ink  shadow  align  erase  en
 
 - file: NitroFS path. `.nbfc` with a `.nbfs` twin is drawn through its map (screen space); without one it is a grid
-  of tiles; `path@N` sets the grid width to N tiles (OBJ sprites in 1D order: 64x32 = @8).
+  of tiles; `path@N` sets the grid width to N tiles (OBJ sprites in 1D order: 64x32 = @8); `path@WxH` lays the file
+  out as sprites of WxH tiles side by side (a 128x32 button of two 64x32 OBJs = @8x4, a 64x16 banner = @4x2).
 - x y w h: the clear rect in that image's pixels (`python -X utf8 tools/gfx.py show FILE` draws a ruler).
 - font: 8, 10 or 12 (the game's own full-width Latin glyphs, lc8x8 / lc10x10 / lc12x12, cropped proportionally);
   add `b` for a bold (doubled) stroke: `12b`.
@@ -64,7 +65,12 @@ def load_rows(groups=None):
 
 
 def split_name(spec):
+    """'path' -> (path, None); 'path@8' -> grid 8 tiles wide; 'path@8x4' -> sprites of 8x4 tiles in 1D order,
+    placed side by side in one row (a 128x32 button made of two 64x32 OBJs)."""
     name, _, gw = spec.partition('@')
+    if 'x' in gw:
+        sw, sh = gw.split('x')
+        return name, (int(sw), int(sh))
     return name, int(gw) if gw else None
 
 
@@ -130,6 +136,10 @@ class Image4:
             self.mw, self.mh = struct.unpack_from('<HH', mapdata)
             self.entries = [struct.unpack_from('<H', mapdata, 4 + 2 * k)[0] for k in range(self.mw * self.mh)]
             self.W, self.H = self.mw * 8, self.mh * 8
+        elif isinstance(grid, tuple):
+            self.sw, self.sh = grid
+            n = -(-self.ntiles // (self.sw * self.sh))
+            self.W, self.H = n * self.sw * 8, self.sh * 8
         else:
             self.gw = grid or 32
             self.W, self.H = self.gw * 8, (self.ntiles + self.gw - 1) // self.gw * 8
@@ -154,6 +164,9 @@ class Image4:
         return len(self.entries) if self.mapdata is not None else self.ntiles
 
     def _cellxy(self, cell):
+        if self.mapdata is None and not hasattr(self, 'gw'):      # sprite strip
+            s, k = divmod(cell, self.sw * self.sh)
+            return (s * self.sw + k % self.sw) * 8, k // self.sw * 8
         w = self.mw if self.mapdata is not None else self.gw
         return cell % w * 8, cell // w * 8
 
