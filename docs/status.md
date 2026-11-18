@@ -3,11 +3,39 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 fb263edd842e99273866f9edf7138ecc323d9164 (session 13; arm9 changed), check.py green (70 tests), smoke ok.
+  Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,165 shown + 182 waived of 9,472, 1,125 failing;
-  skills/tengeki/meigeki complete in session 14) and the Vandel-mode list (Next (4)). Biggest left: weapon 380,
-  rom.msg 278, buster 132, keyitem 90, vandel 78, wpntype 68, special 30, party 27, area2 25, ptr 21.
+  Left for the done-when: **text coverage** (8,221 shown + 200 waived of 9,472, 1,051 failing; party complete in
+  session 15) and the Vandel-mode list (Next (4)). Biggest left: weapon 336, rom.msg 278, buster 132, keyitem 90,
+  vandel 78, wpntype 68, special 30, area2 25, ptr 21.
+- **Phase 8 session 15 (2026-11-19), Orca worker: party names complete, weapon-list sweep, key-item screen RE.**
+  - **Party names done:** every named member has a real story join (`5A <type> <slot>`), listed by the new
+    `tools/debug/joinsites.py --types 1-0x10` (e.g. type 6 Milfa at rom.img 0x1899E, 9/A 0x17E2E, 7/8 0x1AB76,
+    B-D 0x0DA5E, E-10 0x1A3BE). New scene `member_join` (East Village idle field) + `EXTRA='q<pc>'` runs the join:
+    `work/qa/cover/join_<pc>` (exit 0, no reset; ids 6-0x10 fetched). The 19 "－" placeholder records (16-20, 32-40,
+    46-50) are waived (never drawn: the join always rolls a random name over them, session 13).
+  - Weapons: `tools/debug/invsweep.py` (new): one run per id with that record alone in an inventory region
+    (`inv=11E0:1:<id>:1`), opens a list (menu_equip weapon slot `t160,53 w200`), flags a flat bottom screen as HANG;
+    **use `--recheck`** on the OUT dir afterwards (the in-run verdict once said ok for a flat shot). Control (weapons
+    30-40) draws the Equip list; shields 0-10, 13, 15, 174, 224 hang the list in the English build. Forcing the
+    equipped weapon (save+0x185C = id 0x1nn, member+0x1FC) to 0x1E1 hangs Equip in **both** builds
+    (work/qa/p15_weqen / p15_weqjp). Forcing the accessor (idsweep) does not change the drawn name (cached).
+    Vandel mode (save+0 = 1) has no Equip button (Force Menu: Items, Skills, Monster Uptake, Status, Quick Command,
+    Lineup, Tactics, Force Orders), so the Vandel-named weapons 224-253 are not equipment there either.
+    **Sweep of all 94 missing ids on the original** (`work/qa/p15_wsweep_jp`, `--recheck` in
+    `work/qa/p15_wsweep_jp_recheck.txt`): shields 1-10 draw (now covered in English: `work/qa/cover/wequip`, e.g.
+    Steel Shield); the other 84 (record 0, 13-19, 22-24, 174-253) **hang the original's Equip list too**. Not
+    waived yet: find whether they are drawn elsewhere (Saiga 15-24 vs specials, wpntype 15-78 parallels them,
+    "Player X" 174-223 = special 11-35, Vandel weapons in Vandel-mode Status), then waive with this proof.
+  - **Fixed (English only, seen in game):** the Equip screen's "Required Lv" label (equip2_base, centred 53 px)
+    covered the tens digit ("Required Ð4" for Lv 24, `work/qa/cover/wequip/005`); now "Req. Lv" left-aligned like the
+    shops, also on the forge screens hone2 / hone_base (`work/qa/p15_reqlv/005`: "Req. Lv 24"). **Re-tour needed**
+    (build changed; menu_equip, shop_weapon_forge at least) before the final gate.
+  - Key items: the item menu ignores byte 1 (`inv=10D8:3:0:30` white-screens the item menu); the key-item readers
+    are a different screen: 0x020BF4B0 walks entries at [obj+0x834 + ...] (low 24 bits = id | cat<<8, byte 3 =
+    count, key item when cat & 3), and 0x0207AFB0 (same `& 0x300` test). Next: find which screen owns 0x020BF4xx
+    (callcount on its function over the guild/appraiser/quest scenes; key items look like quest deliveries: Ore,
+    statues, Hoverfish).
 - **Phase 8 session 14 (2026-11-19), Orca worker: Saiga skill / Tengeki / Meigeki coverage (context limit).**
   - Member struct = save+0x1660 (the Saiga screen object's [obj+0xF0] / [obj+0xD8]); learned Tengeki/Meigeki list
     = u32 ids at save+0x16E8 (+0x88; row routine 0x020CC5EC, 4 rows, **only the first 20 entries draw**), Saiga

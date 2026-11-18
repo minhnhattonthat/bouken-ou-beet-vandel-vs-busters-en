@@ -53,7 +53,7 @@ screen/item_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
 # そうびアイテム bar label: the whole 8-row strip between the frame lines (y 8-15), up to the frame at x 217;
 # 8 rows leave no room for descenders (Equipment/Equipped spill), so Gear
 screen/hone_base.nbfc	173	8	44	8	s	14	-	c	12,13,14	Gear
-screen/equip2_base.nbfc	9	136	53	12	s	15	13	c	13,15	Required Lv
+screen/equip2_base.nbfc	9	136	53	12	s	15	13	l	13,15	Req. Lv
 screen/equip2_base.nbfc	9	160	38	12	s	15	13	c	13,15	Attack
 screen/equip2_base.nbfc	113	160	38	12	s	15	13	c	13,15	Defense
 screen/equip2_base.nbfc	9	176	38	12	s	15	13	c	13,15	Accuracy
@@ -66,12 +66,12 @@ screen/hone2.nbfc	32	144	38	12	s	15	13	c	13,15	Attack
 screen/hone2.nbfc	96	144	38	12	s	15	13	c	13,15	Defense
 screen/hone2.nbfc	160	144	38	12	s	15	13	c	13,15	Accuracy
 screen/hone2.nbfc	32	160	38	12	s	15	13	c	13,15	Evade
-screen/hone2.nbfc	96	160	53	12	s	15	13	c	13,15	Required Lv
+screen/hone2.nbfc	96	160	49	12	s	15	13	l	13,15	Req. Lv
 screen/hone_base.nbfc	32	144	38	12	s	15	13	c	13,15	Attack
 screen/hone_base.nbfc	96	144	38	12	s	15	13	c	13,15	Defense
 screen/hone_base.nbfc	160	144	38	12	s	15	13	c	13,15	Accuracy
 screen/hone_base.nbfc	32	160	38	12	s	15	13	c	13,15	Evade
-screen/hone_base.nbfc	96	160	53	12	s	15	13	c	13,15	Required Lv
+screen/hone_base.nbfc	96	160	49	12	s	15	13	l	13,15	Req. Lv
 screen/main_base.nbfc	2	32	33	17	sb	15	13	c	13,15	Party
 screen/main_base.nbfc	2	72	33	17	sb	15	13	c	13,15	Info
 screen/main_base.nbfc	2	112	33	17	sb	15	13	c	13,15	Options

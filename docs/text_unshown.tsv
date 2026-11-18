@@ -93,3 +93,22 @@ a9.021B6AE8	as a9.021B68B0 (GBA cartridge)
 a9.021B6BCC	as a9.021B68B0 (GBA cartridge)
 a9.021B6BF0	as a9.021B68B0 (GBA cartridge)
 a9.021B6C10	as a9.021B68B0 (GBA cartridge)
+a9.party.016.name	generic buster placeholder: party records 16-50 (types 0x11-0x33) keep the original "－" (u16 0x003D, script/keep_jp.txt); 0x02019564 copies it, then rolls a random name from busterman/busterwoman.bin while it equals the literal at 0x021A94D4 (compare 0x020195A0), so the placeholder itself is never drawn; the names are covered by namesweep.py (256/256), and records 21-31 / 41-45 were fetched by the same joins (session 13, tests/test_party_placeholder.py) (2026-11-19)
+a9.party.017.name	as a9.party.016.name (generic placeholder, replaced by a random name at join)
+a9.party.018.name	as a9.party.016.name
+a9.party.019.name	as a9.party.016.name
+a9.party.020.name	as a9.party.016.name
+a9.party.032.name	as a9.party.016.name
+a9.party.033.name	as a9.party.016.name
+a9.party.034.name	as a9.party.016.name
+a9.party.035.name	as a9.party.016.name
+a9.party.036.name	as a9.party.016.name
+a9.party.037.name	as a9.party.016.name
+a9.party.038.name	as a9.party.016.name
+a9.party.039.name	as a9.party.016.name
+a9.party.040.name	as a9.party.016.name
+a9.party.046.name	as a9.party.016.name
+a9.party.047.name	as a9.party.016.name
+a9.party.048.name	as a9.party.016.name
+a9.party.049.name	as a9.party.016.name
+a9.party.050.name	as a9.party.016.name
