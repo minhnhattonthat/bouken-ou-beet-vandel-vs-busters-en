@@ -2,13 +2,33 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (phase 7 done 2026-11-18: lint 0 errors, controls matched, `tools/romcheck.py`
-  0 errors, smoke ok; build `build/beet_en.nds` sha1 389e44f1d490e83decc31076e8d1e7d2974045fe).
-- **Next (phase 8):** read `$SKILL/references/emulator-qa.md` and `graphics.md`. Tour every scene
-  (`tools/debug/warp_all.py`) on the English build, visual-QA verdicts per sheet (`qa_gate.py`; no reviewer
-  subagents in Orca: do it in a fresh read-only pass or `codex exec`), graphics-text redraws
-  (`docs/re/graphics-survey.tsv`, 279 panels), `inkbox.py` on choice/centred boxes, `textcover.py`. Open items
-  carried into phase 8:
+- **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
+  Build `build/beet_en.nds` sha1 567a59dab94b6f45cfd5cf9c1ccd0af536b2dc35, smoke ok.
+- **Phase 8 session 1 (2026-11-19), Orca worker:**
+  - Phase-7 review fixed: `tools/romcheck.py` now checks the ROM header (invariant bytes vs the dump, regenerated
+    offset/size words vs the image, header CRC; test zeroes the ARM9 entry); `lint.glossary_check` makes glossary
+    Avoid spellings errors in any case and across `{br}` (Sealing Ring / Rank Points restored in rom.07B00 08944
+    03B54). `lint --terms` lists 483 entries whose glossary term English is missing (mostly paraphrase/plural, e.g.
+    戦士団 -> "squad"; audit them in the polish pass, not errors).
+  - Tours: English `work/qa/en` 101/101 ok (with `glyphlog.lua`; `markerscan.py`: font-drawn Japanese only 沼 (elem)
+    and the full-width A-Z keyboard keys), original `work/qa/tour_jp` 100/101 (clear_save fixture writer timed out,
+    not needed). Full-size sheets: `python -X utf8 tools/vqasheets.py work/qa/en work/qa/vqa_en` (and tour_jp ->
+    vqa_jp); manifest `work/qa/manifest.tsv` (152 sheets, `--build` recorded; re-run tours + vqasheets + init after
+    every rebuild).
+  - Visual QA via `tools/visualqa.py` (codex exec, read-only, sheets attached with JP twins; brief
+    `docs/visual-qa-brief.md`). 24 of 152 sheets have verdicts (chunks 000-003): 5 ok, 19 issue, all but two are
+    graphics text (title logo katakana, title バスター/もどる buttons, copyright, battle header バトルメニュー,
+    道具/隊列/戦術/特技 buttons, ターゲット/ポーズ footer, 昇格値 banner). The run of the other chunks was stopped by the
+    system for low memory. Resume: `qa_gate.py todo work/qa/manifest.tsv work/qa/verdicts --size 6 --out-dir
+    work/qa/chunks`, then `python -X utf8 tools/visualqa.py <new chunk files> --en work/qa/vqa_en --jp work/qa/vqa_jp
+    --jobs 2` (lower jobs if memory is short). Note: the build changed since the tour (quote fix), so re-tour before
+    the final gate.
+  - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
+    (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
+- **Next (phase 8):** finish the verdict run; then the graphics redraws (`docs/re/graphics-survey.tsv`, 279 panels;
+  `$SKILL/references/graphics.md` §Parallel redraws: one pilot group first, e.g. the battle menu buttons and title
+  buttons, which show on most sheets), re-tour, re-verdict; `inkbox.py` on choice/centred boxes; `textcover.py`.
+  Open items carried into phase 8:
   - `elem.name` (属性, 10 one-kanji values, still Japanese, listed TEMPORARY in `script/keep_jp.txt`): the value
     canvas is window [[ui]+4]+0x100, drawn by `bl 0x02020240` (12 px) at 0x0208FF3C, at x ~232 next to the 属性
     label graphic; only ~24 px of screen are left. Glossary names from the chalice chain: Marsh, Cavern,

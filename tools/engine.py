@@ -26,7 +26,10 @@ EBASE, EEND = 0x2000, 0x6000
 PAIR_MAX = 16            # px: the glyph buffer is 24 px wide and the game shifts a glyph by up to 7 px
 SPACE = {12: 4, 8: 3}
 ROWS = {12: 12, 8: 8}
-EXTRA = '…×♪★☆○●◎→←↑↓「」『』・※〜―'
+EXTRA = '…×♪★☆○●◎→←↑↓「」『』・※〜―“'
+# ASCII " draws as the closing ” (JIS_OVERRIDE); an opening one (text start, after a space, a break or a bracket)
+# becomes “, so "Dacharei Mine" doesn't open with a closing mark
+OPEN_QUOTE = re.compile(r'(^|(?<=[\s(\[])|(?<=\{br\})|(?<=\{page\}))"')
 LETTERS = [None] + [chr(c) for c in range(0x20, 0x7F)] + list(EXTRA)
 assert len(LETTERS) <= 128
 SLOT = {ch: i for i, ch in enumerate(LETTERS) if ch}
@@ -395,6 +398,7 @@ class Engine:
                     i += 1
             run.clear()
 
+        text = OPEN_QUOTE.sub('“', text)
         pos = 0
         for m in TOKEN.finditer(text):
             run.extend(self._letters(text[pos:m.start()]))

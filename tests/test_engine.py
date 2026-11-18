@@ -32,6 +32,15 @@ def test_every_letter_has_a_glyph(eng):
         assert 0 < eng.w8[slot] <= 12, ch
 
 
+def test_opening_quotes(eng):
+    """An opening " draws as “ (start, after a space, a break or a bracket); every other " stays ”."""
+    def shown(t):
+        return ''.join(eng.decode_code(c) or '|' for c in eng.codes(t))
+    assert shown('"Dacharei Mine" is') == '“Dacharei Mine" is'
+    assert shown('x{br}"a" (\"b\")') == 'x|“a" (“b")'
+    assert shown('{hero}" ok') == '|" ok'
+
+
 def test_pairs_fit_the_glyph_buffer(eng):
     text = ''.join(ch for ch in engine.SLOT) * 2
     for c in eng.codes(text):

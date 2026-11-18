@@ -861,7 +861,7 @@
   {
    "id": "rom.0D434",
    "jp": "あ　この人はレジスタンス！{br}ヴァンデルたちに　抵抗してるの{page}あたいも　いろいろ{br}助けてもらってるさ！{close}",
-   "en": "Oh, he's with the Resistance!{br}They're fighting back against the{br}Vandels.{page}They've helped me out a bunch, too!{close}",
+   "en": "Oh, he's with the Resistance!{br}They're resisting the Vandels.{page}They've helped me out a bunch, too!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
