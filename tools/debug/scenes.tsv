@@ -1,0 +1,75 @@
+# Scene list for tools/debug/warp.lua (kinds and columns: see its header). Event offsets = `17 <u32>`
+# jump targets in field/script/rom.img (tools/debug/events.py, docs/re/scripts.md). Regenerate states:
+# python -X utf8 tools/debug/warp_all.py
+name	kind	arg	mash	frames	set	note
+title	title		0	900		title screen with Story / VS menu
+newgame	newgame		30	2400		opening ship event (event 60 @0x871)
+namentry	namentry		0	3600		name-entry screen after the opening
+credits	event	2EE	0	7000		staff roll routine (bg/credit01-19), called from both endings (17 @0x1676C, @0x51B6F)
+gameover	gameover	1ACB	30	1960		game-over screen: first battle, battle state forced to 13 (also gameover.png)
+field_nash	event	1ACB	30	5600		field board Nash Plain after the boat battle (idle)
+menu_main	touch	1ACB	30	3936	@3600 start	field main menu (Party/Info/Option/Save)
+menu_party	touch	1ACB	30	4032	@3600 start t18,40	party menu
+menu_items	touch	1ACB	30	4128	@3600 start t18,40 t46,62	party > items
+menu_skills	touch	1ACB	30	4128	@3600 start t18,40 t110,62	party > special skills
+menu_equip	touch	1ACB	30	4128	@3600 start t18,40 t174,62	party > equipment
+menu_status	touch	1ACB	30	4128	@3600 start t18,40 t210,62	party > status
+menu_quickcmd	touch	1ACB	30	4128	@3600 start t18,40 t46,120	party > quick command
+menu_formation	touch	1ACB	30	4128	@3600 start t18,40 t110,120	party > formation
+menu_tactics	touch	1ACB	30	4128	@3600 start t18,40 t174,120	party > tactics
+menu_orders	touch	1ACB	30	4128	@3600 start t18,40 t210,120	party > party orders
+menu_info	touch	1ACB	30	4032	@3600 start t18,80	info menu
+menu_quests	touch	1ACB	30	4128	@3600 start t18,80 t76,64	info > quests (quest/quest.img text)
+menu_monsters	touch	1ACB	30	4128	@3600 start t18,80 t180,64	info > monster book
+menu_busters	touch	1ACB	30	4128	@3600 start t18,80 t76,148	info > buster book
+menu_vandels	touch	1ACB	30	4128	@3600 start t18,80 t180,148	info > vandel book
+menu_option	touch	1ACB	30	4032	@3600 start t18,118	option screen
+menu_save	touch	1ACB	30	4032	@3600 start t18,158	save prompt
+b02_boat	event	1ACB	30	2600		boat landing, first battle (map 6F, battle 129)
+b03_village	event	1DC5	30	2600		East Village, Lena (map 70)
+b04_rescue	event	2CF7	30	2600		map 5A/50, battle EF
+b05_reunion	event	33BF	30	2600		map 72
+b06_elder	event	3761	30	2600		map 71
+b07_newbie	event	5EDF	30	2600		map 50
+b08_guild	event	6255	30	2600		map 76, buster duty
+b09_dachalei_mine	event	7E55	30	2600		Dachalei mine (map 52)
+b10_sandstorm	event	9C6F	30	2600		maps 1/3
+b11_bridge	event	A5D7	30	2600		bridge, battle C5 (map 4C)
+b12_zena	event	BB19	30	2600		map 70
+b13_vandel_fight	event	CCA1	30	2600		maps 58/1D, battles E8/52
+b14_idiot	event	EB6F	30	2600		maps 3/57/1C, battles E5/4E
+b15_west_island	event	F20F	30	2600		landing on the western island (maps 57/1C)
+b16_prey	event	FFA9	30	2600		map 2D, battle 79
+b17_buster_arrives	event	10241	30	2600		map 47, battle B6
+b18_volcano	event	105E3	30	2600		volcano (map 53), battle DB
+b19_harden	event	10891	30	2600		map 3
+b20_lena_sleep	event	11DDD	30	2600		map 70, battle 12B
+b21_village_dream	event	12029	30	2600		maps 70/6F, battle 128
+b22_awaken	event	12BD3	30	2600		summoned spirit
+b23_construction	event	13B89	30	2600		map 16, battle 3C
+b24_ore	event	1404D	30	2600		map 1, battle 2
+b25_tension	event	147B7	30	2600		map 2, battle 4
+b26_found_him	event	15131	30	2600		map 1, battle 3
+b27_golden_castle	event	1585D	30	2600		Golden Castle throne room (map 3), battle 8
+b28_ending	event	1670F	30	2600		ending event before the staff roll (id C2)
+b29_my_castle	event	19037	30	2600		map 15, battle 3A
+b30_aviator	event	1BC21	30	2600		aviator Gantry
+b31_five_keys	event	1C477	30	2600		all five keys found
+v01_twin_isles	event	3EA5A	30	2600		Vandel mode start: Twin Isles
+v02_coward	event	3F52B	30	2600		map 18, battle 3E
+v03_garbage	event	3FBFB	30	2600		map 1, battle 3
+v04_castle_works	event	4208D	30	2600		map 1
+v05_human_village	event	42D3D	30	2600		maps 23/25
+v06_wrong_way	event	43679	30	2600		map 39, battle 95
+v07_debt	event	44737	30	2600		
+v08_heh	event	45EA9	30	2600		map 9, battle 19
+v09_charge	event	46F6D	30	2600		map E, battle 2A
+v10_chief	event	474EB	30	2600		map 12
+v11_gate	event	48B21	30	2600		map 6F
+v12_last_gate	event	4A3AF	30	2600		map 79, battle 12C
+v13_earth_power	event	4AD69	30	2600		map 79
+v14_battle7	event	4B251	30	2600		battle 7
+v15_boring	event	4CF79	30	2600		
+v16_galonute	event	4E5FF	30	2600		battle 32
+v17_noah	event	50863	30	2600		
+v18_last	event	51495	30	2600		

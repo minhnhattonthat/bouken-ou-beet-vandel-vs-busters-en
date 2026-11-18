@@ -6,3 +6,5 @@
 - references/emulator-qa.md (Visual QA): `codex exec` reviewers given 11 sheets sometimes spend the run calling tools and return an empty last message; add "do not use any tools" and use batches of ~6 sheets.
 - SKILL.md (tools): a Python `Path.write_text` on Windows writes CRLF; generated tables need `newline="\n"` or git warns and the generated-file test breaks.
 - references/emulator-qa.md (DeSmuME): some DS games ignore Start on the title and every menu is touch-only; routes must use `t x,y`.
+- references/emulator-qa.md (Debug tool / DeSmuME): emu.py runs DeSmuME with the emulator folder as cwd, so a `--script` that reads a repo file (a scene list) must locate it from the `OUT` global (`OUT:match("^(.*)[/\\]work[/\\]")`) or an absolute `--var`; relative repo paths fail.
+- references/emulator-qa.md (Debug tool): on games whose script interpreter streams bytecode from the cartridge (NDS FS_ReadFile per operand), the warp can be "write the interpreter PC to an event entry when the first event starts"; a PC mid-event hangs because the event's actors were never spawned.
