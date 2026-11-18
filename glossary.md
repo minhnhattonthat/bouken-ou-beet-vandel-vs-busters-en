@@ -30,6 +30,10 @@ a batch line has the JP term without the EN form.
 | ポアラ | Poala |  | Person: Fixed. |  |
 | キッス | Kissu |  | Person: Fixed. |  |
 | スレッド | Slade |  | Person: Fixed; never "Thread." |  |
+| 封印のリング | Sealing Ring |  | Sacred object (phase 6 NEW TERM merge). Plural "Sealing Rings"; capitalised. | Seal Ring |
+| エルファスト | Elfast |  | Place: town with an armor shop (item descriptions). |  |
+| 網膜鑑定 | retinal appraisal |  | Buster guild system: appraisers read quest results from the eye. Lower case. |  |
+| 昇格値 | Rank Points |  | Buster guild system: points toward a rank promotion. |  |
 | ミルファ | Milfa |  | Person: Fixed. |  |
 | ゼノン | Zenon |  | Person: Mentioned through his party. |  |
 | レナ | Lena |  | Person: Elder twin. |  |

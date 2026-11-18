@@ -495,3 +495,101 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.0ADA4 - "いつもの夫婦ゲンカ" teasingly calls their familiar bickering a marital spat - "Another married-couple quarrel" sounds stiff and weakens the joke - (Here we go again! Bickering like an old married couple!)
 - [ ] rom.0AF20 - "おまえ 二刀流なのか!?" expresses surprise that the hero fights with two weapons - "You use Dual Wielding" sounds like a menu description - Oh... // Whoa!! {hero}, you know Dual Wielding?!
 - [ ] rom.09A98 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b021
+- [ ] rom.011F4 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b022
+- [ ] rom.03294 - "いつもの夫婦ゲンカ" teasingly calls their habitual bickering a marital quarrel - "Their usual married-couple quarrel" sounds stiff and weakens the joke - suggested EN: (They always bicker like an old married couple...)
+- [ ] rom.0393C - review suggestion blocked by width: message over 255 codes
+- [ ] rom.03B54 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.0410C - review suggestion blocked by width: message over 255 codes
+
+## Review minors b024
+- [ ] rom.06050 - "たすけて あ げ る": flirtatiously drawn-out offer to help - "A helping... little... hand" sounds awkward and misplaces the teasing emphasis - Let this superheroine of justice, BB Milfa, help... you... out! // Let's see...
+- [ ] rom.066A0 - "おそらく": probably; monsters are suspected of stopping the pigeons - "No doubt" overstates the Chief's certainty - A carrier pigeon recently arrived from Mirei Forest Village... // They report that many monsters have begun appearing in Mirei Forest... // Monsters alone would be troubling enough, but something resembling a Vandel has also been sighted... // East Island, too, may be falling into the Vandels' clutches, starting with Mirei Forest... // I wish I knew what has happened since, but no more pigeons have arrived... // Likely the work of monsters... // I fear for Mirei Forest Village, my boy...
+
+## Review minors b025
+- [ ] rom.07B00 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.08944 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b027
+- [ ] rom.0CF48 - "モンスターとは桁違いのプレッシャーじゃん" describes the Vandel's overwhelmingly intimidating presence - "The pressure's on a whole other level from a monster" is a stiff calque - Th-this is bad... So this is a Vandel... // Monsters have nothing on this guy... Talk about intimidating...
+
+## Review minors b028
+- [ ] rom.0DD68 - "この島の出身とは心強い" expresses encouragement at meeting a local - "Having someone from this island is reassuring" sounds stiff for Rend - Really!? It's good to have someone who knows this island! Right, Ark-san?
+- [ ] rom.0E6CC - "でも・・・それじゃ・・・" means "But... if things stay that way..." - "But... If I..." creates an awkward dangling clause - {hero}... I... // You see... Until now, I've only thought about my own feelings... // But... I can't go on like that, can I...? // Even now... I don't want you to be put in danger... // But... I know... // Nothing will get better if all I do is wait...
+
+## Review minors b030
+- [ ] rom.1263C - 「{hero}のお父さんの仇かもしれない」 means he may be the killer of {hero}'s father - "the father of {hero}" is awkwardly impersonal - suggested EN: Beet... The Vandel from the "Golden Castle" might have killed {hero}'s father...
+- [ ] rom.12D2C - 「知的に考えたまえ」 tells them to use their intellect - "Think intellectually" is a stiff calque - suggested EN: Are you the one who awakened me? // Apply your intellect... The fact that I emerged from a stone statue means...
+
+## Review minors b031
+- [ ] rom.1352C - review suggestion blocked by width: message over 255 codes
+
+## Review minors b032
+- [ ] rom.169D8 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.16CA8 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.17450 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b033
+- [ ] rom.19318 - 「命がいくらあっても足りない」 means even countless lives would not be enough - "No number of lives will save you" is a stiff calque that weakens Slade's dry warning - Wander around carelessly and you'll blunder into traps. You'll run out of lives fast...
+
+## Review minors b034
+- [ ] rom.1AF34 - "願いが込められた手作りのお守り・・・って" repeats the explanation incredulously: a handmade charm imbued with a wish - "You mean..." awkwardly suggests an unfinished clarification - suggested EN: ... Uh-huh... // A handmade charm with a wish woven into it... You're sayin'...
+- [ ] rom.1B5D4 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b035
+- [ ] rom.1CCC4 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b036
+- [ ] rom.23FEC - "倒れた木を壊した!" means the fallen tree was destroyed - "Broke the fallen tree" sounds unnatural for clearing an obstacle - You smashed the fallen tree!
+- [ ] rom.27BA0 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b037
+- [ ] rom.2AD18 - "ウッ・・・ グスッ・・・" conveys choked sobbing - "Ugh" suggests disgust or frustration rather than tears - We're just leaving it all to you, {hero}... // Making you do everything dangerous... // If anything happened to you, {hero}... I... I... // *sob*... *sniff*...
+- [ ] rom.2B29C - "依頼されていたモンスターを無事に討伐することができた" means successfully defeating the monsters specified in the request - "defeated the monsters for the request" is awkward English - You defeated the monsters specified in the request! Go report to the Appraisal Hut!
+- [ ] rom.2B134 - review suggestion blocked by width: line 1: 125 px > 120 (12 px font) 'Buster Association'
+
+## Review minors b038
+- [ ] rom.32360 - "見苦しい言い訳はしない" means refusing to make disgraceful excuses for losing - "sully a loss" is an unnatural collocation - I won't disgrace myself by making excuses for losing. That's a gambler's etiquette...
+- [ ] rom.325D4 - "この二ッ星の切れ味を味わえ" threatens the opponent with this Two-Star assassin's sharpness - "the cutting edge of this Two-Star" reads as a stiff calque - Gehihyaha! I'm Shaderiko, the "Dark Claw"! // Taste my blades! I'm a Two-Star feared as an assassin!!
+
+## Review minors b041
+- [ ] rom.3E4B4 - 「薬草を手に入れた」 means "obtained a medicinal herb" - Missing article makes the notification awkward - Obtained a Medicinal Herb.
+- [ ] rom.3E568 - 「アイテムゲット」 labels item acquisition - "Item Get" is unnatural English, even as a debug sound label - Item Obtained
+
+## Review minors b042
+- [ ] rom.409E0 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.41168 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.41378 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.419B0 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b043
+- [ ] rom.42518 - 島中を黄金に染める: turn the whole island to gold - "These whole islands" is unnatural English - A Vandel's power can destroy a mere "Sealing Ring" in one blow... // You might not even need to strike it... // When you find a "Sealing Ring," just try touching it... // That's all it takes to destroy a "Sealing Ring"!! // Heh heh heh... // I can hardly stand it... // Oh, don't worry... // Even a greenhorn like you can't possibly mess this up... // Go...! Turn every inch of the island to gold, just as I desire!!
+- [ ] rom.4330C - 目指す「七ッ星」まではまだまだ遠い道のり: a long road remains to the Seven-Star rank - "Before your goal of Seven-Star" reads awkwardly - Congratulations!! // Though you still have quite a way to go before you reach the rank of "Seven-Star"...!! // Keep up the fine work...! Now, farewell...!! // Oh, yes... These are the Build Ants entrusted to me by Harden-sama. // He ordered them to build a gold mine.
+
+## Review minors b044
+- [ ] rom.45344 - Diam boasts that the island's rumors have reached even him, then realizes who he is addressing - "Even I... heard!" is awkwardly incomplete, and the compressed opening loses his suspicious question - Hey! Don't tell me you've come to uncover this island's secret too... // This island's been quite the topic of conversation around the Bekatorte Seas lately... // Naturally, those rumors reached even me, "Steel Claw" Diam-sama, the strongest in the Bekatorte Seas... // If the "Greedy Overlord" himself has come here, there must be something to it... // They say he's brought an underling with conspicuously long horns... // ...!! // Oh, no! Those horns! Don't tell me...! I let that slip! // No matter... I'll just have to silence you! // SEYAAAAAA!!
+- [ ] rom.44EEC - review suggestion blocked by width: message over 255 codes
+
+## Review minors b045
+- [ ] rom.46E34 - "このあたいが キャーだって" expresses disbelief that she herself screamed - "Like a little girl" adds a disparaging comparison absent from the Japanese - Haha... Seriously? Me, screaming like that...? This is really bad... // {hero}... I don't think I'm gonna make it...
+
+## Review minors b046
+- [ ] rom.49564 - "ふざけるな" means "Don't give me that!" - "Don't you dare" suggests a warning rather than defiant rejection of the question - D-don't give me that...!
+
+## Review minors b047
+- [ ] rom.49E64 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b048
+- [ ] rom.4C7E4 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b049
+- [ ] rom.4F2B0 - review suggestion blocked by width: message over 255 codes
+- [ ] rom.4F468 - review suggestion blocked by width: message over 255 codes
+
+## Review minors b050
+- [ ] rom.4FD60 - "長らく販売を中止しており ご迷惑をおかけしていた" apologizes for the prolonged suspension of sales - "Sorry for the long wait!" and the subsequent fragments make Shagie's sales pitch noticeably brusquer than neighboring dialogue - suggested EN: We apologize for the prolonged inconvenience, but "Hoverfish" are now back on sale at the Vandel House! // Although their stops are limited, they allow you to travel long distances far faster than on foot...! // Here on the Twin Islands, for instance... Yes, you can travel from the Golden Castle to Rinnam Glacier...! // They are a little costly, but do consider purchasing one...! // Tarotos awaits you at the Vandel House with lively "Hoverfish" ready for sale...! // Please do make use of our services...! // Was that explanation clear?
+- [ ] rom.503EC - "ぜひお買い求めくださいませ" courteously urges a purchase - "A little pricier ... but do buy one!" sounds blunt; restoring the courteous sales language would better match Shagie's other announcements - suggested EN: We apologize for the prolonged inconvenience, but the "Giant Butterfly" is now back on sale at the Vandel House! // Although its stops are limited, it allows you to travel long distances far faster even than a "Hoverfish"...! // Here on the Twin Islands, for instance... Yes, you can travel from the Golden Castle to Zeros Snowfield...! // It is a little more costly than a "Hoverfish," but do consider purchasing one...! // Tarotos awaits you at the Vandel House with a lively "Giant Butterfly" ready for sale...! // Please do make use of our services...! // Was that explanation clear?
+- [ ] rom.4F8C8 - review suggestion blocked by width: message over 255 codes

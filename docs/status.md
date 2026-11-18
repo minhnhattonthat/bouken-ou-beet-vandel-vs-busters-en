@@ -2,8 +2,28 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate: all text translated and merged, dialogue review pass 4/33 done (phase 5 done 2026-11-18:
-  marker tour `work/qa/marker3` 101/101 ok, 969 ids, no Japanese drawn; every kind has a budget in `tools/budgets.json`).
+- **Phase:** 7. Insert, fit, check (phase 6 done 2026-11-18: all 51 batches reviewed, every Critical/Important
+  applied or listed in `docs/polish.md`; phase 5 done 2026-11-18: marker tour `work/qa/marker3` 101/101 ok).
+- **Next (phase 7):**
+  1. Enlarge the 255-code message expansion buffer (docs/re/vwf.md: 0x200-byte stack buffer at 0x0201F4A4 /
+     sp+0x1C; move it to a static buffer in the hook block), raise the lint limit, then merge the 3 deferred
+     appraiser messages from `docs/long-messages.tsv` (rom.169D8 16CA8 17450) and re-apply the review fixes that
+     were blocked only by "message over 255 codes" (polish.md lines "review suggestion blocked by width: message
+     over 255 codes", ~35; suggested EN is in `work/tr/review/bNNN.md`): `python -X utf8 tools/review.py apply
+     <batch>` re-applies a batch's suggestions once the limit is raised.
+  2. Phase 7 checks: width/overflow lint clean, control codes matched (lint), `romdiff.py` with the allowed
+     ranges, build write log.
+  3. `elem.name` (10 属性 kanji, 18 px canvas): widen the draw code, then translate (`batches.DEFER_KINDS`).
+- **Phase 6 session 2 (2026-11-18):** review run for b021-b051 finished (`--jobs 3`, memory) and applied; NEW TERM
+  reports merged (missing ones added to glossary Terms: 封印のリング Sealing Ring with "Seal Ring" in Avoid, so lint
+  now errors on it; エルファスト Elfast; 網膜鑑定 retinal appraisal; 昇格値 Rank Points); all 31 "Seal Ring"/lower-case
+  lines fixed one by one in the batch outputs. Bugs fixed: `review.py suggested()` kept a literal "suggested EN:"
+  prefix (6 lines, now stripped, `tests/test_review.py`); `review.py apply` merges without `--defer-long`, so a
+  batch with a deferred message (b032) never merged: after any apply run
+  `python -X utf8 tools/batches.py merge b001 ... b051 --defer-long`. New `tools/review_left.py`: Critical/Important
+  findings neither applied nor in polish.md (prints `left: 0` now). Lint 0 errors, 9,369 / 9,472 translated
+  (3 deferred dialogue + not-drawn/kept kinds). Build `build/beet_en.nds` sha1 3ebdce16512c246d842fb68fab4966e5423d3e65,
+  smoke ok.
 - **Phase 6 session 1 (2026-11-18), Orca worker, no subagents: translation and review run through `codex exec`.**
   - Done: `docs/synopsis.md` (codex read of the whole script: file -> chapter map, plot of both stories, cast and voice
     guide), `glossary.md` (rulings, ~270 binding terms, generated "Names from the game tables" section via
@@ -14,23 +34,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (review via codex, `apply` puts Critical/Important suggested EN in line by line and keeps width-failing ones out,
     Minors + blocked fixes -> `docs/polish.md`), `tools/mkpolish.py` (translator CUT lines -> polish), `tools/dumpstory.py`.
     Batch files, prompts, outputs, reviews: `work/tr/` (gitignored; b001-b017 tables, b018-b051 dialogue).
-  - Status: 9,368 / 9,372 entries translated, lint 0 errors. Tables b001-b017 reviewed and fixes applied; dialogue
-    b018-b020, b023, b026 reviewed and applied.
+  - Tables b001-b017 reviewed and fixes applied in session 1.
   - Budget changes: speaker tag 64 -> 80 px (8 x W name drawn in `work/qa/ne_w2`); lint lets every multi-line kind
     (desc, ptr.msg) re-wrap, not only msg.
-  - Deferred: 4 appraiser tutorial messages (rom.169D8 16CA8 1711C 17450) need ~350 codes > the 255-code expansion
+  - Deferred: 3 appraiser tutorial messages (rom.169D8 16CA8 17450; 1711C now fits after review) need ~350 codes > the 255-code expansion
     buffer (docs/re/vwf.md: 0x200-byte stack buffer at 0x0201F4A4 / sp+0x1C); English kept in
     `docs/long-messages.tsv`. Phase 7: enlarge the buffer (static buffer in the hook block), then merge them.
     `elem.name` (10 属性 kanji) not translated: 18 px canvas, widen the draw code first (`batches.DEFER_KINDS`).
-- **Next (phase 6, finish):** the dialogue review run was killed by low system memory (not a tool failure). Resume:
-  `python -X utf8 tools/review.py run b021 b022 b024 b025 b027 ... b051 --jobs 4` (fewer jobs: memory), then
-  `python -X utf8 tools/review.py apply <same>`, then commit. Then a consistency fix pass: "Seal Ring" (29 lines)
-  vs glossary "Sealing Ring" (60): send those ids through a translator fix prompt (no bulk regex: translation.md).
-  Merge NEW TERM reports (95, `work/tr/out/b*.md`) into glossary.md. Phase 6 is done when every batch's review has
-  no Critical/Important left except width-blocked ones listed in polish.md.
-  Last build: 2026-11-18 `python -X utf8 tools/build.py --marker` -> `build/beet_marker.nds` sha1
-  9f82ab3e3a4acad381a0bd8b2e8352f0a1c13e23, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
-  dump, `--qa ID=TEXT` overrides one entry.)
+  (`tools/build.py` default = English from `en`, `--identity` = dump, `--marker`, `--qa ID=TEXT` overrides one entry.)
 - **Phase 5 session 3 (2026-11-18):**
   - Name entry: the game already has an 英字 (A-Z a-z) tab; `ne_init` (engine.SITES 0x0202B6F0) opens the keyboard on
     it, and the hooks draw/measure the full-width Latin codes names are stored in as proportional letters

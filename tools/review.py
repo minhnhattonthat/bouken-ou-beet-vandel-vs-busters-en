@@ -79,6 +79,7 @@ def suggested(text):
     """Last ` - ` separated field = suggested EN (strip quotes)."""
     parts = re.split(r'\s+-\s+', text)
     en = parts[-1].strip() if len(parts) >= 3 else ''
+    en = re.sub(r'^(?:\*\*)?suggested(?: EN)?:(?:\*\*)?\s*', '', en, flags=re.I)
     if len(en) >= 2 and en[0] in '"`' and en[-1] == en[0]:
         en = en[1:-1]
     return en

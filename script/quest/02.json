@@ -263,21 +263,21 @@
   {
    "id": "quest.04388",
    "jp": "封印のリング修復",
-   "en": "Repair Seal Ring",
+   "en": "Repair Sealing Ring",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.0439C",
    "jp": "封印のリング修復",
-   "en": "Repair the seal ring.",
+   "en": "Repair the Sealing Ring.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.043B0",
    "jp": "封印のリング修復",
-   "en": "Repair the seal ring.",
+   "en": "Repair the Sealing Ring.",
    "kind": "desc",
    "refs": 1
   },
@@ -1040,21 +1040,21 @@
   {
    "id": "quest.04B88",
    "jp": "封印のリング修復",
-   "en": "Repair Seal Ring",
+   "en": "Repair Sealing Ring",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.04B9C",
    "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
-   "en": "Repair the seal ring in Sole Valley.{close}",
+   "en": "Repair the Sealing Ring in Sole{br}Valley.{close}",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.04BC8",
    "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
-   "en": "Repair the seal ring in Sole Valley.{close}",
+   "en": "Repair the Sealing Ring in Sole{br}Valley.{close}",
    "kind": "desc",
    "refs": 1
   },
@@ -1649,21 +1649,21 @@
   {
    "id": "quest.05B7C",
    "jp": "封印のリング修復",
-   "en": "Repair Seal Ring",
+   "en": "Repair Sealing Ring",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.05B90",
    "jp": "封印のリング修復",
-   "en": "Repair the seal ring.",
+   "en": "Repair the Sealing Ring.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.05BA4",
    "jp": "封印のリング修復",
-   "en": "Repair the seal ring.",
+   "en": "Repair the Sealing Ring.",
    "kind": "desc",
    "refs": 1
   },
