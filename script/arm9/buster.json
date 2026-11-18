@@ -4,7 +4,7 @@
   {
    "id": "a9.buster.000.name",
    "jp": "ヒーロー",
-   "en": "",
+   "en": "Hero",
    "kind": "buster.name",
    "addr": "0214AB78",
    "max": 22
@@ -12,7 +12,7 @@
   {
    "id": "a9.buster.000.name2",
    "jp": "ヒーロー",
-   "en": "",
+   "en": "Hero",
    "kind": "buster.name2",
    "addr": "0214AB8E",
    "max": 22
@@ -28,7 +28,7 @@
   {
    "id": "a9.buster.001.name",
    "jp": "ビィト",
-   "en": "",
+   "en": "Beet",
    "kind": "buster.name",
    "addr": "0214AD2C",
    "max": 22
@@ -36,7 +36,7 @@
   {
    "id": "a9.buster.001.name2",
    "jp": "ビィト",
-   "en": "",
+   "en": "Beet",
    "kind": "buster.name2",
    "addr": "0214AD42",
    "max": 22
@@ -52,7 +52,7 @@
   {
    "id": "a9.buster.002.name",
    "jp": "ポアラ",
-   "en": "",
+   "en": "Poala",
    "kind": "buster.name",
    "addr": "0214AEE0",
    "max": 22
@@ -60,7 +60,7 @@
   {
    "id": "a9.buster.002.name2",
    "jp": "ポアラ",
-   "en": "",
+   "en": "Poala",
    "kind": "buster.name2",
    "addr": "0214AEF6",
    "max": 22
@@ -76,7 +76,7 @@
   {
    "id": "a9.buster.003.name",
    "jp": "キッス",
-   "en": "",
+   "en": "Kissu",
    "kind": "buster.name",
    "addr": "0214B094",
    "max": 22
@@ -84,7 +84,7 @@
   {
    "id": "a9.buster.003.name2",
    "jp": "キッス",
-   "en": "",
+   "en": "Kissu",
    "kind": "buster.name2",
    "addr": "0214B0AA",
    "max": 22
@@ -100,7 +100,7 @@
   {
    "id": "a9.buster.004.name",
    "jp": "スレッド",
-   "en": "",
+   "en": "Slade",
    "kind": "buster.name",
    "addr": "0214B248",
    "max": 22
@@ -108,7 +108,7 @@
   {
    "id": "a9.buster.004.name2",
    "jp": "スレッド",
-   "en": "",
+   "en": "Slade",
    "kind": "buster.name2",
    "addr": "0214B25E",
    "max": 22
@@ -124,7 +124,7 @@
   {
    "id": "a9.buster.005.name",
    "jp": "ミルファ",
-   "en": "",
+   "en": "Milfa",
    "kind": "buster.name",
    "addr": "0214B3FC",
    "max": 22
@@ -132,7 +132,7 @@
   {
    "id": "a9.buster.005.name2",
    "jp": "ミルファ",
-   "en": "",
+   "en": "Milfa",
    "kind": "buster.name2",
    "addr": "0214B412",
    "max": 22
@@ -148,7 +148,7 @@
   {
    "id": "a9.buster.006.name",
    "jp": "ゴラン",
-   "en": "",
+   "en": "Goran",
    "kind": "buster.name",
    "addr": "0214B5B0",
    "max": 22
@@ -156,7 +156,7 @@
   {
    "id": "a9.buster.006.name2",
    "jp": "ゴラン",
-   "en": "",
+   "en": "Goran",
    "kind": "buster.name2",
    "addr": "0214B5C6",
    "max": 22
@@ -172,7 +172,7 @@
   {
    "id": "a9.buster.007.name",
    "jp": "シバ",
-   "en": "",
+   "en": "Shiba",
    "kind": "buster.name",
    "addr": "0214B764",
    "max": 22
@@ -180,7 +180,7 @@
   {
    "id": "a9.buster.007.name2",
    "jp": "シバ",
-   "en": "",
+   "en": "Shiba",
    "kind": "buster.name2",
    "addr": "0214B77A",
    "max": 22
@@ -196,7 +196,7 @@
   {
    "id": "a9.buster.008.name",
    "jp": "グレスト",
-   "en": "",
+   "en": "Grest",
    "kind": "buster.name",
    "addr": "0214B918",
    "max": 22
@@ -204,7 +204,7 @@
   {
    "id": "a9.buster.008.name2",
    "jp": "グレスト",
-   "en": "",
+   "en": "Grest",
    "kind": "buster.name2",
    "addr": "0214B92E",
    "max": 22
@@ -220,7 +220,7 @@
   {
    "id": "a9.buster.009.name",
    "jp": "バドゥ",
-   "en": "",
+   "en": "Badu",
    "kind": "buster.name",
    "addr": "0214BACC",
    "max": 22
@@ -228,7 +228,7 @@
   {
    "id": "a9.buster.009.name2",
    "jp": "バドゥ",
-   "en": "",
+   "en": "Badu",
    "kind": "buster.name2",
    "addr": "0214BAE2",
    "max": 22
@@ -244,7 +244,7 @@
   {
    "id": "a9.buster.010.name",
    "jp": "アーク",
-   "en": "",
+   "en": "Ark",
    "kind": "buster.name",
    "addr": "0214BC80",
    "max": 22
@@ -252,7 +252,7 @@
   {
    "id": "a9.buster.010.name2",
    "jp": "アーク",
-   "en": "",
+   "en": "Ark",
    "kind": "buster.name2",
    "addr": "0214BC96",
    "max": 22
@@ -268,7 +268,7 @@
   {
    "id": "a9.buster.011.name",
    "jp": "レンド",
-   "en": "",
+   "en": "Rend",
    "kind": "buster.name",
    "addr": "0214BE34",
    "max": 22
@@ -276,7 +276,7 @@
   {
    "id": "a9.buster.011.name2",
    "jp": "レンド",
-   "en": "",
+   "en": "Rend",
    "kind": "buster.name2",
    "addr": "0214BE4A",
    "max": 22
@@ -292,7 +292,7 @@
   {
    "id": "a9.buster.012.name",
    "jp": "シグサ",
-   "en": "",
+   "en": "Shigusa",
    "kind": "buster.name",
    "addr": "0214BFE8",
    "max": 22
@@ -300,7 +300,7 @@
   {
    "id": "a9.buster.012.name2",
    "jp": "シグサ",
-   "en": "",
+   "en": "Shigusa",
    "kind": "buster.name2",
    "addr": "0214BFFE",
    "max": 22
@@ -316,7 +316,7 @@
   {
    "id": "a9.buster.013.name",
    "jp": "ジーク",
-   "en": "",
+   "en": "Zeke",
    "kind": "buster.name",
    "addr": "0214C19C",
    "max": 22
@@ -324,7 +324,7 @@
   {
    "id": "a9.buster.013.name2",
    "jp": "ジーク",
-   "en": "",
+   "en": "Zeke",
    "kind": "buster.name2",
    "addr": "0214C1B2",
    "max": 22
@@ -340,7 +340,7 @@
   {
    "id": "a9.buster.014.name",
    "jp": "リュック",
-   "en": "",
+   "en": "Ryuk",
    "kind": "buster.name",
    "addr": "0214C350",
    "max": 22
@@ -348,7 +348,7 @@
   {
    "id": "a9.buster.014.name2",
    "jp": "リュック",
-   "en": "",
+   "en": "Ryuk",
    "kind": "buster.name2",
    "addr": "0214C366",
    "max": 22
@@ -364,7 +364,7 @@
   {
    "id": "a9.buster.015.name",
    "jp": "ナック",
-   "en": "",
+   "en": "Nack",
    "kind": "buster.name",
    "addr": "0214C504",
    "max": 22
@@ -372,7 +372,7 @@
   {
    "id": "a9.buster.015.name2",
    "jp": "ナック",
-   "en": "",
+   "en": "Nack",
    "kind": "buster.name2",
    "addr": "0214C51A",
    "max": 22
@@ -388,7 +388,7 @@
   {
    "id": "a9.buster.016.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214C6B8",
    "max": 22
@@ -396,7 +396,7 @@
   {
    "id": "a9.buster.016.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214C6CE",
    "max": 22
@@ -412,7 +412,7 @@
   {
    "id": "a9.buster.017.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214C86C",
    "max": 22
@@ -420,7 +420,7 @@
   {
    "id": "a9.buster.017.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214C882",
    "max": 22
@@ -436,7 +436,7 @@
   {
    "id": "a9.buster.018.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214CA20",
    "max": 22
@@ -444,7 +444,7 @@
   {
    "id": "a9.buster.018.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214CA36",
    "max": 22
@@ -460,7 +460,7 @@
   {
    "id": "a9.buster.019.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214CBD4",
    "max": 22
@@ -468,7 +468,7 @@
   {
    "id": "a9.buster.019.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214CBEA",
    "max": 22
@@ -484,7 +484,7 @@
   {
    "id": "a9.buster.020.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214CD88",
    "max": 22
@@ -492,7 +492,7 @@
   {
    "id": "a9.buster.020.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214CD9E",
    "max": 22
@@ -508,7 +508,7 @@
   {
    "id": "a9.buster.021.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214CF3C",
    "max": 22
@@ -516,7 +516,7 @@
   {
    "id": "a9.buster.021.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214CF52",
    "max": 22
@@ -532,7 +532,7 @@
   {
    "id": "a9.buster.022.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214D0F0",
    "max": 22
@@ -540,7 +540,7 @@
   {
    "id": "a9.buster.022.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214D106",
    "max": 22
@@ -556,7 +556,7 @@
   {
    "id": "a9.buster.023.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214D2A4",
    "max": 22
@@ -564,7 +564,7 @@
   {
    "id": "a9.buster.023.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214D2BA",
    "max": 22
@@ -580,7 +580,7 @@
   {
    "id": "a9.buster.024.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214D458",
    "max": 22
@@ -588,7 +588,7 @@
   {
    "id": "a9.buster.024.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214D46E",
    "max": 22
@@ -604,7 +604,7 @@
   {
    "id": "a9.buster.025.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214D60C",
    "max": 22
@@ -612,7 +612,7 @@
   {
    "id": "a9.buster.025.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214D622",
    "max": 22
@@ -628,7 +628,7 @@
   {
    "id": "a9.buster.026.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214D7C0",
    "max": 22
@@ -636,7 +636,7 @@
   {
    "id": "a9.buster.026.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214D7D6",
    "max": 22
@@ -652,7 +652,7 @@
   {
    "id": "a9.buster.027.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214D974",
    "max": 22
@@ -660,7 +660,7 @@
   {
    "id": "a9.buster.027.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214D98A",
    "max": 22
@@ -676,7 +676,7 @@
   {
    "id": "a9.buster.028.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214DB28",
    "max": 22
@@ -684,7 +684,7 @@
   {
    "id": "a9.buster.028.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214DB3E",
    "max": 22
@@ -700,7 +700,7 @@
   {
    "id": "a9.buster.029.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214DCDC",
    "max": 22
@@ -708,7 +708,7 @@
   {
    "id": "a9.buster.029.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214DCF2",
    "max": 22
@@ -724,7 +724,7 @@
   {
    "id": "a9.buster.030.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214DE90",
    "max": 22
@@ -732,7 +732,7 @@
   {
    "id": "a9.buster.030.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214DEA6",
    "max": 22
@@ -748,7 +748,7 @@
   {
    "id": "a9.buster.031.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214E044",
    "max": 22
@@ -756,7 +756,7 @@
   {
    "id": "a9.buster.031.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214E05A",
    "max": 22
@@ -772,7 +772,7 @@
   {
    "id": "a9.buster.032.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214E1F8",
    "max": 22
@@ -780,7 +780,7 @@
   {
    "id": "a9.buster.032.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214E20E",
    "max": 22
@@ -796,7 +796,7 @@
   {
    "id": "a9.buster.033.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214E3AC",
    "max": 22
@@ -804,7 +804,7 @@
   {
    "id": "a9.buster.033.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214E3C2",
    "max": 22
@@ -820,7 +820,7 @@
   {
    "id": "a9.buster.034.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214E560",
    "max": 22
@@ -828,7 +828,7 @@
   {
    "id": "a9.buster.034.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214E576",
    "max": 22
@@ -844,7 +844,7 @@
   {
    "id": "a9.buster.035.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214E714",
    "max": 22
@@ -852,7 +852,7 @@
   {
    "id": "a9.buster.035.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214E72A",
    "max": 22
@@ -868,7 +868,7 @@
   {
    "id": "a9.buster.036.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214E8C8",
    "max": 22
@@ -876,7 +876,7 @@
   {
    "id": "a9.buster.036.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214E8DE",
    "max": 22
@@ -892,7 +892,7 @@
   {
    "id": "a9.buster.037.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214EA7C",
    "max": 22
@@ -900,7 +900,7 @@
   {
    "id": "a9.buster.037.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214EA92",
    "max": 22
@@ -916,7 +916,7 @@
   {
    "id": "a9.buster.038.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214EC30",
    "max": 22
@@ -924,7 +924,7 @@
   {
    "id": "a9.buster.038.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214EC46",
    "max": 22
@@ -940,7 +940,7 @@
   {
    "id": "a9.buster.039.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214EDE4",
    "max": 22
@@ -948,7 +948,7 @@
   {
    "id": "a9.buster.039.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214EDFA",
    "max": 22
@@ -964,7 +964,7 @@
   {
    "id": "a9.buster.040.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214EF98",
    "max": 22
@@ -972,7 +972,7 @@
   {
    "id": "a9.buster.040.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214EFAE",
    "max": 22
@@ -988,7 +988,7 @@
   {
    "id": "a9.buster.041.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214F14C",
    "max": 22
@@ -996,7 +996,7 @@
   {
    "id": "a9.buster.041.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214F162",
    "max": 22
@@ -1012,7 +1012,7 @@
   {
    "id": "a9.buster.042.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214F300",
    "max": 22
@@ -1020,7 +1020,7 @@
   {
    "id": "a9.buster.042.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214F316",
    "max": 22
@@ -1036,7 +1036,7 @@
   {
    "id": "a9.buster.043.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214F4B4",
    "max": 22
@@ -1044,7 +1044,7 @@
   {
    "id": "a9.buster.043.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214F4CA",
    "max": 22
@@ -1060,7 +1060,7 @@
   {
    "id": "a9.buster.044.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214F668",
    "max": 22
@@ -1068,7 +1068,7 @@
   {
    "id": "a9.buster.044.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214F67E",
    "max": 22
@@ -1084,7 +1084,7 @@
   {
    "id": "a9.buster.045.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214F81C",
    "max": 22
@@ -1092,7 +1092,7 @@
   {
    "id": "a9.buster.045.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214F832",
    "max": 22
@@ -1108,7 +1108,7 @@
   {
    "id": "a9.buster.046.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214F9D0",
    "max": 22
@@ -1116,7 +1116,7 @@
   {
    "id": "a9.buster.046.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214F9E6",
    "max": 22
@@ -1132,7 +1132,7 @@
   {
    "id": "a9.buster.047.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214FB84",
    "max": 22
@@ -1140,7 +1140,7 @@
   {
    "id": "a9.buster.047.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214FB9A",
    "max": 22
@@ -1156,7 +1156,7 @@
   {
    "id": "a9.buster.048.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214FD38",
    "max": 22
@@ -1164,7 +1164,7 @@
   {
    "id": "a9.buster.048.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214FD4E",
    "max": 22
@@ -1180,7 +1180,7 @@
   {
    "id": "a9.buster.049.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "0214FEEC",
    "max": 22
@@ -1188,7 +1188,7 @@
   {
    "id": "a9.buster.049.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "0214FF02",
    "max": 22
@@ -1204,7 +1204,7 @@
   {
    "id": "a9.buster.050.name",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name",
    "addr": "021500A0",
    "max": 22
@@ -1212,7 +1212,7 @@
   {
    "id": "a9.buster.050.name2",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "buster.name2",
    "addr": "021500B6",
    "max": 22

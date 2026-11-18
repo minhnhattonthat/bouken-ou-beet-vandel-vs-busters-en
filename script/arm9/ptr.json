@@ -4,7 +4,7 @@
   {
    "id": "a9.0219AD0C",
    "jp": "バスター",
-   "en": "",
+   "en": "Buster",
    "kind": "ptr.label",
    "ptrs": [
     "0200B0B8"
@@ -13,7 +13,7 @@
   {
    "id": "a9.0219AD18",
    "jp": "ハーデンの配下",
-   "en": "",
+   "en": "Minion",
    "kind": "ptr.label",
    "ptrs": [
     "0200B0C0"
@@ -22,7 +22,7 @@
   {
    "id": "a9.0219B030",
    "jp": "護衛",
-   "en": "",
+   "en": "Escort",
    "kind": "ptr.label",
    "ptrs": [
     "0219B08C"
@@ -31,7 +31,7 @@
   {
    "id": "a9.0219B038",
    "jp": "討伐",
-   "en": "",
+   "en": "Slay",
    "kind": "ptr.label",
    "ptrs": [
     "0219B084"
@@ -40,7 +40,7 @@
   {
    "id": "a9.0219B040",
    "jp": "配達",
-   "en": "",
+   "en": "Delivery",
    "kind": "ptr.label",
    "ptrs": [
     "0219B088"
@@ -49,7 +49,7 @@
   {
    "id": "a9.0219B048",
    "jp": "収集",
-   "en": "",
+   "en": "Gathering",
    "kind": "ptr.label",
    "ptrs": [
     "0219B090"
@@ -58,7 +58,7 @@
   {
    "id": "a9.0219B058",
    "jp": "その他",
-   "en": "",
+   "en": "Other",
    "kind": "ptr.label",
    "ptrs": [
     "0219B094"
@@ -186,7 +186,7 @@
   {
    "id": "a9.021AAECC",
    "jp": "鑑定士",
-   "en": "",
+   "en": "Appraiser",
    "kind": "ptr.speaker",
    "ptrs": [
     "02048AFC"
@@ -222,7 +222,7 @@
   {
    "id": "a9.021AB998",
    "jp": "両手持ち武器を装備しているため",
-   "en": "",
+   "en": "Both hands are occupied.",
    "kind": "ptr.line",
    "ptrs": [
     "0205B2E0"
@@ -231,7 +231,7 @@
   {
    "id": "a9.021AB9BC",
    "jp": "盾を装備することができません",
-   "en": "",
+   "en": "You cannot equip a shield.",
    "kind": "ptr.line",
    "ptrs": [
     "0205B2E4"
@@ -240,7 +240,7 @@
   {
    "id": "a9.021ADF44",
    "jp": "無期限",
-   "en": "",
+   "en": "No Deadline",
    "kind": "ptr.label",
    "ptrs": [
     "020752E4"
@@ -249,7 +249,7 @@
   {
    "id": "a9.021AE554",
    "jp": "これ以上買えません",
-   "en": "",
+   "en": "You cannot buy any more.",
    "kind": "ptr.line",
    "ptrs": [
     "0207619C"
@@ -258,7 +258,7 @@
   {
    "id": "a9.021AE56C",
    "jp": "武器がいっぱいです",
-   "en": "",
+   "en": "Weapon storage is full.",
    "kind": "ptr.line",
    "ptrs": [
     "020761A0"
@@ -267,7 +267,7 @@
   {
    "id": "a9.021AE584",
    "jp": "防具がいっぱいです",
-   "en": "",
+   "en": "Your armor storage is full.",
    "kind": "ptr.line",
    "ptrs": [
     "020761A4"
@@ -276,7 +276,7 @@
   {
    "id": "a9.021AE59C",
    "jp": "モンスターがいっぱいです",
-   "en": "",
+   "en": "Your monster roster is full.",
    "kind": "ptr.line",
    "ptrs": [
     "020761A8"
@@ -285,7 +285,7 @@
   {
    "id": "a9.021B1820",
    "jp": "が仲間になった",
-   "en": "",
+   "en": "joined the party!",
    "kind": "ptr.line",
    "ptrs": [
     "020A4BF0"
@@ -295,7 +295,7 @@
   {
    "id": "a9.021B424C",
    "jp": "この才牙を修得します",
-   "en": "",
+   "en": "You will learn this Saiga.",
    "kind": "ptr.line",
    "ptrs": [
     "020CC118"
@@ -304,7 +304,7 @@
   {
    "id": "a9.021B4264",
    "jp": "一度決定すると、他の才牙は",
-   "en": "",
+   "en": "Once chosen, you cannot",
    "kind": "ptr.line",
    "ptrs": [
     "020CC11C"
@@ -313,7 +313,7 @@
   {
    "id": "a9.021B4284",
    "jp": "修得できなくなります",
-   "en": "",
+   "en": "learn any other Saiga.",
    "kind": "ptr.line",
    "ptrs": [
     "020CC120"
@@ -322,7 +322,7 @@
   {
    "id": "a9.021B429C",
    "jp": "本当によろしいですか？",
-   "en": "",
+   "en": "Are you sure?",
    "kind": "ptr.line",
    "ptrs": [
     "020CC124"
@@ -331,7 +331,7 @@
   {
    "id": "a9.021B4EA8",
    "jp": "通信エラーが発生しました。",
-   "en": "",
+   "en": "Connection error.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D8570"
@@ -340,7 +340,7 @@
   {
    "id": "a9.021B4EC8",
    "jp": "リセットを行います。",
-   "en": "",
+   "en": "The game will reset.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D8574"
@@ -349,7 +349,7 @@
   {
    "id": "a9.021B4EE0",
    "jp": "Ａボタンを押して下さい。",
-   "en": "",
+   "en": "Please press A.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D8578"
@@ -358,7 +358,7 @@
   {
    "id": "a9.021B4FD0",
    "jp": "通信モードを選択して下さい。",
-   "en": "",
+   "en": "Select a link mode.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D8F08",
@@ -368,7 +368,7 @@
   {
    "id": "a9.021B50EC",
    "jp": "通信エラーが発生しました。",
-   "en": "",
+   "en": "Connection error.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D9418"
@@ -377,7 +377,7 @@
   {
    "id": "a9.021B510C",
    "jp": "接続しました。",
-   "en": "",
+   "en": "Connected.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D9570"
@@ -386,7 +386,7 @@
   {
    "id": "a9.021B5120",
    "jp": "接続中です。",
-   "en": "",
+   "en": "Connecting...",
    "kind": "ptr.comm",
    "ptrs": [
     "020D985C"
@@ -395,7 +395,7 @@
   {
    "id": "a9.021B5130",
    "jp": "検索中です。",
-   "en": "",
+   "en": "Searching...",
    "kind": "ptr.comm",
    "ptrs": [
     "020D9A38"
@@ -404,7 +404,7 @@
   {
    "id": "a9.021B51E0",
    "jp": "受付中です。",
-   "en": "",
+   "en": "Accepting connections.",
    "kind": "ptr.comm",
    "ptrs": [
     "020D9C80"
@@ -413,7 +413,7 @@
   {
    "id": "a9.021B53D8",
    "jp": "キャラクターを選択して下さい。",
-   "en": "",
+   "en": "Select a character.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DB6B4"
@@ -422,7 +422,7 @@
   {
    "id": "a9.021B556C",
    "jp": "スタートボタンを押すと",
-   "en": "",
+   "en": "Press START to",
    "kind": "ptr.comm",
    "ptrs": [
     "020DCB94"
@@ -431,7 +431,7 @@
   {
    "id": "a9.021B5588",
    "jp": "パーティを決定します。",
-   "en": "",
+   "en": "confirm your party.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DCB98"
@@ -440,7 +440,7 @@
   {
    "id": "a9.021B573C",
    "jp": "陣営を選択して下さい。",
-   "en": "",
+   "en": "Select a side.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DD818"
@@ -449,7 +449,7 @@
   {
    "id": "a9.021B5758",
    "jp": "同じ陣営では対戦できません。",
-   "en": "",
+   "en": "Same sides cannot fight.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DDD34"
@@ -458,7 +458,7 @@
   {
    "id": "a9.021B5778",
    "jp": "もう一度選択して下さい。",
-   "en": "",
+   "en": "Please select again.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DDD38"
@@ -467,7 +467,7 @@
   {
    "id": "a9.021B5794",
    "jp": "バトルを選択して下さい。",
-   "en": "",
+   "en": "Select a battle.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DDFDC"
@@ -476,7 +476,7 @@
   {
    "id": "a9.021B587C",
    "jp": "しばらくお待ちください。",
-   "en": "",
+   "en": "Please wait.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DEAFC"
@@ -485,7 +485,7 @@
   {
    "id": "a9.021B592C",
    "jp": "条件を選択して下さい。",
-   "en": "",
+   "en": "Select the conditions.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E04F0"
@@ -494,7 +494,7 @@
   {
    "id": "a9.021B5A58",
    "jp": "セーブデータがないので",
-   "en": "",
+   "en": "No save data exists.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15B0"
@@ -503,7 +503,7 @@
   {
    "id": "a9.021B5A74",
    "jp": "仲間の受け渡しはできません！",
-   "en": "",
+   "en": "Cannot transfer allies!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15B4"
@@ -512,7 +512,7 @@
   {
    "id": "a9.021B5A94",
    "jp": "仲間の受け取りはできません！",
-   "en": "",
+   "en": "Cannot receive allies!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15B8"
@@ -521,7 +521,7 @@
   {
    "id": "a9.021B5AB4",
    "jp": "相手はすでにもっています。",
-   "en": "",
+   "en": "They already have it.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15BC"
@@ -530,7 +530,7 @@
   {
    "id": "a9.021B5AD4",
    "jp": "受け渡しはできません！",
-   "en": "",
+   "en": "Cannot transfer!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15C0"
@@ -539,7 +539,7 @@
   {
    "id": "a9.021B5AF0",
    "jp": "仲間はすでにもっています。",
-   "en": "",
+   "en": "You have this ally.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15C4"
@@ -548,7 +548,7 @@
   {
    "id": "a9.021B5B10",
    "jp": "受け取りはできません！",
-   "en": "",
+   "en": "Cannot receive!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15C8"
@@ -557,7 +557,7 @@
   {
    "id": "a9.021B5B2C",
    "jp": "通信エラーが発生しました。",
-   "en": "",
+   "en": "Connection error.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15CC"
@@ -566,7 +566,7 @@
   {
    "id": "a9.021B5C54",
    "jp": "選択して下さい",
-   "en": "",
+   "en": "Please select.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E15EC"
@@ -575,7 +575,7 @@
   {
    "id": "a9.021B5C68",
    "jp": "完了しました。",
-   "en": "",
+   "en": "Complete.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E1610"
@@ -584,7 +584,7 @@
   {
    "id": "a9.021B5D84",
    "jp": "ゲームデータを保存しています",
-   "en": "",
+   "en": "Saving game data...",
    "kind": "ptr.comm",
    "ptrs": [
     "020E162C"
@@ -593,7 +593,7 @@
   {
    "id": "a9.021B5DA4",
    "jp": "電源を切らないでください",
-   "en": "",
+   "en": "Do not turn power off.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E1630"
@@ -602,7 +602,7 @@
   {
    "id": "a9.021B5DC0",
    "jp": "条件が合いませんでした。",
-   "en": "",
+   "en": "Conditions do not match.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E1634"
@@ -611,7 +611,7 @@
   {
    "id": "a9.021B5DDC",
    "jp": "もう一度条件を選択して下さい。",
-   "en": "",
+   "en": "Reselect conditions.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E1638"
@@ -620,7 +620,7 @@
   {
    "id": "a9.021B5E1C",
    "jp": "しばらくお待ちください。",
-   "en": "",
+   "en": "Please wait.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E176C"
@@ -629,7 +629,7 @@
   {
    "id": "a9.021B60A4",
    "jp": "選択して下さい",
-   "en": "",
+   "en": "Please select.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E3180",
@@ -640,7 +640,7 @@
   {
    "id": "a9.021B60B8",
    "jp": "ゲームデータを保存しています",
-   "en": "",
+   "en": "Saving game data...",
    "kind": "ptr.comm",
    "ptrs": [
     "020E3184",
@@ -650,7 +650,7 @@
   {
    "id": "a9.021B60D8",
    "jp": "電源を切らないでください",
-   "en": "",
+   "en": "Do not turn power off.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E3188",
@@ -660,7 +660,7 @@
   {
    "id": "a9.021B60F4",
    "jp": "完了しました。",
-   "en": "",
+   "en": "Complete.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E318C",
@@ -670,7 +670,7 @@
   {
    "id": "a9.021B6108",
    "jp": "モンスターを選択して下さい。",
-   "en": "",
+   "en": "Select a monster.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E4C20"
@@ -679,7 +679,7 @@
   {
    "id": "a9.021B63A8",
    "jp": "条件を選択して下さい。",
-   "en": "",
+   "en": "Select the conditions.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E5964"
@@ -688,7 +688,7 @@
   {
    "id": "a9.021B641C",
    "jp": "セーブデータがないので",
-   "en": "",
+   "en": "No save data exists.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60CC"
@@ -697,7 +697,7 @@
   {
    "id": "a9.021B6438",
    "jp": "モンスターの交換はできません！",
-   "en": "",
+   "en": "Cannot trade monsters!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60D0"
@@ -706,7 +706,7 @@
   {
    "id": "a9.021B645C",
    "jp": "モンスターを所持していないので",
-   "en": "",
+   "en": "You have no monsters.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60D4"
@@ -715,7 +715,7 @@
   {
    "id": "a9.021B6480",
    "jp": "受け渡しはできません！",
-   "en": "",
+   "en": "Cannot transfer!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60D8"
@@ -724,7 +724,7 @@
   {
    "id": "a9.021B649C",
    "jp": "モンスター数が一杯です。",
-   "en": "",
+   "en": "Your roster is full.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60DC"
@@ -733,7 +733,7 @@
   {
    "id": "a9.021B64B8",
    "jp": "受け取りはできません！",
-   "en": "",
+   "en": "Cannot receive!",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60E0"
@@ -742,7 +742,7 @@
   {
    "id": "a9.021B64D4",
    "jp": "相手のモンスター数が一杯です。",
-   "en": "",
+   "en": "Their roster is full.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60E4"
@@ -751,7 +751,7 @@
   {
    "id": "a9.021B64F8",
    "jp": "通信エラーが発生しました。",
-   "en": "",
+   "en": "Connection error.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60E8"
@@ -760,7 +760,7 @@
   {
    "id": "a9.021B6518",
    "jp": "条件が合いませんでした。",
-   "en": "",
+   "en": "Conditions do not match.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60F0"
@@ -769,7 +769,7 @@
   {
    "id": "a9.021B6534",
    "jp": "もう一度条件を選択して下さい。",
-   "en": "",
+   "en": "Reselect conditions.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E60F4"
@@ -778,7 +778,7 @@
   {
    "id": "a9.021B6574",
    "jp": "しばらくお待ちください。",
-   "en": "",
+   "en": "Please wait.",
    "kind": "ptr.comm",
    "ptrs": [
     "020E652C"
@@ -787,7 +787,7 @@
   {
    "id": "a9.021B68B0",
    "jp": "魔賓館で",
-   "en": "",
+   "en": "At the Vandel House,",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B7C",
@@ -798,7 +798,7 @@
   {
    "id": "a9.021B68BC",
    "jp": "「グリニデ」の",
-   "en": "",
+   "en": "\"Grineed\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6BB8"
@@ -807,7 +807,7 @@
   {
    "id": "a9.021B68D0",
    "jp": "レジスタンスが",
-   "en": "",
+   "en": "The Resistance",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B18",
@@ -823,7 +823,7 @@
   {
    "id": "a9.021B68E4",
    "jp": "「ロズゴート」の",
-   "en": "",
+   "en": "\"Rozgoat\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B94"
@@ -832,7 +832,7 @@
   {
    "id": "a9.021B68F8",
    "jp": "「マスターボウ」の",
-   "en": "",
+   "en": "\"Master Bow\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B70"
@@ -841,7 +841,7 @@
   {
    "id": "a9.021B6910",
    "jp": "ヴァンデルモードの",
-   "en": "",
+   "en": "In Vandel mode,",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B78",
@@ -851,7 +851,7 @@
   {
    "id": "a9.021B6928",
    "jp": "「フラウスキー」の",
-   "en": "",
+   "en": "\"Frausky\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6BA0"
@@ -860,7 +860,7 @@
   {
    "id": "a9.021B6940",
    "jp": "魔賓館が石像トラップ",
-   "en": "",
+   "en": "Vandel House effigy traps:",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B90",
@@ -873,7 +873,7 @@
   {
    "id": "a9.021B6958",
    "jp": "「マスターマント」の",
-   "en": "",
+   "en": "\"Master Cape\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B34"
@@ -882,7 +882,7 @@
   {
    "id": "a9.021B6970",
    "jp": "「マスターナイフ」の",
-   "en": "",
+   "en": "\"Master Knife\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B58"
@@ -891,7 +891,7 @@
   {
    "id": "a9.021B6988",
    "jp": "販売を開始しました。",
-   "en": "",
+   "en": "sales have begun.",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B20",
@@ -912,7 +912,7 @@
   {
    "id": "a9.021B69A0",
    "jp": "「マスターシールド」の",
-   "en": "",
+   "en": "\"Master Shield\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B1C"
@@ -921,7 +921,7 @@
   {
    "id": "a9.021B69BC",
    "jp": "「マスターバングル」の",
-   "en": "",
+   "en": "\"Master Bangle\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B28"
@@ -930,7 +930,7 @@
   {
    "id": "a9.021B69D8",
    "jp": "「マスターグローブ」の",
-   "en": "",
+   "en": "\"Master Gloves\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B40"
@@ -939,7 +939,7 @@
   {
    "id": "a9.021B69F4",
    "jp": "「マスターグレイブ」の",
-   "en": "",
+   "en": "\"Master Glaive\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B4C"
@@ -948,7 +948,7 @@
   {
    "id": "a9.021B6A10",
    "jp": "「マスターハンマー」の",
-   "en": "",
+   "en": "\"Master Hammer\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B64"
@@ -957,7 +957,7 @@
   {
    "id": "a9.021B6A2C",
    "jp": "「ノア」が出現しました。",
-   "en": "",
+   "en": "\"Noa\" has appeared.",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B80"
@@ -966,7 +966,7 @@
   {
    "id": "a9.021B6A48",
    "jp": "「グリニデ（変身後）」の",
-   "en": "",
+   "en": "\"Grineed (Transformed)\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6BC4"
@@ -975,7 +975,7 @@
   {
    "id": "a9.021B6A64",
    "jp": "「ベルトーゼ（分身体）」の",
-   "en": "",
+   "en": "\"Beltorze (Double)\"",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6BAC"
@@ -984,7 +984,7 @@
   {
    "id": "a9.021B6A84",
    "jp": "バスターモードでスレッドが",
-   "en": "",
+   "en": "In Buster mode, Slade",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B0C"
@@ -993,7 +993,7 @@
   {
    "id": "a9.021B6AC4",
    "jp": "「ロディーナ」が出現しました。",
-   "en": "",
+   "en": "\"Rodina\" has appeared.",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B8C"
@@ -1002,7 +1002,7 @@
   {
    "id": "a9.021B6AE8",
    "jp": "仲間入りできるようになりました。",
-   "en": "",
+   "en": "can now join your party.",
    "kind": "ptr.gba",
    "ptrs": [
     "021B6B10"
@@ -1011,7 +1011,7 @@
   {
    "id": "a9.021B6BCC",
    "jp": "このカートリッジから取得できる",
-   "en": "",
+   "en": "The bonuses from this cartridge",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9B3C"
@@ -1020,7 +1020,7 @@
   {
    "id": "a9.021B6BF0",
    "jp": "ボーナスは既に取得済みです。",
-   "en": "",
+   "en": "have already been claimed.",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9B40"
@@ -1029,7 +1029,7 @@
   {
    "id": "a9.021B6C10",
    "jp": "ヴァンデルモードが追加されました。",
-   "en": "",
+   "en": "Vandel mode has been added.",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9B44"
@@ -1038,7 +1038,7 @@
   {
    "id": "a9.021B6C38",
    "jp": "なにもおきませんでした。",
-   "en": "",
+   "en": "Nothing happened.",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9B48"
@@ -1047,7 +1047,7 @@
   {
    "id": "a9.021B6C54",
    "jp": "ダブルスロットのカートリッジを",
-   "en": "",
+   "en": "Checking the second-slot game.",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9BF0"
@@ -1056,7 +1056,7 @@
   {
    "id": "a9.021B6C78",
    "jp": "チェックしています。電源を切ったり、",
-   "en": "",
+   "en": "Do not turn off the power",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9BF4"
@@ -1065,7 +1065,7 @@
   {
    "id": "a9.021B6CA0",
    "jp": "カートリッジを抜かないで下さい！",
-   "en": "",
+   "en": "or remove the cartridge!",
    "kind": "ptr.gba",
    "ptrs": [
     "020E9BF8"

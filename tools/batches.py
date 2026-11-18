@@ -146,8 +146,12 @@ def finish(en, e):
 
 def glossary():
     """[(jp, en, avoid)] from the tables in glossary.md (rows | JP | EN | max | notes | Avoid |)."""
+    return glossary_rows(GLOSSARY.read_text(encoding='utf-8'))
+
+
+def glossary_rows(text):
     rows = []
-    for line in GLOSSARY.read_text(encoding='utf-8').splitlines():
+    for line in text.splitlines():
         c = [x.strip() for x in line.strip().strip('|').split('|')]
         if len(c) >= 2 and line.startswith('|') and lint.JP.search(c[0]) and c[1] and not c[1].startswith('-'):
             avoid = [a.strip() for a in c[4].split(',')] if len(c) > 4 and c[4] else []

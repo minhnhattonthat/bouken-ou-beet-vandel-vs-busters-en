@@ -4,7 +4,7 @@
   {
    "id": "a9.party.000.name",
    "jp": "ヒーロー",
-   "en": "",
+   "en": "Hero",
    "kind": "party.name",
    "addr": "02121BD4",
    "max": 20
@@ -12,7 +12,7 @@
   {
    "id": "a9.party.001.name",
    "jp": "ビィト",
-   "en": "",
+   "en": "Beet",
    "kind": "party.name",
    "addr": "02121C48",
    "max": 20
@@ -20,7 +20,7 @@
   {
    "id": "a9.party.002.name",
    "jp": "ポアラ",
-   "en": "",
+   "en": "Poala",
    "kind": "party.name",
    "addr": "02121CBC",
    "max": 20
@@ -28,7 +28,7 @@
   {
    "id": "a9.party.003.name",
    "jp": "キッス",
-   "en": "",
+   "en": "Kissu",
    "kind": "party.name",
    "addr": "02121D30",
    "max": 20
@@ -36,7 +36,7 @@
   {
    "id": "a9.party.004.name",
    "jp": "スレッド",
-   "en": "",
+   "en": "Slade",
    "kind": "party.name",
    "addr": "02121DA4",
    "max": 20
@@ -44,7 +44,7 @@
   {
    "id": "a9.party.005.name",
    "jp": "ミルファ",
-   "en": "",
+   "en": "Milfa",
    "kind": "party.name",
    "addr": "02121E18",
    "max": 20
@@ -52,7 +52,7 @@
   {
    "id": "a9.party.006.name",
    "jp": "ゴラン",
-   "en": "",
+   "en": "Goran",
    "kind": "party.name",
    "addr": "02121E8C",
    "max": 20
@@ -60,7 +60,7 @@
   {
    "id": "a9.party.007.name",
    "jp": "シバ",
-   "en": "",
+   "en": "Shiba",
    "kind": "party.name",
    "addr": "02121F00",
    "max": 20
@@ -68,7 +68,7 @@
   {
    "id": "a9.party.008.name",
    "jp": "グレスト",
-   "en": "",
+   "en": "Grest",
    "kind": "party.name",
    "addr": "02121F74",
    "max": 20
@@ -76,7 +76,7 @@
   {
    "id": "a9.party.009.name",
    "jp": "バドゥ",
-   "en": "",
+   "en": "Badu",
    "kind": "party.name",
    "addr": "02121FE8",
    "max": 20
@@ -84,7 +84,7 @@
   {
    "id": "a9.party.010.name",
    "jp": "アーク",
-   "en": "",
+   "en": "Ark",
    "kind": "party.name",
    "addr": "0212205C",
    "max": 20
@@ -92,7 +92,7 @@
   {
    "id": "a9.party.011.name",
    "jp": "レンド",
-   "en": "",
+   "en": "Rend",
    "kind": "party.name",
    "addr": "021220D0",
    "max": 20
@@ -100,7 +100,7 @@
   {
    "id": "a9.party.012.name",
    "jp": "シグサ",
-   "en": "",
+   "en": "Shigusa",
    "kind": "party.name",
    "addr": "02122144",
    "max": 20
@@ -108,7 +108,7 @@
   {
    "id": "a9.party.013.name",
    "jp": "ジーク",
-   "en": "",
+   "en": "Zeke",
    "kind": "party.name",
    "addr": "021221B8",
    "max": 20
@@ -116,7 +116,7 @@
   {
    "id": "a9.party.014.name",
    "jp": "リュック",
-   "en": "",
+   "en": "Ryuk",
    "kind": "party.name",
    "addr": "0212222C",
    "max": 20
@@ -124,7 +124,7 @@
   {
    "id": "a9.party.015.name",
    "jp": "ナック",
-   "en": "",
+   "en": "Nack",
    "kind": "party.name",
    "addr": "021222A0",
    "max": 20
@@ -132,7 +132,7 @@
   {
    "id": "a9.party.016.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122314",
    "max": 20
@@ -140,7 +140,7 @@
   {
    "id": "a9.party.017.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122388",
    "max": 20
@@ -148,7 +148,7 @@
   {
    "id": "a9.party.018.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021223FC",
    "max": 20
@@ -156,7 +156,7 @@
   {
    "id": "a9.party.019.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122470",
    "max": 20
@@ -164,7 +164,7 @@
   {
    "id": "a9.party.020.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021224E4",
    "max": 20
@@ -172,7 +172,7 @@
   {
    "id": "a9.party.021.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122558",
    "max": 20
@@ -180,7 +180,7 @@
   {
    "id": "a9.party.022.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021225CC",
    "max": 20
@@ -188,7 +188,7 @@
   {
    "id": "a9.party.023.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122640",
    "max": 20
@@ -196,7 +196,7 @@
   {
    "id": "a9.party.024.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021226B4",
    "max": 20
@@ -204,7 +204,7 @@
   {
    "id": "a9.party.025.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122728",
    "max": 20
@@ -212,7 +212,7 @@
   {
    "id": "a9.party.026.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "0212279C",
    "max": 20
@@ -220,7 +220,7 @@
   {
    "id": "a9.party.027.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122810",
    "max": 20
@@ -228,7 +228,7 @@
   {
    "id": "a9.party.028.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122884",
    "max": 20
@@ -236,7 +236,7 @@
   {
    "id": "a9.party.029.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021228F8",
    "max": 20
@@ -244,7 +244,7 @@
   {
    "id": "a9.party.030.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "0212296C",
    "max": 20
@@ -252,7 +252,7 @@
   {
    "id": "a9.party.031.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021229E0",
    "max": 20
@@ -260,7 +260,7 @@
   {
    "id": "a9.party.032.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122A54",
    "max": 20
@@ -268,7 +268,7 @@
   {
    "id": "a9.party.033.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122AC8",
    "max": 20
@@ -276,7 +276,7 @@
   {
    "id": "a9.party.034.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122B3C",
    "max": 20
@@ -284,7 +284,7 @@
   {
    "id": "a9.party.035.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122BB0",
    "max": 20
@@ -292,7 +292,7 @@
   {
    "id": "a9.party.036.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122C24",
    "max": 20
@@ -300,7 +300,7 @@
   {
    "id": "a9.party.037.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122C98",
    "max": 20
@@ -308,7 +308,7 @@
   {
    "id": "a9.party.038.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122D0C",
    "max": 20
@@ -316,7 +316,7 @@
   {
    "id": "a9.party.039.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122D80",
    "max": 20
@@ -324,7 +324,7 @@
   {
    "id": "a9.party.040.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122DF4",
    "max": 20
@@ -332,7 +332,7 @@
   {
    "id": "a9.party.041.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122E68",
    "max": 20
@@ -340,7 +340,7 @@
   {
    "id": "a9.party.042.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122EDC",
    "max": 20
@@ -348,7 +348,7 @@
   {
    "id": "a9.party.043.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122F50",
    "max": 20
@@ -356,7 +356,7 @@
   {
    "id": "a9.party.044.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02122FC4",
    "max": 20
@@ -364,7 +364,7 @@
   {
    "id": "a9.party.045.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02123038",
    "max": 20
@@ -372,7 +372,7 @@
   {
    "id": "a9.party.046.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "021230AC",
    "max": 20
@@ -380,7 +380,7 @@
   {
    "id": "a9.party.047.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02123120",
    "max": 20
@@ -388,7 +388,7 @@
   {
    "id": "a9.party.048.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02123194",
    "max": 20
@@ -396,7 +396,7 @@
   {
    "id": "a9.party.049.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "02123208",
    "max": 20
@@ -404,7 +404,7 @@
   {
    "id": "a9.party.050.name",
    "jp": "－",
-   "en": "",
+   "en": "-",
    "kind": "party.name",
    "addr": "0212327C",
    "max": 20
@@ -412,7 +412,7 @@
   {
    "id": "a9.party.051.name",
    "jp": "ヒーロー",
-   "en": "",
+   "en": "Hero",
    "kind": "party.name",
    "addr": "021232F0",
    "max": 20
@@ -420,7 +420,7 @@
   {
    "id": "a9.party.052.name",
    "jp": "ハーデンの配下",
-   "en": "",
+   "en": "Minion",
    "kind": "party.name",
    "addr": "02123364",
    "max": 20

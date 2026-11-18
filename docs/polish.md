@@ -1,0 +1,190 @@
+# Polish
+
+Minor findings and flagged cuts, fixed in one pass before release (`references/translation.md` §Review). Tick each
+line `[x]` with `fixed` or `waived: reason`; the release script refuses to run while a line is unticked.
+
+## General
+- [ ] speaker tag: Resistance A-L show as "Resist. A" and 橋かけ名人 as "Master" (87/89 px > 80 px measured tag);
+  widen the tag (90 px was not drawn: find the canvas width in the draw code) or keep, then waive.
+- [ ] jp-bound budgets (area/area2 names, key items, tengeki/meigeki, skills, titles): measure each box in phase 8 and
+  undo the cuts below that the real box allows (full area names: Mountains, Volcano, Snowfield ...).
+- [ ] weapon descriptions "1H"/"2H": rephrase to full words within 194 px.
+
+## Flagged cuts from translation batches
+- [ ] a9.area.001.name - CUT (b001): Mountains rendered as Range for width.
+- [ ] a9.area.007.name - CUT (b001): Forest omitted for width.
+- [ ] a9.area.017.name - CUT (b001): Wastes rendered as Waste for width.
+- [ ] a9.area.021.name - CUT (b001): Mountain omitted for width.
+- [ ] a9.area.022.name - CUT (b001): Forest rendered as Wood for width.
+- [ ] a9.area.029.name - CUT (b001): Desert omitted for width.
+- [ ] a9.area.036.name - CUT (b001): Mountains shortened to Mts. for width.
+- [ ] a9.area.040.name - CUT (b001): Lake omitted for width.
+- [ ] a9.area.046.name - CUT (b001): Valley omitted for width.
+- [ ] a9.area.050.name - CUT (b001): Volcano shortened to Mt. for width.
+- [ ] a9.area.051.name - CUT (b001): Mountains rendered as Range for width.
+- [ ] a9.area.054.name - CUT (b001): Snowfield shortened to Snow for width.
+- [ ] a9.area2.000.name - CUT (b001): Golden shortened to Gold for width.
+- [ ] a9.area2.002.name - CUT (b001): Forest omitted for width.
+- [ ] a9.area2.003.name - CUT (b001): Marsh rendered as Mire for width.
+- [ ] a9.area2.004.name - CUT (b001): Mountains shortened to Mts. for width.
+- [ ] a9.area2.006.name - CUT (b001): Wastes omitted for width.
+- [ ] a9.area2.008.name - CUT (b001): Snowfield shortened to Snow for width.
+- [ ] a9.area2.009.name - CUT (b001): Glacier shortened to Ice for width.
+- [ ] a9.area2.012.name - CUT (b001): Volcano shortened to Mt. for width.
+- [ ] a9.area2.014.name - CUT (b001): Mountains shortened to Mts. for width.
+- [ ] a9.area2.023.name - CUT (b001): Mountains omitted for width.
+- [ ] a9.armor.018.desc - CUT (b001): Quite omitted for width.
+- [ ] a9.armor.048.desc - CUT (b001): Cape implicit in item name for width.
+- [ ] a9.keyitem.007.name - CUT (b003): Possessive shortened to fit the byte cap.
+- [ ] a9.keyitem.009.name - CUT (b003): "Bridge" omitted to fit the field.
+- [ ] a9.keyitem.016.name - CUT (b003): "Growth" omitted to fit the field.
+- [ ] a9.keyitem.021.desc - CUT (b003): Stone material omitted to fit the field.
+- [ ] a9.keyitem.022.desc - CUT (b003): Stone material omitted to fit the field.
+- [ ] a9.keyitem.023.desc - CUT (b003): Stone material omitted to fit the field.
+- [ ] a9.keyitem.024.desc - CUT (b003): Stone material omitted to fit the field.
+- [ ] a9.keyitem.025.desc - CUT (b003): Stone material omitted to fit the field.
+- [ ] a9.keyitem.027.desc - CUT (b003): Stone material omitted to fit the field.
+- [ ] a9.meigeki.003.name - CUT (b003): Scorching modifier condensed into "Inferno".
+- [ ] a9.meigeki.007.name - CUT (b003): Scorching and dark modifiers condensed into "Hell".
+- [ ] a9.meigeki.009.name - CUT (b003): Dark modifier omitted.
+- [ ] a9.meigeki.012.name - CUT (b003): Water and dark modifiers omitted.
+- [ ] a9.meigeki.016.name - CUT (b003): Extreme cold and freezing condensed into "Ice".
+- [ ] a9.meigeki.017.name - CUT (b003): Extreme cold modifier omitted.
+- [ ] a9.meigeki.026.name - CUT (b003): Turbulence modifier omitted.
+- [ ] a9.meigeki.027.name - CUT (b003): Turbulence modifier omitted.
+- [ ] a9.meigeki.031.name - CUT (b003): Lightning wave condensed into "Surge".
+- [ ] a9.meigeki.035.name - CUT (b003): Great hell demon condensed into "Archfiend".
+- [ ] a9.meigeki.036.name - CUT (b003): Lightning condensed into "Flash".
+- [ ] a9.meigeki.040.name - CUT (b003): Dark, demonic and explosive modifiers condensed into "Doom".
+- [ ] a9.meigeki.042.name - CUT (b003): Great and demonic modifiers omitted.
+- [ ] a9.monster.001.area - CUT (b004): Mountains shortened to Mts. to fit.
+- [ ] a9.monster.042.name - CUT (b004): Land omitted to fit.
+- [ ] a9.monster.047.name - CUT (b004): Jewel omitted to fit.
+- [ ] a9.monster.052.area - CUT (b004): Forest omitted to fit.
+- [ ] a9.monster.073.name - CUT (b004): Jack-in-the-Box shortened to Trick Box to fit.
+- [ ] a9.monster.100.name - CUT (b004): Ravenous rendered as Dire to fit.
+- [ ] a9.monster.106.name - CUT (b004): Iron omitted to fit.
+- [ ] a9.monster.111.area - CUT (b004): Tower rendered as Spire to fit.
+- [ ] a9.monster.128.name - CUT (b004): Snow and ice condensed to Frost to fit.
+- [ ] a9.monster.131.area - CUT (b004): Mountain and village omitted to fit.
+- [ ] a9.monster.139.name - CUT (b005): Omitted "toxic" to fit.
+- [ ] a9.monster.141.name - CUT (b005): Shortened the large warship description to "Grand" to fit.
+- [ ] a9.monster.142.name - CUT (b005): Shortened "sandstorm" to "sand" to fit.
+- [ ] a9.monster.149.name - CUT (b005): Shortened glossary form "Volcanic Pterosaur" to "Lava Pterosaur" to fit.
+- [ ] a9.monster.154.name - CUT (b005): Shortened "jet-black" to "black" to fit.
+- [ ] a9.monster.157.area - CUT (b005): Omitted "Valley" from the glossary form to fit.
+- [ ] a9.party.052.name - CUT (b005): Omitted Harden's name to fit.
+- [ ] a9.0219AD18 - CUT (b005): Omitted Harden's name to fit.
+- [ ] a9.021AB998 - CUT (b005): Omitted explicit mention of the weapon to fit.
+- [ ] a9.skill.037.desc - CUT (b009): Countless arrows reduced to arrows.
+- [ ] a9.skill.047.desc - CUT (b009): Forward direction omitted.
+- [ ] a9.skill.048.desc - CUT (b009): Forward direction omitted; cannon shortened to gun.
+- [ ] a9.skill.049.desc - CUT (b009): Forward direction omitted.
+- [ ] a9.skill.052.desc - CUT (b009): Shoulder generalized to body.
+- [ ] a9.skill.053.desc - CUT (b009): Spinning motion omitted.
+- [ ] a9.skill.054.desc - CUT (b009): Spinning motion omitted.
+- [ ] a9.skill.055.desc - CUT (b009): Spinning motion omitted.
+- [ ] a9.skill.056.desc - CUT (b009): Forward direction omitted.
+- [ ] a9.skill.061.desc - CUT (b009): Forward direction omitted; cannon shortened to gun.
+- [ ] a9.special.006.name - CUT (b009): "Bolt" omitted from Lightning Bolt Grasper to fit width.
+- [ ] a9.tengeki.002.name - CUT (b010): Shared "Divine Attack" prefix omitted throughout skill names to fit.
+- [ ] a9.tengeki.003.name - CUT (b010): Heavenly epithet and size omitted to fit.
+- [ ] a9.tengeki.007.desc - CUT (b010): "Divine Attack" omitted to fit.
+- [ ] a9.tengeki.012.name - CUT (b010): Heavenly blue epithet omitted to fit.
+- [ ] a9.tengeki.016.desc - CUT (b010): "Divine Attack" omitted to fit.
+- [ ] a9.tengeki.017.desc - CUT (b010): Defense shortened to DEF.
+- [ ] a9.tengeki.021.name - CUT (b010): Heavenly turmoil epithet and size omitted to fit.
+- [ ] a9.tengeki.028.desc - CUT (b010): "Divine" omitted from thunder attack descriptions through 034 to fit.
+- [ ] a9.tengeki.031.name - CUT (b010): Sky flash and thunder blast imagery condensed to "Skybolt".
+- [ ] a9.tengeki.037.desc - CUT (b010): "Divine" omitted from light attack descriptions through 041 to fit.
+- [ ] a9.tengeki.042.name - CUT (b010): Light-and-shadow imagery shortened to "Shade".
+- [ ] a9.title.014.name - CUT (b010): Abandoned village shortened to "Ruins" throughout related map labels.
+- [ ] a9.title.021.name - CUT (b010): B- means no bridge; G- means destroyed gate.
+- [ ] a9.title.022.name - CUT (b010): B+ means bridge present; G- means destroyed gate.
+- [ ] a9.title.023.name - CUT (b010): B+ means bridge present; G+ means normal gate.
+- [ ] a9.title.034.name - CUT (b010): Abandoned village omitted from town interior label.
+- [ ] a9.title.035.name - CUT (b010): Abandoned village omitted from town interior label.
+- [ ] a9.title.036.name - CUT (b010): Abandoned village omitted from town interior label.
+- [ ] a9.title.037.name - CUT (b010): Abandoned village and pedestal omitted to fit.
+- [ ] a9.title.038.name - CUT (b010): "Pedestal" omitted to fit.
+- [ ] a9.title.099.name - CUT (b010): Bridge- means no bridge.
+- [ ] a9.title.102.name - CUT (b010): Hidden room absent shortened to "Room-".
+- [ ] a9.title.103.name - CUT (b010): Hidden room present shortened to "Den".
+- [ ] a9.title.116.name - CUT (b010): "Childhood" omitted to fit.
+- [ ] a9.title.120.name - CUT (b010): "Goddess" omitted to fit.
+- [ ] a9.vandel.006.name - CUT (b010): Enhanced version shortened to "EX".
+- [ ] a9.vandel.027.name - CUT (b011): Dropped "Hero" from the protagonist label to fit 108 px.
+- [ ] a9.vandel.028.name - CUT (b011): Dropped "Hero" from the protagonist label to fit 108 px.
+- [ ] a9.vandel.030.name - CUT (b011): Dropped "Hero" from the protagonist label to fit 108 px.
+- [ ] a9.weapon.022.name - CUT (b011): Dropped "Bolt" from Lightning Bolt Grasper to fit 18 bytes.
+- [ ] a9.weapon.022.name2 - CUT (b011): Dropped "Bolt" from Lightning Bolt Grasper to fit 18 bytes.
+- [ ] a9.weapon.052.desc - CUT (b012): Shortened "one-handed" to "1H" to fit.
+- [ ] a9.weapon.053.desc - CUT (b012): Dropped "special" to fit.
+- [ ] a9.weapon.054.desc - CUT (b012): Shortened "one-handed" to "1H" to fit.
+- [ ] a9.weapon.063.desc - CUT (b012): Dropped "special" to fit.
+- [ ] a9.weapon.072.desc - CUT (b012): Shortened "two-handed" to "2H" to fit.
+- [ ] a9.weapon.073.desc - CUT (b012): Dropped "special" and shortened "two-handed" to "2H" to fit.
+- [ ] a9.weapon.074.desc - CUT (b012): Shortened "two-handed" to "2H" to fit.
+- [ ] a9.weapon.102.desc - CUT (b013): Omitted "composite" to fit.
+- [ ] a9.weapon.103.desc - CUT (b013): Omitted the steel's composite composition to fit.
+- [ ] a9.weapon.104.desc - CUT (b013): Condensed "very strong" to "tough" to fit.
+- [ ] a9.weapon.159.name - CUT (b014): Used "Ring" for "Chakram" to fit; also in name2.
+- [ ] a9.weapon.160.name - CUT (b014): Used "Ring" for "Chakram" to fit; also in name2.
+- [ ] a9.wpntype.022.name - CUT (b015): Dropped "Bolt" from "Lightning Bolt Grasper" to fit the 18-byte cap.
+- [x] rom.063E0 - CUT (b016): Shortened Village Chief to Chief to fit. - fixed: full form fits the 80 px tag
+- [x] rom.06AC8 - CUT (b016): Used Envoy for Messenger to fit. - fixed: full form fits the 80 px tag
+- [x] rom.0D3EC - CUT (b016): Shortened Resistance to Resist. to fit. - fixed: full form fits the 80 px tag
+- [ ] rom.11134 - CUT (b016): Shortened Resistance to Resist. to fit the letter.
+- [ ] rom.11154 - CUT (b016): Shortened Resistance to Resist. to fit the letter.
+- [ ] rom.11228 - CUT (b016): Shortened Resistance to Resist. to fit the letter.
+- [ ] rom.137B8 - CUT (b017): Bridge omitted.
+- [x] rom.19F6C - CUT (b017): Weapon Shop shortened to Weapons. - fixed: full form fits the 80 px tag
+- [ ] rom.1B044 - CUT (b017): Tavern Woman shortened to Barmaid.
+- [ ] rom.1B8DC - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.205D8 - CUT (b017): Resistance abbreviated to Resist.
+- [x] rom.30C54 - CUT (b017): Shagie abbreviated to S. - fixed: full form fits the 80 px tag
+- [ ] rom.3D69C - CUT (b017): Generic omitted; greatsword abbreviated to GS.
+- [ ] rom.3D6BC - CUT (b017): Generic omitted; greatsword abbreviated to GS.
+- [ ] rom.3D6DC - CUT (b017): Generic omitted; greatsword abbreviated to GS.
+- [ ] rom.3D6FC - CUT (b017): Generic omitted; greatsword abbreviated to GS; lightning shortened to Bolt.
+- [ ] rom.3D71C - CUT (b017): Generic omitted; greatsword abbreviated to GS.
+- [ ] rom.3D73C - CUT (b017): Generic omitted; spear abbreviated to Spr.
+- [ ] rom.3D758 - CUT (b017): Generic omitted; spear abbreviated to Spr.
+- [ ] rom.3D774 - CUT (b017): Generic omitted; spear abbreviated to Spr.
+- [ ] rom.3D790 - CUT (b017): Generic omitted; spear abbreviated to Spr; lightning shortened to Bolt.
+- [ ] rom.3D7AC - CUT (b017): Generic omitted; spear abbreviated to Spr.
+- [ ] rom.3D7C8 - CUT (b017): Generic omitted.
+- [ ] rom.3D7E4 - CUT (b017): Generic omitted; Water rendered as Aqua to fit.
+- [ ] rom.3D800 - CUT (b017): Generic omitted.
+- [ ] rom.3D81C - CUT (b017): Generic omitted; lightning shortened to Bolt.
+- [ ] rom.3D838 - CUT (b017): Generic omitted.
+- [ ] rom.3D854 - CUT (b017): Generic omitted; one-handed sword abbreviated to 1H.
+- [ ] rom.3D874 - CUT (b017): Generic omitted; one-handed sword abbreviated to 1H.
+- [ ] rom.3D894 - CUT (b017): Generic omitted; one-handed sword abbreviated to 1H.
+- [ ] rom.3D8B4 - CUT (b017): Generic omitted; one-handed sword abbreviated to 1H; lightning shortened to Bolt.
+- [ ] rom.3D8D4 - CUT (b017): Generic omitted; one-handed sword abbreviated to 1H.
+- [ ] rom.3D8F4 - CUT (b017): Generic omitted.
+- [ ] rom.3D90C - CUT (b017): Generic omitted; Water rendered as Aqua to fit.
+- [ ] rom.3D924 - CUT (b017): Generic omitted.
+- [ ] rom.3D93C - CUT (b017): Generic omitted; lightning shortened to Bolt.
+- [ ] rom.3D954 - CUT (b017): Generic omitted.
+- [ ] rom.3D96C - CUT (b017): Generic omitted; hand-to-hand combat shortened to Fist.
+- [ ] rom.3D988 - CUT (b017): Generic omitted; hand-to-hand combat shortened to Fist; Water rendered as Aqua to fit.
+- [ ] rom.3D9A4 - CUT (b017): Generic omitted; hand-to-hand combat shortened to Fist.
+- [ ] rom.3D9C0 - CUT (b017): Generic omitted; hand-to-hand combat shortened to Fist; lightning shortened to Bolt.
+- [ ] rom.3D9DC - CUT (b017): Generic omitted; hand-to-hand combat shortened to Fist.
+- [ ] rom.3D9F8 - CUT (b017): Generic omitted; throwing sword abbreviated to TS.
+- [ ] rom.3DA14 - CUT (b017): Generic omitted; throwing sword abbreviated to TS.
+- [ ] rom.3DA30 - CUT (b017): Generic omitted; throwing sword abbreviated to TS.
+- [ ] rom.3DA4C - CUT (b017): Generic omitted; throwing sword abbreviated to TS; lightning shortened to Bolt.
+- [ ] rom.3DA68 - CUT (b017): Generic omitted; throwing sword abbreviated to TS.
+- [ ] rom.3E108 - CUT (b017): Transformed label shortened to original numeric marker.
+- [ ] rom.42DF0 - CUT (b017): Village omitted.
+- [ ] rom.470F4 - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.47758 - CUT (b017): Forest omitted.
+- [ ] rom.499B4 - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.49A1C - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.49AA8 - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.4A1A0 - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.4A220 - CUT (b017): Resistance abbreviated to Resist.
+- [ ] rom.4A324 - CUT (b017): Resistance abbreviated to Resist.

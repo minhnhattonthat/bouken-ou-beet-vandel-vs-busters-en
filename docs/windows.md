@@ -13,7 +13,7 @@ run: `--var "EXTRA='inv'" --var INV_CATS=4 --var INV_FROM=0 --var INV_N=34` (war
 |---|---|---|---|---|
 | Dialogue box | rom `msg` | 12 | x starts at 8; lines 1-2 <= 240 px, line 3 <= 222 px (page arrow at ~x 232); 3 lines per page (`{br}`, `{page}`) | measured, `work/qa/p5_t2/f001250.png` (torture line; text past x 256 wraps onto the next row of the window buffer, so the limit is hard) |
 | Dialogue message length | rom `msg` | - | <= 255 codes after `{hero}` etc. expansion (0x200-byte stack buffer, docs/re/vwf.md) | measured from code |
-| Speaker tag | rom `speaker` | 12 | <= 64 px | measured: 64 px fits with ~8 px each side (`work/qa/p5_spk2/f001300.png`); 90 px and 120 px names are not drawn at all; 72 px drawn (glyph log x=10) but not seen in a shot |
+| Speaker tag | rom `speaker` | 12 | <= 80 px | measured: 80 px (8 x W player name) drawn in `work/qa/ne_w2/f004900.png`; 64 px fits with ~8 px each side (`work/qa/p5_spk2/f001300.png`); 90 px and 120 px names are not drawn at all; 72 px drawn (glyph log x=10) but not seen in a shot |
 | arm9 fixed slots | all `a9.<table>.*` | - | `max - 2` bytes (a 0000 must stay inside the slot) | measured: full slots ran into the next record |
 | Item / weapon / armor list row | `item.name`, `weapon.name`, `armor.name` | 12 | <= 126 px (x 48, count digits from ~x 179; shop: x 46, MG price label ~x 200) and the slot (18 bytes = 9 codes, ~16-18 letters) | measured, `work/qa/p5_inv/final.png` (menu_items_all, `inv` cheat), `work/qa/marker2/shop_weapon_buy/final.png` |
 | Item description (menus) | `*.desc` of item/weapon/armor/keyitem | 12 | one line, <= 194 px (box x 6-216, text x 16; a second row is off the box) | measured, `work/qa/p5_inv/final.png`; JP originals are <= 16 chars (192 px) |

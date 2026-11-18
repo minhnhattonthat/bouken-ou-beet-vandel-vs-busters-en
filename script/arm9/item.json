@@ -4,7 +4,7 @@
   {
    "id": "a9.item.000.name",
    "jp": "薬草",
-   "en": "",
+   "en": "Medicinal Herb",
    "kind": "item.name",
    "addr": "0212BFD8",
    "max": 20
@@ -12,7 +12,7 @@
   {
    "id": "a9.item.000.reading",
    "jp": "やくそう",
-   "en": "",
+   "en": "Medicinal Herb",
    "kind": "item.reading",
    "addr": "0212BFEC",
    "max": 20
@@ -20,7 +20,7 @@
   {
    "id": "a9.item.000.desc",
    "jp": "体力を５０回復",
-   "en": "",
+   "en": "Restores 50 HP",
    "kind": "item.desc",
    "addr": "0212C000",
    "max": 72
@@ -28,7 +28,7 @@
   {
    "id": "a9.item.000.name2",
    "jp": "やくそう",
-   "en": "",
+   "en": "Medicinal Herb",
    "kind": "item.name2",
    "addr": "0212C058",
    "max": 20
@@ -36,7 +36,7 @@
   {
    "id": "a9.item.001.name",
    "jp": "ハーブティー",
-   "en": "",
+   "en": "Herbal Tea",
    "kind": "item.name",
    "addr": "0212C07C",
    "max": 20
@@ -44,7 +44,7 @@
   {
    "id": "a9.item.001.reading",
    "jp": "はーぶてぃー",
-   "en": "",
+   "en": "Herbal Tea",
    "kind": "item.reading",
    "addr": "0212C090",
    "max": 20
@@ -52,7 +52,7 @@
   {
    "id": "a9.item.001.desc",
    "jp": "体力を１００回復",
-   "en": "",
+   "en": "Restores 100 HP",
    "kind": "item.desc",
    "addr": "0212C0A4",
    "max": 72
@@ -60,7 +60,7 @@
   {
    "id": "a9.item.001.name2",
    "jp": "ハーブティー",
-   "en": "",
+   "en": "Herbal Tea",
    "kind": "item.name2",
    "addr": "0212C0FC",
    "max": 20
@@ -68,7 +68,7 @@
   {
    "id": "a9.item.002.name",
    "jp": "体力丸",
-   "en": "",
+   "en": "Vitality Pill",
    "kind": "item.name",
    "addr": "0212C120",
    "max": 20
@@ -76,7 +76,7 @@
   {
    "id": "a9.item.002.reading",
    "jp": "たいりょくがん",
-   "en": "",
+   "en": "Vitality Pill",
    "kind": "item.reading",
    "addr": "0212C134",
    "max": 20
@@ -84,7 +84,7 @@
   {
    "id": "a9.item.002.desc",
    "jp": "体力を３００回復",
-   "en": "",
+   "en": "Restores 300 HP",
    "kind": "item.desc",
    "addr": "0212C148",
    "max": 72
@@ -92,7 +92,7 @@
   {
    "id": "a9.item.002.name2",
    "jp": "たいりょくがん",
-   "en": "",
+   "en": "Vitality Pill",
    "kind": "item.name2",
    "addr": "0212C1A0",
    "max": 20
@@ -100,7 +100,7 @@
   {
    "id": "a9.item.003.name",
    "jp": "里のおばばの秘薬",
-   "en": "",
+   "en": "Granny's Elixir",
    "kind": "item.name",
    "addr": "0212C1C4",
    "max": 20
@@ -108,7 +108,7 @@
   {
    "id": "a9.item.003.reading",
    "jp": "さとのおばばのひやく",
-   "en": "",
+   "en": "Granny's Elixir",
    "kind": "item.reading",
    "addr": "0212C1D8",
    "max": 20
@@ -116,7 +116,7 @@
   {
    "id": "a9.item.003.desc",
    "jp": "体力を全回復",
-   "en": "",
+   "en": "Fully restores HP",
    "kind": "item.desc",
    "addr": "0212C1EC",
    "max": 72
@@ -124,7 +124,7 @@
   {
    "id": "a9.item.003.name2",
    "jp": "おばばのひやく",
-   "en": "",
+   "en": "Granny's Elixir",
    "kind": "item.name2",
    "addr": "0212C244",
    "max": 20
@@ -132,7 +132,7 @@
   {
    "id": "a9.item.004.name",
    "jp": "イモリの干物",
-   "en": "",
+   "en": "Dried Newt",
    "kind": "item.name",
    "addr": "0212C268",
    "max": 20
@@ -140,7 +140,7 @@
   {
    "id": "a9.item.004.reading",
    "jp": "いもりのひもの",
-   "en": "",
+   "en": "Dried Newt",
    "kind": "item.reading",
    "addr": "0212C27C",
    "max": 20
@@ -148,7 +148,7 @@
   {
    "id": "a9.item.004.desc",
    "jp": "天力を５０回復",
-   "en": "",
+   "en": "Restores 50 Divine Power",
    "kind": "item.desc",
    "addr": "0212C290",
    "max": 72
@@ -156,7 +156,7 @@
   {
    "id": "a9.item.004.name2",
    "jp": "イモリのひもの",
-   "en": "",
+   "en": "Dried Newt",
    "kind": "item.name2",
    "addr": "0212C2E8",
    "max": 20
@@ -164,7 +164,7 @@
   {
    "id": "a9.item.005.name",
    "jp": "イモリの黒焼き",
-   "en": "",
+   "en": "Charred Newt",
    "kind": "item.name",
    "addr": "0212C30C",
    "max": 20
@@ -172,7 +172,7 @@
   {
    "id": "a9.item.005.reading",
    "jp": "いもりのくろやき",
-   "en": "",
+   "en": "Charred Newt",
    "kind": "item.reading",
    "addr": "0212C320",
    "max": 20
@@ -180,7 +180,7 @@
   {
    "id": "a9.item.005.desc",
    "jp": "天力を１００回復",
-   "en": "",
+   "en": "Restores 100 Divine Power",
    "kind": "item.desc",
    "addr": "0212C334",
    "max": 72
@@ -188,7 +188,7 @@
   {
    "id": "a9.item.005.name2",
    "jp": "イモリのくろやき",
-   "en": "",
+   "en": "Charred Newt",
    "kind": "item.name2",
    "addr": "0212C38C",
    "max": 20
@@ -196,7 +196,7 @@
   {
    "id": "a9.item.006.name",
    "jp": "天力丸",
-   "en": "",
+   "en": "Divine Pill",
    "kind": "item.name",
    "addr": "0212C3B0",
    "max": 20
@@ -204,7 +204,7 @@
   {
    "id": "a9.item.006.reading",
    "jp": "てんりょくがん",
-   "en": "",
+   "en": "Divine Pill",
    "kind": "item.reading",
    "addr": "0212C3C4",
    "max": 20
@@ -212,7 +212,7 @@
   {
    "id": "a9.item.006.desc",
    "jp": "天力を３００回復",
-   "en": "",
+   "en": "Restores 300 Divine Power",
    "kind": "item.desc",
    "addr": "0212C3D8",
    "max": 72
@@ -220,7 +220,7 @@
   {
    "id": "a9.item.006.name2",
    "jp": "てんりょくがん",
-   "en": "",
+   "en": "Divine Pill",
    "kind": "item.name2",
    "addr": "0212C430",
    "max": 20
@@ -228,7 +228,7 @@
   {
    "id": "a9.item.007.name",
    "jp": "おじぃの妙薬",
-   "en": "",
+   "en": "Grandpa's Cure",
    "kind": "item.name",
    "addr": "0212C454",
    "max": 20
@@ -236,7 +236,7 @@
   {
    "id": "a9.item.007.reading",
    "jp": "おじぃのみょうやく",
-   "en": "",
+   "en": "Grandpa's Cure",
    "kind": "item.reading",
    "addr": "0212C468",
    "max": 20
@@ -244,7 +244,7 @@
   {
    "id": "a9.item.007.desc",
    "jp": "天力を全回復",
-   "en": "",
+   "en": "Fully restores Divine Power",
    "kind": "item.desc",
    "addr": "0212C47C",
    "max": 72
@@ -252,7 +252,7 @@
   {
    "id": "a9.item.007.name2",
    "jp": "おじぃのみょうやく",
-   "en": "",
+   "en": "Grandpa's Cure",
    "kind": "item.name2",
    "addr": "0212C4D4",
    "max": 20
@@ -260,7 +260,7 @@
   {
    "id": "a9.item.008.name",
    "jp": "栄養剤",
-   "en": "",
+   "en": "Nutrient Tonic",
    "kind": "item.name",
    "addr": "0212C4F8",
    "max": 20
@@ -268,7 +268,7 @@
   {
    "id": "a9.item.008.reading",
    "jp": "えいようざい",
-   "en": "",
+   "en": "Nutrient Tonic",
    "kind": "item.reading",
    "addr": "0212C50C",
    "max": 20
@@ -276,7 +276,7 @@
   {
    "id": "a9.item.008.desc",
    "jp": "行動不能状態からの復帰",
-   "en": "",
+   "en": "Revives a fallen ally",
    "kind": "item.desc",
    "addr": "0212C520",
    "max": 72
@@ -284,7 +284,7 @@
   {
    "id": "a9.item.008.name2",
    "jp": "えいようざい",
-   "en": "",
+   "en": "Nutrient Tonic",
    "kind": "item.name2",
    "addr": "0212C578",
    "max": 20
@@ -292,7 +292,7 @@
   {
    "id": "a9.item.009.name",
    "jp": "気付け剤",
-   "en": "",
+   "en": "Smelling Salts",
    "kind": "item.name",
    "addr": "0212C59C",
    "max": 20
@@ -300,7 +300,7 @@
   {
    "id": "a9.item.009.reading",
    "jp": "きつけざい",
-   "en": "",
+   "en": "Smelling Salts",
    "kind": "item.reading",
    "addr": "0212C5B0",
    "max": 20
@@ -308,7 +308,7 @@
   {
    "id": "a9.item.009.desc",
    "jp": "眠り状態からの復帰",
-   "en": "",
+   "en": "Wakes a sleeping ally",
    "kind": "item.desc",
    "addr": "0212C5C4",
    "max": 72
@@ -316,7 +316,7 @@
   {
    "id": "a9.item.009.name2",
    "jp": "きつけざい",
-   "en": "",
+   "en": "Smelling Salts",
    "kind": "item.name2",
    "addr": "0212C61C",
    "max": 20
@@ -324,7 +324,7 @@
   {
    "id": "a9.item.010.name",
    "jp": "治療薬",
-   "en": "",
+   "en": "Healing Medicine",
    "kind": "item.name",
    "addr": "0212C640",
    "max": 20
@@ -332,7 +332,7 @@
   {
    "id": "a9.item.010.reading",
    "jp": "ちりょうやく",
-   "en": "",
+   "en": "Healing Medicine",
    "kind": "item.reading",
    "addr": "0212C654",
    "max": 20
@@ -340,7 +340,7 @@
   {
    "id": "a9.item.010.desc",
    "jp": "行動不能及び眠りからの復帰・小",
-   "en": "",
+   "en": "KO and sleep recovery: minor",
    "kind": "item.desc",
    "addr": "0212C668",
    "max": 72
@@ -348,7 +348,7 @@
   {
    "id": "a9.item.010.name2",
    "jp": "ちりょうやく",
-   "en": "",
+   "en": "Healing Medicine",
    "kind": "item.name2",
    "addr": "0212C6C0",
    "max": 20
@@ -356,7 +356,7 @@
   {
    "id": "a9.item.011.name",
    "jp": "万能薬",
-   "en": "",
+   "en": "Panacea",
    "kind": "item.name",
    "addr": "0212C6E4",
    "max": 20
@@ -364,7 +364,7 @@
   {
    "id": "a9.item.011.reading",
    "jp": "ばんのうやく",
-   "en": "",
+   "en": "Panacea",
    "kind": "item.reading",
    "addr": "0212C6F8",
    "max": 20
@@ -372,7 +372,7 @@
   {
    "id": "a9.item.011.desc",
    "jp": "行動不能及び眠りからの復帰・大",
-   "en": "",
+   "en": "KO and sleep recovery: major",
    "kind": "item.desc",
    "addr": "0212C70C",
    "max": 72
@@ -380,7 +380,7 @@
   {
    "id": "a9.item.011.name2",
    "jp": "ばんのうやく",
-   "en": "",
+   "en": "Panacea",
    "kind": "item.name2",
    "addr": "0212C764",
    "max": 20
@@ -388,7 +388,7 @@
   {
    "id": "a9.item.012.name",
    "jp": "解毒剤",
-   "en": "",
+   "en": "Antidote",
    "kind": "item.name",
    "addr": "0212C788",
    "max": 20
@@ -396,7 +396,7 @@
   {
    "id": "a9.item.012.reading",
    "jp": "げどくざい",
-   "en": "",
+   "en": "Antidote",
    "kind": "item.reading",
    "addr": "0212C79C",
    "max": 20
@@ -404,7 +404,7 @@
   {
    "id": "a9.item.012.desc",
    "jp": "毒を治療",
-   "en": "",
+   "en": "Cures poison",
    "kind": "item.desc",
    "addr": "0212C7B0",
    "max": 72
@@ -412,7 +412,7 @@
   {
    "id": "a9.item.012.name2",
    "jp": "げどくざい",
-   "en": "",
+   "en": "Antidote",
    "kind": "item.name2",
    "addr": "0212C808",
    "max": 20
@@ -420,7 +420,7 @@
   {
    "id": "a9.item.013.name",
    "jp": "トラキラの葉",
-   "en": "",
+   "en": "Torakira Leaf",
    "kind": "item.name",
    "addr": "0212C82C",
    "max": 20
@@ -428,7 +428,7 @@
   {
    "id": "a9.item.013.reading",
    "jp": "とらきらのは",
-   "en": "",
+   "en": "Torakira Leaf",
    "kind": "item.reading",
    "addr": "0212C840",
    "max": 20
@@ -436,7 +436,7 @@
   {
    "id": "a9.item.013.desc",
    "jp": "混乱を治療",
-   "en": "",
+   "en": "Cures confusion",
    "kind": "item.desc",
    "addr": "0212C854",
    "max": 72
@@ -444,7 +444,7 @@
   {
    "id": "a9.item.013.name2",
    "jp": "トラキラのは",
-   "en": "",
+   "en": "Torakira Leaf",
    "kind": "item.name2",
    "addr": "0212C8AC",
    "max": 20
@@ -452,7 +452,7 @@
   {
    "id": "a9.item.014.name",
    "jp": "しびれ取り",
-   "en": "",
+   "en": "Paralysis Cure",
    "kind": "item.name",
    "addr": "0212C8D0",
    "max": 20
@@ -460,7 +460,7 @@
   {
    "id": "a9.item.014.reading",
    "jp": "しびれとり",
-   "en": "",
+   "en": "Paralysis Cure",
    "kind": "item.reading",
    "addr": "0212C8E4",
    "max": 20
@@ -468,7 +468,7 @@
   {
    "id": "a9.item.014.desc",
    "jp": "麻痺を治療",
-   "en": "",
+   "en": "Cures paralysis",
    "kind": "item.desc",
    "addr": "0212C8F8",
    "max": 72
@@ -476,7 +476,7 @@
   {
    "id": "a9.item.014.name2",
    "jp": "しびれとり",
-   "en": "",
+   "en": "Paralysis Cure",
    "kind": "item.name2",
    "addr": "0212C950",
    "max": 20
@@ -484,7 +484,7 @@
   {
    "id": "a9.item.015.name",
    "jp": "クールジェル",
-   "en": "",
+   "en": "Cool Gel",
    "kind": "item.name",
    "addr": "0212C974",
    "max": 20
@@ -492,7 +492,7 @@
   {
    "id": "a9.item.015.reading",
    "jp": "くーるじぇる",
-   "en": "",
+   "en": "Cool Gel",
    "kind": "item.reading",
    "addr": "0212C988",
    "max": 20
@@ -500,7 +500,7 @@
   {
    "id": "a9.item.015.desc",
    "jp": "やけどを治療",
-   "en": "",
+   "en": "Cures burns",
    "kind": "item.desc",
    "addr": "0212C99C",
    "max": 72
@@ -508,7 +508,7 @@
   {
    "id": "a9.item.015.name2",
    "jp": "クールジェル",
-   "en": "",
+   "en": "Cool Gel",
    "kind": "item.name2",
    "addr": "0212C9F4",
    "max": 20
@@ -516,7 +516,7 @@
   {
    "id": "a9.item.016.name",
    "jp": "ホットジェル",
-   "en": "",
+   "en": "Hot Gel",
    "kind": "item.name",
    "addr": "0212CA18",
    "max": 20
@@ -524,7 +524,7 @@
   {
    "id": "a9.item.016.reading",
    "jp": "ほっとじぇる",
-   "en": "",
+   "en": "Hot Gel",
    "kind": "item.reading",
    "addr": "0212CA2C",
    "max": 20
@@ -532,7 +532,7 @@
   {
    "id": "a9.item.016.desc",
    "jp": "凍傷を治療",
-   "en": "",
+   "en": "Cures frostbite",
    "kind": "item.desc",
    "addr": "0212CA40",
    "max": 72
@@ -540,7 +540,7 @@
   {
    "id": "a9.item.016.name2",
    "jp": "ホットジェル",
-   "en": "",
+   "en": "Hot Gel",
    "kind": "item.name2",
    "addr": "0212CA98",
    "max": 20
@@ -548,7 +548,7 @@
   {
    "id": "a9.item.017.name",
    "jp": "バグ",
-   "en": "",
+   "en": "Bug",
    "kind": "item.name",
    "addr": "0212CABC",
    "max": 20
@@ -556,7 +556,7 @@
   {
    "id": "a9.item.017.reading",
    "jp": "ばぐ",
-   "en": "",
+   "en": "Bug",
    "kind": "item.reading",
    "addr": "0212CAD0",
    "max": 20
@@ -564,7 +564,7 @@
   {
    "id": "a9.item.017.desc",
    "jp": "体力を５０回復",
-   "en": "",
+   "en": "Restores 50 HP",
    "kind": "item.desc",
    "addr": "0212CAE4",
    "max": 72
@@ -572,7 +572,7 @@
   {
    "id": "a9.item.017.name2",
    "jp": "バグ",
-   "en": "",
+   "en": "Bug",
    "kind": "item.name2",
    "addr": "0212CB3C",
    "max": 20
@@ -580,7 +580,7 @@
   {
    "id": "a9.item.018.name",
    "jp": "ベターバグ",
-   "en": "",
+   "en": "Better Bug",
    "kind": "item.name",
    "addr": "0212CB60",
    "max": 20
@@ -588,7 +588,7 @@
   {
    "id": "a9.item.018.reading",
    "jp": "べたーばぐ",
-   "en": "",
+   "en": "Better Bug",
    "kind": "item.reading",
    "addr": "0212CB74",
    "max": 20
@@ -596,7 +596,7 @@
   {
    "id": "a9.item.018.desc",
    "jp": "体力を１００回復",
-   "en": "",
+   "en": "Restores 100 HP",
    "kind": "item.desc",
    "addr": "0212CB88",
    "max": 72
@@ -604,7 +604,7 @@
   {
    "id": "a9.item.018.name2",
    "jp": "ベターバグ",
-   "en": "",
+   "en": "Better Bug",
    "kind": "item.name2",
    "addr": "0212CBE0",
    "max": 20
@@ -612,7 +612,7 @@
   {
    "id": "a9.item.019.name",
    "jp": "リカバーバグ",
-   "en": "",
+   "en": "Recovery Bug",
    "kind": "item.name",
    "addr": "0212CC04",
    "max": 20
@@ -620,7 +620,7 @@
   {
    "id": "a9.item.019.reading",
    "jp": "りかばーばぐ",
-   "en": "",
+   "en": "Recovery Bug",
    "kind": "item.reading",
    "addr": "0212CC18",
    "max": 20
@@ -628,7 +628,7 @@
   {
    "id": "a9.item.019.desc",
    "jp": "体力を３００回復",
-   "en": "",
+   "en": "Restores 300 HP",
    "kind": "item.desc",
    "addr": "0212CC2C",
    "max": 72
@@ -636,7 +636,7 @@
   {
    "id": "a9.item.019.name2",
    "jp": "リカバーバグ",
-   "en": "",
+   "en": "Recovery Bug",
    "kind": "item.name2",
    "addr": "0212CC84",
    "max": 20
@@ -644,7 +644,7 @@
   {
    "id": "a9.item.020.name",
    "jp": "マックスバグ",
-   "en": "",
+   "en": "Max Bug",
    "kind": "item.name",
    "addr": "0212CCA8",
    "max": 20
@@ -652,7 +652,7 @@
   {
    "id": "a9.item.020.reading",
    "jp": "まっくすばぐ",
-   "en": "",
+   "en": "Max Bug",
    "kind": "item.reading",
    "addr": "0212CCBC",
    "max": 20
@@ -660,7 +660,7 @@
   {
    "id": "a9.item.020.desc",
    "jp": "体力を全回復",
-   "en": "",
+   "en": "Fully restores HP",
    "kind": "item.desc",
    "addr": "0212CCD0",
    "max": 72
@@ -668,7 +668,7 @@
   {
    "id": "a9.item.020.name2",
    "jp": "マックスバグ",
-   "en": "",
+   "en": "Max Bug",
    "kind": "item.name2",
    "addr": "0212CD28",
    "max": 20
@@ -676,7 +676,7 @@
   {
    "id": "a9.item.021.name",
    "jp": "ワーム",
-   "en": "",
+   "en": "Worm",
    "kind": "item.name",
    "addr": "0212CD4C",
    "max": 20
@@ -684,7 +684,7 @@
   {
    "id": "a9.item.021.reading",
    "jp": "わーむ",
-   "en": "",
+   "en": "Worm",
    "kind": "item.reading",
    "addr": "0212CD60",
    "max": 20
@@ -692,7 +692,7 @@
   {
    "id": "a9.item.021.desc",
    "jp": "冥力を５０回復",
-   "en": "",
+   "en": "Restores 50 Dark Power",
    "kind": "item.desc",
    "addr": "0212CD74",
    "max": 72
@@ -700,7 +700,7 @@
   {
    "id": "a9.item.021.name2",
    "jp": "ワーム",
-   "en": "",
+   "en": "Worm",
    "kind": "item.name2",
    "addr": "0212CDCC",
    "max": 20
@@ -708,7 +708,7 @@
   {
    "id": "a9.item.022.name",
    "jp": "ベターワーム",
-   "en": "",
+   "en": "Better Worm",
    "kind": "item.name",
    "addr": "0212CDF0",
    "max": 20
@@ -716,7 +716,7 @@
   {
    "id": "a9.item.022.reading",
    "jp": "べたーわーむ",
-   "en": "",
+   "en": "Better Worm",
    "kind": "item.reading",
    "addr": "0212CE04",
    "max": 20
@@ -724,7 +724,7 @@
   {
    "id": "a9.item.022.desc",
    "jp": "冥力を１００回復",
-   "en": "",
+   "en": "Restores 100 Dark Power",
    "kind": "item.desc",
    "addr": "0212CE18",
    "max": 72
@@ -732,7 +732,7 @@
   {
    "id": "a9.item.022.name2",
    "jp": "ベターワーム",
-   "en": "",
+   "en": "Better Worm",
    "kind": "item.name2",
    "addr": "0212CE70",
    "max": 20
@@ -740,7 +740,7 @@
   {
    "id": "a9.item.023.name",
    "jp": "リカバーワーム",
-   "en": "",
+   "en": "Recovery Worm",
    "kind": "item.name",
    "addr": "0212CE94",
    "max": 20
@@ -748,7 +748,7 @@
   {
    "id": "a9.item.023.reading",
    "jp": "りかばーわーむ",
-   "en": "",
+   "en": "Recovery Worm",
    "kind": "item.reading",
    "addr": "0212CEA8",
    "max": 20
@@ -756,7 +756,7 @@
   {
    "id": "a9.item.023.desc",
    "jp": "冥力を３００回復",
-   "en": "",
+   "en": "Restores 300 Dark Power",
    "kind": "item.desc",
    "addr": "0212CEBC",
    "max": 72
@@ -764,7 +764,7 @@
   {
    "id": "a9.item.023.name2",
    "jp": "リカバーワーム",
-   "en": "",
+   "en": "Recovery Worm",
    "kind": "item.name2",
    "addr": "0212CF14",
    "max": 20
@@ -772,7 +772,7 @@
   {
    "id": "a9.item.024.name",
    "jp": "マックスワーム",
-   "en": "",
+   "en": "Max Worm",
    "kind": "item.name",
    "addr": "0212CF38",
    "max": 20
@@ -780,7 +780,7 @@
   {
    "id": "a9.item.024.reading",
    "jp": "まっくすわーむ",
-   "en": "",
+   "en": "Max Worm",
    "kind": "item.reading",
    "addr": "0212CF4C",
    "max": 20
@@ -788,7 +788,7 @@
   {
    "id": "a9.item.024.desc",
    "jp": "冥力を全回復",
-   "en": "",
+   "en": "Fully restores Dark Power",
    "kind": "item.desc",
    "addr": "0212CF60",
    "max": 72
@@ -796,7 +796,7 @@
   {
    "id": "a9.item.024.name2",
    "jp": "マックスワーム",
-   "en": "",
+   "en": "Max Worm",
    "kind": "item.name2",
    "addr": "0212CFB8",
    "max": 20
@@ -804,7 +804,7 @@
   {
    "id": "a9.item.025.name",
    "jp": "スコルピオ",
-   "en": "",
+   "en": "Scorpio",
    "kind": "item.name",
    "addr": "0212CFDC",
    "max": 20
@@ -812,7 +812,7 @@
   {
    "id": "a9.item.025.reading",
    "jp": "すこるぴお",
-   "en": "",
+   "en": "Scorpio",
    "kind": "item.reading",
    "addr": "0212CFF0",
    "max": 20
@@ -820,7 +820,7 @@
   {
    "id": "a9.item.025.desc",
    "jp": "行動不能状態からの復帰",
-   "en": "",
+   "en": "Revives a fallen ally",
    "kind": "item.desc",
    "addr": "0212D004",
    "max": 72
@@ -828,7 +828,7 @@
   {
    "id": "a9.item.025.name2",
    "jp": "スコルピオ",
-   "en": "",
+   "en": "Scorpio",
    "kind": "item.name2",
    "addr": "0212D05C",
    "max": 20
@@ -836,7 +836,7 @@
   {
    "id": "a9.item.026.name",
    "jp": "ライズスコルピオ",
-   "en": "",
+   "en": "Rise Scorpio",
    "kind": "item.name",
    "addr": "0212D080",
    "max": 20
@@ -844,7 +844,7 @@
   {
    "id": "a9.item.026.reading",
    "jp": "らいずすこるぴお",
-   "en": "",
+   "en": "Rise Scorpio",
    "kind": "item.reading",
    "addr": "0212D094",
    "max": 20
@@ -852,7 +852,7 @@
   {
    "id": "a9.item.026.desc",
    "jp": "眠り状態からの復帰",
-   "en": "",
+   "en": "Wakes a sleeping ally",
    "kind": "item.desc",
    "addr": "0212D0A8",
    "max": 72
@@ -860,7 +860,7 @@
   {
    "id": "a9.item.026.name2",
    "jp": "ライズスコルピオ",
-   "en": "",
+   "en": "Rise Scorpio",
    "kind": "item.name2",
    "addr": "0212D100",
    "max": 20
@@ -868,7 +868,7 @@
   {
    "id": "a9.item.027.name",
    "jp": "リターンスコルピオ",
-   "en": "",
+   "en": "Return Scorpio",
    "kind": "item.name",
    "addr": "0212D124",
    "max": 20
@@ -876,7 +876,7 @@
   {
    "id": "a9.item.027.reading",
    "jp": "りたーんすこるぴお",
-   "en": "",
+   "en": "Return Scorpio",
    "kind": "item.reading",
    "addr": "0212D138",
    "max": 20
@@ -884,7 +884,7 @@
   {
    "id": "a9.item.027.desc",
    "jp": "行動不能及び眠りからの復帰・小",
-   "en": "",
+   "en": "KO and sleep recovery: minor",
    "kind": "item.desc",
    "addr": "0212D14C",
    "max": 72
@@ -892,7 +892,7 @@
   {
    "id": "a9.item.027.name2",
    "jp": "リターンスコルピオ",
-   "en": "",
+   "en": "Return Scorpio",
    "kind": "item.name2",
    "addr": "0212D1A4",
    "max": 20
@@ -900,7 +900,7 @@
   {
    "id": "a9.item.028.name",
    "jp": "マックススコルピオ",
-   "en": "",
+   "en": "Max Scorpio",
    "kind": "item.name",
    "addr": "0212D1C8",
    "max": 20
@@ -908,7 +908,7 @@
   {
    "id": "a9.item.028.reading",
    "jp": "まっくすすこるぴお",
-   "en": "",
+   "en": "Max Scorpio",
    "kind": "item.reading",
    "addr": "0212D1DC",
    "max": 20
@@ -916,7 +916,7 @@
   {
    "id": "a9.item.028.desc",
    "jp": "行動不能及び眠りからの復帰・大",
-   "en": "",
+   "en": "KO and sleep recovery: major",
    "kind": "item.desc",
    "addr": "0212D1F0",
    "max": 72
@@ -924,7 +924,7 @@
   {
    "id": "a9.item.028.name2",
    "jp": "マックススコルピオ",
-   "en": "",
+   "en": "Max Scorpio",
    "kind": "item.name2",
    "addr": "0212D248",
    "max": 20
@@ -932,7 +932,7 @@
   {
    "id": "a9.item.029.name",
    "jp": "ポイズンビー",
-   "en": "",
+   "en": "Poison Bee",
    "kind": "item.name",
    "addr": "0212D26C",
    "max": 20
@@ -940,7 +940,7 @@
   {
    "id": "a9.item.029.reading",
    "jp": "ぽいずんびー",
-   "en": "",
+   "en": "Poison Bee",
    "kind": "item.reading",
    "addr": "0212D280",
    "max": 20
@@ -948,7 +948,7 @@
   {
    "id": "a9.item.029.desc",
    "jp": "毒を治療",
-   "en": "",
+   "en": "Cures poison",
    "kind": "item.desc",
    "addr": "0212D294",
    "max": 72
@@ -956,7 +956,7 @@
   {
    "id": "a9.item.029.name2",
    "jp": "ポイズンビー",
-   "en": "",
+   "en": "Poison Bee",
    "kind": "item.name2",
    "addr": "0212D2EC",
    "max": 20
@@ -964,7 +964,7 @@
   {
    "id": "a9.item.030.name",
    "jp": "コンフューズビー",
-   "en": "",
+   "en": "Confusion Bee",
    "kind": "item.name",
    "addr": "0212D310",
    "max": 20
@@ -972,7 +972,7 @@
   {
    "id": "a9.item.030.reading",
    "jp": "こんふゅーずびー",
-   "en": "",
+   "en": "Confusion Bee",
    "kind": "item.reading",
    "addr": "0212D324",
    "max": 20
@@ -980,7 +980,7 @@
   {
    "id": "a9.item.030.desc",
    "jp": "混乱を治療",
-   "en": "",
+   "en": "Cures confusion",
    "kind": "item.desc",
    "addr": "0212D338",
    "max": 72
@@ -988,7 +988,7 @@
   {
    "id": "a9.item.030.name2",
    "jp": "コンフューズビー",
-   "en": "",
+   "en": "Confusion Bee",
    "kind": "item.name2",
    "addr": "0212D390",
    "max": 20
@@ -996,7 +996,7 @@
   {
    "id": "a9.item.031.name",
    "jp": "パラライズビー",
-   "en": "",
+   "en": "Paralysis Bee",
    "kind": "item.name",
    "addr": "0212D3B4",
    "max": 20
@@ -1004,7 +1004,7 @@
   {
    "id": "a9.item.031.reading",
    "jp": "ぱららいずびー",
-   "en": "",
+   "en": "Paralysis Bee",
    "kind": "item.reading",
    "addr": "0212D3C8",
    "max": 20
@@ -1012,7 +1012,7 @@
   {
    "id": "a9.item.031.desc",
    "jp": "麻痺を治療",
-   "en": "",
+   "en": "Cures paralysis",
    "kind": "item.desc",
    "addr": "0212D3DC",
    "max": 72
@@ -1020,7 +1020,7 @@
   {
    "id": "a9.item.031.name2",
    "jp": "パラライズビー",
-   "en": "",
+   "en": "Paralysis Bee",
    "kind": "item.name2",
    "addr": "0212D434",
    "max": 20
@@ -1028,7 +1028,7 @@
   {
    "id": "a9.item.032.name",
    "jp": "アイスビー",
-   "en": "",
+   "en": "Ice Bee",
    "kind": "item.name",
    "addr": "0212D458",
    "max": 20
@@ -1036,7 +1036,7 @@
   {
    "id": "a9.item.032.reading",
    "jp": "あいすびー",
-   "en": "",
+   "en": "Ice Bee",
    "kind": "item.reading",
    "addr": "0212D46C",
    "max": 20
@@ -1044,7 +1044,7 @@
   {
    "id": "a9.item.032.desc",
    "jp": "やけどを治療",
-   "en": "",
+   "en": "Cures burns",
    "kind": "item.desc",
    "addr": "0212D480",
    "max": 72
@@ -1052,7 +1052,7 @@
   {
    "id": "a9.item.032.name2",
    "jp": "アイスビー",
-   "en": "",
+   "en": "Ice Bee",
    "kind": "item.name2",
    "addr": "0212D4D8",
    "max": 20
@@ -1060,7 +1060,7 @@
   {
    "id": "a9.item.033.name",
    "jp": "ファイアビー",
-   "en": "",
+   "en": "Fire Bee",
    "kind": "item.name",
    "addr": "0212D4FC",
    "max": 20
@@ -1068,7 +1068,7 @@
   {
    "id": "a9.item.033.reading",
    "jp": "ふぁいあびー",
-   "en": "",
+   "en": "Fire Bee",
    "kind": "item.reading",
    "addr": "0212D510",
    "max": 20
@@ -1076,7 +1076,7 @@
   {
    "id": "a9.item.033.desc",
    "jp": "凍傷を治療",
-   "en": "",
+   "en": "Cures frostbite",
    "kind": "item.desc",
    "addr": "0212D524",
    "max": 72
@@ -1084,7 +1084,7 @@
   {
    "id": "a9.item.033.name2",
    "jp": "ファイアビー",
-   "en": "",
+   "en": "Fire Bee",
    "kind": "item.name2",
    "addr": "0212D57C",
    "max": 20

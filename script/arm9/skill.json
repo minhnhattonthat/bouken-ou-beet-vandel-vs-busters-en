@@ -4,7 +4,7 @@
   {
    "id": "a9.skill.000.name",
    "jp": "百烈突き",
-   "en": "",
+   "en": "Hundred Thrusts",
    "kind": "skill.name",
    "addr": "021428A0",
    "max": 20
@@ -12,7 +12,7 @@
   {
    "id": "a9.skill.000.desc",
    "jp": "高速で突きを連続で繰り出す",
-   "en": "",
+   "en": "Rapid thrusts",
    "kind": "skill.desc",
    "addr": "021428B4",
    "max": 28
@@ -20,7 +20,7 @@
   {
    "id": "a9.skill.001.name",
    "jp": "炎の衝撃波",
-   "en": "",
+   "en": "Flame Wave",
    "kind": "skill.name",
    "addr": "021428E8",
    "max": 20
@@ -28,7 +28,7 @@
   {
    "id": "a9.skill.001.desc",
    "jp": "炎の衝撃波を出す",
-   "en": "",
+   "en": "Fires a flame wave",
    "kind": "skill.desc",
    "addr": "021428FC",
    "max": 28
@@ -36,7 +36,7 @@
   {
    "id": "a9.skill.002.name",
    "jp": "貫通ランス",
-   "en": "",
+   "en": "Piercing Lance",
    "kind": "skill.name",
    "addr": "02142930",
    "max": 20
@@ -44,7 +44,7 @@
   {
    "id": "a9.skill.002.desc",
    "jp": "槍が伸び直線上の全敵を攻撃",
-   "en": "",
+   "en": "Lance grows; hits row",
    "kind": "skill.desc",
    "addr": "02142944",
    "max": 28
@@ -52,7 +52,7 @@
   {
    "id": "a9.skill.003.name",
    "jp": "特攻",
-   "en": "",
+   "en": "Reckless Charge",
    "kind": "skill.name",
    "addr": "02142978",
    "max": 20
@@ -60,7 +60,7 @@
   {
    "id": "a9.skill.003.desc",
    "jp": "特攻して横方向の全敵を攻撃",
-   "en": "",
+   "en": "Charges across row",
    "kind": "skill.desc",
    "addr": "0214298C",
    "max": 28
@@ -68,7 +68,7 @@
   {
    "id": "a9.skill.004.name",
    "jp": "ゼノンウィンザード",
-   "en": "",
+   "en": "Zenon Winzard",
    "kind": "skill.name",
    "addr": "021429C0",
    "max": 20
@@ -76,7 +76,7 @@
   {
    "id": "a9.skill.004.desc",
    "jp": "衝撃波を飛ばし敵を攻撃",
-   "en": "",
+   "en": "Fires a shockwave",
    "kind": "skill.desc",
    "addr": "021429D4",
    "max": 28
@@ -84,7 +84,7 @@
   {
    "id": "a9.skill.005.name",
    "jp": "乱舞",
-   "en": "",
+   "en": "Wild Dance",
    "kind": "skill.name",
    "addr": "02142A08",
    "max": 20
@@ -92,7 +92,7 @@
   {
    "id": "a9.skill.005.desc",
    "jp": "上昇しつつ敵を連続で攻撃",
-   "en": "",
+   "en": "Rising flurry of hits",
    "kind": "skill.desc",
    "addr": "02142A1C",
    "max": 28
@@ -100,7 +100,7 @@
   {
    "id": "a9.skill.006.name",
    "jp": "兜割り",
-   "en": "",
+   "en": "Helm Splitter",
    "kind": "skill.name",
    "addr": "02142A50",
    "max": 20
@@ -108,7 +108,7 @@
   {
    "id": "a9.skill.006.desc",
    "jp": "落下し周囲に衝撃波を出す",
-   "en": "",
+   "en": "Drops; wave all round",
    "kind": "skill.desc",
    "addr": "02142A64",
    "max": 28
@@ -116,7 +116,7 @@
   {
    "id": "a9.skill.007.name",
    "jp": "スライドカッター",
-   "en": "",
+   "en": "Slide Cutter",
    "kind": "skill.name",
    "addr": "02142A98",
    "max": 20
@@ -124,7 +124,7 @@
   {
    "id": "a9.skill.007.desc",
    "jp": "敵の左右を往復して攻撃",
-   "en": "",
+   "en": "Hits side to side",
    "kind": "skill.desc",
    "addr": "02142AAC",
    "max": 28
@@ -132,7 +132,7 @@
   {
    "id": "a9.skill.008.name",
    "jp": "狙う",
-   "en": "",
+   "en": "Aim",
    "kind": "skill.name",
    "addr": "02142AE0",
    "max": 20
@@ -140,7 +140,7 @@
   {
    "id": "a9.skill.008.desc",
    "jp": "攻撃の命中精度を上げる",
-   "en": "",
+   "en": "Raises attack accuracy",
    "kind": "skill.desc",
    "addr": "02142AF4",
    "max": 28
@@ -148,7 +148,7 @@
   {
    "id": "a9.skill.009.name",
    "jp": "カッター",
-   "en": "",
+   "en": "Cutter",
    "kind": "skill.name",
    "addr": "02142B28",
    "max": 20
@@ -156,7 +156,7 @@
   {
    "id": "a9.skill.009.desc",
    "jp": "風圧による刃で横方向を攻撃",
-   "en": "",
+   "en": "Wind blade hits a row",
    "kind": "skill.desc",
    "addr": "02142B3C",
    "max": 28
@@ -164,7 +164,7 @@
   {
    "id": "a9.skill.010.name",
    "jp": "もず落とし",
-   "en": "",
+   "en": "Shrike Drop",
    "kind": "skill.name",
    "addr": "02142B70",
    "max": 20
@@ -172,7 +172,7 @@
   {
    "id": "a9.skill.010.desc",
    "jp": "敵を斧の上に落下させ攻撃",
-   "en": "",
+   "en": "Drops foe onto axe",
    "kind": "skill.desc",
    "addr": "02142B84",
    "max": 28
@@ -180,7 +180,7 @@
   {
    "id": "a9.skill.011.name",
    "jp": "ラウンドカッター",
-   "en": "",
+   "en": "Round Cutter",
    "kind": "skill.name",
    "addr": "02142BB8",
    "max": 20
@@ -188,7 +188,7 @@
   {
    "id": "a9.skill.011.desc",
    "jp": "風圧による刃で４方向へ攻撃",
-   "en": "",
+   "en": "Wind blades: 4 ways",
    "kind": "skill.desc",
    "addr": "02142BCC",
    "max": 28
@@ -196,7 +196,7 @@
   {
    "id": "a9.skill.012.name",
    "jp": "長距離射程モード",
-   "en": "",
+   "en": "Long-Range Mode",
    "kind": "skill.name",
    "addr": "02142C00",
    "max": 20
@@ -204,7 +204,7 @@
   {
    "id": "a9.skill.012.desc",
    "jp": "画面外の敵も攻撃できる",
-   "en": "",
+   "en": "Can hit offscreen foes",
    "kind": "skill.desc",
    "addr": "02142C14",
    "max": 28
@@ -212,7 +212,7 @@
   {
    "id": "a9.skill.013.name",
    "jp": "全弾開放モード",
-   "en": "",
+   "en": "Full Salvo Mode",
    "kind": "skill.name",
    "addr": "02142C48",
    "max": 20
@@ -220,7 +220,7 @@
   {
    "id": "a9.skill.013.desc",
    "jp": "前方の敵を一斉に攻撃する",
-   "en": "",
+   "en": "Hits all ahead at once",
    "kind": "skill.desc",
    "addr": "02142C5C",
    "max": 28
@@ -228,7 +228,7 @@
   {
    "id": "a9.skill.014.name",
    "jp": "炸裂弾",
-   "en": "",
+   "en": "Burst Shell",
    "kind": "skill.name",
    "addr": "02142C90",
    "max": 20
@@ -236,7 +236,7 @@
   {
    "id": "a9.skill.014.desc",
    "jp": "着弾と同時に弾が分裂",
-   "en": "",
+   "en": "Shot splits upon impact",
    "kind": "skill.desc",
    "addr": "02142CA4",
    "max": 28
@@ -244,7 +244,7 @@
   {
    "id": "a9.skill.015.name",
    "jp": "ショットガン",
-   "en": "",
+   "en": "Shotgun",
    "kind": "skill.name",
    "addr": "02142CD8",
    "max": 20
@@ -252,7 +252,7 @@
   {
    "id": "a9.skill.015.desc",
    "jp": "前５方向に弾を同時に射出",
-   "en": "",
+   "en": "Fires 5 ways ahead",
    "kind": "skill.desc",
    "addr": "02142CEC",
    "max": 28
@@ -260,7 +260,7 @@
   {
    "id": "a9.skill.016.name",
    "jp": "鉄球変形",
-   "en": "",
+   "en": "Iron Ball Form",
    "kind": "skill.name",
    "addr": "02142D20",
    "max": 20
@@ -268,7 +268,7 @@
   {
    "id": "a9.skill.016.desc",
    "jp": "鉄球へ変形させる",
-   "en": "",
+   "en": "Turns into iron ball",
    "kind": "skill.desc",
    "addr": "02142D34",
    "max": 28
@@ -276,7 +276,7 @@
   {
    "id": "a9.skill.017.name",
    "jp": "カウンター",
-   "en": "",
+   "en": "Counter",
    "kind": "skill.name",
    "addr": "02142D68",
    "max": 20
@@ -284,7 +284,7 @@
   {
    "id": "a9.skill.017.desc",
    "jp": "敵の攻撃をそのまま跳ね返す",
-   "en": "",
+   "en": "Reflects foe's attack",
    "kind": "skill.desc",
    "addr": "02142D7C",
    "max": 28
@@ -292,7 +292,7 @@
   {
    "id": "a9.skill.018.name",
    "jp": "アクアウォール",
-   "en": "",
+   "en": "Aqua Wall",
    "kind": "skill.name",
    "addr": "02142DB0",
    "max": 20
@@ -300,7 +300,7 @@
   {
    "id": "a9.skill.018.desc",
    "jp": "鉄球を回転させ水柱で攻撃",
-   "en": "",
+   "en": "Spin ball: water pillars",
    "kind": "skill.desc",
    "addr": "02142DC4",
    "max": 28
@@ -308,7 +308,7 @@
   {
    "id": "a9.skill.019.name",
    "jp": "鉄球捕縛",
-   "en": "",
+   "en": "Iron Ball Snare",
    "kind": "skill.name",
    "addr": "02142DF8",
    "max": 20
@@ -316,7 +316,7 @@
   {
    "id": "a9.skill.019.desc",
    "jp": "鉄球で相手引き寄せ攻撃",
-   "en": "",
+   "en": "Ball pulls foes in to hit",
    "kind": "skill.desc",
    "addr": "02142E0C",
    "max": 28
@@ -324,7 +324,7 @@
   {
    "id": "a9.skill.020.name",
    "jp": "ソニックエッジ",
-   "en": "",
+   "en": "Sonic Edge",
    "kind": "skill.name",
    "addr": "02142E40",
    "max": 20
@@ -332,7 +332,7 @@
   {
    "id": "a9.skill.020.desc",
    "jp": "回転しながら前進し攻撃",
-   "en": "",
+   "en": "Spins forward to attack",
    "kind": "skill.desc",
    "addr": "02142E54",
    "max": 28
@@ -340,7 +340,7 @@
   {
    "id": "a9.skill.021.name",
    "jp": "イリュージョンエッジ",
-   "en": "",
+   "en": "Illusion Edge",
    "kind": "skill.name",
    "addr": "02142E88",
    "max": 20
@@ -348,7 +348,7 @@
   {
    "id": "a9.skill.021.desc",
    "jp": "前進しながら連続攻撃",
-   "en": "",
+   "en": "Advancing flurry",
    "kind": "skill.desc",
    "addr": "02142E9C",
    "max": 28
@@ -356,7 +356,7 @@
   {
    "id": "a9.skill.022.name",
    "jp": "ブレイブ・ブレイド",
-   "en": "",
+   "en": "Brave Blade",
    "kind": "skill.name",
    "addr": "02142ED0",
    "max": 20
@@ -364,7 +364,7 @@
   {
    "id": "a9.skill.022.desc",
    "jp": "衝撃波で前方の敵を攻撃",
-   "en": "",
+   "en": "Shockwave hits ahead",
    "kind": "skill.desc",
    "addr": "02142EE4",
    "max": 28
@@ -372,7 +372,7 @@
   {
    "id": "a9.skill.023.name",
    "jp": "ダブル・スマッシャー",
-   "en": "",
+   "en": "Double Smasher",
    "kind": "skill.name",
    "addr": "02142F18",
    "max": 20
@@ -380,7 +380,7 @@
   {
    "id": "a9.skill.023.desc",
    "jp": "落下時に前後の敵を攻撃",
-   "en": "",
+   "en": "Falls; hits both sides",
    "kind": "skill.desc",
    "addr": "02142F2C",
    "max": 28
@@ -388,7 +388,7 @@
   {
    "id": "a9.skill.024.name",
    "jp": "変形",
-   "en": "",
+   "en": "Transform",
    "kind": "skill.name",
    "addr": "02142F60",
    "max": 20
@@ -396,7 +396,7 @@
   {
    "id": "a9.skill.024.desc",
    "jp": "二刀型から大剣型へ変形",
-   "en": "",
+   "en": "Twin swords to large",
    "kind": "skill.desc",
    "addr": "02142F74",
    "max": 28
@@ -404,7 +404,7 @@
   {
    "id": "a9.skill.025.name",
    "jp": "キラー・スピリット",
-   "en": "",
+   "en": "Killer Spirit",
    "kind": "skill.name",
    "addr": "02142FA8",
    "max": 20
@@ -412,7 +412,7 @@
   {
    "id": "a9.skill.025.desc",
    "jp": "突撃して横方向の敵を攻撃",
-   "en": "",
+   "en": "Charges across foes",
    "kind": "skill.desc",
    "addr": "02142FBC",
    "max": 28
@@ -420,7 +420,7 @@
   {
    "id": "a9.skill.026.name",
    "jp": "トルネード・レイブ",
-   "en": "",
+   "en": "Tornado Rave",
    "kind": "skill.name",
    "addr": "02142FF0",
    "max": 20
@@ -428,7 +428,7 @@
   {
    "id": "a9.skill.026.desc",
    "jp": "回転して周囲の敵を攻撃",
-   "en": "",
+   "en": "Spins to hit all round",
    "kind": "skill.desc",
    "addr": "02143004",
    "max": 28
@@ -436,7 +436,7 @@
   {
    "id": "a9.skill.027.name",
    "jp": "チェイン・スレイヤー",
-   "en": "",
+   "en": "Chain Slayer",
    "kind": "skill.name",
    "addr": "02143038",
    "max": 20
@@ -444,7 +444,7 @@
   {
    "id": "a9.skill.027.desc",
    "jp": "振り回して周囲の敵を攻撃",
-   "en": "",
+   "en": "Swings at all round",
    "kind": "skill.desc",
    "addr": "0214304C",
    "max": 28
@@ -452,7 +452,7 @@
   {
    "id": "a9.skill.028.name",
    "jp": "ソウル・クラッシュ",
-   "en": "",
+   "en": "Soul Crush",
    "kind": "skill.name",
    "addr": "02143080",
    "max": 20
@@ -460,7 +460,7 @@
   {
    "id": "a9.skill.028.desc",
    "jp": "移動しながら連続攻撃",
-   "en": "",
+   "en": "Moving flurry of hits",
    "kind": "skill.desc",
    "addr": "02143094",
    "max": 28
@@ -468,7 +468,7 @@
   {
    "id": "a9.skill.029.name",
    "jp": "変形",
-   "en": "",
+   "en": "Transform",
    "kind": "skill.name",
    "addr": "021430C8",
    "max": 20
@@ -476,7 +476,7 @@
   {
    "id": "a9.skill.029.desc",
    "jp": "槍型からヌンチャク型へ変形",
-   "en": "",
+   "en": "Spear to nunchaku",
    "kind": "skill.desc",
    "addr": "021430DC",
    "max": 28
@@ -484,7 +484,7 @@
   {
    "id": "a9.skill.030.name",
    "jp": "メタル・ウェーブ",
-   "en": "",
+   "en": "Metal Wave",
    "kind": "skill.name",
    "addr": "02143110",
    "max": 20
@@ -492,7 +492,7 @@
   {
    "id": "a9.skill.030.desc",
    "jp": "小斧を振り回して敵を攻撃",
-   "en": "",
+   "en": "Swings small axe",
    "kind": "skill.desc",
    "addr": "02143124",
    "max": 28
@@ -500,7 +500,7 @@
   {
    "id": "a9.skill.031.name",
    "jp": "メタル・エッジ",
-   "en": "",
+   "en": "Metal Edge",
    "kind": "skill.name",
    "addr": "02143158",
    "max": 20
@@ -508,7 +508,7 @@
   {
    "id": "a9.skill.031.desc",
    "jp": "大斧を投げて敵を攻撃",
-   "en": "",
+   "en": "Throws large axe",
    "kind": "skill.desc",
    "addr": "0214316C",
    "max": 28
@@ -516,7 +516,7 @@
   {
    "id": "a9.skill.032.name",
    "jp": "スピニングエッジ",
-   "en": "",
+   "en": "Spinning Edge",
    "kind": "skill.name",
    "addr": "021431A0",
    "max": 20
@@ -524,7 +524,7 @@
   {
    "id": "a9.skill.032.desc",
    "jp": "前方の敵を攻撃",
-   "en": "",
+   "en": "Attacks foes ahead",
    "kind": "skill.desc",
    "addr": "021431B4",
    "max": 28
@@ -532,7 +532,7 @@
   {
    "id": "a9.skill.033.name",
    "jp": "ギガクラッシャー",
-   "en": "",
+   "en": "Giga Crusher",
    "kind": "skill.name",
    "addr": "021431E8",
    "max": 20
@@ -540,7 +540,7 @@
   {
    "id": "a9.skill.033.desc",
    "jp": "四方向へ衝撃波で攻撃",
-   "en": "",
+   "en": "Shockwaves: 4 ways",
    "kind": "skill.desc",
    "addr": "021431FC",
    "max": 28
@@ -548,7 +548,7 @@
   {
    "id": "a9.skill.034.name",
    "jp": "変形",
-   "en": "",
+   "en": "Transform",
    "kind": "skill.name",
    "addr": "02143230",
    "max": 20
@@ -556,7 +556,7 @@
   {
    "id": "a9.skill.034.desc",
    "jp": "斧からチェーンソーへ変形",
-   "en": "",
+   "en": "Axe becomes chainsaw",
    "kind": "skill.desc",
    "addr": "02143244",
    "max": 28
@@ -564,7 +564,7 @@
   {
    "id": "a9.skill.035.name",
    "jp": "クロストリガー",
-   "en": "",
+   "en": "Cross Trigger",
    "kind": "skill.name",
    "addr": "02143278",
    "max": 20
@@ -572,7 +572,7 @@
   {
    "id": "a9.skill.035.desc",
    "jp": "前後方向へ同時攻撃",
-   "en": "",
+   "en": "Hits both sides at once",
    "kind": "skill.desc",
    "addr": "0214328C",
    "max": 28
@@ -580,7 +580,7 @@
   {
    "id": "a9.skill.036.name",
    "jp": "バーストショット",
-   "en": "",
+   "en": "Burst Shot",
    "kind": "skill.name",
    "addr": "021432C0",
    "max": 20
@@ -588,7 +588,7 @@
   {
    "id": "a9.skill.036.desc",
    "jp": "前方へ移動して攻撃",
-   "en": "",
+   "en": "Advances to attack",
    "kind": "skill.desc",
    "addr": "021432D4",
    "max": 28
@@ -596,7 +596,7 @@
   {
    "id": "a9.skill.037.name",
    "jp": "メテオ・アロー",
-   "en": "",
+   "en": "Meteor Arrow",
    "kind": "skill.name",
    "addr": "02143308",
    "max": 20
@@ -604,7 +604,7 @@
   {
    "id": "a9.skill.037.desc",
    "jp": "上空へ無数の矢を撃ち攻撃",
-   "en": "",
+   "en": "Fires arrows skyward",
    "kind": "skill.desc",
    "addr": "0214331C",
    "max": 28
@@ -612,7 +612,7 @@
   {
    "id": "a9.skill.038.name",
    "jp": "ジェノサイドキャノン",
-   "en": "",
+   "en": "Genocide Cannon",
    "kind": "skill.name",
    "addr": "02143350",
    "max": 20
@@ -620,7 +620,7 @@
   {
    "id": "a9.skill.038.desc",
    "jp": "前方の敵を一斉に攻撃",
-   "en": "",
+   "en": "Hits all ahead at once",
    "kind": "skill.desc",
    "addr": "02143364",
    "max": 28
@@ -628,7 +628,7 @@
   {
    "id": "a9.skill.039.name",
    "jp": "変形",
-   "en": "",
+   "en": "Transform",
    "kind": "skill.name",
    "addr": "02143398",
    "max": 20
@@ -636,7 +636,7 @@
   {
    "id": "a9.skill.039.desc",
    "jp": "銃状から弓状へ変形",
-   "en": "",
+   "en": "Gun becomes bow",
    "kind": "skill.desc",
    "addr": "021433AC",
    "max": 28
@@ -644,7 +644,7 @@
   {
    "id": "a9.skill.040.name",
    "jp": "リンガーキャノン",
-   "en": "",
+   "en": "Ringer Cannon",
    "kind": "skill.name",
    "addr": "021433E0",
    "max": 20
@@ -652,7 +652,7 @@
   {
    "id": "a9.skill.040.desc",
    "jp": "前方の敵を一斉に攻撃",
-   "en": "",
+   "en": "Hits all ahead at once",
    "kind": "skill.desc",
    "addr": "021433F4",
    "max": 28
@@ -660,7 +660,7 @@
   {
    "id": "a9.skill.041.name",
    "jp": "アクセルライズ",
-   "en": "",
+   "en": "Accel Rise",
    "kind": "skill.name",
    "addr": "02143428",
    "max": 20
@@ -668,7 +668,7 @@
   {
    "id": "a9.skill.041.desc",
    "jp": "敵を打ち上げる攻撃",
-   "en": "",
+   "en": "Launches foes aloft",
    "kind": "skill.desc",
    "addr": "0214343C",
    "max": 28
@@ -676,7 +676,7 @@
   {
    "id": "a9.skill.042.name",
    "jp": "メガティックボンバー",
-   "en": "",
+   "en": "Megatic Bomber",
    "kind": "skill.name",
    "addr": "02143470",
    "max": 20
@@ -684,7 +684,7 @@
   {
    "id": "a9.skill.042.desc",
    "jp": "前方への連続攻撃",
-   "en": "",
+   "en": "Repeated strikes ahead",
    "kind": "skill.desc",
    "addr": "02143484",
    "max": 28
@@ -692,7 +692,7 @@
   {
    "id": "a9.skill.043.name",
    "jp": "ユナイトカウンター",
-   "en": "",
+   "en": "Unite Counter",
    "kind": "skill.name",
    "addr": "021434B8",
    "max": 20
@@ -700,7 +700,7 @@
   {
    "id": "a9.skill.043.desc",
    "jp": "敵の攻撃を跳ね返す",
-   "en": "",
+   "en": "Reflects foe's attack",
    "kind": "skill.desc",
    "addr": "021434CC",
    "max": 28
@@ -708,7 +708,7 @@
   {
    "id": "a9.skill.044.name",
    "jp": "変形",
-   "en": "",
+   "en": "Transform",
    "kind": "skill.name",
    "addr": "02143500",
    "max": 20
@@ -716,7 +716,7 @@
   {
    "id": "a9.skill.044.desc",
    "jp": "ナックル状から盾状に変形",
-   "en": "",
+   "en": "Knuckles become shield",
    "kind": "skill.desc",
    "addr": "02143514",
    "max": 28
@@ -724,7 +724,7 @@
   {
    "id": "a9.skill.045.name",
    "jp": "ブラスターショット",
-   "en": "",
+   "en": "Blaster Shot",
    "kind": "skill.name",
    "addr": "02143548",
    "max": 20
@@ -732,7 +732,7 @@
   {
    "id": "a9.skill.045.desc",
    "jp": "剣から弾を射出する攻撃",
-   "en": "",
+   "en": "Fires shots from sword",
    "kind": "skill.desc",
    "addr": "0214355C",
    "max": 28
@@ -740,7 +740,7 @@
   {
    "id": "a9.skill.046.name",
    "jp": "ジークインフェルノ",
-   "en": "",
+   "en": "Zeke Inferno",
    "kind": "skill.name",
    "addr": "02143590",
    "max": 20
@@ -748,7 +748,7 @@
   {
    "id": "a9.skill.046.desc",
    "jp": "前方へ突進攻撃",
-   "en": "",
+   "en": "Charges at foes ahead",
    "kind": "skill.desc",
    "addr": "021435A4",
    "max": 28
@@ -756,7 +756,7 @@
   {
    "id": "a9.skill.047.name",
    "jp": "グレイバーキャノン",
-   "en": "",
+   "en": "Graver Cannon",
    "kind": "skill.name",
    "addr": "021435D8",
    "max": 20
@@ -764,7 +764,7 @@
   {
    "id": "a9.skill.047.desc",
    "jp": "前方に冥力霧を放つ",
-   "en": "",
+   "en": "Fires Dark Power mist",
    "kind": "skill.desc",
    "addr": "021435EC",
    "max": 28
@@ -772,7 +772,7 @@
   {
    "id": "a9.skill.048.name",
    "jp": "グレイバーショット",
-   "en": "",
+   "en": "Graver Shot",
    "kind": "skill.name",
    "addr": "02143620",
    "max": 20
@@ -780,7 +780,7 @@
   {
    "id": "a9.skill.048.desc",
    "jp": "前方に冥力砲を放つ",
-   "en": "",
+   "en": "Fires Dark Power gun",
    "kind": "skill.desc",
    "addr": "02143634",
    "max": 28
@@ -788,7 +788,7 @@
   {
    "id": "a9.skill.049.name",
    "jp": "グレイバーアタック",
-   "en": "",
+   "en": "Graver Attack",
    "kind": "skill.name",
    "addr": "02143668",
    "max": 20
@@ -796,7 +796,7 @@
   {
    "id": "a9.skill.049.desc",
    "jp": "前方に冥力弾を放つ",
-   "en": "",
+   "en": "Fires Dark Power shot",
    "kind": "skill.desc",
    "addr": "0214367C",
    "max": 28
@@ -804,7 +804,7 @@
   {
    "id": "a9.skill.050.name",
    "jp": "ショートデスダッシュ",
-   "en": "",
+   "en": "Short Death Dash",
    "kind": "skill.name",
    "addr": "021436B0",
    "max": 20
@@ -812,7 +812,7 @@
   {
    "id": "a9.skill.050.desc",
    "jp": "突進して攻撃（冥力小）",
-   "en": "",
+   "en": "Rush: low Dark Power",
    "kind": "skill.desc",
    "addr": "021436C4",
    "max": 28
@@ -820,7 +820,7 @@
   {
    "id": "a9.skill.051.name",
    "jp": "ミドルデスダッシュ",
-   "en": "",
+   "en": "Middle Death Dash",
    "kind": "skill.name",
    "addr": "021436F8",
    "max": 20
@@ -828,7 +828,7 @@
   {
    "id": "a9.skill.051.desc",
    "jp": "突進して攻撃（冥力大）",
-   "en": "",
+   "en": "Rush: high Dark Power",
    "kind": "skill.desc",
    "addr": "0214370C",
    "max": 28
@@ -836,7 +836,7 @@
   {
    "id": "a9.skill.052.name",
    "jp": "ロングデスダッシュ",
-   "en": "",
+   "en": "Long Death Dash",
    "kind": "skill.name",
    "addr": "02143740",
    "max": 20
@@ -844,7 +844,7 @@
   {
    "id": "a9.skill.052.desc",
    "jp": "肩から突進冥力攻撃",
-   "en": "",
+   "en": "Dark Power body rush",
    "kind": "skill.desc",
    "addr": "02143754",
    "max": 28
@@ -852,7 +852,7 @@
   {
    "id": "a9.skill.053.name",
    "jp": "ダークスピン",
-   "en": "",
+   "en": "Dark Spin",
    "kind": "skill.name",
    "addr": "02143788",
    "max": 20
@@ -860,7 +860,7 @@
   {
    "id": "a9.skill.053.desc",
    "jp": "回し蹴り（冥力小）",
-   "en": "",
+   "en": "Low Dark Power kick",
    "kind": "skill.desc",
    "addr": "0214379C",
    "max": 28
@@ -868,7 +868,7 @@
   {
    "id": "a9.skill.054.name",
    "jp": "デススピン",
-   "en": "",
+   "en": "Death Spin",
    "kind": "skill.name",
    "addr": "021437D0",
    "max": 20
@@ -876,7 +876,7 @@
   {
    "id": "a9.skill.054.desc",
    "jp": "回し蹴り（冥力大）",
-   "en": "",
+   "en": "High Dark Power kick",
    "kind": "skill.desc",
    "addr": "021437E4",
    "max": 28
@@ -884,7 +884,7 @@
   {
    "id": "a9.skill.055.name",
    "jp": "グレイブスピン",
-   "en": "",
+   "en": "Grave Spin",
    "kind": "skill.name",
    "addr": "02143818",
    "max": 20
@@ -892,7 +892,7 @@
   {
    "id": "a9.skill.055.desc",
    "jp": "連続冥力回し蹴り",
-   "en": "",
+   "en": "Dark Power kick flurry",
    "kind": "skill.desc",
    "addr": "0214382C",
    "max": 28
@@ -900,7 +900,7 @@
   {
    "id": "a9.skill.056.name",
    "jp": "ダークストライク",
-   "en": "",
+   "en": "Dark Strike",
    "kind": "skill.name",
    "addr": "02143860",
    "max": 20
@@ -908,7 +908,7 @@
   {
    "id": "a9.skill.056.desc",
    "jp": "前方に冥力球を放つ",
-   "en": "",
+   "en": "Fires Dark Power orb",
    "kind": "skill.desc",
    "addr": "02143874",
    "max": 28
@@ -916,7 +916,7 @@
   {
    "id": "a9.skill.057.name",
    "jp": "デスストライク",
-   "en": "",
+   "en": "Death Strike",
    "kind": "skill.name",
    "addr": "021438A8",
    "max": 20
@@ -924,7 +924,7 @@
   {
    "id": "a9.skill.057.desc",
    "jp": "その場に冥力柱を放つ",
-   "en": "",
+   "en": "Dark Power pillar here",
    "kind": "skill.desc",
    "addr": "021438BC",
    "max": 28
@@ -932,7 +932,7 @@
   {
    "id": "a9.skill.058.name",
    "jp": "グレイブストライク",
-   "en": "",
+   "en": "Grave Strike",
    "kind": "skill.name",
    "addr": "021438F0",
    "max": 20
@@ -940,7 +940,7 @@
   {
    "id": "a9.skill.058.desc",
    "jp": "その場に冥力輪を放つ",
-   "en": "",
+   "en": "Dark Power ring on spot",
    "kind": "skill.desc",
    "addr": "02143904",
    "max": 28
@@ -948,7 +948,7 @@
   {
    "id": "a9.skill.059.name",
    "jp": "ダークラッシュ",
-   "en": "",
+   "en": "Dark Rush",
    "kind": "skill.name",
    "addr": "02143938",
    "max": 20
@@ -956,7 +956,7 @@
   {
    "id": "a9.skill.059.desc",
    "jp": "その場で連続攻撃（パンチ）",
-   "en": "",
+   "en": "Rapid punches in place",
    "kind": "skill.desc",
    "addr": "0214394C",
    "max": 28
@@ -964,7 +964,7 @@
   {
    "id": "a9.skill.060.name",
    "jp": "デスラッシュ",
-   "en": "",
+   "en": "Death Rush",
    "kind": "skill.name",
    "addr": "02143980",
    "max": 20
@@ -972,7 +972,7 @@
   {
    "id": "a9.skill.060.desc",
    "jp": "その場で連続攻撃（キック）",
-   "en": "",
+   "en": "Rapid kicks in place",
    "kind": "skill.desc",
    "addr": "02143994",
    "max": 28
@@ -980,7 +980,7 @@
   {
    "id": "a9.skill.061.name",
    "jp": "グレイブラッシュ",
-   "en": "",
+   "en": "Grave Rush",
    "kind": "skill.name",
    "addr": "021439C8",
    "max": 20
@@ -988,7 +988,7 @@
   {
    "id": "a9.skill.061.desc",
    "jp": "前方に冥力砲を連続で放つ",
-   "en": "",
+   "en": "Dark Power gun volley",
    "kind": "skill.desc",
    "addr": "021439DC",
    "max": 28
@@ -996,7 +996,7 @@
   {
    "id": "a9.skill.062.name",
    "jp": "バーンディスチャージ",
-   "en": "",
+   "en": "Burn Discharge",
    "kind": "skill.name",
    "addr": "02143A10",
    "max": 20
@@ -1004,7 +1004,7 @@
   {
    "id": "a9.skill.062.desc",
    "jp": "体力を回復する",
-   "en": "",
+   "en": "Restores health",
    "kind": "skill.desc",
    "addr": "02143A24",
    "max": 28
@@ -1012,7 +1012,7 @@
   {
    "id": "a9.skill.063.name",
    "jp": "ダークディスチャージ",
-   "en": "",
+   "en": "Dark Discharge",
    "kind": "skill.name",
    "addr": "02143A58",
    "max": 20
@@ -1020,7 +1020,7 @@
   {
    "id": "a9.skill.063.desc",
    "jp": "冥力を回復する",
-   "en": "",
+   "en": "Restores Dark Power",
    "kind": "skill.desc",
    "addr": "02143A6C",
    "max": 28
@@ -1028,7 +1028,7 @@
   {
    "id": "a9.skill.064.name",
    "jp": "ウインディスチャージ",
-   "en": "",
+   "en": "Wind Discharge",
    "kind": "skill.name",
    "addr": "02143AA0",
    "max": 20
@@ -1036,7 +1036,7 @@
   {
    "id": "a9.skill.064.desc",
    "jp": "毒を回復する",
-   "en": "",
+   "en": "Cures poison",
    "kind": "skill.desc",
    "addr": "02143AB4",
    "max": 28
@@ -1044,7 +1044,7 @@
   {
    "id": "a9.skill.065.name",
    "jp": "ボルツディスチャージ",
-   "en": "",
+   "en": "Volts Discharge",
    "kind": "skill.name",
    "addr": "02143AE8",
    "max": 20
@@ -1052,7 +1052,7 @@
   {
    "id": "a9.skill.065.desc",
    "jp": "麻痺を回復する",
-   "en": "",
+   "en": "Cures paralysis",
    "kind": "skill.desc",
    "addr": "02143AFC",
    "max": 28
@@ -1060,7 +1060,7 @@
   {
    "id": "a9.skill.066.name",
    "jp": "フラッディスチャージ",
-   "en": "",
+   "en": "Flood Discharge",
    "kind": "skill.name",
    "addr": "02143B30",
    "max": 20
@@ -1068,7 +1068,7 @@
   {
    "id": "a9.skill.066.desc",
    "jp": "やけど・凍傷を回復する",
-   "en": "",
+   "en": "Heals burns, frostbite",
    "kind": "skill.desc",
    "addr": "02143B44",
    "max": 28

@@ -4,7 +4,7 @@
   {
    "id": "a9.area.000.name",
    "jp": "黄金城",
-   "en": "",
+   "en": "Golden Castle",
    "kind": "area.name",
    "addr": "02193E08",
    "max": 24
@@ -12,7 +12,7 @@
   {
    "id": "a9.area.001.name",
    "jp": "ミュテリン山地",
-   "en": "",
+   "en": "Muterin Range",
    "kind": "area.name",
    "addr": "02193E38",
    "max": 24
@@ -20,7 +20,7 @@
   {
    "id": "a9.area.002.name",
    "jp": "ミュテリン山地",
-   "en": "",
+   "en": "Muterin Range",
    "kind": "area.name",
    "addr": "02193E68",
    "max": 24
@@ -28,7 +28,7 @@
   {
    "id": "a9.area.003.name",
    "jp": "オーラン洞窟",
-   "en": "",
+   "en": "Oran Cave",
    "kind": "area.name",
    "addr": "02193E98",
    "max": 24
@@ -36,7 +36,7 @@
   {
    "id": "a9.area.004.name",
    "jp": "オーラン坑道",
-   "en": "",
+   "en": "Oran Mine",
    "kind": "area.name",
    "addr": "02193EC8",
    "max": 24
@@ -44,7 +44,7 @@
   {
    "id": "a9.area.005.name",
    "jp": "ミレイの森",
-   "en": "",
+   "en": "Mirei Forest",
    "kind": "area.name",
    "addr": "02193EF8",
    "max": 24
@@ -52,7 +52,7 @@
   {
    "id": "a9.area.006.name",
    "jp": "ミレイの森",
-   "en": "",
+   "en": "Mirei Forest",
    "kind": "area.name",
    "addr": "02193F28",
    "max": 24
@@ -60,7 +60,7 @@
   {
    "id": "a9.area.007.name",
    "jp": "ミレイ森の里",
-   "en": "",
+   "en": "Mirei Village",
    "kind": "area.name",
    "addr": "02193F58",
    "max": 24
@@ -68,7 +68,7 @@
   {
    "id": "a9.area.008.name",
    "jp": "ビム砂漠",
-   "en": "",
+   "en": "Bim Desert",
    "kind": "area.name",
    "addr": "02193F88",
    "max": 24
@@ -76,7 +76,7 @@
   {
    "id": "a9.area.009.name",
    "jp": "ビム砂漠",
-   "en": "",
+   "en": "Bim Desert",
    "kind": "area.name",
    "addr": "02193FB8",
    "max": 24
@@ -84,7 +84,7 @@
   {
    "id": "a9.area.010.name",
    "jp": "リンブロ平原",
-   "en": "",
+   "en": "Rinburo Plains",
    "kind": "area.name",
    "addr": "02193FE8",
    "max": 24
@@ -92,7 +92,7 @@
   {
    "id": "a9.area.011.name",
    "jp": "ミュテリン山地",
-   "en": "",
+   "en": "Muterin Range",
    "kind": "area.name",
    "addr": "02194018",
    "max": 24
@@ -100,7 +100,7 @@
   {
    "id": "a9.area.012.name",
    "jp": "ミュテリン山地",
-   "en": "",
+   "en": "Muterin Range",
    "kind": "area.name",
    "addr": "02194048",
    "max": 24
@@ -108,7 +108,7 @@
   {
    "id": "a9.area.013.name",
    "jp": "オーラン洞窟",
-   "en": "",
+   "en": "Oran Cave",
    "kind": "area.name",
    "addr": "02194078",
    "max": 24
@@ -116,7 +116,7 @@
   {
    "id": "a9.area.014.name",
    "jp": "パセロ湿地",
-   "en": "",
+   "en": "Pasero Marsh",
    "kind": "area.name",
    "addr": "021940A8",
    "max": 24
@@ -124,7 +124,7 @@
   {
    "id": "a9.area.015.name",
    "jp": "パセロ湿地",
-   "en": "",
+   "en": "Pasero Marsh",
    "kind": "area.name",
    "addr": "021940D8",
    "max": 24
@@ -132,7 +132,7 @@
   {
    "id": "a9.area.016.name",
    "jp": "ミレイの森",
-   "en": "",
+   "en": "Mirei Forest",
    "kind": "area.name",
    "addr": "02194108",
    "max": 24
@@ -140,7 +140,7 @@
   {
    "id": "a9.area.017.name",
    "jp": "ベヌル荒野",
-   "en": "",
+   "en": "Benuru Waste",
    "kind": "area.name",
    "addr": "02194138",
    "max": 24
@@ -148,7 +148,7 @@
   {
    "id": "a9.area.018.name",
    "jp": "ベヌル荒野",
-   "en": "",
+   "en": "Benuru Waste",
    "kind": "area.name",
    "addr": "02194168",
    "max": 24
@@ -156,7 +156,7 @@
   {
    "id": "a9.area.019.name",
    "jp": "ビム砂漠",
-   "en": "",
+   "en": "Bim Desert",
    "kind": "area.name",
    "addr": "02194198",
    "max": 24
@@ -164,7 +164,7 @@
   {
    "id": "a9.area.020.name",
    "jp": "リンブロ平原",
-   "en": "",
+   "en": "Rinburo Plains",
    "kind": "area.name",
    "addr": "021941C8",
    "max": 24
@@ -172,7 +172,7 @@
   {
    "id": "a9.area.021.name",
    "jp": "ミュテリン山の里",
-   "en": "",
+   "en": "Muterin Village",
    "kind": "area.name",
    "addr": "021941F8",
    "max": 24
@@ -180,7 +180,7 @@
   {
    "id": "a9.area.022.name",
    "jp": "ノルナージの森",
-   "en": "",
+   "en": "Norunaji Wood",
    "kind": "area.name",
    "addr": "02194228",
    "max": 24
@@ -188,7 +188,7 @@
   {
    "id": "a9.area.023.name",
    "jp": "ノルナージの森",
-   "en": "",
+   "en": "Norunaji Wood",
    "kind": "area.name",
    "addr": "02194258",
    "max": 24
@@ -196,7 +196,7 @@
   {
    "id": "a9.area.024.name",
    "jp": "パセロ湿地",
-   "en": "",
+   "en": "Pasero Marsh",
    "kind": "area.name",
    "addr": "02194288",
    "max": 24
@@ -204,7 +204,7 @@
   {
    "id": "a9.area.025.name",
    "jp": "パセロ湿地",
-   "en": "",
+   "en": "Pasero Marsh",
    "kind": "area.name",
    "addr": "021942B8",
    "max": 24
@@ -212,7 +212,7 @@
   {
    "id": "a9.area.026.name",
    "jp": "ミレイの森",
-   "en": "",
+   "en": "Mirei Forest",
    "kind": "area.name",
    "addr": "021942E8",
    "max": 24
@@ -220,7 +220,7 @@
   {
    "id": "a9.area.027.name",
    "jp": "ベヌル荒野",
-   "en": "",
+   "en": "Benuru Waste",
    "kind": "area.name",
    "addr": "02194318",
    "max": 24
@@ -228,7 +228,7 @@
   {
    "id": "a9.area.028.name",
    "jp": "ベヌル荒野",
-   "en": "",
+   "en": "Benuru Waste",
    "kind": "area.name",
    "addr": "02194348",
    "max": 24
@@ -236,7 +236,7 @@
   {
    "id": "a9.area.029.name",
    "jp": "ビム砂漠の塔",
-   "en": "",
+   "en": "Bim Tower",
    "kind": "area.name",
    "addr": "02194378",
    "max": 24
@@ -244,7 +244,7 @@
   {
    "id": "a9.area.030.name",
    "jp": "リンブロ平原",
-   "en": "",
+   "en": "Rinburo Plains",
    "kind": "area.name",
    "addr": "021943A8",
    "max": 24
@@ -252,7 +252,7 @@
   {
    "id": "a9.area.031.name",
    "jp": "リーベリン湖",
-   "en": "",
+   "en": "Riberin Lake",
    "kind": "area.name",
    "addr": "021943D8",
    "max": 24
@@ -260,7 +260,7 @@
   {
    "id": "a9.area.032.name",
    "jp": "リンナム氷河",
-   "en": "",
+   "en": "Rinnam Glacier",
    "kind": "area.name",
    "addr": "02194408",
    "max": 24
@@ -268,7 +268,7 @@
   {
    "id": "a9.area.033.name",
    "jp": "ノルナージの森",
-   "en": "",
+   "en": "Norunaji Wood",
    "kind": "area.name",
    "addr": "02194438",
    "max": 24
@@ -276,7 +276,7 @@
   {
    "id": "a9.area.034.name",
    "jp": "ノルナージの森",
-   "en": "",
+   "en": "Norunaji Wood",
    "kind": "area.name",
    "addr": "02194468",
    "max": 24
@@ -284,7 +284,7 @@
   {
    "id": "a9.area.035.name",
    "jp": "ルブレイ湖",
-   "en": "",
+   "en": "Rubrei Lake",
    "kind": "area.name",
    "addr": "02194498",
    "max": 24
@@ -292,7 +292,7 @@
   {
    "id": "a9.area.036.name",
    "jp": "バコソン山地",
-   "en": "",
+   "en": "Bakoson Mts.",
    "kind": "area.name",
    "addr": "021944C8",
    "max": 24
@@ -300,7 +300,7 @@
   {
    "id": "a9.area.037.name",
    "jp": "バコソン山地",
-   "en": "",
+   "en": "Bakoson Mts.",
    "kind": "area.name",
    "addr": "021944F8",
    "max": 24
@@ -308,7 +308,7 @@
   {
    "id": "a9.area.038.name",
    "jp": "バコソン山地",
-   "en": "",
+   "en": "Bakoson Mts.",
    "kind": "area.name",
    "addr": "02194528",
    "max": 24
@@ -316,7 +316,7 @@
   {
    "id": "a9.area.039.name",
    "jp": "ダチャレイ洞窟",
-   "en": "",
+   "en": "Dacharei Cave",
    "kind": "area.name",
    "addr": "02194558",
    "max": 24
@@ -324,7 +324,7 @@
   {
    "id": "a9.area.040.name",
    "jp": "リーベリン湖の塔",
-   "en": "",
+   "en": "Riberin Tower",
    "kind": "area.name",
    "addr": "02194588",
    "max": 24
@@ -332,7 +332,7 @@
   {
    "id": "a9.area.041.name",
    "jp": "リーベリン湖",
-   "en": "",
+   "en": "Riberin Lake",
    "kind": "area.name",
    "addr": "021945B8",
    "max": 24
@@ -340,7 +340,7 @@
   {
    "id": "a9.area.042.name",
    "jp": "リンナム氷河",
-   "en": "",
+   "en": "Rinnam Glacier",
    "kind": "area.name",
    "addr": "021945E8",
    "max": 24
@@ -348,7 +348,7 @@
   {
    "id": "a9.area.043.name",
    "jp": "リンナム氷河",
-   "en": "",
+   "en": "Rinnam Glacier",
    "kind": "area.name",
    "addr": "02194618",
    "max": 24
@@ -356,7 +356,7 @@
   {
    "id": "a9.area.044.name",
    "jp": "リンナム氷河",
-   "en": "",
+   "en": "Rinnam Glacier",
    "kind": "area.name",
    "addr": "02194648",
    "max": 24
@@ -364,7 +364,7 @@
   {
    "id": "a9.area.045.name",
    "jp": "ルブレイ湖",
-   "en": "",
+   "en": "Rubrei Lake",
    "kind": "area.name",
    "addr": "02194678",
    "max": 24
@@ -372,7 +372,7 @@
   {
    "id": "a9.area.046.name",
    "jp": "ソーレ谷の迷宮",
-   "en": "",
+   "en": "Sole Labyrinth",
    "kind": "area.name",
    "addr": "021946A8",
    "max": 24
@@ -380,7 +380,7 @@
   {
    "id": "a9.area.047.name",
    "jp": "ナッシュ平原",
-   "en": "",
+   "en": "Nash Plains",
    "kind": "area.name",
    "addr": "021946D8",
    "max": 24
@@ -388,7 +388,7 @@
   {
    "id": "a9.area.048.name",
    "jp": "バコソン山地",
-   "en": "",
+   "en": "Bakoson Mts.",
    "kind": "area.name",
    "addr": "02194708",
    "max": 24
@@ -396,7 +396,7 @@
   {
    "id": "a9.area.049.name",
    "jp": "ダチャレイ洞窟",
-   "en": "",
+   "en": "Dacharei Cave",
    "kind": "area.name",
    "addr": "02194738",
    "max": 24
@@ -404,7 +404,7 @@
   {
    "id": "a9.area.050.name",
    "jp": "ビョンリン火山",
-   "en": "",
+   "en": "Byonrin Mt.",
    "kind": "area.name",
    "addr": "02194768",
    "max": 24
@@ -412,7 +412,7 @@
   {
    "id": "a9.area.051.name",
    "jp": "リンラーゴ山地",
-   "en": "",
+   "en": "Rinrago Range",
    "kind": "area.name",
    "addr": "02194798",
    "max": 24
@@ -420,7 +420,7 @@
   {
    "id": "a9.area.052.name",
    "jp": "リンラーゴ山地",
-   "en": "",
+   "en": "Rinrago Range",
    "kind": "area.name",
    "addr": "021947C8",
    "max": 24
@@ -428,7 +428,7 @@
   {
    "id": "a9.area.053.name",
    "jp": "リンラーゴ山地",
-   "en": "",
+   "en": "Rinrago Range",
    "kind": "area.name",
    "addr": "021947F8",
    "max": 24
@@ -436,7 +436,7 @@
   {
    "id": "a9.area.054.name",
    "jp": "ゼロス雪原",
-   "en": "",
+   "en": "Zeros Snow",
    "kind": "area.name",
    "addr": "02194828",
    "max": 24
@@ -444,7 +444,7 @@
   {
    "id": "a9.area.055.name",
    "jp": "ゼロス雪原",
-   "en": "",
+   "en": "Zeros Snow",
    "kind": "area.name",
    "addr": "02194858",
    "max": 24
@@ -452,7 +452,7 @@
   {
    "id": "a9.area.056.name",
    "jp": "ソーレ谷",
-   "en": "",
+   "en": "Sole Valley",
    "kind": "area.name",
    "addr": "02194888",
    "max": 24
@@ -460,7 +460,7 @@
   {
    "id": "a9.area.057.name",
    "jp": "ナッシュ平原",
-   "en": "",
+   "en": "Nash Plains",
    "kind": "area.name",
    "addr": "021948B8",
    "max": 24
@@ -468,7 +468,7 @@
   {
    "id": "a9.area.058.name",
    "jp": "ナッシュ平原",
-   "en": "",
+   "en": "Nash Plains",
    "kind": "area.name",
    "addr": "021948E8",
    "max": 24
@@ -476,7 +476,7 @@
   {
    "id": "a9.area.059.name",
    "jp": "ダチャレイ坑道",
-   "en": "",
+   "en": "Dacharei Mine",
    "kind": "area.name",
    "addr": "02194918",
    "max": 24
@@ -484,7 +484,7 @@
   {
    "id": "a9.area.060.name",
    "jp": "ビョンリン火山",
-   "en": "",
+   "en": "Byonrin Mt.",
    "kind": "area.name",
    "addr": "02194948",
    "max": 24
@@ -492,7 +492,7 @@
   {
    "id": "a9.area.061.name",
    "jp": "ビョンリン火山",
-   "en": "",
+   "en": "Byonrin Mt.",
    "kind": "area.name",
    "addr": "02194978",
    "max": 24
@@ -500,7 +500,7 @@
   {
    "id": "a9.area.062.name",
    "jp": "ビョンリン遺跡",
-   "en": "",
+   "en": "Byonrin Ruins",
    "kind": "area.name",
    "addr": "021949A8",
    "max": 24
@@ -508,7 +508,7 @@
   {
    "id": "a9.area.063.name",
    "jp": "リンラーゴ山地",
-   "en": "",
+   "en": "Rinrago Range",
    "kind": "area.name",
    "addr": "021949D8",
    "max": 24
@@ -516,7 +516,7 @@
   {
    "id": "a9.area.064.name",
    "jp": "ゼロス雪原",
-   "en": "",
+   "en": "Zeros Snow",
    "kind": "area.name",
    "addr": "02194A08",
    "max": 24
@@ -524,7 +524,7 @@
   {
    "id": "a9.area.065.name",
    "jp": "ゼロス雪原",
-   "en": "",
+   "en": "Zeros Snow",
    "kind": "area.name",
    "addr": "02194A38",
    "max": 24
@@ -532,7 +532,7 @@
   {
    "id": "a9.area.066.name",
    "jp": "ソーレ谷",
-   "en": "",
+   "en": "Sole Valley",
    "kind": "area.name",
    "addr": "02194A68",
    "max": 24
@@ -540,7 +540,7 @@
   {
    "id": "a9.area.067.name",
    "jp": "ソーレ谷",
-   "en": "",
+   "en": "Sole Valley",
    "kind": "area.name",
    "addr": "02194A98",
    "max": 24
@@ -548,7 +548,7 @@
   {
    "id": "a9.area.068.name",
    "jp": "ナッシュ平原",
-   "en": "",
+   "en": "Nash Plains",
    "kind": "area.name",
    "addr": "02194AC8",
    "max": 24
@@ -556,7 +556,7 @@
   {
    "id": "a9.area.069.name",
    "jp": "東の里",
-   "en": "",
+   "en": "East Village",
    "kind": "area.name",
    "addr": "02194AF8",
    "max": 24

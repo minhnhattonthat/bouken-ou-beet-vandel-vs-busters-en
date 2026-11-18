@@ -4,7 +4,7 @@
   {
    "id": "a9.title.000.name",
    "jp": "黄金城",
-   "en": "",
+   "en": "Golden Castle",
    "kind": "title.name",
    "addr": "02123400",
    "max": 20
@@ -12,7 +12,7 @@
   {
    "id": "a9.title.001.name",
    "jp": "黄金城",
-   "en": "",
+   "en": "Golden Castle",
    "kind": "title.name",
    "addr": "0212344C",
    "max": 20
@@ -20,7 +20,7 @@
   {
    "id": "a9.title.002.name",
    "jp": "黄金城",
-   "en": "",
+   "en": "Golden Castle",
    "kind": "title.name",
    "addr": "02123498",
    "max": 20
@@ -28,7 +28,7 @@
   {
    "id": "a9.title.003.name",
    "jp": "黄金城",
-   "en": "",
+   "en": "Golden Castle",
    "kind": "title.name",
    "addr": "021234E4",
    "max": 20
@@ -36,7 +36,7 @@
   {
    "id": "a9.title.004.name",
    "jp": "黄金城",
-   "en": "",
+   "en": "Golden Castle",
    "kind": "title.name",
    "addr": "02123530",
    "max": 20
@@ -44,7 +44,7 @@
   {
    "id": "a9.title.005.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "0212357C",
    "max": 20
@@ -52,7 +52,7 @@
   {
    "id": "a9.title.006.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "021235C8",
    "max": 20
@@ -60,7 +60,7 @@
   {
    "id": "a9.title.007.name",
    "jp": "洞窟",
-   "en": "",
+   "en": "Cave",
    "kind": "title.name",
    "addr": "02123614",
    "max": 20
@@ -68,7 +68,7 @@
   {
    "id": "a9.title.008.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02123660",
    "max": 20
@@ -76,7 +76,7 @@
   {
    "id": "a9.title.009.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "021236AC",
    "max": 20
@@ -84,7 +84,7 @@
   {
    "id": "a9.title.010.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "021236F8",
    "max": 20
@@ -92,7 +92,7 @@
   {
    "id": "a9.title.011.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02123744",
    "max": 20
@@ -100,7 +100,7 @@
   {
    "id": "a9.title.012.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "02123790",
    "max": 20
@@ -108,7 +108,7 @@
   {
    "id": "a9.title.013.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "021237DC",
    "max": 20
@@ -116,7 +116,7 @@
   {
    "id": "a9.title.014.name",
    "jp": "廃村通常",
-   "en": "",
+   "en": "Ruins: Normal",
    "kind": "title.name",
    "addr": "02123828",
    "max": 20
@@ -124,7 +124,7 @@
   {
    "id": "a9.title.015.name",
    "jp": "廃村金",
-   "en": "",
+   "en": "Ruins: Gold",
    "kind": "title.name",
    "addr": "02123874",
    "max": 20
@@ -132,7 +132,7 @@
   {
    "id": "a9.title.016.name",
    "jp": "廃村破壊",
-   "en": "",
+   "en": "Ruins: Destroyed",
    "kind": "title.name",
    "addr": "021238C0",
    "max": 20
@@ -140,7 +140,7 @@
   {
    "id": "a9.title.017.name",
    "jp": "廃村通常",
-   "en": "",
+   "en": "Ruins: Normal",
    "kind": "title.name",
    "addr": "0212390C",
    "max": 20
@@ -148,7 +148,7 @@
   {
    "id": "a9.title.018.name",
    "jp": "廃村金",
-   "en": "",
+   "en": "Ruins: Gold",
    "kind": "title.name",
    "addr": "02123958",
    "max": 20
@@ -156,7 +156,7 @@
   {
    "id": "a9.title.019.name",
    "jp": "砂漠",
-   "en": "",
+   "en": "Desert",
    "kind": "title.name",
    "addr": "021239A4",
    "max": 20
@@ -164,7 +164,7 @@
   {
    "id": "a9.title.020.name",
    "jp": "砂漠",
-   "en": "",
+   "en": "Desert",
    "kind": "title.name",
    "addr": "021239F0",
    "max": 20
@@ -172,7 +172,7 @@
   {
    "id": "a9.title.021.name",
    "jp": "平原橋無し門破壊",
-   "en": "",
+   "en": "Plains: B- G-",
    "kind": "title.name",
    "addr": "02123A3C",
    "max": 20
@@ -180,7 +180,7 @@
   {
    "id": "a9.title.022.name",
    "jp": "平原橋有り門破壊",
-   "en": "",
+   "en": "Plains: B+ G-",
    "kind": "title.name",
    "addr": "02123A88",
    "max": 20
@@ -188,7 +188,7 @@
   {
    "id": "a9.title.023.name",
    "jp": "平原橋有り門通常",
-   "en": "",
+   "en": "Plains: B+ G+",
    "kind": "title.name",
    "addr": "02123AD4",
    "max": 20
@@ -196,7 +196,7 @@
   {
    "id": "a9.title.024.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02123B20",
    "max": 20
@@ -204,7 +204,7 @@
   {
    "id": "a9.title.025.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02123B6C",
    "max": 20
@@ -212,7 +212,7 @@
   {
    "id": "a9.title.026.name",
    "jp": "洞窟",
-   "en": "",
+   "en": "Cave",
    "kind": "title.name",
    "addr": "02123BB8",
    "max": 20
@@ -220,7 +220,7 @@
   {
    "id": "a9.title.027.name",
    "jp": "湿地",
-   "en": "",
+   "en": "Wetlands",
    "kind": "title.name",
    "addr": "02123C04",
    "max": 20
@@ -228,7 +228,7 @@
   {
    "id": "a9.title.028.name",
    "jp": "湿地",
-   "en": "",
+   "en": "Wetlands",
    "kind": "title.name",
    "addr": "02123C50",
    "max": 20
@@ -236,7 +236,7 @@
   {
    "id": "a9.title.029.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "02123C9C",
    "max": 20
@@ -244,7 +244,7 @@
   {
    "id": "a9.title.030.name",
    "jp": "荒野",
-   "en": "",
+   "en": "Wasteland",
    "kind": "title.name",
    "addr": "02123CE8",
    "max": 20
@@ -252,7 +252,7 @@
   {
    "id": "a9.title.031.name",
    "jp": "荒野",
-   "en": "",
+   "en": "Wasteland",
    "kind": "title.name",
    "addr": "02123D34",
    "max": 20
@@ -260,7 +260,7 @@
   {
    "id": "a9.title.032.name",
    "jp": "砂漠",
-   "en": "",
+   "en": "Desert",
    "kind": "title.name",
    "addr": "02123D80",
    "max": 20
@@ -268,7 +268,7 @@
   {
    "id": "a9.title.033.name",
    "jp": "平原",
-   "en": "",
+   "en": "Plains",
    "kind": "title.name",
    "addr": "02123DCC",
    "max": 20
@@ -276,7 +276,7 @@
   {
    "id": "a9.title.034.name",
    "jp": "廃村町中通常",
-   "en": "",
+   "en": "Town: Normal",
    "kind": "title.name",
    "addr": "02123E18",
    "max": 20
@@ -284,7 +284,7 @@
   {
    "id": "a9.title.035.name",
    "jp": "廃村町中黄金",
-   "en": "",
+   "en": "Town: Gold",
    "kind": "title.name",
    "addr": "02123E64",
    "max": 20
@@ -292,7 +292,7 @@
   {
    "id": "a9.title.036.name",
    "jp": "廃村町中破壊",
-   "en": "",
+   "en": "Town: Razed",
    "kind": "title.name",
    "addr": "02123EB0",
    "max": 20
@@ -300,7 +300,7 @@
   {
    "id": "a9.title.037.name",
    "jp": "廃村リング台座通常",
-   "en": "",
+   "en": "Ring: Normal",
    "kind": "title.name",
    "addr": "02123EFC",
    "max": 20
@@ -308,7 +308,7 @@
   {
    "id": "a9.title.038.name",
    "jp": "廃村リング台座黄金",
-   "en": "",
+   "en": "Ruins Ring: Gold",
    "kind": "title.name",
    "addr": "02123F48",
    "max": 20
@@ -316,7 +316,7 @@
   {
    "id": "a9.title.039.name",
    "jp": "廃村採掘場",
-   "en": "",
+   "en": "Ruins Mine",
    "kind": "title.name",
    "addr": "02123F94",
    "max": 20
@@ -324,7 +324,7 @@
   {
    "id": "a9.title.040.name",
    "jp": "廃村採掘場",
-   "en": "",
+   "en": "Ruins Mine",
    "kind": "title.name",
    "addr": "02123FE0",
    "max": 20
@@ -332,7 +332,7 @@
   {
    "id": "a9.title.041.name",
    "jp": "廃村採掘場",
-   "en": "",
+   "en": "Ruins Mine",
    "kind": "title.name",
    "addr": "0212402C",
    "max": 20
@@ -340,7 +340,7 @@
   {
    "id": "a9.title.042.name",
    "jp": "廃村採掘場",
-   "en": "",
+   "en": "Ruins Mine",
    "kind": "title.name",
    "addr": "02124078",
    "max": 20
@@ -348,7 +348,7 @@
   {
    "id": "a9.title.043.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "021240C4",
    "max": 20
@@ -356,7 +356,7 @@
   {
    "id": "a9.title.044.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "02124110",
    "max": 20
@@ -364,7 +364,7 @@
   {
    "id": "a9.title.045.name",
    "jp": "湿地",
-   "en": "",
+   "en": "Wetlands",
    "kind": "title.name",
    "addr": "0212415C",
    "max": 20
@@ -372,7 +372,7 @@
   {
    "id": "a9.title.046.name",
    "jp": "湿地",
-   "en": "",
+   "en": "Wetlands",
    "kind": "title.name",
    "addr": "021241A8",
    "max": 20
@@ -380,7 +380,7 @@
   {
    "id": "a9.title.047.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "021241F4",
    "max": 20
@@ -388,7 +388,7 @@
   {
    "id": "a9.title.048.name",
    "jp": "荒野",
-   "en": "",
+   "en": "Wasteland",
    "kind": "title.name",
    "addr": "02124240",
    "max": 20
@@ -396,7 +396,7 @@
   {
    "id": "a9.title.049.name",
    "jp": "荒野",
-   "en": "",
+   "en": "Wasteland",
    "kind": "title.name",
    "addr": "0212428C",
    "max": 20
@@ -404,7 +404,7 @@
   {
    "id": "a9.title.050.name",
    "jp": "砂漠の塔",
-   "en": "",
+   "en": "Desert Tower",
    "kind": "title.name",
    "addr": "021242D8",
    "max": 20
@@ -412,7 +412,7 @@
   {
    "id": "a9.title.051.name",
    "jp": "砂漠の塔",
-   "en": "",
+   "en": "Desert Tower",
    "kind": "title.name",
    "addr": "02124324",
    "max": 20
@@ -420,7 +420,7 @@
   {
    "id": "a9.title.052.name",
    "jp": "砂漠の塔",
-   "en": "",
+   "en": "Desert Tower",
    "kind": "title.name",
    "addr": "02124370",
    "max": 20
@@ -428,7 +428,7 @@
   {
    "id": "a9.title.053.name",
    "jp": "砂漠の塔",
-   "en": "",
+   "en": "Desert Tower",
    "kind": "title.name",
    "addr": "021243BC",
    "max": 20
@@ -436,7 +436,7 @@
   {
    "id": "a9.title.054.name",
    "jp": "砂漠の塔",
-   "en": "",
+   "en": "Desert Tower",
    "kind": "title.name",
    "addr": "02124408",
    "max": 20
@@ -444,7 +444,7 @@
   {
    "id": "a9.title.055.name",
    "jp": "平原",
-   "en": "",
+   "en": "Plains",
    "kind": "title.name",
    "addr": "02124454",
    "max": 20
@@ -452,7 +452,7 @@
   {
    "id": "a9.title.056.name",
    "jp": "湖",
-   "en": "",
+   "en": "Lake",
    "kind": "title.name",
    "addr": "021244A0",
    "max": 20
@@ -460,7 +460,7 @@
   {
    "id": "a9.title.057.name",
    "jp": "氷河",
-   "en": "",
+   "en": "Glacier",
    "kind": "title.name",
    "addr": "021244EC",
    "max": 20
@@ -468,7 +468,7 @@
   {
    "id": "a9.title.058.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "02124538",
    "max": 20
@@ -476,7 +476,7 @@
   {
    "id": "a9.title.059.name",
    "jp": "森林",
-   "en": "",
+   "en": "Forest",
    "kind": "title.name",
    "addr": "02124584",
    "max": 20
@@ -484,7 +484,7 @@
   {
    "id": "a9.title.060.name",
    "jp": "湖",
-   "en": "",
+   "en": "Lake",
    "kind": "title.name",
    "addr": "021245D0",
    "max": 20
@@ -492,7 +492,7 @@
   {
    "id": "a9.title.061.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "0212461C",
    "max": 20
@@ -500,7 +500,7 @@
   {
    "id": "a9.title.062.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02124668",
    "max": 20
@@ -508,7 +508,7 @@
   {
    "id": "a9.title.063.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "021246B4",
    "max": 20
@@ -516,7 +516,7 @@
   {
    "id": "a9.title.064.name",
    "jp": "洞窟",
-   "en": "",
+   "en": "Cave",
    "kind": "title.name",
    "addr": "02124700",
    "max": 20
@@ -524,7 +524,7 @@
   {
    "id": "a9.title.065.name",
    "jp": "湖の塔",
-   "en": "",
+   "en": "Lake Tower",
    "kind": "title.name",
    "addr": "0212474C",
    "max": 20
@@ -532,7 +532,7 @@
   {
    "id": "a9.title.066.name",
    "jp": "湖の塔",
-   "en": "",
+   "en": "Lake Tower",
    "kind": "title.name",
    "addr": "02124798",
    "max": 20
@@ -540,7 +540,7 @@
   {
    "id": "a9.title.067.name",
    "jp": "湖の塔",
-   "en": "",
+   "en": "Lake Tower",
    "kind": "title.name",
    "addr": "021247E4",
    "max": 20
@@ -548,7 +548,7 @@
   {
    "id": "a9.title.068.name",
    "jp": "湖の塔",
-   "en": "",
+   "en": "Lake Tower",
    "kind": "title.name",
    "addr": "02124830",
    "max": 20
@@ -556,7 +556,7 @@
   {
    "id": "a9.title.069.name",
    "jp": "湖の塔",
-   "en": "",
+   "en": "Lake Tower",
    "kind": "title.name",
    "addr": "0212487C",
    "max": 20
@@ -564,7 +564,7 @@
   {
    "id": "a9.title.070.name",
    "jp": "湖",
-   "en": "",
+   "en": "Lake",
    "kind": "title.name",
    "addr": "021248C8",
    "max": 20
@@ -572,7 +572,7 @@
   {
    "id": "a9.title.071.name",
    "jp": "氷河",
-   "en": "",
+   "en": "Glacier",
    "kind": "title.name",
    "addr": "02124914",
    "max": 20
@@ -580,7 +580,7 @@
   {
    "id": "a9.title.072.name",
    "jp": "氷河",
-   "en": "",
+   "en": "Glacier",
    "kind": "title.name",
    "addr": "02124960",
    "max": 20
@@ -588,7 +588,7 @@
   {
    "id": "a9.title.073.name",
    "jp": "氷河",
-   "en": "",
+   "en": "Glacier",
    "kind": "title.name",
    "addr": "021249AC",
    "max": 20
@@ -596,7 +596,7 @@
   {
    "id": "a9.title.074.name",
    "jp": "湖",
-   "en": "",
+   "en": "Lake",
    "kind": "title.name",
    "addr": "021249F8",
    "max": 20
@@ -604,7 +604,7 @@
   {
    "id": "a9.title.075.name",
    "jp": "谷の迷宮",
-   "en": "",
+   "en": "Valley Maze",
    "kind": "title.name",
    "addr": "02124A44",
    "max": 20
@@ -612,7 +612,7 @@
   {
    "id": "a9.title.076.name",
    "jp": "谷の迷宮",
-   "en": "",
+   "en": "Valley Maze",
    "kind": "title.name",
    "addr": "02124A90",
    "max": 20
@@ -620,7 +620,7 @@
   {
    "id": "a9.title.077.name",
    "jp": "谷の迷宮",
-   "en": "",
+   "en": "Valley Maze",
    "kind": "title.name",
    "addr": "02124ADC",
    "max": 20
@@ -628,7 +628,7 @@
   {
    "id": "a9.title.078.name",
    "jp": "谷の迷宮",
-   "en": "",
+   "en": "Valley Maze",
    "kind": "title.name",
    "addr": "02124B28",
    "max": 20
@@ -636,7 +636,7 @@
   {
    "id": "a9.title.079.name",
    "jp": "平原",
-   "en": "",
+   "en": "Plains",
    "kind": "title.name",
    "addr": "02124B74",
    "max": 20
@@ -644,7 +644,7 @@
   {
    "id": "a9.title.080.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02124BC0",
    "max": 20
@@ -652,7 +652,7 @@
   {
    "id": "a9.title.081.name",
    "jp": "洞窟",
-   "en": "",
+   "en": "Cave",
    "kind": "title.name",
    "addr": "02124C0C",
    "max": 20
@@ -660,7 +660,7 @@
   {
    "id": "a9.title.082.name",
    "jp": "火山",
-   "en": "",
+   "en": "Volcano",
    "kind": "title.name",
    "addr": "02124C58",
    "max": 20
@@ -668,7 +668,7 @@
   {
    "id": "a9.title.083.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02124CA4",
    "max": 20
@@ -676,7 +676,7 @@
   {
    "id": "a9.title.084.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02124CF0",
    "max": 20
@@ -684,7 +684,7 @@
   {
    "id": "a9.title.085.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "02124D3C",
    "max": 20
@@ -692,7 +692,7 @@
   {
    "id": "a9.title.086.name",
    "jp": "雪原",
-   "en": "",
+   "en": "Snowfield",
    "kind": "title.name",
    "addr": "02124D88",
    "max": 20
@@ -700,7 +700,7 @@
   {
    "id": "a9.title.087.name",
    "jp": "雪原",
-   "en": "",
+   "en": "Snowfield",
    "kind": "title.name",
    "addr": "02124DD4",
    "max": 20
@@ -708,7 +708,7 @@
   {
    "id": "a9.title.088.name",
    "jp": "谷",
-   "en": "",
+   "en": "Valley",
    "kind": "title.name",
    "addr": "02124E20",
    "max": 20
@@ -716,7 +716,7 @@
   {
    "id": "a9.title.089.name",
    "jp": "平原",
-   "en": "",
+   "en": "Plains",
    "kind": "title.name",
    "addr": "02124E6C",
    "max": 20
@@ -724,7 +724,7 @@
   {
    "id": "a9.title.090.name",
    "jp": "平原",
-   "en": "",
+   "en": "Plains",
    "kind": "title.name",
    "addr": "02124EB8",
    "max": 20
@@ -732,7 +732,7 @@
   {
    "id": "a9.title.091.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02124F04",
    "max": 20
@@ -740,7 +740,7 @@
   {
    "id": "a9.title.092.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02124F50",
    "max": 20
@@ -748,7 +748,7 @@
   {
    "id": "a9.title.093.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02124F9C",
    "max": 20
@@ -756,7 +756,7 @@
   {
    "id": "a9.title.094.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02124FE8",
    "max": 20
@@ -764,7 +764,7 @@
   {
    "id": "a9.title.095.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02125034",
    "max": 20
@@ -772,7 +772,7 @@
   {
    "id": "a9.title.096.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "02125080",
    "max": 20
@@ -780,7 +780,7 @@
   {
    "id": "a9.title.097.name",
    "jp": "坑道",
-   "en": "",
+   "en": "Mine Tunnel",
    "kind": "title.name",
    "addr": "021250CC",
    "max": 20
@@ -788,7 +788,7 @@
   {
    "id": "a9.title.098.name",
    "jp": "火山",
-   "en": "",
+   "en": "Volcano",
    "kind": "title.name",
    "addr": "02125118",
    "max": 20
@@ -796,7 +796,7 @@
   {
    "id": "a9.title.099.name",
    "jp": "火山橋無し",
-   "en": "",
+   "en": "Volcano: Bridge-",
    "kind": "title.name",
    "addr": "02125164",
    "max": 20
@@ -804,7 +804,7 @@
   {
    "id": "a9.title.100.name",
    "jp": "火山橋有り",
-   "en": "",
+   "en": "Volcano: Bridge",
    "kind": "title.name",
    "addr": "021251B0",
    "max": 20
@@ -812,7 +812,7 @@
   {
    "id": "a9.title.101.name",
    "jp": "火山の遺跡",
-   "en": "",
+   "en": "Volcanic Ruins",
    "kind": "title.name",
    "addr": "021251FC",
    "max": 20
@@ -820,7 +820,7 @@
   {
    "id": "a9.title.102.name",
    "jp": "レジスタンス隠部屋無",
-   "en": "",
+   "en": "Resistance: Room-",
    "kind": "title.name",
    "addr": "02125248",
    "max": 20
@@ -828,7 +828,7 @@
   {
    "id": "a9.title.103.name",
    "jp": "レジスタンス隠部屋有",
-   "en": "",
+   "en": "Resistance: Den",
    "kind": "title.name",
    "addr": "02125294",
    "max": 20
@@ -836,7 +836,7 @@
   {
    "id": "a9.title.104.name",
    "jp": "火山の遺跡",
-   "en": "",
+   "en": "Volcanic Ruins",
    "kind": "title.name",
    "addr": "021252E0",
    "max": 20
@@ -844,7 +844,7 @@
   {
    "id": "a9.title.105.name",
    "jp": "山地",
-   "en": "",
+   "en": "Highlands",
    "kind": "title.name",
    "addr": "0212532C",
    "max": 20
@@ -852,7 +852,7 @@
   {
    "id": "a9.title.106.name",
    "jp": "雪原",
-   "en": "",
+   "en": "Snowfield",
    "kind": "title.name",
    "addr": "02125378",
    "max": 20
@@ -860,7 +860,7 @@
   {
    "id": "a9.title.107.name",
    "jp": "雪原",
-   "en": "",
+   "en": "Snowfield",
    "kind": "title.name",
    "addr": "021253C4",
    "max": 20
@@ -868,7 +868,7 @@
   {
    "id": "a9.title.108.name",
    "jp": "谷",
-   "en": "",
+   "en": "Valley",
    "kind": "title.name",
    "addr": "02125410",
    "max": 20
@@ -876,7 +876,7 @@
   {
    "id": "a9.title.109.name",
    "jp": "谷",
-   "en": "",
+   "en": "Valley",
    "kind": "title.name",
    "addr": "0212545C",
    "max": 20
@@ -884,7 +884,7 @@
   {
    "id": "a9.title.110.name",
    "jp": "砂浜",
-   "en": "",
+   "en": "Beach",
    "kind": "title.name",
    "addr": "021254A8",
    "max": 20
@@ -892,7 +892,7 @@
   {
    "id": "a9.title.111.name",
    "jp": "東の里",
-   "en": "",
+   "en": "East Village",
    "kind": "title.name",
    "addr": "021254F4",
    "max": 20
@@ -900,7 +900,7 @@
   {
    "id": "a9.title.112.name",
    "jp": "鑑定小屋",
-   "en": "",
+   "en": "Appraisal Hut",
    "kind": "title.name",
    "addr": "02125540",
    "max": 20
@@ -908,7 +908,7 @@
   {
    "id": "a9.title.113.name",
    "jp": "自宅",
-   "en": "",
+   "en": "Home",
    "kind": "title.name",
    "addr": "0212558C",
    "max": 20
@@ -916,7 +916,7 @@
   {
    "id": "a9.title.114.name",
    "jp": "武器屋",
-   "en": "",
+   "en": "Weapon Shop",
    "kind": "title.name",
    "addr": "021255D8",
    "max": 20
@@ -924,7 +924,7 @@
   {
    "id": "a9.title.115.name",
    "jp": "防具屋",
-   "en": "",
+   "en": "Armor Shop",
    "kind": "title.name",
    "addr": "02125624",
    "max": 20
@@ -932,7 +932,7 @@
   {
    "id": "a9.title.116.name",
    "jp": "幼馴染みの家",
-   "en": "",
+   "en": "Friend's House",
    "kind": "title.name",
    "addr": "02125670",
    "max": 20
@@ -940,7 +940,7 @@
   {
    "id": "a9.title.117.name",
    "jp": "里長",
-   "en": "",
+   "en": "Village Chief",
    "kind": "title.name",
    "addr": "021256BC",
    "max": 20
@@ -948,7 +948,7 @@
   {
    "id": "a9.title.118.name",
    "jp": "酒場",
-   "en": "",
+   "en": "Tavern",
    "kind": "title.name",
    "addr": "02125708",
    "max": 20
@@ -956,7 +956,7 @@
   {
    "id": "a9.title.119.name",
    "jp": "道具屋",
-   "en": "",
+   "en": "Item Shop",
    "kind": "title.name",
    "addr": "02125754",
    "max": 20
@@ -964,7 +964,7 @@
   {
    "id": "a9.title.120.name",
    "jp": "女神像の場所",
-   "en": "",
+   "en": "Statue Site",
    "kind": "title.name",
    "addr": "021257A0",
    "max": 20
@@ -972,7 +972,7 @@
   {
    "id": "a9.title.121.name",
    "jp": "魔賓館",
-   "en": "",
+   "en": "Vandel House",
    "kind": "title.name",
    "addr": "021257EC",
    "max": 20
@@ -980,7 +980,7 @@
   {
    "id": "a9.title.122.name",
    "jp": "魔賓館",
-   "en": "",
+   "en": "Vandel House",
    "kind": "title.name",
    "addr": "02125838",
    "max": 20
@@ -988,7 +988,7 @@
   {
    "id": "a9.title.123.name",
    "jp": "武装客船",
-   "en": "",
+   "en": "Armed Liner",
    "kind": "title.name",
    "addr": "02125884",
    "max": 20
@@ -996,7 +996,7 @@
   {
    "id": "a9.title.124.name",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "kind": "title.name",
    "addr": "021258D0",
    "max": 20
@@ -1004,7 +1004,7 @@
   {
    "id": "a9.title.125.name",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "kind": "title.name",
    "addr": "0212591C",
    "max": 20
@@ -1012,7 +1012,7 @@
   {
    "id": "a9.title.126.name",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "kind": "title.name",
    "addr": "02125968",
    "max": 20
@@ -1020,7 +1020,7 @@
   {
    "id": "a9.title.127.name",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "kind": "title.name",
    "addr": "021259B4",
    "max": 20
@@ -1028,7 +1028,7 @@
   {
    "id": "a9.title.128.name",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "kind": "title.name",
    "addr": "02125A00",
    "max": 20
@@ -1036,7 +1036,7 @@
   {
    "id": "a9.title.129.name",
    "jp": "女神像",
-   "en": "",
+   "en": "Goddess Statue",
    "kind": "title.name",
    "addr": "02125A4C",
    "max": 20
