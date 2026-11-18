@@ -24,6 +24,20 @@ def test_good_msg(eng):
     assert lint.lint_entry(msg('Hello there.{br}How are you?{page}Fine.'), eng) == []
 
 
+def test_one_word_last_line(eng):
+    errs = lint.lint_entry(msg('It seems the Vandel is steadily{br}extending his{br}reach...{close}', 'あ{close}'), eng)
+    assert any('one-word last line' in m for m in errs)
+    # a break after a full sentence is meant
+    assert lint.lint_entry(msg('Hmph... Whatever.{br}Fine.{close}', 'あ{close}'), eng) == []
+
+
+def test_unwidow_moves_a_word_down(eng):
+    import batches
+    out = batches.unwidow('It seems the Vandel is steadily{br}extending his{br}reach...{close}', 'msg')
+    assert out == 'It seems the Vandel is steadily{br}extending{br}his reach...{close}'
+    assert lint.lint_entry(msg(out, 'あ{close}'), eng) == []
+
+
 def test_untranslated_is_skipped(eng):
     assert lint.lint_entry(msg(''), eng) == []
 

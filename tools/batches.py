@@ -6,6 +6,7 @@ check translator output and merge it into script/*.json.
     python -X utf8 tools/batches.py check b001 [b002 ...]   # validate work/tr/out/bNNN.md, no writes
     python -X utf8 tools/batches.py merge b001 [b002 ...]   # check, then write passing batches into script/
     python -X utf8 tools/batches.py wrap "text // text" [--kind msg]   # dry-run the wrapper
+    python -X utf8 tools/batches.py unwidow [-v] [--write]   # one-word last lines (lint.widow): move a word down
     python -X utf8 tools/batches.py status
 
 Batch rows (work/tr/batches/bNNN.tsv): id, speaker, kind, limit, jp. One row per distinct (kind, jp): the merge
@@ -131,7 +132,27 @@ def wrap(text, kind):
             lines.append(cur)
         for i in range(0, len(lines), nlines):
             pages.append('{br}'.join(lines[i:i + nlines]))
-    return '{page}'.join(pages)
+    return unwidow('{page}'.join(pages), kind)
+
+
+def unwidow(en, kind):
+    """en with each page that ends on one word (lint.widow) given the last word of the line above, when it fits."""
+    b = lint.budget(kind) or {}
+    nlines = b.get('lines', 1)
+    if nlines == 1 or 'px' not in b:
+        return en
+    px, last = b['px'], b.get('last_px', b['px'])
+    out = []
+    for page in en.split('{page}'):
+        lines = page.split('{br}')
+        if lint.widow(lint.pages(page)[0]):
+            head, _, word = lines[-2].rstrip().rpartition(' ')
+            moved = word + ' ' + lines[-1].lstrip()
+            lim = last if len(lines) - 1 == nlines - 1 else px
+            if head.strip() and measure(moved) <= lim:
+                lines[-2:] = [head, moved]
+        out.append('{br}'.join(lines))
+    return '{page}'.join(out)
 
 
 def finish(en, e):
@@ -422,6 +443,28 @@ def cmd_wrap(a):
     return 0
 
 
+def cmd_unwidow(a):
+    """Give every one-word last line (lint.widow) a word from the line above; dry run unless --write."""
+    files = load_files()
+    changed, n = set(), 0
+    for f, e in all_entries(files):
+        en = e.get('en')
+        if not en or skipped(e):
+            continue
+        new = unwidow(en, e['kind'])
+        if new != en:
+            n += 1
+            if a.verbose:
+                print('%s\n  - %s\n  + %s' % (e['id'], en, new))
+            if a.write:
+                e['en'] = new
+                changed.add(f)
+    for f in changed:
+        save(f, files[f])
+    print('%d entries %s' % (n, 'rewrapped' if a.write else 'to rewrap (dry run; --write to save)'))
+    return 0
+
+
 def cmd_status(a):
     files = load_files()
     c, d = Counter(), Counter()
@@ -455,8 +498,13 @@ def main():
     p = sp.add_parser('wrap')
     p.add_argument('text', nargs='+')
     p.add_argument('--kind', default='msg')
+    p = sp.add_parser('unwidow')
+    p.add_argument('--write', action='store_true')
+    p.add_argument('-v', '--verbose', action='store_true')
     sp.add_parser('status')
     a = ap.parse_args()
+    if a.cmd == 'unwidow':
+        return cmd_unwidow(a)
     if a.cmd == 'split':
         return cmd_split(a)
     if a.cmd == 'prompt':

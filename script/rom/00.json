@@ -32,7 +32,7 @@
   {
    "id": "rom.00C88",
    "jp": "もう　少しだ！{br}がんばれ！{page}さあ　見えてきたぞ！{br}あれが　フォージェミニ島だ！{page}着岸準備！{close}",
-   "en": "Just a little farther! Hang in there!{page}There! Land in sight! That's Forjemini{br}Island!{page}Prepare to dock!{close}",
+   "en": "Just a little farther! Hang in there!{page}There! Land in sight! That's{br}Forjemini Island!{page}Prepare to dock!{close}",
    "kind": "msg",
    "speaker": "船長",
    "refs": 1
@@ -92,7 +92,7 @@
   {
    "id": "rom.00D9C",
    "jp": "ちぇっ・・・{br}船酔いか？{page}まぁ　確かに　この荒れようじゃ{br}無理もねぇか・・・{page}おだやかな双子島の海が{br}こんなに荒れるなんて{br}ただごとじゃねぇ・・・{page}鑑定士のだんな！{page}あんたが　こんな　ぼっちゃんバスターに{br}わざわざ　ついて来るのも{br}おかしいじゃねぇか{page}いったい　何事だい・・・！？{close}",
-   "en": "Tch... Seasick?{page}Well, with the sea this rough, I can't{br}blame ya...{page}The waters around the Twin Islands{br}are usually calm. Something ain't{br}right...{page}Hey, Appraiser!{page}What's a man like you doing coming{br}all this way with some boy Buster,{br}anyway?{page}Just what is going on here...!?{close}",
+   "en": "Tch... Seasick?{page}Well, with the sea this rough, I can't{br}blame ya...{page}The waters around the Twin Islands{br}are usually calm. Something{br}ain't right...{page}Hey, Appraiser!{page}What's a man like you doing coming{br}all this way with some boy{br}Buster, anyway?{page}Just what is going on here...!?{close}",
    "kind": "msg",
    "speaker": "船員",
    "refs": 1
@@ -107,7 +107,7 @@
   {
    "id": "rom.00EC0",
    "jp": "・・・{br}おしゃべりな　船員じゃな・・・{page}ムダ口たたいてないで{br}仕事をしなされ！{page}もうすぐ双子島じゃろうに・・・{close}",
-   "en": "...What a chatty sailor you are...{page}Enough idle chatter! Get back to{br}work!{page}We're nearly at the Twin Islands,{br}aren't we...?{close}",
+   "en": "...What a chatty sailor you are...{page}Enough idle chatter! Get back{br}to work!{page}We're nearly at the Twin Islands,{br}aren't we...?{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -160,7 +160,7 @@
   {
    "id": "rom.00FF8",
    "jp": "双子島{br}・・・対称の形をした{br}２つの小島からなる島{close}",
-   "en": "The Twin Islands... A pair of small{br}islands, each a mirror image of the{br}other.{close}",
+   "en": "The Twin Islands... A pair of small{br}islands, each a mirror image of{br}the other.{close}",
    "kind": "msg",
    "speaker": "船員",
    "refs": 1
@@ -168,7 +168,7 @@
   {
    "id": "rom.01030",
    "jp": "それぞれの島の台地上には　銀製の{br}巨大女神像があった{page}この女神像が　いつの時代に{br}造られたのか　定かではないが{close}",
-   "en": "High on each island's plateau stood{br}an enormous silver statue of a{br}goddess.{page}No one knew for certain when these{br}statues had been made.{close}",
+   "en": "High on each island's plateau stood{br}an enormous silver statue of{br}a goddess.{page}No one knew for certain when these{br}statues had been made.{close}",
    "kind": "msg",
    "speaker": "船員",
    "refs": 1
@@ -176,7 +176,7 @@
   {
    "id": "rom.010A4",
    "jp": "人々は　その２体の　巨大な女神像に{br}まもられて生活をしていた{page}この島では　古くから大量の銀と{br}少量の金が　採掘され{page}島の人間は　それらを加工した{br}細工物を売ることで　生計を立てていた{page}島の多くは　肥沃な土地におおわれ{br}植物が生い茂り　それを糧としている{br}動物達も多く　島は繁栄していた{close}",
-   "en": "The people lived under the{br}protection of the two towering{br}goddesses.{page}For generations, the islands had{br}yielded great quantities of silver and{br}a little gold.{page}The islanders made their living by{br}crafting these metals into{br}ornaments to sell.{page}Fertile soil covered much of the{br}islands. Plants grew thick and lush,{br}feeding abundant wildlife. The{page}islands prospered.{close}",
+   "en": "The people lived under the{br}protection of the two{br}towering goddesses.{page}For generations, the islands had{br}yielded great quantities of silver and{br}a little gold.{page}The islanders made their living by{br}crafting these metals into{br}ornaments to sell.{page}Fertile soil covered much of the{br}islands. Plants grew thick and lush,{br}feeding abundant wildlife. The{page}islands prospered.{close}",
    "kind": "msg",
    "speaker": "船員",
    "refs": 1
@@ -184,7 +184,7 @@
   {
    "id": "rom.011F4",
    "jp": "しかし　突如現れた{br}ヴァンデルと　モンスターたちが{br}その平和を切り裂いた！{page}ヴァンデルは　西の里の銀の女神像を{br}破壊して　そこに「黄金城」を{br}建設したのである{page}ヴァンデルたちは　その「黄金城」を{br}拠点にして　次々に島を侵略していった{page}ヴァンデルに対抗すべき　バスター協会の{br}鑑定士は殺され　双子島唯一の{br}鑑定小屋は　焼き払われてしまった・・・{page}島の人間では　ヴァンデルたちの{br}侵略を　食い止めることができなかった{page}そして島の大部分が　ヴァンデルの手に{br}落ちてしまったのだった・・・{close}",
-   "en": "But Vandels and monsters suddenly{br}appeared, shattering the peace!{page}The Vandels destroyed West{br}Village's Silver Goddess Statue and{br}built the Golden Castle in its{page}place.{page}Using the Golden Castle as their{br}base, they steadily overran the{br}islands.{page}The Buster Association's Appraiser,{br}who should have helped oppose the{br}Vandels, was killed. The Twin{page}Islands' only Appraisal Hut was{br}burned to the ground...{page}The islanders could not stop the{br}Vandel invasion.{page}And so, most of the islands fell into{br}the Vandels' hands...{close}",
+   "en": "But Vandels and monsters suddenly{br}appeared, shattering the peace!{page}The Vandels destroyed West{br}Village's Silver Goddess Statue and{br}built the Golden Castle in its{page}place.{page}Using the Golden Castle as their{br}base, they steadily overran{br}the islands.{page}The Buster Association's Appraiser,{br}who should have helped oppose the{br}Vandels, was killed. The Twin{page}Islands' only Appraisal Hut was{br}burned to the ground...{page}The islanders could not stop the{br}Vandel invasion.{page}And so, most of the islands fell into{br}the Vandels' hands...{close}",
    "kind": "msg",
    "speaker": "船員",
    "refs": 1
@@ -319,7 +319,7 @@
   {
    "id": "rom.0159C",
    "jp": "{hero}！{br}母さんを頼んだぞーー！！{close}",
-   "en": "{hero}! Take care of your{br}mother!!{close}",
+   "en": "{hero}! Take care of{br}your mother!!{close}",
    "kind": "msg",
    "speaker": "父親",
    "refs": 1
@@ -364,7 +364,7 @@
   {
    "id": "rom.01630",
    "jp": "また　父上のことを　思い出して{br}いたのか？{page}自分の　生まれ故郷{br}双子島に　帰ってきたのじゃからな{br}無理もない・・・{page}父上の復讐を誓った{br}その頭のバンダナ・・・{page}父上が最後に握り締めていた{br}布らしいの・・・{page}おまえはそれを一時たりとも{br}手放したことはないな・・・{page}わしゃ　このペンダントを{br}手放したことはない・・・{page}そうじゃ・・・{br}このペンダントは古き友人・・・{br}双子島の鑑定士の形見じゃ・・・{close}",
-   "en": "Were you remembering your father{br}again?{page}Now that you've returned to your{br}birthplace, the Twin Islands, it's only{br}natural...{page}That Bandanna you wear, on which{br}you swore to avenge your father...{page}I hear it was the cloth he clutched in{br}his final moments...{page}You've never parted with it, not{br}even for a moment...{page}Nor have I ever parted with this{br}Pendant...{page}Yes... A keepsake of my late friend...{br}The Appraiser of the Twin Islands...{close}",
+   "en": "Were you remembering your{br}father again?{page}Now that you've returned to your{br}birthplace, the Twin Islands, it's{br}only natural...{page}That Bandanna you wear, on which{br}you swore to avenge your father...{page}I hear it was the cloth he clutched in{br}his final moments...{page}You've never parted with it, not{br}even for a moment...{page}Nor have I ever parted with{br}this Pendant...{page}Yes... A keepsake of my late friend...{br}The Appraiser of the Twin Islands...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -394,7 +394,7 @@
   {
    "id": "rom.017D4",
    "jp": "本当は　つわものバスターを{br}一緒に連れてきたいところじゃったが{page}バスターを手配するのは{br}時間がかかる・・・{page}しかし　それを待つことは{br}できんかった・・・{page}一刻も早く　仇を見つけて{br}討たねばならん・・・{page}このような　悲しみは{br}もうたくさんじゃ・・・！{page}心配せんでもええ{page}バスター協会が　双子島での{br}鑑定小屋の再建と　大陸からの{br}バスター派遣を約束してくれたわい{page}{hero}よ・・・{br}己をみがいて　敵を討つのじゃ！！{br}さあ　いよいよ　戦いが始まるぞ！！{close}",
-   "en": "I'd hoped to bring a seasoned Buster{br}along with us.{page}But finding one would have taken{br}time...{page}And I couldn't wait...{page}We must find the one responsible{br}and avenge our loved ones without{br}delay...{page}I've had enough of such sorrow...!{page}Now, don't you worry.{page}The Buster Association has{br}promised to rebuild the Appraisal Hut{br}here and send Busters from the{page}mainland.{page}{hero}, my boy... Hone your{br}skills and avenge your father!! Come!{br}Our fight is about to begin!!{close}",
+   "en": "I'd hoped to bring a seasoned Buster{br}along with us.{page}But finding one would have{br}taken time...{page}And I couldn't wait...{page}We must find the one responsible{br}and avenge our loved ones{br}without delay...{page}I've had enough of such sorrow...!{page}Now, don't you worry.{page}The Buster Association has{br}promised to rebuild the Appraisal Hut{br}here and send Busters from the{page}mainland.{page}{hero}, my boy... Hone your{br}skills and avenge your father!! Come!{br}Our fight is about to begin!!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -574,7 +574,7 @@
   {
    "id": "rom.01D1C",
    "jp": "まったく　調子のいい船員じゃ{page}{hero}　よくやった{page}さすが　わしが　見込んだ{br}だけのことはある！{close}",
-   "en": "My, how quickly that sailor changes{br}his tune.{page}Well done, {hero}.{page}I knew I was right to put my faith in{br}you!{close}",
+   "en": "My, how quickly that sailor changes{br}his tune.{page}Well done, {hero}.{page}I knew I was right to put my faith{br}in you!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -634,7 +634,7 @@
   {
    "id": "rom.021F4",
    "jp": "お願い！　私には分かるの！{page}いつもと　ちがうの！{br}ゼナに　何か{br}危険が迫ってるの！{page}お願い・・・{br}助けて・・・{close}",
-   "en": "Please! I can feel it!{page}This time is different! Zena's in{br}danger!{page}Please... Help her...{close}",
+   "en": "Please! I can feel it!{page}This time is different! Zena's{br}in danger!{page}Please... Help her...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -649,7 +649,7 @@
   {
    "id": "rom.02270",
    "jp": "あ　あなたは・・・{page}{hero}！{br}あなた　いつ帰ってきたの！{page}お帰りなさい・・・{close}",
-   "en": "Oh, you're...{page}{hero}! When did you get{br}back?!{page}Welcome home...{close}",
+   "en": "Oh, you're...{page}{hero}! When did you{br}get back?!{page}Welcome home...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -844,7 +844,7 @@
   {
    "id": "rom.02618",
    "jp": "なんだよ{br}まったく調子いいんだから・・・{page}相変わらずだろ　こいつ・・・{page}よく帰ってきたな{br}{hero}・・・{page}おまえなら　大丈夫だろう・・・{br}よろしく頼むぜ！！{close}",
-   "en": "Oh, come on! Now you're just{br}agreeing with me...{page}He hasn't changed a bit, has he...?{page}Good to have you home,{br}{hero}...{page}I'm sure you can handle this... We're{br}counting on you!{close}",
+   "en": "Oh, come on! Now you're just{br}agreeing with me...{page}He hasn't changed a bit, has he...?{page}Good to have you{br}home, {hero}...{page}I'm sure you can handle this... We're{br}counting on you!{close}",
    "kind": "msg",
    "speaker": "おじさん",
    "refs": 1
@@ -950,7 +950,7 @@
   {
    "id": "rom.02868",
    "jp": "おいおい　ふたりとも{br}何おちこんでるんだよ！{page}{hero}がレナやゼナのことを{br}ほっとけるわけがないだろ！！{br}すぐに見てきてくれるって！！{close}そうだよな！　{hero}！？{close}",
-   "en": "Hey, hey! Why the long faces, you{br}two!?{page}You know {hero} couldn't just{br}leave Lena and Zena in trouble!! He'll{br}go check on her right away!!{close}Right,{page}{hero}!?{close}",
+   "en": "Hey, hey! Why the long faces,{br}you two!?{page}You know {hero} couldn't just{br}leave Lena and Zena in trouble!! He'll{br}go check on her right away!!{close}Right,{page}{hero}!?{close}",
    "kind": "msg",
    "speaker": "おじさん",
    "refs": 1
@@ -965,7 +965,7 @@
   {
    "id": "rom.02910",
    "jp": "そうだよね！！{br}おいらも　そう思ってた！！{close}",
-   "en": "That's right!! That's just what I was{br}thinking!!{close}",
+   "en": "That's right!! That's just what I{br}was thinking!!{close}",
    "kind": "msg",
    "speaker": "おにいさん",
    "refs": 1
@@ -980,7 +980,7 @@
   {
    "id": "rom.0294C",
    "jp": "なんだよ{br}まったく調子いいんだから・・・{page}相変わらずだろ　こいつ・・・{page}よく帰ってきたな{br}{hero}・・・{page}おまえなら　大丈夫だろう・・・{br}よろしく頼むぜ！！{close}",
-   "en": "Oh, come on! Now you're just{br}agreeing with me...{page}He hasn't changed a bit, has he...?{page}Good to have you home,{br}{hero}...{page}I'm sure you can handle this... We're{br}counting on you!{close}",
+   "en": "Oh, come on! Now you're just{br}agreeing with me...{page}He hasn't changed a bit, has he...?{page}Good to have you{br}home, {hero}...{page}I'm sure you can handle this... We're{br}counting on you!{close}",
    "kind": "msg",
    "speaker": "おじさん",
    "refs": 1
@@ -1026,7 +1026,7 @@
   {
    "id": "rom.02ADC",
    "jp": "そのお守りが　きっとあなたのことを{br}守ってくれるわ・・・{close}",
-   "en": "I'm sure that charm will keep you{br}safe...{close}",
+   "en": "I'm sure that charm will keep{br}you safe...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -1056,7 +1056,7 @@
   {
    "id": "rom.02B84",
    "jp": "しまった・・・{br}囲まれちゃったよ・・・{close}",
-   "en": "Oh, great... They've got me{br}surrounded...{close}",
+   "en": "Oh, great... They've got{br}me surrounded...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1101,7 +1101,7 @@
   {
    "id": "rom.02C0C",
    "jp": "ありがと　{hero}！{br}ほんとに　バスターになって{br}帰ってきたんだね！{page}まさか　あんたに　助けられることに{br}なるとは　思わなかったな！{page}よし！{br}あたいも　修行の　やりなおしだ！！{page}じゃ　ねーちゃんに{br}よろしく　言っといて！{br}じゃーねー！！{close}",
-   "en": "Thanks, {hero}! You really did{br}come back a Buster!{page}Never thought you'd be the one{br}saving me!{page}Right! Time for me to get back to{br}training!!{page}Say hi to my big sis for me! See ya!!{close}",
+   "en": "Thanks, {hero}! You really did{br}come back a Buster!{page}Never thought you'd be the one{br}saving me!{page}Right! Time for me to get back{br}to training!!{page}Say hi to my big sis for me! See ya!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1236,7 +1236,7 @@
   {
    "id": "rom.03198",
    "jp": "助かるぅ・・・！{br}ありがとうね！！{br}私は　ポアラよ！！{close}",
-   "en": "You're a lifesaver...! Thank you!! I'm{br}Poala!!{close}",
+   "en": "You're a lifesaver...! Thank you!!{br}I'm Poala!!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -1416,7 +1416,7 @@
   {
    "id": "rom.03584",
    "jp": "・・・{br}おまえ　これから　父さんのかたきを{br}討つんだね{page}母さんが止めても{br}バスターになるために　家を出た{br}あの時のように{page}また行ってしまうんだろ・・・{page}悔いのないように　おやり・・・{page}母さんは　いつでも　ここで{br}おまえの　帰りを　待っているからね{page}疲れたり　傷ついたりしたら{br}意地を張らず　帰っておいで{br}ゆっくり休むとよいよ{page}そうしたら　また元気が出るでしょ・・・{close}",
-   "en": "...You're going to avenge your father{br}now, aren't you?{page}Even if I tried to stop you, you'd{br}leave again...{page}Just like when you left home to{br}become a Buster...{page}Do what you must, so you'll have no{br}regrets...{page}I'll always be here, waiting for you to{br}come home.{page}If you're tired or hurt, don't be{br}stubborn. Come home and get some{br}proper rest.{page}Then you'll have your strength{br}back...{close}",
+   "en": "...You're going to avenge your father{br}now, aren't you?{page}Even if I tried to stop you, you'd{br}leave again...{page}Just like when you left home to{br}become a Buster...{page}Do what you must, so you'll have{br}no regrets...{page}I'll always be here, waiting for you to{br}come home.{page}If you're tired or hurt, don't be{br}stubborn. Come home and get some{br}proper rest.{page}Then you'll have your{br}strength back...{close}",
    "kind": "msg",
    "speaker": "母親",
    "refs": 1
@@ -1431,7 +1431,7 @@
   {
    "id": "rom.036FC",
    "jp": "そういえばさっき鑑定士さんが{br}おまえのことを探してたよ{page}一度　鑑定小屋へ{br}寄ってみたらどうだい？{close}",
-   "en": "Oh, the Appraiser-san was looking{br}for you earlier.{page}Why don't you stop by the Appraisal{br}Hut?{close}",
+   "en": "Oh, the Appraiser-san was looking{br}for you earlier.{page}Why don't you stop by the{br}Appraisal Hut?{close}",
    "kind": "msg",
    "speaker": "母親",
    "refs": 1
@@ -1446,7 +1446,7 @@
   {
    "id": "rom.03890",
    "jp": "おお{hero}{br}いいところに来た{page}ちょうど　ついさっき「鑑定小屋」を{br}開いたところじゃ{page}{hero}も知っておるように{br}突如現れた「ヴァンデル」の手によって{br}この地上は蹂躙され{close}",
-   "en": "Ah, {hero}! Just the person I{br}wanted to see.{page}I've only just opened the \"Appraisal{br}Hut.\"{page}As you know, {hero}, the{br}\"Vandels\" appeared without warning{br}and laid waste to this world...{close}",
+   "en": "Ah, {hero}! Just the person I{br}wanted to see.{page}I've only just opened the{br}\"Appraisal Hut.\"{page}As you know, {hero}, the{br}\"Vandels\" appeared without warning{br}and laid waste to this world...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1551,7 +1551,7 @@
   {
    "id": "rom.03FF8",
    "jp": "やぁ　さっきはどうも！{page}あれ？　ビィトは一緒じゃないの？{page}・・・そうなんだ！　きみのお宅で{br}お世話になってるんだね！{page}ありがとう！！{page}・・・そうだ{br}きみの名前　まだ聞いてなかったよね！{page}・・・そうか！{page}じゃあ　あらためまして{br}ぼくは　キッス！{br}{hero}　よろしくね！！{close}",
-   "en": "Hi! Thanks for earlier!{page}Huh? Isn't Beet with you?{page}...Oh, I see! He's staying at your{br}house!{page}Thank you!!{page}...Oh, right. I never asked your name,{br}did I?{page}...Got it!{page}Then let me introduce myself{br}properly. I'm Kissu! Nice to meet you,{br}{hero}!!{close}",
+   "en": "Hi! Thanks for earlier!{page}Huh? Isn't Beet with you?{page}...Oh, I see! He's staying at{br}your house!{page}Thank you!!{page}...Oh, right. I never asked your name,{br}did I?{page}...Got it!{page}Then let me introduce myself{br}properly. I'm Kissu! Nice to meet{br}you, {hero}!!{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1

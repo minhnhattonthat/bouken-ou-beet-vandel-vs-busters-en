@@ -156,7 +156,7 @@
   {
    "id": "rom.288C0",
    "jp": "カギ５を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "Obtained Key 5.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "Obtained Key 5.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -515,14 +515,14 @@
   {
    "id": "rom.2A37C",
    "jp": "サンキュー！{br}{hero}！{page}レナの言った通り{br}ゼナはピンチだったんだね{page}そんなのが分かるなんて{br}双子って　不思議だねー{close}",
-   "en": "Thanks, {hero}!{page}Zena really was in trouble, just like{br}Lena said.{page}How could she tell? Twins sure are{br}mysterious!{close}",
+   "en": "Thanks, {hero}!{page}Zena really was in trouble, just like{br}Lena said.{page}How could she tell? Twins sure{br}are mysterious!{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.2A3F0",
    "jp": "{hero}かっこいいなー{br}おいらも{hero}みたいに{br}バスターになれるかなー？{close}",
-   "en": "You're so cool, {hero}! Think I{br}could be a Buster like you,{br}{hero}?{close}",
+   "en": "You're so cool, {hero}! Think I{br}could be a Buster like{br}you, {hero}?{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -621,7 +621,7 @@
   {
    "id": "rom.2A838",
    "jp": "たぶんゼナは今頃{br}バコソン山地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
-   "en": "I'd guess Zena's in Bakoson{br}Mountains by now. I hope she's{br}safe...{close}",
+   "en": "I'd guess Zena's in Bakoson{br}Mountains by now. I hope{br}she's safe...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -663,7 +663,7 @@
   {
    "id": "rom.2AA34",
    "jp": "たぶんゼナは今頃{br}ミュテリン山地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
-   "en": "I imagine Zena's in the Muterin{br}Mountains by now. I hope she's{br}safe...{close}",
+   "en": "I imagine Zena's in the Muterin{br}Mountains by now. I hope{br}she's safe...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -677,7 +677,7 @@
   {
    "id": "rom.2AAE4",
    "jp": "たぶんゼナは今頃{br}リンラーゴ山地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
-   "en": "I imagine Zena's in the Rinrago{br}Mountains by now. I hope she's{br}safe...{close}",
+   "en": "I imagine Zena's in the Rinrago{br}Mountains by now. I hope{br}she's safe...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -720,7 +720,7 @@
   {
    "id": "rom.2AC38",
    "jp": "ゼナを　助けてくれたのね！{br}ありがとう　{hero}！{close}",
-   "en": "You saved Zena! Thank you,{br}{hero}!{close}",
+   "en": "You saved Zena! Thank{br}you, {hero}!{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -735,7 +735,7 @@
   {
    "id": "rom.2AC70",
    "jp": "もうゼナったら{br}なんど言っても　聞かないんだから・・・{page}あいかわらず{br}あぶないことばかりして・・・{close}",
-   "en": "Oh, that Zena! No matter how often I{br}tell her, she never listens...{page}Always doing such dangerous{br}things...{close}",
+   "en": "Oh, that Zena! No matter how often I{br}tell her, she never listens...{page}Always doing such{br}dangerous things...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -765,7 +765,7 @@
   {
    "id": "rom.2AD18",
    "jp": "{hero}に{br}押し付けているだけなのよね・・・{page}危険なことは　全部{br}{hero}に　やらせて・・・{page}{hero}に{br}もしものことがあったら・・・{br}わたし・・・　わたし・・・{page}ウッ・・・　グスッ・・・{close}",
-   "en": "We're just leaving it all to you,{br}{hero}...{page}Making you do everything{br}dangerous, {hero}...{page}If anything happened to you,{br}{hero}... I... I...{page}Ugh... *sniff*...{close}",
+   "en": "We're just leaving it all to{br}you, {hero}...{page}Making you do everything{br}dangerous, {hero}...{page}If anything happened to you,{br}{hero}... I... I...{page}Ugh... *sniff*...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -950,7 +950,7 @@
   {
    "id": "rom.2B23C",
    "jp": "たしかに依頼品の「鉱石」じゃ{br}よくやった{br}これが報酬じゃ{close}",
-   "en": "Yes, that's the \"Ore\" requested.{br}Well done, my boy. Here's your{br}reward.{close}",
+   "en": "Yes, that's the \"Ore\" requested.{br}Well done, my boy. Here's{br}your reward.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -973,7 +973,7 @@
   {
    "id": "rom.2B29C",
    "jp": "依頼されていたモンスターを{br}無事に討伐することができた！{br}鑑定小屋へ報告に行こう！{close}",
-   "en": "You defeated the monsters for the{br}request! Go report to the Appraisal{br}Hut!{close}",
+   "en": "You defeated the monsters for the{br}request! Go report to the{br}Appraisal Hut!{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -1002,7 +1002,7 @@
   {
    "id": "rom.2B32C",
    "jp": "よくやった{br}これが報酬じゃ{close}",
-   "en": "Well done, my boy. Here's your{br}reward.{close}",
+   "en": "Well done, my boy. Here's{br}your reward.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1104,14 +1104,14 @@
   {
    "id": "rom.2B710",
    "jp": "おぉ・・・{br}おまえさん・・・{br}元気にしとるかぁいぃ・・・？{close}",
-   "en": "Ohhh... It's you, dear... Have you been{br}well...?{close}",
+   "en": "Ohhh... It's you, dear... Have you{br}been well...?{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.2B750",
    "jp": "うちの　ばあちゃんは　犬と　話が{br}できるらしい・・・{page}いや　犬だけではない・・・{br}木とも　水とも　石ころとも　話を{br}しておる{page}しかし・・・{br}ワシのことは　すっかり忘れてしもうた{br}みたいなんじゃ・・・{page}あれは　いつじゃったか・・・{page}そうそう・・・　西の里の　女神像が{br}破壊されてからかのぉ・・・{page}寂しい毎日じゃて・・・{close}",
-   "en": "My old wife seems to be able to talk{br}to dogs...{page}No, not just dogs... She talks to{br}trees, water, even pebbles.{page}But... she seems to have forgotten{br}all about me...{page}When did it start, now...?{page}Ah, yes... Was it when the goddess{br}statue in West Village was{br}destroyed...?{page}Such lonely days, I tell you...{close}",
+   "en": "My old wife seems to be able to talk{br}to dogs...{page}No, not just dogs... She talks to{br}trees, water, even pebbles.{page}But... she seems to have forgotten{br}all about me...{page}When did it start, now...?{page}Ah, yes... Was it when the goddess{br}statue in West Village{br}was destroyed...?{page}Such lonely days, I tell you...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -1215,7 +1215,7 @@
   {
    "id": "rom.2BDF4",
    "jp": "さらわれたレナのことも心配だが{br}ミュテリン山の里で働かされている{br}多くの人々のことも気になる{page}まずはミュテリン山の里にできた{br}金の鉱山を目指すのじゃ{close}",
-   "en": "I worry for Lena, but also for all{br}those people being forced to work in{br}Muterin Mountain Village.{page}First, make for the gold mine they've{br}built in Muterin Mountain Village, my{br}boy.{close}",
+   "en": "I worry for Lena, but also for all{br}those people being forced to work in{br}Muterin Mountain Village.{page}First, make for the gold mine they've{br}built in Muterin Mountain Village,{br}my boy.{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1

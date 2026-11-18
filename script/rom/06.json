@@ -418,7 +418,7 @@
   {
    "id": "rom.186D4",
    "jp": "いつでも協力しますから{br}仲間が必要になったら{br}声をかけてください・・・{close}",
-   "en": "We're always ready to help, so give{br}us a shout whenever you need{br}company...{close}",
+   "en": "We're always ready to help, so give{br}us a shout whenever you{br}need company...{close}",
    "kind": "msg",
    "speaker": "バドゥ",
    "refs": 1
@@ -463,7 +463,7 @@
   {
    "id": "rom.187A0",
    "jp": "やっぱ　オレたちの　人相が{br}悪っぽいからなのか・・・？？{close}",
-   "en": "Is it 'cause we look like a couple of{br}crooks...??{close}",
+   "en": "Is it 'cause we look like a couple{br}of crooks...??{close}",
    "kind": "msg",
    "speaker": "グレスト",
    "refs": 1
@@ -493,7 +493,7 @@
   {
    "id": "rom.18824",
    "jp": "でも　今は　改心したんスよ・・・{page}そう・・・{br}あの女神サマに　出会ってからは・・・{close}",
-   "en": "But we've changed our ways now...{page}Yeah... Ever since we met that{br}goddess-sama...{close}",
+   "en": "But we've changed our ways now...{page}Yeah... Ever since we met{br}that goddess-sama...{close}",
    "kind": "msg",
    "speaker": "バドゥ",
    "refs": 1
@@ -598,7 +598,7 @@
   {
    "id": "rom.18BF8",
    "jp": "あたしね　「封印のリング」の{br}調査の他にも{page}新人バスターの様子を　見るようにって{br}言われてきたの！！{close}",
-   "en": "Besides investigating the \"Sealing{br}Rings\"...{page}I was also sent to see how the{br}rookie Busters are doing!{close}",
+   "en": "Besides investigating the{br}\"Sealing Rings\"...{page}I was also sent to see how the{br}rookie Busters are doing!{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -613,7 +613,7 @@
   {
    "id": "rom.18C6C",
    "jp": "だからぁ・・・{br}あたしを　仲間にしてほしいんだけど！！{close}",
-   "en": "So... I'd looove for you to let me join{br}you!{close}",
+   "en": "So... I'd looove for you to let me{br}join you!{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -666,7 +666,7 @@
   {
    "id": "rom.18D2C",
    "jp": "えぇーーっ！！{page}ショックぅーー・・・{page}（あーーん！！）{page}（せっかくの　運命の{br}出会いかもしれないのにぃ！！）{page}（これくらいで　あきらめなんだから！）{page}（がんばれ！　あたし！！）{close}",
-   "en": "Whaaat!!{page}I'm crushed...{page}(Ohhh!!){page}(This could be my big fateful{br}encounter!!){page}(I'm not giving up over this!){page}(Come on, Milfa! You can do it!){close}",
+   "en": "Whaaat!!{page}I'm crushed...{page}(Ohhh!!){page}(This could be my big{br}fateful encounter!!){page}(I'm not giving up over this!){page}(Come on, Milfa! You can do it!){close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -914,7 +914,7 @@
   {
    "id": "rom.19378",
    "jp": "まったく・・・{br}アイツじゃあるまいし・・・{page}・・・{br}じゃあな・・・{close}",
-   "en": "Honestly... You're acting just like{br}him...{page}...See ya...{close}",
+   "en": "Honestly... You're acting just{br}like him...{page}...See ya...{close}",
    "kind": "msg",
    "speaker": "スレッド",
    "refs": 1
@@ -959,7 +959,7 @@
   {
    "id": "rom.196E0",
    "jp": "では　この手紙を「橋かけ名人」に{br}渡してくれ{close}",
-   "en": "Then take this Letter to the \"Bridge{br}Master.\"{close}",
+   "en": "Then take this Letter to the{br}\"Bridge Master.\"{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -997,7 +997,7 @@
   {
    "id": "rom.197A4",
    "jp": "なぬーーっ！！{page}久しぶりに　橋かけ名ちゃんと{br}連絡を取りたかったのじゃが・・・{page}橋かけ名ちゃん　とは{br}「橋かけ名人」のことなんじゃが{page}古くからの　友だちなのであーる・・・{page}また　気が変わったら{br}頼むのであーる・・・{close}",
-   "en": "Whaaat!!{page}I wanted to get in touch with{br}Bridgey. It's been so long...{page}By Bridgey, I mean the \"Bridge{br}Master.\"{page}We've been friends for ages,{br}indeeeed...{page}If you change your mind, do lend a{br}hand...{close}",
+   "en": "Whaaat!!{page}I wanted to get in touch with{br}Bridgey. It's been so long...{page}By Bridgey, I mean the{br}\"Bridge Master.\"{page}We've been friends for{br}ages, indeeeed...{page}If you change your mind, do lend{br}a hand...{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -1012,7 +1012,7 @@
   {
    "id": "rom.1988C",
    "jp": "おおっ！{br}バスターのしょくんっ！！{br}サインがほしいのかな？？？{page}・・・{page}しょ・・・しょくん！{br}元気がないな！！{page}そう！{br}わしが「橋かけ名人」だ！！{br}これからは「名人」とよぶがいい！！{page}・・・{page}うおっほん！{br}サインはいらぬか・・・{br}では　何の用かな？？？{close}",
-   "en": "Oh! My young Buster friends!! Here{br}for an autograph, eh???{page}...{page}M-my friends! Where's your{br}enthusiasm?!{page}Yes! I am the \"Bridge Master\"! You{br}may call me \"Master\" from now on!!{page}...{page}Ahem! No autograph, then... What{br}can I do for you???{close}",
+   "en": "Oh! My young Buster friends!! Here{br}for an autograph, eh???{page}...{page}M-my friends! Where's{br}your enthusiasm?!{page}Yes! I am the \"Bridge Master\"! You{br}may call me \"Master\" from now on!!{page}...{page}Ahem! No autograph, then... What{br}can I do for you???{close}",
    "kind": "msg",
    "speaker": "橋かけ名人",
    "refs": 1
@@ -1035,7 +1035,7 @@
   {
    "id": "rom.199BC",
    "jp": "ほうほう・・・{page}この手紙を・・・{page}銀堀職人の・・・{page}ホーレイちゃんが！！{page}おおっ・・・{br}ひさしぶりだーー！！{br}ホーレイちゃん　元気かっ？？{page}おお　確かに　ホーレイちゃんの{br}手紙だぞーー・・・{page}・・・{page}うれしいなあ・・・{page}ウルウル・・・{br}いやはや　友だちは大切にせんと{br}いかんのよ・・・ホント・・・{page}返事書いとくから{br}わたしてくれるかな？{page}また　後できてね・・・{br}ウルウル・・・{close}",
-   "en": "Well, well...{page}This Letter...{page}From the Silver Miner...{page}Old Horey himself!!{page}Oh... It's been so long!! How is Old{br}Horey doing??{page}Oh, this is certainly a Letter from Old{br}Horey...{page}...{page}I'm so happy...{page}*sniff*... Goodness, you've got to{br}treasure your friends... You really{br}do...{page}I'll write a reply. Could you deliver it{br}for me?{page}Come back a little later, eh...?{br}*sniff*...{close}",
+   "en": "Well, well...{page}This Letter...{page}From the Silver Miner...{page}Old Horey himself!!{page}Oh... It's been so long!! How is Old{br}Horey doing??{page}Oh, this is certainly a Letter from{br}Old Horey...{page}...{page}I'm so happy...{page}*sniff*... Goodness, you've got to{br}treasure your friends... You{br}really do...{page}I'll write a reply. Could you deliver it{br}for me?{page}Come back a little later, eh...?{br}*sniff*...{close}",
    "kind": "msg",
    "speaker": "橋かけ名人",
    "refs": 1
@@ -1103,7 +1103,7 @@
   {
    "id": "rom.19C28",
    "jp": "おお　手紙を届けてくれたのか？{page}なぬ？　返事をもらってきたとな！？{close}",
-   "en": "Oh, did you deliver my letter?{page}What's that? You brought back a{br}reply!?{close}",
+   "en": "Oh, did you deliver my letter?{page}What's that? You brought back{br}a reply!?{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -1111,7 +1111,7 @@
   {
    "id": "rom.19C70",
    "jp": "「橋かけ名人の手紙」を渡した！{close}",
-   "en": "Handed over the \"Bridge Master's{br}Letter\"!{close}",
+   "en": "Handed over the \"Bridge{br}Master's Letter\"!{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -1126,7 +1126,7 @@
   {
    "id": "rom.19CA0",
    "jp": "おおーーこれか！！{br}どれどれ・・・・・・{page}ウルウル・・・{br}橋かけ名ちゃん・・・{page}名ちゃん・・・ウルウル・・・{page}ウルウル・・・{br}いやはや　友だちは大切にせんと{br}いかんのじゃよ・・・ホントに・・・{page}なぬ？{br}名ちゃんも同じことを{br}言っておったのか？{page}ウルウルウルウル・・・{page}ウルウル・・・{br}名ちゃん・・・{page}ありがとう・・・{br}わしゃ　うれしいよ・・・{page}これは　わしからの　お礼であーる・・・{close}",
-   "en": "Ooh, here it is!! Let's see...{page}*sniff*... Bridgey...{page}Bridgey... *sniff*...{page}*sniff*... Ah, you must treasure your{br}friends, my boy... You truly must...{page}What's that? Bridgey said the same{br}thing?{page}*sniff, sniff, sniff*...{page}*sniff*... Bridgey...{page}Thank you... You've made an old man{br}happy...{page}Allow me to present this token of{br}my gratitude...{close}",
+   "en": "Ooh, here it is!! Let's see...{page}*sniff*... Bridgey...{page}Bridgey... *sniff*...{page}*sniff*... Ah, you must treasure your{br}friends, my boy... You truly must...{page}What's that? Bridgey said the{br}same thing?{page}*sniff, sniff, sniff*...{page}*sniff*... Bridgey...{page}Thank you... You've made an old{br}man happy...{page}Allow me to present this token of{br}my gratitude...{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -1149,7 +1149,7 @@
   {
    "id": "rom.19E54",
    "jp": "その銀は　鍛えればおそろしく{br}切れ味するどい{br}剣が作れるはずじゃ・・・{page}「聖なる銀」と比べても{br}負けないくらい　貴重な銀じゃ・・・{page}里の武器屋で{br}鍛えてもらうとよいぞ・・・{page}あいつの　腕は{br}たしかじゃからな・・・{page}おぬしの　おかげで　友情を{br}確認できた・・・{br}ありがとう・・・{close}",
-   "en": "Forge that silver, and you should{br}have a sword with a fearsomely{br}sharp edge...{page}It's every bit as precious as \"Holy{br}Silver\", I tell you...{page}Have it forged at the village Weapon{br}Shop...{page}That fellow knows his craft...{page}Thanks to you, I know our friendship{br}is as strong as ever... Thank you...{close}",
+   "en": "Forge that silver, and you should{br}have a sword with a fearsomely{br}sharp edge...{page}It's every bit as precious as \"Holy{br}Silver\", I tell you...{page}Have it forged at the village{br}Weapon Shop...{page}That fellow knows his craft...{page}Thanks to you, I know our friendship{br}is as strong as ever... Thank you...{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -1187,7 +1187,7 @@
   {
    "id": "rom.1A00C",
    "jp": "ふむふむ・・・{page}これは　鍛えれば{br}すばらしい名剣になりそうだ・・・{page}なんと！{page}あのホーレイさんの　お墨付きだって！？{page}よし！これは　私が責任を持って{br}鍛えさせていただこう{page}少ししてから{br}またのぞいてみてくれるかな？{page}少々時間は　かかるが{br}きっと　満足してもらえる　一品に{br}仕上げてみせるぞ！！{close}",
-   "en": "Hmm, hmm...{page}This could be forged into a truly{br}magnificent sword...{page}What's that!?{page}Horey-san himself vouches for it!?{page}All right! I'll take it upon myself to{br}forge it for you.{page}Could you drop by again in a little{br}while?{page}It'll take some time, but I'll make you{br}a blade you're sure to love!!{close}",
+   "en": "Hmm, hmm...{page}This could be forged into a truly{br}magnificent sword...{page}What's that!?{page}Horey-san himself vouches for it!?{page}All right! I'll take it upon myself to{br}forge it for you.{page}Could you drop by again in a{br}little while?{page}It'll take some time, but I'll make you{br}a blade you're sure to love!!{close}",
    "kind": "msg",
    "speaker": "武器屋",
    "refs": 1
@@ -1225,7 +1225,7 @@
   {
    "id": "rom.1A198",
    "jp": "どうだい？{br}腕によりをかけた自信作だぞ！！{page}これで　この島の平和を{br}とりもどしてくれな！{close}",
-   "en": "Well? I put all my skill into that blade,{br}and I'm proud of it!!{page}Use it to bring peace back to this{br}island!{close}",
+   "en": "Well? I put all my skill into that blade,{br}and I'm proud of it!!{page}Use it to bring peace back to{br}this island!{close}",
    "kind": "msg",
    "speaker": "武器屋",
    "refs": 1
@@ -1360,7 +1360,7 @@
   {
    "id": "rom.1A5AC",
    "jp": "ジークさんだって{br}いないじゃん・・・{close}",
-   "en": "You don't have one either,{br}Zeke-san...{close}",
+   "en": "You don't have one{br}either, Zeke-san...{close}",
    "kind": "msg",
    "speaker": "ナック",
    "refs": 1
@@ -1473,7 +1473,7 @@
   {
    "id": "rom.1A768",
    "jp": "こちらの戦士団の{br}仲間に入れてもらったぜ・・・！！{close}",
-   "en": "They said we could join their Buster{br}Squad...!!{close}",
+   "en": "They said we could join their{br}Buster Squad...!!{close}",
    "kind": "msg",
    "speaker": "ジーク",
    "refs": 1
@@ -1608,7 +1608,7 @@
   {
    "id": "rom.1AC70",
    "jp": "ほら・・・！{br}あの　ボウヤの{br}首飾りを見てみなよ・・・！{close}",
-   "en": "Look...! Take a look at that boy's{br}necklace...!{close}",
+   "en": "Look...! Take a look at that{br}boy's necklace...!{close}",
    "kind": "msg",
    "speaker": "シバ",
    "refs": 1
@@ -1653,7 +1653,7 @@
   {
    "id": "rom.1AD5C",
    "jp": "今日見て回った中で{br}あれが一番だわ・・・{close}",
-   "en": "It's the finest piece I've seen all{br}day...{close}",
+   "en": "It's the finest piece I've seen{br}all day...{close}",
    "kind": "msg",
    "speaker": "シバ",
    "refs": 1
@@ -1728,7 +1728,7 @@
   {
    "id": "rom.1AED8",
    "jp": "おい・・・ボウズ！！{page}オマエさんの　その　首飾りは{br}どこで手に入れたんだ・・・？{close}",
-   "en": "Hey... Kid!!{page}Where'd you get that necklace of{br}yours...?{close}",
+   "en": "Hey... Kid!!{page}Where'd you get that necklace{br}of yours...?{close}",
    "kind": "msg",
    "speaker": "ゴラン",
    "refs": 1
@@ -1908,7 +1908,7 @@
   {
    "id": "rom.1B224",
    "jp": "あたいたち　一人１００００マギーだから{br}二人で２００００マギーだよ・・・{page}さあ　どうする・・・？{close}",
-   "en": "We charge 10,000 Maggy each, so{br}that's 20,000 Maggy for the pair of{br}us...{page}Well? What's it to be...?{close}",
+   "en": "We charge 10,000 Maggy each, so{br}that's 20,000 Maggy for the pair{br}of us...{page}Well? What's it to be...?{close}",
    "kind": "msg",
    "speaker": "シバ",
    "refs": 1
@@ -1976,7 +1976,7 @@
   {
    "id": "rom.1B3A4",
    "jp": "オレたちは慈善事業を{br}やってるわけじゃねぇからな{br}金ができたらまた声をかけてくれ{close}",
-   "en": "We ain't runnin' a charity here. Come{br}talk to us when you've got the{br}cash.{close}",
+   "en": "We ain't runnin' a charity here. Come{br}talk to us when you've got{br}the cash.{close}",
    "kind": "msg",
    "speaker": "ゴラン",
    "refs": 1
@@ -2201,7 +2201,7 @@
   {
    "id": "rom.1BAB8",
    "jp": "でも・・・「封印のリング」が{br}破壊されてしまうと{page}モンスターが増えて　また運行が{br}できなくなるっス・・・{close}",
-   "en": "But... if the \"Sealing Rings\" get{br}destroyed...{page}The monsters'll multiply, and we'll{br}have to stop running the boat{br}again...{close}",
+   "en": "But... if the \"Sealing Rings\"{br}get destroyed...{page}The monsters'll multiply, and we'll{br}have to stop running the{br}boat again...{close}",
    "kind": "msg",
    "speaker": "レジスタンスＪ",
    "refs": 1
@@ -2216,7 +2216,7 @@
   {
    "id": "rom.1BB34",
    "jp": "「封印のリング」を{br}バッチリ　守りつつ{page}この船を有効活用して{br}冒険を進めるっス・・・！{close}",
-   "en": "Keep those \"Sealing Rings\" safe and{br}sound...{page}And make good use of this boat on{br}your adventures...!{close}",
+   "en": "Keep those \"Sealing Rings\" safe{br}and sound...{page}And make good use of this boat on{br}your adventures...!{close}",
    "kind": "msg",
    "speaker": "レジスタンスＪ",
    "refs": 1
@@ -2261,7 +2261,7 @@
   {
    "id": "rom.1BC6C",
    "jp": "ワシは飛行機乗りの{br}「ガントリィ」じゃ！！{br}よろしくな！！{page}とは言っても　今は失業中じゃ・・・{br}愛する飛行機ちゃんを　ヴァンデルに{br}奪われてしもうての・・・{page}うぅっ・・・{br}きっと　いとしの飛行機ちゃんは{br}ヴァンデルに食われてしまうんじゃ！！{page}おーーいおいおい・・・{br}わしゃぁ　これから　どうすれば{br}いいんじゃぁ・・・{close}",
-   "en": "I'm Gantry, the pilot!! Pleased to{br}meet ya!!{page}Though I'm out of work just now... A{br}Vandel stole my dear Airplane, you{br}see...{page}*sob*... Those Vandels are bound to{br}eat my darling Airplane!!{page}Waaaah... What am I going to do{br}now...?{close}",
+   "en": "I'm Gantry, the pilot!! Pleased to{br}meet ya!!{page}Though I'm out of work just now... A{br}Vandel stole my dear Airplane,{br}you see...{page}*sob*... Those Vandels are bound to{br}eat my darling Airplane!!{page}Waaaah... What am I going to{br}do now...?{close}",
    "kind": "msg",
    "speaker": "ガントリィ",
    "refs": 1
@@ -2276,7 +2276,7 @@
   {
    "id": "rom.1BDB8",
    "jp": "・・・・・・{br}たのむ・・・兄ちゃん・・・{page}ワシの飛行機を{br}助け出してくれんか・・・{page}助け出してくれたら・・・{br}着陸場所は選ぶが　好きなだけ{br}乗せてやるから・・・{page}のう・・・{br}なんとか　ならんかのう・・・{page}もしワシの　飛行機を見つけたら{br}また　教えてくれ・・・{page}よろしく　頼むぞ・・・{close}",
-   "en": "...... Please... my boy...{page}Could you rescue my Airplane...?{page}If you save her... I'll give you all the{br}rides you want, though we can only{br}land in certain places...{page}Please... Can't you help an old man{br}out...?{page}If you find my Airplane, come back{br}and tell me...{page}I'm counting on you...{close}",
+   "en": "...... Please... my boy...{page}Could you rescue my Airplane...?{page}If you save her... I'll give you all the{br}rides you want, though we can only{br}land in certain places...{page}Please... Can't you help an old{br}man out...?{page}If you find my Airplane, come back{br}and tell me...{page}I'm counting on you...{close}",
    "kind": "msg",
    "speaker": "ガントリィ",
    "refs": 1

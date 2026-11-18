@@ -53,7 +53,7 @@
   {
    "id": "rom.2F498",
    "jp": "そうですか・・・{page}また　いつでも　声をかけてください{close}",
-   "en": "I see...{page}Please feel free to ask me again{br}anytime.{close}",
+   "en": "I see...{page}Please feel free to ask me{br}again anytime.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -173,7 +173,7 @@
   {
    "id": "rom.2F750",
    "jp": "アーク戦士団（アーク　レンド　シグサ）{br}を仲間にしますか？{close}",
-   "en": "Recruit Ark's Squad (Ark, Rend, and{br}Shigusa)?{close}",
+   "en": "Recruit Ark's Squad (Ark, Rend,{br}and Shigusa)?{close}",
    "kind": "msg",
    "speaker": "アーク",
    "refs": 1
@@ -203,7 +203,7 @@
   {
    "id": "rom.2F7D0",
    "jp": "我々の力が必要になったら{br}いつでも声をかけてくれ・・・！{close}",
-   "en": "If you need our help, just say the{br}word...!{close}",
+   "en": "If you need our help, just say{br}the word...!{close}",
    "kind": "msg",
    "speaker": "アーク",
    "refs": 1
@@ -292,7 +292,7 @@
   {
    "id": "rom.2FA40",
    "jp": "やっぱ　人相が{br}悪っぽいからなのか・・・{page}また気が変わったら{br}声かけてくれよな・・・{close}",
-   "en": "Is it 'cause I look like a crook after{br}all...?{page}Give me a shout if ya change your{br}mind...{close}",
+   "en": "Is it 'cause I look like a crook{br}after all...?{page}Give me a shout if ya change{br}your mind...{close}",
    "kind": "msg",
    "speaker": "グレスト",
    "refs": 1
@@ -300,14 +300,14 @@
   {
    "id": "rom.2FA98",
    "jp": "あら、あんた、{br}今日も　かわいいわねぇ・・・{page}ウフ{close}",
-   "en": "Oh, you look as cute as ever today,{br}dear...{page}Hmhm.{close}",
+   "en": "Oh, you look as cute as ever{br}today, dear...{page}Hmhm.{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.2FAD0",
    "jp": "よう　兄ちゃん！{br}がんばってっか？{br}早く　平和な島に　してくれよな！！{close}",
-   "en": "Hey, pal! Workin' hard? Hurry up and{br}bring peace back to the island, will{br}ya?!{close}",
+   "en": "Hey, pal! Workin' hard? Hurry up and{br}bring peace back to the island,{br}will ya?!{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -374,7 +374,7 @@
   {
    "id": "rom.2FB94",
    "jp": "ぜひ　オレたちジーク戦士団を{br}仲間に　入れてくださいっ・・・！！{close}",
-   "en": "Please, let us join you! All of Zeke's{br}Squad...!!{close}",
+   "en": "Please, let us join you! All of{br}Zeke's Squad...!!{close}",
    "kind": "msg",
    "speaker": "ジーク",
    "refs": 1

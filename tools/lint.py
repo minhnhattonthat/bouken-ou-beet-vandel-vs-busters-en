@@ -5,7 +5,7 @@
 Errors (exit 1): Japanese left in `en`; text the engine cannot encode; control codes differing from the JP (line
 and page breaks may differ in `msg`); an arm9 / name slot over its byte cap (insert.text_cap); a dialogue message over
 engine.MSG_CODES (511) codes or a speaker over engine.SPEAKER_CODES (11), the expansion buffers; a line wider than its kind's budget, or more lines per page than the box has (tools/budgets.json, measured
-in phase 5, evidence in docs/windows.md). Kinds with English but no budget yet are counted in one warning line.
+in phase 5, evidence in docs/windows.md); a page that ends on one word the line above could share (lint.widow). Kinds with English but no budget yet are counted in one warning line.
 Runtime variables are measured with stand-ins (VARS): `{hero}` as the widest name the name entry allows.
 """
 import argparse
@@ -29,6 +29,18 @@ BREAKS = ('{br}', '{page}')
 # {name93} is unidentified, so it gets the 10-letter limit.
 VARS = {'{hero}': 'Mmmmmmmm', '{vandel}': 'Mmmmmmmm', '{name93}': 'Mmmmmmmmmm', '{monster}': 'Sand Owl Mmmm',
         '{count}': '9999'}
+SENT_END = re.compile(r'[.!?…]["”’)」』]*$')
+
+
+def widow(lines):
+    """True if a page of 2+ lines ends on one word while the line above has a word to spare: that line has two or
+    more words and does not end a sentence (a break after one is meant, e.g. "Hmph...{br}Fine."). `lines` as from
+    pages(). Fix: batches.py unwidow."""
+    if len(lines) < 2:
+        return False
+    last, prev = lines[-1].strip(), lines[-2].strip()
+    return bool(last and ' ' not in last and re.search(r'[A-Za-z]', last) and ' ' in prev
+                and not SENT_END.search(prev))
 
 
 def budget(kind):
@@ -87,6 +99,8 @@ def lint_entry(e, eng):
         for pg in pages(en):
             if len(pg) > b.get('lines', 1):
                 errs.append('%d lines > %d per page' % (len(pg), b.get('lines', 1)))
+            if b.get('lines', 1) > 1 and checks and widow(pg):
+                errs.append('one-word last line %r (move a word down: batches.py unwidow)' % pg[-1].strip())
             for i, line in enumerate(pg):
                 for c in checks:
                     lim = c['px']

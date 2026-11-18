@@ -11,7 +11,7 @@
   {
    "id": "rom.48034",
    "jp": "いやいや・・・{br}お見事です！！{page}{vandel}様{br}相変わらず　すばらしいですね・・・！！{page}東の島の「封印のリング」の発見と破壊{br}そしてご報告　ご苦労さまでした{page}では　またひとつ{br}「星」　を進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
-   "en": "My, my... Splendid work!!{page}{vandel} -sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}East Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with another{br}\"Star\"!!{page}Please, accept it...!{close}",
+   "en": "My, my... Splendid work!!{page}{vandel} -sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}East Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with{br}another \"Star\"!!{page}Please, accept it...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -56,7 +56,7 @@
   {
    "id": "rom.48250",
    "jp": "おめでとうございます！！{page}これで{vandel}様も{br}「六ッ星」！！{br}「七ッ星」まで　あと一つ・・・！！{page}ついにハーデン様と{br}並ばれたわけですね・・・！！{page}すばらしい・・・！！{page}世界最高の「七ッ星」ヴァンデルまで{br}もう少しですね・・・！！{br}がんばってください！！{close}",
-   "en": "Congratulations!!{page}You are now a \"Six-Star\" Vandel,{br}{vandel} -sama!! Just one more{br}Star to \"Seven-Star\" rank...!!{page}You have finally caught up with{br}Harden-sama...!!{page}Magnificent...!!{page}You are so close to becoming a{br}\"Seven-Star\" Vandel, the highest{br}rank in the world...!! Keep up the{page}fine work!!{close}",
+   "en": "Congratulations!!{page}You are now a \"Six-Star\" Vandel,{br}{vandel} -sama!! Just one more{br}Star to \"Seven-Star\" rank...!!{page}You have finally caught up{br}with Harden-sama...!!{page}Magnificent...!!{page}You are so close to becoming a{br}\"Seven-Star\" Vandel, the highest{br}rank in the world...!! Keep up the{page}fine work!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -71,7 +71,7 @@
   {
    "id": "rom.4847C",
    "jp": "あ・・・そうそう・・・{br}{vandel}様・・・{page}バスターでもないのに　ちょこまかと{br}われわれの邪魔立てをする{br}人間がいるのを　ご存知ですか？{page}双子の姉妹なのですが{br}妹はレジスタンス活動を　展開中・・・{close}",
-   "en": "Ah... That reminds me... {vandel}{br}-sama...{page}Are you aware of some humans who{br}keep scurrying about, interfering{br}with us, though they are not{page}even Busters?{page}They are twin sisters. The younger{br}one is active in the Resistance...{close}",
+   "en": "Ah... That reminds me...{br}{vandel} -sama...{page}Are you aware of some humans who{br}keep scurrying about, interfering{br}with us, though they are not{page}even Busters?{page}They are twin sisters. The younger{br}one is active in the Resistance...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -146,7 +146,7 @@
   {
    "id": "rom.48998",
    "jp": "眠い・・・{page}あんたの　ウワサは{br}夢の中にも聞こえてくる・・・{page}「六ッ星」か・・・{page}ヴァンデルは「星」の数が{br}全てじゃないことを　この「夢幻の覇者」{br}オロゾン様が　教えてやろう・・・{close}",
-   "en": "So sleepy...{page}Rumors of you reach me even in my{br}dreams...{page}\"Six-Star,\" are you...?{page}I, Orozon-sama, the \"Lord of{br}Dreams,\" shall teach you that a{br}Vandel's Stars are not{page}everything...{close}",
+   "en": "So sleepy...{page}Rumors of you reach me even in{br}my dreams...{page}\"Six-Star,\" are you...?{page}I, Orozon-sama, the \"Lord of{br}Dreams,\" shall teach you that a{br}Vandel's Stars are not{page}everything...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -198,7 +198,7 @@
   {
    "id": "rom.48AE0",
    "jp": "そうか・・・{page}じゃぁ・・・{br}一眠りさせてもらうとするか・・・{close}",
-   "en": "I see...{page}Then... I suppose I'll have a little{br}nap...{close}",
+   "en": "I see...{page}Then... I suppose I'll have a{br}little nap...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -206,7 +206,7 @@
   {
    "id": "rom.48B90",
    "jp": "里の門",
-   "en": "Gate",
+   "en": "Village Gate",
    "kind": "speaker",
    "refs": 1
   },
@@ -228,7 +228,7 @@
   {
    "id": "rom.48BD8",
    "jp": "ふぁーーっ・・・　眠い・・・{br}あんた門のくせに　少々うるさいよ・・・{br}おやすみ・・・{close}",
-   "en": "*yaaawn*... So sleepy... You're{br}rather noisy for a gate... Good{br}night...{close}",
+   "en": "*yaaawn*... So sleepy... You're{br}rather noisy for a gate...{br}Good night...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -236,7 +236,7 @@
   {
    "id": "rom.48C30",
    "jp": "里の門",
-   "en": "Gate",
+   "en": "Village Gate",
    "kind": "speaker",
    "refs": 1
   },
@@ -288,7 +288,7 @@
   {
    "id": "rom.48ED8",
    "jp": "ふぁーーっ・・・{br}なんですか・・・{br}うるさいですねー・・・{close}",
-   "en": "*yaaawn*... What is it...? You're so{br}noisy...{close}",
+   "en": "*yaaawn*... What is it...? You're{br}so noisy...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -318,7 +318,7 @@
   {
    "id": "rom.48F4C",
    "jp": "ふぁーーっ・・・{page}永遠に眠りたくなかったら　おとなしく{br}「封印のリング」の修復アイテム{br}とやらを出したほうがいいよ・・・{close}",
-   "en": "*yaaawn*...{page}Unless you wish to sleep forever,{br}you'd best cooperate and hand over{br}this item that repairs the \"Sealing{page}Rings\"...{close}",
+   "en": "*yaaawn*...{page}Unless you wish to sleep forever,{br}you'd best hand over that item{br}that repairs the \"Sealing Rings\"...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -438,7 +438,7 @@
   {
    "id": "rom.49164",
    "jp": "心配するな{br}あのバスターは　まだ{br}くたばっていない・・・！{close}",
-   "en": "Don't worry. That Buster isn't dead{br}yet...!{close}",
+   "en": "Don't worry. That Buster isn't{br}dead yet...!{close}",
    "kind": "msg",
    "speaker": "スレッド",
    "refs": 1
@@ -588,7 +588,7 @@
   {
    "id": "rom.494EC",
    "jp": "眠い・・・{br}ふぁーーっ・・・{page}「封印のリング」の修復アイテムについて{br}何か　知っていませんか・・・{close}",
-   "en": "So sleepy... *yaaawn*...{page}Do you know anything about the{br}item that repairs the \"Sealing{br}Rings\"...?{close}",
+   "en": "So sleepy... *yaaawn*...{page}Do you know anything about the{br}item that repairs the{br}\"Sealing Rings\"...?{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -618,7 +618,7 @@
   {
    "id": "rom.49590",
    "jp": "眠い・・・{page}私は・・・{br}早く一眠りしたいのです・・・{close}",
-   "en": "So sleepy...{page}I would like... to get some sleep{br}soon...{close}",
+   "en": "So sleepy...{page}I would like... to get some{br}sleep soon...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -783,7 +783,7 @@
   {
    "id": "rom.499C4",
    "jp": "また「封印のリング」が{br}破壊された・・・{page}いよいよ残る「封印のリング」は{br}あと１つ{close}",
-   "en": "Another \"Sealing Ring\" has been{br}destroyed...{page}Now there's only one \"Sealing Ring\"{br}left.{close}",
+   "en": "Another \"Sealing Ring\" has{br}been destroyed...{page}Now there's only one \"Sealing{br}Ring\" left.{close}",
    "kind": "msg",
    "speaker": "レジスタンスＦ",
    "refs": 1
@@ -798,7 +798,7 @@
   {
    "id": "rom.49A2C",
    "jp": "その「封印のリング」が{br}修復される前に{br}最後の１つが破壊されてしまうと・・・{page}取り返しのつかないことに{br}なりますね・・・{close}",
-   "en": "If the last \"Sealing Ring\" is{br}destroyed before that one can be{br}repaired...{page}There will be no undoing the{br}damage...{close}",
+   "en": "If the last \"Sealing Ring\" is{br}destroyed before that one can{br}be repaired...{page}There will be no undoing{br}the damage...{close}",
    "kind": "msg",
    "speaker": "レジスタンスＧ",
    "refs": 1
@@ -843,7 +843,7 @@
   {
    "id": "rom.49B6C",
    "jp": "最後のリングは{br}必ず守り抜くぞ・・・！！{close}",
-   "en": "We'll defend the last ring, no matter{br}what...!!{close}",
+   "en": "We'll defend the last ring, no{br}matter what...!!{close}",
    "kind": "msg",
    "speaker": "レジスタンスＨ",
    "refs": 1
@@ -970,7 +970,7 @@
   {
    "id": "rom.49D64",
    "jp": "これは　これは{br}{vandel}様・・・{page}全ての「封印のリング」の破壊・・・！{br}おめでとうございます・・・！！{page}とはいえ・・・{br}このとおり　特に何も変わりが{br}無いご様子・・・{page}ご不満であろうと思って　このように{br}再び　参上した次第です・・・{page}実は・・・{close}",
-   "en": "Well, well, if it isn't{br}{vandel}-sama...{page}Congratulations on destroying every{br}last \"Sealing Ring\"!!{page}And yet... As you can see, nothing in{br}particular seems to have changed...{page}I imagined you might be dissatisfied,{br}so I have come to see you once{br}again...{page}The truth is...{close}",
+   "en": "Well, well, if it{br}isn't {vandel}-sama...{page}Congratulations on destroying every{br}last \"Sealing Ring\"!!{page}And yet... As you can see, nothing in{br}particular seems to have changed...{page}I imagined you might be dissatisfied,{br}so I have come to see you{br}once again...{page}The truth is...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -985,7 +985,7 @@
   {
    "id": "rom.49E64",
    "jp": "破壊するべきモノが　{br}まだもう一つ残っておりました・・・{page}黄金城の女神像が１つ・・・{page}「封印のリング」が{br}西の島に９つ・・・{br}東の島に９つ・・・{page}そして　最後が{br}東の里の女神像なのです・・・{page}他の「封印のリング」を　全て{br}破壊して　冥力が活性化した{br}今がチャンスです・・・！{page}女神像への立ち入りを{br}邪魔していた扉も　難なく{br}越えられるはずです・・・！{page}今なら　女神像・・・{br}本当に最後の封印を破壊する{br}チャンスです・・・！{page}つまり・・・！！{page}世界最高の「七ッ星」ヴァンデルが{br}もう　目の前ということですね・・・！！{page}ウフッ・・・ウフフッ・・・{br}ワクワクします・・・！！{br}がんばってくださいね・・・！！{close}",
-   "en": "There was still one more target left{br}to destroy...{page}One goddess statue at the Golden{br}Castle...{page}Nine \"Sealing Rings\" on West Island...{br}And nine on East Island...{page}And finally, the goddess statue in{br}East Village...{page}Now that you have destroyed all{br}the other \"Sealing Rings\" and{br}awakened the Dark Power, your{page}opportunity has arrived...!{page}You should have no trouble passing{br}the door that barred your way to{br}the goddess statue...!{page}Now is your chance to destroy that{br}statue... The very last seal...!{page}In other words...!!{page}The world's highest rank,{br}\"Seven-Star\" Vandel, is almost{br}within your grasp...!!{page}Hmhm... Hmhmhm... How very{br}exciting...!! Do give it your all...!!{close}",
+   "en": "There was still one more target left{br}to destroy...{page}One goddess statue at the{br}Golden Castle...{page}Nine \"Sealing Rings\" on West Island...{br}And nine on East Island...{page}And finally, the goddess statue in{br}East Village...{page}Now that you have destroyed all{br}the other \"Sealing Rings\" and{br}awakened the Dark Power, your{page}opportunity has arrived...!{page}You should have no trouble passing{br}the door that barred your way to{br}the goddess statue...!{page}Now is your chance to destroy that{br}statue... The very last seal...!{page}In other words...!!{page}The world's highest rank,{br}\"Seven-Star\" Vandel, is almost{br}within your grasp...!!{page}Hmhm... Hmhmhm... How very{br}exciting...!! Do give it your all...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1000,7 +1000,7 @@
   {
    "id": "rom.4A1B0",
    "jp": "ここは　絶対に　通さないぞ！！{close}",
-   "en": "There's no way we're letting you{br}through!!{close}",
+   "en": "There's no way we're letting{br}you through!!{close}",
    "kind": "msg",
    "speaker": "レジスタンスＩ",
    "refs": 1
@@ -1150,7 +1150,7 @@
   {
    "id": "rom.4A5A8",
    "jp": "そう　我々だけだ・・・{page}さっき　知らせの笛が聞こえた・・・{br}直に　応援が到着するだろう・・・{page}それまでは{br}なんとか　我々で　時間を{br}かせがなければ・・・{page}守り抜くぞっ！！{close}",
-   "en": "Yes, just us...{page}I heard the warning whistle a moment{br}ago... Reinforcements should arrive{br}shortly...{page}Until then, we must find some way{br}to buy time...{page}We will hold the line!!{close}",
+   "en": "Yes, just us...{page}I heard the warning whistle a moment{br}ago... Reinforcements should{br}arrive shortly...{page}Until then, we must find some way{br}to buy time...{page}We will hold the line!!{close}",
    "kind": "msg",
    "speaker": "アーク",
    "refs": 1
@@ -1570,7 +1570,7 @@
   {
    "id": "rom.4AD48",
    "jp": "{hero}{br}母さんを頼んだぞーー！！{close}",
-   "en": "{hero}! Take care of your{br}mother!!{close}",
+   "en": "{hero}! Take care of{br}your mother!!{close}",
    "kind": "msg",
    "speaker": "父親",
    "refs": 1
@@ -1600,7 +1600,7 @@
   {
    "id": "rom.4AEB8",
    "jp": "おめでとうございます！！{page}これでついに　世界最高の{br}「七ッ星」ヴァンデルですね・・・！！{page}{vandel}様は今後{br}この強大な冥力を　徐々に取得して{br}どこまでも　強力になるはず・・・{page}期待しておりますよ・・・！{page}さあ　世界最高の「七ッ星」ヴァンデル{br}として最初のお仕事です・・・！{page}「ビィト戦士団」を{br}倒してください・・・！！{page}「八輝星」目指して　ひきつづき{br}がんばってくださいね！！{page}では　わたくしはこれで{br}失礼いたします・・・！！{close}",
-   "en": "Congratulations!!{page}At last, you are a \"Seven-Star\"{br}Vandel, the highest rank in the{br}world...!!{page}{vandel}-sama, as you gradually{br}absorb this immense Dark Power,{br}your strength should grow{page}without limit...{page}I expect great things from you...!{page}Now, your first task as a{br}\"Seven-Star\" Vandel of the world's{br}highest rank...!{page}Defeat the \"Beet Warriors\"...!!{page}Keep up the good work, and aim to{br}join the \"Eight Shining Stars\"!!{page}And with that, I shall take my{br}leave...!!{close}",
+   "en": "Congratulations!!{page}At last, you are a \"Seven-Star\"{br}Vandel, the highest rank in{br}the world...!!{page}{vandel}-sama, as you gradually{br}absorb this immense Dark Power,{br}your strength should grow{page}without limit...{page}I expect great things from you...!{page}Now, your first task as a{br}\"Seven-Star\" Vandel of the world's{br}highest rank...!{page}Defeat the \"Beet Warriors\"...!!{page}Keep up the good work, and aim to{br}join the \"Eight Shining Stars\"!!{page}And with that, I shall take{br}my leave...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1795,7 +1795,7 @@
   {
    "id": "rom.4B650",
    "jp": "いやいやいや・・・{br}拝見させていただきました・・・{br}・・・すばらしいバトルでした！！{page}あの「強欲君主」とまで呼ばれた{br}ハーデン様を倒されるのですから・・・{page}さすが{vandel}様！{br}お見事です！！{page}「黄金城」の城主はこれから　他ならぬ{br}{vandel}様ということに{br}なりますね・・・！！{page}おめでとうございます・・・！！{page}これは　わたくしからの{br}ほんの気持ちです・・・！{br}お受け取り下さいませ・・・{close}",
-   "en": "My, my, my... I watched the whole{br}thing... What a splendid battle!!{page}To think you defeated Harden-sama{br}himself, the one they called the{br}\"Greedy Overlord\"...{page}Just as I would expect of you,{br}{vandel}-sama! Magnificent!!{page}From now on, the lord of the \"Golden{br}Castle\" will be none other than you,{br}{vandel}-sama...!!{page}Congratulations...!!{page}Here is a small token of my{br}appreciation...! Please accept it...{close}",
+   "en": "My, my, my... I watched the whole{br}thing... What a splendid battle!!{page}To think you defeated Harden-sama{br}himself, the one they called the{br}\"Greedy Overlord\"...{page}Just as I would expect of you,{br}{vandel}-sama! Magnificent!!{page}From now on, the lord of the \"Golden{br}Castle\" will be none other than{br}you, {vandel}-sama...!!{page}Congratulations...!!{page}Here is a small token of my{br}appreciation...! Please accept it...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1931,7 +1931,7 @@
   {
    "id": "rom.4BA6C",
    "jp": "すべての「封印のリング」が修復されて{br}銀色の輝きをとりもどした・・・{page}予想外の人間の善戦に{br}撤退することにした・・・{close}",
-   "en": "All the \"Sealing Rings\" were{br}restored, regaining their silver{br}radiance...{page}Faced with unexpectedly fierce{br}human resistance, you decided to{br}retreat...{close}",
+   "en": "All the \"Sealing Rings\" were{br}restored, regaining their{br}silver radiance...{page}Faced with unexpectedly fierce{br}human resistance, you decided{br}to retreat...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -1959,7 +1959,7 @@
   {
    "id": "rom.4BC24",
    "jp": "最近　我が「黄金城」の上を{br}飛び回る飛行機が　いるのを{br}知っているか・・・？{page}ゴミのくせに　おそれおおくも{br}このワシの　頭上を　汚すとは{br}なんたる　無礼者だっ！！{page}しかも　我が頭上を汚すだけに{br}とどまらず　我が「黄金城」の　目の前に{br}着陸することも　あるらしいっ・・・{page}・・・なるほど{page}この　ゴージャス　アンド　リッチな{br}「黄金城」に　ひかれるのも{br}無理はないが・・・{page}しかし　いつまでも　この無礼を{br}見過ごすわけにはいかんっ・・・{page}{vandel}・・・{br}あの　無礼な飛行機を{br}確保しろっ・・・{page}ただし・・・{br}無傷でな・・・{close}",
-   "en": "Seen that Airplane flying over my{br}\"Golden Castle\" lately...?{page}Mere junk, daring to foul the sky{br}above me! Such insolence!!{page}Worse, it even lands right in front of{br}my \"Golden Castle\"...{page}...Well, yes. Who could resist my{br}gorgeous and rich \"Golden Castle\"?{page}But I can't let this insolence go on...{page}{vandel}... Seize that insolent{br}Airplane...{page}Without a scratch...{close}",
+   "en": "Seen that Airplane flying over my{br}\"Golden Castle\" lately...?{page}Mere junk, daring to foul the sky{br}above me! Such insolence!!{page}Worse, it even lands right in front of{br}my \"Golden Castle\"...{page}...Well, yes. Who could resist my{br}gorgeous and rich \"Golden Castle\"?{page}But I can't let this insolence go on...{page}{vandel}... Seize that{br}insolent Airplane...{page}Without a scratch...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1974,7 +1974,7 @@
   {
    "id": "rom.4BE34",
    "jp": "ベカトルテ近海のヴァンデルは{br}「鉄」が　お好みらしいからな・・・{page}確保した飛行機を{br}高値で売りつけてやる・・・！{br}クックックッ・・・{page}いいか・・・　ヴァンデルたるもの{br}頭を使わんと　いかん・・・{page}ワシが　なぜ「六ツ星」に{br}までなったか・・・{br}それは頭脳派だからだよ・・・{page}クックックッ・・・{close}",
-   "en": "I hear the Vandels in the Bekatorte{br}Seas have a taste for \"iron\"...{page}I'll sell them the captured Airplane{br}for a hefty price...! Heh heh heh...{page}Listen... A Vandel must use his{br}head...{page}How did I become a \"Six-Star\"...? By{br}using my brains...{page}Heh heh heh...{close}",
+   "en": "I hear the Vandels in the Bekatorte{br}Seas have a taste for \"iron\"...{page}I'll sell them the captured Airplane{br}for a hefty price...! Heh heh heh...{page}Listen... A Vandel must use{br}his head...{page}How did I become a \"Six-Star\"...? By{br}using my brains...{page}Heh heh heh...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1

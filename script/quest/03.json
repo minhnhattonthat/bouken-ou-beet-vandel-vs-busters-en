@@ -11,14 +11,14 @@
   {
    "id": "quest.0639C",
    "jp": "黄金城の上を飛び回る{br}飛行機を無傷で確保する",
-   "en": "Seize the Airplane flying over the{br}Golden Castle without damaging{br}it.",
+   "en": "Seize the Airplane flying over the{br}Golden Castle without{br}damaging it.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.063CC",
    "jp": "黄金城の上を飛び回る{br}飛行機を無傷で確保する",
-   "en": "Seize the Airplane flying over the{br}Golden Castle without damaging{br}it.",
+   "en": "Seize the Airplane flying over the{br}Golden Castle without{br}damaging it.",
    "kind": "desc",
    "refs": 1
   },
@@ -242,14 +242,14 @@
   {
    "id": "quest.065F0",
    "jp": "腕試しガロニュート",
-   "en": "Test Your Strength Against{br}Garonute",
+   "en": "Test Your Strength{br}Against Garonute",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.06604",
    "jp": "腕試しガロニュート",
-   "en": "Test Your Strength Against{br}Garonute",
+   "en": "Test Your Strength{br}Against Garonute",
    "kind": "desc",
    "refs": 1
   },

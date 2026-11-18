@@ -102,14 +102,14 @@
   {
    "id": "quest.0412C",
    "jp": "浜辺に出現する{br}モンスター（ガブリ貝）５匹を{br}倒す",
-   "en": "Defeat five Snapclams on the{br}beach.",
+   "en": "Defeat five Snapclams on{br}the beach.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.04160",
    "jp": "浜辺に出現する{br}モンスター（ガブリ貝）５匹を倒す",
-   "en": "Defeat five Snapclams on the{br}beach.",
+   "en": "Defeat five Snapclams on{br}the beach.",
    "kind": "desc",
    "refs": 1
   },
@@ -144,14 +144,14 @@
   {
    "id": "quest.04214",
    "jp": "行く手をふさぐワナを解除する",
-   "en": "Disarm the traps blocking your{br}path.",
+   "en": "Disarm the traps blocking{br}your path.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.04234",
    "jp": "行く手をふさぐワナを解除する",
-   "en": "Disarm the traps blocking your{br}path.",
+   "en": "Disarm the traps blocking{br}your path.",
    "kind": "desc",
    "refs": 1
   },
@@ -207,14 +207,14 @@
   {
    "id": "quest.04304",
    "jp": "行く手をふさぐ壁を除去",
-   "en": "Remove the wall blocking your{br}path.",
+   "en": "Remove the wall blocking{br}your path.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.0431C",
    "jp": "行く手をふさぐ壁を除去",
-   "en": "Remove the wall blocking your{br}path.",
+   "en": "Remove the wall blocking{br}your path.",
    "kind": "desc",
    "refs": 1
   },
@@ -361,7 +361,7 @@
   {
    "id": "quest.044C8",
    "jp": "ゼロス雪原に出現する{br}雪男とウワサされる{br}モンスターを１匹倒す",
-   "en": "Defeat one of the monsters{br}rumored to be yetis in Zeros{br}Snowfield.",
+   "en": "Defeat one of the monsters{br}rumored to be yetis in{br}Zeros Snowfield.",
    "kind": "desc",
    "refs": 1
   },
@@ -382,7 +382,7 @@
   {
    "id": "quest.04558",
    "jp": "ルブレイ湖に出現する{br}モンスター（アクアドッグ）を５匹倒す",
-   "en": "Defeat five Aqua Dogs at Rubrei{br}Lake.",
+   "en": "Defeat five Aqua Dogs at{br}Rubrei Lake.",
    "kind": "desc",
    "refs": 1
   },
@@ -711,14 +711,14 @@
   {
    "id": "quest.0486C",
    "jp": "東の里の異変",
-   "en": "Something is wrong in East{br}Village.",
+   "en": "Something is wrong in{br}East Village.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.0487C",
    "jp": "東の里の異変",
-   "en": "Something is wrong in East{br}Village.",
+   "en": "Something is wrong in{br}East Village.",
    "kind": "desc",
    "refs": 1
   },
@@ -900,14 +900,14 @@
   {
    "id": "quest.04A5C",
    "jp": "敵の総攻撃",
-   "en": "The enemy launches an all-out{br}attack.",
+   "en": "The enemy launches an{br}all-out attack.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.04A68",
    "jp": "敵の総攻撃",
-   "en": "The enemy launches an all-out{br}attack.",
+   "en": "The enemy launches an{br}all-out attack.",
    "kind": "desc",
    "refs": 1
   },
@@ -1047,14 +1047,14 @@
   {
    "id": "quest.04B9C",
    "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
-   "en": "Repair the Sealing Ring in Sole{br}Valley.{close}",
+   "en": "Repair the Sealing Ring in{br}Sole Valley.{close}",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.04BC8",
    "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
-   "en": "Repair the Sealing Ring in Sole{br}Valley.{close}",
+   "en": "Repair the Sealing Ring in{br}Sole Valley.{close}",
    "kind": "desc",
    "refs": 1
   },
@@ -1173,14 +1173,14 @@
   {
    "id": "quest.055E8",
    "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
-   "en": "Buy ten Build Ants at the Vandel{br}House to build the Golden{br}Castle.",
+   "en": "Buy ten Build Ants at the Vandel{br}House to build the{br}Golden Castle.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.05634",
    "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
-   "en": "Buy ten Build Ants at the Vandel{br}House to build the Golden{br}Castle.",
+   "en": "Buy ten Build Ants at the Vandel{br}House to build the{br}Golden Castle.",
    "kind": "desc",
    "refs": 1
   },
@@ -1194,14 +1194,14 @@
   {
    "id": "quest.0568C",
    "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
-   "en": "Buy ten Build Ants at the Vandel{br}House to build the Golden{br}Castle.",
+   "en": "Buy ten Build Ants at the Vandel{br}House to build the{br}Golden Castle.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.056D8",
    "jp": "黄金城を建設するために必要な{br}「ビルドアント」をさらに１０匹{br}魔賓館で買ってくる",
-   "en": "Buy 10 more Build Ants at the{br}Vandel House to build the Golden{br}Castle.",
+   "en": "Buy 10 more Build Ants at the{br}Vandel House to build the{br}Golden Castle.",
    "kind": "desc",
    "refs": 1
   },
@@ -1236,14 +1236,14 @@
   {
    "id": "quest.0576C",
    "jp": "金の増産指示",
-   "en": "Orders to Increase Gold{br}Production",
+   "en": "Orders to Increase{br}Gold Production",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.0577C",
    "jp": "金の増産指示",
-   "en": "Orders to Increase Gold{br}Production",
+   "en": "Orders to Increase{br}Gold Production",
    "kind": "desc",
    "refs": 1
   },
@@ -2034,14 +2034,14 @@
   {
    "id": "quest.05EE0",
    "jp": "双子島完全征服",
-   "en": "Total Conquest of the Twin{br}Islands",
+   "en": "Total Conquest of the{br}Twin Islands",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.05EF0",
    "jp": "双子島完全征服",
-   "en": "Total Conquest of the Twin{br}Islands",
+   "en": "Total Conquest of the{br}Twin Islands",
    "kind": "desc",
    "refs": 1
   },

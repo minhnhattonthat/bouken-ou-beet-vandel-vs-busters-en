@@ -25,7 +25,7 @@
   {
    "id": "rom.24200",
    "jp": "カギ３を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "Obtained Key 3.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "Obtained Key 3.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -350,7 +350,7 @@
   {
    "id": "rom.27F20",
    "jp": "この壁は他の壁とは{br}違うようだ{page}壁の向こうに人の気配がする{close}",
-   "en": "This wall looks different from the{br}others.{page}You sense someone on the other{br}side.{close}",
+   "en": "This wall looks different from{br}the others.{page}You sense someone on the{br}other side.{close}",
    "kind": "msg",
    "refs": 1
   },

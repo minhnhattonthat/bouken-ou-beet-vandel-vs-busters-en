@@ -11,7 +11,7 @@
   {
    "id": "rom.4405C",
    "jp": "なに！　ヴァンデル！！{br}いつの間にっ！！{close}",
-   "en": "What!? A Vandel!! When did you get{br}here!?{close}",
+   "en": "What!? A Vandel!! When did you{br}get here!?{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -26,7 +26,7 @@
   {
    "id": "rom.44094",
    "jp": "見させてもらったぜ・・・{br}アンタのバトル・・・{page}さっきの　バスターは{br}ただのバスターじゃねぇ・・・{page}ＢＢ・・・ブロードバスターだ・・・{br}レベルは最低でも４０以上だろうさ・・・{page}それに　勝つんだから{br}アンタの実力は　ホンモノさ・・・{page}そのアンタの　強さを見込んで{br}頼みがある・・・{page}オレを　アンタの仲間に{br}してほしいんだ！！{page}「ガネール」の　下で{br}あいつの　言いなりになるのは{br}もう　まっぴらごめんさ・・・{page}なぁ　頼むぜ・・・{br}力になるからさ！{br}仲間にしてくれよ！！{close}",
-   "en": "I saw that... Your battle...{page}That Buster just now was no{br}ordinary Buster...{page}A BB... A Broad Buster... Had to be at{br}least level 40...{page}If you can beat that, you're the real{br}deal...{page}Seeing how strong you are, I've got a{br}favor to ask...{page}Let me join you!!{page}I've had it with working under{br}\"Ganeer\" and doing whatever he{br}says...{page}C'mon, I'm begging ya... I'll pull my{br}weight! Let me join!!{close}",
+   "en": "I saw that... Your battle...{page}That Buster just now was no{br}ordinary Buster...{page}A BB... A Broad Buster... Had to be at{br}least level 40...{page}If you can beat that, you're the{br}real deal...{page}Seeing how strong you are, I've got a{br}favor to ask...{page}Let me join you!!{page}I've had it with working under{br}\"Ganeer\" and doing whatever{br}he says...{page}C'mon, I'm begging ya... I'll pull my{br}weight! Let me join!!{close}",
    "kind": "msg",
    "speaker": "ヤギール",
    "refs": 1
@@ -86,7 +86,7 @@
   {
    "id": "rom.44450",
    "jp": "困りましたね・・・{br}ミイラとりがミイラになるとは{br}このことです・・・{page}ヤギールは　私からの大量の借金を{br}無視して　あなたになびいてしまいました{page}困りましたね・・・{page}借りたものは　きちんと返す・・・{br}これは　当たり前のことだと{br}思うのですが・・・{page}ちがいますかな？{page}では当たり前のことを{br}分かっていただいたところで{br}お聞きします・・・{page}私が　お貸しした１０万ベイル{br}今　ここで　返していただけますね？{close}",
-   "en": "How troubling... My own collector has{br}been collected...{page}Yagil has disregarded his enormous{br}debt to me and gone over to your{br}side.{page}How troubling...{page}One must repay what one borrows... I{br}should think that goes without{br}saying...{page}Wouldn't you agree?{page}Now that we understand that simple{br}principle, allow me to ask...{page}You will repay the 100,000 Beil I lent{br}you, here and now, won't you?{close}",
+   "en": "How troubling... My own collector has{br}been collected...{page}Yagil has disregarded his enormous{br}debt to me and gone over to{br}your side.{page}How troubling...{page}One must repay what one borrows... I{br}should think that goes{br}without saying...{page}Wouldn't you agree?{page}Now that we understand that simple{br}principle, allow me to ask...{page}You will repay the 100,000 Beil I lent{br}you, here and now, won't you?{close}",
    "kind": "msg",
    "speaker": "ガネール",
    "refs": 1
@@ -222,7 +222,7 @@
   {
    "id": "rom.44A74",
    "jp": "一緒に人間どもを{br}追い詰めてもよし・・・{page}魔賓館で　腹心モンスターに{br}格上げしてもよし・・・{page}貴様のその下等な能力・・・{br}取り込みでパワーアップしてもよし・・・{page}おまえの　好きにしろっ・・・{br}詳しくは　シャギー館長にでも{br}聞くんだな・・・{page}ガーッハッハッハッ！！{close}",
-   "en": "You can hunt down those humans{br}together...{page}Or promote it to a lieutenant{br}monster at the Vandel House...{page}Or use that lowly ability of yours...{br}Absorb it to power yourself up...{page}Do whatever you like... Ask Manager{br}Shagie if you want the details...{page}Gwaaahahaha!!{close}",
+   "en": "You can hunt down those{br}humans together...{page}Or promote it to a lieutenant{br}monster at the Vandel House...{page}Or use that lowly ability of yours...{br}Absorb it to power yourself up...{page}Do whatever you like... Ask Manager{br}Shagie if you want the details...{page}Gwaaahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -305,7 +305,7 @@
   {
    "id": "rom.44D48",
    "jp": "これは　これは{br}{vandel}様・・・！{page}「封印のリング」の破壊は{br}順調のようですね・・・{br}さすがです・・・！{page}{vandel}様には{br}ぜひ「七ッ星」・・・{page}そして　さらにその上・・・{br}「八輝星」を目指していただきたい{br}ものです・・・！！{page}いやぁ　楽しみです・・・！！{page}この島の地下に眠る強大な冥力を{br}まとわれた{vandel}様の{br}お姿・・・{page}いやぁ・・・想像しただけで{br}思わず身震いしてしまいます・・・{page}ここで少し　お願いがございます・・・{close}",
-   "en": "Ah, {vandel}-sama! Your{br}destruction of the \"Sealing Rings\"{br}seems to be going splendidly...{page}Just as I expected!{page}I do hope you will aim for{br}\"Seven-Star\" rank,{br}{vandel}-sama...{page}And beyond that... A place among{br}the \"Eight Shining Stars\"!{page}Oh, I can hardly wait!{page}The sight of {vandel}-sama{br}cloaked in the immense Dark Power{br}slumbering beneath this island...{page}Why, the very thought sends a{br}shiver through me!{page}Now, I have a small favor to ask...{close}",
+   "en": "Ah, {vandel}-sama! Your{br}destruction of the \"Sealing Rings\"{br}seems to be going splendidly...{page}Just as I expected!{page}I do hope you will aim for{br}\"Seven-Star\"{br}rank, {vandel}-sama...{page}And beyond that... A place among{br}the \"Eight Shining Stars\"!{page}Oh, I can hardly wait!{page}The sight of {vandel}-sama{br}cloaked in the immense Dark Power{br}slumbering beneath this island...{page}Why, the very thought sends a{br}shiver through me!{page}Now, I have a small favor to ask...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -320,7 +320,7 @@
   {
    "id": "rom.44EEC",
    "jp": "この冥力を解き放つための{br}「封印のリング」の場所を{br}把握しておきたいのです・・・{page}この双子島には　今わたくしたちのいる{br}西の島と　東の島の　二つの島が{br}ございます・・・{page}{vandel}様には{br}それぞれの島の「封印のリング」の場所を{br}ご報告いただきたいのです{page}もちろん{vandel}様ほどの{br}お方に　お願いするのですから{page}その見返りは　ちゃんとご用意させて{br}いただいております・・・{page}それぞれの島の「封印のリング」を全て{br}発見して破壊すると　一つ「星」を{br}さしあげる・・・{page}というのは　いかがでしょうか・・・{page}全ての「封印のリング」を見つけて破壊{page}そしてわたくしに　ご報告いただければ{br}なんと「星」を二つ手に入れられる{br}わけです・・・{page}すばらしい・・・！{page}ぜひ　この機会に星の数を{br}増やされますよう{br}おすすめいたします・・・{page}ご理解いただけましたか？{close}",
-   "en": "I would like to know the locations of{br}the \"Sealing Rings\" so that we may{br}release this Dark Power...{page}The Twin Islands consist of West{br}Island, where we are now, and East{br}Island...{page}I would like you to report the{br}locations of each island's \"Sealing{br}Rings\", {vandel}-sama.{page}Naturally, when asking a favor of{br}someone of your stature,{br}{vandel}-sama...{page}I make certain to offer a suitable{br}reward...{page}Find and destroy every \"Sealing{br}Ring\" on an island, and I shall award{br}you one \"Star\"...{page}How does that sound?{page}Find and destroy every \"Sealing{br}Ring\"...{page}Then report back to me, and you will{br}earn no fewer than two \"Stars\"!{page}Splendid!{page}I heartily recommend taking this{br}opportunity to increase your Star{br}count...{page}Have I explained everything clearly?{close}",
+   "en": "I would like to know the locations of{br}the \"Sealing Rings\" so that we may{br}release this Dark Power...{page}The Twin Islands consist of West{br}Island, where we are now, and{br}East Island...{page}I would like you to report the{br}locations of each island's \"Sealing{br}Rings\", {vandel}-sama.{page}Naturally, when asking a favor of{br}someone of your{br}stature, {vandel}-sama...{page}I make certain to offer a{br}suitable reward...{page}Find and destroy every \"Sealing{br}Ring\" on an island, and I shall award{br}you one \"Star\"...{page}How does that sound?{page}Find and destroy every{br}\"Sealing Ring\"...{page}Then report back to me, and you will{br}earn no fewer than two \"Stars\"!{page}Splendid!{page}I heartily recommend taking this{br}opportunity to increase your{br}Star count...{page}Have I explained everything clearly?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -335,7 +335,7 @@
   {
    "id": "rom.451D0",
    "jp": "{vandel}様の{br}実力・・・{br}星以上とお見受けいたします・・・！{page}まさかいつまでも　ハーデン様の下に{br}いらっしゃるおつもりじゃ{br}ありませんよね・・・！！{page}実は　もうすごいこと{br}考えちゃったりしてます・・・！？{br}いやぁ　楽しみです・・・！！{close}",
-   "en": "Your abilities, {vandel}-sama...{br}Seem to far surpass your Star{br}rank...!{page}Surely you don't intend to remain{br}under Harden-sama forever...!!{page}Perhaps you're already plotting{br}something magnificent...!? Oh, I can{br}hardly wait...!!{close}",
+   "en": "Your abilities, {vandel}-sama...{br}Seem to far surpass your{br}Star rank...!{page}Surely you don't intend to remain{br}under Harden-sama forever...!!{page}Perhaps you're already plotting{br}something magnificent...!? Oh, I can{br}hardly wait...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -350,7 +350,7 @@
   {
    "id": "rom.45344",
    "jp": "おい！　まさか　君も{br}この島のヒミツを　探しに{br}きたんじゃないだろうね・・・{page}このベカトルテ近海では{br}この島は　最近ちょっとした{br}話題なんだ・・・{page}もちろん　このベカトルテ近海最強の{br}「鋼鉄の爪」ディアム様の耳にも{br}そのウワサが届いたってわけさ・・・{page}なんせあの「強欲君主」が乗り込んで{br}きたんだから　なにかあるに{br}ちがいないってね・・・{page}長い角が目立つ部下を　連れているって{br}ウワサだけど・・・{page}・・・！！{page}しまった！！　まさかその角っ！？{br}・・・つい　口がすべってしまった！！{page}まぁ　いい・・・{br}口を封じれば　いいだけだからな！！{page}セアーーーーーーッ！！{close}",
-   "en": "Hey! Seeking this island's secret{br}too?{page}It's the talk of the Bekatorte Seas{br}lately! Even I, \"Steel Claw\"{br}Diam-sama, strongest in these{page}seas, heard!{page}If the \"Greedy Overlord\" came,{br}something must be here! They say{br}his underling has striking long{page}horns...{page}...!! Blast! Those horns!? I let that slip!{page}No matter... I'll silence you!{br}SEYAAAAAA!!{close}",
+   "en": "Hey! Seeking this island's{br}secret too?{page}It's the talk of the Bekatorte Seas{br}lately! Even I, \"Steel Claw\"{br}Diam-sama, strongest in these{page}seas, heard!{page}If the \"Greedy Overlord\" came,{br}something must be here! They say{br}his underling has striking long{page}horns...{page}...!! Blast! Those horns!? I let that slip!{page}No matter... I'll silence you!{br}SEYAAAAAA!!{close}",
    "kind": "msg",
    "speaker": "ディアム",
    "refs": 1
@@ -395,7 +395,7 @@
   {
    "id": "rom.457A0",
    "jp": "ちっ{br}燃え尽きるのはオレ様の方・・・{br}か・・・{page}オレ様の　完敗だ・・・{page}・・・よかったら{br}仲間にしてくれないか・・・？{close}",
-   "en": "Tch... So I'm the one... who burns{br}out...{page}You beat me... fair and square...{page}...If you don't mind... could I join{br}you...?{close}",
+   "en": "Tch... So I'm the one... who{br}burns out...{page}You beat me... fair and square...{page}...If you don't mind... could I{br}join you...?{close}",
    "kind": "msg",
    "speaker": "ギルス",
    "refs": 1
@@ -440,7 +440,7 @@
   {
    "id": "rom.45904",
    "jp": "もう！！{br}こんなんじゃ　遺跡に{br}入れないじゃん！！{page}どこかに橋をかける　ボタンがあるって{br}いってたけど・・・{page}どこにあんのよっ！{br}そんなボタン！！{page}あぁ・・・{br}暑くて　頭がぼーっとするぅー！！{page}ボタンは見つからないし　暑いし{br}なんなのよぉー！！{br}もぉーーっ！！{close}",
-   "en": "Oh, come on!! How am I supposed to{br}get into the ruins like this!?{page}They said there's a button{br}somewhere that lowers a bridge...{page}So where is it!? Where's that stupid{br}button!?{page}Ugh... It's so hot, I can't think{br}straight!!{page}No button, boiling heat... What's the{br}deal!? Aaargh!!{close}",
+   "en": "Oh, come on!! How am I supposed to{br}get into the ruins like this!?{page}They said there's a button{br}somewhere that lowers a bridge...{page}So where is it!? Where's that{br}stupid button!?{page}Ugh... It's so hot, I can't{br}think straight!!{page}No button, boiling heat... What's the{br}deal!? Aaargh!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -575,7 +575,7 @@
   {
    "id": "rom.45CFC",
    "jp": "クックックッ・・・{br}誰の　おかげか　わかっている{br}だろうな・・・{page}いいか・・・{br}下の方の星なんぞ　クズなんだよ・・・{page}だからさっさと　上がって来い・・・{br}ワシは貴様を　買ってるんだからな・・・{page}まぁ　それはさておき・・・{page}「オーラン坑道」の中に{br}「封印のリング」があるらしい・・・{page}その破壊に向かってくれ・・・{page}よろしく　たのむぞ・・・{page}そう　そう・・・{page}あまり　調子に乗ってると{br}足をすくわれるぞ・・・{br}気をつけろよ・・・{close}",
-   "en": "Heh heh heh... You know who you{br}have to thank for that... don't you?{page}Listen... Those lower Stars are{br}worthless...{page}So hurry up and climb the ranks... I've{br}got high hopes for you...{page}Well, enough of that...{page}Apparently, there's a \"Sealing Ring\"{br}inside \"Oran Mine\"...{page}Go and destroy it...{page}I'm counting on you...{page}Oh, one more thing...{page}Get too full of yourself, and{br}someone will trip you up... Watch{br}your step...{close}",
+   "en": "Heh heh heh... You know who you{br}have to thank for that... don't you?{page}Listen... Those lower Stars{br}are worthless...{page}So hurry up and climb the ranks... I've{br}got high hopes for you...{page}Well, enough of that...{page}Apparently, there's a \"Sealing Ring\"{br}inside \"Oran Mine\"...{page}Go and destroy it...{page}I'm counting on you...{page}Oh, one more thing...{page}Get too full of yourself, and{br}someone will trip you up... Watch{br}your step...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -665,7 +665,7 @@
   {
    "id": "rom.4627C",
    "jp": "まさに　世界最強の挟み撃ちだっ！！{br}グハハハッ！！{br}逃げられんぞ！！{close}",
-   "en": "The world's strongest pincer{br}attack!! Gwahahaha!! There's no{br}escape!!{close}",
+   "en": "The world's strongest pincer{br}attack!! Gwahahaha!! There's{br}no escape!!{close}",
    "kind": "msg",
    "speaker": "バレアス",
    "refs": 1
@@ -755,7 +755,7 @@
   {
    "id": "rom.46478",
    "jp": "そういうわけだからさ！{br}助けてくれよーっ！！{br}仲間になるからさぁっ！！{close}",
-   "en": "So that's how it is! Spare me!! I'll join{br}you!!{close}",
+   "en": "So that's how it is! Spare me!! I'll{br}join you!!{close}",
    "kind": "msg",
    "speaker": "エルダー",
    "refs": 1
@@ -914,7 +914,7 @@
   {
    "id": "rom.466DC",
    "jp": "よう・・・{br}オーラン坑道はどうだった・・・？{br}あん？{page}ふんっ・・・{br}ちょっとは　マシな顔つきに{br}なってきたじゃねぇか・・・{page}それだ・・・その眼だ・・・{br}相手を射抜くような憎しみに{br}満ちた眼・・・{page}それこそヴァンデルってもんよ・・・{page}バレアス・・・エルダー・・・{br}あんな小兵に貴様をやれるなんて{br}はなから思っちゃいねぇよ・・・{page}ワシは　貴様のその眼を{br}見たかったんだ・・・{page}クックックッ・・・{br}ようやく　ワシの部下にふさわしく{br}なってきたじゃねぇか・・・{page}その調子で　がんばるんだな・・・{close}",
-   "en": "Well... How was Oran Mine...? Huh?{page}Hmph... You're starting to look a{br}little more respectable...{page}That's it... Those eyes... So full of{br}hatred, they could pierce right{br}through someone...{page}Now that's a Vandel...{page}Baleas... Elder... I never thought small{br}fry like them could finish you off...{page}I wanted to see that look in your{br}eyes...{page}Heh heh heh... You're finally{br}becoming worthy of serving me...{page}Keep up the good work...{close}",
+   "en": "Well... How was Oran Mine...? Huh?{page}Hmph... You're starting to look a{br}little more respectable...{page}That's it... Those eyes... So full of{br}hatred, they could pierce right{br}through someone...{page}Now that's a Vandel...{page}Baleas... Elder... I never thought small{br}fry like them could finish you off...{page}I wanted to see that look in{br}your eyes...{page}Heh heh heh... You're finally{br}becoming worthy of serving me...{page}Keep up the good work...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -929,7 +929,7 @@
   {
    "id": "rom.468D4",
    "jp": "ふんっ・・・{br}ちょっとは　マシな顔つきに{br}なってきたじゃねぇか・・・{page}それだ・・・その眼だ・・・{br}相手を射抜くような憎しみに{br}満ちた眼・・・{page}それこそヴァンデルってもんよ・・・{page}バレアス・・・エルダー・・・{br}あんな小兵に貴様をやれるなんて{br}はなから思っちゃいねぇよ・・・{page}ワシは　貴様のその眼を{br}見たかったんだ・・・{page}クックックッ・・・{br}ようやく　ワシの部下にふさわしく{br}なってきたじゃねぇか・・・{page}その調子で　がんばるんだな・・・{close}",
-   "en": "Hmph... You're starting to look a{br}little more respectable...{page}That's it... Those eyes... So full of{br}hatred, they could pierce right{br}through someone...{page}Now that's a Vandel...{page}Baleas... Elder... I never thought small{br}fry like them could finish you off...{page}I wanted to see that look in your{br}eyes...{page}Heh heh heh... You're finally{br}becoming worthy of serving me...{page}Keep up the good work...{close}",
+   "en": "Hmph... You're starting to look a{br}little more respectable...{page}That's it... Those eyes... So full of{br}hatred, they could pierce right{br}through someone...{page}Now that's a Vandel...{page}Baleas... Elder... I never thought small{br}fry like them could finish you off...{page}I wanted to see that look in{br}your eyes...{page}Heh heh heh... You're finally{br}becoming worthy of serving me...{page}Keep up the good work...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -944,7 +944,7 @@
   {
    "id": "rom.46CFC",
    "jp": "あぁっ！！{br}また　あのヴァンデル！？{page}や　やばいな・・・{br}さすが　ヴァンデル・・・{page}モンスターとは{br}桁違いのプレッシャーじゃん・・・{close}",
-   "en": "Aah!! That Vandel again!?{page}Th-this is bad... That's a Vandel for{br}ya...{page}Just being near one is way scarier{br}than any monster...{close}",
+   "en": "Aah!! That Vandel again!?{page}Th-this is bad... That's a Vandel{br}for ya...{page}Just being near one is way scarier{br}than any monster...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1094,7 +1094,7 @@
   {
    "id": "rom.470AC",
    "jp": "仲間のカタキっ！！{br}覚悟しろっ！！{close}",
-   "en": "This is for our fallen friends!! Prepare{br}yourself!!{close}",
+   "en": "This is for our fallen friends!!{br}Prepare yourself!!{close}",
    "kind": "msg",
    "speaker": "レジスタンスＡ",
    "refs": 1
@@ -1124,7 +1124,7 @@
   {
    "id": "rom.47104",
    "jp": "うわ！　うわーーーっ！！{br}全滅だーーーっ！！！{close}",
-   "en": "Aah! Aaaaah!! They've all been wiped{br}out!!!{close}",
+   "en": "Aah! Aaaaah!! They've all been{br}wiped out!!!{close}",
    "kind": "msg",
    "speaker": "レジスタンスＤ",
    "refs": 1
@@ -1154,7 +1154,7 @@
   {
    "id": "rom.47220",
    "jp": "う・・・うっ・・・{page}おまえ・・・たちが・・・{br}破壊している・・・{br}「封印のリング」・・・{page}おれ・・・たちは・・・{br}「封印のリング」・・・を・・・{br}修復で・・・きる・・・{page}だから・・・いくら・・・{br}こ・・・わしても・・・{br}・・・ムダ・・・だ・・・{page}グハッ・・・{close}",
-   "en": "U... Ugh...{page}Those... \"Sealing Rings\"... you're...{br}destroying...{page}We... can... repair... the \"Sealing{br}Rings\"...{page}So... no matter... how many... you{br}break... it's... no use...{page}Gah...{close}",
+   "en": "U... Ugh...{page}Those... \"Sealing Rings\"... you're...{br}destroying...{page}We... can... repair... the{br}\"Sealing Rings\"...{page}So... no matter... how many... you{br}break... it's... no use...{page}Gah...{close}",
    "kind": "msg",
    "speaker": "レジスタンスＤ",
    "refs": 1
@@ -1162,7 +1162,7 @@
   {
    "id": "rom.473D4",
    "jp": "里の門",
-   "en": "Gate",
+   "en": "Village Gate",
    "kind": "speaker",
    "refs": 1
   },
@@ -1177,14 +1177,14 @@
   {
    "id": "rom.47494",
    "jp": "里の門",
-   "en": "Gate",
+   "en": "Village Gate",
    "kind": "speaker",
    "refs": 1
   },
   {
    "id": "rom.4749C",
    "jp": "ダ　ダメダ・・・{br}モウ　モタナイ・・・{page}スマナイ・・・{page}ユルシテクレ・・・{close}",
-   "en": "I... I CANNOT... HOLD OUT ANY{br}LONGER...{page}I AM SORRY...{page}FORGIVE ME...{close}",
+   "en": "I... I CANNOT... HOLD OUT{br}ANY LONGER...{page}I AM SORRY...{page}FORGIVE ME...{close}",
    "kind": "msg",
    "speaker": "里の門",
    "refs": 1
@@ -1454,7 +1454,7 @@
   {
    "id": "rom.47AEC",
    "jp": "「封印のリング」を修復するアイテムは{br}ビム砂漠の宝箱に隠してある・・・{page}砂漠の砂嵐に守られて　見つけにくく{br}してあるのじゃ・・・{page}ビム砂漠の塔近くじゃ・・・{page}さあ・・・これでよかろう・・・{br}これ以上　里の者に手を{br}上げんでくれ・・・{close}",
-   "en": "The item that repairs the \"Sealing{br}Rings\" is hidden in a treasure chest{br}in Bim Desert...{page}The desert's sandstorms conceal it,{br}making it hard to find...{page}It is near Bim Desert Tower...{page}There... That should satisfy you...{br}Please do not harm any more of my{br}people...{close}",
+   "en": "The item that repairs the \"Sealing{br}Rings\" is hidden in a treasure chest{br}in Bim Desert...{page}The desert's sandstorms conceal it,{br}making it hard to find...{page}It is near Bim Desert Tower...{page}There... That should satisfy you...{br}Please do not harm any more of{br}my people...{close}",
    "kind": "msg",
    "speaker": "ミレイ森の里長",
    "refs": 1
@@ -1551,7 +1551,7 @@
   {
    "id": "rom.47F40",
    "jp": "いやいや・・・お見事です！！{page}{vandel}様{br}相変わらず　すばらしいですね・・・！！{page}西の島の「封印のリング」の発見と破壊{br}そしてご報告　ご苦労さまでした{page}では　またひとつ{br}「星」　を進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
-   "en": "My, my... Splendid work!!{page}{vandel} -sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}West Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with another{br}\"Star\"!!{page}Please, accept it...!{close}",
+   "en": "My, my... Splendid work!!{page}{vandel} -sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}West Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with{br}another \"Star\"!!{page}Please, accept it...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

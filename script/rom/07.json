@@ -18,7 +18,7 @@
   {
    "id": "rom.1C1E8",
    "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -32,7 +32,7 @@
   {
    "id": "rom.1C27C",
    "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -46,7 +46,7 @@
   {
    "id": "rom.1C310",
    "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -60,7 +60,7 @@
   {
    "id": "rom.1C3A4",
    "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -74,7 +74,7 @@
   {
    "id": "rom.1C438",
    "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -306,7 +306,7 @@
   {
    "id": "rom.1CB1C",
    "jp": "ふむぅ・・・{br}何か　見てきたようなんじゃぁ・・・{close}",
-   "en": "Hmmm... Seems he saw something{br}there...{close}",
+   "en": "Hmmm... Seems he saw{br}something there...{close}",
    "kind": "msg",
    "speaker": "老婆",
    "refs": 1
@@ -381,7 +381,7 @@
   {
    "id": "rom.1CC18",
    "jp": "くわばら・・・くわばら・・・{page}{hero}{br}気をつけるのじゃぞ・・・{close}",
-   "en": "Heaven protect us... Heaven protect{br}us...{page}{hero}, you be careful now...{close}",
+   "en": "Heaven protect us... Heaven{br}protect us...{page}{hero}, you be careful now...{close}",
    "kind": "msg",
    "speaker": "老婆",
    "refs": 1
@@ -396,7 +396,7 @@
   {
    "id": "rom.1CCC4",
    "jp": "{hero}さん！！{br}大変です！！！{page}はぁっはぁっ・・・{page}ふ・・・「封印のリング」が{br}す・・・すべて破壊されました！！{page}西の里の「銀の女神像」{br}そして　全ての「封印のリング」が{br}破壊され・・・{page}残るは東の里の{br}「銀の女神像」だけとなりました・・・{page}里長さまから伝言です・・・{page}「なんとしても　東の里の{br}「銀の女神像」は守り抜くように」{br}とのことです！！{page}女神像が破壊されてしまうと{br}この双子島はどうなってしまうのか・・・{page}どのような恐ろしい地獄が{br}待っているのかは里長様にも{br}見当がつかないとのことです・・・{page}なんとしても　西の里の「銀の女神像」を{br}守り抜き　「封印のリング」の修復を{br}進めてください！！{page}では・・・{br}わたくしはこの伝令を他のみなさんに{br}伝えます！　失礼します！！{close}",
-   "en": "{hero}-san!! It's terrible!!!{page}*pant, pant*...{page}Th-the \"Sealing Rings\"... They've{br}a-all been destroyed!!{page}West Village's \"Silver Goddess{br}Statue\" and every \"Sealing Ring\"{br}have been destroyed...{page}Only East Village's \"Silver Goddess{br}Statue\" remains...{page}I have a message from the Village{br}Chief-sama...{page}\"Protect East Village's Silver{br}Goddess Statue at all costs!\"{br}Those are his orders!!{page}If that statue is destroyed, what will{br}become of the Twin Islands...?{page}Even the Village Chief-sama cannot{br}imagine what terrible hell awaits us...{page}Please protect West Village's \"Silver{br}Goddess Statue\" at all costs and{br}keep repairing the \"Sealing Rings\"!!{page}Now... I must deliver this message to{br}everyone else! Excuse me!!{close}",
+   "en": "{hero}-san!! It's terrible!!!{page}*pant, pant*...{page}Th-the \"Sealing Rings\"... They've{br}a-all been destroyed!!{page}West Village's \"Silver Goddess{br}Statue\" and every \"Sealing Ring\"{br}have been destroyed...{page}Only East Village's \"Silver Goddess{br}Statue\" remains...{page}I have a message from the{br}Village Chief-sama...{page}\"Protect East Village's Silver{br}Goddess Statue at all costs!\"{br}Those are his orders!!{page}If that statue is destroyed, what will{br}become of the Twin Islands...?{page}Even the Village Chief-sama cannot{br}imagine what terrible hell awaits us...{page}Please protect West Village's \"Silver{br}Goddess Statue\" at all costs and{br}keep repairing the \"Sealing Rings\"!!{page}Now... I must deliver this message to{br}everyone else! Excuse me!!{close}",
    "kind": "msg",
    "speaker": "伝達兵",
    "refs": 1
@@ -404,7 +404,7 @@
   {
    "id": "rom.1CF68",
    "jp": "全ての「封印のリング」・・・{br}そして全ての「銀の女神像」が{br}破壊された・・・{page}フォージェミニ島は　全てが金に染まり{br}ヴァンデルが支配する{br}死の島となった・・・{page}島の人間がどうなったのか・・・{page}それを知る者は　誰もいない・・・{close}",
-   "en": "Every \"Sealing Ring\"... and every{br}\"Silver Goddess Statue\" had been{br}destroyed...{page}All of Forjemini Island turned to gold,{br}becoming an island of death ruled by{br}Vandels...{page}What became of the island's{br}people...?{page}No one knows...{close}",
+   "en": "Every \"Sealing Ring\"... and every{br}\"Silver Goddess Statue\" had{br}been destroyed...{page}All of Forjemini Island turned to gold,{br}becoming an island of death ruled{br}by Vandels...{page}What became of the{br}island's people...?{page}No one knows...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -537,7 +537,7 @@
   {
    "id": "rom.1D958",
    "jp": "「魔賓館」へ{br}ご案内いたしましょうか？{close}",
-   "en": "Shall I escort you to the \"Vandel{br}House\"?{close}",
+   "en": "Shall I escort you to the{br}\"Vandel House\"?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -552,7 +552,7 @@
   {
    "id": "rom.1D990",
    "jp": "それではご案内いたします{close}",
-   "en": "Very well. Allow me to show you the{br}way.{close}",
+   "en": "Very well. Allow me to show you{br}the way.{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -758,7 +758,7 @@
   {
    "id": "rom.1EC3C",
    "jp": "それじゃ{br}ピョンリン火山の遺跡へ向かうぞ{close}",
-   "en": "Right, then! We're off to Byonrin{br}Ruins!{close}",
+   "en": "Right, then! We're off to{br}Byonrin Ruins!{close}",
    "kind": "msg",
    "speaker": "ガントリィ",
    "refs": 1
@@ -841,7 +841,7 @@
   {
    "id": "rom.1ED74",
    "jp": "飛行機はクサリで{br}がんじがらめにされている{page}クサリには　５つのカギが{br}かけられている{page}クサリを　外すには{br}５つのカギが　必要だ・・・{close}",
-   "en": "The Airplane is tightly bound in{br}chains.{page}There are five locks on the chains.{page}You'll need five keys to remove{br}them...{close}",
+   "en": "The Airplane is tightly bound{br}in chains.{page}There are five locks on the chains.{page}You'll need five keys to{br}remove them...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -919,7 +919,7 @@
   {
    "id": "rom.1EF58",
    "jp": "カギ１を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "Obtained Key 1.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "Obtained Key 1.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },

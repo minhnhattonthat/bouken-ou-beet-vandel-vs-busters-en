@@ -67,21 +67,21 @@
   {
    "id": "quest.0224C",
    "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ダチャレイ洞窟にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
-   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from{br}Dacharei Cave. Please bring me{br}some.{close}",
+   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from{br}Dacharei Cave. Please bring{br}me some.{close}",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.022D0",
    "jp": "ベヌル荒野の鉱石の採集",
-   "en": "Gather Ore in the Benuru{br}Wastes.",
+   "en": "Gather Ore in the{br}Benuru Wastes.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.022E8",
    "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ベヌル荒野にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
-   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from the{br}Benuru Wastes. Please bring me{br}some.{close}",
+   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from the{br}Benuru Wastes. Please bring{br}me some.{close}",
    "kind": "desc",
    "refs": 1
   },
@@ -95,7 +95,7 @@
   {
    "id": "quest.02380",
    "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ソーレ谷にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
-   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from{br}Sole Valley. Please bring me{br}some.{close}",
+   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from{br}Sole Valley. Please bring{br}me some.{close}",
    "kind": "desc",
    "refs": 1
   },
@@ -116,7 +116,7 @@
   {
    "id": "quest.02424",
    "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ビム砂漠にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
-   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from the{br}Bim Desert. Please bring me{br}some.{close}",
+   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from the{br}Bim Desert. Please bring{br}me some.{close}",
    "kind": "desc",
    "refs": 1
   },
@@ -144,7 +144,7 @@
   {
    "id": "quest.02560",
    "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ビョンリン火山にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
-   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from{br}Byonrin Volcano. Please bring me{br}some.{close}",
+   "en": "I'm considering refining Bekatorte{br}Steel here on the island. I need{br}Ore for Bekatorte Steel from{br}Byonrin Volcano. Please bring{br}me some.{close}",
    "kind": "desc",
    "refs": 1
   },
@@ -732,7 +732,7 @@
   {
    "id": "quest.02E64",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -753,7 +753,7 @@
   {
    "id": "quest.02EB4",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -774,7 +774,7 @@
   {
    "id": "quest.02F04",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -858,7 +858,7 @@
   {
    "id": "quest.03050",
    "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -879,7 +879,7 @@
   {
    "id": "quest.030A4",
    "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -900,7 +900,7 @@
   {
    "id": "quest.030F8",
    "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -921,7 +921,7 @@
   {
    "id": "quest.0314C",
    "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -942,7 +942,7 @@
   {
    "id": "quest.0319C",
    "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -963,7 +963,7 @@
   {
    "id": "quest.031EC",
    "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -984,7 +984,7 @@
   {
    "id": "quest.0323C",
    "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1005,7 +1005,7 @@
   {
    "id": "quest.0328C",
    "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1026,7 +1026,7 @@
   {
    "id": "quest.032DC",
    "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1047,7 +1047,7 @@
   {
    "id": "quest.0332C",
    "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1068,7 +1068,7 @@
   {
    "id": "quest.03380",
    "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1089,7 +1089,7 @@
   {
    "id": "quest.033D4",
    "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1110,7 +1110,7 @@
   {
    "id": "quest.03428",
    "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1131,7 +1131,7 @@
   {
    "id": "quest.03478",
    "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1152,7 +1152,7 @@
   {
    "id": "quest.034C8",
    "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains and{br}elsewhere.",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },

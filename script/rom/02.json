@@ -65,7 +65,7 @@
   {
    "id": "rom.081CC",
    "jp": "少し　他と色合いが違うが{br}ふつうの壁だ・・・{page}たたくと　くずれそうな{br}気配がする・・・{close}",
-   "en": "It's a slightly different color, but{br}otherwise an ordinary wall...{page}It looks like it might crumble if you hit{br}it...{close}",
+   "en": "It's a slightly different color, but{br}otherwise an ordinary wall...{page}It looks like it might crumble if you{br}hit it...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -86,7 +86,7 @@
   {
    "id": "rom.085D4",
    "jp": "おお　{hero}よ{br}よく帰ってきた・・・{page}ホーレイ氏は　どうじゃった？{br}無事じゃったか？{page}そうか{br}元気そうで何よりじゃ{page}で　それを　ゆずってもらったわけじゃな{page}フムフム・・・{page}まちがいない{br}確かに　それが「聖なる銀」じゃ！{page}では　それを持って{br}この里の女神さまに{br}お参りするとするかの・・・{page}その「聖なる銀」を持って{br}先に　女神像の前に行ってくれぬか{br}わしも　すぐに行くでな{close}",
-   "en": "Ah, {hero}. Welcome back, my{br}boy...{page}How was Mr. Horey? Was he safe?{page}I see. I'm glad to hear he's well.{page}And he let you have that, did he?{page}Hmm, hmm...{page}There's no mistaking it. That is{br}indeed \"Holy Silver\"!{page}Well then, let us take it and pay our{br}respects to the village{br}goddess-sama...{page}Would you take that \"Holy Silver\"{br}and go ahead to the goddess{br}statue? I'll join you shortly.{close}",
+   "en": "Ah, {hero}. Welcome back,{br}my boy...{page}How was Mr. Horey? Was he safe?{page}I see. I'm glad to hear he's well.{page}And he let you have that, did he?{page}Hmm, hmm...{page}There's no mistaking it. That is{br}indeed \"Holy Silver\"!{page}Well then, let us take it and pay our{br}respects to the{br}village goddess-sama...{page}Would you take that \"Holy Silver\"{br}and go ahead to the goddess{br}statue? I'll join you shortly.{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -101,7 +101,7 @@
   {
    "id": "rom.08750",
    "jp": "あ・・・{br}{hero}・・・{br}元気にしてる？{page}ケガはない？{close}",
-   "en": "Oh... {hero}... How have you{br}been?{page}You're not hurt, are you?{close}",
+   "en": "Oh... {hero}... How have{br}you been?{page}You're not hurt, are you?{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -206,7 +206,7 @@
   {
    "id": "rom.08944",
    "jp": "ヴァンデルは「封印のリング」を{br}破壊して　この双子島を　黄金の島に{br}しようとしているらしいのだ・・・{page}不思議なことに　金にそまった地域には{br}モンスターが　次々に増殖し{br}始めておる・・・{page}最近の異常気象も　どうも{br}「封印のリング」の破壊と　関係が{br}あるようなのじゃ・・・{page}そこで　この双子島を守るために{br}「封印のリング」の修復を{br}進めたいのじゃ・・・{page}そのためには　ホーレイ氏が掘り出す{br}「聖なる銀」と　レナが守る{br}「聖なる炎」・・・{page}そして　修復にむかう戦士が{br}必要じゃ・・・{page}こうして{hero}が{br}たくましきバスターとして帰ってきて{br}くれたのも　天の采配じゃろうて・・・{page}{hero}よ{br}ランプを　持っておるか？{br}銀製がよいのじゃが・・・{close}",
-   "en": "It seems the Vandels mean to{br}destroy the \"Sealing Rings\" and turn{br}these Twin Islands to gold...{page}Strangely, monsters have begun{br}multiplying throughout the areas{br}that have turned to gold...{page}The unusual weather of late seems{br}tied to the destruction of the{br}\"Sealing Rings\" as well...{page}To protect the Twin Islands, we{br}must set about restoring those{br}rings...{page}For that, we need the \"Holy Silver\"{br}that Mr. Horey mines, and the{br}\"Sacred Flame\" that Lena{page}guards...{page}And a warrior to carry out the{br}repairs...{page}Surely it was providence that{br}brought {hero} home to us as{br}such a strong Buster...{page}Tell me, {hero}, have you a{br}Lamp? A silver one would be best...{close}",
+   "en": "It seems the Vandels mean to{br}destroy the \"Sealing Rings\" and turn{br}these Twin Islands to gold...{page}Strangely, monsters have begun{br}multiplying throughout the areas{br}that have turned to gold...{page}The unusual weather of late seems{br}tied to the destruction of the{br}\"Sealing Rings\" as well...{page}To protect the Twin Islands, we{br}must set about restoring{br}those rings...{page}For that, we need the \"Holy Silver\"{br}that Mr. Horey mines, and the{br}\"Sacred Flame\" that Lena{page}guards...{page}And a warrior to carry out{br}the repairs...{page}Surely it was providence that{br}brought {hero} home to us as{br}such a strong Buster...{page}Tell me, {hero}, have you a{br}Lamp? A silver one would be best...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -221,7 +221,7 @@
   {
    "id": "rom.08BC0",
    "jp": "あら？{br}それ　わたしの　ランプだわ！{page}また　ゼナね！{br}もう　あの子ったら・・・{close}",
-   "en": "Oh? That's my Lamp!{page}Zena's at it again! Honestly, that{br}girl...{close}",
+   "en": "Oh? That's my Lamp!{page}Zena's at it again! Honestly,{br}that girl...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -281,7 +281,7 @@
   {
    "id": "rom.08D14",
    "jp": "え？{br}でも　ランプの中には{br}その銀が　入ってますけど・・・{close}",
-   "en": "Huh? But there's silver inside the{br}Lamp...{close}",
+   "en": "Huh? But there's silver inside{br}the Lamp...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -402,7 +402,7 @@
   {
    "id": "rom.08E98",
    "jp": "はぁ　はぁ　はぁ・・・{br}うまく　いったんですね{close}",
-   "en": "*pant... pant... pant*... It worked,{br}then.{close}",
+   "en": "*pant... pant... pant*... It{br}worked, then.{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -432,7 +432,7 @@
   {
    "id": "rom.08FFC",
    "jp": "里長さま{br}それ　本当ですか・・・{close}",
-   "en": "Village Chief-sama, is that really{br}true...?{close}",
+   "en": "Village Chief-sama, is that{br}really true...?{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -462,7 +462,7 @@
   {
    "id": "rom.09064",
    "jp": "{hero}が{br}その「聖なる銀のしずく」を持って{page}「封印のリング」の修復に{br}向かうんですか・・・？{close}",
-   "en": "So {hero} will take those \"Holy{br}Silver Drops\"...{page}And go out to repair the \"Sealing{br}Rings\"...?{close}",
+   "en": "So {hero} will take those \"Holy{br}Silver Drops\"...{page}And go out to repair the{br}\"Sealing Rings\"...?{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -522,7 +522,7 @@
   {
    "id": "rom.09274",
    "jp": "どうしても{br}{hero}じゃないと{br}いけないんですか・・・{close}",
-   "en": "Does it absolutely have to be{br}{hero}...?{close}",
+   "en": "Does it absolutely have to{br}be {hero}...?{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -552,7 +552,7 @@
   {
    "id": "rom.092F8",
    "jp": "務め・・・{br}務めって何・・・？{page}{hero}に{br}押し付けてるだけじゃ{br}ないんですか・・・？{page}わたしも　里長さまも　みんなも{br}里の中・・・{page}危険なことは　全部{br}{hero}に　やらせて・・・{page}わたし・・・{br}もうこんなの　ガマンできない・・・{page}だって・・・　だって・・・{page}{hero}は{br}ずっと　里の外で危険な目に{br}あってるんですもの・・・{page}{hero}に{br}もしものことがあったら・・・{br}わたし・・・　わたし・・・{page}ウッ・・・　グスッ・・・{close}",
-   "en": "Duty... What do you mean, duty...?{page}Aren't you just forcing it all on{br}{hero}...?{page}I stay here in the village... So do you,{br}Village Chief-sama. So does{br}everyone...{page}And we leave everything dangerous{br}to {hero}...{page}I... I can't bear this anymore...{page}Because... Because...{page}{hero} is always out there{br}risking his life...{page}If anything happened to{br}{hero}... I... I...{page}*sob*... *sniff*...{close}",
+   "en": "Duty... What do you mean, duty...?{page}Aren't you just forcing it all{br}on {hero}...?{page}I stay here in the village... So do you,{br}Village Chief-sama. So{br}does everyone...{page}And we leave everything dangerous{br}to {hero}...{page}I... I can't bear this anymore...{page}Because... Because...{page}{hero} is always out there{br}risking his life...{page}If anything happened to{br}{hero}... I... I...{page}*sob*... *sniff*...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -739,7 +739,7 @@
   {
    "id": "rom.0985C",
    "jp": "「聖なる炎」が　ともされた{br}「聖なる銀」は　とけて{br}液体状になる{page}それが「聖なる銀のしずく」じゃ{page}それを　破壊された「封印のリング」に{br}かけるのじゃ{page}そうすれば　封印のリングは{br}元に　もどる！{close}",
-   "en": "When heated by the \"Sacred Flame,\"{br}\"Holy Silver\" melts into a liquid.{page}That is what we call \"Holy Silver{br}Drops.\"{page}Pour them over a broken \"Sealing{br}Ring.\"{page}And the Sealing Ring will be restored!{close}",
+   "en": "When heated by the \"Sacred Flame,\"{br}\"Holy Silver\" melts into a liquid.{page}That is what we call \"Holy{br}Silver Drops.\"{page}Pour them over a broken{br}\"Sealing Ring.\"{page}And the Sealing Ring will be restored!{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -747,7 +747,7 @@
   {
    "id": "rom.09920",
    "jp": "「聖なる銀のしずく」を使って{br}封印のリングを修復した！{page}東の里の里長に報告しよう！{close}",
-   "en": "You used \"Holy Silver Drops\" to{br}repair the Sealing Ring!{page}Report to the Village Chief in East{br}Village!{close}",
+   "en": "You used \"Holy Silver Drops\" to{br}repair the Sealing Ring!{page}Report to the Village Chief in{br}East Village!{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -762,7 +762,7 @@
   {
    "id": "rom.09980",
    "jp": "おお　{hero}よ{br}よく帰ってきた・・・{page}「封印のリング」の修復{br}ご苦労であった・・・{page}その周囲のモンスターの活動が{br}にぶくなったとの報告を{br}受けておる・・・{page}やはり　確実に{br}効果が　あがっておるな・・・！{page}この双子島を　ヴァンデルの手から{br}取り戻す　大きな一歩じゃ・・・！！{close}",
-   "en": "Ah, {hero}! You have returned{br}safely...{page}Thank you for repairing the \"Sealing{br}Ring\"...{page}I have received word that the{br}monsters nearby have grown less{br}active...{page}So it is indeed working...!{page}This is a great step toward{br}reclaiming the Twin Islands from the{br}Vandels...!{close}",
+   "en": "Ah, {hero}! You have{br}returned safely...{page}Thank you for repairing the{br}\"Sealing Ring\"...{page}I have received word that the{br}monsters nearby have grown{br}less active...{page}So it is indeed working...!{page}This is a great step toward{br}reclaiming the Twin Islands from{br}the Vandels...!{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -785,7 +785,7 @@
   {
    "id": "rom.09DA8",
    "jp": "ガーッハッハッハッ！！{page}吹き荒れろ　砂嵐・・・{page}人間どもを　砂に埋めてしまえ・・・{page}砂　砂　砂　砂　砂　砂こそすべて・・・{br}なんてな・・・{br}クックックッ・・・{page}分かっておるだろうな・・・{br}砂など　つまらんぞ・・・{page}砂は全て　砂金にしてしまえ・・・{br}砂金だ！行けっ！！{page}ちいっ・・・まったく{br}気がきかんヤツだ・・・{close}",
-   "en": "Gwahahahaha!!{page}Rage, sandstorm, rage...{page}Bury those humans in sand...{page}Sand, sand, sand, sand, sand! Sand is{br}everything... Just kidding... Heh heh{br}heh...{page}Surely you understand... Ordinary{br}sand is so dull...{page}Turn every grain into gold dust...{br}Gold dust! Now go!!{page}Tch... Must I spell everything out...?{close}",
+   "en": "Gwahahahaha!!{page}Rage, sandstorm, rage...{page}Bury those humans in sand...{page}Sand, sand, sand, sand, sand! Sand is{br}everything... Just kidding... Heh{br}heh heh...{page}Surely you understand... Ordinary{br}sand is so dull...{page}Turn every grain into gold dust...{br}Gold dust! Now go!!{page}Tch... Must I spell everything out...?{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -957,7 +957,7 @@
   {
    "id": "rom.0A2A8",
    "jp": "{hero}{br}調子はどうじゃ？{page}一人じゃと　なにかと{br}厳しいこともあろう・・・{page}前にも少し話したが{page}この島のことは　バスター協会を{br}通じて　近隣の鑑定小屋に{br}協力を　求めておいたのじゃ{page}そろそろ　いろいろなバスターが{br}島に上陸してくるころじゃろう{page}{hero}も{br}何人かの　バスターに{br}出会ったのではないかな？{page}通常バスターは　一人で行動せずに{br}複数人で　戦士団を　結成するのじゃ{page}「ゼノン戦士団」などが　有名じゃな{page}{hero}も　名前くらいは{br}聞いたことがあるじゃろう{page}{hero}も{br}仲間を見つけて　戦士団を{br}結成するとよい{page}戦いを　有利に{br}進めることができるぞ{close}",
-   "en": "How goes it, {hero}? Tough{br}alone, eh?{page}As I said, I sought aid for this island{br}from nearby Appraisal Huts through{br}the Buster Association. Busters{page}of all sorts should be arriving. Met{br}any, {hero}?{page}Busters usually form a Buster{br}Squad. Surely you've heard of the{br}famed Zenon Warriors,{page}{hero}?{page}Find allies and form a Buster Squad,{br}{hero}. It'll help in battle, my{br}boy.{close}",
+   "en": "How goes it, {hero}? Tough{br}alone, eh?{page}As I said, I sought aid for this island{br}from nearby Appraisal Huts through{br}the Buster Association. Busters{page}of all sorts should be arriving. Met{br}any, {hero}?{page}Busters usually form a Buster{br}Squad. Surely you've heard of the{br}famed Zenon Warriors,{page}{hero}?{page}Find allies and form a Buster Squad,{br}{hero}. It'll help in battle,{br}my boy.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -972,7 +972,7 @@
   {
    "id": "rom.0A4C4",
    "jp": "フィールドで　仲間をさがしてもよいが{br}より早く探すのならば　酒場を{br}のぞいてみるのも　よかろう{page}同じように　仲間を探している{br}バスターがいるはずじゃ{page}{hero}が{br}リーダーになるのじゃ{page}仲間にするには　マギーが必要に{br}なるかもしれぬ・・・{page}財布と相談して{br}慎重に　決めるのじゃぞ{close}",
-   "en": "You can search for companions out{br}in the field, but if you want to find{br}them sooner, try visiting the{page}Tavern.{page}There should be Busters there{br}looking for companions, just like you.{page}You will be their leader, {hero}.{page}Recruiting companions may cost you{br}Maggy...{page}Mind your purse and choose{br}carefully, eh?{close}",
+   "en": "You can search for companions out{br}in the field, but if you want to find{br}them sooner, try visiting the{page}Tavern.{page}There should be Busters there{br}looking for companions, just like you.{page}You will be their leader, {hero}.{page}Recruiting companions may cost{br}you Maggy...{page}Mind your purse and choose{br}carefully, eh?{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1107,7 +1107,7 @@
   {
    "id": "rom.0AC6C",
    "jp": "もうっ！{page}助かったーーっ　じゃないわよ！{page}{hero}が{br}たまたま　来てくれたから{br}良かったものの{page}そうじゃなかったら　私たち{br}今ごろ　この谷の下に{br}まっさかさまよ！！{close}",
-   "en": "Honestly!{page}Don't just stand there yelling \"We're{br}saved!\"{page}We're lucky {hero} happened{br}to come along!{page}Otherwise, we'd be plunging{br}headfirst into that valley right now!{close}",
+   "en": "Honestly!{page}Don't just stand there yelling{br}\"We're saved!\"{page}We're lucky {hero} happened{br}to come along!{page}Otherwise, we'd be plunging{br}headfirst into that valley right now!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -1257,7 +1257,7 @@
   {
    "id": "rom.0AEE4",
    "jp": "もうっ・・・{br}あなたたちは　ほんっとにもぉーっ{close}",
-   "en": "Honestly... You two are just{br}impossible!{close}",
+   "en": "Honestly... You two are{br}just impossible!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -1272,7 +1272,7 @@
   {
    "id": "rom.0AF20",
    "jp": "お・・・{page}おーっ！！{br}{hero}　おまえ{br}二刀流なのか！？{close}",
-   "en": "Oh...{page}Whoa!! {hero}, you use Dual{br}Wielding?!{close}",
+   "en": "Oh...{page}Whoa!! {hero}, you use{br}Dual Wielding?!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1302,7 +1302,7 @@
   {
    "id": "rom.0AFBC",
    "jp": "ビィトったら{br}はずかしいから　やめて！！{close}",
-   "en": "Beet, stop it! You're embarrassing{br}us!!{close}",
+   "en": "Beet, stop it! You're{br}embarrassing us!!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -1355,7 +1355,7 @@
   {
    "id": "rom.0B18C",
    "jp": "よし！{br}じゃぁ{hero}！{page}この島の　ヴァンデルと{br}モンスターたちを　さっさと{br}片付けちまおうぜ！！{close}",
-   "en": "All right, {hero}!{page}Let's hurry up and wipe out the{br}Vandels and monsters on this{br}island!!{close}",
+   "en": "All right, {hero}!{page}Let's hurry up and wipe out the{br}Vandels and monsters on{br}this island!!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1415,7 +1415,7 @@
   {
    "id": "rom.0B27C",
    "jp": "おう！{br}{hero}じゃねえか！！{br}元気か！？{page}一緒に　たたかおうぜ！！{close}",
-   "en": "Hey! If it ain't {hero}!! How ya{br}doing!?{page}Let's fight together!!{close}",
+   "en": "Hey! If it ain't {hero}!! How{br}ya doing!?{page}Let's fight together!!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1438,7 +1438,7 @@
   {
    "id": "rom.0B2E4",
    "jp": "よし！{br}じゃぁ{hero}！{page}この島の　ヴァンデルと{br}モンスターたちを　さっさと{br}片付けちまおうぜ！！{page}よろしくな！！{close}",
-   "en": "All right, {hero}!{page}Let's hurry up and wipe out the{br}Vandels and monsters on this{br}island!!{page}Glad to be on board!!{close}",
+   "en": "All right, {hero}!{page}Let's hurry up and wipe out the{br}Vandels and monsters on{br}this island!!{page}Glad to be on board!!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1536,7 +1536,7 @@
   {
    "id": "rom.0B498",
    "jp": "やあ{hero}！{page}きみさえよければ　ぼくを{br}きみの仲間に　加えてくれないかい？{close}",
-   "en": "Hi, {hero}!{page}If you don't mind, could I join your{br}party?{close}",
+   "en": "Hi, {hero}!{page}If you don't mind, could I join{br}your party?{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1619,7 +1619,7 @@
   {
    "id": "rom.0B5E8",
    "jp": "さいきん　ゼロス雪原で{br}行方不明者が　続出しているのじゃ{page}人々は　雪男の仕業だと{br}ウワサしておるが・・・{page}外回りをしている　ゼナのことも{br}心配じゃ{page}さっそく調査に向かってくれ{br}よろしく頼むぞ{close}",
-   "en": "Lately, people have been going{br}missing one after another in Zeros{br}Snowfield.{page}People say a yeti is behind it...{page}I'm worried about Zena, too, out{br}making her rounds.{page}Go and investigate at once, my boy.{br}I'm counting on you.{close}",
+   "en": "Lately, people have been going{br}missing one after another in{br}Zeros Snowfield.{page}People say a yeti is behind it...{page}I'm worried about Zena, too, out{br}making her rounds.{page}Go and investigate at once, my boy.{br}I'm counting on you.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1641,7 +1641,7 @@
   {
    "id": "rom.0B72C",
    "jp": "ごくろうさま{page}そうか・・・{br}雪男とは　氷の導師の{br}ことじゃったか・・・{page}ひどい　見間違えじゃのう・・・{page}しかし　このような事件を見逃さずに{br}向かっていくのは　バスターとして{br}大事なことじゃ・・・{page}ゼナも　無事のようじゃし{br}いい仕事をしたのう・・・{page}モンスターによる被害が{br}拡大しておる{page}封印のリングの修復を　ひきつづき{br}よろしくたのむぞ{close}",
-   "en": "Well done, my boy.{page}I see... So the yeti was the Ice{br}Adept...{page}Quite a mistake to make, eh...?{page}Still, a Buster must never turn a{br}blind eye to trouble like this...{page}Zena seems to be safe, too. You've{br}done good work...{page}Monsters are causing ever more{br}harm.{page}Keep up your work repairing the{br}Sealing Rings. I'm counting on you.{close}",
+   "en": "Well done, my boy.{page}I see... So the yeti was the{br}Ice Adept...{page}Quite a mistake to make, eh...?{page}Still, a Buster must never turn a{br}blind eye to trouble like this...{page}Zena seems to be safe, too. You've{br}done good work...{page}Monsters are causing ever{br}more harm.{page}Keep up your work repairing the{br}Sealing Rings. I'm counting on you.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1656,7 +1656,7 @@
   {
    "id": "rom.0B8D8",
    "jp": "今度は　ルブレイ湖で{br}行方不明者が　続出しているのじゃ{page}あの平和な　ルブレイ湖にも{br}モンスターが出現するように{br}なったのじゃな・・・{page}みなの話からすると{br}どうも「アクアドッグ」が{br}あやしいようじゃ・・・{page}このようなことが　つづくと{br}外回りをしている　ゼナのことが{br}心配でならんの・・・{page}さっそく討伐に向かってくれ{br}よろしく頼むぞ{close}",
-   "en": "Now people are going missing one{br}after another at Rubrei Lake.{page}So monsters have begun appearing{br}even at that peaceful lake...{page}From what everyone says, \"Aqua{br}Dog\" seems to be the likely culprit...{page}With all this going on, I can't help{br}worrying about Zena out making her{br}rounds...{page}Go and slay it at once, my boy. I'm{br}counting on you.{close}",
+   "en": "Now people are going missing one{br}after another at Rubrei Lake.{page}So monsters have begun appearing{br}even at that peaceful lake...{page}From what everyone says, \"Aqua{br}Dog\" seems to be the likely culprit...{page}With all this going on, I can't help{br}worrying about Zena out making{br}her rounds...{page}Go and slay it at once, my boy. I'm{br}counting on you.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1671,7 +1671,7 @@
   {
    "id": "rom.0BA2C",
    "jp": "ごくろうさま{page}そうか{br}やはりあの湖にもモンスターがな・・・{page}ますます　モンスターによる被害が{br}拡大しておるな・・・{page}このままでは「黄金城」の{br}ヴァンデルの　思うがままじゃ・・・{page}「封印のリング」の修復を{br}ひきつづき　よろしくたのむぞ{close}",
-   "en": "Well done, my boy.{page}I see. So there are monsters at that{br}lake after all...{page}They're causing more and more{br}harm...{page}At this rate, the Vandel in the{br}\"Golden Castle\" will have everything{br}his way...{page}Keep repairing the \"Sealing Rings.\" I'm{br}counting on you.{close}",
+   "en": "Well done, my boy.{page}I see. So there are monsters at that{br}lake after all...{page}They're causing more and{br}more harm...{page}At this rate, the Vandel in the{br}\"Golden Castle\" will have everything{br}his way...{page}Keep repairing the \"Sealing Rings.\" I'm{br}counting on you.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1

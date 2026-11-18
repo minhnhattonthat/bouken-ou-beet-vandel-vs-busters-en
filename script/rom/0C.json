@@ -26,7 +26,7 @@
   {
    "id": "rom.30060",
    "jp": "ゼナを　助けてくれたのね！{br}ありがとう　{hero}！{close}",
-   "en": "You saved Zena! Thank you,{br}{hero}!{close}",
+   "en": "You saved Zena! Thank{br}you, {hero}!{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -41,7 +41,7 @@
   {
    "id": "rom.30098",
    "jp": "もうゼナったら{br}なんど言っても　聞かないんだから・・・{page}あいかわらず{br}あぶないことばかりして・・・{close}",
-   "en": "Oh, that Zena! No matter how often I{br}tell her, she never listens...{page}Always doing such dangerous{br}things...{close}",
+   "en": "Oh, that Zena! No matter how often I{br}tell her, she never listens...{page}Always doing such{br}dangerous things...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -271,7 +271,7 @@
   {
    "id": "rom.30C14",
    "jp": "そうか・・・{page}じゃぁ・・・{br}一眠りさせてもらうとするか・・・{close}",
-   "en": "I see...{page}Then... I suppose I'll have a little{br}nap...{close}",
+   "en": "I see...{page}Then... I suppose I'll have a{br}little nap...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -301,7 +301,7 @@
   {
    "id": "rom.30C88",
    "jp": "ごゆっくりおくつろぎください{close}",
-   "en": "Please relax and make yourself{br}comfortable.{close}",
+   "en": "Please relax and make{br}yourself comfortable.{close}",
    "kind": "msg",
    "speaker": "シャギーガール",
    "refs": 1
@@ -346,7 +346,7 @@
   {
    "id": "rom.30D4C",
    "jp": "すでに腹心モンスターがいるので{br}モンスターを腹心にできません{close}",
-   "en": "You already have a lieutenant{br}monster, so you cannot appoint{br}another.{close}",
+   "en": "You already have a lieutenant{br}monster, so you cannot{br}appoint another.{close}",
    "kind": "msg",
    "speaker": "タロトス",
    "refs": 1
@@ -436,7 +436,7 @@
   {
    "id": "rom.30ECC",
    "jp": "御用がございましたら{br}お声をおかけください{close}",
-   "en": "Please call on me if you need{br}anything.{close}",
+   "en": "Please call on me if you{br}need anything.{close}",
    "kind": "msg",
    "speaker": "タロトス",
    "refs": 1
@@ -451,7 +451,7 @@
   {
    "id": "rom.30F08",
    "jp": "御用がございましたら{br}お声をおかけください{close}",
-   "en": "Please call on me if you need{br}anything.{close}",
+   "en": "Please call on me if you{br}need anything.{close}",
    "kind": "msg",
    "speaker": "タロトス",
    "refs": 1
@@ -809,7 +809,7 @@
   {
    "id": "rom.32110",
    "jp": "君か・・・{br}強欲君主の配下ヴァンデルは・・・{page}強欲君主はいい趣味をしているな{br}黄金城を拝見したが　実にすばらしい{page}この「金色の博徒」キャンバル様に{br}ぴったりの城ではないか・・・{close}",
-   "en": "So you're the Vandel serving the{br}Greedy Overlord...{page}The Greedy Overlord has fine taste.{br}I've seen the Golden Castle. Truly{br}magnificent.{page}A castle fit for Canbal-sama, the{br}\"Golden Gambler\"...{close}",
+   "en": "So you're the Vandel serving the{br}Greedy Overlord...{page}The Greedy Overlord has fine taste.{br}I've seen the Golden Castle.{br}Truly magnificent.{page}A castle fit for Canbal-sama, the{br}\"Golden Gambler\"...{close}",
    "kind": "msg",
    "speaker": "キャンバル",
    "refs": 1
@@ -824,7 +824,7 @@
   {
    "id": "rom.321D0",
    "jp": "どうだい？{br}ひとつ賭けないか・・・！？{page}私とバトルをして{br}私が勝てば　君は私のもの・・・{page}（そして強欲君主を倒して{br}黄金城も私のもの・・・）{page}もし君が勝てば{br}私は君のもの・・・{page}どうだい？{br}スリルでワクワクするだろ・・・？{page}いくぞっ！{close}",
-   "en": "How about it? Care for a little{br}wager...!?{page}Battle me. If I win, you belong to me...{page}(Then I'll defeat the Greedy Overlord,{br}and the Golden Castle will be mine{br}too...){page}If you win, I belong to you...{page}Well? Doesn't the thrill excite you...?{page}Here we go!{close}",
+   "en": "How about it? Care for a{br}little wager...!?{page}Battle me. If I win, you belong to me...{page}(Then I'll defeat the Greedy Overlord,{br}and the Golden Castle will be{br}mine too...){page}If you win, I belong to you...{page}Well? Doesn't the thrill excite you...?{page}Here we go!{close}",
    "kind": "msg",
    "speaker": "キャンバル",
    "refs": 1
@@ -1096,7 +1096,7 @@
   {
    "id": "rom.325D4",
    "jp": "ゲヒヒヒャハッ！{br}オレは「闇の爪」シャデリコ！{page}暗殺者とおそれられる{br}この二ッ星の切れ味を味わえっ！！{close}",
-   "en": "Gehihyaha! I'm Shaderiko, the \"Dark{br}Claw\"!{page}Taste the cutting edge of this{br}Two-Star, feared as an assassin!!{close}",
+   "en": "Gehihyaha! I'm Shaderiko, the{br}\"Dark Claw\"!{page}Taste the cutting edge of this{br}Two-Star, feared as an assassin!!{close}",
    "kind": "msg",
    "speaker": "シャデリコ",
    "refs": 1

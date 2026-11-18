@@ -14,7 +14,7 @@ screen/button_category.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Type
 # decision2 text (7, 11, 26, 20) inks [1, 2] cut-right
 screen/button_decision2.nbfc@8	7	4	41	24	sb	1	2	l	1,2	OK
 # detail text (36, 11, 55, 20) inks [1, 2] cut-left
-screen/button_detail.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Details
+screen/button_detail.nbfc@8	32	4	28	24	s	1	2	c	1,2	Details
 # dispatch text (22, 11, 41, 20) inks [1, 2]
 screen/button_dispatch.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Dispatch
 # equip text (22, 11, 41, 20) inks [1, 2]
@@ -42,7 +42,7 @@ screen/button_normal.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Normal
 # option text (29, 11, 56, 20) inks [1, 2] cut-left
 screen/button_option.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Options
 # order text (36, 11, 55, 20) inks [1, 2] cut-left
-screen/button_order.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Orders
+screen/button_order.nbfc@8	32	4	28	24	s	1	2	c	1,2	Orders
 # party text (32, 10, 53, 20) inks [1, 2] cut-left
 screen/button_party.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Party
 # quest text (20, 11, 44, 20) inks [1, 2]

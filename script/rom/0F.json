@@ -74,7 +74,7 @@
   {
    "id": "rom.3CBF8",
    "jp": "もういちどビィトがいるか確認します。{close}",
-   "en": "Checking again whether Beet is{br}present.{close}",
+   "en": "Checking again whether Beet{br}is present.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -3475,7 +3475,7 @@
   {
    "id": "rom.3EC88",
    "jp": "この女神像が　いつの時代に{br}造られたのか　定かではないが{page}人々は　その２体の　巨大な女神像を{br}あがめて　生活をしていた{close}",
-   "en": "No one knew for certain when these{br}statues had been built.{page}But the people lived their lives{br}worshipping the two great{br}goddesses.{close}",
+   "en": "No one knew for certain when these{br}statues had been built.{page}But the people lived their lives{br}worshipping the two{br}great goddesses.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -3525,7 +3525,7 @@
   {
    "id": "rom.3EF74",
    "jp": "それ　それ　それーーっ！！{br}もっと　もっと　早く　進めーーっ！！{br}双子島は　目の前っ！！{page}黄金ザクザク！！　のためなら{br}ホバーフィッシュなど　使い捨てに{br}してくれるわっ！！{close}",
-   "en": "Go, go, gooo!! Faster! FASTER!! The{br}Twin Islands are right ahead!!{page}Mountains of gold!! For that, I'll gladly{br}use up a Hoverfish and throw it{br}away!!{close}",
+   "en": "Go, go, gooo!! Faster! FASTER!! The{br}Twin Islands are right ahead!!{page}Mountains of gold!! For that, I'll gladly{br}use up a Hoverfish and throw{br}it away!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3570,7 +3570,7 @@
   {
    "id": "rom.3F094",
    "jp": "{vandel}だと・・・{page}フンッ！{br}貴様にお似合いの　つまらん名だっ！{page}いいかっ・・・{br}下々の者から　そんなつまらん名で{br}呼ばれているうちは　三流だぞ・・・{page}ヴァンデルたるもの　ワシのように{br}「二つ名」で{br}呼ばれるようにならんといかん・・・{close}",
-   "en": "{vandel}, eh...{page}Hmph! A dull name that suits you{br}perfectly!{page}Listen... As long as your inferiors call{br}you by a dull name like that, you're{br}third-rate...{page}A Vandel must earn an \"epithet\" like{br}mine...{close}",
+   "en": "{vandel}, eh...{page}Hmph! A dull name that suits{br}you perfectly!{page}Listen... As long as your inferiors call{br}you by a dull name like that,{br}you're third-rate...{page}A Vandel must earn an \"epithet\"{br}like mine...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3593,7 +3593,7 @@
   {
    "id": "rom.3F1B0",
    "jp": "ワシの「二つ名」は「強欲君主」・・・{page}フンッ・・・{br}誰がつけたか知らんが　ワシにぴったりの{br}名ではないかっ・・・{page}強欲で　大いに結構・・・{br}いいか・・・ヴァンデルにとって{br}本当の敵とは　何か分かるか？{page}強力な天撃を使うバスターか・・・？{page}強力な才牙を使うバスターか・・・？{page}それとも・・・{page}強力なコンビネーションの{br}バスター戦士団か・・・？{page}フンッ・・・どれもちがうな・・・{close}",
-   "en": "My epithet is \"Greedy Overlord\"...{page}Hmph... I don't know who came up{br}with it, but doesn't it suit me{br}perfectly...?{page}Greedy and proud of it... Listen... Do{br}you know a Vandel's true enemy?{page}A Buster with powerful Divine{br}Attacks...?{page}A Buster with a powerful Saiga...?{page}Or perhaps...{page}A Buster Squad with powerful{br}teamwork...?{page}Hmph... None of those...{close}",
+   "en": "My epithet is \"Greedy Overlord\"...{page}Hmph... I don't know who came up{br}with it, but doesn't it suit{br}me perfectly...?{page}Greedy and proud of it... Listen... Do{br}you know a Vandel's true enemy?{page}A Buster with powerful{br}Divine Attacks...?{page}A Buster with a powerful Saiga...?{page}Or perhaps...{page}A Buster Squad with{br}powerful teamwork...?{page}Hmph... None of those...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3668,7 +3668,7 @@
   {
    "id": "rom.3F6D0",
    "jp": "おい！{br}{vandel}！！{page}目障りなゴミを{br}さっさと　始末してしまえっ！！{close}",
-   "en": "Hey! {vandel}!!{page}Hurry up and get rid of that{br}eyesore!!{close}",
+   "en": "Hey! {vandel}!!{page}Hurry up and get rid of{br}that eyesore!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3698,7 +3698,7 @@
   {
    "id": "rom.3F764",
    "jp": "ちぃっ・・・まったく・・・{br}まあ一ツ星の　ひよっこだから{br}仕方がねぇか・・・{page}おいっ！{br}次は　この里を攻め滅ぼしてしまえ・・・{br}いいな・・・さっさとやれよっ・・・{page}いくら気の長い　このワシでも{br}ガマンの限界ってもんが{br}あるからな・・・{close}",
-   "en": "Tch... Honestly... Well, you're only a{br}One-Star hatchling. What can I{br}expect...?{page}Hey! Next, wipe out this village... Got{br}it...? Get on with it...{page}Even a patient fellow like me has his{br}limits...{close}",
+   "en": "Tch... Honestly... Well, you're only a{br}One-Star hatchling. What can{br}I expect...?{page}Hey! Next, wipe out this village... Got{br}it...? Get on with it...{page}Even a patient fellow like me has{br}his limits...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3743,7 +3743,7 @@
   {
    "id": "rom.3F9BC",
    "jp": "このひよっこめっ・・・{page}まぁ　いくら低能な人間どもが{br}創ったとはいえ{br}里の門は　少々固いからな・・・{page}貴様のそのヒョロヒョロの腕じゃ{br}無理だろうよ・・・{page}ワシが手本を見せてやる・・・{br}しっかり見ておくんだな・・・{page}貴様も　ワシのように{br}人間どもを苦しめて{br}功績を　あげろよ・・・{page}そうすれば　その左腕に「星」が{br}増えるだろうぜ・・・{page}今回は　ワシが門を破ってやる・・・{page}このワシの力を　しっかりと{br}その目に　焼き付けておけっ・・・！{close}",
-   "en": "You hatchling...{page}Well, even if those dimwitted humans{br}built it, a village gate is fairly{br}sturdy...{page}Those scrawny arms of yours won't{br}do the job...{page}I'll show you how it's done... Watch{br}closely...{page}You'd better follow my example.{br}Make those humans suffer and earn{br}yourself some glory...{page}Then you'll earn more \"Stars\" on{br}that left arm of yours...{page}This time, I'll break down the gate for{br}you...{page}Burn the sight of my power into{br}those eyes of yours...!{close}",
+   "en": "You hatchling...{page}Well, even if those dimwitted humans{br}built it, a village gate is{br}fairly sturdy...{page}Those scrawny arms of yours won't{br}do the job...{page}I'll show you how it's done...{br}Watch closely...{page}You'd better follow my example.{br}Make those humans suffer and earn{br}yourself some glory...{page}Then you'll earn more \"Stars\" on{br}that left arm of yours...{page}This time, I'll break down the gate{br}for you...{page}Burn the sight of my power into{br}those eyes of yours...!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1

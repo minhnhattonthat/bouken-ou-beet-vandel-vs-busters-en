@@ -67,7 +67,7 @@
   {
    "id": "a9.021A9D04",
    "jp": "セーブに失敗しました{br}Ａボタンを押すと戻ります{close}",
-   "en": "Save failed. Press the A Button to{br}return.{close}",
+   "en": "Save failed. Press the A Button{br}to return.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "021A9D00"
@@ -85,7 +85,7 @@
   {
    "id": "a9.021A9D8C",
    "jp": "セーブデータの読み込みに失敗しました{br}電源を切って{br}カードを差し込み直してください{close}",
-   "en": "Failed to load save data. Turn off{br}the power and reinsert the Game{br}Card.{close}",
+   "en": "Failed to load save data. Turn off{br}the power and reinsert the{br}Game Card.{close}",
    "kind": "ptr.msg",
    "ptrs": [
     "021A9CF8"

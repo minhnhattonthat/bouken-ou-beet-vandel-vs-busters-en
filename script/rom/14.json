@@ -11,7 +11,7 @@
   {
    "id": "rom.5004C",
    "jp": "さて本日は　ご愛用いただいております{br}「ホバーフィッシュ」の着岸ポイント{br}追加の　お知らせです・・・！{page}現在着岸できる{br}黄金城とリンラーゴ山地の他に{page}ミレイの森　にも着岸できるように{br}なりました・・・！！{page}これにより　さらに　円滑に{br}バスター共を苦しめることが{br}できることでしょう・・・！！{page}ひきつづき　「ホバーフィッシュ」を{br}ご活用くださいね・・・！！{page}今の説明は{br}ご理解いただけましたか？{br}",
-   "en": "Today, I am pleased to announce a{br}new docking point for your trusty{br}\"Hoverfish\"...!{page}In addition to its current stops at{br}the Golden Castle and the Rinrago{br}Mountains, it can now dock at{page}Mirei Forest...!{page}This should make tormenting those{br}Busters an even smoother affair...!{page}Do continue making good use of your{br}\"Hoverfish\"...!{page}Was that explanation clear?",
+   "en": "Today, I am pleased to announce a{br}new docking point for your{br}trusty \"Hoverfish\"...!{page}In addition to its current stops at{br}the Golden Castle and the Rinrago{br}Mountains, it can now dock at{page}Mirei Forest...!{page}This should make tormenting those{br}Busters an even smoother affair...!{page}Do continue making good use of{br}your \"Hoverfish\"...!{page}Was that explanation clear?",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -26,7 +26,7 @@
   {
    "id": "rom.5024C",
    "jp": "これは　これは{br}{vandel}様！{page}封印のリングの破壊の方は順調に{br}進んでいますか・・・？{page}封印のリングを破壊して{br}この島に眠る強大な冥力を{br}我が物にする・・・{page}何度思い返してみても{br}すばらしい計画です・・・！！{page}{vandel}様が{br}「七ッ星」・・・{page}さらには{br}その上　「八輝星」にっ・・・！！{page}いやぁ　楽しみです・・・！！{page}その　すばらしい計画の　手助けとなる{br}新たなる乗り物モンスター　販売再開の{br}お知らせです・・・！{close}",
-   "en": "Well, well, {vandel}-sama!{page}Is destroying the Sealing Rings going{br}well?{page}Break the rings and claim this{br}island's vast, buried Dark Power... A{br}splendid plan, however often I{page}ponder it!{page}A \"Seven-Star,\" {vandel}-sama...{br}Then one of the \"Eight Shining{br}Stars\"! Oh, I can hardly wait!{page}To aid that splendid plan, another{br}transport monster is back on sale!{close}",
+   "en": "Well, well, {vandel}-sama!{page}Is destroying the Sealing Rings{br}going well?{page}Break the rings and claim this{br}island's vast, buried Dark Power... A{br}splendid plan, however often I{page}ponder it!{page}A \"Seven-Star,\" {vandel}-sama...{br}Then one of the \"Eight Shining{br}Stars\"! Oh, I can hardly wait!{page}To aid that splendid plan, another{br}transport monster is back on sale!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -41,7 +41,7 @@
   {
    "id": "rom.503EC",
    "jp": "長らく販売を中止しており　ご迷惑を{br}おかけしていた　「大怪蝶」が{br}魔賓館で　販売再開となりました！！{page}移動できるポイントは　限られるものの{br}「ホバーフィッシュ」以上にはるかに早く{br}長距離を移動できます・・・！{page}この双子島ですと　そうですね・・・{br}黄金城から　ゼロス雪原へ{br}移動できます・・・！！{page}「ホバーフィッシュ」よりも{br}少し値が張りますが{br}ぜひお買い求めくださいませ・・・！！{page}魔賓館で　タロトスが　活きの良い{br}「大怪蝶」を　ご用意して{br}お待ちいたしております・・・！{page}ぜひ　魔賓館をご活用くださいね・・・！{page}今の説明は{br}ご理解いただけましたか？{close}",
-   "en": "Sorry for the long wait! The \"Giant{br}Butterfly\" is back on sale at the{br}Vandel House!{page}Stops are limited, but long trips are{br}far faster than by \"Hoverfish\"!{page}Here on the Twin Islands... Yes, from{br}the Golden Castle to Zeros{br}Snowfield!{page}A little pricier than a \"Hoverfish,\" but{br}do buy one!{page}Tarotos awaits you at the Vandel{br}House with a lively \"Giant Butterfly\"!{br}Do make use of our services!{page}Was that clear?{close}",
+   "en": "Sorry for the long wait! The \"Giant{br}Butterfly\" is back on sale at the{br}Vandel House!{page}Stops are limited, but long trips are{br}far faster than by \"Hoverfish\"!{page}Here on the Twin Islands... Yes, from{br}the Golden Castle to{br}Zeros Snowfield!{page}A little pricier than a \"Hoverfish,\" but{br}do buy one!{page}Tarotos awaits you at the Vandel{br}House with a lively \"Giant Butterfly\"!{br}Do make use of our services!{page}Was that clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -86,7 +86,7 @@
   {
    "id": "rom.508C8",
    "jp": "初めまして{br}私は　ノア{page}私はヴァンデルと人間を{br}研究している・・・{page}そのためか　　「魔人博士」　などと{br}呼ばれている{page}さて　君は　双子島での活躍が{br}ウワサになっているな・・・{page}君は　なぜ戦うのだ{page}「強欲君主」・・・{br}まだ　彼の下で働いているのだな{page}彼はまだしも{br}君が戦う理由は　なんだというのだ・・・{page}君はあの島に黄金を求めて{br}行っているわけではないな・・・{br}地下に眠る別のモノ・・・{page}・・・そのように強大な力を手に入れて{br}どうするつもりだ{page}その先に何があるのだ・・・{page}何のために戦う・・・{page}君の戦いの未来は見守らせてもらおう{close}",
-   "en": "How do you do? I am Noa. I study{br}Vandels and humans. Hence,{br}perhaps, \"Vandel Scholar.\"{page}Your Twin Islands exploits are much{br}discussed. Why do you fight?{page}Still serving the \"Greedy Overlord\"?{br}His reasons I see, but yours...?{page}You seek no gold there, but{br}something else buried below... What{br}will you do with such vast power?{page}What lies beyond? What do you fight{br}for?{page}Allow me to watch where your{br}battles lead.{close}",
+   "en": "How do you do? I am Noa. I study{br}Vandels and humans. Hence,{br}perhaps, \"Vandel Scholar.\"{page}Your Twin Islands exploits are much{br}discussed. Why do you fight?{page}Still serving the \"Greedy Overlord\"?{br}His reasons I see, but yours...?{page}You seek no gold there, but{br}something else buried below... What{br}will you do with such vast power?{page}What lies beyond? What do you{br}fight for?{page}Allow me to watch where your{br}battles lead.{close}",
    "kind": "msg",
    "speaker": "ノア",
    "refs": 1
@@ -116,7 +116,7 @@
   {
    "id": "rom.50C00",
    "jp": "やあ{br}ウワサの　めずらしいモンスターには{br}出会ったかな・・・？{close}",
-   "en": "Hello. Have you encountered that{br}rare monster people are talking{br}about...?{close}",
+   "en": "Hello. Have you encountered that{br}rare monster people are{br}talking about...?{close}",
    "kind": "msg",
    "speaker": "ノア",
    "refs": 1
@@ -131,7 +131,7 @@
   {
    "id": "rom.50C4C",
    "jp": "やあ{br}ウワサの　めずらしいモンスターには{br}出会ったかな・・・？{page}ウワサも　時には　役立つことも{br}あるようだね{br}いや　こちらの話だ・・・{close}",
-   "en": "Hello. Have you encountered that{br}rare monster people are talking{br}about...?{page}It seems rumors do have their uses{br}at times. Ah, just thinking aloud...{close}",
+   "en": "Hello. Have you encountered that{br}rare monster people are{br}talking about...?{page}It seems rumors do have their uses{br}at times. Ah, just thinking aloud...{close}",
    "kind": "msg",
    "speaker": "ノア",
    "refs": 1
@@ -146,7 +146,7 @@
   {
    "id": "rom.50CE0",
    "jp": "なぜ戦う・・・{page}なぜ自分のボスとまで　戦う・・・{page}いや　ボスだからこそなのか・・・{page}君の目指すところは　どこなのだ{page}君の戦いの未来　これからも見守らせて{br}もらおう{close}",
-   "en": "Why do you fight...?{page}Why go so far as to fight your own{br}boss...?{page}No, perhaps it is precisely because{br}he is your boss...{page}What is it you are striving for?{page}Allow me to continue observing{br}where your battles lead you.{close}",
+   "en": "Why do you fight...?{page}Why go so far as to fight your{br}own boss...?{page}No, perhaps it is precisely because{br}he is your boss...{page}What is it you are striving for?{page}Allow me to continue observing{br}where your battles lead you.{close}",
    "kind": "msg",
    "speaker": "ノア",
    "refs": 1
@@ -161,7 +161,7 @@
   {
    "id": "rom.50DF0",
    "jp": "あら　あなたは・・・たしか・・・{page}そうそう・・・{br}{vandel}でしたわね{page}双子島でご活躍との　ウワサを{br}聞いていますわ・・・{page}初めまして{br}私は　ロディーナ・・・{page}みなさまは「小悪魔」なんて{br}おっしゃいますけれど・・・{page}どうなんでしょう・・・{page}「小悪魔」に見えまして・・・？{br}ウフフ・・・{page}ハーデン様の下で　働けるなんて{br}すばらしいですわね・・・{page}久しぶりに　お会いしたいですわ・・・{close}",
-   "en": "Oh, you are... Let me see...{page}Ah, yes... {vandel}, was it?{page}I have heard tales of your exploits{br}on the Twin Islands...{page}How do you do? I am Rodina...{page}Everyone calls me the \"Little Devil,\"{br}but...{page}I wonder...{page}Do I look like a \"Little Devil\" to you...?{br}Hmhmhm...{page}How wonderful, being able to serve{br}under Harden-sama...{page}It has been so long. I would love to{br}see him again...{close}",
+   "en": "Oh, you are... Let me see...{page}Ah, yes... {vandel}, was it?{page}I have heard tales of your exploits{br}on the Twin Islands...{page}How do you do? I am Rodina...{page}Everyone calls me the \"Little{br}Devil,\" but...{page}I wonder...{page}Do I look like a \"Little Devil\" to you...?{br}Hmhmhm...{page}How wonderful, being able to serve{br}under Harden-sama...{page}It has been so long. I would love to{br}see him again...{close}",
    "kind": "msg",
    "speaker": "ロディーナ",
    "refs": 1
@@ -176,7 +176,7 @@
   {
    "id": "rom.50F74",
    "jp": "ところで　これもウワサで{br}聞いたんですけれど・・・{page}双子島には　もう魔賓館では売っていない{br}めずらしい　モンスターが出現するらしい{br}ですわね・・・・・・{page}なんでも・・・火山地帯のような{br}暑いところで　ごくまれに{br}見かけることがあるそうですの・・・{page}見かけたら{br}幸せになれたりするのかしら・・・{page}フフ・・・{close}",
-   "en": "By the way, I heard another rumor...{page}Apparently, rare monsters appear{br}on the Twin Islands that are no{br}longer sold at the Vandel House...{page}From what I hear... they are very{br}occasionally sighted in hot places,{br}such as volcanic regions...{page}I wonder if seeing one might bring{br}happiness...{page}Hmhmhm...{close}",
+   "en": "By the way, I heard another rumor...{page}Apparently, rare monsters appear{br}on the Twin Islands that are no{br}longer sold at the Vandel House...{page}From what I hear... they are very{br}occasionally sighted in hot places,{br}such as volcanic regions...{page}I wonder if seeing one might{br}bring happiness...{page}Hmhmhm...{close}",
    "kind": "msg",
    "speaker": "ロディーナ",
    "refs": 1
@@ -191,7 +191,7 @@
   {
    "id": "rom.510B4",
    "jp": "ウワサのめずらしいモンスターは{br}もう見つけられまして？{close}",
-   "en": "Have you found those rare{br}monsters everyone is talking about{br}yet?{close}",
+   "en": "Have you found those rare{br}monsters everyone is talking{br}about yet?{close}",
    "kind": "msg",
    "speaker": "ロディーナ",
    "refs": 1
@@ -251,7 +251,7 @@
   {
    "id": "rom.5130C",
    "jp": "クックックッ・・・{br}黙って行けばいいんだよ・・・{page}まぁ　めずらしい　モンスターに{br}会えるだろうぜ・・・{page}クックックッ・・・{close}",
-   "en": "Heh heh heh... Shut your mouth and{br}go...{page}You just might meet a rare{br}monster...{page}Heh heh heh...{close}",
+   "en": "Heh heh heh... Shut your mouth{br}and go...{page}You just might meet a{br}rare monster...{page}Heh heh heh...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -296,7 +296,7 @@
   {
    "id": "rom.513E4",
    "jp": "クックックッ・・・{br}なぜ分かったかって・・・？{close}",
-   "en": "Heh heh heh... How did I know, you{br}ask...?{close}",
+   "en": "Heh heh heh... How did I know,{br}you ask...?{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -446,7 +446,7 @@
   {
    "id": "rom.51684",
    "jp": "クックックッ・・・{br}いいか{vandel}・・・{page}ワシほどになればな{br}勘で　全て　お見通しなのだよ・・・{page}貴様も早く　このワシと同じ境地まで{br}這い上がってこい！！{close}",
-   "en": "Heh heh heh... Listen, {vandel}...{page}When you're as great as I am,{br}instinct tells you everything...{page}Hurry up and claw your way up to my{br}level!!{close}",
+   "en": "Heh heh heh... Listen, {vandel}...{page}When you're as great as I am,{br}instinct tells you everything...{page}Hurry up and claw your way up to{br}my level!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -506,7 +506,7 @@
   {
    "id": "rom.51810",
    "jp": "では　私はこれで{br}失礼いたします・・・！{page}なにぶん　多忙な身の上でして！！{close}",
-   "en": "Now, if you will excuse me, I must be{br}off...!{page}I am terribly busy, you see!!{close}",
+   "en": "Now, if you will excuse me, I must{br}be off...!{page}I am terribly busy, you see!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

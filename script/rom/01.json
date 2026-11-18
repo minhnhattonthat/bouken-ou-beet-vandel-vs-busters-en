@@ -11,7 +11,7 @@
   {
    "id": "rom.0410C",
    "jp": "{hero}はまだ{br}バスターになって{br}間もない感じだけど・・・{page}そうなんだ{br}まだ新人さんなんだね{page}え？「天撃」のこと・・・かい？{page}基礎なら　ぼくでも{br}教えてあげられると思うよ！{page}{hero}も　鑑定小屋で{br}ブランディングしてもらったよね？{page}じゃあ　天撃が{br}使えるようになっているはずだよ{page}天撃は　大気中のエネルギー「天力」を{br}増幅して　コントロールして使うんだ{page}天撃には{br}「火」「水」「風」「雷」「光」という{br}５つの属性があるよ{page}得意な属性を　たくさん使えば{br}どんどん使いこなして　より強い天撃を{br}マスターできると思うよ！{page}わかったかな？{br}いろいろ　ためしてみてね！{close}",
-   "en": "You look like you haven't been a{br}Buster for long, {hero}...{page}I see. You're still new to all this.{page}Hm? You want to know about Divine{br}Attacks?{page}I think even I could teach you the{br}basics!{page}You had your branding done at an{br}Appraisal Hut too, right,{br}{hero}?{page}Then you should be able to use{br}Divine Attacks.{page}You use them by amplifying and{br}controlling Divine Power, the energy{br}in the air.{page}Divine Attacks have five elements:{br}Fire, Water, Wind, Lightning, and Light.{page}If you keep using an element you're{br}good at, I think you'll get better and{br}better and master stronger{page}Divine Attacks!{page}Does that make sense? Try{br}experimenting!{close}",
+   "en": "You look like you haven't been a{br}Buster for long, {hero}...{page}I see. You're still new to all this.{page}Hm? You want to know about{br}Divine Attacks?{page}I think even I could teach you{br}the basics!{page}You had your branding done at an{br}Appraisal Hut too,{br}right, {hero}?{page}Then you should be able to use{br}Divine Attacks.{page}You use them by amplifying and{br}controlling Divine Power, the energy{br}in the air.{page}Divine Attacks have five elements:{br}Fire, Water, Wind, Lightning, and Light.{page}If you keep using an element you're{br}good at, I think you'll get better and{br}better and master stronger{page}Divine Attacks!{page}Does that make sense?{br}Try experimenting!{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -56,7 +56,7 @@
   {
    "id": "rom.04420",
    "jp": "でも　みんなの暮らしを守るお手伝いが{br}できるからさ・・・{br}やりがいあるよね・・・！{close}",
-   "en": "But we get to help keep people's{br}lives safe... That makes it{br}worthwhile...!{close}",
+   "en": "But we get to help keep people's{br}lives safe... That makes{br}it worthwhile...!{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -71,7 +71,7 @@
   {
    "id": "rom.04480",
    "jp": "「暗黒の世紀」を終わらせるんだ！！{close}",
-   "en": "\"We're going to end the Dark{br}Century!!\"{close}",
+   "en": "\"We're going to end the{br}Dark Century!!\"{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -86,7 +86,7 @@
   {
    "id": "rom.044B0",
    "jp": "なんてね・・・{br}これビィトの　口ぐせなんだ！！{page}ビィトって　ああ見えてさ{br}ほんと　すごいやつなんだ・・・{page}ぼくも　がんばらなくっちゃ・・・{close}",
-   "en": "Just kidding... That's what Beet{br}always says!{page}He may not look it, but Beet really is{br}amazing...{page}I'd better keep working hard, too...{close}",
+   "en": "Just kidding... That's what Beet{br}always says!{page}He may not look it, but Beet really{br}is amazing...{page}I'd better keep working hard, too...{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -130,7 +130,7 @@
   {
    "id": "rom.04A90",
    "jp": "{hero}！{br}これからモンスター退治？{page}キッスから　聞いたわ・・・{br}まだ　新人さんなんだってね{page}ビィトが　お世話になってるお礼と{br}言っちゃ　なんだけど・・・{br}武器について教えてあげるね{page}{hero}って{br}何の武器が得意なの？{page}あのね　武器にはいろんな種類があるの{br}剣とか　槍とか　銃とか・・・{br}武器屋を　のぞいてみるといいわ・・・{page}{hero}にも{br}得手不得手が　あると思うから{br}装備できない武器も　あると思うの・・・{page}わたしなんか　斧は重たいから{br}持てないし・・・{br}その辺は　いろいろ試してみてね{close}",
-   "en": "{hero}! Off to hunt monsters?{br}Kissu says you're new at this.{page}To thank you for helping Beet, I'll{br}explain weapons. What do you use,{br}{hero}?{page}Swords, spears, guns... There are{br}lots of types. Try the Weapon Shop.{page}You'll have strengths and{br}weaknesses, {hero}, so some{br}weapons may be off limits. I can't{page}carry axes. Too heavy! Try different{br}ones, okay?{close}",
+   "en": "{hero}! Off to hunt monsters?{br}Kissu says you're new at this.{page}To thank you for helping Beet, I'll{br}explain weapons. What do you{br}use, {hero}?{page}Swords, spears, guns... There are{br}lots of types. Try the Weapon Shop.{page}You'll have strengths and{br}weaknesses, {hero}, so some{br}weapons may be off limits. I can't{page}carry axes. Too heavy! Try different{br}ones, okay?{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -168,7 +168,7 @@
   {
    "id": "rom.05150",
    "jp": "バカヤロウ！！{page}このゴージャス　アンド　リッチな{br}ワシの　黄金の島に　小汚い銀のコインが{br}出回っているとは　何事だ！！{page}くそっ・・・{br}なんと　汚らわしい・・・{page}金　金　金　金　金　金こそすべてっ！！{page}銀など　話にならんと　あれほど{br}言っているのに　まだ分からんのか！！{page}銀のコインなど　カネックに{br}全部食わせてしまえ！{page}行けっ！！{page}ちいっ・・・{br}まったく　役に立たんヤツだ・・・{close}",
-   "en": "You idiot!!{page}How dare filthy silver coins circulate{br}on the golden island of yours truly,{br}the gorgeous and rich ruler?!{page}Curse it... How revolting...{page}Gold, gold, gold, gold, gold! Gold is{br}everything!!{page}How many times must I tell you silver{br}is worthless before you{br}understand?!{page}Have the Kanecks eat every last{br}silver coin!{page}Go!!{page}Tch... Utterly useless...{close}",
+   "en": "You idiot!!{page}How dare filthy silver coins circulate{br}on the golden island of yours truly,{br}the gorgeous and rich ruler?!{page}Curse it... How revolting...{page}Gold, gold, gold, gold, gold! Gold{br}is everything!!{page}How many times must I tell you silver{br}is worthless before{br}you understand?!{page}Have the Kanecks eat every last{br}silver coin!{page}Go!!{page}Tch... Utterly useless...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -242,7 +242,7 @@
   {
    "id": "rom.0543C",
    "jp": "最近　バコソン山地に　硬貨を食い荒らす{br}やっかいな　モンスターが　あらわれる{br}ようになった{page}これを退治してほしい{page}みんなの貴重な　お金を　食い荒らす{br}ひどい　モンスターじゃ{page}かく言うわしが　大陸から持ってきた{br}なけなしのヘソクリも{br}食べられてしもうた！{page}くやしいぞ！{page}帰ってこーい！！{br}わしの　ヘソクリーーー！！{page}う{br}ゴ　ゴホン・・・{page}とにかく　みなが困っておる！！{br}頼むぞ{hero}・・・{page}ところで・・・{br}どうじゃ　仇のほうは・・・？{page}こちらでは　おかしなヴァンデルについて{br}少し　情報を得たのじゃが・・・{br}まだ　確認中じゃ・・・{page}おぬしが　このカネックの討伐を{br}終える頃には　話すこともできよう・・・{page}心して　かかれよ{br}{hero}・・・{close}",
-   "en": "Coin-eating monsters plague the{br}Bakoson Mountains. Please slay{br}them! They eat everyone's{page}precious money! Even my meager{br}savings from the mainland!{page}Oh, the agony! Come baaack, my{br}savings!{page}Er... A-ahem! Everyone needs help,{br}{hero}!{page}Any news of your father's killer? I've{br}heard of a strange Vandel, but must{br}check the facts. By the time you{page}finish hunting Kanecks, I should know{br}more.{page}Take care, {hero}, my boy...{close}",
+   "en": "Coin-eating monsters plague the{br}Bakoson Mountains. Please slay{br}them! They eat everyone's{page}precious money! Even my meager{br}savings from the mainland!{page}Oh, the agony! Come baaack,{br}my savings!{page}Er... A-ahem! Everyone needs{br}help, {hero}!{page}Any news of your father's killer? I've{br}heard of a strange Vandel, but must{br}check the facts. By the time you{page}finish hunting Kanecks, I should{br}know more.{page}Take care, {hero}, my boy...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -257,7 +257,7 @@
   {
    "id": "rom.056B8",
    "jp": "{hero}！{br}元気？{page}あたいさ{br}{hero}みたいに{br}この島を　よくしたいんだ！！{page}そりゃあ　モンスターを{br}たおしたりは　できないけどさ・・・{page}でも　{hero}を{br}助けることなら　できるかなって！！{page}あ！　ほら！{br}{hero}だけじゃ{br}ないから！{page}この前も{hero}以外の{br}バスターに　会ったもんね！{br}みんなの　役に立ちたいの！{page}ほら！{br}武器だろ　防具だろ　アイテムだろ{br}イロイロあるさ！！{close}",
-   "en": "{hero}! How ya doing?{page}I wanna make this island a better{br}place, just like you, {hero}!!{page}Sure, I can't beat up monsters or{br}anything...{page}But I figured I could help you out,{br}{hero}!!{page}Oh! Hey! It's not just you,{br}{hero}!{page}I met another Buster besides you{br}the other day, {hero}! I wanna{br}help everyone!{page}Look! Weapons, armor, items... I've{br}got all sorts!!{close}",
+   "en": "{hero}! How ya doing?{page}I wanna make this island a better{br}place, just like you, {hero}!!{page}Sure, I can't beat up monsters{br}or anything...{page}But I figured I could help you{br}out, {hero}!!{page}Oh! Hey! It's not just{br}you, {hero}!{page}I met another Buster besides you{br}the other day, {hero}! I wanna{br}help everyone!{page}Look! Weapons, armor, items... I've{br}got all sorts!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -362,7 +362,7 @@
   {
    "id": "rom.05CD4",
    "jp": "お！？{br}{hero}は{br}天撃派なの？？{close}",
-   "en": "Oh!? So you're a Divine Attack guy,{br}{hero}?{close}",
+   "en": "Oh!? So you're a Divine Attack{br}guy, {hero}?{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -377,7 +377,7 @@
   {
    "id": "rom.05CFC",
    "jp": "えーっ{br}武器派よねーっ！！{close}",
-   "en": "Whaaat? You're a weapons guy,{br}right!?{close}",
+   "en": "Whaaat? You're a weapons{br}guy, right!?{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -647,7 +647,7 @@
   {
    "id": "rom.06228",
    "jp": "また　会いたいわね☆{br}じゃぁ　またね！！{close}",
-   "en": "I'd love to see you again! Bye for{br}now!{close}",
+   "en": "I'd love to see you again! Bye{br}for now!{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -707,7 +707,7 @@
   {
    "id": "rom.064F8",
    "jp": "さて　今日は　この双子島について{br}話をしたいのじゃ・・・{page}おぬしたちも　知っての通り{br}この双子島は　それはそれは{br}平和な島じゃった・・・{page}ところが近頃は　モンスターが{br}はびこるようになり　また　異常気象が{br}続くようになってしまった・・・{page}どうも　西の里を攻め滅ぼした{br}ヴァンデルが　徐々に勢力を{br}拡大しているらしい・・・{page}かなり強力な{br}ヴァンデルのようじゃ・・・{page}残念ながら　西の島は{br}ほぼ全滅かもしれん・・・{close}",
-   "en": "Now, today I'd like to speak of these{br}Twin Islands...{page}As you both know, the Twin Islands{br}were once ever so peaceful...{page}But lately, monsters have overrun{br}them, and the strange weather{br}shows no sign of ending...{page}It seems the Vandel who destroyed{br}West Village is steadily extending his{br}reach...{page}He must be a very powerful Vandel{br}indeed...{page}Sadly, West Island may already be all{br}but lost...{close}",
+   "en": "Now, today I'd like to speak of these{br}Twin Islands...{page}As you both know, the Twin Islands{br}were once ever so peaceful...{page}But lately, monsters have overrun{br}them, and the strange weather{br}shows no sign of ending...{page}It seems the Vandel who destroyed{br}West Village is steadily{br}extending his reach...{page}He must be a very powerful{br}Vandel indeed...{page}Sadly, West Island may already be all{br}but lost...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -752,7 +752,7 @@
   {
    "id": "rom.06914",
    "jp": "そう・・・{br}この状況では　伝達兵の身の上も{br}心配じゃ・・・{close}",
-   "en": "Indeed... Under these circumstances,{br}I fear for the Messenger's safety as{br}well...{close}",
+   "en": "Indeed... Under these circumstances,{br}I fear for the Messenger's safety{br}as well...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -767,7 +767,7 @@
   {
    "id": "rom.0695C",
    "jp": "そこで・・・{hero}に{br}ミレイの森に　向かってもらいたい{br}のじゃ・・・{page}そして{br}伝達兵の安全を　確認してほしい・・・{page}{hero}よ・・・{br}仇討ちを急ぐ気持ちはよく分かる・・・{page}しかし・・・{br}今も　おぬしの大切な人々が生きる{br}この島を守ること・・・{page}それも　おぬしの大切な使命では{br}あるまいかな・・・{page}{hero}！{page}今すぐ　伝達兵の調査に{br}向かってくれ・・・！{br}よろしく　頼むぞ・・・{close}",
-   "en": "So... {hero}, I would like you to{br}go to Mirei Forest...{page}And make sure the Messenger is{br}safe...{page}{hero}... I understand your{br}eagerness to avenge your father...{page}But... protecting this island, where{br}those dear to you still live...{page}Is that not also an important duty{br}of yours?{page}{hero}!{page}Please, set out at once and find the{br}Messenger...! I'm counting on you...{close}",
+   "en": "So... {hero}, I would like you to{br}go to Mirei Forest...{page}And make sure the Messenger{br}is safe...{page}{hero}... I understand your{br}eagerness to avenge your father...{page}But... protecting this island, where{br}those dear to you still live...{page}Is that not also an important duty{br}of yours?{page}{hero}!{page}Please, set out at once and find the{br}Messenger...! I'm counting on you...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -835,7 +835,7 @@
   {
    "id": "rom.06F30",
    "jp": "おお　{hero}よ{br}よく帰ってきた・・・{page}伝達兵は　どうじゃった？{br}無事じゃったか？{page}そうか・・・{br}だめじゃったか・・・{close}",
-   "en": "Ah, {hero}. You've returned...{page}What of the Messenger? Was he{br}safe?{page}I see... He didn't make it...{close}",
+   "en": "Ah, {hero}. You've returned...{page}What of the Messenger? Was{br}he safe?{page}I see... He didn't make it...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -1030,14 +1030,14 @@
   {
    "id": "rom.079B8",
    "jp": "合言葉は{br}「ホーリーホーレイホーリーホーリー」{br}で　いいですか？{close}",
-   "en": "Is \"Holy Horey, Holy, Holy\" the right{br}password?{close}",
+   "en": "Is \"Holy Horey, Holy, Holy\" the{br}right password?{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.079FC",
    "jp": "合言葉は{br}「ホーリーシルバーホーレイホーレイ」{br}で　いいですか？{close}",
-   "en": "Is \"Holy Silver, Horey, Horey\" the right{br}password?{close}",
+   "en": "Is \"Holy Silver, Horey, Horey\" the{br}right password?{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -1088,7 +1088,7 @@
   {
    "id": "rom.07B00",
    "jp": "！！{page}おまえはっ・・・{page}フム・・・{br}なかなか　やりそうな{br}バスターだな・・・{page}一応聞いておこう{br}オラに　なんのようだ？{page}フムフム・・・{br}やはり　そうであったか・・・{page}オラの力が　必要とされる時が{br}来たのだな！{page}ウオッホン！！{page}ホレ　これじゃ{br}どうだ　うつくしいだろう！{page}これが　破壊された封印のリングをも{br}修復してしまうという{br}「聖なる銀ホーリーシルバー」であーる！{page}本来は　誰にも　ゆずらん{br}特別な銀なんじゃが・・・{page}この非常事態であーるからして{br}今回は特別に　ゆずってやろう！{page}ホレ　もってけ！！{br}健闘を　祈るのであーる！！{close}",
-   "en": "!!{page}You're...{page}Hmm... You look to be quite a capable{br}Buster...{page}Still, I shall ask. What brings you to{br}me?{page}Hmm, hmm... Just as I thought...{page}So the time has come when my{br}talents are needed!{page}AHEM!!{page}Here, look at this! Beautiful, isn't it?{page}This is \"Holy Silver,\" said to restore{br}even broken Sealing Rings!{page}Normally, I wouldn't part with this{br}special silver for anyone...{page}But given this emergency, I shall{br}make an exception!{page}Here, take it!! I wish you every{br}success!{close}",
+   "en": "!!{page}You're...{page}Hmm... You look to be quite a{br}capable Buster...{page}Still, I shall ask. What brings you{br}to me?{page}Hmm, hmm... Just as I thought...{page}So the time has come when my{br}talents are needed!{page}AHEM!!{page}Here, look at this! Beautiful, isn't it?{page}This is \"Holy Silver,\" said to restore{br}even broken Sealing Rings!{page}Normally, I wouldn't part with this{br}special silver for anyone...{page}But given this emergency, I shall{br}make an exception!{page}Here, take it!! I wish you{br}every success!{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1
@@ -1126,7 +1126,7 @@
   {
    "id": "rom.07D98",
    "jp": "（大きくなったな{br}{hero}・・・）{page}（オラには{br}銀を掘ることしかできん・・・）{page}（しかし　精一杯上等の{br}銀を掘るからな・・・）{page}（この島を　よろしく頼むぞ・・・）{close}",
-   "en": "(You've grown so much,{br}{hero}...){page}(Digging up silver is all I can do...){page}(But I'll give it my all and dig up the{br}finest silver there is...){page}(I'm counting on you to save this{br}island, my boy...){close}",
+   "en": "(You've grown so{br}much, {hero}...){page}(Digging up silver is all I can do...){page}(But I'll give it my all and dig up the{br}finest silver there is...){page}(I'm counting on you to save this{br}island, my boy...){close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1

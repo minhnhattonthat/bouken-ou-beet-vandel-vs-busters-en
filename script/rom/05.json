@@ -221,7 +221,7 @@
   {
    "id": "rom.144F8",
    "jp": "おい・・・冗談だろ・・・{page}このゴージャス　アンド　リッチな{br}黄金城にあのゴミどもが{br}土足で歩き回っているとはな・・・{page}やはり　貴様では話にならんのか・・・{br}ちいっ・・・{page}さっさと行って　始末してこいっ！！{close}",
-   "en": "Hey... This is a joke, right...?{page}That trash is stomping around in my{br}gorgeous and rich Golden Castle{br}with their filthy shoes...{page}So you really are utterly useless...{br}Tch...{page}Get out there and dispose of them{br}already!!{close}",
+   "en": "Hey... This is a joke, right...?{page}That trash is stomping around in my{br}gorgeous and rich Golden Castle{br}with their filthy shoes...{page}So you really are utterly useless...{br}Tch...{page}Get out there and dispose of{br}them already!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -251,7 +251,7 @@
   {
    "id": "rom.145E8",
    "jp": "まったく　底抜けに{br}役に立たんやつだっ！！{page}これだから・・・{page}ええいっ！！{br}怒るネタも尽きたわいっ！！！{close}",
-   "en": "There is simply no end to your{br}uselessness!!{page}This is why...{page}Bah!! I've run out of things to rant{br}about!!!{close}",
+   "en": "There is simply no end to{br}your uselessness!!{page}This is why...{page}Bah!! I've run out of things to{br}rant about!!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -506,7 +506,7 @@
   {
    "id": "rom.14DA4",
    "jp": "ここがオマエたちの墓場だぜ・・・{close}",
-   "en": "This is where you're gonna be{br}buried...{close}",
+   "en": "This is where you're gonna{br}be buried...{close}",
    "kind": "msg",
    "speaker": "フラウスキー",
    "refs": 1
@@ -536,7 +536,7 @@
   {
    "id": "rom.14DF8",
    "jp": "お見せしよう！{br}我が冥力の極地・・・！！{close}",
-   "en": "Behold! The pinnacle of my Dark{br}Power...!!{close}",
+   "en": "Behold! The pinnacle of my{br}Dark Power...!!{close}",
    "kind": "msg",
    "speaker": "ロズゴート",
    "refs": 1
@@ -671,7 +671,7 @@
   {
    "id": "rom.14F70",
    "jp": "なんとか助かったみたいだな・・・{close}",
-   "en": "Looks like we made it out of that{br}one...{close}",
+   "en": "Looks like we made it out of{br}that one...{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -821,7 +821,7 @@
   {
    "id": "rom.154D0",
    "jp": "あのヴァンデルの紋章って{br}{hero}のバンダナの模様と{br}同じじゃない・・・？{close}",
-   "en": "Isn't that Vandel's emblem the same{br}as the pattern on your Bandanna,{br}{hero}...?{close}",
+   "en": "Isn't that Vandel's emblem the same{br}as the pattern on your{br}Bandanna, {hero}...?{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1061,7 +1061,7 @@
   {
    "id": "rom.157C0",
    "jp": "{hero}{br}母さんを頼んだぞーー！！{close}",
-   "en": "{hero}! Take care of your{br}mother!!{close}",
+   "en": "{hero}! Take care of{br}your mother!!{close}",
    "kind": "msg",
    "speaker": "{hero}",
    "refs": 1
@@ -1151,7 +1151,7 @@
   {
    "id": "rom.15AA8",
    "jp": "どうだ！　おまえら虫けらに{br}この黄金城の　すばらしさが{br}少しは分かるのか？{page}え？{br}どうなんだ　オイッ！！{close}",
-   "en": "Well! Can you vermin grasp even a{br}fraction of this Golden Castle's{br}splendor?{page}Eh? Well, answer me!!{close}",
+   "en": "Well! Can you vermin grasp even{br}a fraction of this Golden{br}Castle's splendor?{page}Eh? Well, answer me!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1226,7 +1226,7 @@
   {
    "id": "rom.15BE8",
    "jp": "ワシの　この美しき黄金城を{br}そのクソ汚い足で　汚した罪！！{page}この　ゴージャス　アンド　リーーッチな{br}尊き空間を　理解できない罪！！{page}万死に値するっ！！{close}",
-   "en": "The crime of sullying my beautiful{br}Golden Castle with your filthy feet!!{page}The crime of failing to appreciate{br}this exalted space, so gorgeous and{br}riiich!!{page}You deserve ten thousand deaths!!{close}",
+   "en": "The crime of sullying my beautiful{br}Golden Castle with your filthy feet!!{page}The crime of failing to appreciate{br}this exalted space, so gorgeous{br}and riiich!!{page}You deserve ten thousand deaths!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1661,7 +1661,7 @@
   {
    "id": "rom.165B4",
    "jp": "くっ・・・{page}おまえらごときに{br}やられるとはな・・・{close}",
-   "en": "Gh...{page}To think I would fall to the likes of{br}you...{close}",
+   "en": "Gh...{page}To think I would fall to the likes{br}of you...{close}",
    "kind": "msg",
    "speaker": "{vandel}",
    "refs": 1
@@ -1826,7 +1826,7 @@
   {
    "id": "rom.169D8",
    "jp": "おお{br}いいところに来た{page}ちょうど　ついさっき　「鑑定小屋」を{br}開いたところじゃ{page}もよく知っておるように{br}突如現れた「ヴァンデル」の手によって{br}この地上は蹂躙され{page}我々は　いつ終わるとも知れぬ{br}「暗黒の世紀」を　生きておる・・・{page}この状況を　打破するために誕生したのが{br}「ヴァンデルバスター」じゃ・・・{page}世界で活躍しておった　賞金稼ぎたちが{br}その　元祖になったと{br}言われておる・・・{page}バスターは　己の戦闘技術を駆使して{br}各地に存在する　ヴァンデルと{br}モンスターを倒すことで{page}報奨金を　獲得して{br}生計を立てておる・・・{page}ヴァンデルには　莫大な報奨金が{br}かけられておるため　一攫千金を狙って{br}バスターになる腕自慢も多いが・・・{page}その多くが　命を落とすという{br}非常に　危険な職業なのじゃ・・・{close}",
-   "en": "Ah, you've come at just the right{br}time.{page}I've only just opened the Appraisal{br}Hut.{page}As you know, the Vandels appeared{br}without warning and laid waste to{br}our world.{page}We live in the Dark Century, with no{br}end in sight...{page}Vandel Busters arose to put an end{br}to this plight.{page}They are said to have begun as{br}bounty hunters working throughout{br}the world...{page}Busters use their fighting skills to{br}defeat Vandels and monsters{br}wherever they may be found.{page}They earn their living from the{br}bounties...{page}The enormous bounties on Vandels{br}lure many a confident fighter into{br}the trade, hoping to make a{page}fortune...{page}But many lose their lives. It is a{br}perilous calling indeed...{close}",
+   "en": "Ah, you've come at just the{br}right time.{page}I've only just opened the{br}Appraisal Hut.{page}As you know, the Vandels appeared{br}without warning and laid waste to{br}our world.{page}We live in the Dark Century, with no{br}end in sight...{page}Vandel Busters arose to put an end{br}to this plight.{page}They are said to have begun as{br}bounty hunters working throughout{br}the world...{page}Busters use their fighting skills to{br}defeat Vandels and monsters{br}wherever they may be found.{page}They earn their living from{br}the bounties...{page}The enormous bounties on Vandels{br}lure many a confident fighter into{br}the trade, hoping to make a{page}fortune...{page}But many lose their lives. It is a{br}perilous calling indeed...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1856,7 +1856,7 @@
   {
    "id": "rom.16CA8",
    "jp": "そんな　バスターの活動を支援するために{br}バスター協会が　存在しておる・・・{page}「暗黒の世紀」に　終止符を打つために　{br}グランシスタ王国が母体となって{br}バスター協会が発足したわけじゃが・・・{page}バスター協会は　バスターの活動を{br}支援するために　先刻各地に{br}「鑑定小屋」を設置しておる・・・{page}「鑑定小屋」は　バスターにとって{br}重要な施設じゃぞ{page}まずは　ここで　依頼を受けるのじゃ{br}それから　その依頼を　達成させて{br}必ず　その終了報告をすること{page}そうすれば　網膜鑑定の後　その依頼に{br}見合った　報奨金と昇格値を{br}手に入れることが　できるのじゃ・・・{page}バスターたるもの「鑑定小屋」に{br}マメに通い　情報収集を怠っては{br}ならぬぞ・・・{close}",
-   "en": "The Buster Association exists to{br}support these Busters in their{br}work...{page}The Kingdom of Gransista{br}established it to bring the Dark{br}Century to an end...{page}To support Busters in their work,{br}the Association has set up{br}Appraisal Huts throughout the{page}land...{page}An Appraisal Hut is an essential{br}place for any Buster, lad.{page}First, accept a request here. Then{br}complete it, and be sure to return{br}and report your success.{page}After a retinal appraisal, you will{br}receive the bounty and Rank Points{br}appropriate to the request...{page}A proper Buster visits the Appraisal{br}Hut often. Never neglect to gather{br}information!{close}",
+   "en": "The Buster Association exists to{br}support these Busters in{br}their work...{page}The Kingdom of Gransista{br}established it to bring the Dark{br}Century to an end...{page}To support Busters in their work,{br}the Association has set up{br}Appraisal Huts throughout the{page}land...{page}An Appraisal Hut is an essential{br}place for any Buster, lad.{page}First, accept a request here. Then{br}complete it, and be sure to return{br}and report your success.{page}After a retinal appraisal, you will{br}receive the bounty and Rank Points{br}appropriate to the request...{page}A proper Buster visits the Appraisal{br}Hut often. Never neglect to{br}gather information!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1916,7 +1916,7 @@
   {
    "id": "rom.1711C",
    "jp": "ヴァンデルは「封印のリング」を{br}破壊して　この双子島を　黄金の島に{br}しようとしているらしいのだ・・・{page}不思議なことに　金にそまった地域には{br}モンスターが　次々に増殖し{br}始めておる・・・{page}最近の異常気象も　どうも{br}「封印のリング」の破壊と　関係が{br}あるようなのじゃ・・・{page}そこで　この双子島を守るために{br}「封印のリング」の修復を{br}進めたいのじゃ・・・{page}このアイテム　「聖なる銀のしずく」を{br}破壊された　「封印のリング」に{br}かけるのじゃ{page}そうすれば　「封印のリング」は{br}元に　もどる！{close}",
-   "en": "It seems the Vandels mean to{br}destroy the Sealing Rings and turn{br}the Twin Islands into islands of{page}gold...{page}Strangely, monsters have begun{br}multiplying wherever the land has{br}turned to gold...{page}The strange weather of late also{br}seems connected to the{br}destruction of the Sealing Rings...{page}So, to protect the Twin Islands, we{br}must set about repairing the Sealing{br}Rings...{page}Pour these Holy Silver Drops over a{br}destroyed Sealing Ring.{page}That will restore the Sealing Ring!{close}",
+   "en": "It seems the Vandels mean to{br}destroy the Sealing Rings and turn{br}the Twin Islands into islands of{page}gold...{page}Strangely, monsters have begun{br}multiplying wherever the land has{br}turned to gold...{page}The strange weather of late also{br}seems connected to the{br}destruction of the Sealing Rings...{page}So, to protect the Twin Islands, we{br}must set about repairing the{br}Sealing Rings...{page}Pour these Holy Silver Drops over a{br}destroyed Sealing Ring.{page}That will restore the Sealing Ring!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1946,7 +1946,7 @@
   {
    "id": "rom.17320",
    "jp": "ワールドマップ上に{br}「封印のリング」のシンボルが{br}見えておるじゃろう？{close}",
-   "en": "You can see the \"Sealing Ring\"{br}symbols on the world map, can't{br}you?{close}",
+   "en": "You can see the \"Sealing Ring\"{br}symbols on the world map,{br}can't you?{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1990,7 +1990,7 @@
   {
    "id": "rom.17450",
    "jp": "おお、{br}「封印のリングを修復」して{br}無事に戻ってきたようじゃな{page}初めての仕事にしては、{br}なかなかの手際じゃったのう{page}こんな程度の仕事ばかりと思われては{br}困るから言うが、{br}バスターの仕事はまだたくさんある、{page}それではさっそく次の仕事に・・・{page}といいたいところじゃが、{br}今回のジャンプゲームワールドでは{br}ここまでしか遊べんのじゃ{page}ここから先どうなるかは{br}発売してからのお楽しみということじゃ{page}短い時間じゃったが、{br}貴重な時間を使ってプレイしてくれて{br}本当にありがとう{page}ニンテンドーＤＳ専用ソフト{br}冒険王ビィト　ヴァンデルＶＳバスターズ{br}２００５年１１月に発売予定じゃ{page}発売されたら、ぜひよろしくたのむぞ{br}その時こそ真の強敵ヴァンデルとの{br}激しい戦いとなるはずじゃからの{close}",
-   "en": "Oh! You've repaired the Sealing Ring{br}and returned safe and sound, eh?{page}Quite a fine job for your first{br}assignment.{page}But don't think every job will be this{br}easy. There is still plenty of work for{br}a Buster to do.{page}Now, straight on to your next{br}assignment...{page}Or so I'd like to say, but this is as far{br}as you can play here at Jump Game{br}World.{page}You'll have to wait until the game is{br}released to discover what happens{br}next.{page}Our time together was short, but{br}thank you very much for spending{br}your precious time playing.{page}Bouken-ou Beet: Vandel vs. Busters,{br}exclusively for Nintendo DS, is{br}scheduled for release in{page}November 2005.{page}Do give it a try when it comes out,{br}won't you? Fierce battles with truly{br}formidable Vandels will await you{page}then!{close}",
+   "en": "Oh! You've repaired the Sealing Ring{br}and returned safe and sound, eh?{page}Quite a fine job for your{br}first assignment.{page}But don't think every job will be this{br}easy. There is still plenty of work for{br}a Buster to do.{page}Now, straight on to your{br}next assignment...{page}Or so I'd like to say, but this is as far{br}as you can play here at Jump{br}Game World.{page}You'll have to wait until the game is{br}released to discover what{br}happens next.{page}Our time together was short, but{br}thank you very much for spending{br}your precious time playing.{page}Bouken-ou Beet: Vandel vs. Busters,{br}exclusively for Nintendo DS, is{br}scheduled for release in{page}November 2005.{page}Do give it a try when it comes out,{br}won't you? Fierce battles with truly{br}formidable Vandels will await you{page}then!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -2020,7 +2020,7 @@
   {
    "id": "rom.1788C",
    "jp": "あら・・・{br}才牙　出せないんだ・・・{page}うーん・・・{br}この丸太を破壊するのは{br}才牙じゃないと　ちょっと無理かなー{close}",
-   "en": "Oh... You can't summon your Saiga{br}yet...{page}Hmm... Breaking this log without a{br}Saiga might be a bit too much to ask.{close}",
+   "en": "Oh... You can't summon your{br}Saiga yet...{page}Hmm... Breaking this log without a{br}Saiga might be a bit too much to ask.{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -2155,7 +2155,7 @@
   {
    "id": "rom.17AC8",
    "jp": "たくさん数があるから{br}なかなか　大変なのよねぇ・・・{close}",
-   "en": "There are sooo many, it's quite a{br}job...{close}",
+   "en": "There are sooo many,{br}it's quite a job...{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1

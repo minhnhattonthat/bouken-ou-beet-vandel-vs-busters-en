@@ -53,14 +53,14 @@
   {
    "id": "quest.007B4",
    "jp": "地底湖の扉（とびら）のおくにあった杯（さかずき）{br}その「絶の杯」を{br}みたすモンスターをたいじする",
-   "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground Lake{br}door.",
+   "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground{br}Lake door.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.00818",
    "jp": "地底湖（ちていこ）の扉（とびら）の{br}おくにあった杯（さかずき）{br}その「絶の杯（ぜつのさかずき）」をみたすモンスターをたいじする",
-   "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground Lake{br}door.",
+   "en": "Defeat monsters to fill the{br}\"Severance Chalice\" found{br}beyond the Underground{br}Lake door.",
    "kind": "desc",
    "refs": 1
   },
@@ -613,7 +613,7 @@
   {
    "id": "quest.01F64",
    "jp": "ミレイの森の薬花の採集",
-   "en": "Gather Medicinal Flowers in Mirei{br}Forest.",
+   "en": "Gather Medicinal Flowers in{br}Mirei Forest.",
    "kind": "desc",
    "refs": 1
   },

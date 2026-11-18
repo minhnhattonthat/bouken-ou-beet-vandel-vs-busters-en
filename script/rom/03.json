@@ -176,7 +176,7 @@
   {
    "id": "rom.0C2F4",
    "jp": "心配しなくても　大丈夫です{br}ゼナから　特に　不安な気持ちは{br}伝わってきませんもの{close}",
-   "en": "There's no need to worry. I haven't{br}felt any particular uneasiness from{br}Zena.{close}",
+   "en": "There's no need to worry. I haven't{br}felt any particular uneasiness{br}from Zena.{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -191,7 +191,7 @@
   {
    "id": "rom.0C354",
    "jp": "やっぱり双子は　不思議なつながりが{br}あるのかな・・・？{br}すごいなー・・・{page}レナが　そういうのならば{br}大丈夫なんだろうけど・・・{close}",
-   "en": "Maybe twins really do have some{br}mysterious connection...? That's{br}amazing...{page}Well, if you say so, Lena, I guess{br}she's all right...{close}",
+   "en": "Maybe twins really do have some{br}mysterious connection...?{br}That's amazing...{page}Well, if you say so, Lena, I guess{br}she's all right...{close}",
    "kind": "msg",
    "speaker": "おじさん",
    "refs": 1
@@ -409,7 +409,7 @@
   {
    "id": "rom.0C744",
    "jp": "おまえが　薬草届けろなんて{br}ややこしいこと{br}言うから　悪いんだろ！！{close}",
-   "en": "This is your fault for making things{br}awkward with that herb delivery{br}business!!{close}",
+   "en": "This is your fault for making{br}things awkward with that herb{br}delivery business!!{close}",
    "kind": "msg",
    "speaker": "おじさん",
    "refs": 1
@@ -537,7 +537,7 @@
   {
    "id": "rom.0C974",
    "jp": "ありがと！{br}薬草ならほら！{page}こんなにたくさん{br}売るほど　持ってるけどね！{close}",
-   "en": "Thanks! Though, look!{page}I've got enough Medicinal Herbs to{br}sell!{close}",
+   "en": "Thanks! Though, look!{page}I've got enough Medicinal Herbs{br}to sell!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -567,7 +567,7 @@
   {
    "id": "rom.0C9F8",
    "jp": "えーっと・・・{br}じゃあ・・・{br}これ　お返しね！{close}",
-   "en": "Let's see... Well... Here's something in{br}return!{close}",
+   "en": "Let's see... Well... Here's something{br}in return!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -666,7 +666,7 @@
   {
    "id": "rom.0CBC0",
    "jp": "おまえなんかが持ってても{br}宝の持ち腐れだもんな！{close}",
-   "en": "It'd just go to waste on a guy like{br}you!{close}",
+   "en": "It'd just go to waste on a guy{br}like you!{close}",
    "kind": "msg",
    "speaker": "おじさん",
    "refs": 1
@@ -681,7 +681,7 @@
   {
    "id": "rom.0CC00",
    "jp": "うるさいよー！{page}でもさ　ホントそうだし{br}おいらたちにできることって言えば{br}こんなことぐらいだからさ・・・{page}これからも　応援してるからさ！！{br}がんばってよ！！{close}",
-   "en": "Oh, shut up!{page}But it's true. Little things like this{br}are about all we can do...{page}We'll keep cheering you on!! Do your{br}best!!{close}",
+   "en": "Oh, shut up!{page}But it's true. Little things like this{br}are about all we can do...{page}We'll keep cheering you on!! Do{br}your best!!{close}",
    "kind": "msg",
    "speaker": "おにいさん",
    "refs": 1
@@ -741,7 +741,7 @@
   {
    "id": "rom.0D058",
    "jp": "あっ・・・あ・・・{br}{hero}・・・！{page}あのさっ・・・ヤバイよ！{br}ヴァンデルは　ヤバイって！！{close}",
-   "en": "Ah... ah... {hero}...!{page}Listen... This is bad! Vandels are bad{br}news!!{close}",
+   "en": "Ah... ah... {hero}...!{page}Listen... This is bad! Vandels are{br}bad news!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -801,7 +801,7 @@
   {
    "id": "rom.0D1D8",
    "jp": "おかしいな・・・{br}なんか　足が{br}がくがくしちゃうよ・・・{page}あれ・・・？{br}おかしいな・・・{br}ちゃんと　立ってられないや・・・{close}",
-   "en": "That's weird... My legs won't stop{br}shaking...{page}Huh...? That's weird... I can't stand{br}up straight...{close}",
+   "en": "That's weird... My legs won't{br}stop shaking...{page}Huh...? That's weird... I can't stand{br}up straight...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -876,7 +876,7 @@
   {
    "id": "rom.0D4AC",
    "jp": "われわれレジスタンスは　ヴァンデルに{br}滅ぼされた里の　生き残りなのだ・・・{page}西方の島のミュテリン山の里は{br}滅ぼされた後に　金の採掘場が{br}作られた・・・{page}そこでは　里の生き残った人々が{br}強制労働を強いられているのだ・・・{page}その使い捨ての厳しい労働によって{br}生き残ったわずかな人々も{br}次々と・・・{close}",
-   "en": "We of the Resistance are survivors{br}of villages destroyed by the{br}Vandels...{page}After Muterin Mountain Village on{br}West Island was destroyed, they{br}built a gold mine there...{page}The surviving villagers are being{br}forced to work in it...{page}They work them mercilessly, as if{br}their lives were disposable. Even the{br}few survivors are dying, one after{page}another...{close}",
+   "en": "We of the Resistance are survivors{br}of villages destroyed by{br}the Vandels...{page}After Muterin Mountain Village on{br}West Island was destroyed, they{br}built a gold mine there...{page}The surviving villagers are being{br}forced to work in it...{page}They work them mercilessly, as if{br}their lives were disposable. Even the{br}few survivors are dying, one after{page}another...{close}",
    "kind": "msg",
    "speaker": "レジスタンス",
    "refs": 1
@@ -981,7 +981,7 @@
   {
    "id": "rom.0DAD4",
    "jp": "アークさん{br}バスターがいますよ{close}",
-   "en": "Ark-san, there's a Buster over{br}there.{close}",
+   "en": "Ark-san, there's a Buster{br}over there.{close}",
    "kind": "msg",
    "speaker": "レンド",
    "refs": 1
@@ -1056,7 +1056,7 @@
   {
    "id": "rom.0DD2C",
    "jp": "そっかあ{br}{hero}くんは{br}どこから　この島にきたの？{close}",
-   "en": "I see! Where did you come from,{br}{hero}-kun?{close}",
+   "en": "I see! Where did you come{br}from, {hero}-kun?{close}",
    "kind": "msg",
    "speaker": "シグサ",
    "refs": 1
@@ -1094,7 +1094,7 @@
   {
    "id": "rom.0DDEC",
    "jp": "アーク戦士団{br}（アーク　レンド　シグサ）{br}を仲間にしますか？{close}",
-   "en": "Recruit Ark's Squad (Ark, Rend, and{br}Shigusa)?{close}",
+   "en": "Recruit Ark's Squad (Ark, Rend,{br}and Shigusa)?{close}",
    "kind": "msg",
    "speaker": "アーク",
    "refs": 1
@@ -1154,7 +1154,7 @@
   {
    "id": "rom.0DEB8",
    "jp": "いよいよこれから　西方の島での{br}戦いが始まるぞ{page}一度　東の里に戻って{br}報告しなければ・・・{page}さあ　東の里にもどろう！{close}",
-   "en": "The battle for West Island is about{br}to begin.{page}We must return to East Village to{br}report first...{page}Come, let's head back to East{br}Village!{close}",
+   "en": "The battle for West Island is about{br}to begin.{page}We must return to East Village to{br}report first...{page}Come, let's head back to{br}East Village!{close}",
    "kind": "msg",
    "speaker": "アーク",
    "refs": 1
@@ -1169,7 +1169,7 @@
   {
    "id": "rom.0DF38",
    "jp": "そうか　残念だ・・・{br}我々の力が必要になったら{br}いつでも声をかけてくれ・・・！{page}じゃあ　これからもがんばろう！{close}",
-   "en": "I see. That's a shame... If you need{br}our strength, just say the word...!{page}Well then, let's all keep doing our{br}best!{close}",
+   "en": "I see. That's a shame... If you need{br}our strength, just say the word...!{page}Well then, let's all keep doing{br}our best!{close}",
    "kind": "msg",
    "speaker": "アーク",
    "refs": 1
@@ -1289,7 +1289,7 @@
   {
    "id": "rom.0E35C",
    "jp": "さて　いよいよ　これから{br}西方の島の「封印のリング」の修復に{br}向かってもらうわけじゃが{page}西方の島にも「封印のリング」は{br}東方の島と同じ数がある・・・{page}９個じゃな・・・{page}ヤツは　おそれおおくも{br}「銀の女神像」のある　西の里を侵略して{br}「黄金城」を築き上げたヴァンデルじゃ{page}「黄金城」にほど近い{br}「ミュテリン山の里」は{page}真っ先に　ヤツの魔の手に{br}落ちてしもうた・・・{page}「封印のリング」も{br}おそらく９個全てが{br}破壊されておるじゃろう・・・{page}島を徘徊するモンスターじゃが・・・{br}こちらの島のそれよりも{br}はるかに邪悪であると聞く・・・{page}西方の島の「封印のリング」の修復も{br}困難な務めになるであろう・・・{close}",
-   "en": "Now you must repair West Island's{br}\"Sealing Rings.\" It has nine, just like{br}East Island...{page}That Vandel dared invade West{br}Village, home of the \"Silver Goddess{br}Statue,\" and build his \"Golden{page}Castle\" there.{page}Nearby \"Muterin Mountain Village\"{br}was first to fall into his evil{br}clutches...{page}All nine rings are likely destroyed. I{br}hear the monsters roaming there are{br}far more evil than ours...{page}Repairing those rings will be hard{br}indeed, my boy...{close}",
+   "en": "Now you must repair West Island's{br}\"Sealing Rings.\" It has nine, just like{br}East Island...{page}That Vandel dared invade West{br}Village, home of the \"Silver Goddess{br}Statue,\" and build his \"Golden{page}Castle\" there.{page}Nearby \"Muterin Mountain Village\"{br}was first to fall into his{br}evil clutches...{page}All nine rings are likely destroyed. I{br}hear the monsters roaming there are{br}far more evil than ours...{page}Repairing those rings will be hard{br}indeed, my boy...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -1319,7 +1319,7 @@
   {
    "id": "rom.0E5CC",
    "jp": "この局面を乗り切るには{br}仲間と協力することが肝要じゃぞ{page}西の島の　ゼロス雪原の浜辺に{br}船を着岸させることができるそうじゃ{page}乗り物も有効活用するとよい・・・{close}",
-   "en": "Working with your companions is vital{br}if you are to weather this crisis, my{br}boy.{page}I hear you can land a boat on the{br}shore of Zeros Snowfield on West{br}Island.{page}Make good use of transport, too...{close}",
+   "en": "Working with your companions is vital{br}if you are to weather this crisis,{br}my boy.{page}I hear you can land a boat on the{br}shore of Zeros Snowfield on{br}West Island.{page}Make good use of transport, too...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1334,7 +1334,7 @@
   {
    "id": "rom.0E674",
    "jp": "頼むぞ{hero}・・・{page}双子島の未来・・・{br}おぬしの勇気ある働きに{br}かかっておる・・{close}",
-   "en": "We are counting on you,{br}{hero}...{page}The future of the Twin Islands...{br}rests on your courageous efforts...{close}",
+   "en": "We are counting on{br}you, {hero}...{page}The future of the Twin Islands...{br}rests on your courageous efforts...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1
@@ -1349,7 +1349,7 @@
   {
    "id": "rom.0E6CC",
    "jp": "{hero}・・・{br}わたし・・・{page}わたしね・・・{br}今まで自分の気持ちしか{br}考えてなかったわ・・・{page}でも・・・{br}それじゃだめなのよね・・・{page}今でもね・・・{br}あなたを　危険な目に{br}あわせるのはいやなの・・・{page}でも・・・{br}それじゃ・・・{page}待ってるだけじゃ{br}何もよくならないのよね・・{close}",
-   "en": "{hero}... I...{page}You see... Until now, I've only{br}thought about my own feelings...{page}But... I can't go on like that, can I...?{page}Even now... I don't want you to be{br}put in danger...{page}But... If I...{page}Nothing will get better if all I do is{br}wait...{close}",
+   "en": "{hero}... I...{page}You see... Until now, I've only{br}thought about my own feelings...{page}But... I can't go on like that, can I...?{page}Even now... I don't want you to be{br}put in danger...{page}But... If I...{page}Nothing will get better if all I do{br}is wait...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -1439,7 +1439,7 @@
   {
    "id": "rom.0E984",
    "jp": "お帰り{hero}{br}調子はどうじゃ？{page}なに？{br}「ミュテリン山の里長」が！！{page}西の里の里長・・・{br}ミレイ森の里長・・・{page}そして　ミュテリン山の{br}里長までもが・・・{br}そうか・・・残念じゃ・・・{page}おのれ魔人め！{br}これ以上　このような{br}悪行をゆるすわけにはいかん！{page}これ以上　犠牲者を出すわけには{br}いかんのだ・・・！{page}{hero}{br}これを持って行きなさい{close}",
-   "en": "Welcome back, {hero}. How{br}goes it, eh?{page}What? The \"Muterin Village Chief\"!!{page}The chief of West Village... The Mirei{br}Forest Chief...{page}And now the Muterin Village Chief,{br}too... I see... What a terrible loss...{page}Curse those Vandels! We cannot{br}allow any more of these atrocities!{page}We cannot let any more lives be{br}lost...!{page}{hero}, take this with you.{close}",
+   "en": "Welcome back, {hero}. How{br}goes it, eh?{page}What? The \"Muterin Village Chief\"!!{page}The chief of West Village... The Mirei{br}Forest Chief...{page}And now the Muterin Village Chief,{br}too... I see... What a terrible loss...{page}Curse those Vandels! We cannot{br}allow any more of these atrocities!{page}We cannot let any more lives{br}be lost...!{page}{hero}, take this with you.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1597,7 +1597,7 @@
   {
    "id": "rom.0F090",
    "jp": "まぁ　大きさではないのだよ・・・{br}大きさでは・・・{page}クックックッ・・・{page}あのゴミども・・・{br}バスターもそれなりにやる{br}ということか・・・{page}どうせ死ぬだけの{br}くだらん連中が無駄なことを・・・{page}まあこのワシの島が　よもや{br}あのゴミどもに・・・などということは{br}ありえんがな・・{close}",
-   "en": "Well, size isn't everything... Size{br}isn't...{page}Heh heh heh...{page}Those vermin... So the Busters do{br}have some skill...{page}What a waste of effort from{br}worthless fools who'll only die{br}anyway...{page}Still, the very idea of those vermin{br}taking my island... Impossible...{close}",
+   "en": "Well, size isn't everything...{br}Size isn't...{page}Heh heh heh...{page}Those vermin... So the Busters do{br}have some skill...{page}What a waste of effort from{br}worthless fools who'll only{br}die anyway...{page}Still, the very idea of those vermin{br}taking my island... Impossible...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1657,7 +1657,7 @@
   {
    "id": "rom.0F330",
    "jp": "オス！{br}ついに　西方の島上陸だな！{page}こっちの島でも{br}{hero}を{br}強力にバックアップするからさ！！{close}",
-   "en": "Hey! Finally made it to West Island,{br}huh!{page}I've got your back on this island too,{br}{hero}!!{close}",
+   "en": "Hey! Finally made it to West{br}Island, huh!{page}I've got your back on this island{br}too, {hero}!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1687,7 +1687,7 @@
   {
    "id": "rom.0F3EC",
    "jp": "こら！　しっかりしろ！！{page}{hero}が{br}そんなだと　あたい・・・{page}うっ！！{br}く　苦しい・・・{page}ううぅっ・・・{page}・・・{close}",
-   "en": "Hey! Snap out of it!!{page}When you're like that, {hero},{br}I...{page}Ugh!! I... I can't breathe...{page}Uuugh...{page}...{close}",
+   "en": "Hey! Snap out of it!!{page}When you're like that,{br}{hero}, I...{page}Ugh!! I... I can't breathe...{page}Uuugh...{page}...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1732,7 +1732,7 @@
   {
    "id": "rom.0F4E0",
    "jp": "！？{page}うっ・・・{page}うぅっ・・・{page}違うの・・・{br}今度はホントに{br}胸が苦しいよ・・・{page}ねえちゃんに{br}何か危険が・・・{page}わたしたち双子だから{br}分かるのかも・・・{page}ねえちゃん・・・{page}{hero}！{br}あたい　ちょっと　ねえちゃんの{br}様子　見てくるよ！！{close}",
-   "en": "!?{page}Ugh...{page}Uuugh...{page}No... This time my chest really{br}hurts...{page}Sis must be in danger...{page}Maybe I can tell because we're{br}twins...{page}Sis...{page}{hero}! I'm gonna go check on{br}her!!{close}",
+   "en": "!?{page}Ugh...{page}Uuugh...{page}No... This time my chest{br}really hurts...{page}Sis must be in danger...{page}Maybe I can tell because{br}we're twins...{page}Sis...{page}{hero}! I'm gonna go check{br}on her!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1747,7 +1747,7 @@
   {
    "id": "rom.0F5D4",
    "jp": "一緒に来てくれたら{br}うれしいなっ！！{br}なんちて・・・{close}",
-   "en": "I'd be happy if you came along!! Just{br}kidding...{close}",
+   "en": "I'd be happy if you came along!!{br}Just kidding...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1987,7 +1987,7 @@
   {
    "id": "rom.0FD94",
    "jp": "もう　ねえちゃん！{br}こんなとこで　なにやってんのよ！！{close}",
-   "en": "Oh, Sis! What are you doing out{br}here?!{close}",
+   "en": "Oh, Sis! What are you doing{br}out here?!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1

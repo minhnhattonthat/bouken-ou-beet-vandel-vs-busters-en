@@ -49,7 +49,7 @@
   {
    "id": "rom.4C138",
    "jp": "おお・・・{br}貴様にしては上出来だ・・・{page}この　５つのカギは　ワシが{br}バラバラに隠しておいてやろう・・・{br}誰にも分からぬようにな・・・{page}もちろん・・・{br}貴様にもな・・・{page}クックックッ・・・{close}",
-   "en": "Oh... Quite impressive, by your{br}standards...{page}I'll hide these five keys in separate{br}places... Where no one can find{br}them...{page}And that includes... you...{page}Heh heh heh...{close}",
+   "en": "Oh... Quite impressive, by{br}your standards...{page}I'll hide these five keys in separate{br}places... Where no one can{br}find them...{page}And that includes... you...{page}Heh heh heh...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -64,7 +64,7 @@
   {
    "id": "rom.4C228",
    "jp": "おお・・・{br}モンスターを配下にしたのか・・・{page}人間どもを　スムーズかつパワフルに{close}苦しめるのに　有効だな・・・{page}おい・・・ところで・・・{br}下等な貴様にお似合いのモンスターの{br}使い道があるらしいな・・・{page}その使い道とは　何か・・・{br}クックックッ・・・{page}ワシのように　高等なヴァンデルには{br}必要のないことだが・・・{page}下等な貴様は　モンスターを自分の体に{br}取り込むことが　できるらしいな・・・{page}なんでもいい・・・適当なモンスターを{br}「頭」「胴」「右腕」「左腕」{br}「右足」「左足」・・・{page}貴様の好き勝手に　取り込む・・・{page}そうすれば　貴様のその　話にならん力が{br}少しはマシになるそうじゃないか・・・{page}クックックッ・・・{close}",
-   "en": "Oh... A monster servant...? Handy for{br}tormenting humans with ease and{br}force...{close}{page}I hear there's another use fit for{br}lowly scum like you... What is it...? Heh{br}heh heh...{page}Superior Vandels like me have no{br}need of it... But you can absorb{br}monsters into your body...{page}Pick any monster... Put it in your{br}\"head,\" \"torso,\" \"right arm,\" \"left{br}arm,\" \"right leg,\" or \"left leg\"...{page}Wherever you like...{page}That might make your laughable{br}power a little less pathetic... Heh{br}heh heh...{close}",
+   "en": "Oh... A monster servant...? Handy for{br}tormenting humans with ease{br}and force...{close}{page}I hear there's another use fit for{br}lowly scum like you... What is it...? Heh{br}heh heh...{page}Superior Vandels like me have no{br}need of it... But you can absorb{br}monsters into your body...{page}Pick any monster... Put it in your{br}\"head,\" \"torso,\" \"right arm,\" \"left{br}arm,\" \"right leg,\" or \"left leg\"...{page}Wherever you like...{page}That might make your laughable{br}power a little less pathetic... Heh{br}heh heh...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -79,7 +79,7 @@
   {
    "id": "rom.4C49C",
    "jp": "パワーダウンすることもあるのが{br}笑わせるな・・・{br}クックックッ・・・{page}取り込むモンスターによって{br}冥撃を　修得することも{br}できるんだって・・・？{page}モンスター次第で　修得する冥撃の{br}「火」「水」「風」「雷」「魔」という{br}５属性も影響を受けるとか・・・{page}クックックッ・・・{page}モンスター取り込みなど　ワシには{br}必要のない能力だ・・・{page}貴様の力が　不十分だからこその{br}能力だな・・・{page}まぁ・・・{br}いろいろ試してみることだな・・・{br}クックックッ・・・{close}",
-   "en": "The amusing part is that it can make{br}you weaker, too... Heh heh heh...{page}Depending on the monster you{br}absorb, you can even learn Dark{br}Attacks...?{page}And the monster affects which of{br}the five elements your Dark Attacks{br}have: \"Fire,\" \"Water,\" \"Wind,\"{page}\"Lightning,\" or \"Dark\"...{page}Heh heh heh...{page}I have no need to absorb monsters...{page}You only have that ability because{br}your own power is so inadequate...{page}Well... Try all sorts of things... Heh{br}heh heh...{close}",
+   "en": "The amusing part is that it can make{br}you weaker, too... Heh heh heh...{page}Depending on the monster you{br}absorb, you can even learn{br}Dark Attacks...?{page}And the monster affects which of{br}the five elements your Dark Attacks{br}have: \"Fire,\" \"Water,\" \"Wind,\"{page}\"Lightning,\" or \"Dark\"...{page}Heh heh heh...{page}I have no need to absorb monsters...{page}You only have that ability because{br}your own power is so inadequate...{page}Well... Try all sorts of things... Heh{br}heh heh...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -109,7 +109,7 @@
   {
    "id": "rom.4C7E4",
    "jp": "石像トラップは全７種・・・！{page}いずれのトラップも{br}今は亡き　優秀なヴァンデルの{br}みなさまを石像として形にしたもの・・・{page}そのどれもが　私ども魔賓館が{br}魂を込めて彫りあげた{br}おすすめの一品でございます！{page}「石像トラップ」は　バスターどもの姿を{br}近くに感じますと{page}石像として刻まれた方の　在りし日の姿が{br}よみがえるのです！！{page}よみがえったみなさまは　消し去ることの{br}できない恨みを晴らすべく　目の前の{br}バスター共に　おそいかかります！{page}そのパワーは　ご健在の頃と{br}変わらぬものであると{br}保障いたします！！{page}これほど強力なトラップが{br}他にあるでしょうか・・・{page}まちがいなく　バスター共を{br}大いに苦しめることでしょう・・・！{page}使い方は　簡単です{page}バスター共を　大いに苦しめるであろう{br}ポイントに　石像を置くだけで{br}ございます・・・！{close}",
-   "en": "There are seven types of Statue{br}Trap...!{page}Each depicts one of those{br}distinguished Vandels who are sadly{br}no longer with us...{page}We at the Vandel House poured our{br}hearts and souls into carving each{br}one. We recommend them all most{page}highly!{page}When a Statue Trap senses Busters{br}nearby...{page}The Vandel it depicts returns in{br}their former glory!!{page}To settle their undying grudges,{br}they attack the Busters before{br}them!{page}We guarantee that their power is{br}every bit as great as it was in life!!{page}Could you possibly find a more{br}powerful trap...?{page}Those Busters are certain to suffer{br}most terribly...!{page}Using one could not be simpler.{page}Just place the statue wherever it{br}will cause those Busters the{br}greatest suffering...!{close}",
+   "en": "There are seven types of{br}Statue Trap...!{page}Each depicts one of those{br}distinguished Vandels who are sadly{br}no longer with us...{page}We at the Vandel House poured our{br}hearts and souls into carving each{br}one. We recommend them all most{page}highly!{page}When a Statue Trap senses{br}Busters nearby...{page}The Vandel it depicts returns in{br}their former glory!!{page}To settle their undying grudges,{br}they attack the Busters{br}before them!{page}We guarantee that their power is{br}every bit as great as it was in life!!{page}Could you possibly find a more{br}powerful trap...?{page}Those Busters are certain to suffer{br}most terribly...!{page}Using one could not be simpler.{page}Just place the statue wherever it{br}will cause those Busters the{br}greatest suffering...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -124,7 +124,7 @@
   {
    "id": "rom.4CAC8",
    "jp": "たった　それだけで{br}結構なのです・・・！！{page}ただし　すでに他のトラップを{br}設置されている場合は{page}「石像トラップ」を置くことが{br}できません{page}そして　万が一　バスター共に{br}「石像トラップ」が{br}負けてしまった場合・・・{page}その「石像トラップ」は{br}砕け散ってしまいます・・・{page}あしからず{br}ご了承くださいませ・・・{page}ご理解いただけましたか？{close}",
-   "en": "That is all you need to do...!!{page}However, if another trap is already in{br}place...{page}You cannot place a \"Statue Trap\"{br}there.{page}And in the unlikely event that those{br}Busters defeat your \"Statue Trap\"...{page}That \"Statue Trap\" will shatter...{page}We kindly ask for your{br}understanding...{page}Is everything clear?{close}",
+   "en": "That is all you need to do...!!{page}However, if another trap is already{br}in place...{page}You cannot place a \"Statue{br}Trap\" there.{page}And in the unlikely event that those{br}Busters defeat your \"Statue Trap\"...{page}That \"Statue Trap\" will shatter...{page}We kindly ask for{br}your understanding...{page}Is everything clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -139,7 +139,7 @@
   {
    "id": "rom.4CE74",
    "jp": "いやいや{vandel}様！{page}いつも　すばらしいご活躍{br}ご苦労様です！{page}こちらは　今回のご活躍分で{br}ございます・・・{close}",
-   "en": "Well, well, {vandel}-sama!{page}Thank you for your splendid efforts,{br}as always!{page}Here is your reward for your latest{br}accomplishments...{close}",
+   "en": "Well, well, {vandel}-sama!{page}Thank you for your splendid efforts,{br}as always!{page}Here is your reward for your{br}latest accomplishments...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -162,7 +162,7 @@
   {
    "id": "rom.4CF10",
    "jp": "ヴァンデルの世界は完全実力主義・・・{page}{vandel}様のご活躍次第で{page}得られる魔札も{br}変わってくるでしょう・・・{close}",
-   "en": "In the Vandel world, ability is{br}everything...{page}The Dark Notes you earn will vary{br}according to your accomplishments,{br}{vandel}-sama...{close}",
+   "en": "In the Vandel world, ability{br}is everything...{page}{vandel}-sama, the Dark Notes{br}you earn will vary according to{br}your accomplishments...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -192,7 +192,7 @@
   {
    "id": "rom.4D11C",
    "jp": "ふんっ・・・{br}貴様の　その角を　見ていると{br}ムカつくわっ・・・{page}いいか・・・{br}角は　我らヴァンデルの{br}美しき証だ・・・{page}だがな・・・そんなモノで{br}全てが決まるわけではないのだ・・・{page}ちぃっ・・・{close}",
-   "en": "Hmph... Just looking at those horns{br}of yours makes me sick...{page}Listen... Horns are the beautiful mark{br}of a Vandel...{page}But... They aren't what decides{br}everything...{page}Tch...{close}",
+   "en": "Hmph... Just looking at those horns{br}of yours makes me sick...{page}Listen... Horns are the beautiful mark{br}of a Vandel...{page}But... They aren't what{br}decides everything...{page}Tch...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -251,7 +251,7 @@
   {
    "id": "rom.4D360",
    "jp": "ふーっ・・・{br}たいくつだ・・・{page}なに・・・？{br}「角を大きくする薬」を{br}手に入れただと・・・？{close}",
-   "en": "*sigh*... I'm bored...{page}What...? You found \"Horn Growth{br}Tonic\"...?{close}",
+   "en": "*sigh*... I'm bored...{page}What...? You found \"Horn{br}Growth Tonic\"...?{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -296,7 +296,7 @@
   {
    "id": "rom.4D45C",
    "jp": "ちぃっ・・・{br}あやしいじゃねぇか・・・{page}まぁいい・・・{br}もらっといてやる・・・{page}もういいぞ・・・{br}行けっ・・・！{close}",
-   "en": "Tch... Looks pretty shady to me...{page}Oh, very well... I'll take it off your{br}hands...{page}That's enough... Go...!{close}",
+   "en": "Tch... Looks pretty shady to me...{page}Oh, very well... I'll take it off{br}your hands...{page}That's enough... Go...!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -311,7 +311,7 @@
   {
    "id": "rom.4D4DC",
    "jp": "貴様・・・{br}ワシの角を見て　どう思う・・・？{close}",
-   "en": "You... What do you think of my{br}horns...?{close}",
+   "en": "You... What do you think of{br}my horns...?{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -386,7 +386,7 @@
   {
    "id": "rom.4D608",
    "jp": "「角を大きくする薬」は{br}見つかったのか？{close}",
-   "en": "Have you found the \"Horn Growth{br}Tonic\"?{close}",
+   "en": "Have you found the \"Horn{br}Growth Tonic\"?{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -446,7 +446,7 @@
   {
    "id": "rom.4D884",
    "jp": "ちぃっ・・・{br}おもしろくねぇ・・・{page}おい・・・{br}この前の　あの薬は　どこで手に{br}入れたんだ・・・{page}あの薬だよ・・・　あの薬・・・{page}あの薬があったんだ・・・{br}別の薬もあろう・・・{page}いいか一度だけ言うぞ・・・{br}よく聞け・・・{page}今度は「背を高くする薬」を{br}持って来い・・・{page}分かったな・・・{br}そんな薬がないことぐらい{br}ワシは百も承知だ・・・{close}",
-   "en": "Tch... This ain't funny...{page}Hey... Where did you get that tonic{br}last time...?{page}That tonic... You know the one...{page}If that tonic exists... There must be{br}others...{page}I'll say this only once... Listen well...{page}This time, bring me \"Height Tonic\"...{page}Understood...? I know perfectly well{br}that no such tonic exists...{close}",
+   "en": "Tch... This ain't funny...{page}Hey... Where did you get that tonic{br}last time...?{page}That tonic... You know the one...{page}If that tonic exists... There must{br}be others...{page}I'll say this only once... Listen well...{page}This time, bring me \"Height Tonic\"...{page}Understood...? I know perfectly well{br}that no such tonic exists...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -461,7 +461,7 @@
   {
    "id": "rom.4D9E4",
    "jp": "だが・・・{br}持ってきたら・・・貴様の望み{br}なんでもかなえてやろうと言うのだ・・・{page}死ぬ気でさがせ・・・分かったな・・・{page}行けっ・・・！{close}",
-   "en": "But... I'm telling you, if you bring it to{br}me... I'll grant you anything you{br}desire...{page}Search for it as if your life depends{br}on it... Understood...?{page}Go...!{close}",
+   "en": "But... I'm telling you, if you bring it to{br}me... I'll grant you anything{br}you desire...{page}Search for it as if your life depends{br}on it... Understood...?{page}Go...!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -520,7 +520,7 @@
   {
    "id": "rom.4DB74",
    "jp": "ふんっ・・・{br}薬をよこせ・・・{page}ちぃっ・・・{br}相変わらず　あやしいじゃねぇか・・・{page}まぁいい・・・{br}もらっといてやる・・・{close}",
-   "en": "Hmph... Hand over the tonic...{page}Tch... Still looks as shady as ever...{page}Oh, very well... I'll take it off your{br}hands...{close}",
+   "en": "Hmph... Hand over the tonic...{page}Tch... Still looks as shady as ever...{page}Oh, very well... I'll take it off{br}your hands...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -595,7 +595,7 @@
   {
    "id": "rom.4DCBC",
    "jp": "ちぃっ・・・{br}ふざけやがって・・・{page}何が「背を高くする薬」だ・・・{br}この役立たずめがっ・・・{page}不愉快だっ・・・{br}さっさと　出て行けっ！！{close}",
-   "en": "Tch... What a rotten joke...{page}Some \"Height Tonic\"... You useless{br}fool...{page}You've soured my mood... Get out of{br}here, now!!{close}",
+   "en": "Tch... What a rotten joke...{page}Some \"Height Tonic\"... You{br}useless fool...{page}You've soured my mood... Get out of{br}here, now!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -768,7 +768,7 @@
   {
    "id": "rom.4E270",
    "jp": "私の名はバロン{br}「天空王」と呼ぶものもいる{page}君は　双子島の{br}{vandel}だね{page}なんでも　あの「強欲君主」の下に{br}ついているそうじゃないか・・・{page}双子島は「強欲君主」が暴れているが{page}人間もレジスタンスなどを{br}結成して　血塗られた戦場に{br}なっているらしいな・・・{page}そういう場でこそ　魂は{br}磨きあげられる・・・{page}精進することだ{close}",
-   "en": "My name is Baron. Some call me the{br}\"Sky King.\"{page}You are {vandel} of the Twin{br}Islands, correct?{page}I hear you serve that \"Greedy{br}Overlord\"...{page}The \"Greedy Overlord\" runs rampant{br}on the Twin Islands.{page}But the humans have formed a{br}Resistance and other groups. The{br}islands have become a bloody{page}battlefield, it seems...{page}It is in such places that the soul is{br}honed...{page}Strive to better yourself.{close}",
+   "en": "My name is Baron. Some call me the{br}\"Sky King.\"{page}You are {vandel} of the Twin{br}Islands, correct?{page}I hear you serve that{br}\"Greedy Overlord\"...{page}The \"Greedy Overlord\" runs rampant{br}on the Twin Islands.{page}But the humans have formed a{br}Resistance and other groups. The{br}islands have become a bloody{page}battlefield, it seems...{page}It is in such places that the soul{br}is honed...{page}Strive to better yourself.{close}",
    "kind": "msg",
    "speaker": "バロン",
    "refs": 1
@@ -783,7 +783,7 @@
   {
    "id": "rom.4E3B4",
    "jp": "「強欲君主」を{br}殺したそうだな・・・{page}ヴァンデルを倒してこそヴァンデルという{br}彼の主義を　見習ったというわけか・・・{page}これで　双子島は{br}君のもの　というわけだ{page}しかし　人間に足をすくわれないように{br}気をつけるんだな・・・{close}",
-   "en": "I hear you killed the \"Greedy{br}Overlord\"...{page}So you took his creed to heart: only{br}by defeating other Vandels does{br}one become a true Vandel...{page}That makes the Twin Islands yours.{page}But take care that the humans do{br}not bring about your downfall...{close}",
+   "en": "I hear you killed the{br}\"Greedy Overlord\"...{page}So you took his creed to heart: only{br}by defeating other Vandels does{br}one become a true Vandel...{page}That makes the Twin Islands yours.{page}But take care that the humans do{br}not bring about your downfall...{close}",
    "kind": "msg",
    "speaker": "バロン",
    "refs": 1
@@ -926,7 +926,7 @@
   {
    "id": "rom.4E960",
    "jp": "また　出直してきたら？{close}",
-   "en": "Why don't you try again another{br}time?{close}",
+   "en": "Why don't you try again{br}another time?{close}",
    "kind": "msg",
    "speaker": "ガロニュート",
    "refs": 1
@@ -941,7 +941,7 @@
   {
    "id": "rom.4E98C",
    "jp": "なんだよ　ボクはやる気だよ・・・{close}",
-   "en": "What's the matter? I'm ready to{br}fight...{close}",
+   "en": "What's the matter? I'm ready{br}to fight...{close}",
    "kind": "msg",
    "speaker": "ガロニュート",
    "refs": 1
@@ -1009,7 +1009,7 @@
   {
    "id": "rom.4EC20",
    "jp": "ガロニュートに{br}会ったらしいじゃないか・・・{page}ワシの島に　「七ッ星」ヴァンデルが{br}何の用だか・・・クックックッ・・・{page}まぁ　ワシの存在が{br}気になるんだろうがな・・・{close}",
-   "en": "I hear you met Garonute...{page}What business does a \"Seven-Star\"{br}Vandel have on my island...? Heh heh{br}heh...{page}Well, I suppose he can't help taking{br}an interest in me...{close}",
+   "en": "I hear you met Garonute...{page}What business does a \"Seven-Star\"{br}Vandel have on my island...? Heh{br}heh heh...{page}Well, I suppose he can't help taking{br}an interest in me...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1084,7 +1084,7 @@
   {
    "id": "rom.4EE5C",
    "jp": "「強欲君主」の　「配下」　ヴァンデルが{br}ボクに何の用？{page}「配下」って大変なんだろうねー{br}ぷぷっ・・・{page}「配下」さんが　ボクの前に現れて{br}やっぱり腕試しでも{br}しようっていうのかい？{page}しかし・・・{br}相変わらずキミ　弱そうだね・・・{page}まあ　安心してよ{br}大丈夫・・・{page}ちゃーんと　手を抜いてあげる{br}からさ・・・ぷぷっ{close}",
-   "en": "What does the \"Greedy Overlord's\"{br}little \"underling\" want with me?{page}Being an \"underling\" must be sooo{br}hard. Pfft...{page}So, \"Underling\"-san, you've come to{br}test your strength against me after{br}all?{page}Still... You look as weak as ever...{page}Well, don't you worry. You'll be fine...{page}I'll be sure to go niiice and easy on{br}you... Pfft.{close}",
+   "en": "What does the \"Greedy Overlord's\"{br}little \"underling\" want with me?{page}Being an \"underling\" must be sooo{br}hard. Pfft...{page}So, \"Underling\"-san, you've come to{br}test your strength against me{br}after all?{page}Still... You look as weak as ever...{page}Well, don't you worry. You'll be fine...{page}I'll be sure to go niiice and easy on{br}you... Pfft.{close}",
    "kind": "msg",
    "speaker": "ガロニュート",
    "refs": 1
@@ -1114,7 +1114,7 @@
   {
    "id": "rom.4F028",
    "jp": "ぷぷっ・・・　冗談だろ？{br}君となんか　バトルしても{br}ホント何の意味もないよ{page}また　出直してきたら？{close}",
-   "en": "Pfft... You're kidding, right? There's{br}really no point in fighting someone{br}like you.{page}Why don't you try again another{br}time?{close}",
+   "en": "Pfft... You're kidding, right? There's{br}really no point in fighting someone{br}like you.{page}Why don't you try again{br}another time?{close}",
    "kind": "msg",
    "speaker": "ガロニュート",
    "refs": 1
@@ -1129,7 +1129,7 @@
   {
    "id": "rom.4F0A0",
    "jp": "なんだよ　ボクはやる気だよ・・・{close}",
-   "en": "What's the matter? I'm ready to{br}fight...{close}",
+   "en": "What's the matter? I'm ready{br}to fight...{close}",
    "kind": "msg",
    "speaker": "ガロニュート",
    "refs": 1
@@ -1152,7 +1152,7 @@
   {
    "id": "rom.4F184",
    "jp": "「火山の翼竜」が{br}配下になった！{close}",
-   "en": "\"Lava Pterosaur\" became your{br}minion!{close}",
+   "en": "\"Lava Pterosaur\" became{br}your minion!{close}",
    "kind": "msg",
    "speaker": "ガロニュート",
    "refs": 1
@@ -1197,7 +1197,7 @@
   {
    "id": "rom.4F2B0",
    "jp": "これは　これは{br}{vandel}様！{page}封印のリングの破壊の方は{br}順調に　進んでいますか・・・？{page}ご活躍なさっているようで・・・{br}すばらしいですね！{page}この調子で行けば　近い将来{br}{vandel}様が{br}ヴァンデル最高位の「七ッ星」にっ！{page}いやぁ　楽しみです・・・！！{page}その　すばらしい計画の{br}手助けとなるモンスターを{br}手に入れられたようですね・・・！{page}そこで{vandel}様に{br}ぜひともおすすめしたいことが{br}ございます！{page}それはモンスターの{br}「腹心モンスター化」です！{close}",
-   "en": "Well, well, {vandel}-sama!{page}Is the destruction of the Sealing{br}Rings proceeding smoothly...?{page}You seem to be doing splendidly...{br}Truly marvelous!{page}At this rate, {vandel}-sama, you{br}will soon attain the highest Vandel{br}rank: \"Seven-Star\"!{page}Oh, how I look forward to it...!{page}I understand you have acquired a{br}monster that will help further your{br}magnificent plans...!{page}With that in mind, {vandel}-sama,{br}there is something I most heartily{br}recommend!{page}Promoting your monster to a{br}\"Lieutenant Monster\"!{close}",
+   "en": "Well, well, {vandel}-sama!{page}Is the destruction of the Sealing{br}Rings proceeding smoothly...?{page}You seem to be doing splendidly...{br}Truly marvelous!{page}At this rate, {vandel}-sama, you{br}will soon attain the highest Vandel{br}rank: \"Seven-Star\"!{page}Oh, how I look forward to it...!{page}I understand you have acquired a{br}monster that will help further your{br}magnificent plans...!{page}With that in mind, {vandel}-sama,{br}there is something I most{br}heartily recommend!{page}Promoting your monster to a{br}\"Lieutenant Monster\"!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1212,7 +1212,7 @@
   {
    "id": "rom.4F468",
    "jp": "「腹心モンスター」とは何かを{br}ご説明させていただきます{page}複数のモンスターを{br}部下にお持ちの方には{page}面倒な雑務を　あなたの代わりにこなす{br}「腹心モンスター化」を{br}おすすめしています{page}「腹心モンスター化」は{br}「魔賓館」で行っております{page}「魔賓館」にて　配下のモンスターの{br}中からお好みのモンスターを{br}選んでいただきます{page}そしてそのモンスターを「魔賓館」にて{br}人語を授ける調整を施しまして{page}「腹心モンスター」へと{br}強化させていただきます{page}必ずや皆様の{br}ご期待にそう働きをお見せいたします{page}集団での配下としての戦闘はもちろん{br}モンスターを配下として{page}戦闘の陣頭指揮を{br}とらせることも可能です{page}ぜひ　ご利用くださいませ！{page}ぜひ　「魔賓館」を{br}ご活用くださいね・・・！{close}",
-   "en": "Allow me to explain what a{br}\"Lieutenant Monster\" is.{page}For those of you with several{br}monsters under your command,{page}we recommend promoting one to a{br}\"Lieutenant Monster\" to handle{br}tedious chores on your behalf.{page}This promotion is available at the{br}\"Vandel House.\"{page}Simply visit the \"Vandel House\" and{br}select whichever of your monster{br}minions you prefer.{page}We will then perform adjustments{br}here at the \"Vandel House\" to grant{br}it human speech,{page}upgrading it to a \"Lieutenant{br}Monster.\"{page}Its service is certain to meet your{br}expectations.{page}Naturally, it can fight alongside your{br}other minions, but it can also{br}command monsters of its own,{page}leading them into battle from the{br}front lines.{page}We do hope you will try this service!{page}Please make full use of the \"Vandel{br}House\"...!{close}",
+   "en": "Allow me to explain what a{br}\"Lieutenant Monster\" is.{page}For those of you with several{br}monsters under your command,{page}we recommend promoting one to a{br}\"Lieutenant Monster\" to handle{br}tedious chores on your behalf.{page}This promotion is available at the{br}\"Vandel House.\"{page}Simply visit the \"Vandel House\" and{br}select whichever of your monster{br}minions you prefer.{page}We will then perform adjustments{br}here at the \"Vandel House\" to grant{br}it human speech,{page}upgrading it to a{br}\"Lieutenant Monster.\"{page}Its service is certain to meet{br}your expectations.{page}Naturally, it can fight alongside your{br}other minions, but it can also{br}command monsters of its own,{page}leading them into battle from the{br}front lines.{page}We do hope you will try this service!{page}Please make full use of the{br}\"Vandel House\"...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1257,7 +1257,7 @@
   {
    "id": "rom.4F8C8",
    "jp": "効率よく　「封印のリング」の破壊を{br}進める方法の一つに{br}「軍団の派遣」がございます！{page}{vandel}様以外にも{br}リングの破壊を進める軍団があれば{page}多方向から島の攻略を進めることが{br}可能になります・・・！{page}軍団は　最大５名から構成されます{page}そして　その中の１名はリーダーとして{br}登録していただく必要があります{page}リーダーになることができるのは{br}ヴァンデルの　みなさんです{page}しかし　モンスターでも　魔賓館で{br}腹心モンスターの手続きをしていただくと{br}リーダーにすることが　可能なのです！{page}しかし　残念ながら　腹心モンスターの{br}下には　ヴァンデルのみなさまを{br}編成に加えることはできません・・・{page}あしからず　ご了承くださいませ・・・{page}今の説明は{br}ご理解いただけましたか？{close}",
-   "en": "One way to destroy \"Sealing Rings\"{br}efficiently is to \"Dispatch an Army\"!{page}With another army destroying rings{br}alongside you, {vandel}-sama,{br}you can conquer the island on{page}several fronts...!{page}Each army may contain up to five{br}members. You will need to register{br}one of them as its leader.{page}Any Vandel may serve as a leader.{page}Monsters can also lead, provided{br}you complete our monster{br}lieutenant promotion procedure{page}at the Vandel House!{page}Regrettably, Vandels cannot be{br}assigned to serve under a monster{br}lieutenant...{page}We kindly ask for your{br}understanding...{page}Was that explanation clear?{close}",
+   "en": "One way to destroy \"Sealing Rings\"{br}efficiently is to \"Dispatch an Army\"!{page}With another army destroying rings{br}alongside you, {vandel}-sama,{br}you can conquer the island on{page}several fronts...!{page}Each army may contain up to five{br}members. You will need to register{br}one of them as its leader.{page}Any Vandel may serve as a leader.{page}Monsters can also lead, provided{br}you complete our monster{br}lieutenant promotion procedure{page}at the Vandel House!{page}Regrettably, Vandels cannot be{br}assigned to serve under a{br}monster lieutenant...{page}We kindly ask for{br}your understanding...{page}Was that explanation clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1272,7 +1272,7 @@
   {
    "id": "rom.4FBC8",
    "jp": "これは　これは{br}{vandel}様！{page}封印のリングの破壊の方は{br}順調に進んでいますか・・・？{page}封印のリングを破壊して{br}この島に眠る強大な冥力を{br}我が物にする・・・{page}何度思い返してみても{br}すばらしい　計画です・・・！！{page}{vandel}様が{br}「七ッ星」・・・{page}さらには{br}その上　「八輝星」にっ・・・！！{page}いやぁ　楽しみです・・・！！{page}その　すばらしい計画の　手助けとなる{br}乗り物モンスター　販売再開の{br}お知らせです・・・！{close}",
-   "en": "Well, well, {vandel}-sama!{page}Is destroying the Sealing Rings going{br}well?{page}Break the rings and claim this{br}island's vast, buried Dark Power... A{br}splendid plan, however often I{page}ponder it!{page}A \"Seven-Star,\" {vandel}-sama...{br}Then one of the \"Eight Shining{br}Stars\"! Oh, I can hardly wait!{page}To aid that splendid plan, a{br}transport monster is back on sale!{close}",
+   "en": "Well, well, {vandel}-sama!{page}Is destroying the Sealing Rings{br}going well?{page}Break the rings and claim this{br}island's vast, buried Dark Power... A{br}splendid plan, however often I{page}ponder it!{page}A \"Seven-Star,\" {vandel}-sama...{br}Then one of the \"Eight Shining{br}Stars\"! Oh, I can hardly wait!{page}To aid that splendid plan, a{br}transport monster is back on sale!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1287,7 +1287,7 @@
   {
    "id": "rom.4FD60",
    "jp": "長らく　販売を中止しており　ご迷惑を{br}おかけしていた「ホバーフィッシュ」が{br}魔賓館で　販売再開となりました！{page}移動できるポイントは{br}限られるものの{page}陸上を　コツコツ移動するよりも{br}はるかに早く{br}長距離を移動できます・・・！{page}この双子島ですと　そうですね・・・{br}黄金城から　リンナム氷河へ{br}移動できます・・・！！{page}少し　値は張りますが{br}ぜひお買い求めくださいませ・・・！！{page}魔賓館で　タロトスが　活きの良い{br}「ホバーフィッシュ」を　ご用意して{br}お待ちいたしております・・・！{page}ぜひ　魔賓館をご活用くださいね・・・！{page}今の説明は{br}ご理解いただけましたか？{close}",
-   "en": "Sorry for the long wait! \"Hoverfish\"{br}are back on sale at the Vandel{br}House!{page}Stops are limited, but long trips are{br}far faster than on foot!{page}Here on the Twin Islands... Yes, from{br}the Golden Castle to Rinnam Glacier!{page}A little pricey, but do buy one!{page}Tarotos awaits you at the Vandel{br}House with lively \"Hoverfish\"! Do{br}make use of our services!{page}Was that clear?{close}",
+   "en": "Sorry for the long wait! \"Hoverfish\"{br}are back on sale at the{br}Vandel House!{page}Stops are limited, but long trips are{br}far faster than on foot!{page}Here on the Twin Islands... Yes, from{br}the Golden Castle to Rinnam Glacier!{page}A little pricey, but do buy one!{page}Tarotos awaits you at the Vandel{br}House with lively \"Hoverfish\"! Do{br}make use of our services!{page}Was that clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

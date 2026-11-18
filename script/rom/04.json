@@ -11,7 +11,7 @@
   {
    "id": "rom.10088",
    "jp": "おっと{br}いい獲物が　きやがった{page}ちょうど　暇だったしな{br}相手してやるよ{page}オレは{br}「地獄の稲妻」ザンデだ{page}オレの稲妻は・・・しびれるぜ{close}",
-   "en": "Well, well. Some nice prey just{br}showed up.{page}I was getting bored. I'll take you on.{page}I'm Zande, \"Hell's Lightning.\"{page}My lightning... will give ya a real{br}shock.{close}",
+   "en": "Well, well. Some nice prey just{br}showed up.{page}I was getting bored. I'll take you on.{page}I'm Zande, \"Hell's Lightning.\"{page}My lightning... will give ya a{br}real shock.{close}",
    "kind": "msg",
    "speaker": "ザンデ",
    "refs": 1
@@ -26,7 +26,7 @@
   {
    "id": "rom.10118",
    "jp": "ちっ　オレの稲妻じゃ{br}役不足か・・・{close}",
-   "en": "Tch... My lightning wasn't enough,{br}huh...{close}",
+   "en": "Tch... My lightning wasn't{br}enough, huh...{close}",
    "kind": "msg",
    "speaker": "ザンデ",
    "refs": 1
@@ -101,7 +101,7 @@
   {
    "id": "rom.106C0",
    "jp": "この火山の熱波が{br}オレ様に　力を与えてくれるようだぜ！{page}オレ様は{br}「赤熱の烈火」　ギルスだ{page}小僧！　この熱波の中　出会えた祝いだ！{page}跡形もなく　きれいさっぱり{br}燃やしてやろう！{close}",
-   "en": "This volcano's heat seems to be{br}giving me power!{page}I'm Gils, the \"Blazing Inferno\"!{page}Kid! To celebrate our meeting in this{br}scorching heat...{page}I'll burn you up till there's nothing{br}left!{close}",
+   "en": "This volcano's heat seems to be{br}giving me power!{page}I'm Gils, the \"Blazing Inferno\"!{page}Kid! To celebrate our meeting in this{br}scorching heat...{page}I'll burn you up till there's{br}nothing left!{close}",
    "kind": "msg",
    "speaker": "ギルス",
    "refs": 1
@@ -131,7 +131,7 @@
   {
    "id": "rom.107AC",
    "jp": "{hero}ーー！{page}はぁはぁ・・・{br}あ・・・　あのさ{page}この先に進むと{br}「ビョンリン火山の遺跡」っていうのが{br}あるんだって{page}そこに　レジスタンスの{br}アジトがあるよ！{page}みんな　隠れてるからさ{br}すぐ分からないかも{br}だけど　よくさがしてみて！{close}",
-   "en": "{hero}! Heeey!{page}*pant, pant* H-hey, listen...{page}I hear there's a place called \"Byonrin{br}Ruins\" up ahead.{page}There's a Resistance hideout there!{page}Everyone's hiding, so you might not{br}spot it right away. Look real{br}carefully!{close}",
+   "en": "{hero}! Heeey!{page}*pant, pant* H-hey, listen...{page}I hear there's a place called \"Byonrin{br}Ruins\" up ahead.{page}There's a Resistance hideout there!{page}Everyone's hiding, so you might not{br}spot it right away. Look{br}real carefully!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -161,7 +161,7 @@
   {
    "id": "rom.10A5C",
    "jp": "クックックッ・・・当たり前だ・・・{br}ワシのすばらしさ・・・{br}今さら　言うまでもあるまい・・・{close}",
-   "en": "Heh heh heh... Naturally... Surely my{br}magnificence goes without saying by{br}now...{close}",
+   "en": "Heh heh heh... Naturally... Surely my{br}magnificence goes without saying{br}by now...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -206,7 +206,7 @@
   {
    "id": "rom.10B74",
    "jp": "・・・バスターだけならまだしも{br}そうではない　普通の人間も{br}ちょこまかと　動いているようですね{page}例えば　双子の小娘とか・・・{close}",
-   "en": "...Busters would be one thing, but it{br}seems ordinary humans have been{br}scurrying about as well.{page}A certain pair of little twin girls, for{br}instance...{close}",
+   "en": "...Busters would be one thing, but it{br}seems ordinary humans have been{br}scurrying about as well.{page}A certain pair of little twin girls,{br}for instance...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -236,7 +236,7 @@
   {
    "id": "rom.10C60",
    "jp": "・・・{br}そうです！{br}その小娘です・・・！{page}そうですよね{br}ご存知ですよね・・・！！{close}",
-   "en": "...Yes! That very girl...!{page}Of course. You already know about{br}her...!!{close}",
+   "en": "...Yes! That very girl...!{page}Of course. You already know{br}about her...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -251,7 +251,7 @@
   {
    "id": "rom.10CC0",
    "jp": "当たり前だ・・・{br}このワシが知らぬことなど{br}あるはずがないだろ・・・{close}",
-   "en": "Of course... There is nothing I do not{br}know...{close}",
+   "en": "Of course... There is nothing I do{br}not know...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -281,7 +281,7 @@
   {
    "id": "rom.10D38",
    "jp": "さすがでございます・・・！{page}では　すでに抹殺のために{br}動かれていることかと・・・{page}これで　この島も{br}少しは静かになりますね・・・！{close}",
-   "en": "As expected of you...!{page}Then I assume you have already{br}taken steps to eliminate her...{page}The island should be a little quieter{br}now...!{close}",
+   "en": "As expected of you...!{page}Then I assume you have already{br}taken steps to eliminate her...{page}The island should be a little{br}quieter now...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -311,7 +311,7 @@
   {
    "id": "rom.10E30",
    "jp": "さっさとしろっ！！{br}全く　近頃の若造は{br}これだからいかん・・・{page}オホンッ！{br}館長　ワシはちょっと失礼するぞ・・・{close}",
-   "en": "Get on with it!! This is the trouble{br}with youngsters these days...{page}Ahem! Manager, I must excuse{br}myself...{close}",
+   "en": "Get on with it!! This is the trouble{br}with youngsters these days...{page}Ahem! Manager, I must{br}excuse myself...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -341,7 +341,7 @@
   {
    "id": "rom.10EC8",
    "jp": "・・・{page}・・・まったく　耳障りで{br}仕方がありませんね！！{close}",
-   "en": "...{page}...Honestly, that racket is quite{br}unbearable!!{close}",
+   "en": "...{page}...Honestly, that racket is{br}quite unbearable!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -356,7 +356,7 @@
   {
    "id": "rom.10F10",
    "jp": "あ！{br}人間どものことですよ・・・！！{page}あ！　すみません{br}もう　行かなくては・・・{page}せっかくお会いできましたのに{br}なにぶん多忙な身の上でして・・・{page}それでは！{br}またいずれ！！{close}",
-   "en": "Ah! I mean those humans, of{br}course...!!{page}Oh! My apologies. I must be going...{page}Such a shame, when we have only{br}just met, but I am terribly busy...{page}Farewell! Until next time!!{close}",
+   "en": "Ah! I mean those humans,{br}of course...!!{page}Oh! My apologies. I must be going...{page}Such a shame, when we have only{br}just met, but I am terribly busy...{page}Farewell! Until next time!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -506,7 +506,7 @@
   {
    "id": "rom.112D0",
    "jp": "ほら　この子が{br}ゼナが　よく話す　彼だよ{close}",
-   "en": "This is the boy Zena's always talking{br}about.{close}",
+   "en": "This is the boy Zena's always{br}talking about.{close}",
    "kind": "msg",
    "speaker": "レジスタンスＡ",
    "refs": 1
@@ -536,7 +536,7 @@
   {
    "id": "rom.11338",
    "jp": "なるほどね　なかなかのいい男だ{br}これならゼナが{br}熱くなるのも　よく分かる・・・{close}",
-   "en": "I see! Quite a handsome fellow. No{br}wonder Zena gets so fired up about{br}you...{close}",
+   "en": "I see! Quite a handsome fellow. No{br}wonder Zena gets so fired up{br}about you...{close}",
    "kind": "msg",
    "speaker": "レジスタンスＣ",
    "refs": 1
@@ -828,7 +828,7 @@
   {
    "id": "rom.11AC0",
    "jp": "あ　それ{br}ねえちゃんからもらった{br}お守りだね・・・！{page}え！？　ひびが！？{close}",
-   "en": "Oh, that's the charm my sis gave{br}you...!{page}Huh!? It's cracked!?{close}",
+   "en": "Oh, that's the charm my sis{br}gave you...!{page}Huh!? It's cracked!?{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -895,7 +895,7 @@
   {
    "id": "rom.11C00",
    "jp": "あ　それ{br}ねえちゃんからもらった{br}お守りだね・・・！{page}え！？　ひびが！？{close}",
-   "en": "Oh, that's the charm my sis gave{br}you...!{page}Huh!? It's cracked!?{close}",
+   "en": "Oh, that's the charm my sis{br}gave you...!{page}Huh!? It's cracked!?{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -962,7 +962,7 @@
   {
    "id": "rom.11D40",
    "jp": "あ　それ{br}ねえちゃんからもらった{br}お守りだね・・・！{page}え！？　ひびが！？{close}",
-   "en": "Oh, that's the charm my sis gave{br}you...!{page}Huh!? It's cracked!?{close}",
+   "en": "Oh, that's the charm my sis{br}gave you...!{page}Huh!? It's cracked!?{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -992,7 +992,7 @@
   {
    "id": "rom.11E6C",
    "jp": "起こすなよ・・・{br}私は眠いんだ・・・{page}レナ？{br}知らんねぇ・・・{page}ふあぁぁぁっ・・・ああ・・・{br}あの銀色の髪の女か{br}それを　今聞いてどうする？{page}さてな・・・{br}今頃はどこだろうな・・・{page}ふあぁぁぁっ・・・眠い・・・{br}いかんいかん・・・{br}少々おしゃべりがすぎた・・・{page}私の冥力の中で{br}平気なヤツがいるとは・・・{page}オモシロイ・・・{page}もう一眠りする前に{br}私の眠りをさまたげる　おろかものを{br}永眠させてあげよう・・・{close}",
-   "en": "Don't wake me... I'm sleepy...{page}Lena? Never heard of her...{page}Yaaawn... Ah... The silver-haired girl.{br}What good will asking about her do{br}now?{page}Who knows... Where might she be by{br}now...?{page}Yaaawn... So sleepy... Oh dear, oh{br}dear... I've said a little too much...{page}To think someone could withstand{br}my Dark Power...{page}How interesting...{page}Before I take another nap, allow me{br}to put the fools who disturb my{br}sleep to rest... forever...{close}",
+   "en": "Don't wake me... I'm sleepy...{page}Lena? Never heard of her...{page}Yaaawn... Ah... The silver-haired girl.{br}What good will asking about her{br}do now?{page}Who knows... Where might she be{br}by now...?{page}Yaaawn... So sleepy... Oh dear, oh{br}dear... I've said a little too much...{page}To think someone could withstand{br}my Dark Power...{page}How interesting...{page}Before I take another nap, allow me{br}to put the fools who disturb my{br}sleep to rest... forever...{close}",
    "kind": "msg",
    "speaker": "オロゾン",
    "refs": 1
@@ -1022,7 +1022,7 @@
   {
    "id": "rom.122B0",
    "jp": "すっげーヴァンデルだったな！{br}里の人をみんな　夢の世界へ{br}やっちゃうなんてよ！{close}",
-   "en": "That Vandel was something else!{br}Sent the whole village off to{br}dreamland!{close}",
+   "en": "That Vandel was something else!{br}Sent the whole village off{br}to dreamland!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1067,7 +1067,7 @@
   {
    "id": "rom.123A8",
    "jp": "ぼくたちの想像を超えたヴァンデルが{br}まだまだいるのかもしれないね・・・{close}",
-   "en": "There may be plenty more Vandels{br}out there beyond anything we can{br}imagine...{close}",
+   "en": "There may be plenty more Vandels{br}out there beyond anything we{br}can imagine...{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1097,7 +1097,7 @@
   {
    "id": "rom.1240C",
    "jp": "なに！？{br}この圧迫感！{close}",
-   "en": "What!? What's this crushing{br}pressure!{close}",
+   "en": "What!? What's this{br}crushing pressure!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -1322,7 +1322,7 @@
   {
    "id": "rom.12768",
    "jp": "うん・・・　そうだよ{br}{hero}は{br}ひとりぼっちじゃないからね！！{close}",
-   "en": "Yes... That's right. You're not alone,{br}{hero}!!{close}",
+   "en": "Yes... That's right. You're not{br}alone, {hero}!!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -1337,7 +1337,7 @@
   {
    "id": "rom.12884",
    "jp": "{hero}・・・{br}レナが　心配じゃな・・・{page}ヴァンデルめ{br}人さらいなどと　卑劣なことをっ・・・{page}今日は　緊急ニュースが{br}あるのじゃ・・・{page}西方の島のミュテリン山の里が{br}金の採掘所になっているらしい・・・{page}強制労働で人を無理やり{br}働かせるとは・・・{br}なんと悪趣味なヴァンデルじゃ{page}人が苦しむ姿を見て{br}楽しんでいるのか・・・{page}モンスターを回すカネが惜しい{br}ドケチなのか{br}・・・いずれにせよ　悪趣味じゃ・・・{page}すまんが　早速　とらわれの人々を{br}救出に向かってくれ{page}きっと　その先に{br}レナもいるはずじゃ{page}いよいよ　「封印のリング」の修復も{br}残すところ　あとわずかと{br}なってきたな・・・{page}残りも　気を引き締めて　くれぐれも{br}よろしく　頼むぞ・・・{close}",
-   "en": "{hero}... I fear for Lena...{page}Those Vandels! How vile to abduct{br}her!{page}Urgent news, my boy. Muterin{br}Mountain Village on West Island is{br}now a gold mine, it seems.{page}Forcing folk to toil! What vile tastes!{br}Does he enjoy their pain? Or is he{br}too stingy to pay for monsters?{page}Either way, vile!{page}Sorry, but go free the captives at{br}once. Lena must be farther ahead.{page}Only a few \"Sealing Rings\" left to{br}repair now, eh? Stay alert as you{br}mend the rest. I'm counting on{page}you!{close}",
+   "en": "{hero}... I fear for Lena...{page}Those Vandels! How vile to{br}abduct her!{page}Urgent news, my boy. Muterin{br}Mountain Village on West Island is{br}now a gold mine, it seems.{page}Forcing folk to toil! What vile tastes!{br}Does he enjoy their pain? Or is he{br}too stingy to pay for monsters?{page}Either way, vile!{page}Sorry, but go free the captives at{br}once. Lena must be farther ahead.{page}Only a few \"Sealing Rings\" left to{br}repair now, eh? Stay alert as you{br}mend the rest. I'm counting on{page}you!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1412,7 +1412,7 @@
   {
    "id": "rom.12D2C",
    "jp": "私を　呼び覚ましたのは君かね？{page}知的に考えたまえ・・・{br}私が石像から　出たという{br}ことはだな・・・{close}",
-   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone statue{br}means...{close}",
+   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone{br}statue means...{close}",
    "kind": "msg",
    "speaker": "グリニデ",
    "refs": 1
@@ -1547,7 +1547,7 @@
   {
    "id": "rom.12FBC",
    "jp": "私を　呼び覚ましたのは君かね？{page}知的に考えたまえ・・・{br}私が石像から　出たという{br}ことはだな・・・{close}",
-   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone statue{br}means...{close}",
+   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone{br}statue means...{close}",
    "kind": "msg",
    "speaker": "グリニデ",
    "refs": 1
@@ -1697,7 +1697,7 @@
   {
    "id": "rom.13340",
    "jp": "ああ！{br}黄金城　唯一の入場口である{br}この橋を　落とされましたか！{close}",
-   "en": "Ah! You have destroyed this bridge,{br}the only entrance to the Golden{br}Castle!{close}",
+   "en": "Ah! You have destroyed this bridge,{br}the only entrance to the{br}Golden Castle!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1772,7 +1772,7 @@
   {
    "id": "rom.1352C",
    "jp": "{hero}！{br}聞いたぞ！{page}黄金城に　入場する　唯一の橋が{br}破壊されたそうじゃな！{page}やっかいじゃのう・・・{br}しかし　打つ手はあるぞ！{page}橋がないのならば　橋をかければ{br}よいのじゃ！{page}ふむふむ・・・{br}確かにそうじゃ・・・{page}敵の本拠地に　橋をかけるのじゃから{br}それはそれは　困難を{br}極めるであろう・・・{page}しかし！{br}あの男ならば　やってくれるはずじゃ！{br}彼の名前は　「橋かけ名人」！！{page}トロワナのアサド山地にも{br}彼のかけた立派な橋があるそうじゃ！！{page}なんと　その有名な名人が{br}この東の里に　来てるらしいんじゃ！！{close}",
-   "en": "{hero}! I've heard the news!{page}They say the only bridge into the{br}Golden Castle has been destroyed!{page}A troublesome business, eh... But{br}there's still something we can do!{page}If there's no bridge, we need only{br}build one!{page}Hmm, hmm... Yes, quite so...{page}Building a bridge to the enemy's{br}stronghold will be a difficult{br}undertaking indeed...{page}But! There's one man who should be{br}up to the task! His name is the{br}\"Bridge Master\"!!{page}I hear there's a splendid bridge of his{br}in Torowana's Asado Mountains,{br}too!!{page}And would you believe it? That{br}famous Master is apparently here in{br}East Village!!{close}",
+   "en": "{hero}! I've heard the news!{page}They say the only bridge into the{br}Golden Castle has been destroyed!{page}A troublesome business, eh... But{br}there's still something we can do!{page}If there's no bridge, we need only{br}build one!{page}Hmm, hmm... Yes, quite so...{page}Building a bridge to the enemy's{br}stronghold will be a difficult{br}undertaking indeed...{page}But! There's one man who should be{br}up to the task! His name is the{br}\"Bridge Master\"!!{page}I hear there's a splendid bridge of his{br}in Torowana's Asado{br}Mountains, too!!{page}And would you believe it? That{br}famous Master is apparently here in{br}East Village!!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1802,7 +1802,7 @@
   {
    "id": "rom.137C4",
    "jp": "おおっ！{br}バスターのしょくんっ！！{br}君たちも　サインがほしいのかな？？{page}・・・{page}しょ・・・しょくん！{br}元気がないな！！{page}そう！　わしが「橋かけ名人」だ！！{br}これからは「名人」とよぶがいい！！{page}・・・{page}うおっほん！{br}サインはいらぬか・・・{br}では　何の用かな？？？{page}ほうほう・・・{page}おまえさんたちが・・・{page}ヴァンデルの・・・{page}本拠地！？に・・・{page}攻め込むための！！？？{page}橋を作ってほしいだと！！！？？？{page}・・・{close}",
-   "en": "Oho! My good Busters!! Have you{br}come for autographs, too??{page}...{page}M-my friends! Where's your{br}enthusiasm?!{page}Yes! I am the \"Bridge Master\"!! You{br}may call me \"Master\" from now on!!{page}...{page}AHEM! No autographs, then... What{br}can I do for you???{page}I see, I see...{page}You want me...{page}To build a bridge...{page}To the Vandels' stronghold!?{page}So you can storm it!!??{page}You want me to do WHAT!!!???{page}...{close}",
+   "en": "Oho! My good Busters!! Have you{br}come for autographs, too??{page}...{page}M-my friends! Where's{br}your enthusiasm?!{page}Yes! I am the \"Bridge Master\"!! You{br}may call me \"Master\" from now on!!{page}...{page}AHEM! No autographs, then... What{br}can I do for you???{page}I see, I see...{page}You want me...{page}To build a bridge...{page}To the Vandels' stronghold!?{page}So you can storm it!!??{page}You want me to do WHAT!!!???{page}...{close}",
    "kind": "msg",
    "speaker": "橋かけ名人",
    "refs": 1
@@ -1817,7 +1817,7 @@
   {
    "id": "rom.1396C",
    "jp": "分かった・・・{page}そのような　大仕事・・・{br}「橋かけ名人」の名に恥じぬ仕事を{br}してみせよう！！{page}しかし！{br}安全確保は　しょくんの仕事だ！{page}まずは　そこのモンスターを{br}できる限り多く　倒してきてくれ！{br}よろしく頼むよ！！{close}",
-   "en": "Very well...{page}Such a grand undertaking... I shall do{br}work worthy of the name \"Bridge{br}Master\"!!{page}However! Keeping me safe is your{br}job!{page}First, go and defeat as many{br}monsters there as you can! I'm{br}counting on you!!{close}",
+   "en": "Very well...{page}Such a grand undertaking... I shall do{br}work worthy of the name{br}\"Bridge Master\"!!{page}However! Keeping me safe is{br}your job!{page}First, go and defeat as many{br}monsters there as you can! I'm{br}counting on you!!{close}",
    "kind": "msg",
    "speaker": "橋かけ名人",
    "refs": 1
@@ -1839,7 +1839,7 @@
   {
    "id": "rom.13A64",
    "jp": "モンスターを退治して{br}橋かけ工事の安全確保ができた！{close}",
-   "en": "You defeated the monsters and{br}made the area safe for bridge{br}construction!{close}",
+   "en": "You defeated the monsters and{br}made the area safe for{br}bridge construction!{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -1913,7 +1913,7 @@
   {
    "id": "rom.13D30",
    "jp": "おおおっ！{br}よくやってくれた！！{page}しっかし　おまえさんたち・・・{br}強いのぉ・・・！{page}あんなモンスターを{br}たおしてしまうとは・・・！！{page}ん！？{br}前にも　こんなことが{br}あったような・・・！？{page}気のせいかの・・・？？？{close}",
-   "en": "Ohoho! Well done indeed!!{page}But my word... You really are strong,{br}eh...!{page}To think you defeated monsters like{br}those...!!{page}Hmm!? Haven't I been through{br}something like this before...!?{page}Perhaps it's my imagination...???{close}",
+   "en": "Ohoho! Well done indeed!!{page}But my word... You really are{br}strong, eh...!{page}To think you defeated monsters{br}like those...!!{page}Hmm!? Haven't I been through{br}something like this before...!?{page}Perhaps it's my imagination...???{close}",
    "kind": "msg",
    "speaker": "橋かけ名人",
    "refs": 1
@@ -1928,7 +1928,7 @@
   {
    "id": "rom.13E14",
    "jp": "よし！！{br}最後の仕上げじゃ！！！{close}",
-   "en": "Right!! Time for the finishing{br}touches!!!{close}",
+   "en": "Right!! Time for the{br}finishing touches!!!{close}",
    "kind": "msg",
    "speaker": "橋かけ名人",
    "refs": 1

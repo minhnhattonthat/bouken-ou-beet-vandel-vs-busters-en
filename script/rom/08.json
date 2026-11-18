@@ -85,7 +85,7 @@
   {
    "id": "rom.21148",
    "jp": "向こうから　この里の人々の{br}苦しそうな声が聞こえる！{page}しかし強大な冥力が{br}噴き出してくるため{br}これ以上進むことができない{close}",
-   "en": "You can hear the villagers crying{br}out in pain up ahead!{page}But immense Dark Power is pouring{br}out, keeping you from going any{br}farther.{close}",
+   "en": "You can hear the villagers crying{br}out in pain up ahead!{page}But immense Dark Power is pouring{br}out, keeping you from going{br}any farther.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -183,7 +183,7 @@
   {
    "id": "rom.2171C",
    "jp": "カギ２を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "Obtained Key 2.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "Obtained Key 2.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -211,7 +211,7 @@
   {
    "id": "rom.2273C",
    "jp": "カギ４を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
-   "en": "Obtained Key 4.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "en": "Obtained Key 4.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to{br}a human...{close}",
    "kind": "msg",
    "refs": 1
   },
