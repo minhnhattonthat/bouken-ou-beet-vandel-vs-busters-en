@@ -5,9 +5,31 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,561 shown + 200 waived of 9,472, 711 failing; buster, vandel and
-  key items complete in session 16) and the Vandel-mode list (Next (4)). Left: weapon 296 (74 records), rom.msg 278,
-  wpntype 65, special 26, area2 25, ptr 21.
+  Left for the done-when: **text coverage** (8,581 shown + 462 waived of 9,472, 429 failing; rom.msg complete in
+  session 17) and the Vandel-mode list (Next (4)). Left: weapon 296 (74 records), wpntype 65, special 26, area2 25,
+  ptr 18 (list in session 17 below).
+- **Phase 8 session 17 (2026-11-19), Orca worker: rom.msg coverage complete, shop-full lines.**
+  - rom.msg 278 -> 0. `tools/debug/romleft.py MISSING.txt [-v]` (new) groups unseen rom strings by the opcode
+    pointing at them; `tools/debug/xrefs.py FROM TO` (new) lists every rom.img operand / quest.img / arm9 u32 into a
+    rom.img range (unreachability proofs).
+    - 258 = a **debug portrait-test room**: NPC handlers 0x3B6B7 / 0x3BD3B list every portrait + expression label,
+      registered only by map setup 0x3C33B (map 6F), which nothing points at (real map-6F loads use 0x29392). Waived.
+    - 20 = quest place / client operands of `4F` (+13/+17) and `99` (+5/+9): drawn on Quest Detail as Location /
+      Requester (`work/qa/cover/qupd_134CB/final.png`: "Rinburo Plains" / "Bridge Master"). textlog.lua now hooks
+      the 4F / 99 handlers (0x02053080 / 0x0204FAFC) and textcov maps their operands (`SCR_OPS`). Runs:
+      `work/qa/cover/qplace_{quest_counter,quest_counter2,quest_board}`, `work/qa/cover/qupd_<pc>` (member_join +
+      `EXTRA='q<pc> @3400 start t18,80 t76,64 w200 t14,176'`). The two test `99`s at 0x3C523/0x3C530 are unreferenced:
+      waived.
+    - Waiver rows may now list several ids separated by spaces (textcov `expand_waivers`).
+  - ptr: shop "full" lines seen (`work/qa/cover/full_{weapon,armor,item}`: shop_*_buy + `inv=11E0:1:25:99` /
+    `inv=136C:2:0:71 inv=1488:2:0:28` / `w10D8=` 34 items x 99, then `t128,61 w200 a w200 t128,61 w200`).
+    **ptr left (18):** 護衛 label 0219B030; save errors 021A9D04/8C/E4 (need a write/read failure: force the save
+    routine's result); ring destroyed/restored 021AAE9C/B4 (battle); appraiser 021AAECC-021AAF14 (needs story var
+    0x93, debug-tool gap); two-hander + shield 021AB998/BC (equipping axe 4C01, hammer 5601, bow 6001 or spear 1A01
+    at w185C and opening slot 2 shows an empty shield list, no message: find the check behind the literals at
+    0x0205B2E0, function 0x0205B208); monster roster full 021AE59C (魔賓館 buy with a full roster: roster address
+    unknown); "joined the party!" 021B1820 (battle, lr 0x020A4BF0); Saiga learn confirm 021B424C-021B429C (Saiga
+    screen learn prompt in Buster mode).
 - **Phase 8 session 16 (2026-11-19), Orca worker: buster/vandel books, vandel battles, key-item shop (context limit).**
   - **Books:** the list builders test one registration bit per entry: buster book 0x0208E0B8, ids 0..0x32, bitset
     object 0x021BEC58 (0x0200AEA8); vandel book 0x02090960, ids 0..0x12, object 0x021BEC4C (0x0200AEB4); test
@@ -365,7 +387,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   work/qa/gallery work/qa/cover with `--waive docs/text_unshown.tsv`):
   names (done), skills/tengeki/meigeki (done session 14; skill rows draw blank, see there), specials, buster/vandel books
   (done session 16), key items (done session 16), the weapon records that hang the sell list (try a weapon shop list),
-  rom.msg 278 (session 7 note). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
+  rom.msg (done session 17), ptr 18 (session 17 list). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
   registration bit set, skills); quests and names need the random pick forced (quest board 4F at 0x3C288; name
