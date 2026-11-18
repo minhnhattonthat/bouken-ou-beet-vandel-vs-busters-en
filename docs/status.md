@@ -3,7 +3,24 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build: see session 4 below; check.py green.
+  Build sha1 aceaeb57e537f8eeb3d6cbb467e425b28553cff8 (session 5), check.py green, smoke ok.
+- **Phase 8 session 5 (2026-11-19), Orca worker: elem.name engine work (handed back at the context limit).**
+  - Monster book 属性 value in English, seen in game (`work/qa/p8_elem/zoom.png`; longest "Severance" via
+    `--qa` in `work/qa/p8_elem_long`): the window comes from a stack rect built at 0x0208F7BC (x 25 y 3 w 2 h 2) and
+    passed to the rect helper 0x0202BFDC; `engine.SITES` 0x0208F7D0 -> `elem_rect` stub sets `engine.ELEM_WIN`
+    (x 23 y 5 w 9: 72 px at (184, 40), one row under the Element label, right of the HP digits). The label graphic is
+    unchanged. Budget elem.name 72 px; keep_jp TEMPORARY lines and `batches.DEFER_KINDS` entry removed.
+  - Second caller 0x02065504 = Vandel-mode status screen (`screen/v_status_base`): six 2x2-tile cells (windows
+    25-30 at x 1/6, y 14/16/18) one element each. `elem_short` + 0x0206551C -> 8 px loop 0x02020660 draw the new
+    `short` field of script/arm9/elem.json (Ma Ca Wh Sa Ea Or Tr Ul Bo Se; `engine.ESHORT_SLOT` table, lint checks
+    <= 16 px at 8 px, tests/test_lint.py). **Not yet seen in game**: no scene reaches the Vandel status screen (warps
+    to v01 / mhall end in dialogue; needs an idle Vandel-mode field scene + `start t18,40 t210,62` or similar).
+  - Found a graphics-text gap: the 魔賓館 monster buy cards show the element as a kanji inside a yellow book icon
+    (`work/qa/p8_eshort/zoom.png`); it is a sprite, not font text. Likely `bitmap/mastery_icon.nbfc` (3328 bytes,
+    `.nbfp` 512 bytes = 256 colours, so 8bpp: 13 icons of 16x16; also `status/bitmap/mastery_icon.ob`). gfx.py is
+    4bpp only. Not in the graphics survey; add a row, redraw with the short forms (glossary §Graphics UI labels).
+  - New probes: `tools/lua/windump.lua` (window structs), `tools/lua/winlog.lua` (window inits / rect helper args /
+    `WIN_WATCH` write watch), `tools/lua/execlog.lua` (`EXEC_AT={..}`, needs `--debugger`). Ruling D9 recorded.
 - **Phase 8 session 4 (2026-11-19), Orca worker: last graphics, re-tour, verdict run.**
   - Graphics survey closed: `tools/gfxgroups.py` lists 0 pending. Credits (19 panels, `gfx/credits.tsv`, codex via
     gfxagent; provisional name readings in its comments) seen in game on the `credits` warp, all panels clean
@@ -82,21 +99,17 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8), in order:** (1) `elem.name` engine work (plan below), then re-run menu_monsters, vqasheets,
-  `qa_gate init --build`, visualqa on the todo chunk; (2) `textcover.py`: have the build write `build/strings.tsv`,
+- **Next (phase 8), in order:** (1) element leftovers (session 5): a Vandel status warp scene and a zoomed shot of
+  the 2-letter cells; the 8bpp element icons on the 魔賓館 cards (find the file, extend gfx.py or redraw by hand);
+  then re-run menu_monsters, vqasheets, `qa_gate init --build`, visualqa on the todo chunk; (2) `textcover.py`: have the build write `build/strings.tsv`,
   log `TEXT <addr>` from the text hook during the tour, add scenes or waivers (`docs/text_unshown.tsv`) for the gaps;
   (3) `inkbox.py` on every choice and centred menu box in the tour shots; (4) a full re-tour on the final build +
   `qa_gate check` exit 0. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
   for wave-3 screens not yet warped (radio screens need a wireless partner: note as unreachable).
   Open items carried into phase 8:
-  - `elem.name` (属性, 10 one-kanji values, still Japanese, listed TEMPORARY in `script/keep_jp.txt`): the value
-    canvas is window [[ui]+4]+0x100, drawn by `bl 0x02020240` (12 px) at 0x0208FF3C, at x ~232 next to the 属性
-    label graphic; only ~24 px of screen are left. Glossary names from the chalice chain: Marsh, Cavern,
-    Whirlpool, Sand, Earth, Ore, Tree, Ultimate, Bone, Severance (up to ~40 px even in the 8 px font). Plan: redraw
-    the 属性 label shorter (or drop it) with the monster-book graphics, move/widen the window (its x/y/w live in the
-    window object, cf. +0x64/+0x66 for window +0x160 read at 0x0208FF88), switch the call to the 8 px loop
-    0x02020660 (same args) if needed; then translate, remove the keep lines and `batches.DEFER_KINDS`.
-  - Second caller 0x02065504 draws 属性 in a six-row list (screen not identified).
+  - `elem.name`: done in session 5 (above); leftovers are in Next (1). Also seen: the longest monster name (119 px,
+    "Crimson Nightmare") in the 120 px name window (x 48) would end at x 167, ~3 px under the Element label (x 164):
+    check one such entry in the book during the re-tour.
   - Polish list from phase 5 (below) and `docs/polish.md` (review minors, all unticked lines must be done by phase 9).
 - **Phase 7 session (2026-11-18), Orca worker, no subagents:**
   - The "255-code" limit was a misreading: the dialogue expansion buffer is 0x400 bytes (frame 0x41C, sp+0x1C), the

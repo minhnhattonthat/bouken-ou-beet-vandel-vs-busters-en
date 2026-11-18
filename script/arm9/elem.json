@@ -4,7 +4,8 @@
   {
    "id": "a9.elem.000.name",
    "jp": "沼",
-   "en": "",
+   "en": "Marsh",
+   "short": "Ma",
    "kind": "elem.name",
    "addr": "021233D8",
    "max": 4
@@ -12,7 +13,8 @@
   {
    "id": "a9.elem.001.name",
    "jp": "窟",
-   "en": "",
+   "en": "Cavern",
+   "short": "Ca",
    "kind": "elem.name",
    "addr": "021233DC",
    "max": 4
@@ -20,7 +22,8 @@
   {
    "id": "a9.elem.002.name",
    "jp": "渦",
-   "en": "",
+   "en": "Whirlpool",
+   "short": "Wh",
    "kind": "elem.name",
    "addr": "021233E0",
    "max": 4
@@ -28,7 +31,8 @@
   {
    "id": "a9.elem.003.name",
    "jp": "砂",
-   "en": "",
+   "en": "Sand",
+   "short": "Sa",
    "kind": "elem.name",
    "addr": "021233E4",
    "max": 4
@@ -36,7 +40,8 @@
   {
    "id": "a9.elem.004.name",
    "jp": "地",
-   "en": "",
+   "en": "Earth",
+   "short": "Ea",
    "kind": "elem.name",
    "addr": "021233E8",
    "max": 4
@@ -44,7 +49,8 @@
   {
    "id": "a9.elem.005.name",
    "jp": "鉱",
-   "en": "",
+   "en": "Ore",
+   "short": "Or",
    "kind": "elem.name",
    "addr": "021233EC",
    "max": 4
@@ -52,7 +58,8 @@
   {
    "id": "a9.elem.006.name",
    "jp": "樹",
-   "en": "",
+   "en": "Tree",
+   "short": "Tr",
    "kind": "elem.name",
    "addr": "021233F0",
    "max": 4
@@ -60,7 +67,8 @@
   {
    "id": "a9.elem.007.name",
    "jp": "極",
-   "en": "",
+   "en": "Ultimate",
+   "short": "Ul",
    "kind": "elem.name",
    "addr": "021233F4",
    "max": 4
@@ -68,7 +76,8 @@
   {
    "id": "a9.elem.008.name",
    "jp": "骨",
-   "en": "",
+   "en": "Bone",
+   "short": "Bo",
    "kind": "elem.name",
    "addr": "021233F8",
    "max": 4
@@ -76,7 +85,8 @@
   {
    "id": "a9.elem.009.name",
    "jp": "絶",
-   "en": "",
+   "en": "Severance",
+   "short": "Se",
    "kind": "elem.name",
    "addr": "021233FC",
    "max": 4

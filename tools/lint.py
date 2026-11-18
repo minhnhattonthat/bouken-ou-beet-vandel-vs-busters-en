@@ -95,6 +95,13 @@ def lint_entry(e, eng):
                     w = eng.width(line, c['font'])
                     if w > lim:
                         errs.append('line %d: %d px > %d (%d px font) %r' % (i + 1, w, lim, c['font'], line))
+    if e['kind'] == 'elem.name':   # Vandel status grid: 16 px cells drawn in the 8 px font (engine.ESHORT_SLOT)
+        short = e.get('short', '')
+        if not short or JP.search(short):
+            errs.append('elem.name needs an English `short` form (16 px cell, 8 px font)')
+        elif eng.width(short, 8) > 16 or len(eng.encode(short)) > engine.ESHORT_SLOT - 2:
+            errs.append('short %r: %d px > 16 (8 px font) or over %d bytes' % (
+                short, eng.width(short, 8), engine.ESHORT_SLOT - 2))
     return errs
 
 

@@ -109,11 +109,19 @@ def test_not_drawn_kind_has_no_width_check(eng):
 
 
 def test_relocated_slot_uses_the_new_cap(eng):
-    e = {'id': 'a9.elem.000.name', 'kind': 'elem.name', 'jp': '沼', 'max': 4, 'addr': '021233D8', 'en': 'Sw'}
+    e = {'id': 'a9.elem.000.name', 'kind': 'elem.name', 'jp': '沼', 'max': 4, 'addr': '021233D8', 'en': 'Marsh',
+         'short': 'Ma'}
     assert insert.text_cap(e) == 14
     assert lint.lint_entry(e, eng) == []
-    e['en'] = 'Swamp'   # fits the 14-byte slot, not the 16 px canvas
+    e['en'] = 'Ma Ma Ma Ma Ma'   # fits the 14-byte slot, not the 72 px canvas (engine.ELEM_WIN)
     assert any('px' in m for m in lint.lint_entry(e, eng))
+
+
+def test_elem_needs_a_short_form(eng):
+    e = {'id': 'a9.elem.000.name', 'kind': 'elem.name', 'jp': '沼', 'max': 4, 'addr': '021233D8', 'en': 'Marsh'}
+    assert any('short' in m for m in lint.lint_entry(e, eng))
+    e['short'] = 'Marsh'   # wider than the 16 px status cell
+    assert any('short' in m for m in lint.lint_entry(e, eng))
 
 
 def test_current_script_is_clean(eng):

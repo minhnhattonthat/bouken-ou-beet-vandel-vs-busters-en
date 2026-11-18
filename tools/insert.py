@@ -167,6 +167,13 @@ class Inserter:
                 i = (int(e['addr'], 16) - r['base']) // r['old']
                 assert len(new) <= text_cap(e), (e['id'], text, len(new))
                 self.put(self.eng.reloc[key], i * r['new'], new.ljust(r['new'], b'\0'), 'reloc.' + key)
+                if key == 'elem':          # 魔賓館 card icon short form (engine.ESHORT_SLOT)
+                    if self.eng.elem_short is None:
+                        self.eng.elem_short = self.eng.reloc_default(self.arm9_orig, key, engine.ESHORT_SLOT)
+                    short = self.eng.encode(e['short'])
+                    assert len(short) <= engine.ESHORT_SLOT - 2, (e['id'], e['short'])
+                    self.put(self.eng.elem_short, i * engine.ESHORT_SLOT, short.ljust(engine.ESHORT_SLOT, b'\0'),
+                             'reloc.eshort')   # in-memory table like reloc.<key> (romcheck skips it)
             elif 'addr' in e:
                 off, mx = int(e['addr'], 16) - A9, e['max']
                 # always keep a 0000 inside the slot: readers run past a full slot into the next record

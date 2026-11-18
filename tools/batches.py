@@ -34,7 +34,7 @@ GLOSSARY = ROOT / 'glossary.md'
 CTRL = insert.CTRL
 DIALOGUE = ('msg', 'desc', 'ptr.msg', 'quest', 'title')   # 'dialogue' wave; everything else is 'tables'
 SKIP_JP = ('説明',)
-DEFER_KINDS = ('elem.name',)   # 18 px canvas: translate after the draw code is widened (phase 7)
+DEFER_KINDS = ()   # kinds held back until engine work makes room (elem.name was one until phase 8)
 _ENG = None
 
 

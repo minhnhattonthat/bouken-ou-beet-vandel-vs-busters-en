@@ -32,7 +32,7 @@ ROM_KINDS = {0x70: 'msg', 0x9E: 'speaker', 0x4F: 'quest', 0x99: 'quest', 0x60: '
 QUEST_KINDS = {0x20: 'title', 0x1A: 'desc', 0x2D: 'desc'}
 NAME_FILES = ('status/bustername/busterman.bin', 'status/bustername/busterwoman.bin')
 NAME_REC, NAME_SLOT = 22, 16          # record size; name field = up to 7 full-width chars + 0000 (then 6 bytes)
-KEEP = ('en', 'status', 'notes')
+KEEP = ('en', 'status', 'notes', 'short')   # short: elem.name card-icon form (insert.py, engine.ESHORT_SLOT)
 
 
 def load_rom():

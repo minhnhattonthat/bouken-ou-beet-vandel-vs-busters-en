@@ -268,6 +268,19 @@ ne_init:
     pop {{lr}}
     bx lr
 
+elem_short:
+    ldr r1, lit_eshort
+    sub r0, r0, #1
+    add r0, r1, r0, lsl #3
+    bx lr
+
+elem_rect:
+    mov r1, #{EX}
+    mov r2, #{EY}
+    mov r3, #{EW}
+    b #0x0202BFDC
+
+lit_eshort: .word {ESHORT}
 lit_ones: .word 0x11111111
 lit_t12: .word {T12}
 lit_t8: .word {T8}
@@ -295,7 +308,19 @@ SITES = {
                                                   #   the keyboard opens on 英字 (mode obj+0xDC = 1; docs/re/vwf.md)
     0x0204BF00: ('022ca0e3', 'mov r2, #0x400'),   # dialogue expansion buffer (frame 0x41C, buffer sp+0x1C..0x41C):
                                                   #   clear all 0x400 bytes, not 0x200 (MSG_CODES)
+    0x0208F7D0: ('0172feeb', 'bl elem_rect'),     # monster book 属性 value window: rect(x 25, y 3, w 2, [sp] h 2)
+                                                  #   -> ELEM_WIN (under the Element label, clear of the R button)
+    0x02065504: ('fabafeeb', 'bl elem_short'),    # 魔賓館 monster cards: the element sits in a 16 px book icon, so
+    0x0206551C: ('47ebfeeb', 'bl #0x02020660'),   #   draw the 2-letter short form (ESHORT) with the 8 px loop
 }
+
+# Monster book element value window, in tiles (h stays the caller's 2): 72 x 16 px at (184, 40), one row under the
+# Element label (gfx/info.tsv, x 161-196) and 16 px right of the HP value (window x 17 w 4, ends at 168); the R button
+# (OBJ) ends above y 40. Seen in game: work/qa/p8_elem.
+ELEM_WIN = {'EX': 23, 'EY': 5, 'EW': 9}
+# 魔賓館 monster cards (0x02065504): the element is font-drawn inside a 16 px book icon; elem.json `short` (2 letters,
+# 8 px font) goes into an ESHORT table of 8-byte slots (codes + 0000); untranslated slots keep the kanji.
+ESHORT_SLOT = 8
 
 # Codes a message may hold after expansion (0x0201F4A4 writes a 0 after every code): dialogue buffer 0x400 bytes at
 # sp+0x1C in 0x0204BE9C; speaker buffer 0x18 bytes at sp+0xC in 0x0204BDCC. Both include the terminator.
@@ -333,6 +358,7 @@ class Engine:
         self.w8, self.t8 = crop_font(f8, 8)
         self.codec = codec
         self.reloc = {}   # RELOC key -> new table bytes (set by insert.Inserter)
+        self.elem_short = None   # 10 x ESHORT_SLOT bytes: element short forms, 魔賓館 cards (insert.Inserter, `short`)
         self.strings = []   # pointer strings moved into the block: (old address, [pointer word addrs], bytes + 0000)
 
     def relocate_string(self, old, ptrs, data):
@@ -347,17 +373,19 @@ class Engine:
             pool += data.ljust((len(data) + 3) & ~3, b'\0')
         return bytes(pool), offs
 
-    def reloc_default(self, arm9, key):
-        """The table at its new record size, filled with the original records (zero-padded)."""
+    def reloc_default(self, arm9, key, size=None):
+        """The table at its new record size (or `size`), filled with the original records (zero-padded)."""
         r = RELOC[key]
         out = bytearray()
         for i in range(r['count']):
             o = r['base'] - A9 + i * r['old']
-            out += arm9[o:o + r['old']].ljust(r['new'], b'\0')
+            out += arm9[o:o + r['old']].ljust(size or r['new'], b'\0')
         return out
 
     def _data(self):
-        blobs = [('W12', self.w12), ('W8', self.w8), ('T12', self.t12), ('T8', self.t8), ('SCR', bytes(4))]
+        blobs = [('W12', self.w12), ('W8', self.w8), ('T12', self.t12), ('T8', self.t8), ('SCR', bytes(4)),
+                 ('ESHORT', bytes(self.elem_short or bytes(RELOC['elem']['count'] * ESHORT_SLOT)))]
+        assert len(blobs[-1][1]) == RELOC['elem']['count'] * ESHORT_SLOT
         for key, r in RELOC.items():
             blob = self.reloc.get(key) or bytes(r['count'] * r['new'])
             assert len(blob) == r['count'] * r['new'], key
@@ -446,6 +474,7 @@ class Engine:
             pos += (len(blob) + 3) & ~3
         fields = {k: '0x%08X' % v for k, v in lay.items() if not k.startswith('R_')}
         fields.update({k: '0x%X' % v for k, v in FW.items()})
+        fields.update({k: '0x%X' % v for k, v in ELEM_WIN.items()})
         src = ASM.format(**fields)
         ks = Ks(KS_ARCH_ARM, KS_MODE_ARM)
         enc, _ = ks.asm(src, BLOCK)

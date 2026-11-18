@@ -14,7 +14,7 @@
   "party.name":   {"font": 12, "px": 62, "lines": 1, "status": "measured", "shot": "work/qa/p5_shout/f002460.png (battle panel, name x ~68, window edge ~136)"},
   "monster.name": {"font": 12, "px": 120, "lines": 1, "status": "measured", "shot": "work/qa/p5_elem/final.png (menu_monsters: a 10-code canvas, longer text is clipped)"},
   "monster.area": {"font": 12, "px": 120, "lines": 1, "status": "measured", "shot": "work/qa/p5_elem/final.png (x ~68, 'Byonrin Volcano Rui' clipped at ~x 186: a 10-code canvas)"},
-  "elem.name":    {"font": 12, "px": 18, "lines": 1, "status": "measured", "shot": "work/qa/p5_elem/final.png (属性 slot, top right of the monster book: 'Swamp' shows 'Sw' (18 px) whole, the 'a' cut; table relocated to 16-byte slots, the canvas needs widening for more)"},
+  "elem.name":    {"font": 12, "px": 72, "lines": 1, "status": "measured", "shot": "work/qa/p8_elem (monster book: engine.ELEM_WIN moves the value window to x 184 y 40, 9x2 tiles, under the Element label)"},
   "keyitem.name": {"font": 12, "px": 108, "lines": 1, "status": "jp-bound", "shot": "key-item list not reached (stored in the item list with byte1 & 3, see docs/re/scripts.md); 9 chars"},
   "keyitem.desc": {"font": 12, "px": 180, "lines": 1, "status": "jp-bound", "shot": "15 chars; item.desc box is 194"},
   "skill.name":   {"font": 12, "px": 120, "lines": 1, "status": "jp-bound", "shot": "menu_skills list empty early; 10 chars"},

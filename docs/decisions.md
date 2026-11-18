@@ -14,3 +14,4 @@ decision replaces one, mark the old one "replaced by D<n>" instead of deleting i
 | D6 | 2026-11-18 | Specs and plans | need approval, pre-approved | Pre-approved: keep going through every checkpoint without asking. |
 | D7 | 2026-11-18 | Existing saves / savestates | user's saves, none | None provided; build the debug tool (phase 2) as usual. |
 | D8 | 2026-11-18 | Publishing | publish, hold | Never run `gh release create` or change repo visibility; the run ends at a built and verified release zip. |
+| D9 | 2026-11-19 | Element (属性) values (agent default under D4/D6, not asked) | abbreviate everywhere, move the window, short form only where a 16 px cell is fixed | Monster book: full names, value window moved under the label (engine work). Vandel status grid and 魔賓館 card icons (16 px, one kanji each in the original): flagged two-letter forms Ma/Ca/Wh/Sa/Ea/Or/Tr/Ul/Bo/Se (glossary §Graphics UI labels). |
