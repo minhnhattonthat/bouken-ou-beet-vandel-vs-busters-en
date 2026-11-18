@@ -41,3 +41,31 @@ def test_scr_pc_maps_to_message(tmp_path):
     runs, bad = textcov.convert(tmp_path / 'logs', out)
     assert runs == 1 and list(bad) == [0]
     assert (out / 'scene' / 'log.txt').read_text() == 'TEXT %X\n' % (textcov.ROM_KEY + 0x30CF8)
+
+
+@pytest.mark.skipif(not textcov.QUEST_IMG.exists(), reason='needs work/fs (tools/romls.py --unpack)')
+def test_quest_and_ptr_lines_map(tmp_path):
+    q = textcov.QUEST_IMG.read_bytes()
+    pc = q.index(b'\x20' + struct.pack('<I', 0x59C))        # quest.0059C title
+    run = tmp_path / 'logs' / 'scene'
+    run.mkdir(parents=True)
+    (run / 'log.txt').write_text('QST %X\nPTR 200B0B8\nPTR 1234\n' % pc, encoding='utf-8')
+    runs, bad = textcov.convert(tmp_path / 'logs', tmp_path / 'out')
+    assert runs == 1 and not bad
+    got = (tmp_path / 'out' / 'scene' / 'log.txt').read_text().split()
+    assert got == ['TEXT', '%X' % (textcov.QUEST_KEY + 0x59C), 'TEXT', '%X' % (textcov.PTR_KEY + 0x00B0B8)]
+    tabs = textcov.tables()
+    keys = {e['id']: textcov.key_of(e, tabs, n) for n, e in enumerate(textcov.entries())}
+    assert keys['quest.0059C'] == textcov.QUEST_KEY + 0x59C and keys['a9.0219AD0C'] == textcov.PTR_KEY + 0xB0B8
+
+
+def test_gallery_spans_cover_dialogue():
+    sys.path.insert(0, str(ROOT / 'tools' / 'debug'))
+    import gallery
+    if not (gallery.FS / 'arm9.bin').exists():
+        pytest.skip('needs work/fs')
+    data, s, pcs = gallery.sites()
+    spans = gallery.spans(data, s, pcs)
+    assert all(any(a <= p < b for a, b in spans) for p in pcs)       # every site inside a span
+    assert all(data[a] in (0x2A, 0x9E, 0x70) for a, _ in spans)
+    assert len(pcs) >= 4100
