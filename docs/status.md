@@ -5,9 +5,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 fb263edd842e99273866f9edf7138ecc323d9164 (session 13; arm9 changed), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (7,793 shown + 182 waived of 9,472, 1,497 failing;
-  generic names now complete) and the Vandel-mode list (Next (4)). Biggest left: weapon 380, rom.msg 278, skill 134,
-  buster 132, meigeki 126, tengeki 108, keyitem 90, vandel 78, wpntype 68, special 30, party 27, area2 25, ptr 21.
+  Left for the done-when: **text coverage** (8,165 shown + 182 waived of 9,472, 1,125 failing;
+  skills/tengeki/meigeki complete in session 14) and the Vandel-mode list (Next (4)). Biggest left: weapon 380,
+  rom.msg 278, buster 132, keyitem 90, vandel 78, wpntype 68, special 30, party 27, area2 25, ptr 21.
+- **Phase 8 session 14 (2026-11-19), Orca worker: Saiga skill / Tengeki / Meigeki coverage (context limit).**
+  - Member struct = save+0x1660 (the Saiga screen object's [obj+0xF0] / [obj+0xD8]); learned Tengeki/Meigeki list
+    = u32 ids at save+0x16E8 (+0x88; row routine 0x020CC5EC, 4 rows, **only the first 20 entries draw**), Saiga
+    skills at save+0x174C (+0xEC). save+0 (slot word, [0x021BA3A0] + slot*0x159C) = **1 in Vandel mode**: the
+    Saiga screen becomes "Skills" / "Dark Attack" (Meigeki); skills (accessor 0x020142E0) exist only there.
+  - `tools/debug/techsweep.py` (new): writes the ids with wOFF at warp time (+ memset save+0 = 1 for Vandel mode),
+    opens Divine/Dark Attack (t14,180) and taps the scroll arrow (t16,138) once per row. Runs in work/qa/cover:
+    `tengeki_{a,b,c}`, `meigeki_{a,b,c}` (rows drawn in English, e.g. work/qa/cover/tengeki_a), `skill_{a,b,c}`.
+    **Skills are fetched (all 67 at screen open) but the rows draw blank** (also with obj+0x124 count poked and
+    the redraw forced via obj+0x11C = -1, tools/lua/listloop.lua; row windows [obj+0xC0+4*row], draw 0x020C8010):
+    the visible skill text is unverified. Next: compare on the JP ROM (its menu timing differs: the JP run reached
+    the screen later, give it more frames), then find what shows the row windows.
+  - Specials (accessor 0x020142C8, 1-based): the Buster-mode Saiga box drew one row (weapon 0x15 -> special 5)
+    when 25 tengeki ids were learned, not with one. An idloop + reopen run (Back t240,176, then t110,62) did not
+    reopen (w60 too short after Back) and is not in cover/. Next: find the box's condition, then idloop 36 ids.
+  - New probes: `tools/lua/regmem.lua` (registers + words at [reg(+deref)+off] when a pc runs),
+    `tools/lua/listloop.lua` (write a page of ids into a screen's list and force its redraw).
 - **Phase 8 session 13 (2026-11-19), Orca worker: generic-buster name bug fixed, names swept, wireless/GBA waived.**
   - **Bug fixed (real, English only):** generic busters (party types 0x11-0x33 = records 16-50) never got a random
     name. 0x02019564 copies the party name, then rolls one from busterman/busterwoman.bin only while it equals the
@@ -295,7 +312,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   too: run it with `--only book_monsters`), tagbox, vqasheets, `qa_gate init`, todo `--size 6`, visualqa;
   (2) coverage, biggest first (shouts done in session 10, quests in session 12; report over work/qa/en
   work/qa/gallery work/qa/cover with `--waive docs/text_unshown.tsv`):
-  names (force r0 at 0x02019608), skills/tengeki/meigeki (skill menu / tactics lists, page them), buster/vandel books
+  names (done), skills/tengeki/meigeki (done session 14; skill rows draw blank, see there), specials, buster/vandel books
   (session 9 note), key items (screen unknown: u16 list at [ui+0x118]), the weapon records that hang the sell list,
   rom.msg 278 (session 7 note). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
