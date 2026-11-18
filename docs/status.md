@@ -3,7 +3,29 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 aceaeb57e537f8eeb3d6cbb467e425b28553cff8 (session 5), check.py green, smoke ok.
+  Build sha1 bf77ae4518d91f6ff8dff19bddcbe334c9066491 (session 6), check.py green (60 tests).
+- **Phase 8 session 6 (2026-11-19), Orca worker: element icons, coverage pipeline (tour killed for low memory).**
+  - The 魔賓館 card element book icon is `battle/face/mon_<elem>_{l,m,s}.ob` (30 files, 24x24, 4bpp, @3; not
+    mastery_icon, which holds weapon/element pictograms with no text). Redrawn with the elem.json short forms in the
+    small font (`gfx/elemicons.tsv`, plate x 6 y 5 11x11, fill 1, ink 6); seen in game: `work/qa/p8_book2/zoom.png`
+    (Ma / Ca). Survey rows added (sheet 041); gfxgroups 0 pending. gfx.py now reads 8bpp tile files (`path:8`).
+  - So 0x02065504 (`elem_short`, six cells, list object vtable 0x021AA898 at [obj+0x78]+0x254) is NOT the card
+    screen; it is a 6-monster list only reachable in real Vandel mode. Not yet seen. Tried: v04_castle_works reaches
+    an idle field by f3000, but the party/status there is Beet's (the warp does not switch mode). v01 runs the real
+    Vandel intro: name entry (OK = t235,176), then an epithet entry; mashing A loops back to the entry after Harden's
+    "My epithet is..." line (top screen black). Needs a look at that loop (choice? touch to advance?), or the save
+    byte that selects Vandel mode (diff a Vandel-mode battery save vs clear_save).
+  - Text coverage: `tools/lua/textlog.lua` (exec hooks on the opcode 70/9E handlers 0x0205128C / 0x0204F630 and
+    the 18 arm9 table accessors; needs `--debugger`, now `warp_all.py --debugger`) + `tools/textcov.py report
+    LOGDIR [--waive F]` (writes `build/strings.tsv`, maps SCR pcs through the original rom.img, runs the skill's
+    textcover.py, prints per-kind counts). Test `tests/test_textcov.py`. Not probed yet: quest.img (427 desc + 210
+    titles), names.json (256), arm9 ptr strings (115). Table coverage is per record.
+  - Tour `work/qa/en` (build bf77ae45, glyphlog + textlog) was killed by the system for low memory after 69 of ~101
+    scenes. Coverage on those 69: 783/9472 shown (rom.msg 491/4120). Earlier sheets/manifest were deleted with
+    the old work/qa/en; work/states/ for some scenes may be from an aborted run on the JP ROM (warp_all's default
+    ROM is the original: always pass build/beet_en.nds). Re-run warp_all with --jobs 2 (memory).
+  - inkbox: the only font-drawn centred text is the speaker tag (choices/menus are gfx.py buttons, centred by
+    construction); measure the tag rect on a tour dialogue shot, then run inkbox over every tour shot with a tag.
 - **Phase 8 session 5 (2026-11-19), Orca worker: elem.name engine work (handed back at the context limit).**
   - Monster book 属性 value in English, seen in game (`work/qa/p8_elem/zoom.png`; longest "Severance" via
     `--qa` in `work/qa/p8_elem_long`): the window comes from a stack rect built at 0x0208F7BC (x 25 y 3 w 2 h 2) and
@@ -99,12 +121,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8), in order:** (1) element leftovers (session 5): a Vandel status warp scene and a zoomed shot of
-  the 2-letter cells; the 8bpp element icons on the 魔賓館 cards (find the file, extend gfx.py or redraw by hand);
-  then re-run menu_monsters, vqasheets, `qa_gate init --build`, visualqa on the todo chunk; (2) `textcover.py`: have the build write `build/strings.tsv`,
-  log `TEXT <addr>` from the text hook during the tour, add scenes or waivers (`docs/text_unshown.tsv`) for the gaps;
-  (3) `inkbox.py` on every choice and centred menu box in the tour shots; (4) a full re-tour on the final build +
-  `qa_gate check` exit 0. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
+- **Next (phase 8), in order:** (1) full tour on the current build:
+  `python -X utf8 tools/debug/warp_all.py build/beet_en.nds --out work/qa/en --script tools/lua/glyphlog.lua
+  --script tools/lua/textlog.lua --debugger --jobs 2`, then `tools/vqasheets.py work/qa/en work/qa/vqa_en`,
+  `qa_gate init --build`, visualqa on the todo chunks (the element icons changed menu_monsters / shop sheets);
+  (2) coverage: `tools/textcov.py report work/qa/en`; add probes for quest.img / names / ptr strings, add scenes for
+  the big gaps (dialogue: more event warps; tables: monster/weapon book pages, shops with `inv`), waive only what is
+  shown unreachable in `docs/text_unshown.tsv`; (3) inkbox on speaker tags (above); (4) the Vandel-mode list screen
+  (0x02065504, above); (5) `qa_gate check` exit 0 on the final build. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
   for wave-3 screens not yet warped (radio screens need a wireless partner: note as unreachable).
   Open items carried into phase 8:
   - `elem.name`: done in session 5 (above); leftovers are in Next (1). Also seen: the longest monster name (119 px,

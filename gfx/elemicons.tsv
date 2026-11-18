@@ -1,0 +1,34 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Monster element (属性) book icons, 24x24 (3x3 tiles), sizes l/m/s: 魔賓館 monster cards and battle faces.
+# The kanji sits on an 11x11 plate (index 1) at x 6 y 5 in all three sizes, strokes in index 6.
+# Text: the elem.json `short` forms (glossary §Graphics UI labels), small font.
+battle/face/mon_numa_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Ma
+battle/face/mon_numa_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Ma
+battle/face/mon_numa_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Ma
+battle/face/mon_kutsu_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Ca
+battle/face/mon_kutsu_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Ca
+battle/face/mon_kutsu_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Ca
+battle/face/mon_uzu_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Wh
+battle/face/mon_uzu_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Wh
+battle/face/mon_uzu_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Wh
+battle/face/mon_suna_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Sa
+battle/face/mon_suna_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Sa
+battle/face/mon_suna_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Sa
+battle/face/mon_chi_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Ea
+battle/face/mon_chi_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Ea
+battle/face/mon_chi_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Ea
+battle/face/mon_kou_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Or
+battle/face/mon_kou_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Or
+battle/face/mon_kou_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Or
+battle/face/mon_ju_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Tr
+battle/face/mon_ju_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Tr
+battle/face/mon_ju_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Tr
+battle/face/mon_kyoku_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Ul
+battle/face/mon_kyoku_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Ul
+battle/face/mon_kyoku_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Ul
+battle/face/mon_kotsu_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Bo
+battle/face/mon_kotsu_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Bo
+battle/face/mon_kotsu_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Bo
+battle/face/mon_zetsu_l.ob@3	6	5	11	11	s	6	-	c	fill:1	Se
+battle/face/mon_zetsu_m.ob@3	6	5	11	11	s	6	-	c	fill:1	Se
+battle/face/mon_zetsu_s.ob@3	6	5	11	11	s	6	-	c	fill:1	Se

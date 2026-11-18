@@ -64,9 +64,16 @@ def load_rows(groups=None):
     return rows
 
 
+def bpp_of(spec):
+    """A trailing ':8' marks an 8bpp tile file (256-colour .nbfp); everything else is 4bpp."""
+    return 8 if spec.endswith(':8') else 4
+
+
 def split_name(spec):
     """'path' -> (path, None); 'path@8' -> grid 8 tiles wide; 'path@8x4' -> sprites of 8x4 tiles in 1D order,
-    placed side by side in one row (a 128x32 button made of two 64x32 OBJs)."""
+    placed side by side in one row (a 128x32 button made of two 64x32 OBJs). A ':8' suffix (bpp_of) is dropped."""
+    if spec.endswith(':8'):
+        spec = spec[:-2]
     name, _, gw = spec.partition('@')
     if 'x' in gw:
         sw, sh = gw.split('x')
@@ -131,13 +138,13 @@ class Glyphs:
 class Image4:
     """Pixel indices of a tile file as one image: map files in screen space, grid files tile by tile."""
 
-    def __init__(self, name, data, mapdata=None, grid=None):
+    def __init__(self, name, data, mapdata=None, grid=None, bpp=4):
         self.name = name
         self.data = data
         self.off = body_off(data)
         raw = data[self.off:]
-        self.bpp = 4
-        self.tsize = 32
+        self.bpp = bpp
+        self.tsize = 8 * bpp
         self.ntiles = len(raw) // self.tsize
         self.tiles = [self._tile(raw, t) for t in range(self.ntiles)]
         self.mapdata = mapdata
@@ -166,7 +173,9 @@ class Image4:
         self.orig = [r[:] for r in self.px]
 
     def _tile(self, raw, t):
-        b = raw[t * 32:t * 32 + 32]
+        b = raw[t * self.tsize:(t + 1) * self.tsize]
+        if self.bpp == 8:
+            return list(b)
         return [b[i // 2] >> (4 * (i & 1)) & 15 for i in range(64)]
 
     def _ncells(self):
@@ -198,6 +207,8 @@ class Image4:
                 yield hf, vf, tuple(v for r in r2 for v in r)
 
     def pack_tile(self, t):
+        if self.bpp == 8:
+            return bytes(t)
         return bytes(t[i] | t[i + 1] << 4 for i in range(0, 64, 2))
 
     def save(self):
@@ -243,7 +254,7 @@ class Image4:
         if grown:
             notes.append('%s: %d new tiles (%d -> %d)' % (self.name, grown, self.ntiles, len(tiles)))
         raw = b''.join(self.pack_tile(t) for t in tiles)
-        tail = self.data[self.off + self.ntiles * 32:]
+        tail = self.data[self.off + self.ntiles * self.tsize:]
         data = self.data[:self.off] + raw + tail
         if self.off:
             data = struct.pack('<I', len(data) - 4) + data[4:]
@@ -377,7 +388,7 @@ def edit_files(getfile, rows):
                 mapdata = getfile(mname)
             except (KeyError, ValueError, FileNotFoundError):
                 mapdata = None
-        img = Image4(name, getfile(name), mapdata, grid)
+        img = Image4(name, getfile(name), mapdata, grid, bpp_of(spec))
         for r in rs:
             erase(img, r)
         for r in rs:
@@ -464,7 +475,7 @@ def cmd_show(a):
     m = None
     if grid is None and (FS / (name[:-5] + '.nbfs')).exists():
         m = fs_get(name[:-5] + '.nbfs')
-    img = Image4(name, fs_get(name), m, grid)
+    img = Image4(name, fs_get(name), m, grid, bpp_of(a.file))
     from PIL import ImageDraw
     im = to_png(img, palette_for(name, a.pal), a.zoom)
     d = ImageDraw.Draw(im)
@@ -483,7 +494,7 @@ def cmd_index(a):
     """Print the pixel indices of a rect (to pick ink / shadow / erase values)."""
     name, grid = split_name(a.file)
     m = fs_get(name[:-5] + '.nbfs') if grid is None and (FS / (name[:-5] + '.nbfs')).exists() else None
-    img = Image4(name, fs_get(name), m, grid)
+    img = Image4(name, fs_get(name), m, grid, bpp_of(a.file))
     x, y, w, h = map(int, a.rect.split(','))
     for yy in range(y, y + h):
         print('%3d ' % yy + ''.join('%X' % img.px[yy][xx] for xx in range(x, x + w)))
@@ -505,8 +516,8 @@ def cmd_preview(a):
         name, grid = split_name(spec)
         mname = name[:-5] + '.nbfs'
         m0 = fs_get(mname) if grid is None and (FS / mname).exists() else None
-        a0 = Image4(name, fs_get(name), m0, grid)
-        a1 = Image4(name, new[name], new.get(mname, m0), grid)
+        a0 = Image4(name, fs_get(name), m0, grid, bpp_of(spec))
+        a1 = Image4(name, new[name], new.get(mname, m0), grid, bpp_of(spec))
         pal = palette_for(name, PREVIEW_PAL.get(name))
         i0, i1 = to_png(a0, pal, a.zoom), to_png(a1, pal, a.zoom)
         im = Image.new('RGB', (i0.width * 2 + 8, i0.height), (255, 0, 255))

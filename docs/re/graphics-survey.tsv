@@ -313,3 +313,33 @@ sheet	file	text	what
 040	tengeki/skill_type_heal.ob	回復	Skill type sprite label
 040	tengeki/skill_type_statusdown.ob	弱体	Skill type sprite label
 040	tengeki/skill_type_statusup.ob	強化	Skill type sprite label
+041	battle/face/mon_numa_l.ob	沼	Element book icon (l/m/s, 魔賓館 monster cards, battle faces)
+041	battle/face/mon_numa_m.ob	沼	Element book icon
+041	battle/face/mon_numa_s.ob	沼	Element book icon
+041	battle/face/mon_kutsu_l.ob	窟	Element book icon
+041	battle/face/mon_kutsu_m.ob	窟	Element book icon
+041	battle/face/mon_kutsu_s.ob	窟	Element book icon
+041	battle/face/mon_uzu_l.ob	渦	Element book icon
+041	battle/face/mon_uzu_m.ob	渦	Element book icon
+041	battle/face/mon_uzu_s.ob	渦	Element book icon
+041	battle/face/mon_suna_l.ob	砂	Element book icon
+041	battle/face/mon_suna_m.ob	砂	Element book icon
+041	battle/face/mon_suna_s.ob	砂	Element book icon
+041	battle/face/mon_chi_l.ob	地	Element book icon
+041	battle/face/mon_chi_m.ob	地	Element book icon
+041	battle/face/mon_chi_s.ob	地	Element book icon
+041	battle/face/mon_kou_l.ob	鉱	Element book icon
+041	battle/face/mon_kou_m.ob	鉱	Element book icon
+041	battle/face/mon_kou_s.ob	鉱	Element book icon
+041	battle/face/mon_ju_l.ob	樹	Element book icon
+041	battle/face/mon_ju_m.ob	樹	Element book icon
+041	battle/face/mon_ju_s.ob	樹	Element book icon
+041	battle/face/mon_kyoku_l.ob	極	Element book icon
+041	battle/face/mon_kyoku_m.ob	極	Element book icon
+041	battle/face/mon_kyoku_s.ob	極	Element book icon
+041	battle/face/mon_kotsu_l.ob	骨	Element book icon
+041	battle/face/mon_kotsu_m.ob	骨	Element book icon
+041	battle/face/mon_kotsu_s.ob	骨	Element book icon
+041	battle/face/mon_zetsu_l.ob	絶	Element book icon
+041	battle/face/mon_zetsu_m.ob	絶	Element book icon
+041	battle/face/mon_zetsu_s.ob	絶	Element book icon
