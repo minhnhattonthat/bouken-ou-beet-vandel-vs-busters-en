@@ -2,11 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build (in progress: engine done and proven, marker build boots 100/100 scenes;
-  every kind now has a budget, measured or jp-bound; left: Latin name entry, ptr budgets, pointer-string relocation).
+- **Phase:** 6. Translate (phase 5 done 2026-11-18: marker tour `work/qa/marker3` 101/101 ok, 969 ids, no Japanese
+  drawn; every kind has a budget in `tools/budgets.json`, measured or jp-bound).
   Last build: 2026-11-18 `python -X utf8 tools/build.py --marker` -> `build/beet_marker.nds` sha1
-  da444dcc6a72850903ced0349d674cdce80e9832, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
+  9f82ab3e3a4acad381a0bd8b2e8352f0a1c13e23, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
   dump, `--qa ID=TEXT` overrides one entry.)
+- **Phase 5 session 3 (2026-11-18):**
+  - Name entry: the game already has an 英字 (A-Z a-z) tab; `ne_init` (engine.SITES 0x0202B6F0) opens the keyboard on
+    it, and the hooks draw/measure the full-width Latin codes names are stored in as proportional letters
+    (`engine.FW`, `fullwidth_code`). Max 8 letters (10 for entry types 2/4). 8 x W fits the speaker tag and spaces right
+    in dialogue (`work/qa/ne_w2`). Lint stand-ins: `{hero}`/`{vandel}` = 8 x M (80 px), `{name93}` 10. RE in
+    `docs/re/vwf.md` §Name entry; RAM-diff probe `tools/lua/objdump.lua`; warp.lua namentry scenes take `@FRAME`
+    inputs (type a name, 決定 at t243,176).
+  - Pointer strings: kinds `ptr.<group>` (`arm9text.PTR_GROUPS`: msg, speaker, label, line, comm, gba, keyboard).
+    Over-long strings are relocated into the hook block (`engine.relocate_string`, pointer words repointed; tested,
+    and seen in game). Budgets: comm 128 px at 8 px (box wraps by itself at ~130, mid-word), gba 212 px at 12 px,
+    measured; msg/speaker reuse those budgets; label 84, line 180 jp-bound. `ptr.keyboard` (kana keyboard + kana list)
+    is never inserted (`insert.KEEP_KINDS`; lint error if `en` set).
+  - `jp_left.py --orig` on the marker build: only old copies of relocated pointer strings (unreferenced), the kana
+    keyboard, name-entry kana class lists and code noise. For phase 9 pass the relocated list as `--known` or use
+    `--slots`.
 - **Phase 5 so far (2026-11-18):**
   - Font decision made and proven in game: VWF with **letter-pair codes** (0x2000 + a*128 + b), letters cropped from
     the game's own full-width Latin glyphs, rendered by an arm9 hook block (new autoload section at 0x021C7EC0,
@@ -41,13 +56,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     scene), `INV_FROM`. Budgets for every remaining kind in `tools/budgets.json`: `jp-bound` (longest JP line at
     12 px; lists not reachable yet, verify in phase 8) or `not-drawn` (readings = sort keys, 説明 placeholders);
     lint skips width for `not-drawn`.
-- **Next (rest of phase 5):** Latin name-entry keyboard (`a9.021AA0F8`.., ptr strings) and the English name length,
-  then fix `{hero}` etc. stand-ins in `tools/lint.py` VARS; `ptr` budgets (per string, 115 entries: menus, 通信
-  screens); arm9 pointer-string relocation into the hook block (same pattern as `engine.RELOC`); re-run the marker
-  tour + `tools/markerscan.py` on the new build; `jp_left.py` on the marker build. Then phase 6 (translators get
-  `tools/budgets.json` + `docs/windows.md`; readings = English name, 説明 placeholders stay). Optional: speaker tag
-  72 px in a shot; other `count * 12` centring; widen the 属性 canvas; full-width digits look wide (polish);
-  fill skills/quests/books/key items in the debug tool to replace the jp-bound budgets (phase 8 at the latest).
+- **Next (phase 6):** translate in batches (`references/translation.md`): translators get `tools/budgets.json` +
+  `docs/windows.md` + `glossary.md`; readings = English name, 説明 placeholders stay, `ptr.keyboard` stays empty,
+  GBA-news fragments are one line each (word order across fragments), `a9.021B1820` follows a name ("<name> joined
+  the party"). Polish for later (phase 8): name-entry key letters sit at the cell's left edge (centre them); the comm
+  box wraps mid-word (word-wrap hook or keep strings <= 128 px); speaker tag 72 px in a shot; other `count * 12`
+  centring; widen the 属性 canvas; full-width digits look wide; fill skills/quests/books/key items in the debug tool
+  to replace the jp-bound budgets.
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), DeSmuME QA fork qa-2 in `tools/desmume/`, guard hook wired in
     `.claude/settings.json` (canary blocked), pre-commit runs `tools/check.py` (a failing test was rejected), smoke boot
@@ -84,11 +99,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
     instruction, all JSON `jp` re-encode to the ROM bytes, no kana run in arm9 outside the extracted slots (7 waived
     numeric words). New controls in `tbl/jp.tbl`: `{hero}` FF90, `{vandel}` FF92, `{name93}`, `{monster}`, `{count}`.
     Not text (documented, tested): rom.img data tail 0x51BB4-, quest.img table 0x11D4, file names, kanakan.img.
-- **Next (phase 5):** engine spike + marker build. Font/VWF decision (renderer is fixed 12 px full-width; Latin exists
-  only as full-width glyphs; `font/a8x8.bin` is an unused ASCII font candidate). Insert: rom.img/quest.img by
-  appending strings (4-aligned) and repointing `Script.refs` operands; arm9 slots in place (`max` bytes) or
-  relocated; arm9 pointer strings repointed via `ptrs`. Marker build: every entry -> `[id]` marker; find non-text
-  "strings"; measure every box width in-game (width gate). Name entry needs a Latin keyboard (`a9.021AA0F8`..).
 - **Debug-tool gaps (grow later, not blocking):** appraiser's appraisal choice (`4F`, needs story var 0x93); quest
   accept/turn-in flow from quest NPCs (quest.img scripts) beyond the two engine messages; the books show an empty entry 0
   (fill the registration bits for full text coverage in phase 8); shops of other towns if any (only East Village uses
