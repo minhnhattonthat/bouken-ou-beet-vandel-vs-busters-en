@@ -33,6 +33,8 @@ menu_quests	touch	1ACB	30	4128	@3600 start t18,80 t76,64	info > quests (quest/qu
 menu_monsters	touch	1ACB	30	4128	@3600 start t18,80 t180,64	info > monster book
 menu_busters	touch	1ACB	30	4128	@3600 start t18,80 t76,120 books	info > buster book (books cheat: empty book forced open)
 menu_vandels	touch	1ACB	30	4128	@3600 start t18,80 t180,120 books	info > vandel book (books cheat)
+book_busters	touch	1ACB	30	9000	@3600 start t18,80 t76,120 bookbits r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r r 	buster book with every buster registered (bookbits)
+book_vandels	touch	1ACB	30	6000	@3600 start t18,80 t180,120 bookbits r r r r r r r r r r r r r r r r r r 	vandel book with every vandel registered (bookbits)
 menu_option	touch	1ACB	30	4032	@3600 start t18,118	option screen
 menu_save	touch	1ACB	30	4032	@3600 start t18,158	save prompt
 shop_weapon	event	2B58B	0	1800	q2B5C2 @1200 a w300	East Village weapon shop (map 73, counter 04 -> opcode AF 0)

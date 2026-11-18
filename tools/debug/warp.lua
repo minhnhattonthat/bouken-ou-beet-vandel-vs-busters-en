@@ -162,6 +162,31 @@ if books then
   L.on_exec(0x0203990C, force(0x70, 0x40))  -- vandel book, after bl 0x0202F068
 end
 
+-- BOOKBITS (scene `set` token `bookbits`, or --var BOOKBITS=1): register every buster / vandel the honest way, by
+-- setting the bits the list builders test, so the books list every entry. Buster book 0x0208E0B8 loops ids
+-- 0..0x32 over the bitset object 0x021BEC58 (0x0200AEA8), vandel book 0x02090960 ids 0..0x12 over 0x021BEC4C
+-- (0x0200AEB4); test 0x0201B1D8 = byte [[obj+8] + id>>3] & bit. Held every frame once [obj+8] points into RAM.
+if BOOKBITS or (" " .. (sc.set or "") .. " "):match("%sbookbits%s") then
+  local sets = { { obj = 0x021BEC58, n = 0x33, name = "buster" }, { obj = 0x021BEC4C, n = 0x13, name = "vandel" } }
+  local told = {}
+  L.on_frame(function(f)
+    for _, s in ipairs(sets) do
+      local p = memory.readdword(s.obj + 8)
+      if ram(p) then
+        for i = 0, s.n - 1 do
+          local a, m = p + math.floor(i / 8), 2 ^ (i % 8)
+          local b = memory.readbyte(a)
+          if math.floor(b / m) % 2 == 0 then memory.writebyte(a, b + m) end
+        end
+        if not told[s.name] then
+          told[s.name] = true
+          L.log(string.format("BOOKBITS %s bits at %08X set (%d) f%d", s.name, p, s.n, f))
+        end
+      end
+    end
+  end)
+end
+
 -- Save-struct pokes (warp-time `set` tokens): wOFF=HEX writes the hex bytes at [0x021BA3A0]+OFF; `inv` fills the
 -- inventory list. Inventory (found by a buy diff, 2026-11-18): object at save+0x10D4 (vtable 0x021A95DC), entries
 -- of 4 bytes from save+0x10D8: [id+1, category, 0, count]; category 4 = item. INV_CATS (default "4") picks
@@ -231,7 +256,7 @@ if kind == "touch" or kind == "titletouch"
   for tok in (sc.set or ""):gmatch("%S+") do
     local at = tok:match("^@(%d+)$")
     if at then touch_at = tonumber(at)
-    elseif not tok:match("^[fsq]%x+$") and tok ~= "books" and tok ~= "writesave" and tok ~= "inv"
+    elseif not tok:match("^[fsq]%x+$") and tok ~= "books" and tok ~= "bookbits" and tok ~= "writesave" and tok ~= "inv"
       and not tok:match("=") then touches[#touches + 1] = tok end
   end
   touch_at = touch_at or 3600
