@@ -1,0 +1,749 @@
+{
+ "src": "arm9.bin table 021476AC x31 (0x1b4 bytes, accessor 02014608)",
+ "entries": [
+  {
+   "id": "a9.vandel.000.name",
+   "jp": "ハーデン",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "021476AC",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.000.name2",
+   "jp": "ハーデン",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "021476C2",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.000.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "021476D8",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.001.name",
+   "jp": "キャンバル",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02147860",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.001.name2",
+   "jp": "キャンバル",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02147876",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.001.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214788C",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.002.name",
+   "jp": "ピルゴア",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02147A14",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.002.name2",
+   "jp": "ピルゴア",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02147A2A",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.002.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02147A40",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.003.name",
+   "jp": "ブランドゥ",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02147BC8",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.003.name2",
+   "jp": "ブランドゥ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02147BDE",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.003.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02147BF4",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.004.name",
+   "jp": "ライリー",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02147D7C",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.004.name2",
+   "jp": "ライリー",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02147D92",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.004.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02147DA8",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.005.name",
+   "jp": "シャデリコ",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02147F30",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.005.name2",
+   "jp": "シャデリコ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02147F46",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.005.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02147F5C",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.006.name",
+   "jp": "シャデリコ強化版",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "021480E4",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.006.name2",
+   "jp": "シャデリコ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "021480FA",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.006.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02148110",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.007.name",
+   "jp": "レボーク",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02148298",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.007.name2",
+   "jp": "レボーク",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "021482AE",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.007.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "021482C4",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.008.name",
+   "jp": "バレアス",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214844C",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.008.name2",
+   "jp": "バレアス",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02148462",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.008.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02148478",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.009.name",
+   "jp": "ディアム",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02148600",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.009.name2",
+   "jp": "ディアム",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02148616",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.009.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214862C",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.010.name",
+   "jp": "エルダー",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "021487B4",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.010.name2",
+   "jp": "エルダー",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "021487CA",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.010.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "021487E0",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.011.name",
+   "jp": "ガネール",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02148968",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.011.name2",
+   "jp": "ガネール",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214897E",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.011.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02148994",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.012.name",
+   "jp": "グラニャオース",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02148B1C",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.012.name2",
+   "jp": "グラニャオース",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02148B32",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.012.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02148B48",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.013.name",
+   "jp": "メルモンド",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02148CD0",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.013.name2",
+   "jp": "メルモンド",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02148CE6",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.013.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02148CFC",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.014.name",
+   "jp": "オロゾン",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02148E84",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.014.name2",
+   "jp": "オロゾン",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02148E9A",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.014.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02148EB0",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.015.name",
+   "jp": "ギルス",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149038",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.015.name2",
+   "jp": "ギルス",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214904E",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.015.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149064",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.016.name",
+   "jp": "ヤギール",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "021491EC",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.016.name2",
+   "jp": "ヤギール",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02149202",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.016.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149218",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.017.name",
+   "jp": "ザンデ",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "021493A0",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.017.name2",
+   "jp": "ザンデ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "021493B6",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.017.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "021493CC",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.018.name",
+   "jp": "ガロニュート",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149554",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.018.name2",
+   "jp": "ガロニュート",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214956A",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.018.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149580",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.019.name",
+   "jp": "ムガイン",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149708",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.019.name2",
+   "jp": "ムガイン",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214971E",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.019.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149734",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.020.name",
+   "jp": "ベンチュラ",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "021498BC",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.020.name2",
+   "jp": "ベンチュラ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "021498D2",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.020.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "021498E8",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.021.name",
+   "jp": "ロズゴート",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149A70",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.021.name2",
+   "jp": "ロズゴート",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02149A86",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.021.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149A9C",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.022.name",
+   "jp": "フラウスキー",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149C24",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.022.name2",
+   "jp": "フラウスキー",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02149C3A",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.022.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149C50",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.023.name",
+   "jp": "グリニデ",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149DD8",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.023.name2",
+   "jp": "グリニデ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02149DEE",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.023.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149E04",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.024.name",
+   "jp": "グリニデ変身後",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "02149F8C",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.024.name2",
+   "jp": "グリニデ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "02149FA2",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.024.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "02149FB8",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.025.name",
+   "jp": "ベルトーゼ",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214A140",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.025.name2",
+   "jp": "ベルトーゼ",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214A156",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.025.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214A16C",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.026.name",
+   "jp": "ヴァンデル主人公炎",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214A2F4",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.026.name2",
+   "jp": "ヴァンデル",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214A30A",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.026.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214A320",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.027.name",
+   "jp": "ヴァンデル主人公魔",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214A4A8",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.027.name2",
+   "jp": "ヴァンデル",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214A4BE",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.027.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214A4D4",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.028.name",
+   "jp": "ヴァンデル主人公風",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214A65C",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.028.name2",
+   "jp": "ヴァンデル",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214A672",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.028.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214A688",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.029.name",
+   "jp": "ヴァンデル主人公雷",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214A810",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.029.name2",
+   "jp": "ヴァンデル",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214A826",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.029.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214A83C",
+   "max": 60
+  },
+  {
+   "id": "a9.vandel.030.name",
+   "jp": "ヴァンデル主人公水",
+   "en": "",
+   "kind": "vandel.name",
+   "addr": "0214A9C4",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.030.name2",
+   "jp": "ヴァンデル",
+   "en": "",
+   "kind": "vandel.name2",
+   "addr": "0214A9DA",
+   "max": 22
+  },
+  {
+   "id": "a9.vandel.030.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "vandel.desc",
+   "addr": "0214A9F0",
+   "max": 60
+  }
+ ]
+}

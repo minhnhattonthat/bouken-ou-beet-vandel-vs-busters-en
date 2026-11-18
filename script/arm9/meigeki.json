@@ -1,0 +1,1037 @@
+{
+ "src": "arm9.bin table 0214591C x43 (0xb0 bytes, accessor 020145F0)",
+ "entries": [
+  {
+   "id": "a9.meigeki.000.name",
+   "jp": "冥撃の火弾",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214591C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.000.reading",
+   "jp": "めいげきのかだん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214592A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.000.desc",
+   "jp": "単体攻撃用の炎の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145944",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.001.name",
+   "jp": "冥撃の烈火",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021459CC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.001.reading",
+   "jp": "めいげきのれっか",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021459DA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.001.desc",
+   "jp": "単体攻撃用の炎の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021459F4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.002.name",
+   "jp": "冥撃の獄炎",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145A7C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.002.reading",
+   "jp": "めいげきのごくえん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145A8A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.002.desc",
+   "jp": "単体攻撃用の炎の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145AA4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.003.name",
+   "jp": "灼熱の冥獄炎",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145B2C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.003.reading",
+   "jp": "しゃくねつのめいごくえん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145B3A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.003.desc",
+   "jp": "単体攻撃用の炎の上位冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145B54",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.004.name",
+   "jp": "冥撃の火勢",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145BDC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.004.reading",
+   "jp": "めいげきのかせい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145BEA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.004.desc",
+   "jp": "範囲攻撃用の炎の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145C04",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.005.name",
+   "jp": "冥撃の炎流",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145C8C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.005.reading",
+   "jp": "めいげきのえんりゅう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145C9A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.005.desc",
+   "jp": "範囲攻撃用の炎の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145CB4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.006.name",
+   "jp": "冥撃の爆炎",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145D3C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.006.reading",
+   "jp": "めいげきのばくえん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145D4A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.006.desc",
+   "jp": "範囲攻撃用の炎の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145D64",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.007.name",
+   "jp": "灼熱の冥炎流",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145DEC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.007.reading",
+   "jp": "しゃくねつのめいえんりゅう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145DFA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.007.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145E14",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.008.name",
+   "jp": "業火の冥撃流",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145E9C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.008.reading",
+   "jp": "ごうかのめいげきりゅう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145EAA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.008.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145EC4",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.009.name",
+   "jp": "冥撃の氷結",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145F4C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.009.reading",
+   "jp": "めいげきのひょうけつ",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02145F5A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.009.desc",
+   "jp": "単体攻撃用の氷の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02145F74",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.010.name",
+   "jp": "冥撃の氷塊",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02145FFC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.010.reading",
+   "jp": "めいげきのひょうかい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214600A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.010.desc",
+   "jp": "単体攻撃用の氷の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146024",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.011.name",
+   "jp": "冥撃の氷柱",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021460AC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.011.reading",
+   "jp": "めいげきのひょうちゅう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021460BA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.011.desc",
+   "jp": "単体攻撃用の氷の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021460D4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.012.name",
+   "jp": "零水の冥氷塊",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214615C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.012.reading",
+   "jp": "れいすいのめいひょうかい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214616A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.012.desc",
+   "jp": "単体攻撃用の氷の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146184",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.013.name",
+   "jp": "冥撃の雹雨",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214620C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.013.reading",
+   "jp": "めいげきのひょうう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214621A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.013.desc",
+   "jp": "全体攻撃用の氷の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146234",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.014.name",
+   "jp": "冥撃の寒波",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021462BC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.014.reading",
+   "jp": "めいげきのかんぱ",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021462CA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.014.desc",
+   "jp": "全体攻撃用の氷の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021462E4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.015.name",
+   "jp": "冥撃の氷嵐",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214636C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.015.reading",
+   "jp": "めいげきのひょうらん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214637A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.015.desc",
+   "jp": "全体攻撃用の氷の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146394",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.016.name",
+   "jp": "極寒の凍結波",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214641C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.016.reading",
+   "jp": "きょくかんのとうけつは",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214642A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.016.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146444",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.017.name",
+   "jp": "極寒の冥雹獄",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021464CC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.017.reading",
+   "jp": "きょくかんのめいひょうごく",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021464DA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.017.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021464F4",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.018.name",
+   "jp": "冥撃の暴風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214657C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.018.reading",
+   "jp": "めいげきのぼうふう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214658A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.018.desc",
+   "jp": "単体攻撃用の風の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021465A4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.019.name",
+   "jp": "冥撃の烈風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214662C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.019.reading",
+   "jp": "めいげきのれっぷう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214663A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.019.desc",
+   "jp": "単体攻撃用の風の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146654",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.020.name",
+   "jp": "冥撃の乱気",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021466DC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.020.reading",
+   "jp": "めいげきのらんき",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021466EA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.020.desc",
+   "jp": "単体攻撃用の風の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146704",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.021.name",
+   "jp": "暗黒の冥乱気",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214678C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.021.reading",
+   "jp": "あんこくのめいらんき",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214679A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.021.desc",
+   "jp": "単体攻撃用の風の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021467B4",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.022.name",
+   "jp": "冥撃の斬風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214683C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.022.reading",
+   "jp": "めいげきのざんぷう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214684A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.022.desc",
+   "jp": "範囲攻撃用の風の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146864",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.023.name",
+   "jp": "冥撃の黒風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021468EC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.023.reading",
+   "jp": "めいげきのくろかぜ",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021468FA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.023.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146914",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.024.name",
+   "jp": "冥撃の魔風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214699C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.024.reading",
+   "jp": "めいげきのまふう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021469AA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.024.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021469C4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.025.name",
+   "jp": "暗黒の冥爆風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146A4C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.025.reading",
+   "jp": "あんこくのめいばくふう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146A5A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.025.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146A74",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.026.name",
+   "jp": "冥獄の乱爆風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146AFC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.026.reading",
+   "jp": "めいごくのらんばくふう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146B0A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.026.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146B24",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.027.name",
+   "jp": "冥獄の乱烈風",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146BAC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.027.reading",
+   "jp": "めいごくのらんれっぷう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146BBA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.027.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146BD4",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.028.name",
+   "jp": "冥撃の電流",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146C5C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.028.reading",
+   "jp": "めいげきのでんりゅう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146C6A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.028.desc",
+   "jp": "単体攻撃用の雷の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146C84",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.029.name",
+   "jp": "冥撃の雷弾",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146D0C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.029.reading",
+   "jp": "めいげきのらいだん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146D1A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.029.desc",
+   "jp": "単体攻撃用の雷の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146D34",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.030.name",
+   "jp": "冥撃の雷閃",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146DBC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.030.reading",
+   "jp": "めいげきのらいせん",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146DCA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.030.desc",
+   "jp": "単体攻撃用の雷の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146DE4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.031.name",
+   "jp": "暗黒の冥雷波",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146E6C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.031.reading",
+   "jp": "あんこくのめいらいは",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146E7A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.031.desc",
+   "jp": "単体攻撃用の雷の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146E94",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.032.name",
+   "jp": "冥撃の爆雷",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146F1C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.032.reading",
+   "jp": "めいげきのばくらい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146F2A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.032.desc",
+   "jp": "範囲攻撃用の雷の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146F44",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.033.name",
+   "jp": "冥撃の列雷",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "02146FCC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.033.reading",
+   "jp": "めいげきのれつらい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "02146FDA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.033.desc",
+   "jp": "範囲攻撃用の雷の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02146FF4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.034.name",
+   "jp": "冥撃の獄雷",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214707C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.034.reading",
+   "jp": "めいげきのごくらい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214708A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.034.desc",
+   "jp": "範囲攻撃用の雷の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021470A4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.035.name",
+   "jp": "冥撃の大獄魔",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214712C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.035.reading",
+   "jp": "めいげきのだいごくらい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214713A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.035.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02147154",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.036.name",
+   "jp": "暗黒の冥瞬雷",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021471DC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.036.reading",
+   "jp": "あんこくのめいしゅんらい",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021471EA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.036.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02147204",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.037.name",
+   "jp": "冥撃の魔波",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214728C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.037.reading",
+   "jp": "めいげきのまは",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214729A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.037.desc",
+   "jp": "単体攻撃用の魔の冥撃・小",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021472B4",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.038.name",
+   "jp": "冥撃の魔烈",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214733C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.038.reading",
+   "jp": "めいげきのまれつ",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214734A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.038.desc",
+   "jp": "単体攻撃用の魔の冥撃・中",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02147364",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.039.name",
+   "jp": "冥撃の魔爆",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021473EC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.039.reading",
+   "jp": "めいげきのまばく",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021473FA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.039.desc",
+   "jp": "単体攻撃用の魔の冥撃・大",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02147414",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.040.name",
+   "jp": "暗黒の魔爆波",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214749C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.040.reading",
+   "jp": "あんこくのまばくは",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "021474AA",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.040.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "021474C4",
+   "max": 72
+  },
+  {
+   "id": "a9.meigeki.041.name",
+   "jp": "冥撃の重圧",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "0214754C",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.041.reading",
+   "jp": "めいげきのじゅうあつ",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214755A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.041.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02147574",
+   "max": 80
+  },
+  {
+   "id": "a9.meigeki.042.name",
+   "jp": "終局の大魔流",
+   "en": "",
+   "kind": "meigeki.name",
+   "addr": "021475FC",
+   "max": 14
+  },
+  {
+   "id": "a9.meigeki.042.reading",
+   "jp": "しゅうきょくのだいまりゅう",
+   "en": "",
+   "kind": "meigeki.reading",
+   "addr": "0214760A",
+   "max": 26
+  },
+  {
+   "id": "a9.meigeki.042.desc",
+   "jp": "使用しない",
+   "en": "",
+   "kind": "meigeki.desc",
+   "addr": "02147624",
+   "max": 72
+  }
+ ]
+}

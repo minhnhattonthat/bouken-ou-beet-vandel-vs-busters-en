@@ -1,0 +1,293 @@
+{
+ "src": "arm9.bin table 02142390 x36 (0x24 bytes, accessor 020142C8)",
+ "entries": [
+  {
+   "id": "a9.special.000.name",
+   "jp": "バーニングランス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142390",
+   "max": 24
+  },
+  {
+   "id": "a9.special.001.name",
+   "jp": "エクセリオンブレード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021423B4",
+   "max": 24
+  },
+  {
+   "id": "a9.special.002.name",
+   "jp": "ボルティックアックス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021423D8",
+   "max": 24
+  },
+  {
+   "id": "a9.special.003.name",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021423FC",
+   "max": 24
+  },
+  {
+   "id": "a9.special.004.name",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142420",
+   "max": 24
+  },
+  {
+   "id": "a9.special.005.name",
+   "jp": "サイレントグレイブ",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142444",
+   "max": 24
+  },
+  {
+   "id": "a9.special.006.name",
+   "jp": "ライボルトグラスパー",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142468",
+   "max": 24
+  },
+  {
+   "id": "a9.special.007.name",
+   "jp": "レッドヴァンソード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "0214248C",
+   "max": 24
+  },
+  {
+   "id": "a9.special.008.name",
+   "jp": "クリスタルブロッカー",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021424B0",
+   "max": 24
+  },
+  {
+   "id": "a9.special.009.name",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021424D4",
+   "max": 24
+  },
+  {
+   "id": "a9.special.010.name",
+   "jp": "ブラスターエッジ",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021424F8",
+   "max": 24
+  },
+  {
+   "id": "a9.special.011.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "0214251C",
+   "max": 24
+  },
+  {
+   "id": "a9.special.012.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142540",
+   "max": 24
+  },
+  {
+   "id": "a9.special.013.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142564",
+   "max": 24
+  },
+  {
+   "id": "a9.special.014.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142588",
+   "max": 24
+  },
+  {
+   "id": "a9.special.015.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021425AC",
+   "max": 24
+  },
+  {
+   "id": "a9.special.016.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021425D0",
+   "max": 24
+  },
+  {
+   "id": "a9.special.017.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021425F4",
+   "max": 24
+  },
+  {
+   "id": "a9.special.018.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142618",
+   "max": 24
+  },
+  {
+   "id": "a9.special.019.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "special.name",
+   "addr": "0214263C",
+   "max": 24
+  },
+  {
+   "id": "a9.special.020.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142660",
+   "max": 24
+  },
+  {
+   "id": "a9.special.021.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142684",
+   "max": 24
+  },
+  {
+   "id": "a9.special.022.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021426A8",
+   "max": 24
+  },
+  {
+   "id": "a9.special.023.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021426CC",
+   "max": 24
+  },
+  {
+   "id": "a9.special.024.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021426F0",
+   "max": 24
+  },
+  {
+   "id": "a9.special.025.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142714",
+   "max": 24
+  },
+  {
+   "id": "a9.special.026.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142738",
+   "max": 24
+  },
+  {
+   "id": "a9.special.027.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "special.name",
+   "addr": "0214275C",
+   "max": 24
+  },
+  {
+   "id": "a9.special.028.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142780",
+   "max": 24
+  },
+  {
+   "id": "a9.special.029.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021427A4",
+   "max": 24
+  },
+  {
+   "id": "a9.special.030.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021427C8",
+   "max": 24
+  },
+  {
+   "id": "a9.special.031.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "special.name",
+   "addr": "021427EC",
+   "max": 24
+  },
+  {
+   "id": "a9.special.032.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142810",
+   "max": 24
+  },
+  {
+   "id": "a9.special.033.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142834",
+   "max": 24
+  },
+  {
+   "id": "a9.special.034.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "special.name",
+   "addr": "02142858",
+   "max": 24
+  },
+  {
+   "id": "a9.special.035.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "special.name",
+   "addr": "0214287C",
+   "max": 24
+  }
+ ]
+}

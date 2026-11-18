@@ -1,0 +1,1037 @@
+{
+ "src": "arm9.bin table 02143B8C x43 (0xb0 bytes, accessor 020145D8)",
+ "entries": [
+  {
+   "id": "a9.tengeki.000.name",
+   "jp": "天撃の火炎",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143B8C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.000.reading",
+   "jp": "てんげきのかえん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143B9A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.000.desc",
+   "jp": "単体攻撃用の炎の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143BB4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.001.name",
+   "jp": "天撃の火柱",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143C3C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.001.reading",
+   "jp": "てんげきのひばしら",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143C4A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.001.desc",
+   "jp": "単体攻撃用の炎の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143C64",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.002.name",
+   "jp": "天撃の火掌",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143CEC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.002.reading",
+   "jp": "てんげきのひしょう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143CFA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.002.desc",
+   "jp": "単体攻撃用の炎の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143D14",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.003.name",
+   "jp": "天烈の大火球",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143D9C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.003.reading",
+   "jp": "てんれつのだいかきゅう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143DAA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.003.desc",
+   "jp": "単体攻撃用の炎の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143DC4",
+   "max": 72
+  },
+  {
+   "id": "a9.tengeki.004.name",
+   "jp": "天撃の火流",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143E4C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.004.reading",
+   "jp": "てんげきのかりゅう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143E5A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.004.desc",
+   "jp": "範囲攻撃用の炎の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143E74",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.005.name",
+   "jp": "天撃の業火",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143EFC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.005.reading",
+   "jp": "てんげきのごうか",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143F0A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.005.desc",
+   "jp": "範囲攻撃用の炎の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143F24",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.006.name",
+   "jp": "天撃の爆炎",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02143FAC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.006.reading",
+   "jp": "てんげきのばくえん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02143FBA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.006.desc",
+   "jp": "範囲攻撃用の炎の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02143FD4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.007.name",
+   "jp": "天撃の火針",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214405C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.007.reading",
+   "jp": "てんげきのひはり",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214406A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.007.desc",
+   "jp": "単体のマヒの治療を行う天撃",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144084",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.008.name",
+   "jp": "天撃の陽炎",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214410C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.008.reading",
+   "jp": "てんげきのかげろう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214411A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.008.desc",
+   "jp": "対象全体の命中を２０％下げる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144134",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.009.name",
+   "jp": "天撃の雹弾",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021441BC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.009.reading",
+   "jp": "てんげきのひょうだん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021441CA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.009.desc",
+   "jp": "単体攻撃用の氷の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021441E4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.010.name",
+   "jp": "天撃の雹柱",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214426C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.010.reading",
+   "jp": "てんげきのぎょうちゅう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214427A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.010.desc",
+   "jp": "単体攻撃用の氷の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144294",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.011.name",
+   "jp": "天撃の雹錘",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214431C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.011.reading",
+   "jp": "てんげきのひょうすい",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214432A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.011.desc",
+   "jp": "単体攻撃用の氷の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144344",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.012.name",
+   "jp": "天青の氷結波",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021443CC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.012.reading",
+   "jp": "てんせいのひょうけつは",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021443DA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.012.desc",
+   "jp": "単体攻撃用の氷の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021443F4",
+   "max": 72
+  },
+  {
+   "id": "a9.tengeki.013.name",
+   "jp": "天撃の氷雨",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214447C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.013.reading",
+   "jp": "てんげきのひょうう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214448A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.013.desc",
+   "jp": "全体攻撃用の氷の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021444A4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.014.name",
+   "jp": "天撃の吹雪",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214452C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.014.reading",
+   "jp": "てんげきのふぶき",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214453A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.014.desc",
+   "jp": "全体攻撃用の氷の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144554",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.015.name",
+   "jp": "天撃の雪崩",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021445DC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.015.reading",
+   "jp": "てんげきのなだれ",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021445EA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.015.desc",
+   "jp": "全体攻撃用の氷の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144604",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.016.name",
+   "jp": "天撃の浄水",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214468C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.016.reading",
+   "jp": "てんげきのじょうすい",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214469A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.016.desc",
+   "jp": "単体の毒の治療を行う天撃",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021446B4",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.017.name",
+   "jp": "天撃の水衣",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214473C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.017.reading",
+   "jp": "てんげきのすいい",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214474A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.017.desc",
+   "jp": "単体の物理防御力を２０％上昇",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144764",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.018.name",
+   "jp": "天撃の疾風",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021447EC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.018.reading",
+   "jp": "てんげきのしっぷう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021447FA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.018.desc",
+   "jp": "単体攻撃用の風の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144814",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.019.name",
+   "jp": "天撃の旋風",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214489C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.019.reading",
+   "jp": "てんげきのせんぷう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021448AA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.019.desc",
+   "jp": "単体攻撃用の風の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021448C4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.020.name",
+   "jp": "天撃の大嵐",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214494C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.020.reading",
+   "jp": "てんげきのおおあらし",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214495A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.020.desc",
+   "jp": "単体攻撃用の風の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144974",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.021.name",
+   "jp": "天乱の大竜巻",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021449FC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.021.reading",
+   "jp": "てんらんのおおたつまき",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144A0A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.021.desc",
+   "jp": "単体攻撃用の風の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144A24",
+   "max": 72
+  },
+  {
+   "id": "a9.tengeki.022.name",
+   "jp": "天撃の戦陣",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144AAC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.022.reading",
+   "jp": "てんげきのせんじん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144ABA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.022.desc",
+   "jp": "範囲攻撃用の風の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144AD4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.023.name",
+   "jp": "天撃の涼風",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144B5C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.023.reading",
+   "jp": "てんげきのりょうふう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144B6A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.023.desc",
+   "jp": "混乱状態から回復させる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144B84",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.024.name",
+   "jp": "天撃の風車",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144C0C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.024.reading",
+   "jp": "てんげきのかざぐるま",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144C1A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.024.desc",
+   "jp": "敵の動きを５秒間封じる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144C34",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.025.name",
+   "jp": "天撃の山彦",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144CBC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.025.reading",
+   "jp": "てんげきのやまびこ",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144CCA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.025.desc",
+   "jp": "行動速度を上昇させる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144CE4",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.026.name",
+   "jp": "天撃の気流",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144D6C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.026.reading",
+   "jp": "てんげきのきりゅう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144D7A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.026.desc",
+   "jp": "冥撃を１発だけ完全に防ぐ",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144D94",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.027.name",
+   "jp": "天撃の風塵",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144E1C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.027.reading",
+   "jp": "てんげきのふうじん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144E2A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.027.desc",
+   "jp": "敵全体の回避を２０％下げる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144E44",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.028.name",
+   "jp": "天撃の稲妻",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144ECC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.028.reading",
+   "jp": "てんげきのいなづま",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144EDA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.028.desc",
+   "jp": "単体攻撃用の雷の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144EF4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.029.name",
+   "jp": "天撃の雷撃",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "02144F7C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.029.reading",
+   "jp": "てんげきのらいげき",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "02144F8A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.029.desc",
+   "jp": "単体攻撃用の雷の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02144FA4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.030.name",
+   "jp": "天撃の雷轟",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214502C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.030.reading",
+   "jp": "てんげきのらいごう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214503A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.030.desc",
+   "jp": "単体攻撃用の雷の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145054",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.031.name",
+   "jp": "閃空の天雷破",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021450DC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.031.reading",
+   "jp": "せんくうのてんらいは",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021450EA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.031.desc",
+   "jp": "単体攻撃用の雷の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145104",
+   "max": 72
+  },
+  {
+   "id": "a9.tengeki.032.name",
+   "jp": "天撃の雷電",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214518C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.032.reading",
+   "jp": "てんげきのらいでん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214519A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.032.desc",
+   "jp": "範囲攻撃用の雷の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021451B4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.033.name",
+   "jp": "天撃の極雷",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214523C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.033.reading",
+   "jp": "てんげきのごくらい",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214524A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.033.desc",
+   "jp": "範囲攻撃用の雷の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145264",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.034.name",
+   "jp": "天撃の超雷",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021452EC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.034.reading",
+   "jp": "てんげきのちょうらい",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021452FA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.034.desc",
+   "jp": "範囲攻撃用の雷の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145314",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.035.name",
+   "jp": "天撃の落雷",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214539C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.035.reading",
+   "jp": "てんげきのらくらい",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021453AA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.035.desc",
+   "jp": "攻撃を雷属性にする",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021453C4",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.036.name",
+   "jp": "天撃の電流",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214544C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.036.reading",
+   "jp": "てんげきのでんりゅう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214545A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.036.desc",
+   "jp": "敵単体の回避を４０％下げる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145474",
+   "max": 76
+  },
+  {
+   "id": "a9.tengeki.037.name",
+   "jp": "天撃の光弾",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021454FC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.037.reading",
+   "jp": "てんげきのこうだん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214550A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.037.desc",
+   "jp": "単体攻撃用の光の天撃・小",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145524",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.038.name",
+   "jp": "天撃の閃光",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021455AC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.038.reading",
+   "jp": "てんげきのせんこう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021455BA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.038.desc",
+   "jp": "単体攻撃用の光の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021455D4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.039.name",
+   "jp": "天撃の瞬光",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214565C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.039.reading",
+   "jp": "てんげきのしゅんこう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214566A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.039.desc",
+   "jp": "単体攻撃用の光の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145684",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.040.name",
+   "jp": "天撃の白熱",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214570C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.040.reading",
+   "jp": "てんげきのはくねつ",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214571A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.040.desc",
+   "jp": "範囲攻撃用の光の天撃・中",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145734",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.041.name",
+   "jp": "天撃の銀光",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "021457BC",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.041.reading",
+   "jp": "てんげきのぎんこう",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "021457CA",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.041.desc",
+   "jp": "範囲攻撃用の光の天撃・大",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "021457E4",
+   "max": 80
+  },
+  {
+   "id": "a9.tengeki.042.name",
+   "jp": "天撃の光陰",
+   "en": "",
+   "kind": "tengeki.name",
+   "addr": "0214586C",
+   "max": 14
+  },
+  {
+   "id": "a9.tengeki.042.reading",
+   "jp": "てんげきのこういん",
+   "en": "",
+   "kind": "tengeki.reading",
+   "addr": "0214587A",
+   "max": 26
+  },
+  {
+   "id": "a9.tengeki.042.desc",
+   "jp": "敵単体の命中を２０％下げる",
+   "en": "",
+   "kind": "tengeki.desc",
+   "addr": "02145894",
+   "max": 76
+  }
+ ]
+}

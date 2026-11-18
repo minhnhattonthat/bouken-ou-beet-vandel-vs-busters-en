@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract (not started; phase 3 identity build done 2026-11-18).
+- **Phase:** 5. Engine spike and marker build (not started; phase 4 extract done 2026-11-18).
   Last build: 2026-11-18 identity build, `build/beet_en.nds` sha1 45fb3632177b1b8490069630b798dc7e52846a1d (= dump),
   smoke ok.
 - **Done:**
@@ -31,17 +31,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the 0x00 inter-region padding (ndspy pads 0xFF) and the cartridge length. `tests/test_build.py` asserts the
     rebuild is byte-identical (also after replacing every file with its own bytes); a one-byte edit gives exactly one
     diff. Edits slot in at the `# Edits go here` line of `build()`.
-- **Next (phase 4):** extract every text source to `script/` JSON via `tools/tbl.py` + `tbl/jp.tbl`: `field/script/rom.img`
-  (`scr\x1a` container; needs an entry-point walker for `00`/`FF`/`BF` and string pools), `quest/quest.img`, arm9
-  fixed records + pointer-referenced messages, buster-name lists, `kanakan.img`. Done when the roundtrip test
-  (re-encode = original bytes) passes and a coverage test shows the text ranges fully covered
-  (`references/pipeline.md` §Extract). The `.img` container needs its own identity repack test.
+  - Phase 4 (done): `python -X utf8 tools/extract.py [--force] [--only rom,quest,names,arm9]` writes `script/`
+    (9,462 entries: `rom/NN.json` 4,120 messages/speakers/quest labels with `speaker` context, `quest/NN.json` 637,
+    `names.json` 256 generic buster names (16-byte slots), `arm9/<table>.json` 4,334 fixed-slot fields with `addr` and
+    `max`, `arm9/ptr.json` 115 pointer strings with their pointer words). Never clobbers `en`. Parsers:
+    `tools/scr.py` (scr container: code / S-aligned string pools / data, two-pass on pointer evidence),
+    `tools/arm9text.py` (+ `tools/a9tables.py` accessor scan), codec `tools/text16.py`. `tests/test_extract.py`:
+    every byte of both script containers explained, every string operand on a string start, every jump on an
+    instruction, all JSON `jp` re-encode to the ROM bytes, no kana run in arm9 outside the extracted slots (7 waived
+    numeric words). New controls in `tbl/jp.tbl`: `{hero}` FF90, `{vandel}` FF92, `{name93}`, `{monster}`, `{count}`.
+    Not text (documented, tested): rom.img data tail 0x51BB4-, quest.img table 0x11D4, file names, kanakan.img.
+- **Next (phase 5):** engine spike + marker build. Font/VWF decision (renderer is fixed 12 px full-width; Latin exists
+  only as full-width glyphs; `font/a8x8.bin` is an unused ASCII font candidate). Insert: rom.img/quest.img by
+  appending strings (4-aligned) and repointing `Script.refs` operands; arm9 slots in place (`max` bytes) or
+  relocated; arm9 pointer strings repointed via `ptrs`. Marker build: every entry -> `[id]` marker; find non-text
+  "strings"; measure every box width in-game (width gate). Name entry needs a Latin keyboard (`a9.021AA0F8`..).
 - **Debug-tool gaps (grow later, not blocking):** appraiser's appraisal choice (`4F`, needs story var 0x93); quest
   accept/turn-in flow from quest NPCs (quest.img scripts) beyond the two engine messages; the books show an empty entry 0
   (fill the registration bits for full text coverage in phase 8); shops of other towns if any (only East Village uses
   the AF/10/53 shop opcodes in rom.img); VS battles over 通信 need a second DS and are out of reach.
-- **Open questions for later phases:** opcode lengths now known (table 0x021953D0) but `00`/`FF`/`BF` and string pools
-  need an entry-point walker (phase 4); arm9 inline name fields only hold 9-10 full-width chars, so English needs
+- **Open questions for later phases:** meanings of `{hero}`/`{vandel}`/`{name93}`/`{monster}`/`{count}` are guesses
+  (check in the marker build); whether hiragana `reading` fields and the `desc` 説明 placeholders of the vandel/buster
+  tables are ever shown; arm9 inline name fields only hold 9-10 full-width chars, so English needs
   half-width/VWF codes or relocated tables (phase 5); FF71/FF72 meaning (guess); OBJ cut-in text needs `.ab` cell data
   to read; `.img` graphics bank format. Shop/menu UI text (買う/売る, 武器購入 headers) is not in arm9 as tbl text:
   probably graphics; check in the phase 5 marker build.

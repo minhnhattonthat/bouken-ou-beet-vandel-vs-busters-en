@@ -1,0 +1,1229 @@
+{
+ "src": "arm9.bin table 0214AB78 x51 (0x1b4 bytes, accessor 02014628)",
+ "entries": [
+  {
+   "id": "a9.buster.000.name",
+   "jp": "ヒーロー",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214AB78",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.000.name2",
+   "jp": "ヒーロー",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214AB8E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.000.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214ABA4",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.001.name",
+   "jp": "ビィト",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214AD2C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.001.name2",
+   "jp": "ビィト",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214AD42",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.001.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214AD58",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.002.name",
+   "jp": "ポアラ",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214AEE0",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.002.name2",
+   "jp": "ポアラ",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214AEF6",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.002.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214AF0C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.003.name",
+   "jp": "キッス",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214B094",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.003.name2",
+   "jp": "キッス",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214B0AA",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.003.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214B0C0",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.004.name",
+   "jp": "スレッド",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214B248",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.004.name2",
+   "jp": "スレッド",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214B25E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.004.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214B274",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.005.name",
+   "jp": "ミルファ",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214B3FC",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.005.name2",
+   "jp": "ミルファ",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214B412",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.005.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214B428",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.006.name",
+   "jp": "ゴラン",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214B5B0",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.006.name2",
+   "jp": "ゴラン",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214B5C6",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.006.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214B5DC",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.007.name",
+   "jp": "シバ",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214B764",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.007.name2",
+   "jp": "シバ",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214B77A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.007.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214B790",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.008.name",
+   "jp": "グレスト",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214B918",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.008.name2",
+   "jp": "グレスト",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214B92E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.008.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214B944",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.009.name",
+   "jp": "バドゥ",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214BACC",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.009.name2",
+   "jp": "バドゥ",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214BAE2",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.009.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214BAF8",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.010.name",
+   "jp": "アーク",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214BC80",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.010.name2",
+   "jp": "アーク",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214BC96",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.010.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214BCAC",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.011.name",
+   "jp": "レンド",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214BE34",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.011.name2",
+   "jp": "レンド",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214BE4A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.011.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214BE60",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.012.name",
+   "jp": "シグサ",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214BFE8",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.012.name2",
+   "jp": "シグサ",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214BFFE",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.012.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214C014",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.013.name",
+   "jp": "ジーク",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214C19C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.013.name2",
+   "jp": "ジーク",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214C1B2",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.013.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214C1C8",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.014.name",
+   "jp": "リュック",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214C350",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.014.name2",
+   "jp": "リュック",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214C366",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.014.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214C37C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.015.name",
+   "jp": "ナック",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214C504",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.015.name2",
+   "jp": "ナック",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214C51A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.015.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214C530",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.016.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214C6B8",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.016.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214C6CE",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.016.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214C6E4",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.017.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214C86C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.017.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214C882",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.017.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214C898",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.018.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214CA20",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.018.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214CA36",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.018.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214CA4C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.019.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214CBD4",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.019.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214CBEA",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.019.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214CC00",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.020.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214CD88",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.020.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214CD9E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.020.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214CDB4",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.021.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214CF3C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.021.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214CF52",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.021.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214CF68",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.022.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214D0F0",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.022.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214D106",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.022.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214D11C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.023.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214D2A4",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.023.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214D2BA",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.023.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214D2D0",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.024.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214D458",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.024.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214D46E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.024.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214D484",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.025.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214D60C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.025.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214D622",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.025.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214D638",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.026.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214D7C0",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.026.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214D7D6",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.026.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214D7EC",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.027.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214D974",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.027.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214D98A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.027.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214D9A0",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.028.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214DB28",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.028.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214DB3E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.028.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214DB54",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.029.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214DCDC",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.029.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214DCF2",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.029.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214DD08",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.030.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214DE90",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.030.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214DEA6",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.030.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214DEBC",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.031.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214E044",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.031.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214E05A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.031.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214E070",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.032.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214E1F8",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.032.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214E20E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.032.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214E224",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.033.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214E3AC",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.033.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214E3C2",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.033.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214E3D8",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.034.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214E560",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.034.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214E576",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.034.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214E58C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.035.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214E714",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.035.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214E72A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.035.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214E740",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.036.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214E8C8",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.036.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214E8DE",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.036.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214E8F4",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.037.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214EA7C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.037.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214EA92",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.037.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214EAA8",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.038.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214EC30",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.038.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214EC46",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.038.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214EC5C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.039.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214EDE4",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.039.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214EDFA",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.039.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214EE10",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.040.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214EF98",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.040.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214EFAE",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.040.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214EFC4",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.041.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214F14C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.041.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214F162",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.041.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214F178",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.042.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214F300",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.042.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214F316",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.042.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214F32C",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.043.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214F4B4",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.043.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214F4CA",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.043.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214F4E0",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.044.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214F668",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.044.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214F67E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.044.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214F694",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.045.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214F81C",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.045.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214F832",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.045.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214F848",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.046.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214F9D0",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.046.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214F9E6",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.046.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214F9FC",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.047.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214FB84",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.047.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214FB9A",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.047.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214FBB0",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.048.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214FD38",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.048.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214FD4E",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.048.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214FD64",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.049.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "0214FEEC",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.049.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "0214FF02",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.049.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "0214FF18",
+   "max": 60
+  },
+  {
+   "id": "a9.buster.050.name",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name",
+   "addr": "021500A0",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.050.name2",
+   "jp": "バスター",
+   "en": "",
+   "kind": "buster.name2",
+   "addr": "021500B6",
+   "max": 22
+  },
+  {
+   "id": "a9.buster.050.desc",
+   "jp": "説明",
+   "en": "",
+   "kind": "buster.desc",
+   "addr": "021500CC",
+   "max": 60
+  }
+ ]
+}

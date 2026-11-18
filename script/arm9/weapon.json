@@ -1,0 +1,8133 @@
+{
+ "src": "arm9.bin table 02150AF8 x254 (0x438 bytes, accessor 02014684)",
+ "entries": [
+  {
+   "id": "a9.weapon.000.name",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02150AFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.000.reading",
+   "jp": "くらうんしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02150B10",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.000.desc",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02150B24",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.000.name2",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02150B7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.001.name",
+   "jp": "ウッドシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02150F34",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.001.reading",
+   "jp": "うっどしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02150F48",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.001.desc",
+   "jp": "木製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02150F5C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.001.name2",
+   "jp": "ウッドシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02150FB4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.002.name",
+   "jp": "ブロンズシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215136C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.002.reading",
+   "jp": "ぶろんずしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02151380",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.002.desc",
+   "jp": "青銅製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02151394",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.002.name2",
+   "jp": "ブロンズシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021513EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.003.name",
+   "jp": "カッパーシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021517A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.003.reading",
+   "jp": "かっぱーしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021517B8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.003.desc",
+   "jp": "銅製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021517CC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.003.name2",
+   "jp": "カッパーシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02151824",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.004.name",
+   "jp": "アイアンシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02151BDC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.004.reading",
+   "jp": "あいあんしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02151BF0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.004.desc",
+   "jp": "鉄製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02151C04",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.004.name2",
+   "jp": "アイアンシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02151C5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.005.name",
+   "jp": "スティールシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02152014",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.005.reading",
+   "jp": "すてぃーるしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02152028",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.005.desc",
+   "jp": "鋼鉄製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215203C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.005.name2",
+   "jp": "スティールシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02152094",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.006.name",
+   "jp": "シルバーシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215244C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.006.reading",
+   "jp": "しるばーしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02152460",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.006.desc",
+   "jp": "銀製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02152474",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.006.name2",
+   "jp": "シルバーシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021524CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.007.name",
+   "jp": "レアメタルシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02152884",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.007.reading",
+   "jp": "れあめたるしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02152898",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.007.desc",
+   "jp": "レアメタル製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021528AC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.007.name2",
+   "jp": "レアメタルシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02152904",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.008.name",
+   "jp": "ハイメタルシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02152CBC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.008.reading",
+   "jp": "はいめたるしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02152CD0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.008.desc",
+   "jp": "ハイメタル製のシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02152CE4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.008.name2",
+   "jp": "ハイメタルシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02152D3C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.009.name",
+   "jp": "マスターシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021530F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.009.reading",
+   "jp": "れじぇんどしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02153108",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.009.desc",
+   "jp": "非常に強い金属でできたシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215311C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.009.name2",
+   "jp": "Ｇメタルシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02153174",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.010.name",
+   "jp": "アトスシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215352C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.010.reading",
+   "jp": "あとすしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02153540",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.010.desc",
+   "jp": "エルファストの防具屋が作った盾",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02153554",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.010.name2",
+   "jp": "アトスシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021535AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.011.name",
+   "jp": "才牙光り",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02153964",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.011.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02153978",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.011.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215398C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.011.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021539E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.012.name",
+   "jp": "詠唱光り",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02153D9C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.012.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02153DB0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.012.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02153DC4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.012.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02153E1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.013.name",
+   "jp": "天撃",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021541D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.013.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021541E8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.013.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021541FC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.013.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02154254",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.014.name",
+   "jp": "エフェクト予備",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215460C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.014.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02154620",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.014.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02154634",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.014.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215468C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.015.name",
+   "jp": "バーニングランス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02154A44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.015.reading",
+   "jp": "ばーにんぐらんす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02154A58",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.015.desc",
+   "jp": "バーニングランス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02154A6C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.015.name2",
+   "jp": "バーニングランス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02154AC4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.016.name",
+   "jp": "エクセリオンブレード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02154E7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.016.reading",
+   "jp": "えくせりおんぶれーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02154E90",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.016.desc",
+   "jp": "エクセリオンブレード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02154EA4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.016.name2",
+   "jp": "エクセリオンブレード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02154EFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.017.name",
+   "jp": "ボルティックアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021552B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.017.reading",
+   "jp": "ぼるてぃっくあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021552C8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.017.desc",
+   "jp": "ボルティックアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021552DC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.017.name2",
+   "jp": "ボルティックアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02155334",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.018.name",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021556EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.018.reading",
+   "jp": "さいくろんがんなー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02155700",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.018.desc",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02155714",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.018.name2",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215576C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.019.name",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02155B24",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.019.reading",
+   "jp": "さいくろんがんなー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02155B38",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.019.desc",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02155B4C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.019.name2",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02155BA4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.020.name",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02155F5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.020.reading",
+   "jp": "くらうんしーるど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02155F70",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.020.desc",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02155F84",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.020.name2",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02155FDC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.021.name",
+   "jp": "サイレントグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02156394",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.021.reading",
+   "jp": "さいれんとぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021563A8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.021.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021563BC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.021.name2",
+   "jp": "サイレントグレイブ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02156414",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.022.name",
+   "jp": "ライボルトグラスパー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021567CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.022.reading",
+   "jp": "らいぼるとぐらすぱー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021567E0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.022.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021567F4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.022.name2",
+   "jp": "ライボルトグラスパー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215684C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.023.name",
+   "jp": "レッドヴァンソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02156C04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.023.reading",
+   "jp": "れっどう゛ぁんそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02156C18",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.023.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02156C2C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.023.name2",
+   "jp": "レッドヴァンソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02156C84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.024.name",
+   "jp": "クリスタルブロッカー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215703C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.024.reading",
+   "jp": "くりすたるぶろっかー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02157050",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.024.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02157064",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.024.name2",
+   "jp": "クリスタルブロッカー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021570BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.025.name",
+   "jp": "青銅の槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02157474",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.025.reading",
+   "jp": "せいどうのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02157488",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.025.desc",
+   "jp": "青銅でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215749C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.025.name2",
+   "jp": "せいどうのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021574F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.026.name",
+   "jp": "銅の槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021578AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.026.reading",
+   "jp": "どうのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021578C0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.026.desc",
+   "jp": "銅でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021578D4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.026.name2",
+   "jp": "どうのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215792C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.027.name",
+   "jp": "鉄の槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02157CE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.027.reading",
+   "jp": "てつのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02157CF8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.027.desc",
+   "jp": "鉄でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02157D0C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.027.name2",
+   "jp": "てつのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02157D64",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.028.name",
+   "jp": "鋼の槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215811C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.028.reading",
+   "jp": "はがねのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02158130",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.028.desc",
+   "jp": "鋼でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02158144",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.028.name2",
+   "jp": "はがねのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215819C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.029.name",
+   "jp": "銀の槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02158554",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.029.reading",
+   "jp": "ぎんのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02158568",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.029.desc",
+   "jp": "銀でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215857C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.029.name2",
+   "jp": "ぎんのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021585D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.030.name",
+   "jp": "レアメタルの槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215898C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.030.reading",
+   "jp": "れあめたるのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021589A0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.030.desc",
+   "jp": "レアメタルでできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021589B4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.030.name2",
+   "jp": "レアメタルのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02158A0C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.031.name",
+   "jp": "ハイメタルの槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02158DC4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.031.reading",
+   "jp": "はいめたるのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02158DD8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.031.desc",
+   "jp": "ハイメタルでできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02158DEC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.031.name2",
+   "jp": "ハイメタルのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02158E44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.032.name",
+   "jp": "Ｂメタルの槍",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021591FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.032.reading",
+   "jp": "びーめたるのやり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02159210",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.032.desc",
+   "jp": "ベカトルテ鋼でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02159224",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.032.name2",
+   "jp": "Ｂメタルのヤリ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215927C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.033.name",
+   "jp": "バトルスピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02159634",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.033.reading",
+   "jp": "ばとるすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02159648",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.033.desc",
+   "jp": "複合特殊鋼材でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215965C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.033.name2",
+   "jp": "バトルスピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021596B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.034.name",
+   "jp": "マスタースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02159A6C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.034.reading",
+   "jp": "ますたーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02159A80",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.034.desc",
+   "jp": "非常に強い金属でできた槍",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02159A94",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.034.name2",
+   "jp": "マスタースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02159AEC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.035.name",
+   "jp": "ブロンズグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02159EA4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.035.reading",
+   "jp": "ぶろんずぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02159EB8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.035.desc",
+   "jp": "青銅でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02159ECC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.035.name2",
+   "jp": "ブロンズグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02159F24",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.036.name",
+   "jp": "カッパーグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215A2DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.036.reading",
+   "jp": "かっぱーぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215A2F0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.036.desc",
+   "jp": "銅でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215A304",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.036.name2",
+   "jp": "カッパーグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215A35C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.037.name",
+   "jp": "アイアングレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215A714",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.037.reading",
+   "jp": "あいあんぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215A728",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.037.desc",
+   "jp": "鉄でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215A73C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.037.name2",
+   "jp": "アイアングレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215A794",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.038.name",
+   "jp": "スティールグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215AB4C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.038.reading",
+   "jp": "すてぃーるぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215AB60",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.038.desc",
+   "jp": "鋼でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215AB74",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.038.name2",
+   "jp": "スティールグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215ABCC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.039.name",
+   "jp": "シルバーグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215AF84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.039.reading",
+   "jp": "しるばーぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215AF98",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.039.desc",
+   "jp": "銀でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215AFAC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.039.name2",
+   "jp": "シルバーグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215B004",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.040.name",
+   "jp": "レアメタルグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215B3BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.040.reading",
+   "jp": "れあめたるぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215B3D0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.040.desc",
+   "jp": "レアメタルでできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215B3E4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.040.name2",
+   "jp": "レアメタルグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215B43C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.041.name",
+   "jp": "ハイメタルグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215B7F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.041.reading",
+   "jp": "はいめたるぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215B808",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.041.desc",
+   "jp": "ハイメタルでできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215B81C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.041.name2",
+   "jp": "ハイメタルグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215B874",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.042.name",
+   "jp": "Ｂメタルグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215BC2C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.042.reading",
+   "jp": "びーめたるぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215BC40",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.042.desc",
+   "jp": "ベカトルテ鋼でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215BC54",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.042.name2",
+   "jp": "Ｂメタルグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215BCAC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.043.name",
+   "jp": "バトルグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215C064",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.043.reading",
+   "jp": "ばとるぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215C078",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.043.desc",
+   "jp": "複合特殊鋼材でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215C08C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.043.name2",
+   "jp": "バトルグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215C0E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.044.name",
+   "jp": "マスターグレイブ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215C49C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.044.reading",
+   "jp": "ますたーぐれいぶ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215C4B0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.044.desc",
+   "jp": "非常に強い金属でできた槍斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215C4C4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.044.name2",
+   "jp": "マスターグレイヴ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215C51C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.045.name",
+   "jp": "青銅の剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215C8D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.045.reading",
+   "jp": "せいどうのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215C8E8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.045.desc",
+   "jp": "青銅でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215C8FC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.045.name2",
+   "jp": "せいどうのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215C954",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.046.name",
+   "jp": "銅の剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215CD0C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.046.reading",
+   "jp": "どうのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215CD20",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.046.desc",
+   "jp": "銅でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215CD34",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.046.name2",
+   "jp": "どうのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215CD8C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.047.name",
+   "jp": "鉄の剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215D144",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.047.reading",
+   "jp": "てつのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215D158",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.047.desc",
+   "jp": "鉄でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215D16C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.047.name2",
+   "jp": "てつのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215D1C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.048.name",
+   "jp": "鋼の剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215D57C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.048.reading",
+   "jp": "はがねのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215D590",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.048.desc",
+   "jp": "鋼でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215D5A4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.048.name2",
+   "jp": "はがねのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215D5FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.049.name",
+   "jp": "銀の剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215D9B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.049.reading",
+   "jp": "ぎんのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215D9C8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.049.desc",
+   "jp": "銀でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215D9DC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.049.name2",
+   "jp": "ぎんのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215DA34",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.050.name",
+   "jp": "レアメタルの剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215DDEC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.050.reading",
+   "jp": "れあめたるのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215DE00",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.050.desc",
+   "jp": "レアメタルでできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215DE14",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.050.name2",
+   "jp": "レアメタルのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215DE6C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.051.name",
+   "jp": "ハイメタルの剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215E224",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.051.reading",
+   "jp": "はいめたるのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215E238",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.051.desc",
+   "jp": "ハイメタルでできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215E24C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.051.name2",
+   "jp": "ハイメタルのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215E2A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.052.name",
+   "jp": "Ｂメタルの剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215E65C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.052.reading",
+   "jp": "びーめたるのけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215E670",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.052.desc",
+   "jp": "ベカトルテ鋼でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215E684",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.052.name2",
+   "jp": "Ｂメタルのけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215E6DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.053.name",
+   "jp": "バトルソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215EA94",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.053.reading",
+   "jp": "ばとるそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215EAA8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.053.desc",
+   "jp": "複合特殊鋼材でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215EABC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.053.name2",
+   "jp": "バトルソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215EB14",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.054.name",
+   "jp": "マスターソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215EECC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.054.reading",
+   "jp": "ますたーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215EEE0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.054.desc",
+   "jp": "非常に強い金属でできた片手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215EEF4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.054.name2",
+   "jp": "マスターソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215EF4C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.055.name",
+   "jp": "青銅の投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215F304",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.055.reading",
+   "jp": "せいどうのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215F318",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.055.desc",
+   "jp": "青銅でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215F32C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.055.name2",
+   "jp": "せいどうのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215F384",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.056.name",
+   "jp": "銅の投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215F73C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.056.reading",
+   "jp": "どうのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215F750",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.056.desc",
+   "jp": "銅でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215F764",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.056.name2",
+   "jp": "どうのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215F7BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.057.name",
+   "jp": "鉄の投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215FB74",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.057.reading",
+   "jp": "てつのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215FB88",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.057.desc",
+   "jp": "鉄でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215FB9C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.057.name2",
+   "jp": "てつのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0215FBF4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.058.name",
+   "jp": "鋼の投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0215FFAC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.058.reading",
+   "jp": "はがねのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0215FFC0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.058.desc",
+   "jp": "鋼でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0215FFD4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.058.name2",
+   "jp": "はがねのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216002C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.059.name",
+   "jp": "銀の投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021603E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.059.reading",
+   "jp": "ぎんのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021603F8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.059.desc",
+   "jp": "銀でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216040C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.059.name2",
+   "jp": "ぎんのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02160464",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.060.name",
+   "jp": "レアメタルの投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216081C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.060.reading",
+   "jp": "れあめたるのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02160830",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.060.desc",
+   "jp": "レアメタルでできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02160844",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.060.name2",
+   "jp": "レアメタルのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216089C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.061.name",
+   "jp": "ハイメタルの投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02160C54",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.061.reading",
+   "jp": "はいめたるのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02160C68",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.061.desc",
+   "jp": "ハイメタルでできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02160C7C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.061.name2",
+   "jp": "ハイメタルのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02160CD4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.062.name",
+   "jp": "Ｂメタルの投剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216108C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.062.reading",
+   "jp": "びーめたるのとうけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021610A0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.062.desc",
+   "jp": "ベカトルテ鋼でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021610B4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.062.name2",
+   "jp": "Ｂメタルのとうけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216110C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.063.name",
+   "jp": "バトルナイフ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021614C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.063.reading",
+   "jp": "ばとるないふ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021614D8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.063.desc",
+   "jp": "複合特殊鋼材でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021614EC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.063.name2",
+   "jp": "バトルナイフ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02161544",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.064.name",
+   "jp": "マスターナイフ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021618FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.064.reading",
+   "jp": "ますたーないふ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02161910",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.064.desc",
+   "jp": "非常に強い金属でできた投剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02161924",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.064.name2",
+   "jp": "マスターナイフ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216197C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.065.name",
+   "jp": "青銅の大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02161D34",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.065.reading",
+   "jp": "せいどうのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02161D48",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.065.desc",
+   "jp": "青銅でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02161D5C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.065.name2",
+   "jp": "せいどうのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02161DB4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.066.name",
+   "jp": "銅の大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216216C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.066.reading",
+   "jp": "どうのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02162180",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.066.desc",
+   "jp": "銅でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02162194",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.066.name2",
+   "jp": "どうのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021621EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.067.name",
+   "jp": "鉄の大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021625A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.067.reading",
+   "jp": "てつのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021625B8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.067.desc",
+   "jp": "鉄でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021625CC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.067.name2",
+   "jp": "てつのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02162624",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.068.name",
+   "jp": "鋼の大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021629DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.068.reading",
+   "jp": "はがねのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021629F0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.068.desc",
+   "jp": "鋼でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02162A04",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.068.name2",
+   "jp": "はがねのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02162A5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.069.name",
+   "jp": "銀の大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02162E14",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.069.reading",
+   "jp": "ぎんのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02162E28",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.069.desc",
+   "jp": "銀でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02162E3C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.069.name2",
+   "jp": "ぎんのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02162E94",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.070.name",
+   "jp": "レアメタルの大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216324C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.070.reading",
+   "jp": "れあめたるのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02163260",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.070.desc",
+   "jp": "レアメタルでできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02163274",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.070.name2",
+   "jp": "レアメタルのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021632CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.071.name",
+   "jp": "ハイメタルの大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02163684",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.071.reading",
+   "jp": "はいめたるのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02163698",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.071.desc",
+   "jp": "ハイメタルでできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021636AC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.071.name2",
+   "jp": "ハイメタルのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02163704",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.072.name",
+   "jp": "Ｂメタルの大剣",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02163ABC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.072.reading",
+   "jp": "びーめたるのたいけん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02163AD0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.072.desc",
+   "jp": "ベカトルテ鋼でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02163AE4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.072.name2",
+   "jp": "Ｂメタルのたいけん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02163B3C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.073.name",
+   "jp": "バトルブレイド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02163EF4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.073.reading",
+   "jp": "ばとるぶれいど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02163F08",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.073.desc",
+   "jp": "複合特殊鋼材でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02163F1C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.073.name2",
+   "jp": "バトルブレイド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02163F74",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.074.name",
+   "jp": "マスターブレイド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216432C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.074.reading",
+   "jp": "ますたーぶれいど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02164340",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.074.desc",
+   "jp": "非常に強い金属でできた両手剣",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02164354",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.074.name2",
+   "jp": "マスターブレイド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021643AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.075.name",
+   "jp": "青銅の斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02164764",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.075.reading",
+   "jp": "せいどうのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02164778",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.075.desc",
+   "jp": "青銅でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216478C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.075.name2",
+   "jp": "せいどうのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021647E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.076.name",
+   "jp": "銅の斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02164B9C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.076.reading",
+   "jp": "どうのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02164BB0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.076.desc",
+   "jp": "銅でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02164BC4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.076.name2",
+   "jp": "どうのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02164C1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.077.name",
+   "jp": "鉄の斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02164FD4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.077.reading",
+   "jp": "てつのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02164FE8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.077.desc",
+   "jp": "鉄でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02164FFC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.077.name2",
+   "jp": "てつのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02165054",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.078.name",
+   "jp": "鋼の斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216540C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.078.reading",
+   "jp": "はがねのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02165420",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.078.desc",
+   "jp": "鋼でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02165434",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.078.name2",
+   "jp": "はがねのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216548C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.079.name",
+   "jp": "銀の斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02165844",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.079.reading",
+   "jp": "ぎんのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02165858",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.079.desc",
+   "jp": "銀でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216586C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.079.name2",
+   "jp": "ぎんのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021658C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.080.name",
+   "jp": "レアメタルの斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02165C7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.080.reading",
+   "jp": "れあめたるのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02165C90",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.080.desc",
+   "jp": "レアメタルでできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02165CA4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.080.name2",
+   "jp": "レアメタルのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02165CFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.081.name",
+   "jp": "ハイメタルの斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021660B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.081.reading",
+   "jp": "はいめたるのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021660C8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.081.desc",
+   "jp": "ハイメタルでできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021660DC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.081.name2",
+   "jp": "ハイメタルのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02166134",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.082.name",
+   "jp": "Ｂメタルの斧",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021664EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.082.reading",
+   "jp": "びーめたるのおの",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02166500",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.082.desc",
+   "jp": "ベカトルテ鋼でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02166514",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.082.name2",
+   "jp": "Ｂメタルのオノ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216656C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.083.name",
+   "jp": "バトルアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02166924",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.083.reading",
+   "jp": "ばとるあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02166938",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.083.desc",
+   "jp": "複合特殊鋼材でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216694C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.083.name2",
+   "jp": "バトルアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021669A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.084.name",
+   "jp": "マスターアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02166D5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.084.reading",
+   "jp": "ますたーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02166D70",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.084.desc",
+   "jp": "非常に強い金属でできた斧",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02166D84",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.084.name2",
+   "jp": "マスターアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02166DDC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.085.name",
+   "jp": "青銅の槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02167194",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.085.reading",
+   "jp": "せいどうのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021671A8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.085.desc",
+   "jp": "青銅でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021671BC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.085.name2",
+   "jp": "せいどうのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02167214",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.086.name",
+   "jp": "銅の槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021675CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.086.reading",
+   "jp": "どうのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021675E0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.086.desc",
+   "jp": "銅でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021675F4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.086.name2",
+   "jp": "どうのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216764C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.087.name",
+   "jp": "鉄の槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02167A04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.087.reading",
+   "jp": "てつのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02167A18",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.087.desc",
+   "jp": "鉄でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02167A2C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.087.name2",
+   "jp": "てつのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02167A84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.088.name",
+   "jp": "鋼の槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02167E3C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.088.reading",
+   "jp": "はがねのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02167E50",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.088.desc",
+   "jp": "鋼でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02167E64",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.088.name2",
+   "jp": "はがねのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02167EBC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.089.name",
+   "jp": "銀の槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02168274",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.089.reading",
+   "jp": "ぎんのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02168288",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.089.desc",
+   "jp": "銀でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216829C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.089.name2",
+   "jp": "ぎんのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021682F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.090.name",
+   "jp": "レアメタルの槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021686AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.090.reading",
+   "jp": "れあめたるのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021686C0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.090.desc",
+   "jp": "レアメタルでできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021686D4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.090.name2",
+   "jp": "レアメタルのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216872C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.091.name",
+   "jp": "ハイメタルの槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02168AE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.091.reading",
+   "jp": "はいめたるのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02168AF8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.091.desc",
+   "jp": "ハイメタルでできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02168B0C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.091.name2",
+   "jp": "ハイメタルのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02168B64",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.092.name",
+   "jp": "Ｂメタルの槌",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02168F1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.092.reading",
+   "jp": "びーめたるのつち",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02168F30",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.092.desc",
+   "jp": "ベカトルテ鋼でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02168F44",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.092.name2",
+   "jp": "Ｂメタルのツチ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02168F9C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.093.name",
+   "jp": "バトルハンマー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02169354",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.093.reading",
+   "jp": "ばとるはんまー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02169368",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.093.desc",
+   "jp": "複合特殊鋼材でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216937C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.093.name2",
+   "jp": "バトルハンマー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021693D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.094.name",
+   "jp": "マスターハンマー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216978C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.094.reading",
+   "jp": "ますたーはんまー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021697A0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.094.desc",
+   "jp": "非常に強い金属でできた槌",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021697B4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.094.name2",
+   "jp": "マスターハンマー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216980C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.095.name",
+   "jp": "ブロンズボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02169BC4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.095.reading",
+   "jp": "ぶろんずぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02169BD8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.095.desc",
+   "jp": "青銅で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02169BEC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.095.name2",
+   "jp": "ブロンズボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02169C44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.096.name",
+   "jp": "カッパーボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02169FFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.096.reading",
+   "jp": "かっぱーぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216A010",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.096.desc",
+   "jp": "銅で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216A024",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.096.name2",
+   "jp": "カッパーボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216A07C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.097.name",
+   "jp": "アイアンボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216A434",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.097.reading",
+   "jp": "あいあんぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216A448",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.097.desc",
+   "jp": "鉄で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216A45C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.097.name2",
+   "jp": "アイアンボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216A4B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.098.name",
+   "jp": "スティールボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216A86C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.098.reading",
+   "jp": "すてぃーるぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216A880",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.098.desc",
+   "jp": "鋼で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216A894",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.098.name2",
+   "jp": "スティールボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216A8EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.099.name",
+   "jp": "シルバーボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216ACA4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.099.reading",
+   "jp": "しるばーぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216ACB8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.099.desc",
+   "jp": "銀で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216ACCC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.099.name2",
+   "jp": "シルバーボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216AD24",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.100.name",
+   "jp": "レアメタルボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216B0DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.100.reading",
+   "jp": "れあめたるぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216B0F0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.100.desc",
+   "jp": "レアメタルで強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216B104",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.100.name2",
+   "jp": "レアメタルボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216B15C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.101.name",
+   "jp": "ハイメタルボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216B514",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.101.reading",
+   "jp": "はいめたるぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216B528",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.101.desc",
+   "jp": "ハイメタルで強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216B53C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.101.name2",
+   "jp": "ハイメタルボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216B594",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.102.name",
+   "jp": "Ｂメタルボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216B94C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.102.reading",
+   "jp": "Ｂめたるぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216B960",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.102.desc",
+   "jp": "ベカトルテ鋼で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216B974",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.102.name2",
+   "jp": "Ｂメタルボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216B9CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.103.name",
+   "jp": "バトルボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216BD84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.103.reading",
+   "jp": "ばとるぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216BD98",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.103.desc",
+   "jp": "複合特殊鋼材で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216BDAC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.103.name2",
+   "jp": "バトルボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216BE04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.104.name",
+   "jp": "マスターボウ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216C1BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.104.reading",
+   "jp": "ますたーぼう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216C1D0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.104.desc",
+   "jp": "非常に強い金属で強化した合成弓",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216C1E4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.104.name2",
+   "jp": "マスターボウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216C23C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.105.name",
+   "jp": "ブロンズガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216C5F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.105.reading",
+   "jp": "ぶろんずがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216C608",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.105.desc",
+   "jp": "青銅でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216C61C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.105.name2",
+   "jp": "ブロンズガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216C674",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.106.name",
+   "jp": "カッパーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216CA2C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.106.reading",
+   "jp": "かっぱーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216CA40",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.106.desc",
+   "jp": "銅でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216CA54",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.106.name2",
+   "jp": "カッパーガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216CAAC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.107.name",
+   "jp": "アイアンガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216CE64",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.107.reading",
+   "jp": "あいあんがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216CE78",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.107.desc",
+   "jp": "鉄でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216CE8C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.107.name2",
+   "jp": "アイアンガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216CEE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.108.name",
+   "jp": "スティールガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216D29C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.108.reading",
+   "jp": "すてぃーるがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216D2B0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.108.desc",
+   "jp": "鋼でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216D2C4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.108.name2",
+   "jp": "スティールガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216D31C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.109.name",
+   "jp": "シルバーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216D6D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.109.reading",
+   "jp": "しるばーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216D6E8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.109.desc",
+   "jp": "銀でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216D6FC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.109.name2",
+   "jp": "シルバーガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216D754",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.110.name",
+   "jp": "レアメタルガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216DB0C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.110.reading",
+   "jp": "れあめたるがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216DB20",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.110.desc",
+   "jp": "レアメタルでできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216DB34",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.110.name2",
+   "jp": "レアメタルガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216DB8C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.111.name",
+   "jp": "ハイメタルガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216DF44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.111.reading",
+   "jp": "はいめたるがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216DF58",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.111.desc",
+   "jp": "ハイメタルでできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216DF6C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.111.name2",
+   "jp": "ハイメタルガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216DFC4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.112.name",
+   "jp": "Ｂメタルガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216E37C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.112.reading",
+   "jp": "びーめたるがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216E390",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.112.desc",
+   "jp": "ベカトルテ鋼でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216E3A4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.112.name2",
+   "jp": "Ｂメタルガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216E3FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.113.name",
+   "jp": "バトルガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216E7B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.113.reading",
+   "jp": "ばとるがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216E7C8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.113.desc",
+   "jp": "複合特殊鋼材でできた銃",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216E7DC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.113.name2",
+   "jp": "バトルガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216E834",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.114.name",
+   "jp": "ガンアームド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216EBEC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.114.reading",
+   "jp": "がんあーむど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216EC00",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.114.desc",
+   "jp": "銃とナックルの長所を持つ武器",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216EC14",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.114.name2",
+   "jp": "ガンアームド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216EC6C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.115.name",
+   "jp": "ブロンズナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216F024",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.115.reading",
+   "jp": "ぶろんずなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216F038",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.115.desc",
+   "jp": "青銅でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216F04C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.115.name2",
+   "jp": "ブロンズナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216F0A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.116.name",
+   "jp": "カッパーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216F45C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.116.reading",
+   "jp": "かっぱーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216F470",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.116.desc",
+   "jp": "銅でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216F484",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.116.name2",
+   "jp": "カッパーナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216F4DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.117.name",
+   "jp": "アイアンナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216F894",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.117.reading",
+   "jp": "あいあんなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216F8A8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.117.desc",
+   "jp": "鉄でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216F8BC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.117.name2",
+   "jp": "アイアンナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216F914",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.118.name",
+   "jp": "スティールナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0216FCCC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.118.reading",
+   "jp": "すてぃーるなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0216FCE0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.118.desc",
+   "jp": "鋼でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0216FCF4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.118.name2",
+   "jp": "スティールナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0216FD4C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.119.name",
+   "jp": "シルバーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02170104",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.119.reading",
+   "jp": "しるばーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02170118",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.119.desc",
+   "jp": "銀でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217012C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.119.name2",
+   "jp": "シルバーナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02170184",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.120.name",
+   "jp": "レアメタルナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217053C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.120.reading",
+   "jp": "れあめたるなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02170550",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.120.desc",
+   "jp": "レアメタルでできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02170564",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.120.name2",
+   "jp": "レアメタルナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021705BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.121.name",
+   "jp": "ハイメタルナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02170974",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.121.reading",
+   "jp": "はいめたるなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02170988",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.121.desc",
+   "jp": "ハイメタルでできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217099C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.121.name2",
+   "jp": "ハイメタルナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021709F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.122.name",
+   "jp": "Ｂメタルナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02170DAC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.122.reading",
+   "jp": "びーめたるなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02170DC0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.122.desc",
+   "jp": "ベカトルテ鋼でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02170DD4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.122.name2",
+   "jp": "Ｂメタルナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02170E2C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.123.name",
+   "jp": "バトルナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021711E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.123.reading",
+   "jp": "ばとるなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021711F8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.123.desc",
+   "jp": "複合特殊鋼材でできたナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217120C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.123.name2",
+   "jp": "バトルナックル",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02171264",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.124.name",
+   "jp": "ブロンズクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217161C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.124.reading",
+   "jp": "ぶろんずくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02171630",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.124.desc",
+   "jp": "青銅でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02171644",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.124.name2",
+   "jp": "ブロンズクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217169C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.125.name",
+   "jp": "カッパークロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02171A54",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.125.reading",
+   "jp": "かっぱーくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02171A68",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.125.desc",
+   "jp": "銅でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02171A7C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.125.name2",
+   "jp": "カッパークロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02171AD4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.126.name",
+   "jp": "アイアンクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02171E8C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.126.reading",
+   "jp": "あいあんくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02171EA0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.126.desc",
+   "jp": "鉄でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02171EB4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.126.name2",
+   "jp": "アイアンクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02171F0C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.127.name",
+   "jp": "スティールクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021722C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.127.reading",
+   "jp": "すてぃーるくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021722D8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.127.desc",
+   "jp": "鋼でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021722EC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.127.name2",
+   "jp": "スティールクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02172344",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.128.name",
+   "jp": "シルバークロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021726FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.128.reading",
+   "jp": "しるばーくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02172710",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.128.desc",
+   "jp": "銀でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02172724",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.128.name2",
+   "jp": "シルバークロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217277C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.129.name",
+   "jp": "レアメタルクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02172B34",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.129.reading",
+   "jp": "れあめたるくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02172B48",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.129.desc",
+   "jp": "レアメタルでできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02172B5C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.129.name2",
+   "jp": "レアメタルクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02172BB4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.130.name",
+   "jp": "ハイメタルクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02172F6C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.130.reading",
+   "jp": "はいめたるくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02172F80",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.130.desc",
+   "jp": "ハイメタルでできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02172F94",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.130.name2",
+   "jp": "ハイメタルクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02172FEC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.131.name",
+   "jp": "Ｂメタルクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021733A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.131.reading",
+   "jp": "びーめたるくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021733B8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.131.desc",
+   "jp": "ベカトルテ鋼でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021733CC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.131.name2",
+   "jp": "Ｂメタルクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02173424",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.132.name",
+   "jp": "バトルクロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021737DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.132.reading",
+   "jp": "ばとるくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021737F0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.132.desc",
+   "jp": "複合特殊鋼材でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02173804",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.132.name2",
+   "jp": "バトルクロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217385C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.133.name",
+   "jp": "マスタークロー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02173C14",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.133.reading",
+   "jp": "ますたーくろー",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02173C28",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.133.desc",
+   "jp": "非常に強い金属でできた爪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02173C3C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.133.name2",
+   "jp": "マスタークロー",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02173C94",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.134.name",
+   "jp": "ブロンズカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217404C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.134.reading",
+   "jp": "ぶろんずかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02174060",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.134.desc",
+   "jp": "青銅でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02174074",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.134.name2",
+   "jp": "ブロンズカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021740CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.135.name",
+   "jp": "カッパーカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02174484",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.135.reading",
+   "jp": "かっぱーかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02174498",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.135.desc",
+   "jp": "銅でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021744AC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.135.name2",
+   "jp": "カッパーカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02174504",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.136.name",
+   "jp": "アイアンカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021748BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.136.reading",
+   "jp": "あいあんかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021748D0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.136.desc",
+   "jp": "鉄でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021748E4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.136.name2",
+   "jp": "アイアンカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217493C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.137.name",
+   "jp": "スティールカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02174CF4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.137.reading",
+   "jp": "すてぃーるかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02174D08",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.137.desc",
+   "jp": "鋼でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02174D1C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.137.name2",
+   "jp": "スティールカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02174D74",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.138.name",
+   "jp": "シルバーカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217512C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.138.reading",
+   "jp": "しるばーかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02175140",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.138.desc",
+   "jp": "銀でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02175154",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.138.name2",
+   "jp": "シルバーカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021751AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.139.name",
+   "jp": "レアメタルカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02175564",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.139.reading",
+   "jp": "れあめたるかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02175578",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.139.desc",
+   "jp": "レアメタルでできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217558C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.139.name2",
+   "jp": "レアメタルカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021755E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.140.name",
+   "jp": "ハイメタルカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217599C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.140.reading",
+   "jp": "はいめたるかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021759B0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.140.desc",
+   "jp": "ハイメタルでできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021759C4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.140.name2",
+   "jp": "ハイメタルカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02175A1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.141.name",
+   "jp": "Ｂメタルカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02175DD4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.141.reading",
+   "jp": "びーめたるかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02175DE8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.141.desc",
+   "jp": "ベカトルテ鋼でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02175DFC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.141.name2",
+   "jp": "Ｂメタルカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02175E54",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.142.name",
+   "jp": "バトルカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217620C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.142.reading",
+   "jp": "ばとるかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02176220",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.142.desc",
+   "jp": "複合特殊鋼材でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02176234",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.142.name2",
+   "jp": "バトルカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217628C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.143.name",
+   "jp": "マスターカフス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02176644",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.143.reading",
+   "jp": "ますたーかふす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02176658",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.143.desc",
+   "jp": "非常に強い金属でできたカフス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217666C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.143.name2",
+   "jp": "マスターカフス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021766C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.144.name",
+   "jp": "青銅の鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02176A7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.144.reading",
+   "jp": "せいどうのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02176A90",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.144.desc",
+   "jp": "青銅でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02176AA4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.144.name2",
+   "jp": "せいどうのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02176AFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.145.name",
+   "jp": "銅の鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02176EB4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.145.reading",
+   "jp": "どうのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02176EC8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.145.desc",
+   "jp": "銅でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02176EDC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.145.name2",
+   "jp": "どうのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02176F34",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.146.name",
+   "jp": "鉄の鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021772EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.146.reading",
+   "jp": "てつのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02177300",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.146.desc",
+   "jp": "鉄でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02177314",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.146.name2",
+   "jp": "てつのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217736C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.147.name",
+   "jp": "鋼の鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02177724",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.147.reading",
+   "jp": "はがねのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02177738",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.147.desc",
+   "jp": "鋼でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217774C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.147.name2",
+   "jp": "はがねのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021777A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.148.name",
+   "jp": "銀の鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02177B5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.148.reading",
+   "jp": "ぎんのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02177B70",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.148.desc",
+   "jp": "銀でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02177B84",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.148.name2",
+   "jp": "ぎんのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02177BDC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.149.name",
+   "jp": "レアメタルの鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02177F94",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.149.reading",
+   "jp": "れあめたるのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02177FA8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.149.desc",
+   "jp": "レアメタルでできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02177FBC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.149.name2",
+   "jp": "レアメタルのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02178014",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.150.name",
+   "jp": "ハイメタルの鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021783CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.150.reading",
+   "jp": "はいめたるのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021783E0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.150.desc",
+   "jp": "ハイメタルでできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021783F4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.150.name2",
+   "jp": "ハイメタルのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217844C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.151.name",
+   "jp": "Ｂメタルの鎖球",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02178804",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.151.reading",
+   "jp": "びーめたるのさきゅう",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02178818",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.151.desc",
+   "jp": "ベカトルテ鋼でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217882C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.151.name2",
+   "jp": "Ｂメタルのサキュウ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02178884",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.152.name",
+   "jp": "バトルボール",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02178C3C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.152.reading",
+   "jp": "ばとるぼーる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02178C50",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.152.desc",
+   "jp": "複合特殊鋼材でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02178C64",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.152.name2",
+   "jp": "バトルボール",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02178CBC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.153.name",
+   "jp": "マスターボール",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02179074",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.153.reading",
+   "jp": "ますたーぼーる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02179088",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.153.desc",
+   "jp": "非常に強い金属でできた鎖と球",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217909C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.153.name2",
+   "jp": "マスターボール",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021790F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.154.name",
+   "jp": "青銅の円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021794AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.154.reading",
+   "jp": "せいどうのえんげつり",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021794C0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.154.desc",
+   "jp": "青銅でできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021794D4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.154.name2",
+   "jp": "せいどうのえんげつり",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217952C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.155.name",
+   "jp": "銅の円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021798E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.155.reading",
+   "jp": "どうのえんげつりん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021798F8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.155.desc",
+   "jp": "銅でできた槍円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217990C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.155.name2",
+   "jp": "どうのえんげつりん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02179964",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.156.name",
+   "jp": "鉄の円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02179D1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.156.reading",
+   "jp": "てつのえんげつりん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02179D30",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.156.desc",
+   "jp": "鉄でできた槍円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02179D44",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.156.name2",
+   "jp": "てつのえんげつりん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02179D9C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.157.name",
+   "jp": "鋼の円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217A154",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.157.reading",
+   "jp": "はがねのえんげつりん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217A168",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.157.desc",
+   "jp": "鋼でできた槍円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217A17C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.157.name2",
+   "jp": "はがねのえんげつりん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217A1D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.158.name",
+   "jp": "銀の円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217A58C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.158.reading",
+   "jp": "ぎんのえんげつりん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217A5A0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.158.desc",
+   "jp": "銀でできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217A5B4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.158.name2",
+   "jp": "ぎんのえんげつりん",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217A60C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.159.name",
+   "jp": "レアメタルの円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217A9C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.159.reading",
+   "jp": "れあめたるのえんげつ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217A9D8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.159.desc",
+   "jp": "レアメタルでできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217A9EC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.159.name2",
+   "jp": "れあめたるのえんげつ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217AA44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.160.name",
+   "jp": "ハイメタルの円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217ADFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.160.reading",
+   "jp": "はいめたるのえんげつ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217AE10",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.160.desc",
+   "jp": "ハイメタルでできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217AE24",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.160.name2",
+   "jp": "はいめたるのえんげつ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217AE7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.161.name",
+   "jp": "Ｂメタルの円月輪",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217B234",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.161.reading",
+   "jp": "びーめたるのえんげつ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217B248",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.161.desc",
+   "jp": "ベカトルテ鋼でできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217B25C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.161.name2",
+   "jp": "びーめたるのえんげつ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217B2B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.162.name",
+   "jp": "バトルサークル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217B66C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.162.reading",
+   "jp": "ばとるさーくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217B680",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.162.desc",
+   "jp": "複合特殊鋼材でできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217B694",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.162.name2",
+   "jp": "ばとるむーんさーくる",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217B6EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.163.name",
+   "jp": "マスターサークル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217BAA4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.163.reading",
+   "jp": "ますたーさーくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217BAB8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.163.desc",
+   "jp": "非常に強い金属でできた円月輪",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217BACC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.163.name2",
+   "jp": "ますたーるなさーくる",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217BB24",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.164.name",
+   "jp": "青銅の刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217BEDC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.164.reading",
+   "jp": "せいどうのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217BEF0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.164.desc",
+   "jp": "青銅でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217BF04",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.164.name2",
+   "jp": "せいどうのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217BF5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.165.name",
+   "jp": "銅の刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217C314",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.165.reading",
+   "jp": "どうのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217C328",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.165.desc",
+   "jp": "銅でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217C33C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.165.name2",
+   "jp": "どうのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217C394",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.166.name",
+   "jp": "鉄の刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217C74C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.166.reading",
+   "jp": "てつのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217C760",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.166.desc",
+   "jp": "鉄でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217C774",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.166.name2",
+   "jp": "てつのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217C7CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.167.name",
+   "jp": "鋼の刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217CB84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.167.reading",
+   "jp": "はがねのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217CB98",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.167.desc",
+   "jp": "鋼でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217CBAC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.167.name2",
+   "jp": "はがねのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217CC04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.168.name",
+   "jp": "銀の刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217CFBC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.168.reading",
+   "jp": "ぎんのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217CFD0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.168.desc",
+   "jp": "銀でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217CFE4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.168.name2",
+   "jp": "ぎんのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217D03C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.169.name",
+   "jp": "レアメタルの刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217D3F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.169.reading",
+   "jp": "れあめたるのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217D408",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.169.desc",
+   "jp": "レアメタルでできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217D41C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.169.name2",
+   "jp": "レアメタルのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217D474",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.170.name",
+   "jp": "ハイメタルの刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217D82C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.170.reading",
+   "jp": "はいめたるのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217D840",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.170.desc",
+   "jp": "ハイメタルでできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217D854",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.170.name2",
+   "jp": "ハイメタルのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217D8AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.171.name",
+   "jp": "Ｂメタルの刀",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217DC64",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.171.reading",
+   "jp": "びーめたるのかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217DC78",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.171.desc",
+   "jp": "ベカトルテ鋼でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217DC8C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.171.name2",
+   "jp": "Ｂメタルのかたな",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217DCE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.172.name",
+   "jp": "バトルカタナ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217E09C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.172.reading",
+   "jp": "ばとるかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217E0B0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.172.desc",
+   "jp": "複合特殊鋼材でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217E0C4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.172.name2",
+   "jp": "バトルカタナ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217E11C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.173.name",
+   "jp": "マスターカタナ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217E4D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.173.reading",
+   "jp": "ますたーかたな",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217E4E8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.173.desc",
+   "jp": "非常に強い金属でできた刀",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217E4FC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.173.name2",
+   "jp": "マスターカタナ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217E554",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.174.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217E90C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.174.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217E920",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.174.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217E934",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.174.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217E98C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.175.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217ED44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.175.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217ED58",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.175.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217ED6C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.175.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217EDC4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.176.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217F17C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.176.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217F190",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.176.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217F1A4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.176.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217F1FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.177.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217F5B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.177.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217F5C8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.177.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217F5DC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.177.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217F634",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.178.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217F9EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.178.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217FA00",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.178.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217FA14",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.178.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217FA6C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.179.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0217FE24",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.179.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0217FE38",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.179.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0217FE4C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.179.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0217FEA4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.180.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218025C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.180.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02180270",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.180.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02180284",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.180.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021802DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.181.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02180694",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.181.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021806A8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.181.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021806BC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.181.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02180714",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.182.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02180ACC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.182.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02180AE0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.182.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02180AF4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.182.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02180B4C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.183.name",
+   "jp": "プレイヤーソード",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02180F04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.183.reading",
+   "jp": "ぷれいやーそーど",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02180F18",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.183.desc",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02180F2C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.183.name2",
+   "jp": "ジャンプソード",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02180F84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.184.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218133C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.184.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02181350",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.184.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02181364",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.184.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021813BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.185.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02181774",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.185.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02181788",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.185.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218179C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.185.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021817F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.186.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02181BAC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.186.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02181BC0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.186.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02181BD4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.186.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02181C2C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.187.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02181FE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.187.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02181FF8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.187.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218200C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.187.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02182064",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.188.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218241C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.188.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02182430",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.188.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02182444",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.188.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218249C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.189.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02182854",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.189.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02182868",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.189.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218287C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.189.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021828D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.190.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02182C8C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.190.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02182CA0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.190.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02182CB4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.190.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02182D0C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.191.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021830C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.191.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021830D8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.191.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021830EC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.191.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02183144",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.192.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021834FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.192.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02183510",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.192.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02183524",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.192.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218357C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.193.name",
+   "jp": "プレイヤースピア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02183934",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.193.reading",
+   "jp": "ひーろーすぴあ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02183948",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.193.desc",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218395C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.193.name2",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021839B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.194.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02183D6C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.194.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02183D80",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.194.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02183D94",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.194.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02183DEC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.195.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021841A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.195.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021841B8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.195.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021841CC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.195.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02184224",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.196.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021845DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.196.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021845F0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.196.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02184604",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.196.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218465C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.197.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02184A14",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.197.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02184A28",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.197.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02184A3C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.197.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02184A94",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.198.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02184E4C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.198.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02184E60",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.198.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02184E74",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.198.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02184ECC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.199.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02185284",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.199.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02185298",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.199.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021852AC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.199.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02185304",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.200.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021856BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.200.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021856D0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.200.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021856E4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.200.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218573C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.201.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02185AF4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.201.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02185B08",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.201.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02185B1C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.201.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02185B74",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.202.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02185F2C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.202.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02185F40",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.202.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02185F54",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.202.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02185FAC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.203.name",
+   "jp": "プレイヤーアックス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02186364",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.203.reading",
+   "jp": "ひーろーあっくす",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02186378",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.203.desc",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218638C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.203.name2",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021863E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.204.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218679C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.204.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021867B0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.204.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021867C4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.204.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218681C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.205.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02186BD4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.205.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02186BE8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.205.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02186BFC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.205.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02186C54",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.206.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218700C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.206.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02187020",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.206.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02187034",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.206.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218708C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.207.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02187444",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.207.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02187458",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.207.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218746C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.207.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021874C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.208.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218787C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.208.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02187890",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.208.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021878A4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.208.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021878FC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.209.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02187CB4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.209.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02187CC8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.209.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02187CDC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.209.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02187D34",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.210.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021880EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.210.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02188100",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.210.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02188114",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.210.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218816C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.211.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02188524",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.211.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02188538",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.211.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218854C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.211.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021885A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.212.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218895C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.212.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02188970",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.212.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02188984",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.212.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021889DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.213.name",
+   "jp": "プレイヤーガン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02188D94",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.213.reading",
+   "jp": "ひーろーがん",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02188DA8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.213.desc",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02188DBC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.213.name2",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02188E14",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.214.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021891CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.214.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021891E0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.214.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021891F4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.214.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218924C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.215.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02189604",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.215.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02189618",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.215.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218962C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.215.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02189684",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.216.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02189A3C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.216.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02189A50",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.216.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02189A64",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.216.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02189ABC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.217.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02189E74",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.217.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02189E88",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.217.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02189E9C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.217.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02189EF4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.218.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218A2AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.218.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218A2C0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.218.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218A2D4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.218.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218A32C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.219.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218A6E4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.219.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218A6F8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.219.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218A70C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.219.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218A764",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.220.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218AB1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.220.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218AB30",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.220.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218AB44",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.220.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218AB9C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.221.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218AF54",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.221.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218AF68",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.221.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218AF7C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.221.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218AFD4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.222.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218B38C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.222.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218B3A0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.222.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218B3B4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.222.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218B40C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.223.name",
+   "jp": "プレイヤーナックル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218B7C4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.223.reading",
+   "jp": "ひーろーなっくる",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218B7D8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.223.desc",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218B7EC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.223.name2",
+   "jp": "ヒーローシールド",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218B844",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.224.name",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218BBFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.224.reading",
+   "jp": "ふるむーんしゃふと",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218BC10",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.224.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218BC24",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.224.name2",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218BC7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.225.name",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218C034",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.225.reading",
+   "jp": "ふるむーんしゃふと",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218C048",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.225.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218C05C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.225.name2",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218C0B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.226.name",
+   "jp": "ブラスターエッジ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218C46C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.226.reading",
+   "jp": "ぶらすたーえっじ",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218C480",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.226.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218C494",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.226.name2",
+   "jp": "ブラスターエッジ",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218C4EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.227.name",
+   "jp": "フラウスキー銃",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218C8A4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.227.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218C8B8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.227.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218C8CC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.227.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218C924",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.228.name",
+   "jp": "ムガイン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218CCDC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.228.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218CCF0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.228.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218CD04",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.228.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218CD5C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.229.name",
+   "jp": "ベルトーゼ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218D114",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.229.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218D128",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.229.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218D13C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.229.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218D194",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.230.name",
+   "jp": "キャンバル",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218D54C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.230.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218D560",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.230.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218D574",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.230.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218D5CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.231.name",
+   "jp": "ベンチュラ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218D984",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.231.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218D998",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.231.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218D9AC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.231.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218DA04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.232.name",
+   "jp": "グリニデ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218DDBC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.232.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218DDD0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.232.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218DDE4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.232.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218DE3C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.233.name",
+   "jp": "シャデリコ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218E1F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.233.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218E208",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.233.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218E21C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.233.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218E274",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.234.name",
+   "jp": "ロズゴート",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218E62C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.234.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218E640",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.234.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218E654",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.234.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218E6AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.235.name",
+   "jp": "ピルゴア",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218EA64",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.235.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218EA78",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.235.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218EA8C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.235.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218EAE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.236.name",
+   "jp": "ブランドゥ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218EE9C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.236.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218EEB0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.236.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218EEC4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.236.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218EF1C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.237.name",
+   "jp": "ライリー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218F2D4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.237.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218F2E8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.237.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218F2FC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.237.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218F354",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.238.name",
+   "jp": "レボーク",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218F70C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.238.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218F720",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.238.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218F734",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.238.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218F78C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.239.name",
+   "jp": "グリニデ変身後",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218FB44",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.239.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218FB58",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.239.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218FB6C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.239.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218FBC4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.240.name",
+   "jp": "バレアス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0218FF7C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.240.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "0218FF90",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.240.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0218FFA4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.240.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0218FFFC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.241.name",
+   "jp": "主人公",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021903B4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.241.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021903C8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.241.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021903DC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.241.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02190434",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.242.name",
+   "jp": "ディアム",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021907EC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.242.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02190800",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.242.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02190814",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.242.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0219086C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.243.name",
+   "jp": "エルダー",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02190C24",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.243.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02190C38",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.243.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02190C4C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.243.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02190CA4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.244.name",
+   "jp": "ガネール",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0219105C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.244.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02191070",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.244.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02191084",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.244.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021910DC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.245.name",
+   "jp": "グラニャオース",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02191494",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.245.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021914A8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.245.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021914BC",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.245.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02191514",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.246.name",
+   "jp": "メルモンド",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021918CC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.246.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021918E0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.246.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021918F4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.246.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0219194C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.247.name",
+   "jp": "オロゾン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02191D04",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.247.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02191D18",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.247.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02191D2C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.247.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02191D84",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.248.name",
+   "jp": "シャデリコ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0219213C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.248.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02192150",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.248.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02192164",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.248.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021921BC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.249.name",
+   "jp": "ハーデン",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02192574",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.249.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02192588",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.249.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0219259C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.249.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021925F4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.250.name",
+   "jp": "ギルス",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "021929AC",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.250.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "021929C0",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.250.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "021929D4",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.250.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02192A2C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.251.name",
+   "jp": "ザンデ",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02192DE4",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.251.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02192DF8",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.251.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02192E0C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.251.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "02192E64",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.252.name",
+   "jp": "ヤギール",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "0219321C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.252.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02193230",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.252.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "02193244",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.252.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "0219329C",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.253.name",
+   "jp": "ガロニュート",
+   "en": "",
+   "kind": "weapon.name",
+   "addr": "02193654",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.253.reading",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.reading",
+   "addr": "02193668",
+   "max": 20
+  },
+  {
+   "id": "a9.weapon.253.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.desc",
+   "addr": "0219367C",
+   "max": 72
+  },
+  {
+   "id": "a9.weapon.253.name2",
+   "jp": "なし",
+   "en": "",
+   "kind": "weapon.name2",
+   "addr": "021936D4",
+   "max": 20
+  }
+ ]
+}

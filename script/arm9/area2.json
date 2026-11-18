@@ -1,0 +1,205 @@
+{
+ "src": "arm9.bin table 02194B28 x25 (0x30 bytes, accessor 020146E0)",
+ "entries": [
+  {
+   "id": "a9.area2.000.name",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194B28",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.001.name",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194B58",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.002.name",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194B88",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.003.name",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194BB8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.004.name",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194BE8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.005.name",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194C18",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.006.name",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194C48",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.007.name",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194C78",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.008.name",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194CA8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.009.name",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194CD8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.010.name",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194D08",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.011.name",
+   "jp": "ミレイの森",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194D38",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.012.name",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194D68",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.013.name",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194D98",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.014.name",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194DC8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.015.name",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194DF8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.016.name",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194E28",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.017.name",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194E58",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.018.name",
+   "jp": "ミレイの森",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194E88",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.019.name",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194EB8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.020.name",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194EE8",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.021.name",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194F18",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.022.name",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194F48",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.023.name",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194F78",
+   "max": 24
+  },
+  {
+   "id": "a9.area2.024.name",
+   "jp": "東の里",
+   "en": "",
+   "kind": "area2.name",
+   "addr": "02194FA8",
+   "max": 24
+  }
+ ]
+}

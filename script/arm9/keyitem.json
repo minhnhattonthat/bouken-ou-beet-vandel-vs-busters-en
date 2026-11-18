@@ -1,0 +1,725 @@
+{
+ "src": "arm9.bin table 0212AFE4 x30 (0x88 bytes, accessor 02014200)",
+ "entries": [
+  {
+   "id": "a9.keyitem.000.name",
+   "jp": "シルバーチャーム",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212AFE8",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.000.reading",
+   "jp": "しるばーちゃーむ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212AFFC",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.000.desc",
+   "jp": "レナからもらった銀のお守り",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B010",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.001.name",
+   "jp": "手紙",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B070",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.001.reading",
+   "jp": "てがみ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B084",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.001.desc",
+   "jp": "東の里の里長に宛てた手紙",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B098",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.002.name",
+   "jp": "聖なる銀",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B0F8",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.002.reading",
+   "jp": "せいなるぎん",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B10C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.002.desc",
+   "jp": "リング修復アイテムの原材料",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B120",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.003.name",
+   "jp": "ランプ",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B180",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.003.reading",
+   "jp": "らんぷ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B194",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.003.desc",
+   "jp": "闇を照らすランプ",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B1A8",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.004.name",
+   "jp": "ゴーグル",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B208",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.004.reading",
+   "jp": "ごーぐる",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B21C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.004.desc",
+   "jp": "砂漠を通行するためのゴーグル",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B230",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.005.name",
+   "jp": "聖なる銀のしずく",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B290",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.005.reading",
+   "jp": "せいなるぎんのしずく",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B2A4",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.005.desc",
+   "jp": "封印のリングを修復するアイテム",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B2B8",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.006.name",
+   "jp": "ゼナへの薬草",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B318",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.006.reading",
+   "jp": "ぜなへのやくそう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B32C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.006.desc",
+   "jp": "ゼナにわたす薬",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B340",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.007.name",
+   "jp": "ゼナ体力丸",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B3A0",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.007.reading",
+   "jp": "ぜなたいりょくがん",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B3B4",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.007.desc",
+   "jp": "おにいさんにわたす体力丸",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B3C8",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.008.name",
+   "jp": "ホーレイさんの手紙",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B428",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.008.reading",
+   "jp": "てがみ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B43C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.008.desc",
+   "jp": "橋かけ名人への手紙",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B450",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.009.name",
+   "jp": "橋かけ名人の手紙",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B4B0",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.009.reading",
+   "jp": "てがみ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B4C4",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.009.desc",
+   "jp": "ホーレイさんへの手紙",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B4D8",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.010.name",
+   "jp": "するどく光る銀",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B538",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.010.reading",
+   "jp": "するどくひかるぎん",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B54C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.010.desc",
+   "jp": "銀製武器の原材料",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B560",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.011.name",
+   "jp": "カギ１",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B5C0",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.011.reading",
+   "jp": "かぎ１",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B5D4",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.011.desc",
+   "jp": "飛行機をとめる南京錠のカギ１",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B5E8",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.012.name",
+   "jp": "カギ２",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B648",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.012.reading",
+   "jp": "かぎ２",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B65C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.012.desc",
+   "jp": "飛行機をとめる南京錠のカギ２",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B670",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.013.name",
+   "jp": "カギ３",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B6D0",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.013.reading",
+   "jp": "かぎ３",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B6E4",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.013.desc",
+   "jp": "飛行機をとめる南京錠のカギ３",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B6F8",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.014.name",
+   "jp": "カギ４",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B758",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.014.reading",
+   "jp": "かぎ４",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B76C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.014.desc",
+   "jp": "飛行機をとめる南京錠のカギ４",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B780",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.015.name",
+   "jp": "カギ５",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B7E0",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.015.reading",
+   "jp": "かぎ５",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B7F4",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.015.desc",
+   "jp": "飛行機をとめる南京錠のカギ５",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B808",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.016.name",
+   "jp": "角を大きくする薬？",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B868",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.016.reading",
+   "jp": "つのをおおきくするく",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B87C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.016.desc",
+   "jp": "ハーデンに頼まれていた怪しい薬",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B890",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.017.name",
+   "jp": "背を高くする薬？",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B8F0",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.017.reading",
+   "jp": "せをたかくするくすり",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B904",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.017.desc",
+   "jp": "ハーデンに頼まれていた怪しい薬",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B918",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.018.name",
+   "jp": "薬花",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212B978",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.018.reading",
+   "jp": "くすりばな",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212B98C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.018.desc",
+   "jp": "薬をつくるための花",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212B9A0",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.019.name",
+   "jp": "鉱石",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BA00",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.019.reading",
+   "jp": "こうせき",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BA14",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.019.desc",
+   "jp": "ベカトルテ鉱を精製する前の鉱石",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BA28",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.020.name",
+   "jp": "ビルドアント",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BA88",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.020.reading",
+   "jp": "びるどあんと",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BA9C",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.020.desc",
+   "jp": "建物を建てるのに使用できる",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BAB0",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.021.name",
+   "jp": "ムガインの石像",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BB10",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.021.reading",
+   "jp": "むがいんのせきぞう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BB24",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.021.desc",
+   "jp": "ヴァンデル・ムガインの石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BB38",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.022.name",
+   "jp": "ベンチュラの石像",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BB98",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.022.reading",
+   "jp": "べんちゅらのせきぞう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BBAC",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.022.desc",
+   "jp": "ヴァンデル・ベンチュラの石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BBC0",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.023.name",
+   "jp": "ロズゴートの石像",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BC20",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.023.reading",
+   "jp": "ろずごーとのせきぞう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BC34",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.023.desc",
+   "jp": "ヴァンデル・ロズゴートの石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BC48",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.024.name",
+   "jp": "フラウスキーの石像",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BCA8",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.024.reading",
+   "jp": "ふらうすきーのせきぞ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BCBC",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.024.desc",
+   "jp": "ヴァンデル・フラウスキーの石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BCD0",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.025.name",
+   "jp": "グリニデの石像",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BD30",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.025.reading",
+   "jp": "ぐりにでのせきぞう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BD44",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.025.desc",
+   "jp": "ヴァンデル・グリニデの石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BD58",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.026.name",
+   "jp": "グリニデの石像２",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BDB8",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.026.reading",
+   "jp": "ぐりにでへんしんのせ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BDCC",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.026.desc",
+   "jp": "グリニデ（変身後）の石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BDE0",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.027.name",
+   "jp": "ベルトーゼの石像",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BE40",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.027.reading",
+   "jp": "べるとーぜのせきぞう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BE54",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.027.desc",
+   "jp": "ヴァンデル・ベルトーゼの石像",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BE68",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.028.name",
+   "jp": "ホバーフィッシュ",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BEC8",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.028.reading",
+   "jp": "ほばーふぃっしゅ",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BEDC",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.028.desc",
+   "jp": "フィールド移動用のモンスター",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BEF0",
+   "max": 72
+  },
+  {
+   "id": "a9.keyitem.029.name",
+   "jp": "大怪蝶",
+   "en": "",
+   "kind": "keyitem.name",
+   "addr": "0212BF50",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.029.reading",
+   "jp": "だいかいちょう",
+   "en": "",
+   "kind": "keyitem.reading",
+   "addr": "0212BF64",
+   "max": 20
+  },
+  {
+   "id": "a9.keyitem.029.desc",
+   "jp": "フィールド移動用のモンスター",
+   "en": "",
+   "kind": "keyitem.desc",
+   "addr": "0212BF78",
+   "max": 72
+  }
+ ]
+}

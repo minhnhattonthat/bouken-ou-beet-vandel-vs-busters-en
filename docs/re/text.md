@@ -21,7 +21,15 @@ Dump: `rom.sha1`. Game code ABVJ, internal title `BEET(V-VS-B)`.
 | `0xFF72` | wait for input, then clear the box (new page) | guess: sits between pages of one speech |
 | `0xFF71` | wait for input, close message (last page) | guess: last code before `0x0000` of every message |
 | `0x5353` ("SS") | separator written before each string in script pools; the pointer skips it | verified: pointers target the byte after it |
-| `0xFF00`-`0xFFFF` others | seen in arm9 tables (`0xFFFF` fill) and battle text (`[FF1E]`) | unknown, map in phase 4 |
+| `0xFF90` `{hero}` | Buster-story player name | guess: alone as a speaker string (250 uses) |
+| `0xFF92` `{vandel}` | Vandel-story player name | guess: alone as a speaker in Vandel scenes (82) |
+| `0xFF93` `{name93}` | a name in quotes (rom.49BA8) | unknown, 1 use |
+| `0xFFA4` `{monster}`, `0xFFA5` `{count}` | quest target monster, kill count | guess from 「..を..匹倒してほしい」 |
+| `0xFF00`, `0xFF01` | arm9 message parameters (appraiser: name / level, reward) | left as `[FF00]` `[FF01]` |
+
+Extraction (phase 4): `tools/text16.py` decodes u16 by u16 (unknown codes `[XXXX]`), `tools/extract.py` writes
+`script/`: rom 4,120 + quest 637 + names 256 + arm9 4,449 strings (9,462 entries); `tests/test_extract.py` checks
+roundtrip and coverage.
 
 ## Fonts (`font/`, raw, no header)
 | File | Glyph cell | Bytes/glyph | Glyphs |

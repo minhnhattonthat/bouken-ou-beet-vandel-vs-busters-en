@@ -1,0 +1,7661 @@
+{
+ "src": "arm9.bin table 0212D59C x319 (0x10c bytes, accessor 02014234)",
+ "entries": [
+  {
+   "id": "a9.monster.000.name",
+   "jp": "ガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212D59C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.000.reading",
+   "jp": "がぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212D5B2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.000.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212D5C8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.001.name",
+   "jp": "岩石毛虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212D6A8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.001.reading",
+   "jp": "がんせきけむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212D6BE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.001.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212D6D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.002.name",
+   "jp": "赤いじゅうたん",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212D7B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.002.reading",
+   "jp": "あかいじゅうたん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212D7CA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.002.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212D7E0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.003.name",
+   "jp": "海のガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212D8C0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.003.reading",
+   "jp": "うみのがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212D8D6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.003.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212D8EC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.004.name",
+   "jp": "水晶の卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212D9CC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.004.reading",
+   "jp": "すいしょうのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212D9E2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.004.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212D9F8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.005.name",
+   "jp": "ジャーマウス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212DAD8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.005.reading",
+   "jp": "じゃーまうす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212DAEE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.005.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212DB04",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.006.name",
+   "jp": "ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212DBE4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.006.reading",
+   "jp": "ぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212DBFA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.006.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212DC10",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.007.name",
+   "jp": "びっくり箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212DCF0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.007.reading",
+   "jp": "びっくりばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212DD06",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.007.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212DD1C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.008.name",
+   "jp": "貯金箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212DDFC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.008.reading",
+   "jp": "ちょきんばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212DE12",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.008.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212DE28",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.009.name",
+   "jp": "パペットスパイダー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212DF08",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.009.reading",
+   "jp": "ぱぺっとすぱいだー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212DF1E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.009.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212DF34",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.010.name",
+   "jp": "オドオド",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E014",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.010.reading",
+   "jp": "おどおど",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E02A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.010.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E040",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.011.name",
+   "jp": "カネック",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E120",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.011.reading",
+   "jp": "かねっく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E136",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.011.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E14C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.012.name",
+   "jp": "コダマンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E22C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.012.reading",
+   "jp": "こだまんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E242",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.012.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E258",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.013.name",
+   "jp": "悪魔のココナッツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E338",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.013.reading",
+   "jp": "あくまのここなっつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E34E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.013.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E364",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.014.name",
+   "jp": "ヒルニア",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E444",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.014.reading",
+   "jp": "ひるにあ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E45A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.014.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E470",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.015.name",
+   "jp": "鉄の貯金箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E550",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.015.reading",
+   "jp": "てつのちょきんばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E566",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.015.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E57C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.016.name",
+   "jp": "空飛ぶクリオネ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E65C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.016.reading",
+   "jp": "そらとぶくりおね",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E672",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.016.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E688",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.017.name",
+   "jp": "ラバーファイター",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E768",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.017.reading",
+   "jp": "らばーふぁいたー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E77E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.017.area",
+   "jp": "ダチャレイ坑道",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E794",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.018.name",
+   "jp": "青き炎",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E874",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.018.reading",
+   "jp": "あおきほのお",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E88A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.018.area",
+   "jp": "ダチャレイ坑道",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E8A0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.019.name",
+   "jp": "ハンドゴースト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212E980",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.019.reading",
+   "jp": "はんどごーすと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212E996",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.019.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212E9AC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.020.name",
+   "jp": "海のブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212EA8C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.020.reading",
+   "jp": "うみのぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212EAA2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.020.area",
+   "jp": "ソーレ谷迷宮",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212EAB8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.021.name",
+   "jp": "つららこうもり",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212EB98",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.021.reading",
+   "jp": "つららこうもり",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212EBAE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.021.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212EBC4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.022.name",
+   "jp": "ホワイトジャーマウス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212ECA4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.022.reading",
+   "jp": "ほわいとじゃーまうす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212ECBA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.022.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212ECD0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.023.name",
+   "jp": "ボスカネック",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212EDB0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.023.reading",
+   "jp": "ぼすかねっく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212EDC6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.023.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212EDDC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.024.name",
+   "jp": "魔人の像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212EEBC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.024.reading",
+   "jp": "まじんのぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212EED2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.024.area",
+   "jp": "ダチャレイ坑道",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212EEE8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.025.name",
+   "jp": "沼のメガトンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212EFC8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.025.reading",
+   "jp": "ぬまのめがとんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212EFDE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.025.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212EFF4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.026.name",
+   "jp": "ピンクの卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F0D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.026.reading",
+   "jp": "ぴんくのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F0EA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.026.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F100",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.027.name",
+   "jp": "毒のガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F1E0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.027.reading",
+   "jp": "どくのがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F1F6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.027.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F20C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.028.name",
+   "jp": "泥トカゲ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F2EC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.028.reading",
+   "jp": "どろとかげ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F302",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.028.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F318",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.029.name",
+   "jp": "メタルジャーマウス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F3F8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.029.reading",
+   "jp": "めたるじゃーまうす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F40E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.029.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F424",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.030.name",
+   "jp": "サンゴガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F504",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.030.reading",
+   "jp": "さんごがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F51A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.030.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F530",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.031.name",
+   "jp": "山賊バチ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F610",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.031.reading",
+   "jp": "さんぞくばち",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F626",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.031.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F63C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.032.name",
+   "jp": "武装ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F71C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.032.reading",
+   "jp": "ぶそうぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F732",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.032.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F748",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.033.name",
+   "jp": "リビングコイン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F828",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.033.reading",
+   "jp": "りびんぐこいん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F83E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.033.area",
+   "jp": "ソーレ谷迷宮",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F854",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.034.name",
+   "jp": "グルメアント",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212F934",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.034.reading",
+   "jp": "ぐるめあんと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212F94A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.034.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212F960",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.035.name",
+   "jp": "拷問ねじ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212FA40",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.035.reading",
+   "jp": "ごうもんねじ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212FA56",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.035.area",
+   "jp": "ビム砂漠の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212FA6C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.036.name",
+   "jp": "砂ふくろう",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212FB4C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.036.reading",
+   "jp": "すなふくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212FB62",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.036.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212FB78",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.037.name",
+   "jp": "導師の使い魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212FC58",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.037.reading",
+   "jp": "どうしのつかいま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212FC6E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.037.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212FC84",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.038.name",
+   "jp": "沼の吸血鬼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212FD64",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.038.reading",
+   "jp": "ぬまのきゅうけつき",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212FD7A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.038.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212FD90",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.039.name",
+   "jp": "はじまりの卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212FE70",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.039.reading",
+   "jp": "はじまりのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212FE86",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.039.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212FE9C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.040.name",
+   "jp": "弾丸モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0212FF7C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.040.reading",
+   "jp": "だんがんもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0212FF92",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.040.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0212FFA8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.041.name",
+   "jp": "ガラガラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130088",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.041.reading",
+   "jp": "がらがら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213009E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.041.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021300B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.042.name",
+   "jp": "ツチギンチャク分身",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130194",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.042.reading",
+   "jp": "つちぎんちゃく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021301AA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.042.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021301C0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.043.name",
+   "jp": "トドドリル",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021302A0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.043.reading",
+   "jp": "とどどりる",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021302B6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.043.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021302CC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.044.name",
+   "jp": "毒虫の化石",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021303AC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.044.reading",
+   "jp": "どくむしのかせき",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021303C2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.044.area",
+   "jp": "ビム砂漠の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021303D8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.045.name",
+   "jp": "強力ガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021304B8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.045.reading",
+   "jp": "ごうりきがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021304CE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.045.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021304E4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.046.name",
+   "jp": "アクアドッグ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021305C4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.046.reading",
+   "jp": "あくあどっぐ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021305DA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.046.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021305F0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.047.name",
+   "jp": "百目タマムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021306D0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.047.reading",
+   "jp": "ひゃくめたまむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021306E6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.047.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021306FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.048.name",
+   "jp": "黒煙ゼミ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021307DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.048.reading",
+   "jp": "こくえんぜみ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021307F2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.048.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130808",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.049.name",
+   "jp": "猛毒タマムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021308E8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.049.reading",
+   "jp": "もうどくたまむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021308FE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.049.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130914",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.050.name",
+   "jp": "黒煙虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021309F4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.050.reading",
+   "jp": "こくえんちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02130A0A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.050.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130A20",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.051.name",
+   "jp": "煙突カメムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130B00",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.051.reading",
+   "jp": "えんとつかめむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02130B16",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.051.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130B2C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.052.name",
+   "jp": "大将バチ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130C0C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.052.reading",
+   "jp": "たいしょうばち",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02130C22",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.052.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130C38",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.053.name",
+   "jp": "バーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130D18",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.053.reading",
+   "jp": "ばーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02130D2E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.053.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130D44",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.054.name",
+   "jp": "毒バーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130E24",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.054.reading",
+   "jp": "どくばーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02130E3A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.054.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130E50",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.055.name",
+   "jp": "メガトンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02130F30",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.055.reading",
+   "jp": "めがとんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02130F46",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.055.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02130F5C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.056.name",
+   "jp": "巨大メガトンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213103C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.056.reading",
+   "jp": "きょだいめがとんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131052",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.056.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131068",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.057.name",
+   "jp": "ドローマン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131148",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.057.reading",
+   "jp": "どろーまん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213115E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.057.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131174",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.058.name",
+   "jp": "暴れマギー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131254",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.058.reading",
+   "jp": "あばれまぎー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213126A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.058.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131280",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.059.name",
+   "jp": "群がり犬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131360",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.059.reading",
+   "jp": "むらがりいぬ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131376",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.059.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213138C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.060.name",
+   "jp": "群がり子犬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213146C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.060.reading",
+   "jp": "むらがりこいぬ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131482",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.060.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131498",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.061.name",
+   "jp": "プロテク虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131578",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.061.reading",
+   "jp": "ぷろてくちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213158E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.061.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021315A4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.062.name",
+   "jp": "森の愚者",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131684",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.062.reading",
+   "jp": "もりのぐしゃ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213169A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.062.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021316B0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.063.name",
+   "jp": "ハウンドソルジャー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131790",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.063.reading",
+   "jp": "はうんどそるじゃー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021317A6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.063.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021317BC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.064.name",
+   "jp": "腐薬虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213189C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.064.reading",
+   "jp": "ふやくちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021318B2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.064.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021318C8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.065.name",
+   "jp": "火煙虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021319A8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.065.reading",
+   "jp": "かえんちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021319BE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.065.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021319D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.066.name",
+   "jp": "スノーマン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131AB4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.066.reading",
+   "jp": "すのーまん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131ACA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.066.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131AE0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.067.name",
+   "jp": "北斗狼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131BC0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.067.reading",
+   "jp": "ほくとおおかみ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131BD6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.067.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131BEC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.068.name",
+   "jp": "トドドドリル",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131CCC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.068.reading",
+   "jp": "とどどどりる",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131CE2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.068.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131CF8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.069.name",
+   "jp": "黒いブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131DD8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.069.reading",
+   "jp": "くろいぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131DEE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.069.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131E04",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.070.name",
+   "jp": "鎧ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131EE4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.070.reading",
+   "jp": "よろいぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02131EFA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.070.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02131F10",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.071.name",
+   "jp": "ジャガーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02131FF0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.071.reading",
+   "jp": "じゃがーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132006",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.071.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213201C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.072.name",
+   "jp": "水ふくろう",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021320FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.072.reading",
+   "jp": "みずふくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132112",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.072.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132128",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.073.name",
+   "jp": "青いびっくり箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132208",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.073.reading",
+   "jp": "あおいびっくりばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213221E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.073.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132234",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.074.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132314",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.074.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213232A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.074.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132340",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.075.name",
+   "jp": "闇の天狼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132420",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.075.reading",
+   "jp": "やみのてんろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132436",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.075.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213244C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.076.name",
+   "jp": "ハエコマンド",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213252C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.076.reading",
+   "jp": "はえこまんど",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132542",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.076.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132558",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.077.name",
+   "jp": "ハウンドナイト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132638",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.077.reading",
+   "jp": "はうんどないと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213264E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.077.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132664",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.078.name",
+   "jp": "ツチギンチャク分身",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132744",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.078.reading",
+   "jp": "つちぎんちゃく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213275A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.078.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132770",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.079.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132850",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.079.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132866",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.079.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213287C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.080.name",
+   "jp": "洞穴の愚者",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213295C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.080.reading",
+   "jp": "どうけつのぐしゃ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132972",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.080.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132988",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.081.name",
+   "jp": "人喰い人魚",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132A68",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.081.reading",
+   "jp": "ひとくいにんぎょ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132A7E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.081.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132A94",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.082.name",
+   "jp": "氷結ゼミ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132B74",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.082.reading",
+   "jp": "ひょうけつぜみ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132B8A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.082.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132BA0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.083.name",
+   "jp": "氷のハエコマンド",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132C80",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.083.reading",
+   "jp": "こおりのはえこまんど",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132C96",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.083.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132CAC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.084.name",
+   "jp": "泥の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132D8C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.084.reading",
+   "jp": "どろのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132DA2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.084.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132DB8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.085.name",
+   "jp": "炎のジャガーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132E98",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.085.reading",
+   "jp": "ほのおのじゃがーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132EAE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.085.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132EC4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.086.name",
+   "jp": "岩石エイ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02132FA4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.086.reading",
+   "jp": "がんせきえい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02132FBA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.086.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02132FD0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.087.name",
+   "jp": "赤銅兵士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021330B0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.087.reading",
+   "jp": "しゃくどうへいし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021330C6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.087.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021330DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.088.name",
+   "jp": "アサシンクロウ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021331BC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.088.reading",
+   "jp": "あさしんくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021331D2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.088.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021331E8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.089.name",
+   "jp": "猛毒ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021332C8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.089.reading",
+   "jp": "もうどくぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021332DE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.089.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021332F4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.090.name",
+   "jp": "空飛ぶクリオネ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021333D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.090.reading",
+   "jp": "そらとぶくりおね",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021333EA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.090.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133400",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.091.name",
+   "jp": "腐肉の人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021334E0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.091.reading",
+   "jp": "ふにくのひと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021334F6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.091.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213350C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.092.name",
+   "jp": "岩石巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021335EC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.092.reading",
+   "jp": "がんせききょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133602",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.092.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133618",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.093.name",
+   "jp": "ガラガラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021336F8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.093.reading",
+   "jp": "がらがら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213370E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.093.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133724",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.094.name",
+   "jp": "魔人の氷像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133804",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.094.reading",
+   "jp": "まじんのひょうぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213381A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.094.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133830",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.095.name",
+   "jp": "砂のブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133910",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.095.reading",
+   "jp": "すなのぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133926",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.095.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213393C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.096.name",
+   "jp": "ブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133A1C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.096.reading",
+   "jp": "ぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133A32",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.096.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133A48",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.097.name",
+   "jp": "ドローマスター",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133B28",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.097.reading",
+   "jp": "どろーますたー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133B3E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.097.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133B54",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.098.name",
+   "jp": "炎の人魚",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133C34",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.098.reading",
+   "jp": "ほのおのにんぎょ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133C4A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.098.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133C60",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.099.name",
+   "jp": "首長エイ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133D40",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.099.reading",
+   "jp": "くびながえい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133D56",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.099.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133D6C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.100.name",
+   "jp": "七星餓狼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133E4C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.100.reading",
+   "jp": "しちせいがろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133E62",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.100.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133E78",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.101.name",
+   "jp": "青炎馬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02133F58",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.101.reading",
+   "jp": "せいえんば",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02133F6E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.101.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02133F84",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.102.name",
+   "jp": "鉄騎貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134064",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.102.reading",
+   "jp": "てっきがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213407A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.102.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02134090",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.103.name",
+   "jp": "砂トカゲ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134170",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.103.reading",
+   "jp": "すなとかげ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134186",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.103.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213419C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.104.name",
+   "jp": "墓場荒らし",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213427C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.104.reading",
+   "jp": "はかばあらし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134292",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.104.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021342A8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.105.name",
+   "jp": "中甲虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134388",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.105.reading",
+   "jp": "ちゅうこうちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213439E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.105.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021343B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.106.name",
+   "jp": "化石の鉄騎貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134494",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.106.reading",
+   "jp": "かせきのてっきがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021344AA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.106.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021344C0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.107.name",
+   "jp": "石の魔人像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021345A0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.107.reading",
+   "jp": "いしのまじんぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021345B6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.107.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021345CC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.108.name",
+   "jp": "潮の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021346AC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.108.reading",
+   "jp": "うしおのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021346C2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.108.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021346D8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.109.name",
+   "jp": "ナイトスナイパー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021347B8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.109.reading",
+   "jp": "ないとすないぱー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021347CE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.109.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021347E4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.110.name",
+   "jp": "蔦の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021348C4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.110.reading",
+   "jp": "つたのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021348DA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.110.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021348F0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.111.name",
+   "jp": "白亜の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021349D0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.111.reading",
+   "jp": "はくあのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021349E6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.111.area",
+   "jp": "リーベリン湖の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021349FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.112.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134ADC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.112.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134AF2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.112.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02134B08",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.113.name",
+   "jp": "マグネソルジャー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134BE8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.113.reading",
+   "jp": "まぐねそるじゃー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134BFE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.113.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02134C14",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.114.name",
+   "jp": "血雪馬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134CF4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.114.reading",
+   "jp": "けつせつば",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134D0A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.114.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02134D20",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.115.name",
+   "jp": "土の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134E00",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.115.reading",
+   "jp": "つちのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134E16",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.115.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02134E2C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.116.name",
+   "jp": "マグマの導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02134F0C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.116.reading",
+   "jp": "まぐまのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02134F22",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.116.area",
+   "jp": "ビョンリン火山の遺跡",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02134F38",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.117.name",
+   "jp": "砂の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135018",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.117.reading",
+   "jp": "すなのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213502E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.117.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135044",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.118.name",
+   "jp": "凍てつく炎",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135124",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.118.reading",
+   "jp": "いてつくほのお",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213513A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.118.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135150",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.119.name",
+   "jp": "骨の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135230",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.119.reading",
+   "jp": "ほねのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135246",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.119.area",
+   "jp": "リーベリン湖の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213525C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.120.name",
+   "jp": "ハウンドナイト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213533C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.120.reading",
+   "jp": "はうんどないと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135352",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.120.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135368",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.121.name",
+   "jp": "罪人たいまつ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135448",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.121.reading",
+   "jp": "ざいにんたいまつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213545E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.121.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135474",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.122.name",
+   "jp": "ナイトスナイパー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135554",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.122.reading",
+   "jp": "ないとすないぱー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213556A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.122.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135580",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.123.name",
+   "jp": "氷の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135660",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.123.reading",
+   "jp": "こおりのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135676",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.123.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213568C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.124.name",
+   "jp": "青銅巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213576C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.124.reading",
+   "jp": "せいどうきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135782",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.124.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135798",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.125.name",
+   "jp": "夢魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135878",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.125.reading",
+   "jp": "むま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213588E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.125.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021358A4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.126.name",
+   "jp": "フレイムペンギン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135984",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.126.reading",
+   "jp": "ふれいむぺんぎん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213599A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.126.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021359B0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.127.name",
+   "jp": "砂のアサシンクロウ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135A90",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.127.reading",
+   "jp": "すなのあさしんくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135AA6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.127.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135ABC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.128.name",
+   "jp": "氷雪巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135B9C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.128.reading",
+   "jp": "ひょうせつきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135BB2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.128.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135BC8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.129.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135CA8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.129.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135CBE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.129.area",
+   "jp": "ビョンリン火山の遺跡",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135CD4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.130.name",
+   "jp": "フリーズペンギン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135DB4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.130.reading",
+   "jp": "ふりーずぺんぎん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135DCA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.130.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135DE0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.131.name",
+   "jp": "暗黒マグネナイト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135EC0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.131.reading",
+   "jp": "あんこくまぐねないと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135ED6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.131.area",
+   "jp": "ミュテリン山の廃村",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135EEC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.132.name",
+   "jp": "樹氷たいまつ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02135FCC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.132.reading",
+   "jp": "じゅひょうたいまつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02135FE2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.132.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02135FF8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.133.name",
+   "jp": "大甲虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021360D8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.133.reading",
+   "jp": "だいこうちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021360EE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.133.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136104",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.134.name",
+   "jp": "氷つららこうもり",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021361E4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.134.reading",
+   "jp": "こおりつららこうもり",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021361FA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.134.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136210",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.135.name",
+   "jp": "岩石モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021362F0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.135.reading",
+   "jp": "がんせきもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136306",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.135.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213631C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.136.name",
+   "jp": "軍艦トータス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021363FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.136.reading",
+   "jp": "ぐんかんとーたす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136412",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.136.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136428",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.137.name",
+   "jp": "アイアンライノス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136508",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.137.reading",
+   "jp": "あいあんらいのす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213651E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.137.area",
+   "jp": "ミュテリン山の廃村",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136534",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.138.name",
+   "jp": "バスターゾンビ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136614",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.138.reading",
+   "jp": "ばすたーぞんび",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213662A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.138.area",
+   "jp": "ミュテリン山の廃村",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136640",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.139.name",
+   "jp": "毒沼の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136720",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.139.reading",
+   "jp": "どくぬまのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136736",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.139.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213674C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.140.name",
+   "jp": "赤銅巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213682C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.140.reading",
+   "jp": "しゃくどうきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136842",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.140.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136858",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.141.name",
+   "jp": "大軍艦トータス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136938",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.141.reading",
+   "jp": "だいぐんかんとーたす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213694E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.141.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136964",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.142.name",
+   "jp": "砂陣の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136A44",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.142.reading",
+   "jp": "さじんのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136A5A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.142.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136A70",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.143.name",
+   "jp": "雪崩モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136B50",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.143.reading",
+   "jp": "なだれもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136B66",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.143.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136B7C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.144.name",
+   "jp": "真紅の夢魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136C5C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.144.reading",
+   "jp": "しんくのむま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136C72",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.144.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136C88",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.145.name",
+   "jp": "ダイヤの巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136D68",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.145.reading",
+   "jp": "だいやのきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136D7E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.145.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136D94",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.146.name",
+   "jp": "ツチギンチャク",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136E74",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.146.reading",
+   "jp": "つちぎんちゃく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136E8A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.146.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136EA0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.147.name",
+   "jp": "鋼の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02136F80",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.147.reading",
+   "jp": "はがねのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02136F96",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.147.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02136FAC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.148.name",
+   "jp": "鋼鉄モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213708C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.148.reading",
+   "jp": "こうてつもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021370A2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.148.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021370B8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.149.name",
+   "jp": "火山の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02137198",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.149.reading",
+   "jp": "かざんのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021371AE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.149.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021371C4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.150.name",
+   "jp": "死を呼ぶ夢魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021372A4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.150.reading",
+   "jp": "しをよぶむま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021372BA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.150.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021372D0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.151.name",
+   "jp": "鋼の魔人像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021373B0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.151.reading",
+   "jp": "はがねのまじんぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021373C6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.151.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021373DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.152.name",
+   "jp": "黒き炎",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021374BC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.152.reading",
+   "jp": "くろきほのお",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021374D2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.152.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021374E8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.153.name",
+   "jp": "黒の卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021375C8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.153.reading",
+   "jp": "くろのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021375DE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.153.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021375F4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.154.name",
+   "jp": "漆黒の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021376D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.154.reading",
+   "jp": "しっこくのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021376EA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.154.area",
+   "jp": "リーベリン湖の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137700",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.155.name",
+   "jp": "ダークネスペンギン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021377E0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.155.reading",
+   "jp": "だーくねすぺんぎん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021377F6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.155.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213780C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.156.name",
+   "jp": "暗黒タマムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021378EC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.156.reading",
+   "jp": "あんこくたまむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137902",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.156.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137918",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.157.name",
+   "jp": "ダークジャガーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021379F8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.157.reading",
+   "jp": "だーくじゃがーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137A0E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.157.area",
+   "jp": "ソーレ谷の迷宮",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137A24",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.158.name",
+   "jp": "ガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02137B04",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.158.reading",
+   "jp": "がぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137B1A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.158.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137B30",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.159.name",
+   "jp": "岩石毛虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02137C10",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.159.reading",
+   "jp": "がんせきけむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137C26",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.159.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137C3C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.160.name",
+   "jp": "赤いじゅうたん",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02137D1C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.160.reading",
+   "jp": "あかいじゅうたん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137D32",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.160.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137D48",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.161.name",
+   "jp": "海のガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02137E28",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.161.reading",
+   "jp": "うみのがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137E3E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.161.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137E54",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.162.name",
+   "jp": "水晶の卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02137F34",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.162.reading",
+   "jp": "すいしょうのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02137F4A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.162.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02137F60",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.163.name",
+   "jp": "ジャーマウス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138040",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.163.reading",
+   "jp": "じゃーまうす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138056",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.163.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213806C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.164.name",
+   "jp": "ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213814C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.164.reading",
+   "jp": "ぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138162",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.164.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138178",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.165.name",
+   "jp": "びっくり箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138258",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.165.reading",
+   "jp": "びっくりばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213826E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.165.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138284",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.166.name",
+   "jp": "貯金箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138364",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.166.reading",
+   "jp": "ちょきんばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213837A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.166.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138390",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.167.name",
+   "jp": "パペットスパイダー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138470",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.167.reading",
+   "jp": "ぱぺっとすぱいだー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138486",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.167.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213849C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.168.name",
+   "jp": "オドオド",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213857C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.168.reading",
+   "jp": "おどおど",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138592",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.168.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021385A8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.169.name",
+   "jp": "カネック",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138688",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.169.reading",
+   "jp": "かねっく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213869E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.169.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021386B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.170.name",
+   "jp": "コダマンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138794",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.170.reading",
+   "jp": "こだまんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021387AA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.170.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021387C0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.171.name",
+   "jp": "悪魔のココナッツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021388A0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.171.reading",
+   "jp": "あくまのここなっつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021388B6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.171.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021388CC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.172.name",
+   "jp": "ヒルニア",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021389AC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.172.reading",
+   "jp": "ひるにあ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021389C2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.172.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021389D8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.173.name",
+   "jp": "鉄の貯金箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138AB8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.173.reading",
+   "jp": "てつのちょきんばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138ACE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.173.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138AE4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.174.name",
+   "jp": "空飛ぶクリオネ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138BC4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.174.reading",
+   "jp": "そらとぶくりおね",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138BDA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.174.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138BF0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.175.name",
+   "jp": "ラバーファイター",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138CD0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.175.reading",
+   "jp": "らばーふぁいたー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138CE6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.175.area",
+   "jp": "ダチャレイ坑道",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138CFC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.176.name",
+   "jp": "青き炎",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138DDC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.176.reading",
+   "jp": "あおきほのお",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138DF2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.176.area",
+   "jp": "ダチャレイ坑道",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138E08",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.177.name",
+   "jp": "ハンドゴースト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138EE8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.177.reading",
+   "jp": "はんどごーすと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02138EFE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.177.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02138F14",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.178.name",
+   "jp": "海のブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02138FF4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.178.reading",
+   "jp": "うみのぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213900A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.178.area",
+   "jp": "ソーレ谷迷宮",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139020",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.179.name",
+   "jp": "つららこうもり",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139100",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.179.reading",
+   "jp": "つららこうもり",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139116",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.179.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213912C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.180.name",
+   "jp": "ホワイトジャーマウス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213920C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.180.reading",
+   "jp": "ほわいとじゃーまうす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139222",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.180.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139238",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.181.name",
+   "jp": "ボスカネック",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139318",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.181.reading",
+   "jp": "ぼすかねっく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213932E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.181.area",
+   "jp": "ダチャレイ洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139344",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.182.name",
+   "jp": "魔人の像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139424",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.182.reading",
+   "jp": "まじんのぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213943A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.182.area",
+   "jp": "ダチャレイ坑道",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139450",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.183.name",
+   "jp": "沼のメガトンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139530",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.183.reading",
+   "jp": "ぬまのめがとんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139546",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.183.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213955C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.184.name",
+   "jp": "ピンクの卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213963C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.184.reading",
+   "jp": "ぴんくのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139652",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.184.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139668",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.185.name",
+   "jp": "毒のガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139748",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.185.reading",
+   "jp": "どくのがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213975E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.185.area",
+   "jp": "ソーレ谷",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139774",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.186.name",
+   "jp": "泥トカゲ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139854",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.186.reading",
+   "jp": "どろとかげ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213986A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.186.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139880",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.187.name",
+   "jp": "メタルジャーマウス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139960",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.187.reading",
+   "jp": "めたるじゃーまうす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139976",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.187.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213998C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.188.name",
+   "jp": "サンゴガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139A6C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.188.reading",
+   "jp": "さんごがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139A82",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.188.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139A98",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.189.name",
+   "jp": "山賊バチ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139B78",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.189.reading",
+   "jp": "さんぞくばち",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139B8E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.189.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139BA4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.190.name",
+   "jp": "武装ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139C84",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.190.reading",
+   "jp": "ぶそうぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139C9A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.190.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139CB0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.191.name",
+   "jp": "リビングコイン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139D90",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.191.reading",
+   "jp": "りびんぐこいん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139DA6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.191.area",
+   "jp": "ソーレ谷迷宮",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139DBC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.192.name",
+   "jp": "グルメアント",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139E9C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.192.reading",
+   "jp": "ぐるめあんと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139EB2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.192.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139EC8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.193.name",
+   "jp": "拷問ねじ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02139FA8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.193.reading",
+   "jp": "ごうもんねじ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02139FBE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.193.area",
+   "jp": "ビム砂漠の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02139FD4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.194.name",
+   "jp": "砂ふくろう",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A0B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.194.reading",
+   "jp": "すなふくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A0CA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.194.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A0E0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.195.name",
+   "jp": "導師の使い魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A1C0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.195.reading",
+   "jp": "どうしのつかいま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A1D6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.195.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A1EC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.196.name",
+   "jp": "沼の吸血鬼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A2CC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.196.reading",
+   "jp": "ぬまのきゅうけつき",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A2E2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.196.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A2F8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.197.name",
+   "jp": "はじまりの卵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A3D8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.197.reading",
+   "jp": "はじまりのたまご",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A3EE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.197.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A404",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.198.name",
+   "jp": "弾丸モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A4E4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.198.reading",
+   "jp": "だんがんもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A4FA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.198.area",
+   "jp": "ベヌル荒野",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A510",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.199.name",
+   "jp": "ガラガラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A5F0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.199.reading",
+   "jp": "がらがら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A606",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.199.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A61C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.200.name",
+   "jp": "ツチギンチャク",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A6FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.200.reading",
+   "jp": "つちぎんちゃく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A712",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.200.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A728",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.201.name",
+   "jp": "トドドリル",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A808",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.201.reading",
+   "jp": "とどどりる",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A81E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.201.area",
+   "jp": "ビム砂漠",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A834",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.202.name",
+   "jp": "毒虫の化石",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213A914",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.202.reading",
+   "jp": "どくむしのかせき",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213A92A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.202.area",
+   "jp": "ビム砂漠の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213A940",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.203.name",
+   "jp": "強力ガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213AA20",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.203.reading",
+   "jp": "ごうりきがぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213AA36",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.203.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213AA4C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.204.name",
+   "jp": "アクアドッグ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213AB2C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.204.reading",
+   "jp": "あくあどっぐ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213AB42",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.204.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213AB58",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.205.name",
+   "jp": "百目タマムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213AC38",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.205.reading",
+   "jp": "ひゃくめたまむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213AC4E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.205.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213AC64",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.206.name",
+   "jp": "黒煙ゼミ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213AD44",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.206.reading",
+   "jp": "こくえんぜみ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213AD5A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.206.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213AD70",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.207.name",
+   "jp": "猛毒タマムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213AE50",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.207.reading",
+   "jp": "もうどくたまむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213AE66",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.207.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213AE7C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.208.name",
+   "jp": "黒煙虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213AF5C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.208.reading",
+   "jp": "こくえんちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213AF72",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.208.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213AF88",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.209.name",
+   "jp": "煙突カメムシ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B068",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.209.reading",
+   "jp": "えんとつかめむし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B07E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.209.area",
+   "jp": "ミレイ森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B094",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.210.name",
+   "jp": "大将バチ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B174",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.210.reading",
+   "jp": "たいしょうばち",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B18A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.210.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B1A0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.211.name",
+   "jp": "バーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B280",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.211.reading",
+   "jp": "ばーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B296",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.211.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B2AC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.212.name",
+   "jp": "毒バーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B38C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.212.reading",
+   "jp": "どくばーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B3A2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.212.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B3B8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.213.name",
+   "jp": "メガトンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B498",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.213.reading",
+   "jp": "めがとんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B4AE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.213.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B4C4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.214.name",
+   "jp": "巨大メガトンボ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B5A4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.214.reading",
+   "jp": "きょだいめがとんぼ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B5BA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.214.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B5D0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.215.name",
+   "jp": "ドローマン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B6B0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.215.reading",
+   "jp": "どろーまん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B6C6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.215.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B6DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.216.name",
+   "jp": "暴れマギー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B7BC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.216.reading",
+   "jp": "あばれまぎー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B7D2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.216.area",
+   "jp": "ミレイ森の廃里",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B7E8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.217.name",
+   "jp": "群がり犬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B8C8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.217.reading",
+   "jp": "むらがりいぬ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B8DE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.217.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213B8F4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.218.name",
+   "jp": "群がり子犬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213B9D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.218.reading",
+   "jp": "むらがりこいぬ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213B9EA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.218.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213BA00",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.219.name",
+   "jp": "プロテク虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213BAE0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.219.reading",
+   "jp": "ぷろてくちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213BAF6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.219.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213BB0C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.220.name",
+   "jp": "森の愚者",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213BBEC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.220.reading",
+   "jp": "もりのぐしゃ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213BC02",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.220.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213BC18",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.221.name",
+   "jp": "ハウンドソルジャー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213BCF8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.221.reading",
+   "jp": "はうんどそるじゃー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213BD0E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.221.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213BD24",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.222.name",
+   "jp": "腐薬虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213BE04",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.222.reading",
+   "jp": "ふやくちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213BE1A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.222.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213BE30",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.223.name",
+   "jp": "火煙虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213BF10",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.223.reading",
+   "jp": "かえんちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213BF26",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.223.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213BF3C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.224.name",
+   "jp": "スノーマン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C01C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.224.reading",
+   "jp": "すのーまん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C032",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.224.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C048",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.225.name",
+   "jp": "北斗狼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C128",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.225.reading",
+   "jp": "ほくとおおかみ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C13E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.225.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C154",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.226.name",
+   "jp": "トドドドリル",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C234",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.226.reading",
+   "jp": "とどどどりる",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C24A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.226.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C260",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.227.name",
+   "jp": "黒いブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C340",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.227.reading",
+   "jp": "くろいぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C356",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.227.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C36C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.228.name",
+   "jp": "鎧ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C44C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.228.reading",
+   "jp": "よろいぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C462",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.228.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C478",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.229.name",
+   "jp": "ジャガーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C558",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.229.reading",
+   "jp": "じゃがーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C56E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.229.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C584",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.230.name",
+   "jp": "水ふくろう",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C664",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.230.reading",
+   "jp": "みずふくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C67A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.230.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C690",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.231.name",
+   "jp": "青いびっくり箱",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C770",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.231.reading",
+   "jp": "あおいびっくりばこ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C786",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.231.area",
+   "jp": "パセロ湿地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C79C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.232.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C87C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.232.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C892",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.232.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C8A8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.233.name",
+   "jp": "闇の天狼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213C988",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.233.reading",
+   "jp": "やみのてんろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213C99E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.233.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213C9B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.234.name",
+   "jp": "ハエコマンド",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213CA94",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.234.reading",
+   "jp": "はえこまんど",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213CAAA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.234.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213CAC0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.235.name",
+   "jp": "ハウンドナイト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213CBA0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.235.reading",
+   "jp": "はうんどないと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213CBB6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.235.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213CBCC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.236.name",
+   "jp": "ツチギンチャク分身",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213CCAC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.236.reading",
+   "jp": "つちぎんちゃく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213CCC2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.236.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213CCD8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.237.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213CDB8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.237.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213CDCE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.237.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213CDE4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.238.name",
+   "jp": "洞穴の愚者",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213CEC4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.238.reading",
+   "jp": "どうけつのぐしゃ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213CEDA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.238.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213CEF0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.239.name",
+   "jp": "人喰い人魚",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213CFD0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.239.reading",
+   "jp": "ひとくいにんぎょ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213CFE6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.239.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213CFFC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.240.name",
+   "jp": "氷結ゼミ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D0DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.240.reading",
+   "jp": "ひょうけつぜみ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D0F2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.240.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D108",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.241.name",
+   "jp": "氷のハエコマンド",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D1E8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.241.reading",
+   "jp": "こおりのはえこまんど",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D1FE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.241.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D214",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.242.name",
+   "jp": "泥の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D2F4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.242.reading",
+   "jp": "どろのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D30A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.242.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D320",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.243.name",
+   "jp": "炎のジャガーム",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D400",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.243.reading",
+   "jp": "ほのおのじゃがーむ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D416",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.243.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D42C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.244.name",
+   "jp": "岩石エイ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D50C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.244.reading",
+   "jp": "がんせきえい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D522",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.244.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D538",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.245.name",
+   "jp": "赤銅兵士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D618",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.245.reading",
+   "jp": "しゃくどうへいし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D62E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.245.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D644",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.246.name",
+   "jp": "アサシンクロウ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D724",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.246.reading",
+   "jp": "あさしんくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D73A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.246.area",
+   "jp": "ノルナージの森",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D750",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.247.name",
+   "jp": "猛毒ペンバリー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D830",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.247.reading",
+   "jp": "もうどくぺんばりー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D846",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.247.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D85C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.248.name",
+   "jp": "空飛ぶクリオネ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213D93C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.248.reading",
+   "jp": "そらとぶくりおね",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213D952",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.248.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213D968",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.249.name",
+   "jp": "腐肉の人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213DA48",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.249.reading",
+   "jp": "ふにくのひと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213DA5E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.249.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213DA74",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.250.name",
+   "jp": "岩石巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213DB54",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.250.reading",
+   "jp": "がんせききょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213DB6A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.250.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213DB80",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.251.name",
+   "jp": "ガラガラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213DC60",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.251.reading",
+   "jp": "がらがら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213DC76",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.251.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213DC8C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.252.name",
+   "jp": "魔人の氷像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213DD6C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.252.reading",
+   "jp": "まじんのひょうぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213DD82",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.252.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213DD98",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.253.name",
+   "jp": "砂のブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213DE78",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.253.reading",
+   "jp": "すなのぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213DE8E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.253.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213DEA4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.254.name",
+   "jp": "ブロウガンナー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213DF84",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.254.reading",
+   "jp": "ぶろうがんなー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213DF9A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.254.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213DFB0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.255.name",
+   "jp": "ドローマスター",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E090",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.255.reading",
+   "jp": "どろーますたー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E0A6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.255.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E0BC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.256.name",
+   "jp": "炎の人魚",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E19C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.256.reading",
+   "jp": "ほのおのにんぎょ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E1B2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.256.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E1C8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.257.name",
+   "jp": "首長エイ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E2A8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.257.reading",
+   "jp": "くびながえい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E2BE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.257.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E2D4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.258.name",
+   "jp": "七星餓狼",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E3B4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.258.reading",
+   "jp": "しちせいがろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E3CA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.258.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E3E0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.259.name",
+   "jp": "青炎馬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E4C0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.259.reading",
+   "jp": "せいえんば",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E4D6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.259.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E4EC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.260.name",
+   "jp": "鉄騎貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E5CC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.260.reading",
+   "jp": "てっきがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E5E2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.260.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E5F8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.261.name",
+   "jp": "砂トカゲ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E6D8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.261.reading",
+   "jp": "すなとかげ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E6EE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.261.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E704",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.262.name",
+   "jp": "墓場荒らし",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E7E4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.262.reading",
+   "jp": "はかばあらし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E7FA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.262.area",
+   "jp": "リンラーゴ山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E810",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.263.name",
+   "jp": "中甲虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E8F0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.263.reading",
+   "jp": "ちゅうこうちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213E906",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.263.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213E91C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.264.name",
+   "jp": "化石の鉄騎貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213E9FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.264.reading",
+   "jp": "かせきのてっきがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213EA12",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.264.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213EA28",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.265.name",
+   "jp": "石の魔人像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213EB08",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.265.reading",
+   "jp": "いしのまじんぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213EB1E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.265.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213EB34",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.266.name",
+   "jp": "潮の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213EC14",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.266.reading",
+   "jp": "うしおのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213EC2A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.266.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213EC40",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.267.name",
+   "jp": "ナイトスナイパー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213ED20",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.267.reading",
+   "jp": "ないとすないぱー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213ED36",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.267.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213ED4C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.268.name",
+   "jp": "蔦の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213EE2C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.268.reading",
+   "jp": "つたのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213EE42",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.268.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213EE58",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.269.name",
+   "jp": "白亜の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213EF38",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.269.reading",
+   "jp": "はくあのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213EF4E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.269.area",
+   "jp": "リーベリン湖の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213EF64",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.270.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F044",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.270.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F05A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.270.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F070",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.271.name",
+   "jp": "マグネソルジャー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F150",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.271.reading",
+   "jp": "まぐねそるじゃー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F166",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.271.area",
+   "jp": "オーラン洞窟",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F17C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.272.name",
+   "jp": "血雪馬",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F25C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.272.reading",
+   "jp": "けつせつば",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F272",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.272.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F288",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.273.name",
+   "jp": "土の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F368",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.273.reading",
+   "jp": "つちのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F37E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.273.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F394",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.274.name",
+   "jp": "マグマの導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F474",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.274.reading",
+   "jp": "まぐまのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F48A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.274.area",
+   "jp": "ビョンリン火山の遺跡",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F4A0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.275.name",
+   "jp": "砂の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F580",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.275.reading",
+   "jp": "すなのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F596",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.275.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F5AC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.276.name",
+   "jp": "凍てつく炎",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F68C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.276.reading",
+   "jp": "いてつくほのお",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F6A2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.276.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F6B8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.277.name",
+   "jp": "骨の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F798",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.277.reading",
+   "jp": "ほねのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F7AE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.277.area",
+   "jp": "リーベリン湖の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F7C4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.278.name",
+   "jp": "ハウンドナイト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F8A4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.278.reading",
+   "jp": "はうんどないと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F8BA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.278.area",
+   "jp": "リーベリン湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F8D0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.279.name",
+   "jp": "罪人たいまつ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213F9B0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.279.reading",
+   "jp": "ざいにんたいまつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213F9C6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.279.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213F9DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.280.name",
+   "jp": "ナイトスナイパー",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213FABC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.280.reading",
+   "jp": "ないとすないぱー",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213FAD2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.280.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213FAE8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.281.name",
+   "jp": "氷の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213FBC8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.281.reading",
+   "jp": "こおりのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213FBDE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.281.area",
+   "jp": "ゼロス雪原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213FBF4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.282.name",
+   "jp": "青銅巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213FCD4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.282.reading",
+   "jp": "せいどうきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213FCEA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.282.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213FD00",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.283.name",
+   "jp": "夢魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213FDE0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.283.reading",
+   "jp": "むま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213FDF6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.283.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213FE0C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.284.name",
+   "jp": "フレイムペンギン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213FEEC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.284.reading",
+   "jp": "ふれいむぺんぎん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0213FF02",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.284.area",
+   "jp": "ビョンリン火山",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0213FF18",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.285.name",
+   "jp": "砂のアサシンクロウ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0213FFF8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.285.reading",
+   "jp": "すなのあさしんくろう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214000E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.285.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140024",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.286.name",
+   "jp": "氷雪巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140104",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.286.reading",
+   "jp": "ひょうせつきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214011A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.286.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140130",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.287.name",
+   "jp": "さまようガイコツ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140210",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.287.reading",
+   "jp": "さまようがいこつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140226",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.287.area",
+   "jp": "ビョンリン火山の遺跡",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0214023C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.288.name",
+   "jp": "フリーズペンギン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0214031C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.288.reading",
+   "jp": "ふりーずぺんぎん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140332",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.288.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140348",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.289.name",
+   "jp": "暗黒マグネナイト",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140428",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.289.reading",
+   "jp": "あんこくまぐねないと",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214043E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.289.area",
+   "jp": "ミュテリン山の廃村",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140454",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.290.name",
+   "jp": "樹氷たいまつ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140534",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.290.reading",
+   "jp": "じゅひょうたいまつ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214054A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.290.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140560",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.291.name",
+   "jp": "大甲虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140640",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.291.reading",
+   "jp": "だいこうちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140656",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.291.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0214066C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.292.name",
+   "jp": "氷つららこうもり",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0214074C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.292.reading",
+   "jp": "こおりつららこうもり",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140762",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.292.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140778",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.293.name",
+   "jp": "岩石モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140858",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.293.reading",
+   "jp": "がんせきもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214086E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.293.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140884",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.294.name",
+   "jp": "軍艦トータス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140964",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.294.reading",
+   "jp": "ぐんかんとーたす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214097A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.294.area",
+   "jp": "ミュテリン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140990",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.295.name",
+   "jp": "アイアンライノス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140A70",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.295.reading",
+   "jp": "あいあんらいのす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140A86",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.295.area",
+   "jp": "ミュテリン山の廃村",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140A9C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.296.name",
+   "jp": "バスターゾンビ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140B7C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.296.reading",
+   "jp": "ばすたーぞんび",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140B92",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.296.area",
+   "jp": "ミュテリン山の廃村",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140BA8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.297.name",
+   "jp": "毒沼の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140C88",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.297.reading",
+   "jp": "どくぬまのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140C9E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.297.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140CB4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.298.name",
+   "jp": "赤銅巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140D94",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.298.reading",
+   "jp": "しゃくどうきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140DAA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.298.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140DC0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.299.name",
+   "jp": "大軍艦トータス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140EA0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.299.reading",
+   "jp": "だいぐんかんとーたす",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140EB6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.299.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140ECC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.300.name",
+   "jp": "砂陣の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02140FAC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.300.reading",
+   "jp": "さじんのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02140FC2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.300.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02140FD8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.301.name",
+   "jp": "雪崩モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021410B8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.301.reading",
+   "jp": "なだれもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021410CE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.301.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021410E4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.302.name",
+   "jp": "真紅の夢魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021411C4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.302.reading",
+   "jp": "しんくのむま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021411DA",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.302.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021411F0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.303.name",
+   "jp": "ダイヤの巨人",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021412D0",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.303.reading",
+   "jp": "だいやのきょじん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021412E6",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.303.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021412FC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.304.name",
+   "jp": "ツチギンチャク",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021413DC",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.304.reading",
+   "jp": "つちぎんちゃく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021413F2",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.304.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141408",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.305.name",
+   "jp": "鋼の導士",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021414E8",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.305.reading",
+   "jp": "はがねのどうし",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "021414FE",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.305.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141514",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.306.name",
+   "jp": "鋼鉄モグラ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "021415F4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.306.reading",
+   "jp": "こうてつもぐら",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214160A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.306.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141620",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.307.name",
+   "jp": "火山の翼竜",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141700",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.307.reading",
+   "jp": "かざんのよくりゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141716",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.307.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "0214172C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.308.name",
+   "jp": "死を呼ぶ夢魔",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0214180C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.308.reading",
+   "jp": "しをよぶむま",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141822",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.308.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141838",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.309.name",
+   "jp": "鋼の魔人像",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141918",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.309.reading",
+   "jp": "はがねのまじんぞう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214192E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.309.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141944",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.310.name",
+   "jp": "黒き炎",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141A24",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.310.reading",
+   "jp": "くろきほのお",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141A3A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.310.area",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141A50",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.311.name",
+   "jp": "民兵",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141B30",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.311.reading",
+   "jp": "みんぺい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141B46",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.311.area",
+   "jp": "？？？",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141B5C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.312.name",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141C3C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.312.reading",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141C52",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.312.area",
+   "jp": "？？？",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141C68",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.313.name",
+   "jp": "ガブリ貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141D48",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.313.reading",
+   "jp": "がぶりがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141D5E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.313.area",
+   "jp": "ナッシュ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141D74",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.314.name",
+   "jp": "カネック",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141E54",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.314.reading",
+   "jp": "かねっく",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141E6A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.314.area",
+   "jp": "バコソン山地",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141E80",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.315.name",
+   "jp": "アクアドッグ",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02141F60",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.315.reading",
+   "jp": "あくあどっぐ",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02141F76",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.315.area",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02141F8C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.316.name",
+   "jp": "ドローマン",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "0214206C",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.316.reading",
+   "jp": "どろーまん",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "02142082",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.316.area",
+   "jp": "リンナム氷河",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "02142098",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.317.name",
+   "jp": "鉄騎貝",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02142178",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.317.reading",
+   "jp": "てっきがい",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214218E",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.317.area",
+   "jp": "リーベリン湖の塔",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021421A4",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.318.name",
+   "jp": "大甲虫",
+   "en": "",
+   "kind": "monster.name",
+   "addr": "02142284",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.318.reading",
+   "jp": "だいこうちゅう",
+   "en": "",
+   "kind": "monster.reading",
+   "addr": "0214229A",
+   "max": 22
+  },
+  {
+   "id": "a9.monster.318.area",
+   "jp": "リンブロ平原",
+   "en": "",
+   "kind": "monster.area",
+   "addr": "021422B0",
+   "max": 22
+  }
+ ]
+}

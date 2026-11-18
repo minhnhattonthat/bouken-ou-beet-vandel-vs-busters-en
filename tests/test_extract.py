@@ -113,6 +113,80 @@ def test_names(rom, codec):
     assert by_id == {}
 
 
+def arm9_entries():
+    out = {}
+    for f in sorted((extract.SCRIPT / 'arm9').glob('*.json')):
+        for e in json.loads(f.read_text(encoding='utf-8'))['entries']:
+            out[e['id']] = e
+    return out
+
+
+def test_arm9_json_matches_extractor(rom, codec):
+    import arm9text
+    want = {e['id']: e['jp'] for _, ents in arm9text.extract(bytes(rom.arm9), codec).values() for e in ents}
+    have = {k: e['jp'] for k, e in arm9_entries().items()}
+    assert have == want, 'script/arm9 is out of date: run tools/extract.py --only arm9 --force'
+
+
+def test_arm9_roundtrip(rom, codec):
+    a = bytes(rom.arm9)
+    B = 0x02000000
+    for id_, e in arm9_entries().items():
+        raw = codec.encode(e['jp'])
+        if 'addr' in e:   # fixed slot: text then 0000, or text filling the slot
+            p = int(e['addr'], 16) - B
+            assert a[p:p + len(raw)] == raw, id_
+            assert len(raw) == e['max'] or (len(raw) + 2 <= e['max'] and a[p + len(raw):p + len(raw) + 2] == b'\0\0')
+            assert a[p + len(raw):p + e['max']].strip(b'\0') == b'', id_   # max only spans zeros
+        else:
+            p = int(id_[3:], 16) - B
+            assert a[p:p + len(raw) + 2] == raw + b'\0\0', id_
+            for w in e['ptrs']:
+                assert struct.unpack_from('<I', a, int(w, 16) - B)[0] == p + B, (id_, w)
+
+
+# Kana runs in arm9 that are numeric fields of the vandel/buster tables, not text (checked by eye).
+ARM9_WAIVED = {0x0204BEC8, 0x0214C05E, 0x0214FA46, 0x0214FBFA, 0x0214FDAE, 0x0214FF62, 0x02150116}
+
+
+def test_arm9_coverage(rom, codec):
+    """Every run of >= 2 kana codes (kana at least half the run, ending in 0000) lies in an extracted slot/string."""
+    import bisect
+    import re
+    a = bytes(rom.arm9)
+    B = 0x02000000
+    spans = []
+    for id_, e in arm9_entries().items():
+        p = int(e['addr'], 16) if 'addr' in e else int(id_[3:], 16)
+        spans.append((p, p + (e['max'] if 'addr' in e else len(codec.encode(e['jp'])) + 2)))
+    spans.sort()
+    starts = [s for s, _ in spans]
+
+    def covered(x):
+        i = bisect.bisect_right(starts, x) - 1
+        return i >= 0 and spans[i][0] <= x < spans[i][1]
+
+    kana = re.compile(r'[ぁ-んァ-ン]')
+    import arm9text as T
+    bad = []
+    p = 0
+    while p < len(a) - 1:
+        if not T.is_code(T.u16(a, p)):
+            p += 2
+            continue
+        q = p
+        while q < len(a) - 1 and T.is_code(T.u16(a, q)):
+            q += 2
+        if q < len(a) - 1 and T.u16(a, q) == 0:
+            text = codec.decode(a, p, q)[0]
+            k = len(kana.findall(text))
+            if k >= 2 and 2 * k >= (q - p) // 2 and not any(covered(B + x) for x in range(p, q, 2)) \
+                    and B + p not in ARM9_WAIVED | T.NOT_TEXT:
+                bad.append('%08X %s' % (B + p, text[:20]))
+        p = q + 2
+    assert bad == [], 'kana text outside script/arm9: %s' % bad[:10]
+
+
 def test_kanakan_is_dictionary(rom, codec):
     """kanakan.img (name-entry kana -> kanji candidates) parses completely: u16 count, u32 offsets, then per kana
     `u16 nkana, u16 n, n codes, 0000`. It is input data, not displayed text: not in script/."""

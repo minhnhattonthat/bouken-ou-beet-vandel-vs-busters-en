@@ -1,0 +1,1709 @@
+{
+ "src": "arm9.bin table 0210D430 x71 (0xa0 bytes, accessor 02014040)",
+ "entries": [
+  {
+   "id": "a9.armor.000.name",
+   "jp": "見習いのジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D434",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.000.reading",
+   "jp": "みならいのじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D448",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.000.desc",
+   "jp": "見習いバスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D45C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.001.name",
+   "jp": "新米のジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D4D4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.001.reading",
+   "jp": "しんまいのじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D4E8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.001.desc",
+   "jp": "新米級バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D4FC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.002.name",
+   "jp": "普通のジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D574",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.002.reading",
+   "jp": "ふつうのじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D588",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.002.desc",
+   "jp": "一般級バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D59C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.003.name",
+   "jp": "ルーキージャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D614",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.003.reading",
+   "jp": "るーきーのじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D628",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.003.desc",
+   "jp": "ルーキーバスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D63C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.004.name",
+   "jp": "中級者のジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D6B4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.004.reading",
+   "jp": "ちゅうきゅうしゃのじ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D6C8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.004.desc",
+   "jp": "中級バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D6DC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.005.name",
+   "jp": "ベテランジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D754",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.005.reading",
+   "jp": "べてらんじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D768",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.005.desc",
+   "jp": "ベテラン級バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D77C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.006.name",
+   "jp": "上級者のジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D7F4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.006.reading",
+   "jp": "じょうきゅうしゃのじ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D808",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.006.desc",
+   "jp": "上級バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D81C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.007.name",
+   "jp": "強者のジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D894",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.007.reading",
+   "jp": "きょうしゃのじゃけっ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D8A8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.007.desc",
+   "jp": "強者バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D8BC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.008.name",
+   "jp": "バトルジャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D934",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.008.reading",
+   "jp": "ばとるじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D948",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.008.desc",
+   "jp": "百戦錬磨バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D95C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.009.name",
+   "jp": "マスタージャケット",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210D9D4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.009.reading",
+   "jp": "ますたーじゃけっと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210D9E8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.009.desc",
+   "jp": "達人級バスターのジャケット",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210D9FC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.010.name",
+   "jp": "コットンシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DA74",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.010.reading",
+   "jp": "こっとんしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DA88",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.010.desc",
+   "jp": "コットンでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DA9C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.011.name",
+   "jp": "リネンシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DB14",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.011.reading",
+   "jp": "りねんしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DB28",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.011.desc",
+   "jp": "リネンでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DB3C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.012.name",
+   "jp": "ウールシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DBB4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.012.reading",
+   "jp": "うーるしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DBC8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.012.desc",
+   "jp": "ウールでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DBDC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.013.name",
+   "jp": "シルクシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DC54",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.013.reading",
+   "jp": "しるくしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DC68",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.013.desc",
+   "jp": "シルクでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DC7C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.014.name",
+   "jp": "アンゴラシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DCF4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.014.reading",
+   "jp": "あんごらしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DD08",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.014.desc",
+   "jp": "アンゴラでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DD1C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.015.name",
+   "jp": "アルパカシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DD94",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.015.reading",
+   "jp": "あるぱかしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DDA8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.015.desc",
+   "jp": "アルパカでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DDBC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.016.name",
+   "jp": "レザーシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DE34",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.016.reading",
+   "jp": "れざーしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DE48",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.016.desc",
+   "jp": "ソフトレザーでできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DE5C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.017.name",
+   "jp": "バスターズシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DED4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.017.reading",
+   "jp": "ばすたーずしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DEE8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.017.desc",
+   "jp": "多くのバスターが愛用するシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DEFC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.018.name",
+   "jp": "バトルシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210DF74",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.018.reading",
+   "jp": "ばとるしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210DF88",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.018.desc",
+   "jp": "かなり強い素材でできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210DF9C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.019.name",
+   "jp": "マスターシャツ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E014",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.019.reading",
+   "jp": "ますたーしゃつ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E028",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.019.desc",
+   "jp": "非常に強い素材でできたシャツ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E03C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.020.name",
+   "jp": "ウッドシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E0B4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.020.reading",
+   "jp": "うっどしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E0C8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.020.desc",
+   "jp": "木製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E0DC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.021.name",
+   "jp": "ブロンズシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E154",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.021.reading",
+   "jp": "ぶろんずしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E168",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.021.desc",
+   "jp": "青銅製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E17C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.022.name",
+   "jp": "カッパーシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E1F4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.022.reading",
+   "jp": "かっぱーしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E208",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.022.desc",
+   "jp": "銅製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E21C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.023.name",
+   "jp": "アイアンシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E294",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.023.reading",
+   "jp": "あいあんしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E2A8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.023.desc",
+   "jp": "鉄製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E2BC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.024.name",
+   "jp": "スティールシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E334",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.024.reading",
+   "jp": "すてぃーるしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E348",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.024.desc",
+   "jp": "鋼鉄製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E35C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.025.name",
+   "jp": "シルバーシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E3D4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.025.reading",
+   "jp": "しるばーしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E3E8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.025.desc",
+   "jp": "銀製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E3FC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.026.name",
+   "jp": "レアメタルシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E474",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.026.reading",
+   "jp": "れあめたるしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E488",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.026.desc",
+   "jp": "レアメタル製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E49C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.027.name",
+   "jp": "ハイメタルシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E514",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.027.reading",
+   "jp": "はいめたるしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E528",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.027.desc",
+   "jp": "ハイメタル製のシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E53C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.028.name",
+   "jp": "マスターシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E5B4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.028.reading",
+   "jp": "ますたーしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E5C8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.028.desc",
+   "jp": "非常に強い素材でできたシールド",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E5DC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.029.name",
+   "jp": "アトスシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E654",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.029.reading",
+   "jp": "あとすしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E668",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.029.desc",
+   "jp": "防具屋アトスが作った盾",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E67C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.030.name",
+   "jp": "ブロンズバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E6F4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.030.reading",
+   "jp": "ぶろんずばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E708",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.030.desc",
+   "jp": "青銅製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E71C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.031.name",
+   "jp": "カッパーバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E794",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.031.reading",
+   "jp": "かっぱーばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E7A8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.031.desc",
+   "jp": "銅製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E7BC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.032.name",
+   "jp": "アイアンバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E834",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.032.reading",
+   "jp": "あいあんばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E848",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.032.desc",
+   "jp": "鉄製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E85C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.033.name",
+   "jp": "スティールバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E8D4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.033.reading",
+   "jp": "すてぃーるばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E8E8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.033.desc",
+   "jp": "鋼鉄製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E8FC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.034.name",
+   "jp": "シルバーバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210E974",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.034.reading",
+   "jp": "しるばーばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210E988",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.034.desc",
+   "jp": "銀製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210E99C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.035.name",
+   "jp": "レアメタルバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EA14",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.035.reading",
+   "jp": "れあめたるばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EA28",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.035.desc",
+   "jp": "レアメタル製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EA3C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.036.name",
+   "jp": "ハイメタルバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EAB4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.036.reading",
+   "jp": "はいめたるばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EAC8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.036.desc",
+   "jp": "ハイメタル製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EADC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.037.name",
+   "jp": "Ｂメタルバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EB54",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.037.reading",
+   "jp": "びーめたるばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EB68",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.037.desc",
+   "jp": "ベカトルテ鋼製の腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EB7C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.038.name",
+   "jp": "バトルバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EBF4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.038.reading",
+   "jp": "ばとるばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EC08",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.038.desc",
+   "jp": "複合特殊鋼材でできた腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EC1C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.039.name",
+   "jp": "マスターバングル",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EC94",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.039.reading",
+   "jp": "ますたーばんぐる",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210ECA8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.039.desc",
+   "jp": "達人が愛用する強い腕輪",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210ECBC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.040.name",
+   "jp": "コットンマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210ED34",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.040.reading",
+   "jp": "こっとんまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210ED48",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.040.desc",
+   "jp": "コットンでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210ED5C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.041.name",
+   "jp": "リネンマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EDD4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.041.reading",
+   "jp": "りねんまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EDE8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.041.desc",
+   "jp": "リネンでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EDFC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.042.name",
+   "jp": "ウールマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EE74",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.042.reading",
+   "jp": "うーるまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EE88",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.042.desc",
+   "jp": "ウールでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EE9C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.043.name",
+   "jp": "シルクマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EF14",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.043.reading",
+   "jp": "しるくまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EF28",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.043.desc",
+   "jp": "シルクでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EF3C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.044.name",
+   "jp": "アンゴラマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210EFB4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.044.reading",
+   "jp": "あんごらまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210EFC8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.044.desc",
+   "jp": "アンゴラでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210EFDC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.045.name",
+   "jp": "アルパカマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F054",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.045.reading",
+   "jp": "あるぱかまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F068",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.045.desc",
+   "jp": "アルパカでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F07C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.046.name",
+   "jp": "レザーマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F0F4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.046.reading",
+   "jp": "れざーまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F108",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.046.desc",
+   "jp": "ソフトレザーでできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F11C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.047.name",
+   "jp": "バスターズマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F194",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.047.reading",
+   "jp": "ばすたーずまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F1A8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.047.desc",
+   "jp": "多くのバスターが愛用するマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F1BC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.048.name",
+   "jp": "バトルマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F234",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.048.reading",
+   "jp": "ばとるまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F248",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.048.desc",
+   "jp": "複合特殊鋼材を織り込んだマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F25C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.049.name",
+   "jp": "マスターマント",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F2D4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.049.reading",
+   "jp": "ますたーまんと",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F2E8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.049.desc",
+   "jp": "非常に強い素材でできたマント",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F2FC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.050.name",
+   "jp": "コットンバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F374",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.050.reading",
+   "jp": "こっとんばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F388",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.050.desc",
+   "jp": "コットンでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F39C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.051.name",
+   "jp": "リネンバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F414",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.051.reading",
+   "jp": "りねんばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F428",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.051.desc",
+   "jp": "リネンでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F43C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.052.name",
+   "jp": "ウールバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F4B4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.052.reading",
+   "jp": "うーるばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F4C8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.052.desc",
+   "jp": "ウールでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F4DC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.053.name",
+   "jp": "シルクバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F554",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.053.reading",
+   "jp": "しるくばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F568",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.053.desc",
+   "jp": "シルクでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F57C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.054.name",
+   "jp": "アンゴラバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F5F4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.054.reading",
+   "jp": "あんごらばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F608",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.054.desc",
+   "jp": "アンゴラでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F61C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.055.name",
+   "jp": "アルパカバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F694",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.055.reading",
+   "jp": "あるぱかばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F6A8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.055.desc",
+   "jp": "アルパカでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F6BC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.056.name",
+   "jp": "レザーバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F734",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.056.reading",
+   "jp": "れざーばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F748",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.056.desc",
+   "jp": "ソフトレザーでできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F75C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.057.name",
+   "jp": "バスターズバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F7D4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.057.reading",
+   "jp": "ばすたーずばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F7E8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.057.desc",
+   "jp": "多くのバスターが愛用するバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F7FC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.058.name",
+   "jp": "バトルバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F874",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.058.reading",
+   "jp": "ばとるばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F888",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.058.desc",
+   "jp": "複合特殊鋼材を織り込んだバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F89C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.059.name",
+   "jp": "マスターバンダナ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F914",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.059.reading",
+   "jp": "ますたーばんだな",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F928",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.059.desc",
+   "jp": "非常に強い素材でできたバンダナ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F93C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.060.name",
+   "jp": "コットングローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210F9B4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.060.reading",
+   "jp": "こっとんぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210F9C8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.060.desc",
+   "jp": "コットンでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210F9DC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.061.name",
+   "jp": "リネングローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FA54",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.061.reading",
+   "jp": "りねんぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FA68",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.061.desc",
+   "jp": "リネンでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FA7C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.062.name",
+   "jp": "ウールグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FAF4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.062.reading",
+   "jp": "うーるぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FB08",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.062.desc",
+   "jp": "ウールでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FB1C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.063.name",
+   "jp": "シルクグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FB94",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.063.reading",
+   "jp": "しるくぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FBA8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.063.desc",
+   "jp": "シルクでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FBBC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.064.name",
+   "jp": "アンゴラグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FC34",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.064.reading",
+   "jp": "あんごらぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FC48",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.064.desc",
+   "jp": "アンゴラでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FC5C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.065.name",
+   "jp": "アルパカグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FCD4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.065.reading",
+   "jp": "あるぱかぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FCE8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.065.desc",
+   "jp": "アルパカでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FCFC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.066.name",
+   "jp": "レザーグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FD74",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.066.reading",
+   "jp": "れざーぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FD88",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.066.desc",
+   "jp": "ソフトレザーでできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FD9C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.067.name",
+   "jp": "バスターズグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FE14",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.067.reading",
+   "jp": "ばすたーずぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FE28",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.067.desc",
+   "jp": "多くのバスターが愛用するグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FE3C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.068.name",
+   "jp": "バトルグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FEB4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.068.reading",
+   "jp": "ばとるぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FEC8",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.068.desc",
+   "jp": "複合特殊鋼材を織り込んだグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FEDC",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.069.name",
+   "jp": "マスターグローブ",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FF54",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.069.reading",
+   "jp": "ますたーぐろーぶ",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "0210FF68",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.069.desc",
+   "jp": "非常に強い素材でできたグローブ",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0210FF7C",
+   "max": 72
+  },
+  {
+   "id": "a9.armor.070.name",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "armor.name",
+   "addr": "0210FFF4",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.070.reading",
+   "jp": "くらうんしーるど",
+   "en": "",
+   "kind": "armor.reading",
+   "addr": "02110008",
+   "max": 20
+  },
+  {
+   "id": "a9.armor.070.desc",
+   "jp": "なし",
+   "en": "",
+   "kind": "armor.desc",
+   "addr": "0211001C",
+   "max": 72
+  }
+ ]
+}

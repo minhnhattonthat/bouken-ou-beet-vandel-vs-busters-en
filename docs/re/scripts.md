@@ -9,6 +9,23 @@
   0x02004FA0 `bl 0x0210765C` = memcpy; terminator store 0x02004FBC). Watch log: `work/qa/watch1/log.txt`.
 - Opcodes are byte-aligned, variable length; operands are unaligned little-endian u32 (often absolute file offsets:
   jump targets 0x1A18, 0x1A30 ... and string pointers).
+- **Layout (verified 2026-11-18 by `tools/scr.py` + `tests/test_extract.py`, every byte accounted for):** code blocks
+  end in `FF`; a string pool may follow: `FF 00 [S..] str [S..] str .. 00..` then the next code block. Every string
+  starts 4-aligned (gap filled with `S` = 0x53, except the one `00` after `FF`); text strings are u16 codes to
+  `0000` (empty strings exist and are pointed at), file names (`credit17.nbfc`, `/screen/main_base.nbfc`) are ASCII
+  to `00`; after the last string `00` bytes pad to the next code block (unaligned). Code may also follow `FF` direct.
+- rom.img: code + pools 0x4-0x51BB4 (38,766 instructions, 4,210 strings: 4,120 text, 90 file names), then a
+  **data tail 0x51BB4-end** (map trigger tables: `S`-aligned records of u32 script offsets + byte pairs; arm9
+  0x02123434 points at 0x51BB8/0x54A14). No string operand points into it.
+- String operands (u32 at byte offset k): `70`:1 message, `9E`:1 speaker, `4F`:13/17 quest place/client (quest offer;
+  `4F`:9 = offset of a quest.img table, e.g. 0x11D4), `99`:5/9 the same pair (quest update), `60`:1/5/9 and
+  `6B`:1/5/9 bg file names. Jump/code operands: `17`/`54`/`12`:1, `04`:9, `61`:9, `67`/`68`:6, `78`:5, `07`:9.
+  `28 <u32>` is **not** a pointer: handler 0x02054668 swaps bytes 1/2 and passes it to the sound object 0x021BA39C.
+- Every string is pointed at by at least one operand, and every operand lands on a string start (no mid-string
+  entry points).
+- quest.img: own opcode-length table at arm9 0x0210D338 (0x31 entries; `17` = 21 bytes and holds rom.img routine
+  offsets), string operands `20` title, `1A`/`2D` description; one data block 0x11D1-0x11F4 (`00 00 S` + 8 u32
+  quest.img offsets, the table `4F`:9 points at). 1,680 instructions, 637 strings.
 
 ## String references (verified for the first scene, survey for the rest)
 - `70 <u32>` = show message at file offset; `.. 9E <u32>` (seen as `2A 9E`) = set speaker name. At 0x08B2 `2A 9E 80 0C 00 00`
@@ -80,8 +97,9 @@
   staff roll: 16770 `A0 00 01; 0F; 17 459` (clear data, then save) -> back to the title, which then offers
   Story (Buster / Vandel) / 通信 (wireless link: 通信受付 / 通信検索) / GBA link. Before a clear: Story (Buster) / GBA link.
 
-## Insertion plan (guess, prove in phase 3/4)
+## Insertion plan
 Because text is reached only through absolute u32 operands, English can be **appended to the end of the file** and the
-operands repointed; code offsets and jump targets do not move. Needed: an opcode-length table (walk the bytecode from
-each entry point, phase 4) so only real pointer operands are rewritten, never data that looks like one. The file is
-read from the cartridge, so its size is limited only by ROM space (see `rom.md`).
+operands repointed; code offsets, jump targets and the data tail do not move (arm9 and quest.img hold rom.img
+offsets). `tools/scr.py` gives the exact operand positions (`Script.refs`: string start -> [(pc, k)]), so only real
+pointer operands are rewritten. Appended strings must stay 4-aligned (the pool rule; unproven whether the engine
+needs it). The file is read from the cartridge, so its size is limited only by ROM space (see `rom.md`).

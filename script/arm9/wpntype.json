@@ -1,0 +1,637 @@
+{
+ "src": "arm9.bin table 02150254 x79 (0x1c bytes, accessor 0201466C)",
+ "entries": [
+  {
+   "id": "a9.wpntype.000.name",
+   "jp": "片手剣",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150254",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.001.name",
+   "jp": "両手剣",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150270",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.002.name",
+   "jp": "投剣",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215028C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.003.name",
+   "jp": "槍",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021502A8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.004.name",
+   "jp": "斧",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021502C4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.005.name",
+   "jp": "槌",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021502E0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.006.name",
+   "jp": "銃",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021502FC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.007.name",
+   "jp": "弓",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150318",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.008.name",
+   "jp": "鉄球",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150334",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.009.name",
+   "jp": "盾",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150350",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.010.name",
+   "jp": "拳",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215036C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.011.name",
+   "jp": "爪",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150388",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.012.name",
+   "jp": "打撃",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021503A4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.013.name",
+   "jp": "円月輪",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021503C0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.014.name",
+   "jp": "刀",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021503DC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.015.name",
+   "jp": "バーニングランス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021503F8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.016.name",
+   "jp": "エクセリオンブレード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150414",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.017.name",
+   "jp": "ボルティックアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150430",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.018.name",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215044C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.019.name",
+   "jp": "サイクロンガンナー",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150468",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.020.name",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150484",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.021.name",
+   "jp": "サイレントグレイブ",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021504A0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.022.name",
+   "jp": "ライボルトグラスパー",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021504BC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.023.name",
+   "jp": "レッドヴァンソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021504D8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.024.name",
+   "jp": "クリスタルブロッカー",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021504F4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.025.name",
+   "jp": "クラウンシールド",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150510",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.026.name",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215052C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.027.name",
+   "jp": "フルムーンシャフト",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150548",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.028.name",
+   "jp": "ブラスターエッジ",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150564",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.029.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150580",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.030.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215059C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.031.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021505B8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.032.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021505D4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.033.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021505F0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.034.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215060C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.035.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150628",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.036.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150644",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.037.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150660",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.038.name",
+   "jp": "ヒーローソード",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215067C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.039.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150698",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.040.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021506B4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.041.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021506D0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.042.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021506EC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.043.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150708",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.044.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150724",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.045.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150740",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.046.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215075C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.047.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150778",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.048.name",
+   "jp": "ヒーロースピア",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150794",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.049.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021507B0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.050.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021507CC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.051.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021507E8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.052.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150804",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.053.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150820",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.054.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215083C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.055.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150858",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.056.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150874",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.057.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150890",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.058.name",
+   "jp": "ヒーローアックス",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021508AC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.059.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021508C8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.060.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021508E4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.061.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150900",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.062.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215091C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.063.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150938",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.064.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150954",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.065.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150970",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.066.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "0215098C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.067.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021509A8",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.068.name",
+   "jp": "ヒーローガン",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021509C4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.069.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021509E0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.070.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "021509FC",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.071.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150A18",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.072.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150A34",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.073.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150A50",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.074.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150A6C",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.075.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150A88",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.076.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150AA4",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.077.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150AC0",
+   "max": 20
+  },
+  {
+   "id": "a9.wpntype.078.name",
+   "jp": "ヒーローナックル",
+   "en": "",
+   "kind": "wpntype.name",
+   "addr": "02150ADC",
+   "max": 20
+  }
+ ]
+}
