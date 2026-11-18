@@ -1,0 +1,9 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# pilot group: battle menu (bottom screen); index dumps: tools/gfx.py index FILE x,y,w,h
+screen/battle_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Battle Menu
+screen/battle_base.nbfc	0	33	36	14	sb	15	13	c	12,13,14,15	Items
+screen/battle_base.nbfc	0	73	36	14	sb	15	13	c	12,13,14,15	Lineup
+screen/battle_base.nbfc	0	113	36	14	sb	15	13	c	12,13,14,15	Tactics
+screen/battle_base.nbfc	0	153	36	14	sb	15	13	c	12,13,14,15	Skills
+screen/battle_base.nbfc	35	182	42	10	s	14	-	l	13,14	Target
+screen/battle_base.nbfc	122	182	40	10	s	14	-	l	13,14	Pause

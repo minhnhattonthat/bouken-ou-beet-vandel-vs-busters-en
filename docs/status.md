@@ -3,7 +3,30 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build `build/beet_en.nds` sha1 567a59dab94b6f45cfd5cf9c1ccd0af536b2dc35, smoke ok.
+  Build `build/beet_en.nds` sha1 beacd47acfcc3a9503624480facb95b32331d2f2 (battle menu + 57 buttons redrawn), smoke ok,
+  check.py green.
+- **Phase 8 session 2 (2026-11-19), Orca worker: graphics pipeline + pilot.**
+  - `tools/gfx.py` + `gfx/*.tsv` (row format in its docstring), wired into `tools/build.py` and `tools/romcheck.py`
+    (writes logged, CHANGEABLE = files the rows name); `tests/test_gfx.py`; notes in `docs/re/graphics.md` §Redraw
+    pipeline. Narrow label font `tools/smallfont.py` (font `s`/`sb`, drawn for the project; `docs/fonts.md`).
+  - Pilot done and seen in game (zoomed cold-boot warp `b14_idiot`, `work/qa/p8_battle2/z.png`): `gfx/battle.tsv`
+    (バトルメニュー caption, ターゲット/ポーズ footer) and `gfx/buttons.tsv` (57 OBJ buttons, from
+    `tools/gfx_buttons.py` LABELS: battle 道具/隊列/戦術/特技 are sprites, not the BG). Only the battle buttons and caption
+    are confirmed in game so far; the other buttons need a shot on their screens (menu_* warps). UI words: glossary
+    §Graphics UI labels.
+  - Remaining: 221 survey rows in 11 groups, `docs/gfx-groups.tsv` (`tools/gfxgroups.py` regenerates it, dropping
+    files already in gfx/*.tsv): menus 39, shopbuttons 30 (64-tile shop buttons @16, v_* body-part buttons have
+    their own .nbfs), radio 24, cutins 23 (scrambled: need the cell/map data first), windows 22, shops 21,
+    credits 19, title 16, obj 14, info 9, nameopt 4. Brief `docs/graphics-brief.md`; runner
+    `python -X utf8 tools/gfxagent.py GROUP.. --jobs 2` (codex exec, workspace-write, writes gfx/<group>.tsv only;
+    check `git status` after). After each wave: preview, build, warp each screen for a zoomed shot.
+  - Visual-QA verdict run of chunks 004-025 was running in the background at the end of the session
+    (`work/qa/vqa_run2.txt`; 23 verdict files by then, 13 ok / 125 issue, nearly all graphics text). Text issues
+    from it: area.name short forms Norunaji Wood / Byonrin Mt. are fits for the 96 px label (now noted in the
+    glossary); still open: "Vandels." one-word last line (b13_vandel_fight sheet_2 (1,4)), "Resist. D" vs glossary
+    Resistance (v09_charge sheet_2 (1,4)), 昇格値 battle-result banner (not in the survey: find its file),
+    `mode_begin.nbfc` はじめから (survey had '?').
+  - `menu_main` warp exits 2 (Lua error) when run alone with `--frames 900`: use warp_all's settings.
 - **Phase 8 session 1 (2026-11-19), Orca worker:**
   - Phase-7 review fixed: `tools/romcheck.py` now checks the ROM header (invariant bytes vs the dump, regenerated
     offset/size words vs the image, header CRC; test zeroes the ARM9 entry); `lint.glossary_check` makes glossary
@@ -25,9 +48,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8):** finish the verdict run; then the graphics redraws (`docs/re/graphics-survey.tsv`, 279 panels;
-  `$SKILL/references/graphics.md` §Parallel redraws: one pilot group first, e.g. the battle menu buttons and title
-  buttons, which show on most sheets), re-tour, re-verdict; `inkbox.py` on choice/centred boxes; `textcover.py`.
+- **Next (phase 8):** check the verdict run finished (`qa_gate.py todo ...`, rerun missing chunks); shoot the
+  pilot buttons on their menus; run the graphics groups (`tools/gfxagent.py`, 2 at a time, memory is short: ~1.3 GB
+  free), merge and shoot each wave; title logo katakana line and credits need their own approach (credits: whole
+  panels, `bg/credit*.nbfc` + map). Then re-tour, re-verdict; `inkbox.py` on choice/centred boxes; `textcover.py`.
   Open items carried into phase 8:
   - `elem.name` (属性, 10 one-kanji values, still Japanese, listed TEMPORARY in `script/keep_jp.txt`): the value
     canvas is window [[ui]+4]+0x100, drawn by `bl 0x02020240` (12 px) at 0x0208FF3C, at x ~232 next to the 属性

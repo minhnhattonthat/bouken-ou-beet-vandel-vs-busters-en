@@ -94,6 +94,9 @@ def build(out=OUT, mode="en", qa=None, identity=False):
         counts = insert.Inserter(rom, eng, text_for, log, fit=(mode == "marker")).run(insert.load_entries())
         eng.patch_arm9(rom, log)
         print("inserted", counts)
+        if mode == "en":
+            import gfx
+            print("graphics files", gfx.apply(rom, log))
     data = finish(orig, rom.save())
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)

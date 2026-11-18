@@ -5,5 +5,7 @@ per file; a font with no known licence doesn't go into a release.
 
 | File | Source (URL, version) | Licence | Redistributable in a patch | Used for | Changes made |
 |---|---|---|---|---|---|
-| <fonts/vwf_8px.png> | <drawn for this project> | <MIT, same as repo> | yes | <dialogue VWF> | <-> |
-| <fonts/Title.ttf> | <url, v1.2> | <OFL 1.1> | <yes, as rendered glyphs> | <typeset.py title cards> | <-> |
+| ROM `font/lc12x12.bin`, `font/lc10x10.bin`, `font/lc8x8.bin` | the game itself | the game's own glyphs | yes (the patch only re-uses glyphs already in the ROM) | dialogue/menu VWF letters (`tools/engine.py`); graphics labels in `gfx/*.tsv` with font 8/10/12 (`tools/gfx.py`) | cropped to ink, proportional advance |
+| `tools/smallfont.py` | drawn for this project (2026-11-19) | MIT, same as repo | yes | graphics labels in `gfx/*.tsv` with font `s`/`sb` (buttons, captions, footers): 7 px caps, 5 px x-height | - |
+
+No outside font files are used.

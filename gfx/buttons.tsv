@@ -1,0 +1,115 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# array text (33, 11, 52, 20) inks [1, 2] cut-left
+screen/button_array.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Lineup
+# array2 text (22, 11, 41, 20) inks [1, 2]
+screen/button_array2.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Lineup
+# assign text (21, 6, 42, 26) inks [1, 2]
+screen/button_assign.nbfc@8	12	4	40	24	s	1	2	c	1,2	Party|Orders
+# back text (6, 12, 27, 20) inks [1, 2] cut-right
+screen/button_back.nbfc@8	6	4	42	24	sb	1	2	l	1,2	Back
+# busterbook text (20, 6, 45, 26) inks [1, 2]
+screen/button_busterbook.nbfc@8	12	4	40	24	s	1	2	c	1,2	Buster|Book
+# category text (22, 11, 41, 20) inks [1, 2]
+screen/button_category.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Type
+# decision2 text (7, 11, 26, 20) inks [1, 2] cut-right
+screen/button_decision2.nbfc@8	7	4	41	24	sb	1	2	l	1,2	OK
+# detail text (36, 11, 55, 20) inks [1, 2] cut-left
+screen/button_detail.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Details
+# dispatch text (22, 11, 41, 20) inks [1, 2]
+screen/button_dispatch.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Dispatch
+# equip text (22, 11, 41, 20) inks [1, 2]
+screen/button_equip.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Equip
+# equipitem text (22, 10, 41, 19) inks [1, 2]
+screen/button_equipitem.nbfc@8	12	4	40	20	sb	1	2	c	1,2	Equip
+# fast text (18, 11, 47, 20) inks [1, 2]
+screen/button_fast.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Fast
+# finish text (13, 11, 49, 20) inks [1, 2]
+screen/button_finish.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Report
+# giveup text (13, 11, 50, 19) inks [1, 2]
+screen/button_giveup.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Give Up
+# info text (33, 11, 52, 20) inks [1, 2] cut-left
+screen/button_info.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Info
+# monster text (19, 11, 46, 20) inks [1, 2]
+screen/button_monster.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Monsters
+# monsterbook text (19, 6, 46, 26) inks [1, 2]
+screen/button_monsterbook.nbfc@8	12	4	40	24	s	1	2	c	1,2	Monster|Book
+# name text (22, 11, 41, 20) inks [1, 2]
+screen/button_name.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Name
+# no text (18, 12, 45, 20) inks [1, 2]
+screen/button_no.nbfc@8	12	4	40	24	sb	1	2	c	1,2	No
+# normal text (18, 11, 46, 20) inks [1, 2]
+screen/button_normal.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Normal
+# option text (29, 11, 56, 20) inks [1, 2] cut-left
+screen/button_option.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Options
+# order text (36, 11, 55, 20) inks [1, 2] cut-left
+screen/button_order.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Orders
+# party text (32, 10, 53, 20) inks [1, 2] cut-left
+screen/button_party.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Party
+# quest text (20, 11, 44, 20) inks [1, 2]
+screen/button_quest.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Quests
+# quickcommand text (20, 6, 44, 25) inks [1, 2]
+screen/button_quickcommand.nbfc@8	12	4	40	24	s	1	2	c	1,2	Quick|Command
+# saiga text (22, 10, 41, 19) inks [1, 2]
+screen/button_saiga.nbfc@8	12	4	40	20	sb	1	2	c	1,2	Saiga
+# saiga2 text (22, 11, 41, 20) inks [1, 2]
+screen/button_saiga2.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Saiga
+# save text (34, 11, 52, 20) inks [1, 2] cut-left
+screen/button_save.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Save
+# shuffle text (15, 12, 49, 20) inks [1, 2]
+screen/button_shuffle.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Swap
+# skill text (33, 11, 52, 20) inks [1, 2] cut-left
+screen/button_skill.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Skills
+# skill2 text (22, 11, 41, 20) inks [1, 2]
+screen/button_skill2.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Skills
+# slow text (17, 11, 46, 20) inks [1, 2]
+screen/button_slow.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Slow
+# sort_armor text (22, 11, 41, 20) inks [1, 2]
+screen/button_sort_armor.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Armor
+# sort_tool text (22, 11, 41, 20) inks [1, 2]
+screen/button_sort_tool.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Items
+# sort_treasure text (17, 11, 46, 20) inks [1, 2]
+screen/button_sort_treasure.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Treasure
+# sort_weapon text (22, 11, 41, 20) inks [1, 2]
+screen/button_sort_weapon.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Weapons
+# status text (19, 11, 45, 20) inks [1, 2]
+screen/button_status.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Status
+# tactics text (22, 12, 41, 21) inks [1, 2]
+screen/button_tactics.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Tactics
+# tactics2 text (33, 11, 52, 20) inks [1, 2] cut-left
+screen/button_tactics2.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Tactics
+# tengeki text (22, 10, 41, 19) inks [1, 2]
+screen/button_tengeki.nbfc@8	12	4	40	20	s	1	2	c	1,2	Divine|Attack
+# tengeki2 text (37, 12, 56, 21) inks [1, 2] cut-left
+screen/button_tengeki2.nbfc@8	23	4	37	24	s	1	2	c	1,2	Divine|Attack
+# tengeki3 text (22, 11, 41, 20) inks [1, 2]
+screen/button_tengeki3.nbfc@8	12	4	40	24	s	1	2	c	1,2	Divine|Attack
+# tool text (33, 11, 52, 20) inks [1, 2] cut-left
+screen/button_tool.nbfc@8	23	4	37	24	sb	1	2	c	1,2	Items
+# tool2 text (22, 11, 41, 20) inks [1, 2]
+screen/button_tool2.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Items
+# undo2 text (20, 12, 44, 20) inks [1, 2]
+screen/button_undo2.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Remove
+# uptake text (16, 10, 48, 19) inks [1, 2]
+screen/button_uptake.nbfc@8	4	4	56	20	sb	1	2	c	1,2	Uptake
+# v_assign text (22, 7, 41, 26) inks [1, 2]
+screen/button_v_assign.nbfc@8	12	4	40	24	s	1	2	c	1,2	Force|Orders
+# v_meigeki text (22, 10, 41, 19) inks [1, 2]
+screen/button_v_meigeki.nbfc@8	12	4	40	20	s	1	2	c	1,2	Dark|Attack
+# v_meigeki2 text (36, 11, 55, 20) inks [1, 2] cut-left
+screen/button_v_meigeki2.nbfc@8	23	4	37	24	s	1	2	c	1,2	Dark|Attack
+# v_meigeki3 text (22, 11, 41, 20) inks [1, 2]
+screen/button_v_meigeki3.nbfc@8	12	4	40	24	s	1	2	c	1,2	Dark|Attack
+# v_party text (35, 11, 54, 20) inks [1, 2] cut-left
+screen/button_v_party.nbfc@8	23	4	38	24	sb	1	2	c	1,2	Force
+# v_trap text (27, 11, 36, 20) inks [1, 2]
+screen/button_v_trap.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Trap
+# v_uptake text (16, 6, 48, 26) inks [1, 2]
+screen/button_v_uptake.nbfc@8	12	4	40	24	s	1	2	c	1,2	Monster|Uptake
+# v_waza text (28, 10, 37, 19) inks [1, 2]
+screen/button_v_waza.nbfc@8	12	4	40	20	sb	1	2	c	1,2	Skills
+# v_waza2 text (28, 11, 37, 20) inks [1, 2]
+screen/button_v_waza2.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Skills
+# vandelbook text (16, 6, 48, 26) inks [1, 2]
+screen/button_vandelbook.nbfc@8	12	4	40	24	s	1	2	c	1,2	Vandel|Book
+# yes text (20, 12, 44, 20) inks [1, 2]
+screen/button_yes.nbfc@8	12	4	40	24	sb	1	2	c	1,2	Yes

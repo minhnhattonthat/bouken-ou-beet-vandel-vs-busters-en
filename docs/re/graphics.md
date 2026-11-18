@@ -28,6 +28,26 @@ face portraits and item/saiga icons; it returned no rows, confirmed by reading s
 | `status/bitmap/main_char_v_parts3.ob` | 1 | 星 | OBJ tile |
 | `screen/title.nbfc` | 1 | title logo: 冒険王ビィト + VANDEL VS BUSTERS + ヴァンデル バーサス バスターズ | the game has no official English logo; the English part already exists. Proposed: keep the art, replace the katakana subtitle line (non-blocking note in status.md) |
 
+## Redraw pipeline (phase 8, 2026-11-19)
+- `gfx/*.tsv` rows (file, clear rect, font, ink, shadow, align, erase indices, English) -> `tools/gfx.py`, called by
+  `tools/build.py` (English builds only); every changed byte run is logged as a write (`FILE OFF ORIG NEW gfx`), and
+  `tools/romcheck.py` allows exactly the files the rows name (`gfx.files()`). `tests/test_gfx.py`: a no-op re-tile
+  is byte-identical; no pixel changes outside the declared rects.
+- BG screens (`.nbfc` + `.nbfs`) are edited in screen space and re-tiled: unchanged cells keep their entries, changed
+  cells reuse a matching tile (any flip), take a tile only changed cells used, else append. battle_base grew
+  428 -> 436 tiles and shows clean in game (its char block has room); check the notes `gfx:` prints for others.
+- OBJ buttons (`screen/button_*.nbfc`, no map) are 64x32 sprites in 1D order (`@8`). Buttons without a left frame
+  are drawn cut by the screen edge (battle menu, main menu): visible from sprite x 23. Buttons without a right
+  frame (もどる, 決定) are cut on the right: the English keeps the Japanese's left edge. `tools/gfx_buttons.py`
+  writes `gfx/buttons.tsv` from its LABELS.
+- Fonts: the game's lc12/10/8 glyphs (font `12`/`10`/`8`) and `tools/smallfont.py` (font `s`, bold `sb`), 7 px caps:
+  the 8 px game glyphs are too wide for 36 px buttons (Tactics 37 px).
+- Palettes: most screen files have no `.nbfp`; the game sets them in code. Ink/shadow are chosen from the original
+  lettering's indices (`tools/gfx.py index`); previews use a grey ramp. Battle menu: lettering 12-15 on a 8-11
+  dithered fill, ink 15 shadow 13; buttons: ink 1, outline 2 on fill 8-12.
+- Remaining rows by group: `docs/gfx-groups.tsv` (`tools/gfxgroups.py`), brief `docs/graphics-brief.md`, runner
+  `tools/gfxagent.py` (codex exec).
+
 English-only UI graphics already present (no work): GAME OVER, HIT, ESCAPE, MG, TARGET, USER, SKILL, NAME ENTRY, OPTION…
 
 ## Not covered by the static sweep (must be covered by the phase-5 marker tour)

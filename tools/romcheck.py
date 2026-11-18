@@ -34,6 +34,8 @@ A9 = 0x02000000
 # files the build may change; anything else must stay byte-identical
 CHANGEABLE = {'arm9', 'field/script/rom.img', 'quest/quest.img', 'status/bustername/busterman.bin',
               'status/bustername/busterwoman.bin'}
+import gfx  # noqa: E402
+CHANGEABLE |= gfx.files()   # graphics redraws (gfx/*.tsv): tile files and their maps
 SCRIPT_FILES = {'field/script/rom.img', 'quest/quest.img'}
 
 
