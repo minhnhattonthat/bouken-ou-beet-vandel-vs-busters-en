@@ -1,0 +1,1671 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.35DC8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35DDC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35DF0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E04",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E18",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E2C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E40",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E54",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E68",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E7C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35E90",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35EA4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35EB8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35ECC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35EE0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35EF4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F08",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F1C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F30",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F44",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F58",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F6C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F80",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35F94",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35FA8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35FBC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35FD0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35FE4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.35FF8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3600C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36020",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36034",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36048",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3605C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36070",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36084",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36098",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.360AC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.360C0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.360D4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.360E8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.360FC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36110",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36124",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36138",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3614C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36160",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36174",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36188",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3619C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.361B0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.361C4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.361D8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.361EC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36200",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36214",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36228",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3623C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36250",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36264",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36278",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3628C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.362A0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.362B4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.362C8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.362DC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.362F0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36304",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36318",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3632C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36340",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36354",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36368",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3637C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36390",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.363A4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.363B8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.363CC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.363E0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.363F4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36408",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3641C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36430",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36444",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36458",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3646C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36480",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36494",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.364A8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.364BC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.364D0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.364E4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.364F8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3650C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36520",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36534",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36548",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3655C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36570",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36584",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36598",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.365AC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.365C0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.365D4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.365E8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.365FC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36610",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36624",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36638",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3664C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36660",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36674",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36688",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3669C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.366B0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.366C4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.366D8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.366EC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36700",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36714",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36728",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3673C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36750",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36764",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36778",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3678C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.367A0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.367B4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.367C8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.367DC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.367F0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36804",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36818",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3682C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36840",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36854",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36868",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3687C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36890",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.368A4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.368B8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.368CC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.368E0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.368F4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36908",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3691C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36930",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36944",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36958",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3696C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36980",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36994",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.369A8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.369BC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.369D0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.369E4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.369F8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A0C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A20",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A34",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A48",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A5C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A70",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A84",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36A98",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36AAC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36AC0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36AD4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36AE8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36AFC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B10",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B24",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B38",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B4C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B60",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B74",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B88",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36B9C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36BB0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36BC4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36BD8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36BEC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C00",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C14",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C28",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C3C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C50",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C64",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C78",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36C8C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36CA0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36CB4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36CC8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36CDC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36CF0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D04",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D18",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D2C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D40",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D54",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D68",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D7C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.36D90",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37D48",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37D5C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37D70",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37D84",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37D98",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37DAC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37DC0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37DD4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37DE8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37DFC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E10",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E24",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E38",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E4C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E60",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E74",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E88",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37E9C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37EB0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37EC4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37ED8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37EEC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F00",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F14",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F28",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F3C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F50",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F64",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F78",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37F8C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37FA0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37FB4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37FC8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37FDC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.37FF0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  }
+ ]
+}

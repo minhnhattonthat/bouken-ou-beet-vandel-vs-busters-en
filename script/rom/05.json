@@ -1,0 +1,2291 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.141A8",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.141B0",
+   "jp": "おう！{br}{hero}！！{close}",
+   "en": "Hey! {hero}!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.141C4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.141CC",
+   "jp": "ごめん　遅くなっちゃって・・・{close}",
+   "en": "Sorry we're so late...{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.141F0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.141F8",
+   "jp": "ゼナさんに聞きました！{br}レナさんが　この黄金城に{br}捕らえられているって・・・{close}",
+   "en": "Zena-san told us! Lena-san is being{br}held here in the Golden Castle...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14248",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14250",
+   "jp": "{hero}・・・{close}",
+   "en": "{hero}...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1425C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14264",
+   "jp": "安心しろって！{br}「まだ大丈夫！」{br}ゼナさんがそう言ってたぜ！！{close}",
+   "en": "Don't worry! \"She's still all right!\"{br}That's what Zena-san said!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.142A8",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.142B0",
+   "jp": "ええ　ホントよ！{close}",
+   "en": "Yes, it's true!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.142C4",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.142CC",
+   "jp": "手分けして　さがそうよ！！{close}",
+   "en": "Let's split up and search!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.142EC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.142F4",
+   "jp": "そうそう！{br}手分けすりゃー　すぐ見つかるって！{close}",
+   "en": "Yeah, that's it! We'll find her in no{br}time if we split up!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14328",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14330",
+   "jp": "急ぎましょう！{close}",
+   "en": "Let's hurry!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14344",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1434C",
+   "jp": "ぼくたちは　この右の方をさがすから{br}{hero}は{br}左の方をさがして！！{close}",
+   "en": "We'll search over here on the right.{br}{hero}, you search the left!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14390",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14398",
+   "jp": "じゃぁ　あとでね！{close}",
+   "en": "See you in a bit!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.143B0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.143B8",
+   "jp": "あと　一息！{br}がんばろうね！！{close}",
+   "en": "We're almost there! Let's keep at it!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.143DC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.143E4",
+   "jp": "じゃ！　また後でな！！{close}",
+   "en": "Right! See ya later!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.144CC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.144D8",
+   "jp": "バカヤロウ！！{close}",
+   "en": "You idiot!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.144EC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.144F8",
+   "jp": "おい・・・冗談だろ・・・{page}このゴージャス　アンド　リッチな{br}黄金城にあのゴミどもが{br}土足で歩き回っているとはな・・・{page}やはり　貴様では話にならんのか・・・{br}ちいっ・・・{page}さっさと行って　始末してこいっ！！{close}",
+   "en": "Hey... This is a joke, right...?{page}That trash is stomping around in my{br}gorgeous and rich Golden Castle{br}with their filthy shoes...{page}So you really are utterly useless...{br}Tch...{page}Get out there and dispose of them{br}already!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.145C8",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.145CC",
+   "jp": "はっ・・・！{close}",
+   "en": "Yes, sir...!{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.145DC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.145E8",
+   "jp": "まったく　底抜けに{br}役に立たんやつだっ！！{page}これだから・・・{page}ええいっ！！{br}怒るネタも尽きたわいっ！！！{close}",
+   "en": "There is simply no end to your{br}uselessness!!{page}This is why...{page}Bah!! I've run out of things to rant{br}about!!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.14654",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14660",
+   "jp": "まぁ　このワシ・・・{page}八輝星になる本命のヴァンデルが{br}このようなことで　大声を張り上げるのも{br}よくないな・・・{page}クックックッ・・・{page}見ろ！！{br}このまばゆいばかりに光輝く{br}黄金城をっ！！！{page}この黄金城のすばらしさ{br}バスターごときに分かるまいっ！！{close}",
+   "en": "Well, I suppose...{page}As the Vandel most likely to join the{br}Eight Shining Stars, I shouldn't raise{br}my voice over such trifles...{page}Heh heh heh...{page}Behold!! The dazzling splendor of my{br}Golden Castle!!!{page}Mere Busters could never{br}appreciate its magnificence!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.14758",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14764",
+   "jp": "ゴージャス　アンド　リーーーッチ！！{close}",
+   "en": "Gorgeous and riiiiich!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1478C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14798",
+   "jp": "ガーーッハッハッハッ！！！{close}",
+   "en": "Gwaaahahahaha!!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.14B40",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14B48",
+   "jp": "・・・{page}・・・{br}{hero}・・・{page}・・・{br}{hero}？{page}{hero}なの？・・・{page}！！{page}{hero}ダメ！{br}逃げて！{close}",
+   "en": "...{page}... {hero}...{page}... {hero}?{page}Is that you, {hero}...?{page}!!{page}{hero}, no! Run!{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14B9C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14BA4",
+   "jp": "おーい！{hero}！{br}見つかったか！？{close}",
+   "en": "Hey, {hero}! Did you find her!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14BC8",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14BD0",
+   "jp": "ビィト　見て！！{br}あの台の上に！！{close}",
+   "en": "Beet, look!! Up on that platform!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14BF8",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C00",
+   "jp": "え？　どこだ？{close}",
+   "en": "Huh? Where?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C14",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C1C",
+   "jp": "ビィト！{br}ほら　あそこ！！{close}",
+   "en": "Beet! Look, over there!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C3C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C44",
+   "jp": "レナさん！！　大丈夫！？{close}",
+   "en": "Lena-san!! Are you all right!?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C60",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C68",
+   "jp": "ひでぇ・・・{br}あいつらは　いっつもこうだ・・・{close}",
+   "en": "That's rotten... Those creeps{br}always pull this stuff...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14C9C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14CA4",
+   "jp": "ゆるせねぇ・・・{close}",
+   "en": "They ain't getting away with this...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14CB8",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14CC0",
+   "jp": "みんな・・・{br}早く逃げて・・・{page}こ・・・れは{br}ワナ・・・よ・・・{close}",
+   "en": "Everyone... Hurry, run...{page}Th... This is a trap...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D04",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D0C",
+   "jp": "なんだって！？{close}",
+   "en": "What!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D20",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D24",
+   "jp": "フッ・・・{close}",
+   "en": "Heh...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D34",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D40",
+   "jp": "ウケケケケッ！！{br}オレ様も　復活だっ！！{close}",
+   "en": "Ukekekeke!! I'm back, too!!{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D6C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D74",
+   "jp": "しまった！{br}ビィト　後ろよ！{close}",
+   "en": "Oh no! Beet, behind you!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14D94",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14DA4",
+   "jp": "ここがオマエたちの墓場だぜ・・・{close}",
+   "en": "This is where you're gonna be{br}buried...{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.14DC8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14DD0",
+   "jp": "逃げ道を　ふさがれたよ！{close}",
+   "en": "They've cut off our escape!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14DEC",
+   "jp": "ロズゴート",
+   "en": "Rozgoat",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14DF8",
+   "jp": "お見せしよう！{br}我が冥力の極地・・・！！{close}",
+   "en": "Behold! The pinnacle of my Dark{br}Power...!!{close}",
+   "kind": "msg",
+   "speaker": "ロズゴート",
+   "refs": 1
+  },
+  {
+   "id": "rom.14E24",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14E2C",
+   "jp": "どこかで見たようなやつが{br}せいぞろいだな！！{close}",
+   "en": "A whole lineup of guys I've seen{br}somewhere before!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14E5C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14E64",
+   "jp": "肖像のトラップだっ！！{close}",
+   "en": "It's an effigy trap!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14E80",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14E88",
+   "jp": "あいつ　逃げたな！{close}",
+   "en": "He ran off!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14EA0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14EA8",
+   "jp": "本当に　逃げたのかなぁ・・・{close}",
+   "en": "Did he really run away...?{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14EC8",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14ED0",
+   "jp": "みんな！　見て！！{close}",
+   "en": "Everyone! Look!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14EE8",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14EF0",
+   "jp": "やった！{br}うまく　クサリが外れたわ！！{close}",
+   "en": "Yes! I got the chains off!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F1C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F24",
+   "jp": "レナさん！！　大丈夫！？{close}",
+   "en": "Lena-san!! Are you all right!?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F40",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F48",
+   "jp": "・・・み・・・みんな・・・{close}",
+   "en": "...E... Everyone...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F68",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F70",
+   "jp": "なんとか助かったみたいだな・・・{close}",
+   "en": "Looks like we made it out of that{br}one...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F94",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14F9C",
+   "jp": "レナさんは　わたしにまかせて！{close}",
+   "en": "Leave Lena-san to me!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.14FC0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14FC8",
+   "jp": "うん！{close}",
+   "en": "Right!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.14FD4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.14FDC",
+   "jp": "無事レナさんを助けられた・・・{br}ってことは・・・{br}よーし{hero}！！{close}",
+   "en": "We got Lena-san out safe... Which{br}means... All right, {hero}!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15020",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15028",
+   "jp": "いよいよだぜ！！{page}この黄金城の　ボスヴァンデルを{br}ぶったおそうぜ！！{close}",
+   "en": "This is it!!{page}Let's take down the Vandel boss of{br}this Golden Castle!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15070",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15078",
+   "jp": "そして　金に染まった女神像の{br}修復だね！！{page}そうしたらついに　この双子島の戦いは{br}終わるよ！！{close}",
+   "en": "Then we restore the goddess{br}statue that's turned to gold!!{page}Once we do, the battle for the Twin{br}Islands will finally be over!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.150DC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.150E4",
+   "jp": "よっしゃ！！　あと一息！！{br}しまって　行こうぜ！！{close}",
+   "en": "All right!! Just a little more!! Let's{br}stay sharp and go!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1511C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15124",
+   "jp": "うん！！{close}",
+   "en": "Right!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.15454",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1545C",
+   "jp": "いたぞ！{br}お待ちかねみたいだぜ！！{close}",
+   "en": "There he is! Looks like he's been{br}waiting for us!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15484",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1548C",
+   "jp": "今度こそ{br}とどめを　さしましょう・・・！{page}あれ・・・？{close}",
+   "en": "Let's finish him off this time...!{page}Huh...?{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.154C8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.154D0",
+   "jp": "あのヴァンデルの紋章って{br}{hero}のバンダナの模様と{br}同じじゃない・・・？{close}",
+   "en": "Isn't that Vandel's emblem the same{br}as the pattern on your Bandanna,{br}{hero}...?{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.15518",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1551C",
+   "jp": "！？{close}",
+   "en": "!?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.15524",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1552C",
+   "jp": "本当だっ！{br}いっしょだぜ・・・{close}",
+   "en": "You're right! They're the same...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15550",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15554",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.15560",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15568",
+   "jp": "{hero}！{br}行くぜ！！！{close}",
+   "en": "{hero}! Let's go!!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15580",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15584",
+   "jp": "少しは　やるようだな・・・{close}",
+   "en": "So you do have some skill...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.155A4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.155AC",
+   "jp": "あいつ！{br}どこ行くつもりだっ！！{close}",
+   "en": "Hey! Where does he think he's going!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.155D0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.155D8",
+   "jp": "{hero}・・・{br}早く　後を追いましょう！！{close}",
+   "en": "{hero}... Let's hurry after him!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.15600",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15604",
+   "jp": "ねーねー　お父さん{br}あれ　だれー？？{close}",
+   "en": "Hey, Dad! Who's that over there?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.1562C",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15634",
+   "jp": "{hero}・・・{br}門の中に向かって　思いっきり{br}走れ　分かったか？{page}絶対　里に入るまで　後ろを見たら{br}だめだぞ・・・{close}",
+   "en": "{hero}... Run through the gate{br}as fast as you can. Understand?{page}Don't look back until you're inside{br}the village. No matter what...{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.156A4",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.156A8",
+   "jp": "お父さんは？？{close}",
+   "en": "What about you, Dad?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.156BC",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.156C4",
+   "jp": "お父さんと　かけっこで　競争だ{br}いいな　思いっきり　走るんだぞ！{close}",
+   "en": "You and I are having a race! Ready?{br}Run as fast as you can!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.15708",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1570C",
+   "jp": "うん！　わかった！！{close}",
+   "en": "Yeah! Okay!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.15724",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1572C",
+   "jp": "・・・よし　いくぞ！{br}よーい{br}・・・・・・{page}スタート！！{close}",
+   "en": "...All right, here we go! Ready... Set...{page}Go!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.15768",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1576C",
+   "jp": "わーーい！{br}お父さんに　負けないよーー！！{close}",
+   "en": "Yaaay! You won't beat me, Dad!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.1579C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.157A0",
+   "jp": "あれ？{br}お父さんは？？{close}",
+   "en": "Huh? Where's Dad?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.157BC",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.157C0",
+   "jp": "{hero}{br}母さんを頼んだぞーー！！{close}",
+   "en": "{hero}! Take care of your{br}mother!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.157E0",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.157E4",
+   "jp": "お父さん！？{close}",
+   "en": "Dad!?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.157F4",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.157F8",
+   "jp": "お父さん・・・{close}",
+   "en": "Dad...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.1580C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15810",
+   "jp": "ぼくは　あいつを{br}ぜったいに　ゆるさない・・・{page}わーーーーーーーーっ！！{close}",
+   "en": "I'll never forgive him... Never...{page}Aaaaaaah!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.159DC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.159E8",
+   "jp": "クックックッ・・・{page}この黄金城の「謁見の間」に{br}バスターが　くるとはなっ！！{page}オモシロイっ！！{page}オモシロイぞっ！！{page}最高に　愉快だっ！！{close}",
+   "en": "Heh heh heh...{page}Busters, here in the Golden Castle's{br}\"Audience Hall\"!!{page}How amusing!!{page}How very amusing!!{page}This is absolutely delightful!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15A74",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15A80",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15A9C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15AA8",
+   "jp": "どうだ！　おまえら虫けらに{br}この黄金城の　すばらしさが{br}少しは分かるのか？{page}え？{br}どうなんだ　オイッ！！{close}",
+   "en": "Well! Can you vermin grasp even a{br}fraction of this Golden Castle's{br}splendor?{page}Eh? Well, answer me!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15B14",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15B1C",
+   "jp": "何がすばらしいだよ・・・{br}ホント悪趣味だぜ・・・{close}",
+   "en": "What's so splendid about it...? It's{br}just plain tacky...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15B50",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15B5C",
+   "jp": "・・・{page}つまらん・・・{close}",
+   "en": "...{page}How dull...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15B78",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15B84",
+   "jp": "つぅまぁらぁんぞぉぉっっっ！！！！！！{close}",
+   "en": "DUUUULLLL!!!!!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15BB0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15BB8",
+   "jp": "コイツっ！{br}すげぇ　冥力だっ！！{close}",
+   "en": "This guy! His Dark Power's incredible!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15BDC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15BE8",
+   "jp": "ワシの　この美しき黄金城を{br}そのクソ汚い足で　汚した罪！！{page}この　ゴージャス　アンド　リーーッチな{br}尊き空間を　理解できない罪！！{page}万死に値するっ！！{close}",
+   "en": "The crime of sullying my beautiful{br}Golden Castle with your filthy feet!!{page}The crime of failing to appreciate{br}this exalted space, so gorgeous and{br}riiich!!{page}You deserve ten thousand deaths!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15C84",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15C8C",
+   "jp": "く・・・くるよっ！！{close}",
+   "en": "H-he's coming!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.15CA4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15CB0",
+   "jp": "この世から{br}消えてなくなれっっ！！！！！！{close}",
+   "en": "Vanish from this world!!!!!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15CE0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15CEC",
+   "jp": "お・・・{br}おのれっっ・・・{page}次会うときは{br}消し去ってやるからなっ！！{close}",
+   "en": "Y-you... wretches...{page}Next time we meet, I'll erase you!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.15D34",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15D3C",
+   "jp": "なんだよ！{br}逃げんのかっ！！{close}",
+   "en": "Hey! You're running away!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.15D5C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.15D64",
+   "jp": "追いかけよう！！{close}",
+   "en": "Let's go after him!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1616C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16178",
+   "jp": "貴様ッ！！{br}そこで何をしているっ！！{page}ここは　城主の間・・・{br}ワシしか入れぬ領域だぞっ！！{close}",
+   "en": "You!! What are you doing in here!?{page}This is the Lord's Chamber... Only I{br}may enter this domain!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.161D8",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.161DC",
+   "jp": "フッ・・・{close}",
+   "en": "Heh...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.161EC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.161F8",
+   "jp": "ガハッ！！{page}き・・・貴様っ！！{br}どういうつもりだっ！！{close}",
+   "en": "Gah!!{page}Y-you!! What is the meaning of this!?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.16234",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16238",
+   "jp": "聞こえんな・・・{close}",
+   "en": "I can't hear you...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.1624C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16254",
+   "jp": "あれ・・・なんだっ！？{close}",
+   "en": "What's... going on!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.16270",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1627C",
+   "jp": "ま　まてっ！！{close}",
+   "en": "W-wait!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.16290",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1629C",
+   "jp": "ガハァーーーッ！！{close}",
+   "en": "GAAAAHH!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.162B4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.162BC",
+   "jp": "な・・・仲間割れかっ！？{close}",
+   "en": "Th-they're turning on each other!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.162D8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.162E0",
+   "jp": "あいつ・・・{br}今までとは　桁違いの冥力だよ・・・{close}",
+   "en": "His Dark Power... It's on a whole{br}different level from before...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.16314",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1631C",
+   "jp": "あぁ・・・{br}ピリビリくるぜっ！！{br}すげぇ　やつだ・・・！！{close}",
+   "en": "Yeah... I can feel it prickling all over!!{br}He's incredible...!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1635C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16364",
+   "jp": "{hero}・・・{close}",
+   "en": "{hero}...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.16370",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16378",
+   "jp": "行くんだろ・・・{close}",
+   "en": "You're going, right...?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1638C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16394",
+   "jp": "行けよ・・・{br}ケリつけてこいよ・・・！{close}",
+   "en": "Go on... Settle this...!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.163C0",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.163C4",
+   "jp": "我の野望を邪魔するとは・・・{page}貴様らには死を以って{br}つぐなってもらう！！{close}",
+   "en": "You dare obstruct my ambitions...{page}You shall pay with your lives!!{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.16410",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16414",
+   "jp": "うォーーーーーーーーっ！！！{close}",
+   "en": "RAAAAAAAHH!!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.16434",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1643C",
+   "jp": "よし！！{br}今度こそ　いけるぜっ！！{close}",
+   "en": "All right!! We've got him this time!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.16464",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1646C",
+   "jp": "さぁ！　{hero}！{br}きみの手で　とどめをっ！！{close}",
+   "en": "Now, {hero}! Finish him with{br}your own hands!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.16498",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.164A0",
+   "jp": "・・・よし　いくぞ！{br}よーい{br}・・・・・・{page}スタート！！{close}",
+   "en": "...All right, here we go! Ready... Set...{page}Go!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.164DC",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.164E0",
+   "jp": "わーーい！{br}お父さんに　負けないよーー！！{close}",
+   "en": "Yaaay! You won't beat me, Dad!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.16510",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16518",
+   "jp": "{hero}大きくなれ・・・{close}",
+   "en": "{hero}, grow up big...{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.16530",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16538",
+   "jp": "{hero}{page}強くなれーーっ！！{close}",
+   "en": "{hero}...{page}Grow up strong!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.16554",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1655C",
+   "jp": "{hero}・・・{page}やさしく・・・な・・・れ・・・{close}",
+   "en": "{hero}...{page}Be... kind...{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.16588",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16590",
+   "jp": "よし！！{br}決まったぜっ！！{close}",
+   "en": "All right!! That did it!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.165B0",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.165B4",
+   "jp": "くっ・・・{page}おまえらごときに{br}やられるとはな・・・{close}",
+   "en": "Gh...{page}To think I would fall to the likes of{br}you...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.165EC",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.165F0",
+   "jp": "グフッ・・・{close}",
+   "en": "Guh...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.16600",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16608",
+   "jp": "やったぁっ！！{close}",
+   "en": "We did it!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1661C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16620",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.1662C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16634",
+   "jp": "{hero}・・・{close}",
+   "en": "{hero}...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.16640",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16648",
+   "jp": "よし！！{br}双子島の大掃除　完了だぜっ！！{close}",
+   "en": "All right!! The Twin Islands are all{br}cleaned up!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.16674",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1667C",
+   "jp": "すっきりしたーーーっ！！{close}",
+   "en": "That feels soooo good!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.16698",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1669C",
+   "jp": "プッ・・・{close}",
+   "en": "Pfft...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.166AC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.166B4",
+   "jp": "なんだよー{br}{hero}も笑うんじゃん！！{br}アハハ！！{close}",
+   "en": "Hey, look! {hero} laughs too!!{br}Ahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.166E4",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.166EC",
+   "jp": "ハハハ！！{close}",
+   "en": "Hahaha!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.166FC",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16700",
+   "jp": "アハハハハ{close}",
+   "en": "Ahahahaha!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.169D0",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.169D8",
+   "jp": "おお{br}いいところに来た{page}ちょうど　ついさっき　「鑑定小屋」を{br}開いたところじゃ{page}もよく知っておるように{br}突如現れた「ヴァンデル」の手によって{br}この地上は蹂躙され{page}我々は　いつ終わるとも知れぬ{br}「暗黒の世紀」を　生きておる・・・{page}この状況を　打破するために誕生したのが{br}「ヴァンデルバスター」じゃ・・・{page}世界で活躍しておった　賞金稼ぎたちが{br}その　元祖になったと{br}言われておる・・・{page}バスターは　己の戦闘技術を駆使して{br}各地に存在する　ヴァンデルと{br}モンスターを倒すことで{page}報奨金を　獲得して{br}生計を立てておる・・・{page}ヴァンデルには　莫大な報奨金が{br}かけられておるため　一攫千金を狙って{br}バスターになる腕自慢も多いが・・・{page}その多くが　命を落とすという{br}非常に　危険な職業なのじゃ・・・{close}",
+   "en": "",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.16C88",
+   "jp": "ヒーロー",
+   "en": "Hero",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16C94",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "ヒーロー",
+   "refs": 1
+  },
+  {
+   "id": "rom.16CA0",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16CA8",
+   "jp": "そんな　バスターの活動を支援するために{br}バスター協会が　存在しておる・・・{page}「暗黒の世紀」に　終止符を打つために　{br}グランシスタ王国が母体となって{br}バスター協会が発足したわけじゃが・・・{page}バスター協会は　バスターの活動を{br}支援するために　先刻各地に{br}「鑑定小屋」を設置しておる・・・{page}「鑑定小屋」は　バスターにとって{br}重要な施設じゃぞ{page}まずは　ここで　依頼を受けるのじゃ{br}それから　その依頼を　達成させて{br}必ず　その終了報告をすること{page}そうすれば　網膜鑑定の後　その依頼に{br}見合った　報奨金と昇格値を{br}手に入れることが　できるのじゃ・・・{page}バスターたるもの「鑑定小屋」に{br}マメに通い　情報収集を怠っては{br}ならぬぞ・・・{close}",
+   "en": "",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.16F18",
+   "jp": "ヒーロー",
+   "en": "Hero",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16F24",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "ヒーロー",
+   "refs": 1
+  },
+  {
+   "id": "rom.16F30",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.16F38",
+   "jp": "おぬしも　知っての通り{br}この双子島は　それはそれは{br}平和な島じゃった・・・{page}ところが近頃は　モンスターが{br}はびこるようになり　また　異常気象が{br}続くようになってしまった・・・{page}どうも　西の里を攻め滅ぼした{br}ヴァンデルが　徐々に勢力を{br}拡大しているらしい・・・{page}かなり強力な{br}ヴァンデルのようじゃ・・・{page}残念ながら　西の島は{br}ほぼ全滅かもしれん・・・{page}ヴァンデルによって　この島の{br}各地にある　「封印のリング」が{br}破壊されておるのは　知っておるかな？{close}",
+   "en": "As you know, the Twin Islands were{br}once ever so peaceful...{page}But lately, monsters have overrun{br}them, and the strange weather{br}shows no sign of letting up...{page}It seems the Vandel who destroyed{br}West Village is gradually expanding{br}his reach...{page}A very powerful Vandel, by the{br}sound of it...{page}Sadly, West Island may already be{br}almost entirely lost...{page}Have you heard that Vandels are{br}destroying the \"Sealing Rings\"{br}scattered across this island?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.170FC",
+   "jp": "ヒーロー",
+   "en": "Hero",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17108",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "ヒーロー",
+   "refs": 1
+  },
+  {
+   "id": "rom.17114",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1711C",
+   "jp": "ヴァンデルは「封印のリング」を{br}破壊して　この双子島を　黄金の島に{br}しようとしているらしいのだ・・・{page}不思議なことに　金にそまった地域には{br}モンスターが　次々に増殖し{br}始めておる・・・{page}最近の異常気象も　どうも{br}「封印のリング」の破壊と　関係が{br}あるようなのじゃ・・・{page}そこで　この双子島を守るために{br}「封印のリング」の修復を{br}進めたいのじゃ・・・{page}このアイテム　「聖なる銀のしずく」を{br}破壊された　「封印のリング」に{br}かけるのじゃ{page}そうすれば　「封印のリング」は{br}元に　もどる！{close}",
+   "en": "It seems the Vandels mean to{br}destroy the Sealing Rings and turn{br}the Twin Islands into islands of{page}gold...{page}Strangely, monsters have begun{br}multiplying wherever the land has{br}turned to gold...{page}The strange weather of late also{br}seems connected to the{br}destruction of the Sealing Rings...{page}So, to protect the Twin Islands, we{br}must set about repairing the Sealing{br}Rings...{page}Pour these Holy Silver Drops over a{br}destroyed Sealing Ring.{page}That will restore the Sealing Ring!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.17300",
+   "jp": "ヒーロー",
+   "en": "Hero",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1730C",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "ヒーロー",
+   "refs": 1
+  },
+  {
+   "id": "rom.17318",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17320",
+   "jp": "ワールドマップ上に{br}「封印のリング」のシンボルが{br}見えておるじゃろう？{close}",
+   "en": "You can see the \"Sealing Ring\"{br}symbols on the world map, can't{br}you?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.1736C",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17374",
+   "jp": "シンボルが表示されている場所にある{br}「封印のリング」に{br}「聖なる銀のしずく」をかければ{page}「封印のリング」の修復ができる{page}この島の未来は{br}そなたに　かかっておる・・・{br}よろしく頼むぞ・・・{close}",
+   "en": "Go to the location marked by a{br}symbol and pour \"Holy Silver Drops\"{br}over the \"Sealing Ring.\"{page}That will repair the \"Sealing Ring.\"{page}The future of this island rests on{br}your shoulders... I'm counting on you,{br}my boy...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.17434",
+   "jp": "鑑定小屋",
+   "en": "Appraisal Hut",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.17440",
+   "jp": "東の里",
+   "en": "East Village",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.17448",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17450",
+   "jp": "おお、{br}「封印のリングを修復」して{br}無事に戻ってきたようじゃな{page}初めての仕事にしては、{br}なかなかの手際じゃったのう{page}こんな程度の仕事ばかりと思われては{br}困るから言うが、{br}バスターの仕事はまだたくさんある、{page}それではさっそく次の仕事に・・・{page}といいたいところじゃが、{br}今回のジャンプゲームワールドでは{br}ここまでしか遊べんのじゃ{page}ここから先どうなるかは{br}発売してからのお楽しみということじゃ{page}短い時間じゃったが、{br}貴重な時間を使ってプレイしてくれて{br}本当にありがとう{page}ニンテンドーＤＳ専用ソフト{br}冒険王ビィト　ヴァンデルＶＳバスターズ{br}２００５年１１月に発売予定じゃ{page}発売されたら、ぜひよろしくたのむぞ{br}その時こそ真の強敵ヴァンデルとの{br}激しい戦いとなるはずじゃからの{close}",
+   "en": "",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.176EC",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.176F4",
+   "jp": "「封印のリング」に{br}「聖なる銀のしずく」をかければ{br}「封印のリング」の修復ができる{page}この島の未来は{br}そなたに　かかっておる・・・{br}よろしく頼むぞ・・・{close}",
+   "en": "Pour \"Holy Silver Drops\" over a{br}\"Sealing Ring\" to repair it.{page}The future of this island rests on{br}your shoulders... I'm counting on you,{br}my boy...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.17880",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1788C",
+   "jp": "あら・・・{br}才牙　出せないんだ・・・{page}うーん・・・{br}この丸太を破壊するのは{br}才牙じゃないと　ちょっと無理かなー{close}",
+   "en": "Oh... You can't summon your Saiga{br}yet...{page}Hmm... Breaking this log without a{br}Saiga might be a bit too much to ask.{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17900",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1790C",
+   "jp": "・・・大丈夫　大丈夫！{br}そのうち出せるようになるって！{close}",
+   "en": "...Don't worry, don't worry! You'll get{br}the hang of it before long!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17948",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17954",
+   "jp": "じゃぁ　ここは{br}あたしに　まかせといて！{close}",
+   "en": "Then leave this one to me!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17980",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1798C",
+   "jp": "ライボルトグラスパー！！！{close}",
+   "en": "Lightning Grasper!!!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.179AC",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.179B8",
+   "jp": "いっけーーーっ！！！{close}",
+   "en": "Goooo!!!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.179D0",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.179DC",
+   "jp": "よし！！{close}",
+   "en": "All right!!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.179E8",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.179F4",
+   "jp": "どう？{br}ざっと　こんなものよ☆{close}",
+   "en": "Well? That's how it's done!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17A18",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17A24",
+   "jp": "あなたも　武器の熟練度を上げて{br}早く　才牙　を生成できるように{br}なってね☆{close}",
+   "en": "Keep building your weapon{br}proficiency so you can create your{br}own Saiga soon, okay?{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17A74",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17A80",
+   "jp": "あたしは　この島の{br}封印のリングについて{br}調査中なの！{close}",
+   "en": "I'm investigating the Sealing Rings on{br}this island!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17ABC",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17AC8",
+   "jp": "たくさん数があるから{br}なかなか　大変なのよねぇ・・・{close}",
+   "en": "There are sooo many, it's quite a{br}job...{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17B00",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17B0C",
+   "jp": "仕事だから　もう行かなくっちゃ・・・{br}また　会いたいわね☆{br}じゃぁ　またね！！{close}",
+   "en": "Duty calls, so I'd better go... I hope{br}we meet again! See you!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F1C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F28",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F34",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F3C",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F48",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F54",
+   "jp": "おい・・・{close}",
+   "en": "Hey...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F64",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F6C",
+   "jp": "はい・・・{close}",
+   "en": "Yes...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F7C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17F88",
+   "jp": "やっぱ　なんも{br}見えねぇな・・・{close}",
+   "en": "Still can't see a blasted thing...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.17FAC",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17FB4",
+   "jp": "はい・・・{close}",
+   "en": "Yes...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.17FC4",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.17FD0",
+   "jp": "はい・・・{br}って　オマエ・・・{close}",
+   "en": "Right... Wait, you...!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.17FF4",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  }
+ ]
+}

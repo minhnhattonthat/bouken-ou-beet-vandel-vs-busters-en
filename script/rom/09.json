@@ -1,0 +1,372 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.24004",
+   "jp": "壊すのをやめました{close}",
+   "en": "You decided not to break it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2401C",
+   "jp": "壊すのをやめました{close}",
+   "en": "You decided not to break it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24034",
+   "jp": "解毒剤を　手に入れた{close}",
+   "en": "Obtained Antidote.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24200",
+   "jp": "カギ３を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "Obtained Key 3.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.242D4",
+   "jp": "マスターボールを{br}手に入れた{close}",
+   "en": "Obtained Master Ball.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24374",
+   "jp": "マスタースピアを　手に入れた{close}",
+   "en": "Obtained Master Spear.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.244BC",
+   "jp": "レジスタンス",
+   "en": "Resistance",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.244CC",
+   "jp": "ゆっくり休憩していってくれよ{br}何か手伝えることはあるかい？{close}",
+   "en": "Take your time and get some rest.{br}Anything I can help you with?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンス",
+   "refs": 1
+  },
+  {
+   "id": "rom.2450C",
+   "jp": "マスターアックスを　手に入れた{close}",
+   "en": "Obtained Master Axe.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24770",
+   "jp": "マスターシールドを　手に入れた{close}",
+   "en": "Obtained Master Shield.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24F20",
+   "jp": "黄金城へ移動しますか？{close}",
+   "en": "Travel to Golden Castle?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24F3C",
+   "jp": "黄金城へ移動します{close}",
+   "en": "Traveling to Golden Castle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24F54",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.24F6C",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25340",
+   "jp": "ライズスコルピオを　手に入れた{close}",
+   "en": "Obtained Rise Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25364",
+   "jp": "マスターシャツを{br}手に入れた{close}",
+   "en": "Obtained Master Shirt.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25384",
+   "jp": "マックスワームを　手に入れた{close}",
+   "en": "Obtained Max Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25664",
+   "jp": "パラライズビーを　手に入れた！",
+   "en": "Obtained Paralysis Bee!",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25684",
+   "jp": "マックスバグを　手に入れた！{close}",
+   "en": "Obtained Max Bug!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.259C4",
+   "jp": "倒れた木が邪魔をして先へ進めない{close}",
+   "en": "A fallen tree blocks the way.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.259E8",
+   "jp": "しびれ取りを　手に入れた{close}",
+   "en": "Obtained Paralysis Cure.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25D84",
+   "jp": "氷柱が邪魔をして先へ進めない{br}才牙を使えば破壊できそうだ{close}",
+   "en": "Ice pillars block the way. You could{br}probably break them with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25DC0",
+   "jp": "才牙で破壊しますか？{close}",
+   "en": "Break it with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25DD8",
+   "jp": "氷柱を壊した！{close}",
+   "en": "You broke the ice pillars!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25DEC",
+   "jp": "壊すのをやめました{close}",
+   "en": "You decided not to break it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.25E04",
+   "jp": "壊すのをやめました{close}",
+   "en": "You decided not to break it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.26C90",
+   "jp": "「この先　西方の島」{page}まだ西方の島へは{br}進むことができない・・・{close}",
+   "en": "\"West Island Ahead\"{page}You can't reach West Island yet...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.26CD4",
+   "jp": "ホットジェルを　手に入れた！{close}",
+   "en": "Obtained Hot Gel!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.26EC4",
+   "jp": "リターンスコルピオを{br}手に入れた！{close}",
+   "en": "Obtained Return Scorpio!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27244",
+   "jp": "トラキラの葉を　手に入れた{close}",
+   "en": "Obtained Torakira Leaf.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2778C",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.277CC",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.277E8",
+   "jp": "壁を破壊した！{close}",
+   "en": "You broke the wall!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.277FC",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27818",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27B4C",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.27B58",
+   "jp": "ホレ！　さっさと行け！{br}オラは　いそがしいのであーる！！{close}",
+   "en": "Go on! Off with you! I'm a busy man, I{br}tell you!!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.27B94",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.27BA0",
+   "jp": "いつも　ごくろうさんであーる！{page}オラも「聖なる銀」を　掘り出すために{br}今日も　がんばっているのであーる！{page}「聖なる銀」はあくまで原材料・・・{br}これだけでは　残念ながら{br}「封印のリング」を修復することはできん{page}掘り出した「聖なる銀」は　東の里にて{br}レナさんが「聖なる銀のしずく」に{br}してくれるのであーる！{page}オラも「聖なる銀」を掘るのに{br}いろいろと物入りであるからして{br}無料であげるわけにはいかんのであーる！{page}よって「聖なる銀のしずく」は{br}買うこと！{page}「聖なる銀のしずく」は　東の里で{br}レナさんから　買う！{page}分かったかな？{page}ではでは　健闘を祈るのであーる！！{close}",
+   "en": "Fine work, I say! I dig Holy Silver daily!{br}It's raw: it can't fix Sealing Rings.{page}Lena-san makes Holy Silver Drops in{br}East Village. Mining costs me, so no{br}freebies! Buy the drops from{page}Lena-san there!{page}Clear? Good luck, I say!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.27DD0",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27E10",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27E2C",
+   "jp": "壁を破壊した！{close}",
+   "en": "You broke the wall!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27E40",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27E5C",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27E78",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27EB8",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27ED4",
+   "jp": "壁を破壊した！{close}",
+   "en": "You broke the wall!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27EE8",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27F04",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27F20",
+   "jp": "この壁は他の壁とは{br}違うようだ{page}壁の向こうに人の気配がする{close}",
+   "en": "This wall looks different from the{br}others.{page}You sense someone on the other{br}side.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27F60",
+   "jp": "リカバーワームを　手に入れた！{close}",
+   "en": "Obtained Recovery Worm!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.27F84",
+   "jp": "マックスバグを　手に入れた！{close}",
+   "en": "Obtained Max Bug!{close}",
+   "kind": "msg",
+   "refs": 1
+  }
+ ]
+}

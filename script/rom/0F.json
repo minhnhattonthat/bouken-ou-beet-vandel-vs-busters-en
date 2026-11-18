@@ -1,0 +1,3842 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.3CB20",
+   "jp": "アニメ１０{close}",
+   "en": "Animation 10{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CB30",
+   "jp": "アニメ１１{close}",
+   "en": "Animation 11{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CB40",
+   "jp": "アニメ１２{close}",
+   "en": "Animation 12{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CB50",
+   "jp": "アニメ１３{close}",
+   "en": "Animation 13{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CB60",
+   "jp": "アニメ終了{close}",
+   "en": "Animation end{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CB70",
+   "jp": "ビィトを仲間に入れます{close}",
+   "en": "Adding Beet to the party.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CB8C",
+   "jp": "ビィトがいるか確認します。{close}",
+   "en": "Checking whether Beet is present.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CBAC",
+   "jp": "ビィトがいた{close}",
+   "en": "Beet was present.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CBBC",
+   "jp": "ビィトがいたので{br}ビィトを外します{close}",
+   "en": "Beet was present, so removing him.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CBE4",
+   "jp": "ビィトがいない{close}",
+   "en": "Beet is absent.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CBF8",
+   "jp": "もういちどビィトがいるか確認します。{close}",
+   "en": "Checking again whether Beet is{br}present.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CC20",
+   "jp": "ビィトがいた{close}",
+   "en": "Beet was present.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CC30",
+   "jp": "ビィトがいたので{br}ビィトを外します{close}",
+   "en": "Beet was present, so removing him.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CC58",
+   "jp": "ビィトがいない{close}",
+   "en": "Beet is absent.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CC6C",
+   "jp": "さて、ビィトはいないかな？{close}",
+   "en": "Now then, is Beet gone?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CC8C",
+   "jp": "２７がオンですよ{close}",
+   "en": "27 is on.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CCA0",
+   "jp": "２７はオフですよ{close}",
+   "en": "27 is off.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CCB4",
+   "jp": "ゼナの出現位置を教えてあげます{close}",
+   "en": "I'll tell you where Zena appears.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CCD8",
+   "jp": "ゼナは２５にいる！{close}",
+   "en": "Zena is at 25!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CCF0",
+   "jp": "ゼナは５５にいる！{close}",
+   "en": "Zena is at 55!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD08",
+   "jp": "ゼナは６６にいる！{close}",
+   "en": "Zena is at 66!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD20",
+   "jp": "ゼナは１６にいる！{close}",
+   "en": "Zena is at 16!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD38",
+   "jp": "ゼナは２７にいる！{close}",
+   "en": "Zena is at 27!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD50",
+   "jp": "ゼナは３８にいる！{close}",
+   "en": "Zena is at 38!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD68",
+   "jp": "ゼナは５７にいる！{close}",
+   "en": "Zena is at 57!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD80",
+   "jp": "ゼナは３９にいる！{close}",
+   "en": "Zena is at 39!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CD98",
+   "jp": "ゼナは１９にいる！{close}",
+   "en": "Zena is at 19!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CDB0",
+   "jp": "ゼナは３０にいる！{close}",
+   "en": "Zena is at 30!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CDC8",
+   "jp": "ゼナは６０にいる！{close}",
+   "en": "Zena is at 60!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CDE0",
+   "jp": "ゼナは０１にいる！{close}",
+   "en": "Zena is at 01!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CDF8",
+   "jp": "ゼナは３３にいる！{close}",
+   "en": "Zena is at 33!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE10",
+   "jp": "ゼナは５２にいる！{close}",
+   "en": "Zena is at 52!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE28",
+   "jp": "ゼナは４４にいる！{close}",
+   "en": "Zena is at 44!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE40",
+   "jp": "ゼナは１３にいる！{close}",
+   "en": "Zena is at 13!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE58",
+   "jp": "もう一度テストする？{close}",
+   "en": "Test again?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE70",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE7C",
+   "jp": "マギーをお貸し　しましょうか{close}",
+   "en": "May I offer you a loan of Maggy?{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CE9C",
+   "jp": "",
+   "en": "",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CEA0",
+   "jp": "マギーをたくさん手に入れた{close}",
+   "en": "Obtained lots of Maggy.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CEC0",
+   "jp": "フラグをリセットしました{close}",
+   "en": "Flag reset.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CEDC",
+   "jp": "エラー０です{close}",
+   "en": "Error 0.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CEEC",
+   "jp": "エラー１です{close}",
+   "en": "Error 1.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CEFC",
+   "jp": "エラー２です{close}",
+   "en": "Error 2.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF0C",
+   "jp": "エラー３です{close}",
+   "en": "Error 3.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF1C",
+   "jp": "フラグをセットしました{close}",
+   "en": "Flag set.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF38",
+   "jp": "０です{close}",
+   "en": "It's 0.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF44",
+   "jp": "１です{close}",
+   "en": "It's 1.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF50",
+   "jp": "２です{close}",
+   "en": "It's 2.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF5C",
+   "jp": "３です{close}",
+   "en": "It's 3.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF68",
+   "jp": "もう一度テストする？{close}",
+   "en": "Test again?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF80",
+   "jp": "フラグはＴＲＵＥ{close}",
+   "en": "Flag is TRUE.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CF94",
+   "jp": "フラグはＦＡＬＳＥ{close}",
+   "en": "Flag is FALSE.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFAC",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFB8",
+   "jp": "うけけけけ{close}",
+   "en": "Ukekekeke!{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFC8",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFD4",
+   "jp": "覚えてろ{close}",
+   "en": "You'll pay for this!{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFE0",
+   "jp": "なんでかなー{close}",
+   "en": "I wonder why...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFF0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3CFF8",
+   "jp": "ビィト{close}",
+   "en": "Beet{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D004",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D00C",
+   "jp": "ビィト怒り{close}",
+   "en": "Beet: Angry{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D01C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D024",
+   "jp": "ビィト悩む{close}",
+   "en": "Beet: Troubled{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D034",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D03C",
+   "jp": "ビィト身構える{close}",
+   "en": "Beet: Battle stance{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D050",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D058",
+   "jp": "ビィト照れ笑い{close}",
+   "en": "Beet: Sheepish grin{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D06C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D074",
+   "jp": "ビィト悲しい{close}",
+   "en": "Beet: Sad{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D084",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D08C",
+   "jp": "ビィトボーっとする{close}",
+   "en": "Beet: Spacing out{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0A4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0AC",
+   "jp": "ビィトあきれる{close}",
+   "en": "Beet: Exasperated{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0C0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0C8",
+   "jp": "ビィト眠い{close}",
+   "en": "Beet: Sleepy{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0D8",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0E0",
+   "jp": "ビィト最後負傷{close}",
+   "en": "Beet: Injured at the end{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0F4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D0FC",
+   "jp": "ビィト目を閉じている目{close}",
+   "en": "Beet: Closed eyes{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D118",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D120",
+   "jp": "ビィト片目{close}",
+   "en": "Beet: One eye{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D130",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D138",
+   "jp": "ビィト両目{close}",
+   "en": "Beet: Both eyes{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D148",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D150",
+   "jp": "ポアラ{close}",
+   "en": "Poala{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D15C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D164",
+   "jp": "ポアラ身構える{close}",
+   "en": "Poala: Battle stance{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D178",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D180",
+   "jp": "ポアラ軽蔑{close}",
+   "en": "Poala: Contempt{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D190",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D198",
+   "jp": "ポアラ怒り{close}",
+   "en": "Poala: Angry{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1A8",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1B0",
+   "jp": "ポアラあきれる{close}",
+   "en": "Poala: Exasperated{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1C4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1CC",
+   "jp": "ポアラにっこり{close}",
+   "en": "Poala: Smiling{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1E0",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1E8",
+   "jp": "ポアラグリニデ毒{close}",
+   "en": "Poala: Grineed's poison{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D1FC",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D204",
+   "jp": "ポアラ恥ずかしい{close}",
+   "en": "Poala: Embarrassed{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D218",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D220",
+   "jp": "ポアラ最後負傷{close}",
+   "en": "Poala: Injured at the end{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D234",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D23C",
+   "jp": "ポアラ疲れ目{close}",
+   "en": "Poala: Tired eyes{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D24C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D254",
+   "jp": "ポアラ両目{close}",
+   "en": "Poala: Both eyes{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D264",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D270",
+   "jp": "スレッド{close}",
+   "en": "Slade{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D27C",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D288",
+   "jp": "スレッド怒り{close}",
+   "en": "Slade: Angry{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D298",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2A4",
+   "jp": "スレッド最後負傷{close}",
+   "en": "Slade: Injured at the end{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2B8",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2C4",
+   "jp": "スレッド両目{close}",
+   "en": "Slade: Both eyes{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2D4",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2DC",
+   "jp": "キッス{close}",
+   "en": "Kissu{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2E8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D2F0",
+   "jp": "キッスおびえる{close}",
+   "en": "Kissu: Frightened{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D304",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D30C",
+   "jp": "キッスなく{close}",
+   "en": "Kissu: Crying{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D31C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D324",
+   "jp": "キッス身構える{close}",
+   "en": "Kissu: Battle stance{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D338",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D340",
+   "jp": "キッス怒り{close}",
+   "en": "Kissu: Angry{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D350",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D358",
+   "jp": "キッス手錠へこむ{close}",
+   "en": "Kissu: Handcuffed, dejected{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D36C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D374",
+   "jp": "キッス手錠おびえる{close}",
+   "en": "Kissu: Handcuffed, frightened{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D38C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D394",
+   "jp": "キッス手錠おどろき{close}",
+   "en": "Kissu: Handcuffed, surprised{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3AC",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3B4",
+   "jp": "キッスおどろき{close}",
+   "en": "Kissu: Surprised{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3C8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3D0",
+   "jp": "キッス最後負傷{close}",
+   "en": "Kissu: Injured at the end{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3E4",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3EC",
+   "jp": "キッス両目{close}",
+   "en": "Kissu: Both eyes{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D3FC",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D408",
+   "jp": "ミルファ{close}",
+   "en": "Milfa{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D414",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D420",
+   "jp": "ミルファウィンク{close}",
+   "en": "Milfa: Winking{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D434",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D440",
+   "jp": "ミルファときめく{close}",
+   "en": "Milfa: Heart aflutter{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D454",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D460",
+   "jp": "ミルファ身構える{close}",
+   "en": "Milfa: Battle stance{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D474",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D480",
+   "jp": "ミルファ最後{close}",
+   "en": "Milfa: At the end{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D490",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D49C",
+   "jp": "ミルファ疲れ両目開き{close}",
+   "en": "Milfa: Tired, both eyes open{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D4B4",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D4C0",
+   "jp": "ミルファ片目{close}",
+   "en": "Milfa: One eye{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D4D0",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D4DC",
+   "jp": "ミルファ両目{close}",
+   "en": "Milfa: Both eyes{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D4EC",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D4F4",
+   "jp": "ゴラン{close}",
+   "en": "Goran{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D500",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D508",
+   "jp": "ゴラン怒り{close}",
+   "en": "Goran: Angry{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D518",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D520",
+   "jp": "ゴラン構える{close}",
+   "en": "Goran: Battle stance{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D530",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D538",
+   "jp": "シバ{close}",
+   "en": "Shiba{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D540",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D548",
+   "jp": "シバ笑う{close}",
+   "en": "Shiba: Laughing{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D554",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D55C",
+   "jp": "シバ怒る{close}",
+   "en": "Shiba Angry{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D568",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D574",
+   "jp": "グレスト{close}",
+   "en": "Grest{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D580",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D58C",
+   "jp": "グレストおびえる{close}",
+   "en": "Grest Frightened{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5A0",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5A8",
+   "jp": "バドゥ{close}",
+   "en": "Badu{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5B4",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5BC",
+   "jp": "バドゥさけぶ{close}",
+   "en": "Badu Shouting{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5CC",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5D4",
+   "jp": "アーク{close}",
+   "en": "Ark{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5E0",
+   "jp": "レンド",
+   "en": "Rend",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5E8",
+   "jp": "レンド{close}",
+   "en": "Rend{close}",
+   "kind": "msg",
+   "speaker": "レンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5F4",
+   "jp": "シグサ",
+   "en": "Shigusa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D5FC",
+   "jp": "シグサ{close}",
+   "en": "Shigusa{close}",
+   "kind": "msg",
+   "speaker": "シグサ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D608",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D610",
+   "jp": "ジーク{close}",
+   "en": "Zeke{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D61C",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D624",
+   "jp": "ジーク笑う{close}",
+   "en": "Zeke Laughing{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D634",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D640",
+   "jp": "リュック{close}",
+   "en": "Ryuk{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D64C",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D658",
+   "jp": "リュックあきれ目{close}",
+   "en": "Ryuk Exasperated Eyes{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D66C",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D674",
+   "jp": "ナック{close}",
+   "en": "Nack{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D680",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D688",
+   "jp": "ナックあきれ目{close}",
+   "en": "Nack Exasperated Eyes{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D69C",
+   "jp": "汎用（大剣火）",
+   "en": "GS Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D6AC",
+   "jp": "汎用大剣火{close}",
+   "en": "Generic Greatsword Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（大剣火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D6BC",
+   "jp": "汎用（大剣水）",
+   "en": "GS Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D6CC",
+   "jp": "汎用大剣水{close}",
+   "en": "Generic Greatsword Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（大剣水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D6DC",
+   "jp": "汎用（大剣風）",
+   "en": "GS Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D6EC",
+   "jp": "汎用大剣風{close}",
+   "en": "Generic Greatsword Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（大剣風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D6FC",
+   "jp": "汎用（大剣雷）",
+   "en": "GS Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D70C",
+   "jp": "汎用大剣雷{close}",
+   "en": "Generic Greatsword Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（大剣雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D71C",
+   "jp": "汎用（大剣光）",
+   "en": "GS Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D72C",
+   "jp": "汎用大剣光{close}",
+   "en": "Generic Greatsword Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（大剣光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D73C",
+   "jp": "汎用（槍火）",
+   "en": "Spear Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D74C",
+   "jp": "汎用槍火{close}",
+   "en": "Generic Spear Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（槍火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D758",
+   "jp": "汎用（槍水）",
+   "en": "Spear Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D768",
+   "jp": "汎用槍水{close}",
+   "en": "Generic Spear Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（槍水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D774",
+   "jp": "汎用（槍風）",
+   "en": "Spear Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D784",
+   "jp": "汎用槍風{close}",
+   "en": "Generic Spear Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（槍風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D790",
+   "jp": "汎用（槍雷）",
+   "en": "Spear Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7A0",
+   "jp": "汎用槍雷{close}",
+   "en": "Generic Spear Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（槍雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7AC",
+   "jp": "汎用（槍光）",
+   "en": "Spear Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7BC",
+   "jp": "汎用槍光{close}",
+   "en": "Generic Spear Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（槍光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7C8",
+   "jp": "汎用（斧火）",
+   "en": "Axe Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7D8",
+   "jp": "汎用斧火{close}",
+   "en": "Generic Axe Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（斧火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7E4",
+   "jp": "汎用（斧水）",
+   "en": "Axe Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D7F4",
+   "jp": "汎用斧水{close}",
+   "en": "Generic Axe Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（斧水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D800",
+   "jp": "汎用（斧風）",
+   "en": "Axe Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D810",
+   "jp": "汎用斧風{close}",
+   "en": "Generic Axe Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（斧風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D81C",
+   "jp": "汎用（斧雷）",
+   "en": "Axe Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D82C",
+   "jp": "汎用斧雷{close}",
+   "en": "Generic Axe Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（斧雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D838",
+   "jp": "汎用（斧光）",
+   "en": "Axe Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D848",
+   "jp": "汎用斧光{close}",
+   "en": "Generic Axe Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（斧光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D854",
+   "jp": "汎用（片手剣火）",
+   "en": "1H Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D868",
+   "jp": "片手剣火{close}",
+   "en": "One-Hand Sword Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（片手剣火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D874",
+   "jp": "汎用（片手剣水）",
+   "en": "1H Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D888",
+   "jp": "片手剣水{close}",
+   "en": "One-Hand Sword Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（片手剣水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D894",
+   "jp": "汎用（片手剣風）",
+   "en": "1H Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D8A8",
+   "jp": "片手剣風{close}",
+   "en": "One-Hand Sword Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（片手剣風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D8B4",
+   "jp": "汎用（片手剣雷）",
+   "en": "1H Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D8C8",
+   "jp": "片手剣雷{close}",
+   "en": "One-Hand Sword Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（片手剣雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D8D4",
+   "jp": "汎用（片手剣光）",
+   "en": "1H Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D8E8",
+   "jp": "片手剣光{close}",
+   "en": "One-Hand Sword Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（片手剣光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D8F4",
+   "jp": "汎用（銃火）",
+   "en": "Gun Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D904",
+   "jp": "銃火{close}",
+   "en": "Gun Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（銃火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D90C",
+   "jp": "汎用（銃水）",
+   "en": "Gun Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D91C",
+   "jp": "銃水{close}",
+   "en": "Gun Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（銃水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D924",
+   "jp": "汎用（銃風）",
+   "en": "Gun Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D934",
+   "jp": "銃風{close}",
+   "en": "Gun Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（銃風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D93C",
+   "jp": "汎用（銃雷）",
+   "en": "Gun Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D94C",
+   "jp": "銃雷{close}",
+   "en": "Gun Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（銃雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D954",
+   "jp": "汎用（銃光）",
+   "en": "Gun Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D964",
+   "jp": "銃光{close}",
+   "en": "Gun Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（銃光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D96C",
+   "jp": "汎用（格闘火）",
+   "en": "Fist Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D97C",
+   "jp": "格闘火{close}",
+   "en": "Unarmed Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（格闘火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D988",
+   "jp": "汎用（格闘水）",
+   "en": "Fist Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D998",
+   "jp": "格闘水{close}",
+   "en": "Unarmed Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（格闘水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9A4",
+   "jp": "汎用（格闘風）",
+   "en": "Fist Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9B4",
+   "jp": "格闘風{close}",
+   "en": "Unarmed Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（格闘風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9C0",
+   "jp": "汎用（格闘雷）",
+   "en": "Fist Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9D0",
+   "jp": "格闘雷{close}",
+   "en": "Unarmed Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（格闘雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9DC",
+   "jp": "汎用（格闘光）",
+   "en": "Fist Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9EC",
+   "jp": "格闘光{close}",
+   "en": "Unarmed Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（格闘光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3D9F8",
+   "jp": "汎用（投剣火）",
+   "en": "TS Fire",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA08",
+   "jp": "投剣火{close}",
+   "en": "Throwing Sword Fire{close}",
+   "kind": "msg",
+   "speaker": "汎用（投剣火）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA14",
+   "jp": "汎用（投剣水）",
+   "en": "TS Water",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA24",
+   "jp": "投剣水{close}",
+   "en": "Throwing Sword Water{close}",
+   "kind": "msg",
+   "speaker": "汎用（投剣水）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA30",
+   "jp": "汎用（投剣風）",
+   "en": "TS Wind",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA40",
+   "jp": "投剣風{close}",
+   "en": "Throwing Sword Wind{close}",
+   "kind": "msg",
+   "speaker": "汎用（投剣風）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA4C",
+   "jp": "汎用（投剣雷）",
+   "en": "TS Bolt",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA5C",
+   "jp": "投剣雷{close}",
+   "en": "Throwing Sword Lightning{close}",
+   "kind": "msg",
+   "speaker": "汎用（投剣雷）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA68",
+   "jp": "汎用（投剣光）",
+   "en": "TS Light",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA78",
+   "jp": "投剣光{close}",
+   "en": "Throwing Sword Light{close}",
+   "kind": "msg",
+   "speaker": "汎用（投剣光）",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA84",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA8C",
+   "jp": "鑑定士{close}",
+   "en": "Appraiser{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DA98",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAA0",
+   "jp": "レナ{close}",
+   "en": "Lena{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAA8",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAB0",
+   "jp": "レナ悲しい{close}",
+   "en": "Lena Sad{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAC0",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAC8",
+   "jp": "レナ祈り{close}",
+   "en": "Lena Praying{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAD4",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DADC",
+   "jp": "ゼナ{close}",
+   "en": "Zena{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAE4",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAEC",
+   "jp": "ゼナ笑う{close}",
+   "en": "Zena Laughing{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DAF8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB00",
+   "jp": "ゼナ恥ずかしい{close}",
+   "en": "Zena Embarrassed{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB14",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB1C",
+   "jp": "ゼナ困る{close}",
+   "en": "Zena Troubled{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB28",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB34",
+   "jp": "ガントリィさん{close}",
+   "en": "Gantry-san{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB48",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB50",
+   "jp": "里長{close}",
+   "en": "Village Chief{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB58",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB64",
+   "jp": "キャンバル{close}",
+   "en": "Canbal{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB74",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB80",
+   "jp": "キャンバルショック{close}",
+   "en": "Canbal Shocked{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DB98",
+   "jp": "ビルゴア",
+   "en": "Pilgoa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBA4",
+   "jp": "ビルゴア{close}",
+   "en": "Pilgoa{close}",
+   "kind": "msg",
+   "speaker": "ビルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBB0",
+   "jp": "ビルゴア",
+   "en": "Pilgoa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBBC",
+   "jp": "ビルゴアショック{close}",
+   "en": "Pilgoa Shocked{close}",
+   "kind": "msg",
+   "speaker": "ビルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBD0",
+   "jp": "ブランドゥ",
+   "en": "Brandu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBDC",
+   "jp": "ブランドゥ{close}",
+   "en": "Brandu{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBEC",
+   "jp": "ブランドゥ",
+   "en": "Brandu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DBF8",
+   "jp": "ブランドゥマント無し{close}",
+   "en": "Brandu Without Cape{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC10",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC1C",
+   "jp": "ライリー{close}",
+   "en": "Riley{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC28",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC34",
+   "jp": "ライリー挑発{close}",
+   "en": "Riley Taunting{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC44",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC50",
+   "jp": "ライリー驚き{close}",
+   "en": "Riley Surprised{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC60",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC6C",
+   "jp": "シャデリコ{close}",
+   "en": "Shaderiko{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC7C",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DC88",
+   "jp": "シャデリコいかれ気味{close}",
+   "en": "Shaderiko Slightly Unhinged{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCA0",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCAC",
+   "jp": "シャデリコ{close}",
+   "en": "Shaderiko{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCBC",
+   "jp": "レボーグ",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCC8",
+   "jp": "レボーグ{close}",
+   "en": "Revok{close}",
+   "kind": "msg",
+   "speaker": "レボーグ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCD4",
+   "jp": "レボーグ",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCE0",
+   "jp": "レボーグ挑発的{close}",
+   "en": "Revok Taunting{close}",
+   "kind": "msg",
+   "speaker": "レボーグ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DCF4",
+   "jp": "レボーグ",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD00",
+   "jp": "レボーグおどろき{close}",
+   "en": "Revok Surprised{close}",
+   "kind": "msg",
+   "speaker": "レボーグ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD14",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD20",
+   "jp": "ムガイン{close}",
+   "en": "Mugain{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD2C",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD38",
+   "jp": "ムガイン怒り{close}",
+   "en": "Mugain Angry{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD48",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD54",
+   "jp": "ベンチュラ{close}",
+   "en": "Ventura{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD64",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD70",
+   "jp": "ベンチュラ驚く{close}",
+   "en": "Ventura Surprised{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD84",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DD90",
+   "jp": "ベンチュラくやしい{close}",
+   "en": "Ventura Frustrated{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DDA8",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DDB4",
+   "jp": "ベンチュラいたい{close}",
+   "en": "Ventura In Pain{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DDC8",
+   "jp": "ベンチュラ",
+   "en": "Ventura",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DDD4",
+   "jp": "ベンチュラ誤る{close}",
+   "en": "Ventura Apologizing{close}",
+   "kind": "msg",
+   "speaker": "ベンチュラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DDE8",
+   "jp": "ロズゴート",
+   "en": "Rozgoat",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DDF4",
+   "jp": "ロズゴート{close}",
+   "en": "Rozgoat{close}",
+   "kind": "msg",
+   "speaker": "ロズゴート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE04",
+   "jp": "ロズゴート",
+   "en": "Rozgoat",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE10",
+   "jp": "ロズゴート怒り{close}",
+   "en": "Rozgoat Angry{close}",
+   "kind": "msg",
+   "speaker": "ロズゴート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE24",
+   "jp": "ロズゴート",
+   "en": "Rozgoat",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE30",
+   "jp": "ロズゴートフード{close}",
+   "en": "Rozgoat Hooded{close}",
+   "kind": "msg",
+   "speaker": "ロズゴート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE44",
+   "jp": "ロズゴート",
+   "en": "Rozgoat",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE50",
+   "jp": "ロズゴートフード無し{close}",
+   "en": "Rozgoat Without Hood{close}",
+   "kind": "msg",
+   "speaker": "ロズゴート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE68",
+   "jp": "ロズゴート",
+   "en": "Rozgoat",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE74",
+   "jp": "ロズゴートフード無し怒り{close}",
+   "en": "Rozgoat Without Hood Angry{close}",
+   "kind": "msg",
+   "speaker": "ロズゴート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DE90",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DEA0",
+   "jp": "フラウスキー{close}",
+   "en": "Frausky{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DEB0",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DEC0",
+   "jp": "フラウスキー興奮{close}",
+   "en": "Frausky Excited{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DED4",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DEE4",
+   "jp": "フラウスキー小鳥{close}",
+   "en": "Frausky Little Bird{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DEF8",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF08",
+   "jp": "フラウスキーフード目{close}",
+   "en": "Frausky Hooded Eyes Visible{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF20",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF30",
+   "jp": "フラウスキーフード口出し{close}",
+   "en": "Frausky Hooded Mouth Exposed{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF4C",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF5C",
+   "jp": "フラウスキー再生中{close}",
+   "en": "Frausky Regenerating{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF74",
+   "jp": "フラウスキー",
+   "en": "Frausky",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF84",
+   "jp": "フラウスキー再生中２{close}",
+   "en": "Frausky Regenerating 2{close}",
+   "kind": "msg",
+   "speaker": "フラウスキー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DF9C",
+   "jp": "ベルトーゼ",
+   "en": "Beltorze",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DFA8",
+   "jp": "ベルトーゼ{close}",
+   "en": "Beltorze{close}",
+   "kind": "msg",
+   "speaker": "ベルトーゼ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DFB8",
+   "jp": "ベルトーゼ",
+   "en": "Beltorze",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DFC4",
+   "jp": "ベルトーゼ興奮{close}",
+   "en": "Beltorze Excited{close}",
+   "kind": "msg",
+   "speaker": "ベルトーゼ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DFD8",
+   "jp": "ベルトーゼ",
+   "en": "Beltorze",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DFE4",
+   "jp": "ベルトーゼ狂う{close}",
+   "en": "Beltorze Frenzied{close}",
+   "kind": "msg",
+   "speaker": "ベルトーゼ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3DFF8",
+   "jp": "ベルトーゼ",
+   "en": "Beltorze",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E004",
+   "jp": "ベルトーゼフード無し{close}",
+   "en": "Beltorze Without Hood{close}",
+   "kind": "msg",
+   "speaker": "ベルトーゼ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E01C",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E028",
+   "jp": "グリニデ{close}",
+   "en": "Grineed{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E034",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E040",
+   "jp": "グリニデおびえる{close}",
+   "en": "Grineed Frightened{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E054",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E060",
+   "jp": "グリニデ興奮{close}",
+   "en": "Grineed Excited{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E070",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E07C",
+   "jp": "グリニデ怒り{close}",
+   "en": "Grineed Angry{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E08C",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E098",
+   "jp": "グリニデ狂う{close}",
+   "en": "Grineed Frenzied{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E0A8",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E0B4",
+   "jp": "グリニデ怒り２{close}",
+   "en": "Grineed Angry 2{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E0C8",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E0D4",
+   "jp": "グリニデ狂う２{close}",
+   "en": "Grineed Frenzied 2{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E0E8",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E0F4",
+   "jp": "グリニデ興奮半分{close}",
+   "en": "Grineed Half Excited{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E108",
+   "jp": "グリニデ２",
+   "en": "Grineed 2",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E114",
+   "jp": "グリニデ変身後{close}",
+   "en": "Grineed (Form 2){close}",
+   "kind": "msg",
+   "speaker": "グリニデ２",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E128",
+   "jp": "グリニデ２",
+   "en": "Grineed 2",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E134",
+   "jp": "グリニデ変身後怒り{close}",
+   "en": "Grineed (Form 2) Angry{close}",
+   "kind": "msg",
+   "speaker": "グリニデ２",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E14C",
+   "jp": "グリニデ２",
+   "en": "Grineed 2",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E158",
+   "jp": "グリニデ変身後エンディング{close}",
+   "en": "Grineed (Form 2) Ending{close}",
+   "kind": "msg",
+   "speaker": "グリニデ２",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E178",
+   "jp": "グリニデ２",
+   "en": "Grineed 2",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E184",
+   "jp": "グリニデ変身後エンディング２{close}",
+   "en": "Grineed (Form 2) Ending 2{close}",
+   "kind": "msg",
+   "speaker": "グリニデ２",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E1A4",
+   "jp": "グリニデ２",
+   "en": "Grineed 2",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E1B0",
+   "jp": "グリニデ変身後叫ぶ{close}",
+   "en": "Grineed (Form 2) Shouting{close}",
+   "kind": "msg",
+   "speaker": "グリニデ２",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E1C8",
+   "jp": "グリニデ２",
+   "en": "Grineed 2",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E1D4",
+   "jp": "グリニデ変身後叫ぶ２{close}",
+   "en": "Grineed (Form 2) Shouting 2{close}",
+   "kind": "msg",
+   "speaker": "グリニデ２",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E1EC",
+   "jp": "バレアス",
+   "en": "Baleas",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E1F8",
+   "jp": "バレアス{close}",
+   "en": "Baleas{close}",
+   "kind": "msg",
+   "speaker": "バレアス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E204",
+   "jp": "バロン",
+   "en": "Baron",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E20C",
+   "jp": "バロン{close}",
+   "en": "Baron{close}",
+   "kind": "msg",
+   "speaker": "バロン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E218",
+   "jp": "ディアム",
+   "en": "Diam",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E224",
+   "jp": "ディアム{close}",
+   "en": "Diam{close}",
+   "kind": "msg",
+   "speaker": "ディアム",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E230",
+   "jp": "エルダー",
+   "en": "Elder",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E23C",
+   "jp": "エルダー{close}",
+   "en": "Elder{close}",
+   "kind": "msg",
+   "speaker": "エルダー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E248",
+   "jp": "ガロニュート",
+   "en": "Garonute",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E258",
+   "jp": "ガロニュート{close}",
+   "en": "Garonute{close}",
+   "kind": "msg",
+   "speaker": "ガロニュート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E268",
+   "jp": "ガロニュート",
+   "en": "Garonute",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E278",
+   "jp": "ガロニュートニマーっとする{close}",
+   "en": "Garonute Grinning{close}",
+   "kind": "msg",
+   "speaker": "ガロニュート",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E298",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2A4",
+   "jp": "ガネール{close}",
+   "en": "Ganeer{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2B0",
+   "jp": "ギルス",
+   "en": "Gils",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2B8",
+   "jp": "ギルス{close}",
+   "en": "Gils{close}",
+   "kind": "msg",
+   "speaker": "ギルス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2C4",
+   "jp": "グラニャオース",
+   "en": "Granyaos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2D4",
+   "jp": "ぐらにゃおーす{close}",
+   "en": "Granyaos{close}",
+   "kind": "msg",
+   "speaker": "グラニャオース",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2E8",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E2F4",
+   "jp": "はーでん{close}",
+   "en": "Harden{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E300",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E30C",
+   "jp": "はーでん怒り{close}",
+   "en": "Harden angry{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E31C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E328",
+   "jp": "はーでん高笑い{close}",
+   "en": "Harden laughing triumphantly{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E33C",
+   "jp": "ヒスタリオ",
+   "en": "Histario",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E348",
+   "jp": "ヒスタリオ{close}",
+   "en": "Histario{close}",
+   "kind": "msg",
+   "speaker": "ヒスタリオ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E358",
+   "jp": "ロディーナ",
+   "en": "Rodina",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E364",
+   "jp": "ロディーナ{close}",
+   "en": "Rodina{close}",
+   "kind": "msg",
+   "speaker": "ロディーナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E374",
+   "jp": "メルモンド",
+   "en": "Melmond",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E380",
+   "jp": "メルモンド{close}",
+   "en": "Melmond{close}",
+   "kind": "msg",
+   "speaker": "メルモンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E390",
+   "jp": "ノア",
+   "en": "Noa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E398",
+   "jp": "ノア{close}",
+   "en": "Noa{close}",
+   "kind": "msg",
+   "speaker": "ノア",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E3A0",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E3AC",
+   "jp": "オロゾン{close}",
+   "en": "Orozon{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E3B8",
+   "jp": "ヴァンデル",
+   "en": "Vandel",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E3C4",
+   "jp": "主人公ヴァンデル{close}",
+   "en": "Vandel Protagonist{close}",
+   "kind": "msg",
+   "speaker": "ヴァンデル",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E3D8",
+   "jp": "ヴァンデル",
+   "en": "Vandel",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E3E4",
+   "jp": "主人公ヴァンデルにやり{close}",
+   "en": "Vandel Protagonist smirking{close}",
+   "kind": "msg",
+   "speaker": "ヴァンデル",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E400",
+   "jp": "タナトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E40C",
+   "jp": "タナトス{close}",
+   "en": "Tarotos{close}",
+   "kind": "msg",
+   "speaker": "タナトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E418",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E424",
+   "jp": "やぎーる{close}",
+   "en": "Yagil{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E430",
+   "jp": "ザンデ",
+   "en": "Zande",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E438",
+   "jp": "ザンデ{close}",
+   "en": "Zande{close}",
+   "kind": "msg",
+   "speaker": "ザンデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E444",
+   "jp": "フラグ０１を持ってます{br}{close}",
+   "en": "Flag 01 is set.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E460",
+   "jp": "フラグ０１を持っていないので{br}セットします{close}",
+   "en": "Flag 01 is not set. Setting it now.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E490",
+   "jp": "からです{close}",
+   "en": "It's empty.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E49C",
+   "jp": "アイテムを手に入れた{close}",
+   "en": "Obtained an item.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E4B4",
+   "jp": "薬草を手に入れた{close}",
+   "en": "Obtained Medicinal Herb.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E4C8",
+   "jp": "薬草を手に入れた{close}",
+   "en": "Obtained Medicinal Herb.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E4DC",
+   "jp": "場所、テスト",
+   "en": "Location Test",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E4EC",
+   "jp": "依頼者、テスト",
+   "en": "Client Test",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E4FC",
+   "jp": "泊まっていきますか？{close}",
+   "en": "Would you like to stay the night?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E514",
+   "jp": "泊まります{close}",
+   "en": "Staying the night.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E524",
+   "jp": "マギーが足りません{close}",
+   "en": "Not enough Maggy.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E53C",
+   "jp": "ＢＡＣＫ{close}",
+   "en": "BACK{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E548",
+   "jp": "勝利",
+   "en": "Victory",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E550",
+   "jp": "負け",
+   "en": "Defeat",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E558",
+   "jp": "レベルアップ",
+   "en": "Level Up",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E568",
+   "jp": "アイテムゲット",
+   "en": "Item Get",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E578",
+   "jp": "ファンファーレ",
+   "en": "Fanfare",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E588",
+   "jp": "クエストクリア",
+   "en": "Quest Clear",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E598",
+   "jp": "しすたー？",
+   "en": "Sister?",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E6B4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E6BC",
+   "jp": "選択肢を選んでください{close}",
+   "en": "Please choose an option.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E6D8",
+   "jp": "セレクト１を選びました{close}",
+   "en": "You chose Select 1.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E6F4",
+   "jp": "セレクト２を選択{close}",
+   "en": "Selected Select 2.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E708",
+   "jp": "Ｂボタンがおされました{close}",
+   "en": "The B Button was pressed.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E724",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E72C",
+   "jp": "このメッセージはテストメッセー字です{br}このメッセージはテストメッセー時です{br}このメッセージはテストメッセー自です{page}このメッセージはテストメッセー自です{br}このメッセージはテストメッセー自です{br}このメッセージはテストメッセー自です{close}",
+   "en": "This message is a test message.{br}This message is a test message.{br}This message is a test message.{page}This message is a test message.{br}This message is a test message.{br}This message is a test message.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E814",
+   "jp": "このメッセージはテストメッセー字です{br}このメッセージはテストメッセー時です{br}このメッセージはテストメッセー自です{page}このメッセージはテストメッセー自です{br}このメッセージはテストメッセー自です{br}このメッセージはテストメッセー自です{close}",
+   "en": "This message is a test message.{br}This message is a test message.{br}This message is a test message.{page}This message is a test message.{br}This message is a test message.{br}This message is a test message.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E8FC",
+   "jp": "依頼者てすと",
+   "en": "Client Test",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E90C",
+   "jp": "場所Ａ",
+   "en": "Location A",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E914",
+   "jp": "依頼者てすと２３３３",
+   "en": "Client Test 2333",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E92C",
+   "jp": "場所Ｂ",
+   "en": "Location B",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E934",
+   "jp": "クエストをあきらめます{close}",
+   "en": "Abandoning the quest.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E950",
+   "jp": "クエストの終了条件を満たしました{close}",
+   "en": "The quest's completion conditions{br}have been met.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E974",
+   "jp": "クエストをうけました{close}",
+   "en": "Quest accepted.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E98C",
+   "jp": "クエストを報告してます{close}",
+   "en": "Reporting on the quest.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E9A8",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E9AC",
+   "jp": "{hero}{close}",
+   "en": "{hero}{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E9B4",
+   "jp": "マップ００に飛びますか？{close}",
+   "en": "Warp to Map 00?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3E9D0",
+   "jp": "マップ３２に飛びますか？{close}",
+   "en": "Warp to Map 32?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EBE4",
+   "jp": "双子島{page}対称の形をした{br}２つの小島からなる島{close}",
+   "en": "The Twin Islands.{page}Two small islands whose shapes{br}mirror one another.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EC14",
+   "jp": "それぞれの島の台地上には{br}銀製の巨大女神像があった{page}女神像の胸には　「封印のリング」が{br}銀色に　光り輝いていた{close}",
+   "en": "Atop each island's plateau stood a{br}giant silver goddess statue.{page}On each goddess's chest, a \"Sealing{br}Ring\" shone with a silvery light.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EC88",
+   "jp": "この女神像が　いつの時代に{br}造られたのか　定かではないが{page}人々は　その２体の　巨大な女神像を{br}あがめて　生活をしていた{close}",
+   "en": "No one knew for certain when these{br}statues had been built.{page}But the people lived their lives{br}worshipping the two great{br}goddesses.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3ED04",
+   "jp": "島の各地には　女神像と同じデザインの{br}「封印のリング」が　聖なる{br}銀の台座上に　祭られていた{page}これが東方の島に９個　西方の島に９個{br}合計１８個あった{page}これらも　いつの時代に作られたのかは{br}定かではない{close}",
+   "en": "Across the islands, \"Sealing Rings\"{br}of the same design as those on the{br}goddesses were enshrined on{page}sacred silver pedestals.{page}Nine stood on East Island and nine{br}on West Island, making eighteen in all.{page}No one knew for certain when these{br}had been made, either.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EE00",
+   "jp": "この島では　古くから大量の銀と{br}少量の金が　採掘され{page}島の人間は　それらを加工した細工物を{br}売ることで　生計を立てていた{page}島の多くは　肥沃な土地におおわれ{br}植物が生い茂り　それを糧としている{br}動物達も　繁栄していた・・・{close}",
+   "en": "For ages, large quantities of silver{br}and small amounts of gold had been{br}mined on these islands.{page}The islanders made their living by{br}crafting these metals into{br}ornaments and selling them.{page}Fertile soil covered much of the{br}islands. Plants grew thick and lush,{br}and the animals that fed on them{page}thrived...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EF10",
+   "jp": "その島に今　大きな危機が迫ろうと{br}していた・・・{close}",
+   "en": "Now, a terrible crisis was about to{br}descend upon these islands...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EF44",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EF50",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EF68",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3EF74",
+   "jp": "それ　それ　それーーっ！！{br}もっと　もっと　早く　進めーーっ！！{br}双子島は　目の前っ！！{page}黄金ザクザク！！　のためなら{br}ホバーフィッシュなど　使い捨てに{br}してくれるわっ！！{close}",
+   "en": "Go, go, gooo!! Faster! FASTER!! The{br}Twin Islands are right ahead!!{page}Mountains of gold!! For that, I'll gladly{br}use up a Hoverfish and throw it{br}away!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F024",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F030",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F04C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F058",
+   "jp": "おいっ！　若造！！{br}貴様　名前は何だっ！！{close}",
+   "en": "Hey! Youngster!! What's your name?!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F088",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F094",
+   "jp": "{vandel}だと・・・{page}フンッ！{br}貴様にお似合いの　つまらん名だっ！{page}いいかっ・・・{br}下々の者から　そんなつまらん名で{br}呼ばれているうちは　三流だぞ・・・{page}ヴァンデルたるもの　ワシのように{br}「二つ名」で{br}呼ばれるようにならんといかん・・・{close}",
+   "en": "{vandel}, eh...{page}Hmph! A dull name that suits you{br}perfectly!{page}Listen... As long as your inferiors call{br}you by a dull name like that, you're{br}third-rate...{page}A Vandel must earn an \"epithet\" like{br}mine...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F17C",
+   "jp": "自分の「二つ名」を　入力してください{close}",
+   "en": "Please enter your \"epithet.\"{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F1A4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F1B0",
+   "jp": "ワシの「二つ名」は「強欲君主」・・・{page}フンッ・・・{br}誰がつけたか知らんが　ワシにぴったりの{br}名ではないかっ・・・{page}強欲で　大いに結構・・・{br}いいか・・・ヴァンデルにとって{br}本当の敵とは　何か分かるか？{page}強力な天撃を使うバスターか・・・？{page}強力な才牙を使うバスターか・・・？{page}それとも・・・{page}強力なコンビネーションの{br}バスター戦士団か・・・？{page}フンッ・・・どれもちがうな・・・{close}",
+   "en": "My epithet is \"Greedy Overlord\"...{page}Hmph... I don't know who came up{br}with it, but doesn't it suit me{br}perfectly...?{page}Greedy and proud of it... Listen... Do{br}you know a Vandel's true enemy?{page}A Buster with powerful Divine{br}Attacks...?{page}A Buster with a powerful Saiga...?{page}Or perhaps...{page}A Buster Squad with powerful{br}teamwork...?{page}Hmph... None of those...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F32C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F338",
+   "jp": "いいか・・・ヴァンデルにとっての{br}本当の敵とは　他でもない・・・{br}ヴァンデルなんだよっ{page}そう・・・となりにいるヴァンデルこそが{br}本当の　敵なのだ・・・{page}となりのヴァンデルを　いかに{br}出し抜くか・・・{br}これこそが全てだっ・・・{page}いいか・・・それだけを考えろ・・・{page}バスターなどしょせん人間・・・{br}虫けら同然のゴミだ・・・{page}ヴァンデルに勝ってこそ　真の{br}ヴァンデルとなれるのだっ！！{page}この腕一つで　君主と呼ばれるまでに{br}はい上がった　このワシから{br}学ぶがよいっ！！{close}",
+   "en": "Listen... A Vandel's true enemy is{br}none other than... another Vandel!{page}That's right... The Vandel beside you{br}is your true enemy...{page}How to outwit the Vandel beside{br}you... That's all that matters...{page}Listen well... Think of nothing else...{page}Busters are only humans, after all...{br}Worthless vermin...{page}Only by defeating other Vandels can{br}you become a true Vandel!!{page}Learn from me! I clawed my way up to{br}Overlord with my own two hands!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F508",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F514",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F614",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F620",
+   "jp": "ちぃっ・・・{br}この根性なしめ・・・{br}やっぱり　くたばりやがった・・・{page}帰りは　歩いて帰れってか・・・？{close}",
+   "en": "Tch... Spineless wretch... Dropped{br}dead after all...{page}Am I supposed to walk back...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F68C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F698",
+   "jp": "つまらん・・・{br}つまらんぞーーーっ！！！{close}",
+   "en": "How dull... This is SO DULL!!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F6C4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F6D0",
+   "jp": "おい！{br}{vandel}！！{page}目障りなゴミを{br}さっさと　始末してしまえっ！！{close}",
+   "en": "Hey! {vandel}!!{page}Hurry up and get rid of that{br}eyesore!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F714",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F720",
+   "jp": "貴様・・・{br}こんなゴミに　何を手間取ってんだ・・・{close}",
+   "en": "You... What's taking so long with{br}trash like this...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F758",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F764",
+   "jp": "ちぃっ・・・まったく・・・{br}まあ一ツ星の　ひよっこだから{br}仕方がねぇか・・・{page}おいっ！{br}次は　この里を攻め滅ぼしてしまえ・・・{br}いいな・・・さっさとやれよっ・・・{page}いくら気の長い　このワシでも{br}ガマンの限界ってもんが{br}あるからな・・・{close}",
+   "en": "Tch... Honestly... Well, you're only a{br}One-Star hatchling. What can I{br}expect...?{page}Hey! Next, wipe out this village... Got{br}it...? Get on with it...{page}Even a patient fellow like me has his{br}limits...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F914",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F920",
+   "jp": "おい貴様・・・何やってんだ・・・{br}さっさと　その門を開けてしまえ・・・{close}",
+   "en": "Hey, you... What are you doing...?{br}Hurry up and open that gate...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F96C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F978",
+   "jp": "ちいっ{br}なんだそのザマはっ・・・{page}{vandel}{br}どけどけッ！！{close}",
+   "en": "Tch! What a pathetic display...{page}{vandel}! Move! Out of my way!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F9B0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3F9BC",
+   "jp": "このひよっこめっ・・・{page}まぁ　いくら低能な人間どもが{br}創ったとはいえ{br}里の門は　少々固いからな・・・{page}貴様のそのヒョロヒョロの腕じゃ{br}無理だろうよ・・・{page}ワシが手本を見せてやる・・・{br}しっかり見ておくんだな・・・{page}貴様も　ワシのように{br}人間どもを苦しめて{br}功績を　あげろよ・・・{page}そうすれば　その左腕に「星」が{br}増えるだろうぜ・・・{page}今回は　ワシが門を破ってやる・・・{page}このワシの力を　しっかりと{br}その目に　焼き付けておけっ・・・！{close}",
+   "en": "You hatchling...{page}Well, even if those dimwitted humans{br}built it, a village gate is fairly{br}sturdy...{page}Those scrawny arms of yours won't{br}do the job...{page}I'll show you how it's done... Watch{br}closely...{page}You'd better follow my example.{br}Make those humans suffer and earn{br}yourself some glory...{page}Then you'll earn more \"Stars\" on{br}that left arm of yours...{page}This time, I'll break down the gate for{br}you...{page}Burn the sight of my power into{br}those eyes of yours...!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FB70",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FB7C",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FB98",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FBA4",
+   "jp": "うりゃぁーーっ！！{close}",
+   "en": "Hyaaaah!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FBBC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FBC8",
+   "jp": "ふんっ・・・見ろ・・・{br}ワシなら一撃だぞ・・・{close}",
+   "en": "Hmph... See...? One blow is all I need...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FC7C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FC88",
+   "jp": "ガーッハッハッ！！{br}見ろ　あのゴミをっ・・・{close}",
+   "en": "Gwahaha!! Look at that trash...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FCB8",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FCC4",
+   "jp": "ぞろぞろ出てきやがって・・・{br}おまえら　アリかってんだ・・・{page}ちぃっ・・・{br}うっとおしい・・・{page}貴様・・・門は破れなくても{br}これぐらいは楽勝だよな・・・{page}軽く　やっちまえ・・・{br}いいな・・・このワシを{br}待たせるなよっ{close}",
+   "en": "They just keep crawling out... What{br}are you, ants...?{page}Tch... What a nuisance...{page}You... You couldn't break the gate,{br}but this should be easy enough...{page}Make short work of them... Got it...?{br}Don't keep me waiting!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FF30",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3FF3C",
+   "jp": "おい・・・貴様・・・{br}「星」ゲットのチャンスだぞ・・・{page}さっさと　そのゴミを片付けて{br}女神像を　破壊しろ・・・{page}ワシの下僕が　「一ッ星」じゃぁ{br}かっこがつかんからな・・・{page}今回の「星」は　ゆずってやる・・・{close}",
+   "en": "Hey... You... Here's your chance to{br}earn a \"Star\"...{page}Hurry up and clear out that trash,{br}then destroy the goddess statue...{page}Having a \"One-Star\" servant makes{br}me look bad...{page}I'll let you have this \"Star\"...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  }
+ ]
+}

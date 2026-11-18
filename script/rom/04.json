@@ -1,0 +1,1967 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.10080",
+   "jp": "ザンデ",
+   "en": "Zande",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10088",
+   "jp": "おっと{br}いい獲物が　きやがった{page}ちょうど　暇だったしな{br}相手してやるよ{page}オレは{br}「地獄の稲妻」ザンデだ{page}オレの稲妻は・・・しびれるぜ{close}",
+   "en": "Well, well. Some nice prey just{br}showed up.{page}I was getting bored. I'll take you on.{page}I'm Zande, \"Hell's Lightning.\"{page}My lightning... will give ya a real{br}shock.{close}",
+   "kind": "msg",
+   "speaker": "ザンデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.10110",
+   "jp": "ザンデ",
+   "en": "Zande",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10118",
+   "jp": "ちっ　オレの稲妻じゃ{br}役不足か・・・{close}",
+   "en": "Tch... My lightning wasn't enough,{br}huh...{close}",
+   "kind": "msg",
+   "speaker": "ザンデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.10140",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10148",
+   "jp": "{hero}ーー！{page}はぁはぁ・・・{br}元気？{br}あたいは　いつでも元気だけどさ！{page}はぁはぁ・・・{br}あ　あのさ{page}もう少し先だけど　この北の方に{br}「オーラン坑道」っていうのが{br}あるんだって{page}そこに　レジスタンスのアジトが{br}あるらしいんだ！{br}よーく　さがしてみて！{close}",
+   "en": "{hero}! Heeey!{page}*pant, pant* How ya doing? I'm doing{br}great, as always!{page}*pant, pant* H-hey, listen...{page}I hear there's a place called \"Oran{br}Mine\" a little farther north of here.{page}Apparently there's a Resistance{br}hideout there! Look real carefully!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.10320",
+   "jp": "メルモンド",
+   "en": "Melmond",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1032C",
+   "jp": "おお{br}やっと　バスターのお出ましだ{page}ちょうど　この下品な金だらけの島に{br}飽き飽きしていたところだよ・・・{page}金に夢中になるなど{br}全く理解できん・・・{page}やはり　この世で美しきものは{br}才牙・・・{page}おっと　待ちたまえ・・・{br}ちゃんと　才牙は具現化できるんだろうね{page}この「銀色の魔手」メルモンドが{br}君の才牙を　評価してあげよう！{page}さあ{br}才牙を　出しなさい！{close}",
+   "en": "Ahh, a Buster appears at last.{page}I was just growing thoroughly tired{br}of this island and its vulgar gold...{page}I cannot understand this obsession{br}with gold...{page}The truly beautiful things in this{br}world are Saiga...{page}Oh, hold on a moment... You can{br}manifest a Saiga, I trust?{page}I, Melmond, the \"Silver Hand,\" shall{br}appraise yours!{page}Now, bring forth your Saiga!{close}",
+   "kind": "msg",
+   "speaker": "メルモンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.1048C",
+   "jp": "メルモンド",
+   "en": "Melmond",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10498",
+   "jp": "す　すばらしい才牙だったぞ・・・{br}ぜひ　私の　コレクションに・・・{close}",
+   "en": "A-a magnificent Saiga... I simply must{br}have it for my collection...{close}",
+   "kind": "msg",
+   "speaker": "メルモンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.104E0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.104E8",
+   "jp": "{hero}ーー！{page}はぁはぁ・・・{br}元気？{page}あたいは　ホント{br}いつでも元気だけどさ！{page}はぁ・・・　はぁ・・・{br}あのさ・・・{page}このすぐ先に{br}「リーベリン湖の塔」っていうのが{br}あるんだけど・・・{page}そこに　レジスタンスの{br}アジトがあるよ！{br}よく　さがしてみてね！{close}",
+   "en": "{hero}! Heeey!{page}*pant, pant* How ya doing?{page}Me, I'm doing great! Really! As always!{page}*pant... pant...* Hey, listen...{page}There's a place called \"Riberin Lake{br}Tower\" just up ahead...{page}There's a Resistance hideout there!{br}Be sure to look carefully!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.106B8",
+   "jp": "ギルス",
+   "en": "Gils",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.106C0",
+   "jp": "この火山の熱波が{br}オレ様に　力を与えてくれるようだぜ！{page}オレ様は{br}「赤熱の烈火」　ギルスだ{page}小僧！　この熱波の中　出会えた祝いだ！{page}跡形もなく　きれいさっぱり{br}燃やしてやろう！{close}",
+   "en": "This volcano's heat seems to be{br}giving me power!{page}I'm Gils, the \"Blazing Inferno\"!{page}Kid! To celebrate our meeting in this{br}scorching heat...{page}I'll burn you up till there's nothing{br}left!{close}",
+   "kind": "msg",
+   "speaker": "ギルス",
+   "refs": 1
+  },
+  {
+   "id": "rom.10774",
+   "jp": "ギルス",
+   "en": "Gils",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1077C",
+   "jp": "燃え尽きるのはオレ様だとォォォ！？{close}",
+   "en": "I'm the one burning to a crisp?!{close}",
+   "kind": "msg",
+   "speaker": "ギルス",
+   "refs": 1
+  },
+  {
+   "id": "rom.107A4",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.107AC",
+   "jp": "{hero}ーー！{page}はぁはぁ・・・{br}あ・・・　あのさ{page}この先に進むと{br}「ビョンリン火山の遺跡」っていうのが{br}あるんだって{page}そこに　レジスタンスの{br}アジトがあるよ！{page}みんな　隠れてるからさ{br}すぐ分からないかも{br}だけど　よくさがしてみて！{close}",
+   "en": "{hero}! Heeey!{page}*pant, pant* H-hey, listen...{page}I hear there's a place called \"Byonrin{br}Ruins\" up ahead.{page}There's a Resistance hideout there!{page}Everyone's hiding, so you might not{br}spot it right away. Look real{br}carefully!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.109E4",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.109F0",
+   "jp": "おはようございます！{br}ハーデン様！！{page}いやいや　いつもお見事なご活躍で！{br}感動します・・・！{close}",
+   "en": "Good morning, Harden-sama!!{page}My, my, your exploits are as splendid{br}as ever! I am deeply moved...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10A50",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10A5C",
+   "jp": "クックックッ・・・当たり前だ・・・{br}ワシのすばらしさ・・・{br}今さら　言うまでもあるまい・・・{close}",
+   "en": "Heh heh heh... Naturally... Surely my{br}magnificence goes without saying by{br}now...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10ABC",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10AC8",
+   "jp": "そうでございますね・・・！{page}しかし　近頃は　うるさい連中が{br}チョロチョロとしているとか・・・{br}しないとか・・・{close}",
+   "en": "Indeed it does...!{page}Still, I hear some troublesome sorts{br}have been scurrying about lately...{br}Or perhaps not...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10B3C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10B48",
+   "jp": "なに？{br}そんなことは・・・{close}",
+   "en": "What? Nothing of the sort...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10B68",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10B74",
+   "jp": "・・・バスターだけならまだしも{br}そうではない　普通の人間も{br}ちょこまかと　動いているようですね{page}例えば　双子の小娘とか・・・{close}",
+   "en": "...Busters would be one thing, but it{br}seems ordinary humans have been{br}scurrying about as well.{page}A certain pair of little twin girls, for{br}instance...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10BF4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10C00",
+   "jp": "なにっ！？{page}あ・・・ああ・・・{br}あの　あれだろ・・・{page}あの双子の小娘だろ・・・？{close}",
+   "en": "What!?{page}Ah... Yes... You mean those...{page}Those little twin girls, don't you...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10C54",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10C60",
+   "jp": "・・・{br}そうです！{br}その小娘です・・・！{page}そうですよね{br}ご存知ですよね・・・！！{close}",
+   "en": "...Yes! That very girl...!{page}Of course. You already know about{br}her...!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10CB4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10CC0",
+   "jp": "当たり前だ・・・{br}このワシが知らぬことなど{br}あるはずがないだろ・・・{close}",
+   "en": "Of course... There is nothing I do not{br}know...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10D08",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10D14",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10D2C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10D38",
+   "jp": "さすがでございます・・・！{page}では　すでに抹殺のために{br}動かれていることかと・・・{page}これで　この島も{br}少しは静かになりますね・・・！{close}",
+   "en": "As expected of you...!{page}Then I assume you have already{br}taken steps to eliminate her...{page}The island should be a little quieter{br}now...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10DC0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10DCC",
+   "jp": "ま　抹殺・・・？{br}当たり前だ・・・{page}おい貴様・・・{br}抹殺はどうなっている・・・！？{close}",
+   "en": "E-eliminate...? Of course...{page}You there... How is that elimination{br}coming along...!?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10E24",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10E30",
+   "jp": "さっさとしろっ！！{br}全く　近頃の若造は{br}これだからいかん・・・{page}オホンッ！{br}館長　ワシはちょっと失礼するぞ・・・{close}",
+   "en": "Get on with it!! This is the trouble{br}with youngsters these days...{page}Ahem! Manager, I must excuse{br}myself...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.10EA4",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10EB0",
+   "jp": "はい！{close}",
+   "en": "Certainly!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10EBC",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10EC8",
+   "jp": "・・・{page}・・・まったく　耳障りで{br}仕方がありませんね！！{close}",
+   "en": "...{page}...Honestly, that racket is quite{br}unbearable!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.10F04",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.10F10",
+   "jp": "あ！{br}人間どものことですよ・・・！！{page}あ！　すみません{br}もう　行かなくては・・・{page}せっかくお会いできましたのに{br}なにぶん多忙な身の上でして・・・{page}それでは！{br}またいずれ！！{close}",
+   "en": "Ah! I mean those humans, of{br}course...!!{page}Oh! My apologies. I must be going...{page}Such a shame, when we have only{br}just met, but I am terribly busy...{page}Farewell! Until next time!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.11134",
+   "jp": "レジスタンスＢ",
+   "en": "Resist. B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11144",
+   "jp": "何者だっ！！{close}",
+   "en": "Who goes there!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＢ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11154",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11164",
+   "jp": "まて！{br}ヴァンデルじゃないぞ！{close}",
+   "en": "Wait! He's not a Vandel!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11188",
+   "jp": "レジスタンスＢ",
+   "en": "Resist. B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11198",
+   "jp": "ドローマンかもしれん！{close}",
+   "en": "Could be a Droman!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＢ",
+   "refs": 1
+  },
+  {
+   "id": "rom.111B4",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.111C4",
+   "jp": "たいまつを　貸してくれ！{close}",
+   "en": "Lend me your torch!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.111E0",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.111F0",
+   "jp": "こいつ　炎をおそれないな・・・{br}大丈夫だ！{br}人間だ！{close}",
+   "en": "He's not afraid of fire... It's all right!{br}He's human!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11228",
+   "jp": "レジスタンスＡ",
+   "en": "Resist. A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11238",
+   "jp": "！！{close}",
+   "en": "!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＡ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11240",
+   "jp": "レジスタンスＢ",
+   "en": "Resist. B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11250",
+   "jp": "どうしました？{close}",
+   "en": "What's wrong?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＢ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11264",
+   "jp": "レジスタンスＡ",
+   "en": "Resist. A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11274",
+   "jp": "き　君はたしか　あの時の・・・{close}",
+   "en": "Y-you're that boy from before...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＡ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11298",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.112A8",
+   "jp": "お知り合いですか？{close}",
+   "en": "You know him?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.112C0",
+   "jp": "レジスタンスＡ",
+   "en": "Resist. A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.112D0",
+   "jp": "ほら　この子が{br}ゼナが　よく話す　彼だよ{close}",
+   "en": "This is the boy Zena's always talking{br}about.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＡ",
+   "refs": 1
+  },
+  {
+   "id": "rom.112FC",
+   "jp": "レジスタンスＢ",
+   "en": "Resist. B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1130C",
+   "jp": "おお！{br}君がうわさの！！{close}",
+   "en": "Oh! So you're the one!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＢ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11328",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11338",
+   "jp": "なるほどね　なかなかのいい男だ{br}これならゼナが{br}熱くなるのも　よく分かる・・・{close}",
+   "en": "I see! Quite a handsome fellow. No{br}wonder Zena gets so fired up about{br}you...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1138C",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1139C",
+   "jp": "おっと！{br}しゃべりすぎたかな？{close}",
+   "en": "Oops! Did I say too much?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.113C0",
+   "jp": "レジスタンスＡ",
+   "en": "Resist. A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.113D0",
+   "jp": "ハハハ・・・　やあ！{br}西方の島　われわれのアジトへようこそ{br}約束どおり力になるよ！{close}",
+   "en": "Hahaha... Hello! Welcome to our{br}hideout on West Island. We'll help{br}you, just as we promised!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＡ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11428",
+   "jp": "レジスタンスＢ",
+   "en": "Resist. B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11438",
+   "jp": "よろしく！{close}",
+   "en": "Glad to join you!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＢ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11448",
+   "jp": "レジスタンスＣ",
+   "en": "Resist. C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11458",
+   "jp": "よろしく！{br}男前さん！！{close}",
+   "en": "Good to meet you, handsome!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＣ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1163C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11644",
+   "jp": "うーーんっ・・・{br}のびのびーーっと・・・{page}さあ　今日も{br}{hero}が待ってるぞ！！{page}がんばれゼナ！！{br}ふんふふーん☆{close}",
+   "en": "Mmm... Time for a good stretch...{page}All right! {hero} is waiting for{br}me again today!!{page}Go get 'em, Zena!! Hmm-hmm-hmm!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.116B4",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.116BC",
+   "jp": "あらゼナ・・・どうしたの？{close}",
+   "en": "Oh, Zena... What's wrong?{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.116DC",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.116E4",
+   "jp": "{hero}が大変だよっ！{br}ヴァンデルにっ・・・！！{close}",
+   "en": "{hero} is in trouble! A Vandel...!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11714",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1171C",
+   "jp": "なんですって・・・！！{close}",
+   "en": "What did you say...!!{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11738",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11740",
+   "jp": "早く！{br}一緒に来て！！{close}",
+   "en": "Hurry! Come with me!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1175C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11764",
+   "jp": "分かったわ・・・！{close}",
+   "en": "All right...!{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1177C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11784",
+   "jp": "！？{close}",
+   "en": "!?{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1178C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11794",
+   "jp": "ゼナ・・・{br}これは　どういうこと！？{close}",
+   "en": "Zena... What's going on!?{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.117BC",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.117C8",
+   "jp": "眠い・・・{br}しかし・・・　楽勝だな・・・{close}",
+   "en": "So sleepy... Still... that was easy...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.117F4",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11800",
+   "jp": "あなたたち・・・{br}連れて行ってください・・・{page}私はここで一休みします・・・{page}ねむい・・・{close}",
+   "en": "You there... Please take her away...{page}I shall rest here a while...{page}So sleepy...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1185C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11864",
+   "jp": "了解！{close}",
+   "en": "Got it!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11870",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11878",
+   "jp": "キャーーーーーッ！！{close}",
+   "en": "Aaaaaah!!{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11A1C",
+   "jp": "レナからもらった{br}お守り「シルバーチャーム」に{br}ひびが入った！{page}なにかの　前ぶれだろうか・・・{close}",
+   "en": "The \"Silver Charm\" Lena gave you{br}has cracked!{page}Could it be a sign of something...?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.11A80",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11A88",
+   "jp": "{hero}ーー！！{close}",
+   "en": "{hero}!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11A98",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11AA0",
+   "jp": "へへー　元気ぃ？？{close}",
+   "en": "Hehe! How ya doing??{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11AB8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11AC0",
+   "jp": "あ　それ{br}ねえちゃんからもらった{br}お守りだね・・・！{page}え！？　ひびが！？{close}",
+   "en": "Oh, that's the charm my sis gave{br}you...!{page}Huh!? It's cracked!?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11B0C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11B14",
+   "jp": "ねえちゃんに　なんか{br}あったのかな・・・{page}どうしよう・・・{br}{hero}・・・{close}",
+   "en": "Did something happen to my sis...?{page}What do we do, {hero}...?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11B5C",
+   "jp": "レナからもらった{br}お守り「シルバーチャーム」に{br}ひびが入った！{page}なにかの　前ぶれだろうか・・・{close}",
+   "en": "The \"Silver Charm\" Lena gave you{br}has cracked!{page}Could it be a sign of something...?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.11BC0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11BC8",
+   "jp": "{hero}ーー！！{close}",
+   "en": "{hero}!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11BD8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11BE0",
+   "jp": "へへー　元気ぃ？？{close}",
+   "en": "Hehe! How ya doing??{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11BF8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11C00",
+   "jp": "あ　それ{br}ねえちゃんからもらった{br}お守りだね・・・！{page}え！？　ひびが！？{close}",
+   "en": "Oh, that's the charm my sis gave{br}you...!{page}Huh!? It's cracked!?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11C4C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11C54",
+   "jp": "ねえちゃんに　なんか{br}あったのかな・・・{page}どうしよう・・・{br}{hero}・・・{close}",
+   "en": "Did something happen to my sis...?{page}What do we do, {hero}...?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11C9C",
+   "jp": "レナからもらった{br}お守り「シルバーチャーム」に{br}ひびが入った！{page}なにかの　前ぶれだろうか・・・{close}",
+   "en": "The \"Silver Charm\" Lena gave you{br}has cracked!{page}Could it be a sign of something...?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D00",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D08",
+   "jp": "{hero}ーー！！{close}",
+   "en": "{hero}!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D18",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D20",
+   "jp": "へへー　元気ぃ？？{close}",
+   "en": "Hehe! How ya doing??{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D38",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D40",
+   "jp": "あ　それ{br}ねえちゃんからもらった{br}お守りだね・・・！{page}え！？　ひびが！？{close}",
+   "en": "Oh, that's the charm my sis gave{br}you...!{page}Huh!? It's cracked!?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D8C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11D94",
+   "jp": "ねえちゃんに　なんか{br}あったのかな・・・{page}どうしよう・・・{br}{hero}・・・{close}",
+   "en": "Did something happen to my sis...?{page}What do we do, {hero}...?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.11E60",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.11E6C",
+   "jp": "起こすなよ・・・{br}私は眠いんだ・・・{page}レナ？{br}知らんねぇ・・・{page}ふあぁぁぁっ・・・ああ・・・{br}あの銀色の髪の女か{br}それを　今聞いてどうする？{page}さてな・・・{br}今頃はどこだろうな・・・{page}ふあぁぁぁっ・・・眠い・・・{br}いかんいかん・・・{br}少々おしゃべりがすぎた・・・{page}私の冥力の中で{br}平気なヤツがいるとは・・・{page}オモシロイ・・・{page}もう一眠りする前に{br}私の眠りをさまたげる　おろかものを{br}永眠させてあげよう・・・{close}",
+   "en": "Don't wake me... I'm sleepy...{page}Lena? Never heard of her...{page}Yaaawn... Ah... The silver-haired girl.{br}What good will asking about her do{br}now?{page}Who knows... Where might she be by{br}now...?{page}Yaaawn... So sleepy... Oh dear, oh{br}dear... I've said a little too much...{page}To think someone could withstand{br}my Dark Power...{page}How interesting...{page}Before I take another nap, allow me{br}to put the fools who disturb my{br}sleep to rest... forever...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.12004",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12010",
+   "jp": "ぐ　ぐわーーっ・・・{close}",
+   "en": "G-gwaaah...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.122A8",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.122B0",
+   "jp": "すっげーヴァンデルだったな！{br}里の人をみんな　夢の世界へ{br}やっちゃうなんてよ！{close}",
+   "en": "That Vandel was something else!{br}Sent the whole village off to{br}dreamland!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12304",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1230C",
+   "jp": "まさか{br}門まで　ねむらせるなんて・・・{close}",
+   "en": "I can't believe he even put the gate{br}to sleep...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.12338",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12340",
+   "jp": "油断できないわね{br}こう簡単に里の中に　入られたんじゃ{br}里の人はもちろん　女神像もあぶないわ{close}",
+   "en": "We can't let our guard down. If they{br}can get into the village this easily,{br}everyone's in danger, and so is{page}the goddess statue.{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.123A0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.123A8",
+   "jp": "ぼくたちの想像を超えたヴァンデルが{br}まだまだいるのかもしれないね・・・{close}",
+   "en": "There may be plenty more Vandels{br}out there beyond anything we can{br}imagine...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.123F4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.123FC",
+   "jp": "！！{close}",
+   "en": "!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12404",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1240C",
+   "jp": "なに！？{br}この圧迫感！{close}",
+   "en": "What!? What's this crushing{br}pressure!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12428",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12430",
+   "jp": "ヴァンデルは倒したはずなのに・・・{br}まさか　別にもうひとり・・・！？{close}",
+   "en": "But we defeated the Vandel... Could{br}there be another one...!?{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.12478",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12480",
+   "jp": "門の外だ！{br}行くぞ！！{close}",
+   "en": "Outside the gate! Let's go!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1249C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.124A4",
+   "jp": "すげぇ・・・{br}なんて冥力だ・・・！{close}",
+   "en": "Whoa... That Dark Power...!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.124CC",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.124D4",
+   "jp": "みんな　気をつけて！！{br}今までのヤツらとは　冥力が違うわ！！{close}",
+   "en": "Everyone, be careful!! His Dark Power{br}is nothing like the others'!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12514",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1251C",
+   "jp": "うん・・・{br}冷静にいこう！{close}",
+   "en": "Right... Let's keep our heads!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1253C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12544",
+   "jp": "なんだよ　あいつ・・・！！{br}まだ　全然本気出してなかったぞ！！{close}",
+   "en": "What's with that guy...!! He wasn't{br}even trying yet!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12588",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12590",
+   "jp": "なんで　逃げるのかしら・・・{close}",
+   "en": "Why would he run away...?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.125B0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.125B8",
+   "jp": "逃げた・・・のかな・・・？{br}もしかして　あれが「黄金城」の{br}ヴァンデル・・・？？{close}",
+   "en": "Did he... run away...? Could he be the{br}Vandel from the \"Golden Castle\"...?{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1260C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12614",
+   "jp": "どうした　{hero}？{br}顔色わるいぜ{close}",
+   "en": "What's wrong, {hero}? You{br}look pale.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12634",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1263C",
+   "jp": "ビィト・・・「黄金城」のヴァンデルは{br}{hero}のお父さんの{br}仇かもしれないのよ・・・{close}",
+   "en": "Beet... The Vandel from the \"Golden{br}Castle\" might have killed the father{br}of {hero}...{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12690",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12698",
+   "jp": "そっか・・・{br}そうなんだ・・・{close}",
+   "en": "Oh... So that's it...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.126BC",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.126C4",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.126D0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.126D8",
+   "jp": "よし！　なら　ますます気合入れて{br}いかないとなっ！！{br}がんばろうぜ！！{close}",
+   "en": "All right! Then we've gotta give it{br}everything we've got!! Come on, let's{br}do this!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12724",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1272C",
+   "jp": "そうだよ・・・{hero}{br}ぼくたちも　協力するからさ！{close}",
+   "en": "That's right, {hero}... We're{br}here to help!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.12760",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12768",
+   "jp": "うん・・・　そうだよ{br}{hero}は{br}ひとりぼっちじゃないからね！！{close}",
+   "en": "Yes... That's right. You're not alone,{br}{hero}!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1287C",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12884",
+   "jp": "{hero}・・・{br}レナが　心配じゃな・・・{page}ヴァンデルめ{br}人さらいなどと　卑劣なことをっ・・・{page}今日は　緊急ニュースが{br}あるのじゃ・・・{page}西方の島のミュテリン山の里が{br}金の採掘所になっているらしい・・・{page}強制労働で人を無理やり{br}働かせるとは・・・{br}なんと悪趣味なヴァンデルじゃ{page}人が苦しむ姿を見て{br}楽しんでいるのか・・・{page}モンスターを回すカネが惜しい{br}ドケチなのか{br}・・・いずれにせよ　悪趣味じゃ・・・{page}すまんが　早速　とらわれの人々を{br}救出に向かってくれ{page}きっと　その先に{br}レナもいるはずじゃ{page}いよいよ　「封印のリング」の修復も{br}残すところ　あとわずかと{br}なってきたな・・・{page}残りも　気を引き締めて　くれぐれも{br}よろしく　頼むぞ・・・{close}",
+   "en": "{hero}... I fear for Lena...{page}Those Vandels! How vile to abduct{br}her!{page}Urgent news, my boy. Muterin{br}Mountain Village on West Island is{br}now a gold mine, it seems.{page}Forcing folk to toil! What vile tastes!{br}Does he enjoy their pain? Or is he{br}too stingy to pay for monsters?{page}Either way, vile!{page}Sorry, but go free the captives at{br}once. Lena must be farther ahead.{page}Only a few \"Sealing Rings\" left to{br}repair now, eh? Stay alert as you{br}mend the rest. I'm counting on{page}you!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.12AFC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12B04",
+   "jp": "よし　これならおれ達だけで{br}なんとかなりそうだな{close}",
+   "en": "All right! Looks like we can handle{br}this ourselves.{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12B38",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12B40",
+   "jp": "{hero}ここは{br}ぼくたちに　まかせて！{close}",
+   "en": "{hero}, leave this to us!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.12B64",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12B6C",
+   "jp": "そうね・・・{hero}は{br}一刻も早く{br}レナの救出に向かってちょうだい！！{close}",
+   "en": "That's right... {hero}, go{br}rescue Lena as quickly as you can!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12BB0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12BB8",
+   "jp": "また　後で会おうぜ！！{close}",
+   "en": "See ya later!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.12D20",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12D2C",
+   "jp": "私を　呼び覚ましたのは君かね？{page}知的に考えたまえ・・・{br}私が石像から　出たという{br}ことはだな・・・{close}",
+   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone statue{br}means...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12D94",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12DA0",
+   "jp": "私は本当の　私ではなく{br}肖像であるということなのだ・・・{close}",
+   "en": "I am not my true self, but an effigy...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12DDC",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12DE8",
+   "jp": "フフ・・・　これが何を{br}意味するか　わかるかな{br}君たちに・・・{page}ヴァンデルも　私ほどの上級となれば{br}このように　歴史に名を刻み{close}",
+   "en": "Hmhm... Do you understand what this{br}means? Any of you...?{page}When a Vandel reaches my lofty{br}rank, he leaves his mark on history...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12E6C",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12E78",
+   "jp": "他の模範となる{br}ということだよ・・・{close}",
+   "en": "And becomes an example for others{br}to follow...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12EA0",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12EAC",
+   "jp": "君たちも　この私と一戦交えて{br}歴史に名を残したまえ・・・！{close}",
+   "en": "Cross swords with me, and leave{br}your own names in history...!{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12EEC",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12EF8",
+   "jp": "ＢＡＤ！{br}せっかくの　私の　エクセレントな{br}肖像が・・・{close}",
+   "en": "BAD! My exquisite effigy... Ruined...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12F34",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12F40",
+   "jp": "ここまでか・・・{close}",
+   "en": "So this is the end...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12F54",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12F60",
+   "jp": "まあいい・・・{page}バスター諸君・・・{close}",
+   "en": "Very well...{page}My dear Busters...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12F88",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12F94",
+   "jp": "ＧＯＯＤ　ＬＵＣＫ！！{close}",
+   "en": "GOOD LUCK!!{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.12FB0",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.12FBC",
+   "jp": "私を　呼び覚ましたのは君かね？{page}知的に考えたまえ・・・{br}私が石像から　出たという{br}ことはだな・・・{close}",
+   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone statue{br}means...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.13024",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13030",
+   "jp": "私は本当の　私ではなく{br}肖像であるということなのだ・・・{close}",
+   "en": "I am not my true self, but an effigy...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1306C",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13078",
+   "jp": "フフ・・・　これが何を{br}意味するか　わかるかな{br}君たちに・・・{page}ヴァンデルも　私ほどの上級となれば{br}このように　歴史に名を刻み{close}",
+   "en": "Hmhm... Do you understand what this{br}means? Any of you...?{page}When a Vandel reaches my lofty{br}rank, he leaves his mark on history...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.130FC",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13108",
+   "jp": "他の模範となる{br}ということだよ・・・{close}",
+   "en": "And becomes an example for others{br}to follow...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.13130",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1313C",
+   "jp": "君たちも　この私と一戦交えて{br}歴史に名を残したまえ・・・！{close}",
+   "en": "Cross swords with me, and leave{br}your own names in history...!{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1317C",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13188",
+   "jp": "ＢＡＤ！{br}せっかくの　私の　エクセレントな{br}肖像が・・・{close}",
+   "en": "BAD! My exquisite effigy... Ruined...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.131C4",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.131D0",
+   "jp": "ここまでか・・・{close}",
+   "en": "So this is the end...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.131E4",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.131F0",
+   "jp": "まあいい・・・{page}バスター諸君・・・{close}",
+   "en": "Very well...{page}My dear Busters...{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.13218",
+   "jp": "グリニデ",
+   "en": "Grineed",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13224",
+   "jp": "ＧＯＯＤ　ＬＵＣＫ！！{close}",
+   "en": "GOOD LUCK!!{close}",
+   "kind": "msg",
+   "speaker": "グリニデ",
+   "refs": 1
+  },
+  {
+   "id": "rom.13320",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13324",
+   "jp": "フッ・・・{close}",
+   "en": "Heh...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.13334",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13340",
+   "jp": "ああ！{br}黄金城　唯一の入場口である{br}この橋を　落とされましたか！{close}",
+   "en": "Ah! You have destroyed this bridge,{br}the only entrance to the Golden{br}Castle!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.13384",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13390",
+   "jp": "これで　バスター共は{br}黄金城に　入場できなくなりましたね！{close}",
+   "en": "Now those Busters cannot enter{br}the Golden Castle!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.133D0",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.133DC",
+   "jp": "いやぁ　あのバスター共の　困った顔！{br}なかなか　笑わせますね！！{close}",
+   "en": "Oh, those bewildered looks on their{br}faces! Quite amusing indeed!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.13420",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1342C",
+   "jp": "ウフ・・・ウフフフフッ・・・！{br}奴らがどう出るか　見ものです！！{close}",
+   "en": "Oho... Ohohohoho...! I can hardly wait{br}to see how they respond!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.13470",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13474",
+   "jp": "フッ・・・{close}",
+   "en": "Heh...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.13524",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1352C",
+   "jp": "{hero}！{br}聞いたぞ！{page}黄金城に　入場する　唯一の橋が{br}破壊されたそうじゃな！{page}やっかいじゃのう・・・{br}しかし　打つ手はあるぞ！{page}橋がないのならば　橋をかければ{br}よいのじゃ！{page}ふむふむ・・・{br}確かにそうじゃ・・・{page}敵の本拠地に　橋をかけるのじゃから{br}それはそれは　困難を{br}極めるであろう・・・{page}しかし！{br}あの男ならば　やってくれるはずじゃ！{br}彼の名前は　「橋かけ名人」！！{page}トロワナのアサド山地にも{br}彼のかけた立派な橋があるそうじゃ！！{page}なんと　その有名な名人が{br}この東の里に　来てるらしいんじゃ！！{close}",
+   "en": "{hero}! The castle's only{br}bridge is gone, eh? Trouble! But we{br}can build one!{page}A tough job at the enemy's base!{br}Bridge Master can do it! He built a{br}fine bridge in Torowana's Asado{page}Mountains! And that famous Master{br}is here in East Village!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.13720",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13728",
+   "jp": "ほれ！{br}わしゃ　もう　サインを{br}もらってきたわい！！{page}まだ　この里の中に　いらっしゃっると{br}思うのじゃが・・・{page}さっそく探してみてくれ！！{close}",
+   "en": "Look here! I've already got his{br}autograph, I have!!{page}He should still be somewhere in the{br}village, if I'm not mistaken...{page}Off you go! Find him straight away!!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.137B8",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.137C4",
+   "jp": "おおっ！{br}バスターのしょくんっ！！{br}君たちも　サインがほしいのかな？？{page}・・・{page}しょ・・・しょくん！{br}元気がないな！！{page}そう！　わしが「橋かけ名人」だ！！{br}これからは「名人」とよぶがいい！！{page}・・・{page}うおっほん！{br}サインはいらぬか・・・{br}では　何の用かな？？？{page}ほうほう・・・{page}おまえさんたちが・・・{page}ヴァンデルの・・・{page}本拠地！？に・・・{page}攻め込むための！！？？{page}橋を作ってほしいだと！！！？？？{page}・・・{close}",
+   "en": "Oho! My good Busters!! Have you{br}come for autographs, too??{page}...{page}M-my friends! Where's your{br}enthusiasm?!{page}Yes! I am the \"Bridge Master\"!! You{br}may call me \"Master\" from now on!!{page}...{page}AHEM! No autographs, then... What{br}can I do for you???{page}I see, I see...{page}You want me...{page}To build a bridge...{page}To the Vandels' stronghold!?{page}So you can storm it!!??{page}You want me to do WHAT!!!???{page}...{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13960",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1396C",
+   "jp": "分かった・・・{page}そのような　大仕事・・・{br}「橋かけ名人」の名に恥じぬ仕事を{br}してみせよう！！{page}しかし！{br}安全確保は　しょくんの仕事だ！{page}まずは　そこのモンスターを{br}できる限り多く　倒してきてくれ！{br}よろしく頼むよ！！{close}",
+   "en": "Very well...{page}Such a grand undertaking... I shall do{br}work worthy of the name \"Bridge{br}Master\"!!{page}However! Keeping me safe is your{br}job!{page}First, go and defeat as many{br}monsters there as you can! I'm{br}counting on you!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13A48",
+   "jp": "リンブロ平原",
+   "en": "Rinburo Plains",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.13A58",
+   "jp": "橋かけ名人",
+   "en": "Bridge Master",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.13A64",
+   "jp": "モンスターを退治して{br}橋かけ工事の安全確保ができた！{close}",
+   "en": "You defeated the monsters and{br}made the area safe for bridge{br}construction!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.13A9C",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13AA8",
+   "jp": "おお！　しょくん！{br}ご苦労であった！！{page}かなりのモンスターを{br}倒してきたようだな！！{page}よーし！{br}いよいよ　出発だぞっ！！{page}しょくんは　橋の工事の{br}護衛を　くれぐれも{br}わすれずに　頼むぞ！！{page}よし！{br}では　現場で会おう！！{close}",
+   "en": "Ah, my friends! Well done!!{page}You seem to have defeated quite a{br}few monsters!!{page}Right! Time to set off at last!!{page}Be sure you don't forget to guard{br}me while I build the bridge!!{page}Good! I'll see you at the site!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13C64",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13C70",
+   "jp": "しょくん！{br}今のところ　工事は順調じゃ！！{page}モンスターが　来たら{br}護衛を　頼むぞ！！{close}",
+   "en": "My friends! Construction is going{br}smoothly so far!!{page}If any monsters come, I'm counting{br}on you to protect me!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13CC8",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13CD4",
+   "jp": "さっそくきたーーー！！{close}",
+   "en": "Here they come already!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13CF0",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13CFC",
+   "jp": "バスターのしょくん！{br}出番ですぞ！！{close}",
+   "en": "My good Busters! You're up!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13D24",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13D30",
+   "jp": "おおおっ！{br}よくやってくれた！！{page}しっかし　おまえさんたち・・・{br}強いのぉ・・・！{page}あんなモンスターを{br}たおしてしまうとは・・・！！{page}ん！？{br}前にも　こんなことが{br}あったような・・・！？{page}気のせいかの・・・？？？{close}",
+   "en": "Ohoho! Well done indeed!!{page}But my word... You really are strong,{br}eh...!{page}To think you defeated monsters like{br}those...!!{page}Hmm!? Haven't I been through{br}something like this before...!?{page}Perhaps it's my imagination...???{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13E08",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13E14",
+   "jp": "よし！！{br}最後の仕上げじゃ！！！{close}",
+   "en": "Right!! Time for the finishing{br}touches!!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13E38",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13E44",
+   "jp": "よし！！{br}完成じゃ！！！{page}さあ　バスターのしょくん！！{br}敵の本拠地へ　突撃じゃ！！！{page}わしは　退散じゃ！{br}では　バスターのしょくん！{br}健闘をいのる！！{close}",
+   "en": "Right!! It's finished!!!{page}Now, my good Busters!! Charge into{br}the enemy stronghold!!!{page}As for me, I'm off! Farewell, my good{br}Busters! Best of luck!!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.13F74",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.13F80",
+   "jp": "うむ・・・{br}このバスターしょくんの{br}強さは　ホンモノじゃ！{page}このバスターしょくんなら{br}本当に　ヴァンデルを倒して{br}この島を救うじゃろう！{page}・・・{page}わしの方が　サインをもらっておけば{br}よかったのぉ・・・{close}",
+   "en": "Hmm... These Busters' strength is{br}the real thing!{page}They really may defeat the Vandels{br}and save this island!{page}...{page}I should have asked for their{br}autographs, eh...{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  }
+ ]
+}

@@ -1,0 +1,275 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.20594",
+   "jp": "「この先　西方の島」{page}まだ西方の島へは{br}進むことができない・・・{close}",
+   "en": "\"West Island Ahead\"{page}You can't reach West Island yet...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.205D8",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.205E8",
+   "jp": "ナッシュ平原へ行くかい？{close}",
+   "en": "Heading to Nash Plains?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.20604",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.20614",
+   "jp": "それじゃ、ナッシュ平原へ向かうよ{close}",
+   "en": "All right, off to Nash Plains.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.20638",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.20648",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.20678",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.20688",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.206B8",
+   "jp": "パラライズビーを　手に入れた{close}",
+   "en": "Obtained Paralysis Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.20C98",
+   "jp": "アイスビーを　手に入れた{close}",
+   "en": "Obtained Ice Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.21148",
+   "jp": "向こうから　この里の人々の{br}苦しそうな声が聞こえる！{page}しかし強大な冥力が{br}噴き出してくるため{br}これ以上進むことができない{close}",
+   "en": "You can hear the villagers crying{br}out in pain up ahead!{page}But immense Dark Power is pouring{br}out, keeping you from going any{br}farther.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2154C",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2158C",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.215A8",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.215C4",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.215E0",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.21620",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2163C",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.21658",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.21674",
+   "jp": "マスターブレイドを　手に入れた{close}",
+   "en": "Obtained Master Blade.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.21698",
+   "jp": "マスターボウを　手に入れた{close}",
+   "en": "Obtained Master Bow.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.216B8",
+   "jp": "マスターソードを　手に入れた{close}",
+   "en": "Obtained Master Sword.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.216D8",
+   "jp": "マスターグローブを　手に入れた{close}",
+   "en": "Obtained Master Gloves.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.216FC",
+   "jp": "マスターマントを　手に入れた{close}",
+   "en": "Obtained Master Cape.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2171C",
+   "jp": "カギ２を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "Obtained Key 2.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.219C0",
+   "jp": "バグを　手に入れた{close}",
+   "en": "Obtained Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.22114",
+   "jp": "コンフューズビーを　手に入れた{close}",
+   "en": "Obtained Confusion Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2269C",
+   "jp": "ベターバグを　手に入れた{close}",
+   "en": "Obtained Better Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2273C",
+   "jp": "カギ４を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "Obtained Key 4.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.22814",
+   "jp": "マスターハンマーを{br}手に入れた！{close}",
+   "en": "Obtained Master Hammer!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.228BC",
+   "jp": "リカバーワームを　手に入れた{close}",
+   "en": "Obtained Recovery Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.22B54",
+   "jp": "スコルピオを　手に入れた{close}",
+   "en": "Obtained Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.22B70",
+   "jp": "マスタージャケットを{br}手に入れた{close}",
+   "en": "Obtained Master Jacket.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.239A8",
+   "jp": "リカバーバグを　手に入れた{close}",
+   "en": "Obtained Recovery Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.23F94",
+   "jp": "倒れた木が邪魔をして先へ進めない{br}才牙を使えば破壊できそうだ{close}",
+   "en": "A fallen tree blocks the way. You{br}could probably break it with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.23FD4",
+   "jp": "才牙で破壊しますか？{close}",
+   "en": "Break it with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.23FEC",
+   "jp": "倒れた木を壊した！{close}",
+   "en": "You broke the fallen tree!{close}",
+   "kind": "msg",
+   "refs": 1
+  }
+ ]
+}

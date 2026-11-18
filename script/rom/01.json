@@ -1,0 +1,1202 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.04104",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0410C",
+   "jp": "{hero}はまだ{br}バスターになって{br}間もない感じだけど・・・{page}そうなんだ{br}まだ新人さんなんだね{page}え？「天撃」のこと・・・かい？{page}基礎なら　ぼくでも{br}教えてあげられると思うよ！{page}{hero}も　鑑定小屋で{br}ブランディングしてもらったよね？{page}じゃあ　天撃が{br}使えるようになっているはずだよ{page}天撃は　大気中のエネルギー「天力」を{br}増幅して　コントロールして使うんだ{page}天撃には{br}「火」「水」「風」「雷」「光」という{br}５つの属性があるよ{page}得意な属性を　たくさん使えば{br}どんどん使いこなして　より強い天撃を{br}マスターできると思うよ！{page}わかったかな？{br}いろいろ　ためしてみてね！{close}",
+   "en": "New, {hero}? Branded at an{br}Appraisal Hut, {hero}? You can{br}use Divine Attacks! Amplify and{page}control Divine Power in the air.{page}Fire, Water, Wind, Lightning, Light: use{br}your best element often to master{br}stronger attacks. Try them!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.04334",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0433C",
+   "jp": "{hero}はさー{br}どうしてバスターになろうと{br}思ったの？？{page}・・・{close}",
+   "en": "So, {hero}... what made you{br}want to become a Buster?{page}...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.0437C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04384",
+   "jp": "・・・ごめん{br}話しにくかったら別に{br}無理しなくていいよ・・・{page}ぼくも　いろいろあったしね・・・{page}バスターって　つらいことたくさんあるけどさ・・・{close}",
+   "en": "...Sorry. If it's hard to talk about, you{br}don't have to...{page}I've been through a lot myself...{page}Being a Buster can be pretty rough...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.04418",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04420",
+   "jp": "でも　みんなの暮らしを守るお手伝いが{br}できるからさ・・・{br}やりがいあるよね・・・！{close}",
+   "en": "But we get to help keep people's{br}lives safe... That makes it{br}worthwhile...!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.04478",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04480",
+   "jp": "「暗黒の世紀」を終わらせるんだ！！{close}",
+   "en": "\"We're going to end the Dark{br}Century!!\"{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.044A8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.044B0",
+   "jp": "なんてね・・・{br}これビィトの　口ぐせなんだ！！{page}ビィトって　ああ見えてさ{br}ほんと　すごいやつなんだ・・・{page}ぼくも　がんばらなくっちゃ・・・{close}",
+   "en": "Just kidding... That's what Beet{br}always says!{page}He may not look it, but Beet really is{br}amazing...{page}I'd better keep working hard, too...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.04644",
+   "jp": "バカヤロウ！！{page}このゴージャス　アンド　リッチな{br}ワシの黄金の島に{page}小汚いバスターの　上陸を{br}許すとは何事だっ！！{page}くそっ・・・{br}なんと　汚らわしい・・・{page}その船が着岸した辺りに{br}しっかりと　ガブちゃんを{br}ばらまいておけ・・・{page}さっさと　行けっ！！{page}ちいっ・・・{br}まったく　役に立たんヤツだ・・・{close}",
+   "en": "You idiot!!{page}How dare you let filthy Busters land{br}on the golden island of yours truly,{br}the gorgeous and rich ruler?!{page}Curse it... How revolting...{page}Scatter plenty of Snappies around{br}the spot where that ship docked...{page}Get going!!{page}Tch... Utterly useless...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.04770",
+   "jp": "これだから　星の少ないやつは{br}話にならんと　いうのだ・・・{page}まぁ　このワシのように・・・{br}六ツ星ともなれば　話は別だがな・・・{page}クックックッ・・・{page}ガーッハッハッハッ！！{close}",
+   "en": "This is why I say those with so few{br}Stars are hopeless...{page}Of course, when you have Six-Star{br}status, like yours truly... that's{br}another matter...{page}Heh heh heh...{page}Gwahahahaha!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.04820",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04828",
+   "jp": "さいきん　ナッシュ平原の浜辺に{br}小型だが　多くのモンスターが{br}あらわれるようになった{page}このままでは　船を出すことが{br}できないので{br}これを　退治してほしい{page}私たちが乗ってきた船が　着岸した場所は{br}{hero}も知っての通り{br}あのざまじゃ{page}モンスターが　うようよしておる・・・{page}一体　この島に　何が{br}起こっておるのじゃ・・・{page}戦いを　有利に進めるためにも{br}乗り物は　確保する必要があるぞ{page}あの浜辺の　モンスターを{br}退治するだけでは{br}船を　出すことはできぬ{page}船をつける　他の浜辺の　モンスターも{br}退治せねばならぬのだ{page}だが　今の{br}{hero}のレベルでは{page}まだそこまで　行くことは{br}できぬじゃろう{page}あせらず　レベルを上げるのじゃぞ{close}",
+   "en": "Small monsters now swarm the Nash{br}Plains beach. We cannot sail! Please{br}slay them.{page}You know the state of our landing{br}spot, {hero}. Crawling with{br}monsters... What has happened{page}to this island?{page}We need transport to aid our fight,{br}my boy. Clearing that beach won't{br}suffice. Clear the other beaches{page}where the boat docks, too.{page}But at your level, {hero}, you{br}cannot reach them yet. Take your{br}time and raise your level, eh?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.04A88",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04A90",
+   "jp": "{hero}！{br}これからモンスター退治？{page}キッスから　聞いたわ・・・{br}まだ　新人さんなんだってね{page}ビィトが　お世話になってるお礼と{br}言っちゃ　なんだけど・・・{br}武器について教えてあげるね{page}{hero}って{br}何の武器が得意なの？{page}あのね　武器にはいろんな種類があるの{br}剣とか　槍とか　銃とか・・・{br}武器屋を　のぞいてみるといいわ・・・{page}{hero}にも{br}得手不得手が　あると思うから{br}装備できない武器も　あると思うの・・・{page}わたしなんか　斧は重たいから{br}持てないし・・・{br}その辺は　いろいろ試してみてね{close}",
+   "en": "{hero}! Off to hunt monsters?{br}Kissu says you're new at this.{page}To thank you for helping Beet, I'll{br}explain weapons. What do you use,{br}{hero}?{page}Swords, spears, guns... There are{br}lots of types. Try the Weapon Shop.{page}You'll have strengths and{br}weaknesses, {hero}, so some{br}weapons may be off limits. I can't{page}carry axes. Too heavy! Try different{br}ones, okay?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.04C6C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04C74",
+   "jp": "で　やっぱり　バスターと言えば{br}才牙だと思うの・・・{page}得意の武器を　とことん使い込めば{br}きっと　才牙が生成できるように{br}なると思うわ{page}才牙は　天力を極限まで高める{br}必要があるから{page}得意な天撃の属性が　才牙の生成に{br}影響を　与えるかもしれないわね・・・{page}わたし　自分で才牙を出せないから{br}えらそうなことは{br}いえないんだけどね・・・！{page}どう？　わかったかしら？{br}簡単に言えば　どんどん修行しなきゃ！{br}ってことね・・・！！{page}がんばってね！！{close}",
+   "en": "Busters mean Saiga, right? Master{br}your best weapon, and I think you'll{br}learn to form one.{page}It takes Divine Power at its peak, so{br}your best Divine Attack element{br}may affect it.{page}I can't form a Saiga myself, so who{br}am I to act like an expert...!{page}Well? Make sense? Basically, keep{br}training! Give it your best!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.04E2C",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.04E34",
+   "jp": "おお　よくやった！{page}これで船の　運行開始を{br}進めることが　できるぞ！{page}この調子で行けば　きっと{br}仇も見つかるはずじゃ・・・{page}よろしく頼むぞ{br}{hero}・・・！{close}",
+   "en": "Oh, well done!{page}Now we can make progress toward{br}getting the boat service running!{page}Keep this up, and you're sure to find{br}your father's killer, too...{page}I'm counting on you, {hero}...!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.05150",
+   "jp": "バカヤロウ！！{page}このゴージャス　アンド　リッチな{br}ワシの　黄金の島に　小汚い銀のコインが{br}出回っているとは　何事だ！！{page}くそっ・・・{br}なんと　汚らわしい・・・{page}金　金　金　金　金　金こそすべてっ！！{page}銀など　話にならんと　あれほど{br}言っているのに　まだ分からんのか！！{page}銀のコインなど　カネックに{br}全部食わせてしまえ！{page}行けっ！！{page}ちいっ・・・{br}まったく　役に立たんヤツだ・・・{close}",
+   "en": "You idiot!!{page}How dare filthy silver coins circulate{br}on the golden island of yours truly,{br}the gorgeous and rich ruler?!{page}Curse it... How revolting...{page}Gold, gold, gold, gold, gold! Gold is{br}everything!!{page}How many times must I tell you silver{br}is worthless before you{br}understand?!{page}Have the Kanecks eat every last{br}silver coin!{page}Go!!{page}Tch... Utterly useless...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.052D0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.052DC",
+   "jp": "これだから　肉体派は{br}おバカさんだというのだ・・・{close}",
+   "en": "This is why I say muscleheads are{br}such fools...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.05314",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05320",
+   "jp": "まぁ　このワシのように・・・{page}肉体美と　美しき思考回路を{br}持ち合わせる　選ばれしものも{br}いるわけだがな・・・{page}クックックッ・・・{close}",
+   "en": "Of course, there are chosen ones{br}like yours truly...{page}Blessed with both a beautiful body{br}and a beautiful mind...{page}Heh heh heh...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.053A4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.053B0",
+   "jp": "見ろ・・・{br}この輝ける　奇跡の存在{br}ハーデン様をっ！！{page}ゴージャス　アンド　リーッチ！！{close}",
+   "en": "Behold... this radiant miracle of{br}existence, Harden-sama!!{page}Gorgeous and riiich!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.0540C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05418",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.05434",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0543C",
+   "jp": "最近　バコソン山地に　硬貨を食い荒らす{br}やっかいな　モンスターが　あらわれる{br}ようになった{page}これを退治してほしい{page}みんなの貴重な　お金を　食い荒らす{br}ひどい　モンスターじゃ{page}かく言うわしが　大陸から持ってきた{br}なけなしのヘソクリも{br}食べられてしもうた！{page}くやしいぞ！{page}帰ってこーい！！{br}わしの　ヘソクリーーー！！{page}う{br}ゴ　ゴホン・・・{page}とにかく　みなが困っておる！！{br}頼むぞ{hero}・・・{page}ところで・・・{br}どうじゃ　仇のほうは・・・？{page}こちらでは　おかしなヴァンデルについて{br}少し　情報を得たのじゃが・・・{br}まだ　確認中じゃ・・・{page}おぬしが　このカネックの討伐を{br}終える頃には　話すこともできよう・・・{page}心して　かかれよ{br}{hero}・・・{close}",
+   "en": "Coin-eating monsters plague the{br}Bakoson Mountains. Please slay{br}them! They eat everyone's{page}precious money! Even my meager{br}savings from the mainland!{page}Oh, the agony! Come baaack, my{br}savings!{page}Er... A-ahem! Everyone needs help,{br}{hero}!{page}Any news of your father's killer? I've{br}heard of a strange Vandel, but must{br}check the facts. By the time you{page}finish hunting Kanecks, I should know{br}more.{page}Take care, {hero}, my boy...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.056B0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.056B8",
+   "jp": "{hero}！{br}元気？{page}あたいさ{br}{hero}みたいに{br}この島を　よくしたいんだ！！{page}そりゃあ　モンスターを{br}たおしたりは　できないけどさ・・・{page}でも　{hero}を{br}助けることなら　できるかなって！！{page}あ！　ほら！{br}{hero}だけじゃ{br}ないから！{page}この前も{hero}以外の{br}バスターに　会ったもんね！{br}みんなの　役に立ちたいの！{page}ほら！{br}武器だろ　防具だろ　アイテムだろ{br}イロイロあるさ！！{close}",
+   "en": "{hero}! How ya doing?{page}I wanna make this island a better{br}place, just like you, {hero}!!{page}Sure, I can't beat up monsters or{br}anything...{page}But I figured I could help you out,{br}{hero}!!{page}Oh! Hey! It's not just you,{br}{hero}!{page}I met another Buster besides you{br}the other day, {hero}! I wanna{br}help everyone!{page}Look! Weapons, armor, items... I've{br}got all sorts!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05818",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05820",
+   "jp": "安くしとくから　買ってよね！{br}買い取りもするよ！！{br}高価買取キャンペーン中なのだ！！{close}",
+   "en": "I'll give ya a good deal, so buy{br}something! I buy stuff, too!! Paying{br}top coin in my special buyback{page}sale!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05878",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05880",
+   "jp": "それに・・・{br}傷ついたり　疲れたりしたら{br}あたいのとこに　きたらいいよ{page}・・・{br}いやしてあげるからさ・・・{page}と　とにかく{br}あたいを見かけたら　声かけてよね！{br}力になるよ！！{close}",
+   "en": "And... if you're hurt or tired, just{br}come see me.{page}...I'll heal you...{page}A-anyway, say hi if you spot me! I'll{br}help ya out!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05930",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05938",
+   "jp": "おお　よくやった！{br}これで安心して　ヘソクリを{br}貯められるわい・・・！{page}ところで・・・{br}ヴァンデルについてなんじゃが・・・{page}おぬしも　うわさに聞いたかも{br}しれんが・・・{page}島の西の里が　滅ぼされてしまい　そこに{br}「黄金城」なる　全てが金でできた{br}まがまがしい城が　できたらしい・・・{page}その「黄金城」の主人たるヴァンデルが{br}西の島に飽き足らず　この東の島にも{br}手を出しているらしいのだ・・・{page}もしかしたら　その「黄金城」の{br}ヴァンデルが　島の平和・・・そして{br}おぬしの父上を・・・{page}「黄金城」への　道のりは遠いぞ・・・{br}心して　かかるのじゃぞ・・・{close}",
+   "en": "Well done! I can save in peace now!{page}About that Vandel... Perhaps you've{br}heard. West Village fell, and a{br}sinister castle of pure gold rose{page}there: the \"Golden Castle.\"{page}Its Vandel lord isn't content with{br}West Island. He's reaching into East{br}Island, too.{page}Perhaps he took this island's{br}peace... and your father...{page}The road to the \"Golden Castle\" is{br}long. Take care, my boy...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.05B5C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05B64",
+   "jp": "{hero}！！{br}世話になったな！！{page}{hero}の　かあちゃんにも{br}世話になったみたいで・・・{page}ホント　ありがとう！！{close}",
+   "en": "{hero}!! Thanks for everything!!{page}Sounds like your mom took care of{br}me too, {hero}...{page}I really owe ya!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.05BCC",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05BD4",
+   "jp": "丸一日寝てた　ビィトも{br}やっと起きたことだし{page}私たち　そろそろ行くわね・・・{page}こうしている間にも{br}ヴァンデルの　魔の手は{br}どんどん近付いていると思うし・・・{close}",
+   "en": "Now that Beet's finally awake after{br}sleeping for a whole day, we should{br}get going...{page}The Vandels' evil reach is spreading{br}closer even as we speak...{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05C74",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05C7C",
+   "jp": "{hero}・・・{page}今度会うときの　君の{br}天撃の上達ぶりを{br}楽しみにしてるからね！！{close}",
+   "en": "{hero}...{page}I'm looking forward to seeing how{br}much your Divine Attacks have{br}improved next time we meet!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.05CCC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05CD4",
+   "jp": "お！？{br}{hero}は{br}天撃派なの？？{close}",
+   "en": "Oh!? So you're a Divine Attack guy,{br}{hero}?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.05CF4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05CFC",
+   "jp": "えーっ{br}武器派よねーっ！！{close}",
+   "en": "Whaaat? You're a weapons guy,{br}right!?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D1C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D24",
+   "jp": "ちがうよーっ{br}天撃派だよーっ！！{close}",
+   "en": "Nooo! He likes Divine Attacks!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D48",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D50",
+   "jp": "ちがうよなっ{br}才牙派だよなっ！！{close}",
+   "en": "Nah, you're a Saiga guy, right!?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D74",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D7C",
+   "jp": "なによ　それっ！！{close}",
+   "en": "Where'd THAT come from!?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D94",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05D9C",
+   "jp": "なんだよ　それっ！！{close}",
+   "en": "Where'd THAT come from!?{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.05DB4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05DBC",
+   "jp": "プッ・・・{close}",
+   "en": "Pfft...{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05DCC",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05DD4",
+   "jp": "アハハハッ{close}",
+   "en": "Ahahaha!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.05DE4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05DEC",
+   "jp": "ヘヘッ・・・　よーしっ！{br}ズバッと　ヴァンデルを{br}片付けてやるぜっ！！{page}じゃあなっ　{hero}！！{close}",
+   "en": "Hehe... All right! Let's go wipe out{br}those Vandels!{page}See ya, {hero}!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.05E4C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05E54",
+   "jp": "もうビィトったら・・・{br}じゃあ　またね！{close}",
+   "en": "Oh, Beet, honestly... See you around!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05E80",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05E88",
+   "jp": "バイバーイ・・・！！{close}",
+   "en": "Bye-bye...!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.05EA0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05EA8",
+   "jp": "あたいを見かけたら　声かけてよね！{br}力になるよ！！{close}",
+   "en": "Gimme a shout if you see me around!{br}I'll help ya out!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.05FE4",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.05FF0",
+   "jp": "あらぁ☆{br}かーわいい　新人さん！{close}",
+   "en": "Well, hello there, cuuute rookie-san!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.06014",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06020",
+   "jp": "そこを通れず　お困りのようね！{close}",
+   "en": "Looks like you're having trouble{br}getting through there!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.06044",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06050",
+   "jp": "この正義の　スーパーヒロイン{br}ＢＢ・ミルファが　たすけて{br}あ　げ　る☆{page}えーっと・・・{close}",
+   "en": "Let this superheroine of justice, BB{br}Milfa, give you a helping... little...{br}hand!{page}Let's see...{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.060AC",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.060B8",
+   "jp": "あら☆{br}あなた　才牙を出せるの！？{br}なら　話が早いわ☆{page}これくらいの障害物なら{br}あなたの　才牙で破壊できるはずよ！{close}",
+   "en": "Oh! You can summon a Saiga!? Well,{br}that makes things easy!{page}Your Saiga should be able to smash{br}an obstacle this size!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.06130",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0613C",
+   "jp": "やってみて！{close}",
+   "en": "Give it a try!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0614C",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06158",
+   "jp": "やるじゃない！　完璧だわ！！{br}（ルックスの方もね☆）{close}",
+   "en": "You've got it! Just perfect! (And so{br}are your looks!){close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.06190",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0619C",
+   "jp": "私　この島について調査中なの！{br}なーんか　秘密がかくされてるみたい{br}なのよねー・・・{page}仕事だから　もう行かなくっちゃ・・・{close}",
+   "en": "I'm investigating this island! I get the{br}feeling there's some sort of secret{br}hidden here...{page}Duty calls, so I'd better get going...{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0621C",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06228",
+   "jp": "また　会いたいわね☆{br}じゃぁ　またね！！{close}",
+   "en": "I'd love to see you again! Bye for{br}now!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.063E0",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.063E8",
+   "jp": "おお　よくきたのぉ{br}{hero}よ{br}バスターの任務は　苦難の連続じゃ{page}{hero}は{br}よくがんばっておる{page}天国の父上も{br}さぞお喜びじゃろう・・・{close}",
+   "en": "Ah, welcome, {hero}. A{br}Buster's duties bring one hardship{br}after another.{page}You've done well, {hero}.{page}Your father must be so pleased,{br}watching from heaven...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.06468",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06470",
+   "jp": "失礼・・・{br}同席させてもらうよ・・・{close}",
+   "en": "Pardon me... I'll join you, if I may...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.06498",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.064A0",
+   "jp": "おお　鑑定士ではないか・・・{page}よく来てくれた{br}ぜひ　ご一緒に聞いてくだされ{close}",
+   "en": "Ah, the Appraiser...{page}I'm glad you've come. Please, stay{br}and hear what I have to say.{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.064F0",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.064F8",
+   "jp": "さて　今日は　この双子島について{br}話をしたいのじゃ・・・{page}おぬしたちも　知っての通り{br}この双子島は　それはそれは{br}平和な島じゃった・・・{page}ところが近頃は　モンスターが{br}はびこるようになり　また　異常気象が{br}続くようになってしまった・・・{page}どうも　西の里を攻め滅ぼした{br}ヴァンデルが　徐々に勢力を{br}拡大しているらしい・・・{page}かなり強力な{br}ヴァンデルのようじゃ・・・{page}残念ながら　西の島は{br}ほぼ全滅かもしれん・・・{close}",
+   "en": "Now, today I'd like to speak of these{br}Twin Islands...{page}As you both know, the Twin Islands{br}were once ever so peaceful...{page}But lately, monsters have overrun{br}them, and the strange weather{br}shows no sign of ending...{page}It seems the Vandel who destroyed{br}West Village is steadily extending his{br}reach...{page}He must be a very powerful Vandel{br}indeed...{page}Sadly, West Island may already be all{br}but lost...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.06698",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.066A0",
+   "jp": "実は先日　ミレイ森の里から{br}伝書鳩が届いての・・・{page}ミレイの森にも　かなりの数の{br}モンスターが見られるように{br}なってきたとのことじゃ・・・{page}モンスターだけでも　ただごとではないが{br}なんと　ヴァンデルらしき姿も{br}目撃されているとのことじゃ・・・{page}この東の島も　ミレイの森から{br}ヴァンデルの魔の手に　かかろうと{br}しているのかもしれん・・・{page}その後の　状況を知りたいのじゃが・・・{br}それから　伝書鳩が途絶えての・・・{page}おそらく　モンスターの{br}仕業じゃろう・・・{page}ミレイ森の里が　心配される{br}ところじゃ・・・{close}",
+   "en": "A carrier pigeon recently came from{br}Mirei Forest Village... Many monsters{br}now roam the forest. Worse, a{page}possible Vandel was sighted...{page}East Island may be falling into evil{br}hands, starting there...{page}I wish for more news, but no pigeons{br}have come since. The monsters'{br}work, no doubt... I fear for the{page}village, my boy...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.06898",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.068A0",
+   "jp": "あちらの里長ならば　伝書鳩が{br}だめならば　間違いなく　すぐに伝達兵を{br}使うじゃろうな・・・{page}しかし・・・{close}",
+   "en": "Knowing their Village Chief, if the{br}pigeons could not get through, he'd{br}surely send a Messenger at{page}once...{page}And yet...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.0690C",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06914",
+   "jp": "そう・・・{br}この状況では　伝達兵の身の上も{br}心配じゃ・・・{close}",
+   "en": "Indeed... Under these circumstances,{br}I fear for the Messenger's safety as{br}well...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.06954",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0695C",
+   "jp": "そこで・・・{hero}に{br}ミレイの森に　向かってもらいたい{br}のじゃ・・・{page}そして{br}伝達兵の安全を　確認してほしい・・・{page}{hero}よ・・・{br}仇討ちを急ぐ気持ちはよく分かる・・・{page}しかし・・・{br}今も　おぬしの大切な人々が生きる{br}この島を守ること・・・{page}それも　おぬしの大切な使命では{br}あるまいかな・・・{page}{hero}！{page}今すぐ　伝達兵の調査に{br}向かってくれ・・・！{br}よろしく　頼むぞ・・・{close}",
+   "en": "So... {hero}, I would like you to{br}go to Mirei Forest...{page}And make sure the Messenger is{br}safe...{page}{hero}... I understand your{br}eagerness to avenge your father...{page}But... protecting this island, where{br}those dear to you still live...{page}Is that not also an important duty{br}of yours?{page}{hero}!{page}Please, set out at once and find the{br}Messenger...! I'm counting on you...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.06AC8",
+   "jp": "伝達兵",
+   "en": "Messenger",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06AD0",
+   "jp": "ハァ・・・ハァ・・・{br}くそっ！{page}こんなところにまで{br}モンスターがっ・・・{page}東の里まで　まだまだ{br}あるというのに・・・{br}ここまでかっ・・・{close}",
+   "en": "*pant*... *pant*... Blast!{page}Monsters, even out here...{page}And East Village is still so far away...{br}Is this the end...?{close}",
+   "kind": "msg",
+   "speaker": "伝達兵",
+   "refs": 1
+  },
+  {
+   "id": "rom.06B5C",
+   "jp": "伝達兵",
+   "en": "Messenger",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06B64",
+   "jp": "あ　ありがとう・・・{page}ミレイ森の里は全滅だ・・・{br}里長も・・・オレも{br}もうだめだ・・・{page}君の強さを・・・信じて{br}頼みが・・・ある・・・{close}",
+   "en": "Th-thank you...{page}Mirei Forest Village is wiped out...{br}The Village Chief... I'm not going to{br}make it either...{page}You're strong... I trust you... There's{br}something... I need you to do...{close}",
+   "kind": "msg",
+   "speaker": "伝達兵",
+   "refs": 1
+  },
+  {
+   "id": "rom.06BF0",
+   "jp": "伝達兵",
+   "en": "Messenger",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06BF8",
+   "jp": "この手紙を　東の里の里長に{br}届けてほしい・・・{page}ガハッ・・・{page}よろ・・・しく・・・{br}たの・・・む・・・{close}",
+   "en": "Please take this Letter... to the{br}Village Chief of East Village...{page}*cough*...{page}I'm... counting... on you...{close}",
+   "kind": "msg",
+   "speaker": "伝達兵",
+   "refs": 1
+  },
+  {
+   "id": "rom.06C64",
+   "jp": "「東の里の里長への手紙」を{br}手に入れた！{close}",
+   "en": "Obtained \"Letter to the East Chief\"!{close}",
+   "kind": "msg",
+   "speaker": "伝達兵",
+   "refs": 1
+  },
+  {
+   "id": "rom.06F28",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06F30",
+   "jp": "おお　{hero}よ{br}よく帰ってきた・・・{page}伝達兵は　どうじゃった？{br}無事じゃったか？{page}そうか・・・{br}だめじゃったか・・・{close}",
+   "en": "Ah, {hero}. You've returned...{page}What of the Messenger? Was he{br}safe?{page}I see... He didn't make it...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.06FA4",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06FAC",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.06FB8",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.06FC0",
+   "jp": "うむ　これが森の里長からの{br}手紙じゃな{br}どれどれ・・・{page}・・・！！{close}",
+   "en": "Hmm, so this is the Letter from the{br}forest's Village Chief. Let me see...{page}...!!{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.07008",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07010",
+   "jp": "どうなされた・・・？{br}どれ・・・{page}これはっ・・・！？{br}里長っ！！{close}",
+   "en": "What is the matter...? Let me see...{page}What...!? Village Chief!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.07054",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0705C",
+   "jp": "うむ・・・　おそらく・・・{br}ミレイ森の里は　全滅じゃろう・・・{br}そして　森の里長も・・・・・・{close}",
+   "en": "Yes... I fear... Mirei Forest Village has{br}been wiped out... And its Village{br}Chief as well...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.070C0",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.070C8",
+   "jp": "おのれヴァンデル・・・{br}なんということを・・・{close}",
+   "en": "Curse those Vandels... How could{br}they do such a thing...?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.070FC",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07104",
+   "jp": "よいか{hero}・・・{page}ついに　この東の島にも{br}ヴァンデルの　魔の手が{br}伸びてしもうた・・・{page}ミレイ森の里が　ヴァンデルに{br}襲われたらしい・・・{page}そして里の「封印のリング」が{br}破壊されたそうじゃ・・・{page}{hero}は{br}「封印のリング」を知っておるかな？{page}この双子島にはふたつの{br}「銀の女神像」があるのを{br}知っておるな・・・{page}この古きより伝わる「銀の女神像」が{br}持つのと同じ形をした「封印のリング」が{br}島の各地にあるのじゃ・・・{page}「銀の女神像」と「封印のリング」は{br}同じ時代に　創られたものらしい・・・{page}古くから守り継がれてきた{br}これらの遺跡によって{page}この島は　忌まわしき{br}ヴァンデルの魔の手から{br}守られてきたのじゃ・・・{close}",
+   "en": "Listen, {hero}... Evil has{br}reached East Island. A Vandel has{br}apparently attacked Mirei Forest{page}Village and broken its \"Sealing Ring\"...{page}Know of these rings, {hero}?{br}They lie across the Twin Islands,{br}shaped like those our two ancient{page}\"Silver Goddess Statues\" hold. Both{br}seem to date from the same age...{page}Guarded for generations, these{br}relics have kept the vile Vandels at{br}bay, my boy...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.07364",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0736C",
+   "jp": "黄金城が　できる前じゃ・・・{br}初めて　この島にヴァンデルが{br}現れたのじゃ・・・{page}そう　おぬしの父上が{br}殺された時じゃ・・・{page}悲しい出来事であった・・・{br}あの時「封印のリング」の一つが割れて{br}周囲が　金に染まったのじゃ・・・{page}いつもは銀色に輝く「封印のリング」は{br}金色に姿を変え　周囲もすべてが{br}金に染まっていく・・・{page}それはそれは　異様な光景じゃった・・・{br}急ぎ　この島の４人の里長が集まって{br}話し合いをした・・・{page}そして　古き言い伝えを{br}紐解いたのじゃ・・・{page}そこには「封印のリング」の修復方法が{br}記されておった・・・{page}ワシらは　その方法に従い{br}「封印のリング」を修復した・・・{page}すると「封印のリング」は元の{br}銀の輝きをとりもどし　周囲の大地も{br}元の姿となったのだ・・・{close}",
+   "en": "Before the Golden Castle, a Vandel{br}first came here... when your father{br}was killed. A sad day...{page}A \"Sealing Ring\" broke. Its silver glow{br}turned gold, as did all the land{br}around it. An eerie sight...{page}Our four Village Chiefs met at once.{br}We decoded the old lore and found{br}how to mend the rings. We{page}followed it, and the ring shone silver{br}again. The land, too, was restored...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.07610",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07618",
+   "jp": "「封印のリング」が破壊されて{br}全てが金に染まったあの光景と{br}西の島にそびえ建つ「黄金城」・・・{close}",
+   "en": "That sight of everything turning to{br}gold when the \"Sealing Ring\" broke...{br}And the \"Golden Castle\" towering{page}over West Island...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.0767C",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07684",
+   "jp": "「黄金城」のヴァンデルは{br}島にある「封印のリング」を破壊して{page}島全てを　邪悪なる金に染めようと{br}しているのではあるまいか・・・{close}",
+   "en": "Could the Vandel in the \"Golden{br}Castle\" be destroying the islands'{br}\"Sealing Rings\" to turn all this{page}land to evil gold...?{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.07708",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07710",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.0771C",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07724",
+   "jp": "{hero}よ・・・{page}北の　ダチャレイ坑道の奥に{br}身を隠している「銀堀職人ホーレイ氏」に{br}接触してくれぬか{page}ナッシュ平原の北　バコソン山地を{br}東へ行くと　ダチャレイ洞窟がある{page}その奥深くに{br}ダチャレイ坑道がある・・・{page}そこで「ホーレイ氏」は{br}ヴァンデルに見つからぬように{br}身を隠しておるはずじゃ{page}バスターでも　発見が{br}困難かもしれん・・・{br}注意していくのじゃぞ{page}ホーレイ氏との合言葉は{br}「ホーリーシルバーホーレイホーレイ」{br}じゃ{page}ホーレイ氏は　なかなかの{br}ガンコモノじゃ・・・{page}この合言葉を　くれぐれも{br}忘れぬようにな{page}「ホーリーシルバーホーレイホーレイ」{br}じゃぞ{close}",
+   "en": "{hero}... Seek Horey, the Silver{br}Miner hiding from Vandels deep in{br}Dacharei Mine to the north.{page}North of Nash Plains, go east{br}through Bakoson Mountains to{br}Dacharei Cave. The mine lies deep{page}within. Even a Buster may struggle{br}to find him. Take care, my boy.{page}His password is \"Holy Silver, Horey,{br}Horey\". A stubborn fellow, he is... Be{br}sure to remember it! \"Holy Silver,{page}Horey, Horey\", eh?{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.07954",
+   "jp": "ガサガサ・・・{page}奥で何か物音がする・・・{page}合言葉を　言ってみますか？{close}",
+   "en": "*rustle rustle*...{page}Something is making noise farther in...{page}Try saying the password?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.0799C",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.079A8",
+   "jp": "ウオッホン！{close}",
+   "en": "AHEM!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.079B8",
+   "jp": "合言葉は{br}「ホーリーホーレイホーリーホーリー」{br}で　いいですか？{close}",
+   "en": "Is \"Holy Horey, Holy, Holy\" the right{br}password?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.079FC",
+   "jp": "合言葉は{br}「ホーリーシルバーホーレイホーレイ」{br}で　いいですか？{close}",
+   "en": "Is \"Holy Silver, Horey, Horey\" the right{br}password?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.07A40",
+   "jp": "壁がくずれた！{close}",
+   "en": "The wall crumbled!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.07A54",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07A60",
+   "jp": "ウオッホン！！{br}少々来るのが　遅いのではないか？{close}",
+   "en": "AHEM!! Aren't you a little late?{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07A94",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07AA0",
+   "jp": "ウオッホン！！{br}オラが　伝説の銀掘り職人{br}ホーレイであーる！！{page}どれどれ・・・{close}",
+   "en": "AHEM!! I am Horey, the legendary{br}Silver Miner, I tell you!!{page}Now, let's have a look...{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07AF4",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07B00",
+   "jp": "！！{page}おまえはっ・・・{page}フム・・・{br}なかなか　やりそうな{br}バスターだな・・・{page}一応聞いておこう{br}オラに　なんのようだ？{page}フムフム・・・{br}やはり　そうであったか・・・{page}オラの力が　必要とされる時が{br}来たのだな！{page}ウオッホン！！{page}ホレ　これじゃ{br}どうだ　うつくしいだろう！{page}これが　破壊された封印のリングをも{br}修復してしまうという{br}「聖なる銀ホーリーシルバー」であーる！{page}本来は　誰にも　ゆずらん{br}特別な銀なんじゃが・・・{page}この非常事態であーるからして{br}今回は特別に　ゆずってやろう！{page}ホレ　もってけ！！{br}健闘を　祈るのであーる！！{close}",
+   "en": "You're... A fine Buster! What brings{br}you here?{page}Hmm... You need my skills! AHEM! See{br}this lovely \"Holy Silver\"? It repairs{br}broken Sealing Rings! I'd never{page}part with it, but this crisis calls for{br}an exception!{page}Take it! Good luck, my boy!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07D14",
+   "jp": "「聖なる銀ホーリーシルバー」を{br}手に入れた！{close}",
+   "en": "Obtained \"Holy Silver\"!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07D44",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07D50",
+   "jp": "ホレ！　さっさと行け！{br}オラは　いそがしいのであーる！！{close}",
+   "en": "Go on! Off with you! I'm a busy man, I{br}tell you!!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07D8C",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07D98",
+   "jp": "（大きくなったな{br}{hero}・・・）{page}（オラには{br}銀を掘ることしかできん・・・）{page}（しかし　精一杯上等の{br}銀を掘るからな・・・）{page}（この島を　よろしく頼むぞ・・・）{close}",
+   "en": "(You've grown so much,{br}{hero}...){page}(Digging up silver is all I can do...){page}(But I'll give it my all and dig up the{br}finest silver there is...){page}(I'm counting on you to save this{br}island, my boy...){close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07E38",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07E44",
+   "jp": "ウオッホン！{close}",
+   "en": "AHEM!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07F38",
+   "jp": "「ダチャレイ坑道」{page}真っ暗だ・・・{br}行く先を照らす　ランプが必要だ{close}",
+   "en": "\"Dacharei Mine\"{page}It's pitch-black... You'll need a Lamp{br}to light the way.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.07F80",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07F88",
+   "jp": "オス！{br}今日は　どうする？？{close}",
+   "en": "Heya! What's the plan today?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07FA8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07FB0",
+   "jp": "え？{br}坑道が真っ暗？？{close}",
+   "en": "Huh? The mine's pitch-black?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.07FCC",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.07FD4",
+   "jp": "それなら　ランプを手に入れなきゃ！{br}あたいも　用意してるから{br}必要なら　おゆずりしますわよん！！{page}・・・{close}",
+   "en": "Then you've gotta get a Lamp! I've{br}got one handy, so I'd be delighted to{br}let you have it, dear!!{page}...{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  }
+ ]
+}

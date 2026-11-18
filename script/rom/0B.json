@@ -1,0 +1,428 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.2F340",
+   "jp": "このバスターを仲間にしますか？{close}",
+   "en": "Recruit this Buster?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F364",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F370",
+   "jp": "りょうかい！　まかせて！！{close}",
+   "en": "Got it! Leave it to me!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F390",
+   "jp": "あたしは　斧使い！{page}ブンブン振り回して　かっとばすの！！{page}仲間にしてくれる？？{close}",
+   "en": "I'm an axe fighter!{page}I swing it round and round and send{br}'em flying!!{page}Will you let me join you?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F3E4",
+   "jp": "そうですか・・・{page}残念です・・・{close}",
+   "en": "I see...{page}That's a shame...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F408",
+   "jp": "ありがとうございます！{br}よろしくお願いします！{close}",
+   "en": "Thank you very much! I look forward{br}to working with you!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F43C",
+   "jp": "こんにちは！{br}私は大剣が得意です！{page}もしよろしければ{br}ぜひ　ごいっしょさせてください！{close}",
+   "en": "Hello! I specialize in greatswords!{page}If you don't mind, I'd love to{br}accompany you!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F498",
+   "jp": "そうですか・・・{page}また　いつでも　声をかけてください{close}",
+   "en": "I see...{page}Please feel free to ask me again{br}anytime.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F4D0",
+   "jp": "分かりました！　よろしく！！{close}",
+   "en": "Understood! Glad to join you!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F4F0",
+   "jp": "わたしは格闘の道を歩みし者・・・{page}わたしの力が　必要なのかい？{close}",
+   "en": "I walk the path of martial arts...{page}Do you need my strength?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F534",
+   "jp": "そうか・・・{page}オレの弾幕が　必要になったら{br}また　声をかけてくれよな！！{close}",
+   "en": "I see...{page}If you need my covering fire, just{br}give me a shout!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F580",
+   "jp": "了解！　撃ちまくるぜ！！{close}",
+   "en": "Got it! I'll let 'em have it!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F59C",
+   "jp": "オレは銃使い！{page}オレの火力が　必要なんだろ？{close}",
+   "en": "I'm a gunner!{page}You need my firepower, right?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F5CC",
+   "jp": "エーッ・・・そっかァ・・・{close}",
+   "en": "Aww... Oh, well...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F5EC",
+   "jp": "わかった！　よろしくネッ！{close}",
+   "en": "You got it! Glad to join you!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F60C",
+   "jp": "私は　槍が得意だよッ！{page}私の力が　必要なのッ？{close}",
+   "en": "I'm great with a spear!{page}Need my help?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F640",
+   "jp": "それは残念だな・・・{close}",
+   "en": "That's a shame...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F658",
+   "jp": "よし！　任せてよ！{close}",
+   "en": "All right! Leave it to me!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F670",
+   "jp": "オレは片手剣が得意さ！{page}オレの力が　必要なの？{close}",
+   "en": "I'm great with a One-Hand Sword!{page}Need my help?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F6A4",
+   "jp": "ちょっとショック・・・{close}",
+   "en": "That stings a little...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F6C0",
+   "jp": "ホント！{page}ぼく　がんばるからね！！{close}",
+   "en": "Really?!{page}I'll do my best!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F6E8",
+   "jp": "ぼくは　投剣使いだよ{page}ぼくと一緒に　戦ってくれるの？{close}",
+   "en": "I use a Throwing Sword.{page}Will you fight alongside me?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F720",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F728",
+   "jp": "{hero}くん{br}我々と共に{br}行動しないか？{close}",
+   "en": "{hero}-kun, would you care to{br}travel with us?{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F750",
+   "jp": "アーク戦士団（アーク　レンド　シグサ）{br}を仲間にしますか？{close}",
+   "en": "Recruit Ark's Squad (Ark, Rend, and{br}Shigusa)?{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F790",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F798",
+   "jp": "力を合わせて　一緒に戦おう！！{br}よろしく！！{close}",
+   "en": "Let's join forces and fight together!{br}Glad to have you with us!{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F7C8",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F7D0",
+   "jp": "我々の力が必要になったら{br}いつでも声をかけてくれ・・・！{close}",
+   "en": "If you need our help, just say the{br}word...!{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F80C",
+   "jp": "ボウヤには　酒は出せないぜ・・・{br}お酒は２０歳に　なってから！{br}ＯＫ？{close}",
+   "en": "Can't serve you booze, kid... You've{br}gotta be twenty to drink! OK?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F858",
+   "jp": "わたしの船・・・{br}ああ　わたしの船・・・{br}ヒック・・・{close}",
+   "en": "My ship... Oh, my ship... *hic*...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F894",
+   "jp": "ちくしょう・・・　ヒック・・・{br}里に帰りたいぜ・・・{br}しかし　外はモンスターだらけじゃねえか{page}ヒック・・・{br}かあちゃんに　会いてえよぉ・・・　{close}",
+   "en": "Dammit... *hic*... I wanna go home to{br}my village... But it's crawlin' with{br}monsters out there!{page}*hic*... I wanna see my wife...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F928",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F934",
+   "jp": "おお！　にいちゃん！{br}オレとバドゥを仲間にしてくれる{br}気になったのかい？{close}",
+   "en": "Hey, buddy! You decided to let me{br}and Badu join you?{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F980",
+   "jp": "グレストと　バドゥを仲間にしますか？{close}",
+   "en": "Recruit Grest and Badu?{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F9A8",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F9B4",
+   "jp": "おお　こいつは心強い！！{br}しっかり　にいちゃんに{br}ついてくぜっ！！{close}",
+   "en": "Oh, that's a load off my mind!! We'll{br}stick right by ya, buddy!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.2F9FC",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FA08",
+   "jp": "うぉーーっ！！{br}ショックだぜっ・・・！！{close}",
+   "en": "Waaaugh!! What a blow...!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FA34",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FA40",
+   "jp": "やっぱ　人相が{br}悪っぽいからなのか・・・{page}また気が変わったら{br}声かけてくれよな・・・{close}",
+   "en": "Is it 'cause I look like a crook after{br}all...?{page}Give me a shout if ya change your{br}mind...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FA98",
+   "jp": "あら、あんた、{br}今日も　かわいいわねぇ・・・{page}ウフ{close}",
+   "en": "Oh, you look as cute as ever today,{br}dear...{page}Hmhm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FAD0",
+   "jp": "よう　兄ちゃん！{br}がんばってっか？{br}早く　平和な島に　してくれよな！！{close}",
+   "en": "Hey, pal! Workin' hard? Hurry up and{br}bring peace back to the island, will{br}ya?!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB1C",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB28",
+   "jp": "手をかそうか？{close}",
+   "en": "Need a hand?{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB3C",
+   "jp": "スレッドを仲間にしますか？{close}",
+   "en": "Recruit Slade?{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB5C",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB68",
+   "jp": "わかった{close}",
+   "en": "All right.{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB74",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB80",
+   "jp": "そうか{close}",
+   "en": "I see.{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB8C",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FB94",
+   "jp": "ぜひ　オレたちジーク戦士団を{br}仲間に　入れてくださいっ・・・！！{close}",
+   "en": "Please, let us join you! All of Zeke's{br}Squad...!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FBD8",
+   "jp": "ジーク戦士団{br}（ジーク　リュック　ナック）{br}を仲間にしますか？{close}",
+   "en": "Recruit Zeke's Squad (Zeke, Ryuk{br}and Nack)?{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FC1C",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FC24",
+   "jp": "これから　よろしく・・・！！{close}",
+   "en": "Here's to fighting together...!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FC44",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FC4C",
+   "jp": "がーーんっ！！{close}",
+   "en": "Nooo!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.2FC98",
+   "jp": "ここは道具屋だ{close}",
+   "en": "This is the Item Shop.{close}",
+   "kind": "msg",
+   "refs": 1
+  }
+ ]
+}

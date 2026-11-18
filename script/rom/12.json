@@ -1,0 +1,2028 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.48028",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48034",
+   "jp": "いやいや・・・{br}お見事です！！{page}{vandel}様{br}相変わらず　すばらしいですね・・・！！{page}東の島の「封印のリング」の発見と破壊{br}そしてご報告　ご苦労さまでした{page}では　またひとつ{br}「星」　を進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
+   "en": "My, my... Splendid work!!{page}{vandel} -sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}East Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with another{br}\"Star\"!!{page}Please, accept it...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4811C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48128",
+   "jp": "おめでとうございます！！{page}これで{vandel}様も{br}「四ッ星」！！{page}すばらしい・・・！！{page}「七ッ星」目指して　ひきつづき{br}がんばってください！！{close}",
+   "en": "Congratulations!!{page}You are now a \"Four-Star\" Vandel,{br}{vandel} -sama!!{page}Magnificent...!!{page}Keep up the fine work as you strive{br}for \"Seven-Star\" rank!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.481B0",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.481BC",
+   "jp": "おめでとうございます！！{page}これで{vandel}様も{br}「五ッ星」！！{br}「七ッ星」まで　あと二つ・・・！！{page}あと一息ですね！！{br}がんばってください！{close}",
+   "en": "Congratulations!!{page}You are now a \"Five-Star\" Vandel,{br}{vandel} -sama!! Just two more{br}Stars to \"Seven-Star\" rank...!!{page}Almost there!! Keep up the fine work!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.48244",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48250",
+   "jp": "おめでとうございます！！{page}これで{vandel}様も{br}「六ッ星」！！{br}「七ッ星」まで　あと一つ・・・！！{page}ついにハーデン様と{br}並ばれたわけですね・・・！！{page}すばらしい・・・！！{page}世界最高の「七ッ星」ヴァンデルまで{br}もう少しですね・・・！！{br}がんばってください！！{close}",
+   "en": "Congratulations!!{page}You are now a \"Six-Star\" Vandel,{br}{vandel} -sama!! Just one more{br}Star to \"Seven-Star\" rank...!!{page}You have finally caught up with{br}Harden-sama...!!{page}Magnificent...!!{page}You are so close to becoming a{br}\"Seven-Star\" Vandel, the highest{br}rank in the world...!! Keep up the{page}fine work!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.48470",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4847C",
+   "jp": "あ・・・そうそう・・・{br}{vandel}様・・・{page}バスターでもないのに　ちょこまかと{br}われわれの邪魔立てをする{br}人間がいるのを　ご存知ですか？{page}双子の姉妹なのですが{br}妹はレジスタンス活動を　展開中・・・{close}",
+   "en": "Ah... That reminds me... {vandel}{br}-sama...{page}Are you aware of some humans who{br}keep scurrying about, interfering{br}with us, though they are not{page}even Busters?{page}They are twin sisters. The younger{br}one is active in the Resistance...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4853C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48548",
+   "jp": "ふむ・・・{page}これに対して{br}姉は「封印のリング」修復において{br}重要な役目を担っているようですね・・・{page}そして　二人を結びつける{br}バスターの存在・・・{close}",
+   "en": "Hmm...{page}The elder sister, meanwhile, seems{br}to play a vital role in repairing the{br}\"Sealing Rings\"...{page}And there is a certain Buster who{br}connects the two...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.485E0",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.485EC",
+   "jp": "「封印のリング」修復アイテムの　探索が{br}空振りに　終わりましたからね・・・{page}この前の里長のように　ならないように{br}姉の件を　慎重に進めなければ{br}いけませんね・・・・・・{close}",
+   "en": "Our search for the item used to{br}repair the \"Sealing Rings\" came to{br}nothing, after all...{page}We must proceed carefully with the{br}elder sister, lest we repeat what{br}happened with that Village Chief...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.48698",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.486A4",
+   "jp": "え？　何ですって・・・？{br}なるほど　生け捕り作戦ですか・・・{page}ドローマンを　あのバスターに化けさせて{br}姉を　無傷で　連れ出す・・・{page}念のため　「夢幻の覇者」オロゾン様の{br}精神冥撃で　人間共を　夢の中へ{br}落としてマヒさせる・・・！{close}",
+   "en": "Hm? What was that...? Ah, a plan to{br}capture her alive...{page}Have a Droman disguise itself as{br}that Buster and lure the elder sister{br}out unharmed...{page}As a precaution, have Orozon-sama,{br}the \"Lord of Dreams,\" use his Mental{br}Dark Attack to send the humans{page}into dreams, leaving them helpless...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4878C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48798",
+   "jp": "すばらしい！{br}いい作戦ですねぇ・・・！！{page}必ず　オロゾン様と　ドローマンを{br}配下にして　ぜひ成功させて{br}くださいね！！{page}あ　すみません・・・！！{page}私としたことが{br}でしゃばったことを長々と{br}しゃべってしまいました・・・{page}{vandel}様が{br}もうすぐ「七ツ星」だと思うと{br}つい口が　軽くなってしまいました！！{page}おゆるしくださいませ・・・！！{page}では・・・　失礼いたします！！{close}",
+   "en": "Marvelous! What an excellent plan...!!{page}Be sure to recruit Orozon-sama and{br}a Droman, and make it a success!!{page}Ah, my apologies...!!{page}How presumptuous of me to go on{br}at such length...{page}The thought of you soon reaching{br}\"Seven-Star\" rank, {vandel}{br}-sama, has quite loosened my{page}tongue!!{page}Please forgive me...!!{page}Now... I shall take my leave!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4898C",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48998",
+   "jp": "眠い・・・{page}あんたの　ウワサは{br}夢の中にも聞こえてくる・・・{page}「六ッ星」か・・・{page}ヴァンデルは「星」の数が{br}全てじゃないことを　この「夢幻の覇者」{br}オロゾン様が　教えてやろう・・・{close}",
+   "en": "So sleepy...{page}Rumors of you reach me even in my{br}dreams...{page}\"Six-Star,\" are you...?{page}I, Orozon-sama, the \"Lord of{br}Dreams,\" shall teach you that a{br}Vandel's Stars are not{page}everything...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48A50",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48A5C",
+   "jp": "ちぃ・・・{br}ウワサは本当だったな・・・{page}完敗だ・・・{close}",
+   "en": "Tch... So the rumors were true...{page}Utter defeat...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48A94",
+   "jp": "オロゾン　を仲間に入れますか？{close}",
+   "en": "Recruit Orozon?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.48AB8",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48AC4",
+   "jp": "眠い・・・{close}",
+   "en": "So sleepy...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48AD4",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48AE0",
+   "jp": "そうか・・・{page}じゃぁ・・・{br}一眠りさせてもらうとするか・・・{close}",
+   "en": "I see...{page}Then... I suppose I'll have a little{br}nap...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48B90",
+   "jp": "里の門",
+   "en": "Gate",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48B98",
+   "jp": "ここは人間以外は　通さない・・・{page}立ち去れ・・・{close}",
+   "en": "Only humans may pass here...{page}Begone...{close}",
+   "kind": "msg",
+   "speaker": "里の門",
+   "refs": 1
+  },
+  {
+   "id": "rom.48BCC",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48BD8",
+   "jp": "ふぁーーっ・・・　眠い・・・{br}あんた門のくせに　少々うるさいよ・・・{br}おやすみ・・・{close}",
+   "en": "*yaaawn*... So sleepy... You're{br}rather noisy for a gate... Good{br}night...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48C30",
+   "jp": "里の門",
+   "en": "Gate",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48C38",
+   "jp": "ウッ・・・・・・{close}",
+   "en": "Ugh...{close}",
+   "kind": "msg",
+   "speaker": "里の門",
+   "refs": 1
+  },
+  {
+   "id": "rom.48C4C",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48C58",
+   "jp": "じゃぁ・・・{br}オレは一眠りさせてもらうよ・・・{close}",
+   "en": "Well... I'm off for a nap...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48EB0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48EB8",
+   "jp": "ねえちゃん！！{close}",
+   "en": "Sis!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.48ECC",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48ED8",
+   "jp": "ふぁーーっ・・・{br}なんですか・・・{br}うるさいですねー・・・{close}",
+   "en": "*yaaawn*... What is it...? You're so{br}noisy...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48F18",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48F20",
+   "jp": "なんだよ！！{br}はなせよっ！！{close}",
+   "en": "What's your problem!? Let go of me!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.48F40",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48F4C",
+   "jp": "ふぁーーっ・・・{page}永遠に眠りたくなかったら　おとなしく{br}「封印のリング」の修復アイテム{br}とやらを出したほうがいいよ・・・{close}",
+   "en": "*yaaawn*...{page}Unless you wish to sleep forever,{br}you'd best cooperate and hand over{br}this item that repairs the \"Sealing{page}Rings\"...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.48FC8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48FD0",
+   "jp": "ひきょうものっ！！{close}",
+   "en": "You coward!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.48FE8",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.48FF4",
+   "jp": "ふぁーーっ・・・{br}ひきょうものですか・・・{page}おほめのお言葉・・・{br}ありがたいですねぇ・・・{page}ふぁーーっ・・・{br}ワタシは眠らせてもらいますよ・・・{close}",
+   "en": "*yaaawn*... A coward, am I...?{page}Such kind praise... How very gracious{br}of you...{page}*yaaawn*... Now, if you'll excuse me,{br}I'll get some sleep...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.49088",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49090",
+   "jp": "やっ　やめろよーっ！！{close}",
+   "en": "S-stop it!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.490AC",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.490B0",
+   "jp": "さあ　「封印のリング」の{br}修復アイテムを出せ・・・{close}",
+   "en": "Now, hand over the item that repairs{br}the \"Sealing Rings\"...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.490E8",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.490EC",
+   "jp": "・・・・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.490FC",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49108",
+   "jp": "さぁ　早く　逃げろっ！！{close}",
+   "en": "Go! Get out of here!!{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.49124",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4912C",
+   "jp": "えっ！？{page}う　うんっ！！{br}でも{hero}がっ！！{close}",
+   "en": "Huh!?{page}O-okay!! But {hero}...!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49158",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49164",
+   "jp": "心配するな{br}あのバスターは　まだ{br}くたばっていない・・・！{close}",
+   "en": "Don't worry. That Buster isn't dead{br}yet...!{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.491A4",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.491AC",
+   "jp": "{hero}・・・{close}",
+   "en": "{hero}...{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.491B8",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.491C4",
+   "jp": "さあ　早くっ！{close}",
+   "en": "Go on, hurry!{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.491D8",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.491E0",
+   "jp": "う　うんっ・・・！！{close}",
+   "en": "O-okay...!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.491F8",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49204",
+   "jp": "よくも　余計なまねを{br}してくれましたね・・・{close}",
+   "en": "How dare you meddle in our affairs...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.49234",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49240",
+   "jp": "あいにく　余計なまねが{br}オレの仕事でね・・・{close}",
+   "en": "Too bad. Meddling's my job...{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.49270",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4927C",
+   "jp": "ふぁーーっ・・・{br}逃げ足だけは立派ですね・・・{close}",
+   "en": "*yaaawn*... Running away is the one{br}thing you do well...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4944C",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4945C",
+   "jp": "仲間の仇っ・・・！{close}",
+   "en": "This is for my comrades...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49474",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49480",
+   "jp": "ふぁーーっ・・・{br}ザコども・・・{br}ワタシは眠いんですよ・・・{close}",
+   "en": "*yaaawn*... You small fry... I'm trying{br}to sleep...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.494C0",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.494D0",
+   "jp": "ううう・・・{close}",
+   "en": "Uuugh...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.494E0",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.494EC",
+   "jp": "眠い・・・{br}ふぁーーっ・・・{page}「封印のリング」の修復アイテムについて{br}何か　知っていませんか・・・{close}",
+   "en": "So sleepy... *yaaawn*...{page}Do you know anything about the{br}item that repairs the \"Sealing{br}Rings\"...?{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.49554",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49564",
+   "jp": "ふ・・・ふざけるなっ・・・{close}",
+   "en": "D-don't you dare...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49584",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49590",
+   "jp": "眠い・・・{page}私は・・・{br}早く一眠りしたいのです・・・{close}",
+   "en": "So sleepy...{page}I would like... to get some sleep{br}soon...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.495C8",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.495D8",
+   "jp": "うっ・・・！！{page}・・・・・・{close}",
+   "en": "Ugh...!!{page}...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.495F8",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49604",
+   "jp": "さあ・・・しゃべりなさい・・・{close}",
+   "en": "Now... Speak...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.49628",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49638",
+   "jp": "・・・・・・炎{br}炎が必要です・・・{close}",
+   "en": "...Flame. You need a flame...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49660",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4966C",
+   "jp": "ふぁーーっ・・・{br}つづけて・・・{close}",
+   "en": "*yaaawn*... Go on...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.49690",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.496A0",
+   "jp": "「聖なる炎」が必要です・・・{br}・・・・・・{close}",
+   "en": "You need the \"Sacred Flame\"... ...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.496D0",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.496DC",
+   "jp": "「聖なる炎」・・・！？{br}それはどこにある・・・？{close}",
+   "en": "The \"Sacred Flame\"...!? Where is it...?{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.49710",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49720",
+   "jp": "聖なる炎は・・・{br}・・・・・・{page}や　やめろーーっ・・・！！{close}",
+   "en": "The Sacred Flame is... ...{page}S-stop it...!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49760",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4976C",
+   "jp": "ふぁーーっ・・・{br}抵抗すると{br}苦しいだけですよ・・・{close}",
+   "en": "*yaaawn*... Resisting will only make{br}it hurt more...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.497A4",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.497B4",
+   "jp": "ぐわぁーーーっ！{br}やめろーっ・・・！！{page}がふっ・・・！！{close}",
+   "en": "Gwaaah! Stop...!!{page}Gah...!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.497F0",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.497FC",
+   "jp": "ありゃ・・・{br}おやすみなさい・・・{page}ふぁーーっ・・・{br}「聖なる炎」とやらを　さがさないと{br}だめらしいですよ・・・{page}もう　いいでしょ・・・{br}私は寝ますからね・・・{close}",
+   "en": "Oh dear... Good night...{page}*yaaawn*... It seems you'll have to{br}find this \"Sacred Flame\"...{page}That will do, won't it...? I'm going to{br}sleep now...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.499B4",
+   "jp": "レジスタンスＦ",
+   "en": "Resist. F",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.499C4",
+   "jp": "また「封印のリング」が{br}破壊された・・・{page}いよいよ残る「封印のリング」は{br}あと１つ{close}",
+   "en": "Another \"Sealing Ring\" has been{br}destroyed...{page}Now there's only one \"Sealing Ring\"{br}left.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＦ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49A1C",
+   "jp": "レジスタンスＧ",
+   "en": "Resist. G",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49A2C",
+   "jp": "その「封印のリング」が{br}修復される前に{br}最後の１つが破壊されてしまうと・・・{page}取り返しのつかないことに{br}なりますね・・・{close}",
+   "en": "If the last \"Sealing Ring\" is{br}destroyed before that one can be{br}repaired...{page}There will be no undoing the{br}damage...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＧ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49AA8",
+   "jp": "レジスタンスＨ",
+   "en": "Resist. H",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49AB8",
+   "jp": "「封印のリング」が　全て{br}破壊されたら　どうなることか・・・{close}",
+   "en": "What will happen if all the \"Sealing{br}Rings\" are destroyed...?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＨ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49AF8",
+   "jp": "レジスタンスＦ",
+   "en": "Resist. F",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49B08",
+   "jp": "考えただけで　おそろしい・・・{br}間違いなく　この島は{br}滅んでしまうぞ・・・・・・{close}",
+   "en": "It's terrifying just to think about...{br}This island will surely be destroyed...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＦ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49B5C",
+   "jp": "レジスタンスＨ",
+   "en": "Resist. H",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49B6C",
+   "jp": "最後のリングは{br}必ず守り抜くぞ・・・！！{close}",
+   "en": "We'll defend the last ring, no matter{br}what...!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＨ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49B98",
+   "jp": "レジスタンスＦ",
+   "en": "Resist. F",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49BA8",
+   "jp": "「{name93}」だっ！！{close}",
+   "en": "It's \"{name93}\"!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＦ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49BBC",
+   "jp": "レジスタンスＧ",
+   "en": "Resist. G",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49BCC",
+   "jp": "わーーーっ！！{close}",
+   "en": "Aaaah!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＧ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49BE0",
+   "jp": "レジスタンスＨ",
+   "en": "Resist. H",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49BF0",
+   "jp": "落ち着けっ！！{br}ちぃっ！　よりにもよって・・・！！{br}オレたちだけの時にっ・・・{close}",
+   "en": "Calm down!! Tch! Of all the rotten{br}timing... When it's just us here...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＨ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49C44",
+   "jp": "レジスタンスＦ",
+   "en": "Resist. F",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49C54",
+   "jp": "全員　戦闘態勢をとれっ！！{close}",
+   "en": "Everyone, get ready to fight!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＦ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49C74",
+   "jp": "レジスタンスＧ",
+   "en": "Resist. G",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49C84",
+   "jp": "はいっ！！{close}",
+   "en": "Yes, sir!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＧ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49C94",
+   "jp": "レジスタンスＨ",
+   "en": "Resist. H",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49CA4",
+   "jp": "了解！！{close}",
+   "en": "Roger!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＨ",
+   "refs": 1
+  },
+  {
+   "id": "rom.49CB0",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49CB4",
+   "jp": "フッ・・・{br}ついに最後の一つだな・・・{close}",
+   "en": "Heh... At last, the final one...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.49CE0",
+   "jp": "最後の「封印のリング」を{br}破壊した！！{page}しかし　何も起こらなかった・・・{close}",
+   "en": "Destroyed the last \"Sealing Ring\"!!{page}But nothing happened...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.49D58",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49D64",
+   "jp": "これは　これは{br}{vandel}様・・・{page}全ての「封印のリング」の破壊・・・！{br}おめでとうございます・・・！！{page}とはいえ・・・{br}このとおり　特に何も変わりが{br}無いご様子・・・{page}ご不満であろうと思って　このように{br}再び　参上した次第です・・・{page}実は・・・{close}",
+   "en": "Well, well, if it isn't{br}{vandel}-sama...{page}Congratulations on destroying every{br}last \"Sealing Ring\"!!{page}And yet... As you can see, nothing in{br}particular seems to have changed...{page}I imagined you might be dissatisfied,{br}so I have come to see you once{br}again...{page}The truth is...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.49E58",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.49E64",
+   "jp": "破壊するべきモノが　{br}まだもう一つ残っておりました・・・{page}黄金城の女神像が１つ・・・{page}「封印のリング」が{br}西の島に９つ・・・{br}東の島に９つ・・・{page}そして　最後が{br}東の里の女神像なのです・・・{page}他の「封印のリング」を　全て{br}破壊して　冥力が活性化した{br}今がチャンスです・・・！{page}女神像への立ち入りを{br}邪魔していた扉も　難なく{br}越えられるはずです・・・！{page}今なら　女神像・・・{br}本当に最後の封印を破壊する{br}チャンスです・・・！{page}つまり・・・！！{page}世界最高の「七ッ星」ヴァンデルが{br}もう　目の前ということですね・・・！！{page}ウフッ・・・ウフフッ・・・{br}ワクワクします・・・！！{br}がんばってくださいね・・・！！{close}",
+   "en": "One target remains...{page}One goddess statue at the Golden{br}Castle, nine \"Sealing Rings\" each on{br}West Island and East Island...{page}Last, East Village's goddess!{page}Breaking all the rings stirred the{br}Dark Power! Now you can easily pass{br}the door blocking the statue!{page}This is your chance to break the{br}final seal!{page}The world's top rank, \"Seven-Star\"{br}Vandel, is within reach!{page}Hmhm... Hmhmhm... How exciting! Do{br}your best!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A1A0",
+   "jp": "レジスタンスＩ",
+   "en": "Resistance I",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A1B0",
+   "jp": "ここは　絶対に　通さないぞ！！{close}",
+   "en": "There's no way we're letting you{br}through!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＩ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A1D4",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A1E4",
+   "jp": "ここを　通してしまうと{br}この島は終わりっスからね・・・！{close}",
+   "en": "If we let you through here, this{br}island's done for...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A220",
+   "jp": "レジスタンスＫ",
+   "en": "Resist. K",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A230",
+   "jp": "いくぞっ！！{close}",
+   "en": "Let's go!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＫ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A240",
+   "jp": "レジスタンスＩ",
+   "en": "Resistance I",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A250",
+   "jp": "がはっ・・・{br}まだ{hero}が{br}いるから・・・な・・・{close}",
+   "en": "Gah... We've still got... {hero}...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＩ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A284",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A294",
+   "jp": "た・・・のんだ・・・っ・・・ス・・・{close}",
+   "en": "We're... counting... on ya...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A324",
+   "jp": "レジスタンスＬ",
+   "en": "Resist. L",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A334",
+   "jp": "くそっ！{br}最後の門が破られたぞっ！！{page}みんなに　知らせなければっ・・・！！{close}",
+   "en": "Damn! They've broken through the{br}last gate!!{page}I've gotta warn everyone...!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＬ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A384",
+   "jp": "レジスタンスＬ",
+   "en": "Resist. L",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A394",
+   "jp": "ピィィィーーーーッ！！{close}",
+   "en": "Tweeeeeet!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＬ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A4D8",
+   "jp": "レンド",
+   "en": "Rend",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A4E0",
+   "jp": "アークさん！！{br}あのリーダーっぽいヴァンデルは{br}「六ッ星」っスねっ！！{close}",
+   "en": "Ark-san!! That Vandel who looks like{br}their leader is a \"Six-Star\"!!{close}",
+   "kind": "msg",
+   "speaker": "レンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A52C",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A534",
+   "jp": "ああ・・・{br}我々だけでは　厳しいかも{br}しれないな・・・{close}",
+   "en": "Yes... We may have a difficult time{br}facing them alone...{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A570",
+   "jp": "シグサ",
+   "en": "Shigusa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A578",
+   "jp": "でも　今この里には{br}我々しか・・・{close}",
+   "en": "But we're the only ones in the village{br}right now...{close}",
+   "kind": "msg",
+   "speaker": "シグサ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A5A0",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A5A8",
+   "jp": "そう　我々だけだ・・・{page}さっき　知らせの笛が聞こえた・・・{br}直に　応援が到着するだろう・・・{page}それまでは{br}なんとか　我々で　時間を{br}かせがなければ・・・{page}守り抜くぞっ！！{close}",
+   "en": "Yes, just us...{page}I heard the warning whistle a moment{br}ago... Reinforcements should arrive{br}shortly...{page}Until then, we must find some way{br}to buy time...{page}We will hold the line!!{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A658",
+   "jp": "シグサ",
+   "en": "Shigusa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A660",
+   "jp": "はい・・・！！{close}",
+   "en": "Yes, sir...!!{close}",
+   "kind": "msg",
+   "speaker": "シグサ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A674",
+   "jp": "レンド",
+   "en": "Rend",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A67C",
+   "jp": "了解！！{close}",
+   "en": "Roger!!{close}",
+   "kind": "msg",
+   "speaker": "レンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A688",
+   "jp": "シグサ",
+   "en": "Shigusa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A690",
+   "jp": "あぅっ・・・{close}",
+   "en": "Agh...{close}",
+   "kind": "msg",
+   "speaker": "シグサ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A6A0",
+   "jp": "レンド",
+   "en": "Rend",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A6A8",
+   "jp": "つ・・・つええ・・・{close}",
+   "en": "S-so strong...{close}",
+   "kind": "msg",
+   "speaker": "レンド",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A6C0",
+   "jp": "アーク",
+   "en": "Ark",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A6C8",
+   "jp": "な・・・なんて強さだ・・・{close}",
+   "en": "S-such strength...{close}",
+   "kind": "msg",
+   "speaker": "アーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A850",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A858",
+   "jp": "間に合いましたっ！！{close}",
+   "en": "We made it in time!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A870",
+   "jp": "民兵Ｃ",
+   "en": "Militia C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A878",
+   "jp": "これから来る　応援を{br}無駄足にしてやろう！！{close}",
+   "en": "Let's finish this before the{br}reinforcements even get here!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｃ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A8A8",
+   "jp": "民兵Ｄ",
+   "en": "Militia D",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A8B0",
+   "jp": "よっしゃ！！{close}",
+   "en": "All right!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｄ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A8C0",
+   "jp": "民兵Ｅ",
+   "en": "Militia E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A8C8",
+   "jp": "お・・・オレには・・・{br}やっぱり・・・・・・{close}",
+   "en": "I... I can't... I knew I couldn't...{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｅ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A8F8",
+   "jp": "民兵Ｃ",
+   "en": "Militia C",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A900",
+   "jp": "おいっ！　しっかりしろ！！{br}そんなんじゃ{br}やられてしまうぞっ！！{close}",
+   "en": "Hey! Pull yourself together!! You'll{br}get killed like that!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｃ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A944",
+   "jp": "民兵Ｅ",
+   "en": "Militia E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A94C",
+   "jp": "ちくしょーーっ！！{close}",
+   "en": "Daaamn it!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｅ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A964",
+   "jp": "民兵Ｄ",
+   "en": "Militia D",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A96C",
+   "jp": "その意気だっ！！{close}",
+   "en": "That's the spirit!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｄ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A980",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A984",
+   "jp": "行きますっ！！{close}",
+   "en": "Here I go!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A998",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A9A0",
+   "jp": "おーーーーっ！！{close}",
+   "en": "Yeeeah!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A9B4",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A9BC",
+   "jp": "{hero}さん・・・{page}た・・・助けて・・・{br}くださ・・・{close}",
+   "en": "{hero}-san...{page}H-help... Please...{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A9F0",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4A9F4",
+   "jp": "・・・・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AA78",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AA7C",
+   "jp": "・・・・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AA8C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AA90",
+   "jp": "ぼくは　おまえを{br}ぜったいに　ゆるさない・・・！！{close}",
+   "en": "I will never forgive you...!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC28",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC2C",
+   "jp": "くっそーーっ！！{br}・・・・・・{close}",
+   "en": "Damn it!! ...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC50",
+   "jp": "{vandel}",
+   "en": "{vandel}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC54",
+   "jp": "・・・・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{vandel}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC64",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC68",
+   "jp": "お父さん・・・{close}",
+   "en": "Dad...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC7C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC80",
+   "jp": "がはーーっ！！{close}",
+   "en": "Gaaah!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC94",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AC9C",
+   "jp": "くっそーーっ！！{br}・・・・・・{close}",
+   "en": "Damn it!! ...{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ACC0",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ACC8",
+   "jp": "{hero}{br}強くなれーーっ！！{close}",
+   "en": "{hero}! Grow up strong!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ACE4",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ACEC",
+   "jp": "ぐはぁっ！！{close}",
+   "en": "Gwaaagh!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ACFC",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AD04",
+   "jp": "{hero}・・・{br}やさしく・・・な・・・れ・・・{close}",
+   "en": "{hero}... Be... kind... too...{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AD30",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AD38",
+   "jp": "！！{close}",
+   "en": "!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AD40",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AD48",
+   "jp": "{hero}{br}母さんを頼んだぞーー！！{close}",
+   "en": "{hero}! Take care of your{br}mother!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ADE8",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4ADF4",
+   "jp": "お見事です・・・！！{page}この地中から　わきあがる{br}強大な冥力！！{page}ああ・・・！！{br}なんとすばらしい！！{page}では七ッ目の「星」を{br}進呈いたします！！{page}さぁ　受け取ってください・・・！！{close}",
+   "en": "Outstanding...!!{page}Such immense Dark Power surging up{br}from beneath the earth!!{page}Ah...!! How magnificent!!{page}Now, allow me to present your{br}seventh \"Star\"!!{page}Here, please accept it...!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AEAC",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4AEB8",
+   "jp": "おめでとうございます！！{page}これでついに　世界最高の{br}「七ッ星」ヴァンデルですね・・・！！{page}{vandel}様は今後{br}この強大な冥力を　徐々に取得して{br}どこまでも　強力になるはず・・・{page}期待しておりますよ・・・！{page}さあ　世界最高の「七ッ星」ヴァンデル{br}として最初のお仕事です・・・！{page}「ビィト戦士団」を{br}倒してください・・・！！{page}「八輝星」目指して　ひきつづき{br}がんばってくださいね！！{page}では　わたくしはこれで{br}失礼いたします・・・！！{close}",
+   "en": "Congratulations!!{page}At last, you are a \"Seven-Star\"{br}Vandel, the highest rank in the{br}world...!!{page}{vandel}-sama, as you gradually{br}absorb this immense Dark Power,{br}your strength should grow{page}without limit...{page}I expect great things from you...!{page}Now, your first task as a{br}\"Seven-Star\" Vandel of the world's{br}highest rank...!{page}Defeat the \"Beet Warriors\"...!!{page}Keep up the good work, and aim to{br}join the \"Eight Shining Stars\"!!{page}And with that, I shall take my{br}leave...!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B174",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B17C",
+   "jp": "よっしゃ！！{br}こいつで　最後だなっ！！{close}",
+   "en": "All right!! This one's the last!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B1A8",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B1B0",
+   "jp": "さぁ　ビィト！{br}いつもの調子でバシッと{br}決めていこう・・・！！{close}",
+   "en": "Come on, Beet! Let's finish this in{br}style, just like always...!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B1F4",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B1FC",
+   "jp": "おう！！{br}よォーーーしっ・・・{close}双子島　ヴァンデルの大掃除！！{br}仕上げだぜっ！！{close}",
+   "en": "Yeah!! All riiight...{close}Time to finish{br}cleaning the Vandels out of the{br}Twin Islands!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B3F0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B3FC",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B414",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B420",
+   "jp": "おい・・・{br}なんの冗談だ・・・？{close}",
+   "en": "Hey... What kind of joke is this...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B444",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B450",
+   "jp": "クックックッ・・・{page}おい　{vandel}・・・{br}このオレ様とやる気かっ・・・！？{close}",
+   "en": "Heh heh heh...{page}Hey, {vandel}... You mean to{br}take me on...!?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B498",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B4A4",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B4C0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B4CC",
+   "jp": "貴様・・・{br}本気なら　命をかけることになるぜ・・・{page}それでも　やろうってのか・・・？{close}",
+   "en": "You... If you're serious, you'll be{br}putting your life on the line...{page}You still want to do this...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B524",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B530",
+   "jp": "いいだろうっ・・・{page}貴様の思い上がりを{br}今　ここで　たたきつぶしてやる・・・{close}",
+   "en": "Very well...{page}I'll crush that arrogance of yours,{br}right here and now...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B580",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B58C",
+   "jp": "クックックッ・・・{br}やはり　ワシの見込みに間違いは{br}なかったな・・・{close}",
+   "en": "Heh heh heh... I knew I hadn't{br}misjudged your potential...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B5D4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B5E0",
+   "jp": "貴様・・・{br}最後の一撃は・・・なかなか・・・{br}だった・・・ぞ・・・{close}",
+   "en": "You... That final blow... was... quite...{br}something...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B628",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B634",
+   "jp": "グハッ・・・{close}",
+   "en": "Gah...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B644",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B650",
+   "jp": "いやいやいや・・・{br}拝見させていただきました・・・{br}・・・すばらしいバトルでした！！{page}あの「強欲君主」とまで呼ばれた{br}ハーデン様を倒されるのですから・・・{page}さすが{vandel}様！{br}お見事です！！{page}「黄金城」の城主はこれから　他ならぬ{br}{vandel}様ということに{br}なりますね・・・！！{page}おめでとうございます・・・！！{page}これは　わたくしからの{br}ほんの気持ちです・・・！{br}お受け取り下さいませ・・・{close}",
+   "en": "My, my, my... I watched the whole{br}thing... What a splendid battle!!{page}To think you defeated Harden-sama{br}himself, the one they called the{br}\"Greedy Overlord\"...{page}Just as I would expect of you,{br}{vandel}-sama! Magnificent!!{page}From now on, the lord of the \"Golden{br}Castle\" will be none other than you,{br}{vandel}-sama...!!{page}Congratulations...!!{page}Here is a small token of my{br}appreciation...! Please accept it...{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B7C8",
+   "jp": "５００００ベイルを手に入れた！！{close}",
+   "en": "Obtained 50000 Beil!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B7EC",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B7F8",
+   "jp": "{vandel}様は{br}これから　この双子島のトップに{br}立つお方として　何かとご入用かと・・・{page}どうぞご活用くださいませ・・・{page}では・・・　失礼いたします！！{close}",
+   "en": "As the new ruler of these Twin{br}Islands, {vandel}-sama, I imagine{br}you will have all manner of{page}expenses...{page}Please put it to good use...{page}Now, if you will excuse me!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B88C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B898",
+   "jp": "ガーッハッハッ・・・！！{close}",
+   "en": "Gwahaha...!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B8B4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B8C0",
+   "jp": "今度やったら　ただでは{br}すまさんからなっ・・・！{br}クックックッ・・・{close}",
+   "en": "Try that again, and you won't get{br}off so easily...! Heh heh heh...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B908",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B914",
+   "jp": "ガーッハッハッ・・・！！{close}",
+   "en": "Gwahaha...!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B930",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B93C",
+   "jp": "今度やったら　ただでは{br}すまさんからなっ・・・！{br}クックックッ・・・{close}",
+   "en": "Try that again, and you won't get{br}off so easily...! Heh heh heh...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B9D8",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4B9E0",
+   "jp": "なかなか　手ごたえが{br}ありそうなやつだなっ！！{close}",
+   "en": "This one looks like a real challenge!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BA14",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BA1C",
+   "jp": "マントで　いくつ星か{br}分からないわ！！{close}",
+   "en": "That cape's hiding how many Stars{br}it has!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BA48",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BA50",
+   "jp": "注意して　いくよっ！！{close}",
+   "en": "Let's be careful!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BA6C",
+   "jp": "すべての「封印のリング」が修復されて{br}銀色の輝きをとりもどした・・・{page}予想外の人間の善戦に{br}撤退することにした・・・{close}",
+   "en": "All the \"Sealing Rings\" were{br}restored, regaining their silver{br}radiance...{page}Faced with unexpectedly fierce{br}human resistance, you decided to{br}retreat...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BC04",
+   "jp": "黄金城",
+   "en": "Golden Castle",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BC0C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BC18",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BC24",
+   "jp": "最近　我が「黄金城」の上を{br}飛び回る飛行機が　いるのを{br}知っているか・・・？{page}ゴミのくせに　おそれおおくも{br}このワシの　頭上を　汚すとは{br}なんたる　無礼者だっ！！{page}しかも　我が頭上を汚すだけに{br}とどまらず　我が「黄金城」の　目の前に{br}着陸することも　あるらしいっ・・・{page}・・・なるほど{page}この　ゴージャス　アンド　リッチな{br}「黄金城」に　ひかれるのも{br}無理はないが・・・{page}しかし　いつまでも　この無礼を{br}見過ごすわけにはいかんっ・・・{page}{vandel}・・・{br}あの　無礼な飛行機を{br}確保しろっ・・・{page}ただし・・・{br}無傷でな・・・{close}",
+   "en": "Seen that Airplane flying over my{br}\"Golden Castle\" lately...?{page}Mere junk, daring to foul the sky{br}above me! Such insolence!!{page}Worse, it even lands right in front of{br}my \"Golden Castle\"...{page}...Well, yes. Who could resist my{br}gorgeous and rich \"Golden Castle\"?{page}But I can't let this insolence go on...{page}{vandel}... Seize that insolent{br}Airplane...{page}Without a scratch...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BE28",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BE34",
+   "jp": "ベカトルテ近海のヴァンデルは{br}「鉄」が　お好みらしいからな・・・{page}確保した飛行機を{br}高値で売りつけてやる・・・！{br}クックックッ・・・{page}いいか・・・　ヴァンデルたるもの{br}頭を使わんと　いかん・・・{page}ワシが　なぜ「六ツ星」に{br}までなったか・・・{br}それは頭脳派だからだよ・・・{page}クックックッ・・・{close}",
+   "en": "I hear the Vandels in the Bekatorte{br}Seas have a taste for \"iron\"...{page}I'll sell them the captured Airplane{br}for a hefty price...! Heh heh heh...{page}Listen... A Vandel must use his{br}head...{page}How did I become a \"Six-Star\"...? By{br}using my brains...{page}Heh heh heh...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BF5C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BF68",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BF80",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BF8C",
+   "jp": "行け！{br}{vandel}！！{close}",
+   "en": "Go! {vandel}!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BFA0",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4BFAC",
+   "jp": "うむ・・・{br}何度見ても　すごい城じゃ・・・{br}全てが金でできておる・・・{page}ヴァンデルとは{br}なんと　おそろしいやつら{br}なんじゃ・・・・・・{page}しかし・・・{br}時を忘れて　眺めてしまうの・・・{close}",
+   "en": "Hmm... No matter how often I see it,{br}that castle is astounding... All made{br}of gold...{page}What fearsome creatures these{br}Vandels are...{page}And yet... I lose track of time gazing{br}at it, eh...{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  }
+ ]
+}

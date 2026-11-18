@@ -1,0 +1,1466 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.40010",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4001C",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40038",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40044",
+   "jp": "出たな・・・{br}「グルメアント」・・・{page}オマエら　高いんだから{br}いい仕事しろよっ・・・ったく・・・{close}",
+   "en": "There you are... \"Gourmet Ants\"...{page}You lot cost a fortune, so you'd{br}better do a good job... Honestly...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.400A8",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.400B4",
+   "jp": "おう！　おう！！　おうっ！！！{br}金じゃねーか・・・！！！{page}貴様の言ったとおりだな・・・{br}ワシにふさわしい黄金の島が{br}実在したとはな・・・{close}",
+   "en": "Oh! OH!! OHHH!!! It's gold...!!!{page}Just as you said... An island of gold{br}worthy of me really does exist...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40140",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4014C",
+   "jp": "お見事です！！{close}",
+   "en": "Marvelous work!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.40160",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4016C",
+   "jp": "館長じゃねぇか・・・{br}何の用だ・・・{close}",
+   "en": "Well, if it isn't the Manager... What do{br}you want...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40194",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.401A0",
+   "jp": "またまた{br}「強欲君主」ハーデンさま・・・！{page}毎度　お険しい顔を{br}されてますねぇ・・・！！{page}いやぁ・・・{br}すばらしいです・・・！！{page}ヴァンデルたるもの{br}こうでなくてはっ・・・！{page}しかし　このまばゆいばかりの{br}金の輝き！{page}本当に　すばらしいですね・・・！！{page}この双子島で産出される　主な鉱石は{br}銀ですが　実際にはそれとほぼ同量の{br}金の鉱脈も存在しております・・・{page}そして　この島に住んでいた古代人は{br}その存在を知り　巨大な２体の女神像と{page}各地に散らばった　銀の台座に祭られた{br}１８個の「封印のリング」によって{br}この金の鉱脈を封印したのです・・・{page}そこに目をつけたのが{br}{vandel}様・・・{br}あなただった・・・！{close}",
+   "en": "Oh, \"Greedy Overlord\" Harden-sama!{br}As stern as ever! Splendid! Just as a{br}Vandel should be!{page}And this dazzling gold! Truly superb!{page}Silver is the Twin Islands' main Ore,{br}yet their gold veins hold almost as{br}much.{page}The ancient islanders knew this.{br}They sealed the gold veins with two{br}giant goddess statues and{page}eighteen \"Sealing Rings\" enshrined{br}on silver pedestals across the{br}islands.{page}You saw the opportunity,{br}{vandel}-sama!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.403F8",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40404",
+   "jp": "おい館長・・・{br}目をつけるだけじゃ　ダメなんだぜ{page}・・・確かに　この若造から{br}この島のことを　聞いたのは事実だ・・・{page}しかしな・・・このワシがこの話に{br}のってやったからこそ　今こうして{br}ここにいるわけだからな・・・{page}勘違いしてもらっちゃ　困るぜ・・・{close}",
+   "en": "Hey, Manager... Spotting an{br}opportunity ain't enough.{page}...Sure, this youngster told me about{br}the island...{page}But we're only here because I agreed{br}to go along with his little scheme...{page}Don't you get that mixed up...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40504",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40510",
+   "jp": "いやぁ・・・これはこれは・・・{br}私としたことが{br}申し訳ございません・・・！！{page}ハーデン様・・・{br}{vandel}様・・・{br}ご苦労さまでした{page}では「銀の女神像」を破壊して{br}里を滅ぼした{br}{vandel}様には{page}「星」を　ひとつ進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
+   "en": "Oh dear... Dear me... How very{br}careless of me! My sincerest{br}apologies...!!{page}Harden-sama... {vandel}-sama...{br}Splendid work.{page}Now, for destroying the \"Silver{br}Goddess Statue\" and wiping out the{br}village, I hereby present{page}{vandel}-sama with one \"Star\"!!{page}Please, accept your reward...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4060C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40618",
+   "jp": "「二ッ星」おめでとうございます！！{page}しかし目指す「七ッ星」までは{br}まだまだ遠い道のりですね・・・！！{page}そういえば　門の前の噴水ですが{br}冥力が噴出しているようですね{page}みなさまの体力や冥力の回復に{br}役に立ちそうな気がしますので{br}ご活用されてはいかがでしょうか？{page}ひきつづき{br}がんばってくださいね・・・！{page}では　失礼します・・・！！{close}",
+   "en": "Congratulations on becoming{br}\"Two-Star\"!!{page}Though you still have quite a way to{br}go before reaching your goal of{br}\"Seven-Star\"...!!{page}Oh, that fountain in front of the{br}gate appears to be gushing Dark{br}Power.{page}I suspect it could restore your{br}health and Dark Power. Why not put{br}it to use?{page}Do keep up the good work...!{page}Now, if you'll excuse me...!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.40764",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40770",
+   "jp": "ちぃっ・・・{br}相変わらず　忙しそうにしてやがる・・・{close}",
+   "en": "Tch... Always actin' like he's so{br}busy...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.407A8",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.407B4",
+   "jp": "貴様っ・・・「二ッ星」くらいで{br}いい気になるんじゃないぞっ・・・{page}さっさと　このワシと同じ{br}「六ッ星」になるんだな・・・{page}そうすれば・・・{br}少しは　認めてやってもいいぞ・・・{close}",
+   "en": "You there... Don't get cocky just{br}because you're \"Two-Star\"...{page}Hurry up and become \"Six-Star,\" like{br}me...{page}Then... I might give you a little{br}credit...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40868",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40874",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.409C0",
+   "jp": "黄金城",
+   "en": "Golden Castle",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.409C8",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.409D4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.409E0",
+   "jp": "よし・・・ワシはここに{br}城を建てることにした・・・{page}その名も「黄金城」{page}・・・どうだ・・・{br}「強欲君主」の名に{br}ふさわしかろう・・・{page}金の輝きはすばらしい・・・{page}ワシにとって　全てを忘れさせてくれる{br}至高の存在なのだ・・・{page}いいな・・・{br}島中の「封印のリング」を{br}破壊しろ・・・{page}ワシを待たせるなよ・・・{br}さっさとこの島中を　黄金で{br}埋め尽くせ・・・分かったな・・・{page}さて・・・城を建てるには{br}モンスターの「ビルドアント」が{br}必要だ・・・{page}モンスターの購入は{br}どこでするか・・・{page}それくらいは　貴様にも{br}分かるよな・・・？{close}",
+   "en": "I'll build my Golden Castle here! Fit for{br}the Greedy Overlord, eh? Gold's{br}sublime glow makes me forget all{page}else! Smash every Sealing Ring! Cover{br}this island in gold! Hurry!{page}I need Build Ants to build it. Surely{br}you know where to buy monsters?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40BF0",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40BFC",
+   "jp": "返事が遅いっ・・・！！{page}ちぃっ・・・{br}イライラさせるんじゃねぇよ・・・{close}",
+   "en": "Answer me already...!!{page}Tch... Don't get on my nerves...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40C48",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40C54",
+   "jp": "いいか・・・モンスターは　われわれ{br}ヴァンデルには　おなじみの「魔賓館」で{br}購入することができるのだ・・・{page}さっそく　購入してこい・・・！{br}と　言いたいところだが・・・{page}残念ながら「魔賓館」へ行くための{br}「地脈の扉」が　今ここには{br}ないのだ・・・{page}チクショウ・・・{page}仕方がない・・・{br}シャギー館長を呼ぶか・・・{page}館長をさがし出して　ヤツに{br}「魔賓館」の案内をさせろ・・・{br}分かったな・・・{page}「ビルドアント」は{br}１０匹買って来い・・・{page}食う方の「グルメアント」じゃなくて{br}建てる方の「ビルドアント」{br}だからな・・・{close}",
+   "en": "Listen... You can buy monsters at{br}the \"Vandel House,\" a place we{br}Vandels know well...{page}I'd tell you to go buy them right{br}away...{page}But unfortunately, there's no{br}\"Leyline Door\" here to take us to{br}the \"Vandel House\"...{page}Damn it...{page}No choice... We'll have to call{br}Manager Shagie...{page}Find the Manager and have him show{br}you to the \"Vandel House\"...{br}Understood...?{page}Buy ten \"Build Ants\"...{page}Not the \"Gourmet Ants\" that eat{br}things. The \"Build Ants\" that build{br}things...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40E58",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40E64",
+   "jp": "間違えるんじゃねぇぞ・・・{page}ワシは行かんぞ・・・{br}なにかと忙しいからな・・・{close}",
+   "en": "Don't get 'em mixed up...{page}I'm not going... I've got plenty to{br}keep me busy...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40EB4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40EC0",
+   "jp": "アリの買い物だ・・・{br}貴様にもそれくらいの{br}お使いはできるだろう・・・{page}クックックッ・・・{close}",
+   "en": "You're just buying ants... Surely{br}even you can handle a little errand{br}like that...{page}Heh heh heh...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.40F20",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.40F2C",
+   "jp": "これはこれは{br}{vandel}様！{page}さきほどは　「二ッ星」に{br}ご昇進　おめでとうございます！！{page}いかがなされました？{page}フムフム・・・{br}「ビルドアント」が{br}ご必要ですか・・・！！{page}かしこまりました！{br}さっそく　「魔賓館」へ{br}ご案内いたしましょう・・・！！{close}",
+   "en": "Well, well! {vandel}-sama!{page}Congratulations again on your{br}promotion to \"Two-Star\"!!{page}What can I do for you?{page}Hmm, I see... You need \"Build Ants\"...!!{page}Certainly! Allow me to escort you to{br}the \"Vandel House\" at once...!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.41020",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4102C",
+   "jp": "地の果て　魔の泉「魔賓館」へ{br}ようこそ・・・！{page}この「魔賓館」では　モンスターの{br}販売はもちろん{page}{vandel}様が{br}配下にされたモンスターの買取なども{br}行っております{close}",
+   "en": "Welcome to the \"Vandel House,\" a{br}wellspring of evil at the ends of the{br}earth...!{page}Here at the \"Vandel House,\" we not{br}only sell monsters...{page}We also buy monsters you have{br}brought under your command,{br}{vandel}-sama.{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.410CC",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.410D8",
+   "jp": "あちら　総合受付にいるのが{br}管理官の「タロトス」です{page}「魔賓館」のことなら　なんでも{br}「タロトス」に　おたずね{br}ください・・・！{close}",
+   "en": "Over there at Reception is our{br}Administrator, \"Tarotos.\"{page}Please ask \"Tarotos\" anything you{br}wish to know about the \"Vandel{br}House\"...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4115C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41168",
+   "jp": "あちらの談話スペースには　いろいろな{br}ヴァンデルのみなさまが{br}いらっしゃいます{page}ヴァンデルのみなさまの　貴重な{br}社交場となっておりますので{br}ご活用くださいね・・・！{page}そうそう・・・{page}黄金城完成の折には　私から黄金城に{br}「地脈の扉」を　プレゼントさせて{br}いただきます！{page}「魔賓館」にご来館の際は{br}ぜひ　そちらをご活用くださいませ！！{page}それまでの間は　どうぞお気軽に{br}このシャギーに　お申し付け{br}ください・・・！{page}私は魔賓館を留守にしがちですが{br}お帰りの際は　タロトスに言って{br}いただければ　いつでも戻って参ります{close}",
+   "en": "Do meet the Vandels in our Lounge!{page}Once Golden Castle is built, I'll give it{br}a Leyline Door to Vandel House. Until{br}then, just ask me, Shagie, to{page}escort you! I'm often away, but tell{br}Tarotos when you wish to leave,{br}and I'll return.{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4136C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41378",
+   "jp": "それはそうと・・・{br}{vandel}様・・・{page}あの島の　金の鉱脈に複雑に{br}絡み合うようにして眠る　冥力の{page}鉱脈とも言える「冥脈」の存在を{br}知っての　今回のご出陣・・・{page}いやぁ・・・{br}なんともすばらしい！！{page}ハーデン様は「封印のリング」の{br}破壊によってもたらされる黄金が{br}目当てですが{page}あなた様はちがう・・・{page}あなた様は　強大な{br}「冥脈」の力を手に入れ{page}「七ッ星」ヴァンデルにも{br}匹敵する力を　手にいれようと{br}お考えですね・・・{page}いまだ　誰も気付かなかったことを{br}「二ッ星」のあなた様がなされようと{br}している・・・{page}いやぁ・・・{br}考えただけでわくわくしてきます・・・！{close}",
+   "en": "{vandel}-sama! You came{br}knowing the Dark Vein sleeps{br}entwined with the gold! Splendid!{page}Harden-sama wants gold from{br}broken Sealing Rings. You seek Dark{br}Vein power to rival a Seven-Star{page}Vandel! A Two-Star pursuing what{br}none saw before! How exciting!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.415A4",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.415B0",
+   "jp": "{vandel}様の{br}ご活躍・・・楽しみです・・・！{page}ぜひ「七ッ星」目指して{br}がんばってください・・・！！{page}では　私はこれで{br}失礼いたします・・・！{page}なにぶん多忙な身の上でして！！{page}それでは！　また！！{close}",
+   "en": "I look forward to your exploits,{br}{vandel}-sama...!{page}Do strive to reach \"Seven-Star\"...!!{page}Now, if you'll excuse me, I must be{br}off...!{page}I am terribly busy, you understand!!{page}Until we meet again!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.41814",
+   "jp": "黄金城",
+   "en": "Golden Castle",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.4181C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.41828",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41834",
+   "jp": "おそいじゃねぇか・・・{page}やっと　初めてのお使いからの{br}お帰りってか・・・{br}どれどれ・・・{close}",
+   "en": "Took you long enough...{page}Finally back from your very first{br}errand, are you...? Let's see...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41890",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4189C",
+   "jp": "バカヤロウ！！{page}これっぽっちで　城が{br}できるかってんだ！！{page}全然足りねーよっ！！{page}なんだって・・・？{page}何か言ったか？{close}",
+   "en": "You idiot!!{page}You expect me to build a castle with{br}this measly lot!?{page}It's nowhere near enough!!{page}What's that...?{page}Did you say something?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41914",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41920",
+   "jp": "バカヤロウ！！{br}１０匹と言ったら　１０匹しか{br}買って来ねぇのか{page}てめぇはよぉ・・・{br}気をきかせろってんだよ・・・{br}気をよっ・・・{close}",
+   "en": "You idiot!! When I say ten, you only{br}buy ten!?{page}You've gotta show some initiative...{br}Some initiative, damn it...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.419A4",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.419B0",
+   "jp": "まぁまぁまぁ・・・{br}そう熱くならずに・・・{page}ビルドアントは{br}値がはりますからね・・・{page}そこで私の出番！{br}ということなんですが・・・{page}はじめまして・・・{br}私は「ガネール」・・・{page}みなさまからは{br}「暗黒の世紀の催促人」と{br}呼ばれております・・・{page}この世は魔札が全て・・・{br}魔札本位制でございます・・・{br}何をするにも魔札が必要・・・{page}しかし　手元の魔札が残り寂しい時も{br}あるでしょう・・・{page}そんな時に　わたくしが魔札を{br}お貸しするわけです・・・{page}もちろん　タダでお貸しするわけには{br}いきません・・・{page}ほんの少し　利子をつけて{br}返していただきます・・・{page}ほんの少しだけね・・・{br}クフフ・・・{close}",
+   "en": "Now, calm down! Build Ants cost a{br}lot. I can help! Ganeer, Debt Collector{br}of the Dark Century, at your{page}service. Dark Notes rule all;{br}everything costs! Short of funds? I{br}lend Dark Notes, for a fee: repay{page}with just a tiny bit of interest...{br}Kuhuhu...{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.41BFC",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41C08",
+   "jp": "これくらいあれば　十分なビルドアントが{br}購入できると思いますが{br}いかがです・・・？{close}",
+   "en": "I believe this should buy you enough{br}Build Ants. Would this amount suit{br}you...?{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.41C60",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41C6C",
+   "jp": "ふんっ・・・{br}それっぽっちか・・・{page}いくらでも借りてやる・・・{br}もっと　よこさんか・・・！{close}",
+   "en": "Hmph... Is that all...?{page}I'll borrow as much as you've got...{br}Hand over more...!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41CCC",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41CD8",
+   "jp": "はい・・・？{br}もっとでございますか・・・？{page}あ　ありがとうございます・・・{br}では　これで・・・クフフ・・・{close}",
+   "en": "Pardon...? You would like more...?{page}Th-thank you very much... Then,{br}here you are... Kuhuhu...{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.41D48",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41D54",
+   "jp": "まぁ　それくらいあれば{br}よかろう・・・{close}",
+   "en": "Well, that much should do...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41D80",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41D8C",
+   "jp": "おい、{vandel}{br}これで　ビルドアントを{br}買い足してこい・・・{close}",
+   "en": "Hey, {vandel}! Take this and buy{br}more Build Ants...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41DC8",
+   "jp": "魔札を　５０００ベイル{br}手に入れた！！{close}",
+   "en": "Obtained 5,000 Beil in Dark Notes!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41DF4",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41E00",
+   "jp": "ハーデン様・・・この魔札はまた{br}後ほど回収に上がらせて{br}いただきます・・・{page}利子は　このようになります・・・{br}よろしくお願いいたしますね・・・{close}",
+   "en": "Harden-sama... I shall return to{br}collect these Dark Notes at a later{br}date...{page}These are my interest rates... I trust{br}you will honor our agreement...{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.41E94",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41EA0",
+   "jp": "あー　わかっている・・・{br}うるさいぞ貴様・・・{close}",
+   "en": "Yes, yes, I know... Shut your mouth,{br}you...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41ED4",
+   "jp": "ガネール",
+   "en": "Ganeer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41EE0",
+   "jp": "クフフ・・・{page}では　確かに{br}お貸しいたしましたよ・・・{page}クフフ・・・{close}",
+   "en": "Kufufu...{page}Then the loan is officially yours...{page}Kufufu...{close}",
+   "kind": "msg",
+   "speaker": "ガネール",
+   "refs": 1
+  },
+  {
+   "id": "rom.41F28",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41F34",
+   "jp": "おぅ・・・{br}今度は大丈夫だろうな・・・{br}どれどれ・・・{close}",
+   "en": "Oh... You got it right this time, didn't{br}you...? Let's see...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41F70",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41F7C",
+   "jp": "バカヤロウ！！{page}バッチリじゃないかっ・・・{close}",
+   "en": "YOU IDIOT!!{page}These are perfect...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.41FAC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.41FB8",
+   "jp": "ふんっ・・・{br}今度からは　一度で済ませろよ・・・{page}一度でな・・・{br}手間を取らせるんじゃないぜ・・・{br}全く・・・{page}さあ・・・{br}やっと「黄金城」建設だぜ・・・{close}",
+   "en": "Hmph... Next time, get it right the{br}first time...{page}The FIRST time... Don't waste my{br}time, you hear...? Honestly...{page}Now... At last, we can build my{br}\"Golden Castle\"...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42058",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42064",
+   "jp": "さぁ　しっかり働け{br}ビルドアント！！{close}",
+   "en": "Now get to work, Build Ants!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42168",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42174",
+   "jp": "ふんっ・・・{br}順調　順調・・・{page}城の建設は　この通り{br}ビルドアントに{br}まかせておけばよい・・・{page}ワシは　ただその働きっぷりを{br}ながめていればよいというわけだ・・・{page}こうしているだけで{br}夢の黄金城が手に入る・・・{close}",
+   "en": "Hmph... Coming along nicely... Very{br}nicely...{page}As you can see, we can leave the{br}castle's construction to the Build{br}Ants...{page}All I have to do is sit back and watch{br}them work...{page}Just like that, the Golden Castle of{br}my dreams will be mine...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4224C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42258",
+   "jp": "ガーッハッハッ！！{br}ゆかいだぞっ・・・！！{close}",
+   "en": "Gwahaha!! What a delight...!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42288",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42294",
+   "jp": "で　貴様はそこで{br}ボケーっと　何してるんだ・・・？{br}あん？{close}",
+   "en": "And what are you doing standing{br}there like an idiot...? Huh?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.422D4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.422E0",
+   "jp": "おい・・・{br}「封印のリング」の破壊は{br}どうなってんだ・・・{close}",
+   "en": "Hey... What happened to destroying{br}the \"Sealing Rings\"...?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42320",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4232C",
+   "jp": "なにっ！？{br}全部で１８個あるだと・・・！？{page}そいつらを　破壊するたびに{br}これくらいの金が{br}掘り出せるってわけか・・・？{page}クックックッ・・・{page}たまらんな・・・{close}",
+   "en": "What!? There are eighteen in all...!?{page}And every time you destroy one, we{br}can dig up this much gold...?{page}Heh heh heh...{page}I can hardly stand it...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.423CC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.423D8",
+   "jp": "それを分かっていて{br}ボケーっとしてるんじゃねぇぜ・・・{br}全くよ・・・{page}貴様はさっさと　この島にあるという{br}「封印のリング」を　全て{br}破壊してこい・・・{close}",
+   "en": "You know that, and you're still{br}standing around like an idiot...?{br}Honestly...{page}Get moving and destroy every last{br}\"Sealing Ring\" on these islands...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42474",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42480",
+   "jp": "そうしたら　とてつもなく　でっかい{br}黄金城が建てられるじゃないか・・・{page}クックックッ・・・{page}早くやれよ・・・{br}ワシを待たせるなよ・・・{close}",
+   "en": "Then we can build an absolutely{br}enormous Golden Castle...{page}Heh heh heh...{page}Get to it... Don't keep me waiting...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4250C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42518",
+   "jp": "「封印のリング」ごとき{br}ヴァンデルの力ならば{br}一撃で破壊できる・・・{page}一撃すら　必要ないかもな・・・{page}「封印のリング」を見つけたら{br}とにかく　触れてみろ・・・{page}たったこれだけで{br}「封印のリング」の破壊は完了！！{page}クックックッ・・・{page}たまらんな・・・{page}なーに　心配するな・・・{page}いくら　ひよっこの貴様でも{br}間違いなく楽勝だ・・・{page}行けっ・・・！{br}そして　ワシの思い通り{br}島中を　黄金に染めるのだっ！！{close}",
+   "en": "A Vandel's power can destroy a{br}mere \"Sealing Ring\" in one blow...{page}You might not even need to strike{br}it...{page}When you find a \"Sealing Ring,\" just{br}try touching it...{page}That's all it takes to destroy a{br}\"Sealing Ring\"!!{page}Heh heh heh...{page}I can hardly stand it...{page}Oh, don't worry...{page}Even a greenhorn like you can't{br}possibly mess this up...{page}Go...! Turn these whole islands to{br}gold, just as I desire!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.426AC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.426B8",
+   "jp": "ガーッハッハッハッ！！{close}",
+   "en": "Gwahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4277C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42788",
+   "jp": "貴様・・・{br}「封印のリング」の破壊は{br}進んでるんだろうな・・・？{page}こっちは　この通り{br}順調だ・・・{page}見ろ・・・{br}ゴージャスだろ？{br}リッチだろ？{close}",
+   "en": "You there... You ARE making{br}progress destroying the \"Sealing{br}Rings,\" aren't you...?{page}As you can see, things are going{br}smoothly here...{page}Look... Gorgeous, isn't it? Rich, isn't{br}it?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.4281C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42828",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42840",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4284C",
+   "jp": "って　こんなものでは{br}まだまだ足りんのだよ・・・{page}もっと　ゴージャス　アンド　リッチに{br}しなければならん・・・{page}このワシに　ふさわしいようにな・・・{close}",
+   "en": "But this is still nowhere near{br}enough...{page}It must be even more gorgeous and{br}rich...{page}Worthy of my magnificence...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.428E4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.428F0",
+   "jp": "そのためには　もっとたくさんの{br}金の産出が必要だ・・・{page}そうだ・・・{br}クックックッ・・・{page}人間の里を　攻め滅ぼしたら{br}生存者を　強制労働につかせようっ・・・{page}虫けらの人間を　虫けらのように{br}こき使う・・・{br}当たり前のことだな・・・{page}そうやって　金の増産に努めろ・・・{br}分かったな{close}",
+   "en": "For that, we need to dig up much{br}more gold...{page}That's it... Heh heh heh...{page}When we wipe out a human village,{br}we'll force the survivors to work...{page}Work those human insects like the{br}bugs they are... Only natural, really...{page}That's how you'll increase our gold{br}production... Understood?{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42A0C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42A18",
+   "jp": "ガーッハッハッ！！{close}",
+   "en": "Gwahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42A30",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42A3C",
+   "jp": "ひきつづき　「封印のリング」の{br}破壊をすすめるようにっ・・・{close}",
+   "en": "Keep at it with those \"Sealing{br}Rings\"... Destroy them all...{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42A7C",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42A88",
+   "jp": "ガーーッハッハッハッ！！{close}",
+   "en": "Gwaaahahahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.42BAC",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42BB4",
+   "jp": "よし　これで　ヴァンデルが来ても{br}そうカンタンに　攻め込むことは{br}できないだろう！！{close}",
+   "en": "Right! Now even if a Vandel shows{br}up, it won't get in so easily!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42C0C",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42C14",
+   "jp": "西の女神像の里は　ヴァンデルの手で{br}皆殺しにされたらしいぜ・・・{close}",
+   "en": "I hear Vandels slaughtered everyone{br}in West Village...{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42C58",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42C60",
+   "jp": "全く　ひでぇ　話だ・・・{br}ん！？{close}",
+   "en": "That's just sick... Huh!?{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42C84",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42C8C",
+   "jp": "お　お　お・・・おいっ！！{close}",
+   "en": "H-h-h... Hey!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CAC",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CB4",
+   "jp": "どうした？{close}",
+   "en": "What's wrong?{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CC4",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CCC",
+   "jp": "？？{close}",
+   "en": "Huh??{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CD4",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CDC",
+   "jp": "出たーーーーっ！！！{close}",
+   "en": "IT'S HEEEERE!!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CF4",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42CFC",
+   "jp": "逃げろーーーーっ！！！{close}",
+   "en": "RUUUUN!!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42D18",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42D20",
+   "jp": "待ってくれーーーっ！！！{close}",
+   "en": "WAIT FOR MEEE!!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42DF0",
+   "jp": "里の門",
+   "en": "Gate",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42DF8",
+   "jp": "何をしにきた・・・？{page}ここは人間の里だ・・・{br}おまえたちヴァンデルの{br}来るところではないぞ・・・{close}",
+   "en": "What have you come here for...?{page}This is a human village... There is no{br}place here for you Vandels...{close}",
+   "kind": "msg",
+   "speaker": "里の門",
+   "refs": 1
+  },
+  {
+   "id": "rom.42E5C",
+   "jp": "里の門",
+   "en": "Gate",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42E64",
+   "jp": "ダ　ダメダ・・・{br}モウ　モタナイ・・・{close}",
+   "en": "N-NO... I CANNOT HOLD OUT...{close}",
+   "kind": "msg",
+   "speaker": "里の門",
+   "refs": 1
+  },
+  {
+   "id": "rom.42F90",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42F98",
+   "jp": "お　お　おい・・・！！{br}あ　あ　あ　あ　あ　・・・{close}",
+   "en": "H-h-hey...!! A-a-a-a-ah...{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42FD0",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42FD8",
+   "jp": "あいつが　来た！！！{close}",
+   "en": "It's here!!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.42FF0",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.42FF8",
+   "jp": "あのバリケードはともかく・・・{br}里の門が　破られるなんて・・・！！{close}",
+   "en": "The barricade's one thing... But it{br}broke through the village gate...!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.43040",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43048",
+   "jp": "くっそー！！{br}俺たちがやらなきゃ{br}この里は全滅だっ！！{close}",
+   "en": "Dang it!! If we don't stop it, this{br}whole village is finished!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.43084",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4308C",
+   "jp": "そ　そりゃ　そうだけど・・・{close}",
+   "en": "W-well, yeah, but...{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.430AC",
+   "jp": "民兵Ｂ",
+   "en": "Militia B",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.430B4",
+   "jp": "くっそーーーーっ！！{close}",
+   "en": "DAAAANG IT!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ｂ",
+   "refs": 1
+  },
+  {
+   "id": "rom.430CC",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.430D4",
+   "jp": "ち　ちくしょう！！{br}おい！！{br}待ってくれーーーっ！！{close}",
+   "en": "D-dang it!! Hey!! WAIT FOR MEEE!!{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.4310C",
+   "jp": "民兵Ａ",
+   "en": "Militia A",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43114",
+   "jp": "へっ・・・{br}どのみち全滅かよ・・・{close}",
+   "en": "Heh... So we're all dead either way...{close}",
+   "kind": "msg",
+   "speaker": "民兵Ａ",
+   "refs": 1
+  },
+  {
+   "id": "rom.43208",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43214",
+   "jp": "お見事です！！{page}この邪悪なる冥力にあふれた{br}金のかがやき！！{page}相変わらず{br}すばらしいですね・・・！！{page}{vandel}様{br}ご苦労さまでした{page}では　またひとつ里を　征服されたので{br}「星」をひとつ進呈いたします！！{page}さぁ{br}受け取ってください・・・！{close}",
+   "en": "Marvelous!!{page}Such a golden glow, brimming with{br}wicked Dark Power!!{page}As splendid as ever...!!{page}Thank you for your efforts,{br}{vandel}-sama.{page}Now, since you have conquered{br}another village, I shall award you{br}another \"Star\"!!{page}Here... Please accept it...!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.43300",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.4330C",
+   "jp": "おめでとうございます！！{page}しかし目指す「七ッ星」までは{br}まだまだ遠い道のりですね・・・！！{page}ひきつづき{br}がんばってください・・・！{br}では　・・・！！{page}あ　そうそう・・・{br}これは　ハーデン様から{br}お預かりしていた　ビルドアントです{page}金の採掘所の　建設用にご注文{br}いただきました{close}",
+   "en": "Congratulations!!{page}Though you still have quite a way to{br}go before your goal of{br}\"Seven-Star\"...!!{page}Keep up the fine work...! Now,{br}farewell...!!{page}Oh, yes... These are the Build Ants{br}entrusted to me by Harden-sama.{page}He ordered them to build a gold mine.{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.43424",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43430",
+   "jp": "では　放ちます！{close}",
+   "en": "Now, I shall release them!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.43444",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43450",
+   "jp": "これでよし・・・！！{close}",
+   "en": "There we are...!!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.43468",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43474",
+   "jp": "しかし　先日から大量にモンスターを{br}ご購入ですが　魔札の方は{br}大丈夫なんでしょうか・・・{page}そうそう・・・{br}先日　ガネール様を{br}お見かけしましたが・・・{page}もしかして　ガネール様から{br}お借りしたりしちゃってたりして・・・{page}借りるのは結構なんですが{br}返済しないと　ガネール様はヒトが{br}変わっちゃいますから・・・{page}この世は魔札が全て・・・！{br}なんて　泣かせるじゃありませんか！{page}しかし　その魔札で{br}泣かされちゃった・・・{page}なんてことには{br}なりたくないものですね！！{page}ではでは・・・わたくしはこれで{br}失礼いたします・・・！{close}",
+   "en": "So many monster purchases lately!{br}Have you enough Dark Notes...?{page}Oh, yes... I saw Ganeer-sama{br}recently... Have you perhaps{br}borrowed from Ganeer-sama...?{page}Borrowing is fine, but miss a{br}payment, and Ganeer-sama becomes{br}another person...{page}Dark Notes rule the world! A tearful{br}truth! But having them bring YOU to{br}tears... Best avoid that fate!{page}Well then, I shall take my leave!{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.4378C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43798",
+   "jp": "本当にこっちであってるのか？{close}",
+   "en": "You sure this is the right way?{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.437B8",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.437C0",
+   "jp": "あ　あぁ・・・{br}多分な・・・{close}",
+   "en": "Y-yeah... Probably...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.437E0",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.437EC",
+   "jp": "多分って　おまえ！！{br}しっかり　頼むぜーー・・・{close}",
+   "en": "Probably!? Come on, get it together,{br}will ya...?{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.43820",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43828",
+   "jp": "だって　初めての島なんだから{br}しょうがないだろぉ・・・{close}",
+   "en": "Well, I've never been to this island{br}before! I can't help it...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.43864",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43870",
+   "jp": "ホント　金銀ザクザクの島って{br}おいしすぎるぜ！！{close}",
+   "en": "An island loaded with gold and{br}silver... Talk about easy pickings!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.438A4",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.438B0",
+   "jp": "おい・・・{close}",
+   "en": "Hey...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.438C0",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.438CC",
+   "jp": "しかし・・・{br}ヴァンデルがいるとは{br}聞いてなかったぜ・・・{close}",
+   "en": "But... Nobody told me there were{br}Vandels here...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.4390C",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43914",
+   "jp": "うわっ！！{br}平和な島だって{br}聞いてたんだけど・・・{page}でも・・・{br}そんなに強そうじゃないし・・・{close}",
+   "en": "Whoa!! I heard this island was{br}peaceful...{page}Still... That one doesn't look all that{br}tough...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.43978",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43984",
+   "jp": "なんだよ・・・「三ッ星」か{br}倒せねェあいてじゃねェな・・・{close}",
+   "en": "What the... Just a \"Three-Star,\"{br}huh? We can take this one...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.439C4",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.439D0",
+   "jp": "よっしゃ・・・{br}オレの才牙「レッドヴァンソード」の{br}エサにしてくれるぜ！！{close}",
+   "en": "All right... You're gonna be food for{br}my Saiga, the \"Red Van Sword\"!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.43B18",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43B24",
+   "jp": "ま　まってくれ！！{page}別に　悪気があって{br}やったわけじゃない！！{br}「ガネール」　の命令なんだ！！{page}オレも　「ガネール」から　借金をして{br}首が回らなくなったんだ・・・{page}それで　イヤイヤ{br}あいつの言いなりに・・・{page}だから　見逃してくれ！！{br}頼む！！{close}",
+   "en": "W-wait!!{page}I didn't do it to hurt you!! \"Ganeer\"{br}ordered me to!!{page}I borrowed from \"Ganeer\" too, and{br}got buried in debt...{page}So I had to do whatever he said...{page}Just let me go!! Please!!{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.43C1C",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43C28",
+   "jp": "おい！{br}オマエ{br}{vandel}だな！！{page}オレの名は　ヤギール・・・{page}オマエのボスが{br}ガネールからの　借金を{br}全然　返さないからさ・・・{page}こうやって　部下のオマエの所に{br}取り立てに　来たってわけさ・・・{page}オレは面倒は　キライだ・・・{br}おとなしく　１００００ベイル{br}出しな・・・{close}",
+   "en": "Hey! You're {vandel}, right!?{page}Name's Yagil...{page}Your boss hasn't paid back a bit of{br}what he borrowed from Ganeer...{page}So I've come to collect from you, his{br}underling...{page}I don't like trouble... Just hand over{br}10,000 Beil nice and easy...{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.43D34",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43D40",
+   "jp": "確かに　受け取ったぜ・・・{br}おせっかいかもしれんが{br}ボスは　慎重に　選んだ方がいいぜ・・・{page}じゃぁな・・・{close}",
+   "en": "That's the lot... Maybe it's none of{br}my business, but ya oughta choose{br}your boss more carefully...{page}See ya...{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.43DB0",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43DBC",
+   "jp": "ぜんぜんたりねぇな・・・{page}少し痛い目にあわせてやるぜ・・・{close}",
+   "en": "That's nowhere near enough...{page}Guess I'll have to hurt ya a little...{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.43DFC",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43E08",
+   "jp": "しょうがねぇな・・・{page}じゃぁ　力ずくでいただくぜ・・・{close}",
+   "en": "Guess there's no helping it...{page}I'll just take it by force...{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.43F20",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.43F2C",
+   "jp": "あらぁ☆{br}こんなところにも「封印のリング」が{br}あるのね！{page}よし！　これで３個目っと・・・{page}うーん・・・{br}１８個目まで　まだまだ{br}あるわねー・・・{page}まけるな　ミルファ！！{page}この正義の　スーパーヒロイン{br}ＢＢ・ミルファに　不可能はないわ☆{page}なんてねー☆{br}さ　次のリングをさがしに行くわよー！{close}",
+   "en": "Oh, my! There's a \"Sealing Ring\" all{br}the way out here, too!{page}All right! That's number three...{page}Hmm... Still a long way to go before{br}I've found all eighteen...{page}Don't give up, Milfa!!{page}Nothing's impossible for this{br}superheroine of justice, BB Milfa!{page}Just kidding! Now, off to find the{br}next ring!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  }
+ ]
+}

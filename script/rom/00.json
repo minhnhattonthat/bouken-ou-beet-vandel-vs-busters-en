@@ -1,0 +1,1560 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.0082C",
+   "jp": "ゲームデータをセーブします{close}",
+   "en": "Your game data will be saved.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.0084C",
+   "jp": "セーブしました{close}",
+   "en": "Game saved.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.00868",
+   "jp": "おわり",
+   "en": "The End",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.00C80",
+   "jp": "船長",
+   "en": "Captain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00C88",
+   "jp": "もう　少しだ！{br}がんばれ！{page}さあ　見えてきたぞ！{br}あれが　フォージェミニ島だ！{page}着岸準備！{close}",
+   "en": "Just a little farther! Hang in there!{page}There! Land in sight! That's Forjemini{br}Island!{page}Prepare to dock!{close}",
+   "kind": "msg",
+   "speaker": "船長",
+   "refs": 1
+  },
+  {
+   "id": "rom.00CE8",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00CF0",
+   "jp": "アイアイサー！{close}",
+   "en": "Aye aye, sir!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.00D04",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00D0C",
+   "jp": "よう　若いの！{br}どうしたんだ　そんなに{br}シケた　ツラして？{page}あんたの　ふるさとが{br}目の前だって　いうのによ！{close}",
+   "en": "Hey, kid! What's with the long face?{page}Your hometown's right there in front{br}of ya!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.00D7C",
+   "jp": "？？？？",
+   "en": "????",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00D88",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "？？？？",
+   "refs": 1
+  },
+  {
+   "id": "rom.00D94",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00D9C",
+   "jp": "ちぇっ・・・{br}船酔いか？{page}まぁ　確かに　この荒れようじゃ{br}無理もねぇか・・・{page}おだやかな双子島の海が{br}こんなに荒れるなんて{br}ただごとじゃねぇ・・・{page}鑑定士のだんな！{page}あんたが　こんな　ぼっちゃんバスターに{br}わざわざ　ついて来るのも{br}おかしいじゃねぇか{page}いったい　何事だい・・・！？{close}",
+   "en": "Tch... Seasick?{page}Well, with the sea this rough, I can't{br}blame ya...{page}The waters around the Twin Islands{br}are usually calm. Something ain't{br}right...{page}Hey, Appraiser!{page}What's a man like you doing coming{br}all this way with some boy Buster,{br}anyway?{page}Just what is going on here...!?{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.00EB8",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00EC0",
+   "jp": "・・・{br}おしゃべりな　船員じゃな・・・{page}ムダ口たたいてないで{br}仕事をしなされ！{page}もうすぐ双子島じゃろうに・・・{close}",
+   "en": "...What a chatty sailor you are...{page}Enough idle chatter! Get back to{br}work!{page}We're nearly at the Twin Islands,{br}aren't we...?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.00F34",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00F3C",
+   "jp": "ちぇっ！{br}おい　おまえ！{br}ぼっちゃんバスター！{page}・・・あれ？{br}あんた　名前なんだったっけ？{close}",
+   "en": "Tch! Hey, you! Boy Buster!{page}...Huh? What was your name again?{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.00F9C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00FA0",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.00FAC",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.00FB4",
+   "jp": "な　なんだよ！？{close}",
+   "en": "Wh-what the heck!?{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.00FF8",
+   "jp": "双子島{br}・・・対称の形をした{br}２つの小島からなる島{close}",
+   "en": "The Twin Islands... A pair of small{br}islands, each a mirror image of the{br}other.{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.01030",
+   "jp": "それぞれの島の台地上には　銀製の{br}巨大女神像があった{page}この女神像が　いつの時代に{br}造られたのか　定かではないが{close}",
+   "en": "High on each island's plateau stood{br}an enormous silver statue of a{br}goddess.{page}No one knew for certain when these{br}statues had been made.{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.010A4",
+   "jp": "人々は　その２体の　巨大な女神像に{br}まもられて生活をしていた{page}この島では　古くから大量の銀と{br}少量の金が　採掘され{page}島の人間は　それらを加工した{br}細工物を売ることで　生計を立てていた{page}島の多くは　肥沃な土地におおわれ{br}植物が生い茂り　それを糧としている{br}動物達も多く　島は繁栄していた{close}",
+   "en": "The people lived under the{br}protection of the two towering{br}goddesses.{page}For generations, the islands had{br}yielded great quantities of silver and{br}a little gold.{page}The islanders made their living by{br}crafting these metals into{br}ornaments to sell.{page}Fertile soil covered much of the{br}islands. Plants grew thick and lush,{br}feeding abundant wildlife. The{page}islands prospered.{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.011F4",
+   "jp": "しかし　突如現れた{br}ヴァンデルと　モンスターたちが{br}その平和を切り裂いた！{page}ヴァンデルは　西の里の銀の女神像を{br}破壊して　そこに「黄金城」を{br}建設したのである{page}ヴァンデルたちは　その「黄金城」を{br}拠点にして　次々に島を侵略していった{page}ヴァンデルに対抗すべき　バスター協会の{br}鑑定士は殺され　双子島唯一の{br}鑑定小屋は　焼き払われてしまった・・・{page}島の人間では　ヴァンデルたちの{br}侵略を　食い止めることができなかった{page}そして島の大部分が　ヴァンデルの手に{br}落ちてしまったのだった・・・{close}",
+   "en": "Vandels and monsters shattered{br}the peace!{page}They razed West Village's Silver{br}Goddess Statue, built the Golden{br}Castle and invaded.{page}The Buster Association's Appraiser{br}was slain; the only Appraisal Hut{br}burned.{page}Resistance failed. Most land fell...{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.013D8",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.013DC",
+   "jp": "ねーねー　お父さん{br}あれ　だれー？？{close}",
+   "en": "Hey, Dad! Who's that over there?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.01404",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0140C",
+   "jp": "{hero}・・・{br}門の中に向かって　思いっきり{br}走れ　分かったか？{page}絶対　里に入るまで　後ろを見たら{br}だめだぞ・・・{close}",
+   "en": "{hero}... Run through the gate{br}as fast as you can. Understand?{page}Don't look back until you're inside{br}the village. No matter what...{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.0147C",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01480",
+   "jp": "お父さんは？？{close}",
+   "en": "What about you, Dad?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.01494",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0149C",
+   "jp": "お父さんと　かけっこで　競争だ{br}いいな　思いっきり　走るんだぞ！{close}",
+   "en": "You and I are having a race! Ready?{br}Run as fast as you can!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.014E0",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.014E4",
+   "jp": "うん！　わかった！！{close}",
+   "en": "Yeah! Okay!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.014FC",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01504",
+   "jp": "・・・よし　いくぞ！{br}よーい{br}・・・・・・{page}スタート！！{close}",
+   "en": "...All right, here we go! Ready... Set...{page}Go!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.01540",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01544",
+   "jp": "わーーい！{br}お父さんに　負けないよーー！！{close}",
+   "en": "Yaaay! You won't beat me, Dad!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.01574",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01578",
+   "jp": "あれ？{br}お父さんは？？{close}",
+   "en": "Huh? Where's Dad?{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.01594",
+   "jp": "父親",
+   "en": "Father",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0159C",
+   "jp": "{hero}！{br}母さんを頼んだぞーー！！{close}",
+   "en": "{hero}! Take care of your{br}mother!!{close}",
+   "kind": "msg",
+   "speaker": "父親",
+   "refs": 1
+  },
+  {
+   "id": "rom.015C0",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.015C4",
+   "jp": "お父さん・・・{close}",
+   "en": "Dad...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.015D8",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.015DC",
+   "jp": "ぼくは　あいつを{br}ぜったいに　ゆるさない・・・{page}わーーーーーーーーっ！！{close}",
+   "en": "I'll never forgive him... Never...{page}Aaaaaaah!!{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.01628",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01630",
+   "jp": "また　父上のことを　思い出して{br}いたのか？{page}自分の　生まれ故郷{br}双子島に　帰ってきたのじゃからな{br}無理もない・・・{page}父上の復讐を誓った{br}その頭のバンダナ・・・{page}父上が最後に握り締めていた{br}布らしいの・・・{page}おまえはそれを一時たりとも{br}手放したことはないな・・・{page}わしゃ　このペンダントを{br}手放したことはない・・・{page}そうじゃ・・・{br}このペンダントは古き友人・・・{br}双子島の鑑定士の形見じゃ・・・{close}",
+   "en": "Were you remembering your father{br}again?{page}Now that you've returned to your{br}birthplace, the Twin Islands, it's only{br}natural...{page}That Bandanna you wear, on which{br}you swore to avenge your father...{page}I hear it was the cloth he clutched in{br}his final moments...{page}You've never parted with it, not{br}even for a moment...{page}Nor have I ever parted with this{br}Pendant...{page}Yes... A keepsake of my late friend...{br}The Appraiser of the Twin Islands...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.017BC",
+   "jp": "{hero}",
+   "en": "{hero}",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.017C0",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "{hero}",
+   "refs": 1
+  },
+  {
+   "id": "rom.017CC",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.017D4",
+   "jp": "本当は　つわものバスターを{br}一緒に連れてきたいところじゃったが{page}バスターを手配するのは{br}時間がかかる・・・{page}しかし　それを待つことは{br}できんかった・・・{page}一刻も早く　仇を見つけて{br}討たねばならん・・・{page}このような　悲しみは{br}もうたくさんじゃ・・・！{page}心配せんでもええ{page}バスター協会が　双子島での{br}鑑定小屋の再建と　大陸からの{br}バスター派遣を約束してくれたわい{page}{hero}よ・・・{br}己をみがいて　敵を討つのじゃ！！{br}さあ　いよいよ　戦いが始まるぞ！！{close}",
+   "en": "I'd hoped to bring a seasoned Buster{br}along with us.{page}But finding one would have taken{br}time...{page}And I couldn't wait...{page}We must find the one responsible{br}and avenge our loved ones without{br}delay...{page}I've had enough of such sorrow...!{page}Now, don't you worry.{page}The Buster Association has{br}promised to rebuild the Appraisal Hut{br}here and send Busters from the{page}mainland.{page}{hero}, my boy... Hone your{br}skills and avenge your father!! Come!{br}Our fight is about to begin!!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.01990",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01998",
+   "jp": "船長！！{br}船尾に落雷！！{br}操舵不能！！{close}",
+   "en": "Captain!! Lightning hit the stern!!{br}We've lost steering!!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.019C4",
+   "jp": "船長",
+   "en": "Captain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.019CC",
+   "jp": "避雷針はどうした！{br}なぜ船尾にっ！？{br}・・・{page}モンスターの仕業かっ！？{close}",
+   "en": "What about the lightning rod?! Why{br}the stern!? ...{page}Is this a monster's doing!?{close}",
+   "kind": "msg",
+   "speaker": "船長",
+   "refs": 1
+  },
+  {
+   "id": "rom.01A18",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01A20",
+   "jp": "船尾浸水！！{close}",
+   "en": "The stern's taking on water!!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.01A30",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01A38",
+   "jp": "ひぇぇーっ！{br}お助けー！！{close}",
+   "en": "Yeeek! Heeelp!!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.01A58",
+   "jp": "船長",
+   "en": "Captain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01A60",
+   "jp": "なんてこった！{br}これはいかんっ！{page}総員　至急{br}小型ボートで脱出してくださいっ！{close}",
+   "en": "Blast it! This is bad!{page}All hands, abandon ship! Into the{br}lifeboats, now!{close}",
+   "kind": "msg",
+   "speaker": "船長",
+   "refs": 1
+  },
+  {
+   "id": "rom.01AB4",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01ABC",
+   "jp": "{hero}行くぞ！{close}",
+   "en": "{hero}, let's go!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.01C08",
+   "jp": "船長",
+   "en": "Captain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01C10",
+   "jp": "なんてこった！{page}この小型ボートにも　モンスターがっ！{br}急いで　下船してください！！{close}",
+   "en": "Blast it!{page}Monsters on this lifeboat, too!{br}Everyone off! Hurry!!{close}",
+   "kind": "msg",
+   "speaker": "船長",
+   "refs": 1
+  },
+  {
+   "id": "rom.01C68",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01C70",
+   "jp": "ひぇぇーっ！{br}お助けー！！{close}",
+   "en": "Yeeek! Heeelp!!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.01C90",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01C98",
+   "jp": "オイラ　貝は苦手なんだよーっ！！{close}",
+   "en": "I can't stand shellfish!!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.01CBC",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01CC4",
+   "jp": "{hero}　{br}頼んだぞ！{close}",
+   "en": "{hero}! We're counting on you,{br}my boy!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.01CD8",
+   "jp": "船員",
+   "en": "Sailor",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01CE0",
+   "jp": "あんた　なかなかやるじゃないか{br}見直したぜ！！{close}",
+   "en": "Hey, you're pretty good! Guess I had{br}you all wrong!{close}",
+   "kind": "msg",
+   "speaker": "船員",
+   "refs": 1
+  },
+  {
+   "id": "rom.01D14",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01D1C",
+   "jp": "まったく　調子のいい船員じゃ{page}{hero}　よくやった{page}さすが　わしが　見込んだ{br}だけのことはある！{close}",
+   "en": "My, how quickly that sailor changes{br}his tune.{page}Well done, {hero}.{page}I knew I was right to put my faith in{br}you!{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.01D7C",
+   "jp": "船長",
+   "en": "Captain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.01D84",
+   "jp": "この先に　里があるぞ{br}みんな　ひとまず{br}あそこに　逃げよう！{close}",
+   "en": "There's a village up ahead! Come on,{br}everyone! We'll take shelter there!{close}",
+   "kind": "msg",
+   "speaker": "船長",
+   "refs": 1
+  },
+  {
+   "id": "rom.02130",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0213C",
+   "jp": "レナ　大丈夫！{page}あのゼナのことだ{br}きっと元気な顔で{br}すぐに帰ってくるって！{close}",
+   "en": "Lena, it'll be all right!{page}This is Zena we're talking about.{br}She'll be back safe and sound{br}before you know it!{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.0218C",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02198",
+   "jp": "そうそう{page}ゼナが　外を出歩いて{br}一晩　帰らないのなんか{br}いつものこと　じゃないか{close}",
+   "en": "That's right!{page}Zena's always wandering off and{br}staying out all night, isn't she?{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.021EC",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.021F4",
+   "jp": "お願い！　私には分かるの！{page}いつもと　ちがうの！{br}ゼナに　何か{br}危険が迫ってるの！{page}お願い・・・{br}助けて・・・{close}",
+   "en": "Please! I can feel it!{page}This time is different! Zena's in{br}danger!{page}Please... Help her...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02268",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02270",
+   "jp": "あ　あなたは・・・{page}{hero}！{br}あなた　いつ帰ってきたの！{page}お帰りなさい・・・{close}",
+   "en": "Oh, you're...{page}{hero}! When did you get{br}back?!{page}Welcome home...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.022BC",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.022C8",
+   "jp": "{hero}が{br}帰ってきたってことは　おまえ{br}ついにバスターになったんだな！{close}",
+   "en": "If you're back, {hero}, that{br}means you finally became a Buster!{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02310",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02318",
+   "jp": "{hero}・・・{br}そうなのね・・・{close}",
+   "en": "{hero}... So you did...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02338",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02344",
+   "jp": "レナが　ゼナに　何か危険が{br}迫っているって言って{page}俺たちの言うことを{br}聞かないんだよ・・・{close}",
+   "en": "Lena keeps saying Zena's in danger.{page}She won't listen to a word we say...{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.023A4",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.023B0",
+   "jp": "あ　{hero}{br}ちょうどいいじゃん{page}ちょっと{br}見てきてくれないかなぁ・・・{close}",
+   "en": "Hey, {hero}! Perfect timing!{page}Could you go take a look for us...?{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.023F8",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02404",
+   "jp": "おお！　助かる！！{br}これで　レナも安心だよねー！{close}",
+   "en": "Great! Thanks!! Now you can stop{br}worrying, Lena!{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02438",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02440",
+   "jp": "{hero}・・・{close}",
+   "en": "{hero}...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0244C",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02458",
+   "jp": "あれ・・・？{br}うれしくないの？？{close}",
+   "en": "Huh...? Aren't you happy?{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.0247C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02484",
+   "jp": "ちがうの・・・{br}でも・・・{page}{hero}の身に{br}なにかあったら　わたし・・・{close}",
+   "en": "It's not that... But...{page}If anything happened to you,{br}{hero}, I...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.024CC",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.024D8",
+   "jp": "本当に　レナは心配やさんだなー{br}大丈夫だって！{br}な！　{hero}！！{close}",
+   "en": "You really are a worrier, Lena! It'll be{br}fine! Right, {hero}?!{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02518",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02524",
+   "jp": "おいらはさー{br}ゼナは　この双子島のどこかに{br}いると思うね！！{close}",
+   "en": "Me? I reckon Zena's somewhere on{br}the Twin Islands!{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02564",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02570",
+   "jp": "そんなの　当たり前だろ・・・！{page}ゼナは　たぶん　この里のすぐ近く・・・{br}ナッシュ平原のどこかに　いるはずさ{close}",
+   "en": "Well, that's obvious...!{page}Zena's probably close by...{br}Somewhere on Nash Plains.{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.025E0",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.025EC",
+   "jp": "あ　おいらもそう思ってた！{close}",
+   "en": "Oh, that's what I was thinking, too!{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.0260C",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02618",
+   "jp": "なんだよ{br}まったく調子いいんだから・・・{page}相変わらずだろ　こいつ・・・{page}よく帰ってきたな{br}{hero}・・・{page}おまえなら　大丈夫だろう・・・{br}よろしく頼むぜ！！{close}",
+   "en": "Oh, come on! Now you're just{br}agreeing with me...{page}He hasn't changed a bit, has he...?{page}Good to have you home,{br}{hero}...{page}I'm sure you can handle this... We're{br}counting on you!{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.026B4",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.026BC",
+   "jp": "{hero}！{br}これを　持って行って・・・{page}わたしが　大切にしているお守り{br}「シルバーチャーム」よ{page}きっと　あなたを{br}守ってくれるわ・・・{close}",
+   "en": "{hero}! Take this with you...{page}It's my treasured good-luck charm,{br}the \"Silver Charm.\"{page}I'm sure it will keep you safe...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02740",
+   "jp": "「シルバーチャーム」を手に入れた{close}",
+   "en": "Obtained the \"Silver Charm.\"{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02764",
+   "jp": "やさしく銀色に輝く{br}ステキなお守りだ{close}",
+   "en": "A lovely charm that shines with a{br}soft silver glow.{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0278C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02794",
+   "jp": "あなたを　危険な目に{br}あわせるなんて・・・{page}ごめんなさい{br}{hero}・・・{close}",
+   "en": "To put you in danger like this...{page}I'm sorry, {hero}...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.027DC",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.027E8",
+   "jp": "まぁ　旅の疲れもあるだろうし{br}ゆっくりしていきなよ・・・{close}",
+   "en": "Well, you must be tired from your{br}trip. Take it easy for a while...{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02824",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0282C",
+   "jp": "ゼナ・・・{close}",
+   "en": "Zena...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0283C",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02848",
+   "jp": "ふぅーん・・・{close}",
+   "en": "Hmm...{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.0285C",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02868",
+   "jp": "おいおい　ふたりとも{br}何おちこんでるんだよ！{page}{hero}がレナやゼナのことを{br}ほっとけるわけがないだろ！！{br}すぐに見てきてくれるって！！{close}そうだよな！　{hero}！？{close}",
+   "en": "Hey, hey! Why the long faces, you{br}two!?{page}You know {hero} couldn't just{br}leave Lena and Zena in trouble!! He'll{br}go check on her right away!!{close}Right,{page}{hero}!?{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02904",
+   "jp": "おにいさん",
+   "en": "Young Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02910",
+   "jp": "そうだよね！！{br}おいらも　そう思ってた！！{close}",
+   "en": "That's right!! That's just what I was{br}thinking!!{close}",
+   "kind": "msg",
+   "speaker": "おにいさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.02940",
+   "jp": "おじさん",
+   "en": "Old Man",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0294C",
+   "jp": "なんだよ{br}まったく調子いいんだから・・・{page}相変わらずだろ　こいつ・・・{page}よく帰ってきたな{br}{hero}・・・{page}おまえなら　大丈夫だろう・・・{br}よろしく頼むぜ！！{close}",
+   "en": "Oh, come on! Now you're just{br}agreeing with me...{page}He hasn't changed a bit, has he...?{page}Good to have you home,{br}{hero}...{page}I'm sure you can handle this... We're{br}counting on you!{close}",
+   "kind": "msg",
+   "speaker": "おじさん",
+   "refs": 1
+  },
+  {
+   "id": "rom.029E8",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.029F0",
+   "jp": "{hero}・・・あなた{br}本当に　バスターになったのね・・・{page}これを　持って行って・・・{page}これ・・・{br}わたしが　大切にしているお守り{br}「シルバーチャーム」なの{close}",
+   "en": "{hero}... You really have{br}become a Buster...{page}Please, take this with you...{page}This... is my precious good luck{br}charm, the \"Silver Charm.\"{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02A88",
+   "jp": "「シルバーチャーム」を手に入れた{close}",
+   "en": "Obtained the \"Silver Charm.\"{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02AAC",
+   "jp": "やさしく銀色に輝く{br}ステキなお守りだ{close}",
+   "en": "A lovely charm that shines with a{br}soft silver glow.{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02AD4",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02ADC",
+   "jp": "そのお守りが　きっとあなたのことを{br}守ってくれるわ・・・{close}",
+   "en": "I'm sure that charm will keep you{br}safe...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02B18",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02B20",
+   "jp": "わたし・・・{br}あなたを　危険な目に{br}あわせたくないのに・・・{page}ごめんなさいね{br}{hero}・・・{close}",
+   "en": "I... I don't want to put you in danger...{page}I'm so sorry, {hero}...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02B7C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02B84",
+   "jp": "しまった・・・{br}囲まれちゃったよ・・・{close}",
+   "en": "Oh, great... They've got me{br}surrounded...{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02BB0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02BB8",
+   "jp": "あ！{close}",
+   "en": "Ah!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02BC0",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02BC8",
+   "jp": "{hero}！！{page}た　助けてくれたら{br}うれしいなー　なんちて・・・{close}",
+   "en": "{hero}!!{page}S-sure would be nice if you saved{br}me... Just kidding...{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02C04",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02C0C",
+   "jp": "ありがと　{hero}！{br}ほんとに　バスターになって{br}帰ってきたんだね！{page}まさか　あんたに　助けられることに{br}なるとは　思わなかったな！{page}よし！{br}あたいも　修行の　やりなおしだ！！{page}じゃ　ねーちゃんに{br}よろしく　言っといて！{br}じゃーねー！！{close}",
+   "en": "Thanks, {hero}! You really did{br}come back a Buster!{page}Never thought you'd be the one{br}saving me!{page}Right! Time for me to get back to{br}training!!{page}Say hi to my big sis for me! See ya!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.02FD0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02FD8",
+   "jp": "よぉ！{br}大丈夫かい？{close}",
+   "en": "Hey! You all right?{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.02FF0",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.02FF8",
+   "jp": "あぶないところだったわね{close}",
+   "en": "That was a close call.{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.03014",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0301C",
+   "jp": "コダマンボが　こんな平原に{br}現れるなんて{page}この島はかなり{br}冥力が強くなってるね・・・{close}",
+   "en": "A Kodamanbo showing up out on a{br}plain like this...{page}The Dark Power on this island must{br}be getting pretty strong...{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.03074",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0307C",
+   "jp": "とにかく　無事で　よかったぜ！！{close}",
+   "en": "Anyway, glad you're safe!!{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.030A0",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.030A8",
+   "jp": "ふわぁぁぁ・・・{close}",
+   "en": "*yaaawn*...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.030BC",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.030C4",
+   "jp": "すごい　あくびだなぁ{close}",
+   "en": "That's quite a yawn.{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.030DC",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.030E4",
+   "jp": "私たち　ちょっと旅の疲れが{br}あるんだけど{page}この近くに{br}休めるような里はないかしら？{close}",
+   "en": "We're a little worn out from traveling.{page}Is there a village nearby where we{br}could rest?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0313C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03144",
+   "jp": "え？　里が近くにあるの？{br}よかった・・・！{br}案内お願いしてもいいかな！{close}",
+   "en": "Huh? There's a village nearby? What{br}a relief...! Would you mind showing us{br}the way?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.03190",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03198",
+   "jp": "助かるぅ・・・！{br}ありがとうね！！{br}私は　ポアラよ！！{close}",
+   "en": "You're a lifesaver...! Thank you!! I'm{br}Poala!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.031D4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.031DC",
+   "jp": "この眠そうなのは　ビィト！{close}",
+   "en": "And this sleepyhead is Beet!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.031FC",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03204",
+   "jp": "ふわぁぁぁ・・・{br}よろしくぅ・・・{close}",
+   "en": "*yaaawn*... Nice to meet ya...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.0322C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03234",
+   "jp": "こらぁっ！！{br}あんた　しっかりしなさいよっ！！{br}失礼でしょっ！！{close}",
+   "en": "Hey!! Pull yourself together!! You're{br}being rude!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.03278",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03280",
+   "jp": "出た！{close}",
+   "en": "Here we go!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.0328C",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03294",
+   "jp": "（これはね{br}いつもの夫婦ゲンカなんだ・・・）{close}",
+   "en": "(See, this is their usual{br}married-couple quarrel...){close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.032C4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.032CC",
+   "jp": "キッス・・・{br}なんか言った・・・？{close}",
+   "en": "Kissu... Did you say something...?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.032F4",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.032FC",
+   "jp": "べ・・・別に・・・{br}なにも言ってないよ・・・{br}（ねぇ　里どっち？？）{close}",
+   "en": "N-no... Didn't say a thing... (Hey,{br}which way's the village??){close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.03344",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0334C",
+   "jp": "お　お先ー！！{close}",
+   "en": "I-I'll go on ahead!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  },
+  {
+   "id": "rom.03360",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03368",
+   "jp": "ちょっと！{br}待ちなさーいっ！！{close}",
+   "en": "Hey! Wait up!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.0338C",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03394",
+   "jp": "ハハハ・・・{br}おれたちも行こうぜ・・・{close}",
+   "en": "Hahaha... Let's get going, too...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.03458",
+   "jp": "母親",
+   "en": "Mother",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03460",
+   "jp": "{hero}！{page}まあ・・・こんなに　立派になって・・・{br}お帰りなさい・・・{page}母さん　おまえなら　絶対無事に{br}帰ってくるって　信じてたよ・・・{page}父さんが　天国から{br}見守っていてくれるものね・・・{page}あら・・・{br}その子は　友だちかい？{page}ずいぶん　眠たそうな顔だね・・・{br}家で　休んでもらいなさいよ{close}",
+   "en": "{hero}!{page}Oh... Look how you've grown...{br}Welcome home...{page}Your mother always knew you'd{br}come home safe...{page}Your father's watching over you{br}from heaven, after all...{page}Oh... Is that boy a friend of yours?{page}He looks awfully sleepy... Let him{br}rest here at our house.{close}",
+   "kind": "msg",
+   "speaker": "母親",
+   "refs": 1
+  },
+  {
+   "id": "rom.0357C",
+   "jp": "母親",
+   "en": "Mother",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03584",
+   "jp": "・・・{br}おまえ　これから　父さんのかたきを{br}討つんだね{page}母さんが止めても{br}バスターになるために　家を出た{br}あの時のように{page}また行ってしまうんだろ・・・{page}悔いのないように　おやり・・・{page}母さんは　いつでも　ここで{br}おまえの　帰りを　待っているからね{page}疲れたり　傷ついたりしたら{br}意地を張らず　帰っておいで{br}ゆっくり休むとよいよ{page}そうしたら　また元気が出るでしょ・・・{close}",
+   "en": "...You're going to avenge your father{br}now, aren't you?{page}Even if I tried to stop you, you'd{br}leave again...{page}Just like when you left home to{br}become a Buster...{page}Do what you must, so you'll have no{br}regrets...{page}I'll always be here, waiting for you to{br}come home.{page}If you're tired or hurt, don't be{br}stubborn. Come home and get some{br}proper rest.{page}Then you'll have your strength{br}back...{close}",
+   "kind": "msg",
+   "speaker": "母親",
+   "refs": 1
+  },
+  {
+   "id": "rom.036F4",
+   "jp": "母親",
+   "en": "Mother",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.036FC",
+   "jp": "そういえばさっき鑑定士さんが{br}おまえのことを探してたよ{page}一度　鑑定小屋へ{br}寄ってみたらどうだい？{close}",
+   "en": "Oh, the Appraiser-san was looking{br}for you earlier.{page}Why don't you stop by the Appraisal{br}Hut?{close}",
+   "kind": "msg",
+   "speaker": "母親",
+   "refs": 1
+  },
+  {
+   "id": "rom.03888",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03890",
+   "jp": "おお{hero}{br}いいところに来た{page}ちょうど　ついさっき「鑑定小屋」を{br}開いたところじゃ{page}{hero}も知っておるように{br}突如現れた「ヴァンデル」の手によって{br}この地上は蹂躙され{close}",
+   "en": "Ah, {hero}! Just the person I{br}wanted to see.{page}I've only just opened the \"Appraisal{br}Hut.\"{page}As you know, {hero}, the{br}\"Vandels\" appeared without warning{br}and laid waste to this world...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.03934",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.0393C",
+   "jp": "我々は　いつ終わるとも知れぬ{br}「暗黒の世紀」を　生きておる・・・{page}この状況を　打破するために誕生したのが{br}「ヴァンデルバスター」じゃ・・・{page}世界で活躍しておった　賞金稼ぎたちが{br}その　元祖になったと{br}言われておる・・・{page}バスターは　己の戦闘技術を駆使して{br}各地に存在する　ヴァンデルと{br}モンスターを倒すことで{page}報奨金を　獲得して{br}生計を立てておる・・・{page}ヴァンデルには　莫大な報奨金が{br}かけられておるため　一攫千金を狙って{br}バスターになる腕自慢も多いが・・・{page}その多くが　命を落とすという{br}非常に　危険な職業なのじゃ・・・{close}",
+   "en": "This endless \"Dark Century\"...{br}Vandel Busters arose to end it.{br}They began as bounty hunters,{page}they say.{page}They earn their living slaying{br}Vandels and monsters. Vandel{br}bounties lure skilled fighters{page}seeking riches, but many die. Perilous{br}work, my boy...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.03B4C",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03B54",
+   "jp": "・・・そなたは　父君の仇を討とうと{br}しておるわけじゃが{page}危険なことに　なんら変わりは{br}ないのじゃ・・・{page}そんな　バスターの活動を支援するために{br}バスター協会が　存在しておる・・・{page}「暗黒の世紀」に　終止符を打つために　{br}グランシスタ王国が母体となって{br}バスター協会が発足したわけじゃが・・・{page}バスター協会は　バスターの活動を{br}支援するために　先刻各地に{br}「鑑定小屋」を設置しておる・・・{page}「鑑定小屋」は　バスターにとって{br}重要な施設じゃぞ{page}まずは　ここで　依頼を受けるのじゃ{br}それから　その依頼を　達成させて{br}必ず　その終了報告をすること{page}そうすれば　網膜鑑定の後　その依頼に{br}見合った　報奨金と昇格値を{br}手に入れることが　できるのじゃ・・・{page}バスターたるもの「鑑定小屋」に{br}マメに通い　情報収集を怠っては{br}ならぬぞ・・・{close}",
+   "en": "Revenge is perilous, my boy.{br}Gransista founded the Buster{br}Association to end the Dark{page}Century.{page}Visit an Appraisal Hut often for{br}news and requests. Complete and{br}report them: a retinal appraisal{page}earns you the bounty and promotion{br}points.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.03E2C",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03E34",
+   "jp": "早く　仇のヴァンデルを{br}見つけなければな・・・{page}こちらでも情報を　集めようと{br}思っておるぞ・・・{page}引き続き　全面的に協力するつもりじゃ{br}お互いがんばろう・・・{page}{hero}も{br}情報を集めてくれ・・・{br}よろしく頼むぞ・・・{close}",
+   "en": "We must find the Vandel you seek{br}revenge on soon...{page}I intend to gather information here{br}as well...{page}You shall continue to have my full{br}support. Let us both do our best...{page}Gather whatever information you{br}can too, {hero}... I'm counting{br}on you...{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.03F0C",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03F14",
+   "jp": "あら！　あなたは　あの時の！？{page}ねぇ　ビィトが　どこに行ったのか{br}しらない！？{close}",
+   "en": "Oh! You're the one from earlier!?{page}Hey, do you know where Beet went!?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.03F68",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03F70",
+   "jp": "えっ！？　あなたのお家で寝てるの！？{close}",
+   "en": "What!? He's sleeping at your house!?{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.03F98",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03FA0",
+   "jp": "そうなんだ！{page}あなた　この里の人だったのね！{br}ビィトのこと　ありがとう！！{close}",
+   "en": "Oh, I see!{page}So you're from this village! Thanks{br}for looking after Beet!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.03FF0",
+   "jp": "キッス",
+   "en": "Kissu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.03FF8",
+   "jp": "やぁ　さっきはどうも！{page}あれ？　ビィトは一緒じゃないの？{page}・・・そうなんだ！　きみのお宅で{br}お世話になってるんだね！{page}ありがとう！！{page}・・・そうだ{br}きみの名前　まだ聞いてなかったよね！{page}・・・そうか！{page}じゃあ　あらためまして{br}ぼくは　キッス！{br}{hero}　よろしくね！！{close}",
+   "en": "Hi! Thanks for earlier!{page}Huh? Isn't Beet with you?{page}...Oh, I see! He's staying at your{br}house!{page}Thank you!!{page}...Oh, right. I never asked your name,{br}did I?{page}...Got it!{page}Then let me introduce myself{br}properly. I'm Kissu! Nice to meet you,{br}{hero}!!{close}",
+   "kind": "msg",
+   "speaker": "キッス",
+   "refs": 1
+  }
+ ]
+}

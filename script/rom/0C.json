@@ -1,0 +1,1158 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.3000C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30014",
+   "jp": "あなたを　危険な目に{br}あわせるなんて・・・{br}ごめんなさい・・・{close}",
+   "en": "To think I've put you in danger... I'm{br}so sorry...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.30058",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30060",
+   "jp": "ゼナを　助けてくれたのね！{br}ありがとう　{hero}！{close}",
+   "en": "You saved Zena! Thank you,{br}{hero}!{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.30090",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30098",
+   "jp": "もうゼナったら{br}なんど言っても　聞かないんだから・・・{page}あいかわらず{br}あぶないことばかりして・・・{close}",
+   "en": "Oh, that Zena! No matter how often I{br}tell her, she never listens...{page}Always doing such dangerous{br}things...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.30100",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30108",
+   "jp": "{hero}・・・{br}これからも　ゼナのこと{br}よろしくね{close}",
+   "en": "{hero}... Please keep looking{br}out for Zena.{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.30138",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30140",
+   "jp": "{hero}{br}助けてくれてありがとう・・・{br}あのね、{hero}・・・{page}ううん、なんでもない{close}",
+   "en": "{hero}, thank you for saving{br}me... You know, {hero}...{page}No, it's nothing.{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3018C",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30194",
+   "jp": "{hero}{br}いつもありがとう・・・{br}ゼナは元気にしてる？{close}",
+   "en": "{hero}, thank you for{br}everything... Is Zena doing well?{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.301C8",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.301D0",
+   "jp": "{hero}{br}いつもありがとう・・・{br}ゼナは元気にしてる？{close}",
+   "en": "{hero}, thank you for{br}everything... Is Zena doing well?{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.30204",
+   "jp": "安全確保は　進んでいるかね？！{page}まずは　橋をかける場所のモンスターを{br}できる限り多く　倒してきてくれ！{br}よろしく頼むよ！！{close}",
+   "en": "How goes securing the area?!{page}First, defeat as many monsters as{br}you can where we'll build the bridge!{br}I'm counting on you!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.30284",
+   "jp": "おおっ！{br}バスターのしょくんっ！！{br}サインがほしいのかな？？？{close}",
+   "en": "Oh! My fine Busters!! Here for an{br}autograph, are you???{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.302C8",
+   "jp": "東の里の　女神像だ・・・{close}",
+   "en": "It's East Village's goddess statue...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.302E4",
+   "jp": "ああ・・・　ボクの　あこがれの{br}双子の女神さまが{br}悲しんで　いらっしゃる・・・{page}西の里の　女神さまが　傷つき　そして{br}苦しんで　いらっしゃるからですね・・・{page}でも　ボクには{br}どうすることも　できない・・・{br}ボクには　君ほどの　勇気は　ないんだ！{page}ああ・・・{br}ボクは　どうしたら　いいんだろう・・・{close}",
+   "en": "Ah... The twin goddesses-sama I so{br}adore are grieving...{page}It must be because the{br}goddess-sama in West Village is hurt{br}and suffering...{page}But there's nothing I can do... I'm not{br}nearly as brave as you!{page}Oh... What am I to do...?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.30410",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30418",
+   "jp": "あのね・・・ビィトは{br}しばらく起きないと思うの・・・{page}ご迷惑だと思うけれど・・・{br}よろしくお願いします・・・{close}",
+   "en": "You see... I don't think Beet will wake{br}up for a while...{page}I know it's a bother, but... please look{br}after him.{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.309FC",
+   "jp": "ディアム",
+   "en": "Diam",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30A08",
+   "jp": "そ、その角・・・貴様は・・・{page}ど、どうだろう？{br}このベカトルテ近海最強の「鋼鉄の爪」{br}ディアム様を仲間にしないか？{close}",
+   "en": "Th-those horns... You're...{page}H-how about it? Why not recruit{br}Diam-sama, the \"Steel Claw,\"{br}strongest in the Bekatorte Seas?{close}",
+   "kind": "msg",
+   "speaker": "ディアム",
+   "refs": 1
+  },
+  {
+   "id": "rom.30A80",
+   "jp": "ディアム",
+   "en": "Diam",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30A8C",
+   "jp": "よ、よし・・・{br}ともに人間どもを苦しめてやろう！{close}",
+   "en": "G-good... Let's make those humans{br}suffer together!{close}",
+   "kind": "msg",
+   "speaker": "ディアム",
+   "refs": 1
+  },
+  {
+   "id": "rom.30AC0",
+   "jp": "ディアム",
+   "en": "Diam",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30ACC",
+   "jp": "そ、そうか・・・{br}気が向いたらまた声をかけてくれ{close}",
+   "en": "I-I see... Speak to me again if you{br}change your mind.{close}",
+   "kind": "msg",
+   "speaker": "ディアム",
+   "refs": 1
+  },
+  {
+   "id": "rom.30B00",
+   "jp": "ギルス",
+   "en": "Gils",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30B08",
+   "jp": "・・・よかったら{br}仲間にしてくれないか・・・？{close}",
+   "en": "...If you're willing, could I join you...?{close}",
+   "kind": "msg",
+   "speaker": "ギルス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30B3C",
+   "jp": "ギルス",
+   "en": "Gils",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30B44",
+   "jp": "ようし！{br}これから　よろしくな！！{close}",
+   "en": "All right! Here's to fightin' together!!{close}",
+   "kind": "msg",
+   "speaker": "ギルス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30B6C",
+   "jp": "ギルス",
+   "en": "Gils",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30B74",
+   "jp": "そうか・・・{br}残念だぜ・・・{page}オレ様の力が必要になったら{br}いつでも声をかけてくれ{close}",
+   "en": "I see... That's a shame...{page}Give me a shout whenever you need{br}my mighty power.{close}",
+   "kind": "msg",
+   "speaker": "ギルス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30BC8",
+   "jp": "オロゾン　を仲間に入れますか？{close}",
+   "en": "Recruit Orozon?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.30BEC",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30BF8",
+   "jp": "眠い・・・{close}",
+   "en": "So sleepy...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.30C08",
+   "jp": "オロゾン",
+   "en": "Orozon",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30C14",
+   "jp": "そうか・・・{page}じゃぁ・・・{br}一眠りさせてもらうとするか・・・{close}",
+   "en": "I see...{page}Then... I suppose I'll have a little{br}nap...{close}",
+   "kind": "msg",
+   "speaker": "オロゾン",
+   "refs": 1
+  },
+  {
+   "id": "rom.30C54",
+   "jp": "シャギーガール",
+   "en": "Shagie Girl",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30C64",
+   "jp": "ようこそ魔賓館へ{close}",
+   "en": "Welcome to the Vandel House.{close}",
+   "kind": "msg",
+   "speaker": "シャギーガール",
+   "refs": 1
+  },
+  {
+   "id": "rom.30C78",
+   "jp": "シャギーガール",
+   "en": "Shagie Girl",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30C88",
+   "jp": "ごゆっくりおくつろぎください{close}",
+   "en": "Please relax and make yourself{br}comfortable.{close}",
+   "kind": "msg",
+   "speaker": "シャギーガール",
+   "refs": 1
+  },
+  {
+   "id": "rom.30CA8",
+   "jp": "シャギーガール",
+   "en": "Shagie Girl",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30CB8",
+   "jp": "何かございましたら{br}何なりとお申し付けください{close}",
+   "en": "If you need anything at all, please do{br}not hesitate to ask.{close}",
+   "kind": "msg",
+   "speaker": "シャギーガール",
+   "refs": 1
+  },
+  {
+   "id": "rom.30CEC",
+   "jp": "タロトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30CF8",
+   "jp": "{vandel}様、{br}ようこそおこしくださいました{br}本日はどのような御用向きで？{close}",
+   "en": "{vandel}-sama, welcome. What{br}may we do for you today?{close}",
+   "kind": "msg",
+   "speaker": "タロトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30D40",
+   "jp": "タロトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30D4C",
+   "jp": "すでに腹心モンスターがいるので{br}モンスターを腹心にできません{close}",
+   "en": "You already have a lieutenant{br}monster, so you cannot appoint{br}another.{close}",
+   "kind": "msg",
+   "speaker": "タロトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30D8C",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30D98",
+   "jp": "オレを　アンタの仲間に{br}してほしいんだ！！{close}",
+   "en": "I want you to let me join you!!{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.30DC8",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30DD4",
+   "jp": "助かるぜ！！{br}よろしくな！！{close}",
+   "en": "You're a lifesaver!! Count on me!!{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.30DF4",
+   "jp": "ヤギール",
+   "en": "Yagil",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30E00",
+   "jp": "そうか・・・{br}しかたがないな・・・{page}仲間が必要になったら{br}いつでも声をかけてくれ・・・{br}頼むぜ・・・{close}",
+   "en": "I see... Guess that's that...{page}Give me a shout whenever you need{br}someone... I'm beggin' ya...{close}",
+   "kind": "msg",
+   "speaker": "ヤギール",
+   "refs": 1
+  },
+  {
+   "id": "rom.30E68",
+   "jp": "タロトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30E74",
+   "jp": "お帰りになられますか？{close}",
+   "en": "Will you be leaving?{close}",
+   "kind": "msg",
+   "speaker": "タロトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30E90",
+   "jp": "タロトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30E9C",
+   "jp": "またのお越しをお待ちしております{close}",
+   "en": "We look forward to your next visit.{close}",
+   "kind": "msg",
+   "speaker": "タロトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30EC0",
+   "jp": "タロトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30ECC",
+   "jp": "御用がございましたら{br}お声をおかけください{close}",
+   "en": "Please call on me if you need{br}anything.{close}",
+   "kind": "msg",
+   "speaker": "タロトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.30EFC",
+   "jp": "タロトス",
+   "en": "Tarotos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.30F08",
+   "jp": "御用がございましたら{br}お声をおかけください{close}",
+   "en": "Please call on me if you need{br}anything.{close}",
+   "kind": "msg",
+   "speaker": "タロトス",
+   "refs": 1
+  },
+  {
+   "id": "rom.31B70",
+   "jp": "封印のリングに島の地図が描かれている{br}地図を読んで東の里へ戻りますか？{close}",
+   "en": "A map of the island is drawn on the{br}Sealing Ring. Read the map and{br}return to East Village?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31BBC",
+   "jp": "東の里へ戻ります{close}",
+   "en": "Returning to East Village.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31BD0",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31BE8",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31C00",
+   "jp": "「聖なる銀のしずく」を使って{br}封印のリングを修復した{close}",
+   "en": "Used \"Holy Silver Drops\" to repair{br}the Sealing Ring.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31C38",
+   "jp": "「聖なる銀のしずく」を持っていないので{br}封印のリングを修復できない{close}",
+   "en": "You have no \"Holy Silver Drops,\" so{br}you cannot repair the Sealing Ring.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31C80",
+   "jp": "金色の巨大なリングがある{close}",
+   "en": "There is a huge golden ring.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31C9C",
+   "jp": "リングは銀色に輝いている{close}",
+   "en": "The ring shines silver.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31CB8",
+   "jp": "ハーデンを攻撃しますか？{close}",
+   "en": "Attack Harden?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31CD4",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.31CE0",
+   "jp": "バカヤロウ！！{page}さっさと　やるべきことを{br}やってこい・・・！！{close}",
+   "en": "You idiot!!{page}Hurry up and do what you're{br}supposed to do...!!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.31D24",
+   "jp": "持ち物がいっぱいだ{close}",
+   "en": "Your inventory is full.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31D3C",
+   "jp": "「薬花」がある！{br}「薬花」を{br}手に入れた！{page}鑑定小屋に　報告しに　行こう！{close}",
+   "en": "There's a \"Medicinal Flower\"!{br}Obtained \"Medicinal Flower\"!{page}Let's report to the Appraisal Hut!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31D8C",
+   "jp": "持ち物がいっぱいだ{close}",
+   "en": "Your inventory is full.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31DA4",
+   "jp": "「鉱石」がある！{br}「鉱石」を{br}手に入れた！{page}鑑定小屋に　報告しに　行こう！{close}",
+   "en": "There's \"Ore\"! Obtained \"Ore\"!{page}Let's report to the Appraisal Hut!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31DF4",
+   "jp": "持ち物がいっぱいだ{close}",
+   "en": "Your inventory is full.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31E0C",
+   "jp": "宝箱は　からっぽだ{close}",
+   "en": "The treasure chest is empty.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31E24",
+   "jp": "封印のリングに島の地図が描かれている{br}地図を読んで黄金城へ戻りますか？{close}",
+   "en": "A map of the island is drawn on the{br}Sealing Ring. Read the map and{br}return to the Golden Castle?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31E70",
+   "jp": "黄金城へ戻ります{close}",
+   "en": "Returning to the Golden Castle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31E84",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31E9C",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31EB4",
+   "jp": "リングは金色に輝いている{close}",
+   "en": "The ring shines gold.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31ED0",
+   "jp": "封印のリングを破壊した{close}",
+   "en": "Destroyed the Sealing Ring.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.31EEC",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.31EF4",
+   "jp": "オス！　{hero}{br}がんばってるみたいだね！{page}とりあえず　あたい特製の{br}この薬をのみなよ！{br}元気になるからさ！{close}",
+   "en": "Heya, {hero}! Looks like you're{br}working hard!{page}Here, drink some of my special{br}medicine first! It'll perk you right up!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.31F60",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.31F68",
+   "jp": "ほかに　なにか手伝えることある？{close}",
+   "en": "Anything else I can help with?{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.31F8C",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.31F94",
+   "jp": "あたいもがんばるから{br}{hero}もがんばってね！{br}じゃーねー！！{close}",
+   "en": "I'll keep at it, so you keep at it too,{br}{hero}! See ya!!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.31FD0",
+   "jp": "ピルゴア",
+   "en": "Pilgoa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.31FDC",
+   "jp": "フハハハッ！！{close}",
+   "en": "Fuhahaha!!{close}",
+   "kind": "msg",
+   "speaker": "ピルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.31FF0",
+   "jp": "ピルゴア",
+   "en": "Pilgoa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.31FFC",
+   "jp": "バカな！！{close}",
+   "en": "Impossible!!{close}",
+   "kind": "msg",
+   "speaker": "ピルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.3200C",
+   "jp": "ピルゴア　を軍団に入れますか？{close}",
+   "en": "Add Pilgoa to your army?{close}",
+   "kind": "msg",
+   "speaker": "ピルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.32030",
+   "jp": "ピルゴア",
+   "en": "Pilgoa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3203C",
+   "jp": "うぅっ{close}",
+   "en": "Ugh...{close}",
+   "kind": "msg",
+   "speaker": "ピルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.32048",
+   "jp": "ピルゴア",
+   "en": "Pilgoa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32054",
+   "jp": "ククッ{close}",
+   "en": "Heh heh.{close}",
+   "kind": "msg",
+   "speaker": "ピルゴア",
+   "refs": 1
+  },
+  {
+   "id": "rom.32060",
+   "jp": "ブランドゥ",
+   "en": "Brandu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3206C",
+   "jp": "フフフフ・・・{close}",
+   "en": "Fufufufu...{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.32080",
+   "jp": "ブランドゥ",
+   "en": "Brandu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3208C",
+   "jp": "ぐっ・・・{close}",
+   "en": "Gh...{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.3209C",
+   "jp": "ブランドゥ　を軍団に入れますか？{close}",
+   "en": "Add Brandu to your army?{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.320C0",
+   "jp": "ブランドゥ",
+   "en": "Brandu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.320CC",
+   "jp": "よし　やってやるぜ{close}",
+   "en": "All right. I'll do it!{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.320E4",
+   "jp": "ブランドゥ",
+   "en": "Brandu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.320F0",
+   "jp": "そうか　じゃあな{close}",
+   "en": "I see. See ya.{close}",
+   "kind": "msg",
+   "speaker": "ブランドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.32104",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32110",
+   "jp": "君か・・・{br}強欲君主の配下ヴァンデルは・・・{page}強欲君主はいい趣味をしているな{br}黄金城を拝見したが　実にすばらしい{page}この「金色の博徒」キャンバル様に{br}ぴったりの城ではないか・・・{close}",
+   "en": "So you're the Vandel serving the{br}Greedy Overlord...{page}The Greedy Overlord has fine taste.{br}I've seen the Golden Castle. Truly{br}magnificent.{page}A castle fit for Canbal-sama, the{br}\"Golden Gambler\"...{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.321C4",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.321D0",
+   "jp": "どうだい？{br}ひとつ賭けないか・・・！？{page}私とバトルをして{br}私が勝てば　君は私のもの・・・{page}（そして強欲君主を倒して{br}黄金城も私のもの・・・）{page}もし君が勝てば{br}私は君のもの・・・{page}どうだい？{br}スリルでワクワクするだろ・・・？{page}いくぞっ！{close}",
+   "en": "How about it? Care for a little{br}wager...!?{page}Battle me. If I win, you belong to me...{page}(Then I'll defeat the Greedy Overlord,{br}and the Golden Castle will be mine{br}too...){page}If you win, I belong to you...{page}Well? Doesn't the thrill excite you...?{page}Here we go!{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.322C0",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.322CC",
+   "jp": "くっ・・・{br}なかなかやるな・・・{page}負けたものは　しかたがない・・・{br}さあ　君の軍団に入れるがいい{close}",
+   "en": "Gh... You're quite good...{page}A loss is a loss... Come, then. Take{br}me into your army.{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.32330",
+   "jp": "キャンバル　を軍団に入れますか？{close}",
+   "en": "Add Canbal to your army?{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.32354",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32360",
+   "jp": "負けても　見苦しい言い訳はしない{br}これが賭け事のマナーというものだ・・・{close}",
+   "en": "I won't sully a loss with excuses.{br}That's a gambler's etiquette...{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.323AC",
+   "jp": "キャンバル",
+   "en": "Canbal",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.323B8",
+   "jp": "そうか・・・{close}",
+   "en": "I see...{close}",
+   "kind": "msg",
+   "speaker": "キャンバル",
+   "refs": 1
+  },
+  {
+   "id": "rom.323C8",
+   "jp": "グラニャオース",
+   "en": "Granyaos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.323D8",
+   "jp": "ねじれましょう・・・{close}",
+   "en": "Let's get twisted...{close}",
+   "kind": "msg",
+   "speaker": "グラニャオース",
+   "refs": 1
+  },
+  {
+   "id": "rom.323F0",
+   "jp": "グラニャオース",
+   "en": "Granyaos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32400",
+   "jp": "グヒャッ・・・{close}",
+   "en": "Gyah...{close}",
+   "kind": "msg",
+   "speaker": "グラニャオース",
+   "refs": 1
+  },
+  {
+   "id": "rom.32414",
+   "jp": "グラニャオース　を軍団に入れますか？{close}",
+   "en": "Add Granyaos to your army?{close}",
+   "kind": "msg",
+   "speaker": "グラニャオース",
+   "refs": 1
+  },
+  {
+   "id": "rom.3243C",
+   "jp": "グラニャオース",
+   "en": "Granyaos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3244C",
+   "jp": "グルグルグルーッ！{close}",
+   "en": "Round and round and rooound!{close}",
+   "kind": "msg",
+   "speaker": "グラニャオース",
+   "refs": 1
+  },
+  {
+   "id": "rom.32464",
+   "jp": "グラニャオース",
+   "en": "Granyaos",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32474",
+   "jp": "ウヒャヒャヒャーッ！{close}",
+   "en": "Wuhyahyahyaa!{close}",
+   "kind": "msg",
+   "speaker": "グラニャオース",
+   "refs": 1
+  },
+  {
+   "id": "rom.3248C",
+   "jp": "レボーク",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32498",
+   "jp": "ケッ　弱そうなヤツ！{close}",
+   "en": "Tch! You look weak!{close}",
+   "kind": "msg",
+   "speaker": "レボーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.324B0",
+   "jp": "レボーク",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.324BC",
+   "jp": "バカな！！{close}",
+   "en": "Impossible!!{close}",
+   "kind": "msg",
+   "speaker": "レボーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.324CC",
+   "jp": "レボーク　を軍団に入れますか？{close}",
+   "en": "Add Revok to your army?{close}",
+   "kind": "msg",
+   "speaker": "レボーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.324F0",
+   "jp": "レボーク",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.324FC",
+   "jp": "ちぃッ・・・{close}",
+   "en": "Tch...{close}",
+   "kind": "msg",
+   "speaker": "レボーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.3250C",
+   "jp": "レボーク",
+   "en": "Revok",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32518",
+   "jp": "ケッ・・・{close}",
+   "en": "Feh...{close}",
+   "kind": "msg",
+   "speaker": "レボーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.32528",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32534",
+   "jp": "フン・・・{close}",
+   "en": "Hmph...{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.32544",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32550",
+   "jp": "うおおっ・・・！！{close}",
+   "en": "Uoooh...!!{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.32568",
+   "jp": "ライリー　を軍団に入れますか？{close}",
+   "en": "Add Riley to your army?{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.3258C",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.32598",
+   "jp": "ウグゥ・・・ッ！！{close}",
+   "en": "Urgh...!!{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.325B0",
+   "jp": "ライリー",
+   "en": "Riley",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.325BC",
+   "jp": "フン！{close}",
+   "en": "Hmph!{close}",
+   "kind": "msg",
+   "speaker": "ライリー",
+   "refs": 1
+  },
+  {
+   "id": "rom.325C8",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.325D4",
+   "jp": "ゲヒヒヒャハッ！{br}オレは「闇の爪」シャデリコ！{page}暗殺者とおそれられる{br}この二ッ星の切れ味を味わえっ！！{close}",
+   "en": "Gehihyaha! I'm Shaderiko, the \"Dark{br}Claw\"!{page}Taste the cutting edge of this{br}Two-Star, feared as an assassin!!{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.32640",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.3264C",
+   "jp": "うわぁーーっ！{page}お　お前の軍団に入るから{br}見逃してくれーーっ！{close}",
+   "en": "Aaaah!{page}I-I'll join your army! Just let me gooo!{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.32690",
+   "jp": "シャデリコ　を軍団に入れますか？{close}",
+   "en": "Add Shaderiko to your army?{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.326B4",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.326C0",
+   "jp": "ゲヒヒッ！！{close}",
+   "en": "Gehihi!!{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  },
+  {
+   "id": "rom.326D0",
+   "jp": "シャデリコ",
+   "en": "Shaderiko",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.326DC",
+   "jp": "生意気なヤツだっ！{close}",
+   "en": "You insolent wretch!{close}",
+   "kind": "msg",
+   "speaker": "シャデリコ",
+   "refs": 1
+  }
+ ]
+}

@@ -1,0 +1,1041 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.1C0D4",
+   "jp": "立派な飛行機だ！！{page}ガントリィさんの{br}飛行機だろうか{page}クサリで　がんじがらめに{br}されている{page}クサリには　５つのカギが{br}かけられている{page}クサリを　外すには{br}５つのカギが　必要なようだ・・・{close}",
+   "en": "What a magnificent Airplane!!{page}Could it be Gantry-san's Airplane?{page}It's tightly bound in chains.{page}There are five locks on the chains.{page}It looks like you'll need five keys to{br}remove them...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C1C8",
+   "jp": "「カギ１」　を手に入れた！！{close}",
+   "en": "Obtained \"Key 1\"!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C1E8",
+   "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C25C",
+   "jp": "「カギ２」　を手に入れた！！{br}",
+   "en": "Obtained \"Key 2\"!!",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C27C",
+   "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C2F0",
+   "jp": "「カギ３」　を手に入れた！！{close}",
+   "en": "Obtained \"Key 3\"!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C310",
+   "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C384",
+   "jp": "「カギ４」　を手に入れた！！{br}",
+   "en": "Obtained \"Key 4\"!!",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C3A4",
+   "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C418",
+   "jp": "「カギ５」　を手に入れた！！{close}",
+   "en": "Obtained \"Key 5\"!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C438",
+   "jp": "冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C544",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C550",
+   "jp": "なぬ！？{br}カギが　５つ全て{br}見つかったとなっ！！{page}でかしたぞっ！！！{page}よし！！{br}カギを　ワシにくれ！！{br}後は　ワシがなんとかするっ！！{close}",
+   "en": "What!? You've found all five keys!!{page}Well done, my boy!!!{page}Right!! Give me the keys!! I'll take care{br}of the rest!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C5DC",
+   "jp": "ガントリィさんに{br}「カギ１」「カギ２」「カギ３」{br}「カギ４」「カギ５」を渡した{close}",
+   "en": "Gave \"Key 1\", \"Key 2\", \"Key 3\", \"Key{br}4\" and \"Key 5\" to Gantry-san.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C630",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C63C",
+   "jp": "これが　その５つのカギじゃな！！{br}おおっ！！　ワシの{br}かわいい飛行機ちゃん！！！{page}今すぐ行くぞっ！！！{close}",
+   "en": "So these are the five keys!! Oh, my{br}dear little Airplane!!!{page}I'm coming right now!!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C6A8",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C6B4",
+   "jp": "おおっ！！{br}兄ちゃんたち！！！{page}見てくれ！！{page}この通り　クサリは　全て{br}取れたのじゃ！{page}飛行機ちゃんも　バッチリ快調！！{br}いつでも　飛べるぞい！！！{close}",
+   "en": "Oh!! You youngsters!!!{page}Take a look!!{page}See? I've got all the chains off!{page}My dear Airplane's in tip-top shape,{br}too!! Ready to fly anytime!!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C74C",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C758",
+   "jp": "飛びたい時は　いつでも声を{br}かけてくれ！{br}腕がなるのぉ・・・！！！{close}",
+   "en": "Just say the word whenever you{br}want to fly! These old hands are{br}itching for the controls...!!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C7A0",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C7AC",
+   "jp": "おおっ！！{br}兄ちゃんたち！！！{close}",
+   "en": "Oh!! You youngsters!!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C7D0",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C7DC",
+   "jp": "見てくれ！！{br}飛行機ちゃんは　相変わらず{br}バッチリ快調！！{close}",
+   "en": "Take a look!! My dear Airplane's still{br}in tip-top shape!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C81C",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C828",
+   "jp": "この調子なら{br}あそこにも{br}着陸できるかもしれんぞい{close}",
+   "en": "With her flying this well, we might{br}even be able to land there, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C860",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C86C",
+   "jp": "それが　どこかといえば・・・{br}ビョンリン火山の遺跡じゃっ！！{close}",
+   "en": "And where might that be, you ask...?{br}Byonrin Ruins!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C8AC",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1C8B8",
+   "jp": "飛びたい時は　いつでも{br}声をかけてくれ！{br}腕がなるのぉ・・・！！！{close}",
+   "en": "Just say the word whenever you{br}want to fly! These old hands are{br}itching for the controls...!!!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA08",
+   "jp": "犬",
+   "en": "Dog",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA0C",
+   "jp": "キャンキャン・・・{br}ハッハッハッ・・・{close}",
+   "en": "Yip, yip... *pant, pant, pant*...{close}",
+   "kind": "msg",
+   "speaker": "犬",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA38",
+   "jp": "老婆",
+   "en": "Old Lady",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA40",
+   "jp": "おぉ・・・{br}{hero}・・・{br}元気にしとるかぁいぃ・・・？{close}",
+   "en": "Ohhh... {hero}... Have you been{br}keeping well, dear...?{close}",
+   "kind": "msg",
+   "speaker": "老婆",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA78",
+   "jp": "犬",
+   "en": "Dog",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA7C",
+   "jp": "ハッハッハッ・・・{close}",
+   "en": "*pant, pant, pant*...{close}",
+   "kind": "msg",
+   "speaker": "犬",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA94",
+   "jp": "老婆",
+   "en": "Old Lady",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CA9C",
+   "jp": "この子が　ソーレ谷の奥にある迷宮に{br}行ってきたんじゃがぁのぉ・・・・・・{close}",
+   "en": "This little one went to the labyrinth{br}deep in Sole Valley, you see......{close}",
+   "kind": "msg",
+   "speaker": "老婆",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CAE8",
+   "jp": "犬",
+   "en": "Dog",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CAEC",
+   "jp": "キャン・・・！！{page}ハッハッハッ・・・{close}",
+   "en": "Yip...!!{page}*pant, pant, pant*...{close}",
+   "kind": "msg",
+   "speaker": "犬",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CB14",
+   "jp": "老婆",
+   "en": "Old Lady",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CB1C",
+   "jp": "ふむぅ・・・{br}何か　見てきたようなんじゃぁ・・・{close}",
+   "en": "Hmmm... Seems he saw something{br}there...{close}",
+   "kind": "msg",
+   "speaker": "老婆",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CB50",
+   "jp": "犬",
+   "en": "Dog",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CB54",
+   "jp": "ハッハッハッ・・・{page}キャンキャン・・・！！{close}",
+   "en": "*pant, pant, pant*...{page}Yip, yip...!!{close}",
+   "kind": "msg",
+   "speaker": "犬",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CB84",
+   "jp": "老婆",
+   "en": "Old Lady",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CB8C",
+   "jp": "おぉ・・・よしよし・・・{close}",
+   "en": "Ohhh... There, there...{close}",
+   "kind": "msg",
+   "speaker": "老婆",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CBA8",
+   "jp": "老婆",
+   "en": "Old Lady",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CBB0",
+   "jp": "何か・・・{br}珍しい怪物が　おったみたいじゃ・・・{close}",
+   "en": "It seems... there was some rare{br}monster there...{close}",
+   "kind": "msg",
+   "speaker": "老婆",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CBE4",
+   "jp": "犬",
+   "en": "Dog",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CBE8",
+   "jp": "キャン・・・！！{page}ハッハッハッ・・・{close}",
+   "en": "Yip...!!{page}*pant, pant, pant*...{close}",
+   "kind": "msg",
+   "speaker": "犬",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CC10",
+   "jp": "老婆",
+   "en": "Old Lady",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CC18",
+   "jp": "くわばら・・・くわばら・・・{page}{hero}{br}気をつけるのじゃぞ・・・{close}",
+   "en": "Heaven protect us... Heaven protect{br}us...{page}{hero}, you be careful now...{close}",
+   "kind": "msg",
+   "speaker": "老婆",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CCBC",
+   "jp": "伝達兵",
+   "en": "Messenger",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CCC4",
+   "jp": "{hero}さん！！{br}大変です！！！{page}はぁっはぁっ・・・{page}ふ・・・「封印のリング」が{br}す・・・すべて破壊されました！！{page}西の里の「銀の女神像」{br}そして　全ての「封印のリング」が{br}破壊され・・・{page}残るは東の里の{br}「銀の女神像」だけとなりました・・・{page}里長さまから伝言です・・・{page}「なんとしても　東の里の{br}「銀の女神像」は守り抜くように」{br}とのことです！！{page}女神像が破壊されてしまうと{br}この双子島はどうなってしまうのか・・・{page}どのような恐ろしい地獄が{br}待っているのかは里長様にも{br}見当がつかないとのことです・・・{page}なんとしても　西の里の「銀の女神像」を{br}守り抜き　「封印のリング」の修復を{br}進めてください！！{page}では・・・{br}わたくしはこの伝令を他のみなさんに{br}伝えます！　失礼します！！{close}",
+   "en": "{hero}-san! All rings and{br}West's statue are gone! Only East's{br}remains! Chief-sama says guard it!{page}Even he can't foresee the Twin{br}Islands' fate! Guard West's statue{br}and repair the rings! I'll warn the{page}others!{close}",
+   "kind": "msg",
+   "speaker": "伝達兵",
+   "refs": 1
+  },
+  {
+   "id": "rom.1CF68",
+   "jp": "全ての「封印のリング」・・・{br}そして全ての「銀の女神像」が{br}破壊された・・・{page}フォージェミニ島は　全てが金に染まり{br}ヴァンデルが支配する{br}死の島となった・・・{page}島の人間がどうなったのか・・・{page}それを知る者は　誰もいない・・・{close}",
+   "en": "Every \"Sealing Ring\"... and every{br}\"Silver Goddess Statue\" had been{br}destroyed...{page}All of Forjemini Island turned to gold,{br}becoming an island of death ruled by{br}Vandels...{page}What became of the island's{br}people...?{page}No one knows...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D740",
+   "jp": "ゼロス雪原とミレイ森の里へ{br}移動できます{close}",
+   "en": "You can travel to Zeros Snowfield{br}and Mirei Forest Village.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D76C",
+   "jp": "ゼロス雪原へ移動しますか？{close}",
+   "en": "Travel to Zeros Snowfield?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D78C",
+   "jp": "ゼロス雪原へ移動します{close}",
+   "en": "Traveling to Zeros Snowfield.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D7A8",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D7C0",
+   "jp": "ゼロス雪原へ移動しますか？{close}",
+   "en": "Travel to Zeros Snowfield?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D7E0",
+   "jp": "ゼロス雪原へ移動します{close}",
+   "en": "Traveling to Zeros Snowfield.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D7FC",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D814",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D82C",
+   "jp": "ミレイ森の里へ移動しますか？{close}",
+   "en": "Travel to Mirei Forest Village?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D84C",
+   "jp": "ミレイ森の里へ移動します{close}",
+   "en": "Traveling to Mirei Forest Village.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D868",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D880",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D898",
+   "jp": "リンナム氷河へ移動しますか？{close}",
+   "en": "Travel to Rinnam Glacier?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D8B8",
+   "jp": "リンナム氷河へ移動します{close}",
+   "en": "Traveling to Rinnam Glacier.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D8D4",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D8EC",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D904",
+   "jp": "向こうから{br}強大な冥力が噴き出している！{page}これ以上進むことができない{close}",
+   "en": "Immense Dark Power is pouring out{br}from up ahead!{page}You cannot go any farther.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D94C",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D958",
+   "jp": "「魔賓館」へ{br}ご案内いたしましょうか？{close}",
+   "en": "Shall I escort you to the \"Vandel{br}House\"?{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D984",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D990",
+   "jp": "それではご案内いたします{close}",
+   "en": "Very well. Allow me to show you the{br}way.{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D9AC",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D9B8",
+   "jp": "それは残念でございます{br}御用の折はお申し付けください{close}",
+   "en": "What a pity. Please let me know{br}whenever you require my services.{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D9F0",
+   "jp": "シャギー",
+   "en": "Shagie",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1D9FC",
+   "jp": "それは残念でございます{br}御用の折はお申し付けください{close}",
+   "en": "What a pity. Please let me know{br}whenever you require my services.{close}",
+   "kind": "msg",
+   "speaker": "シャギー",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DA34",
+   "jp": "冥力が噴出している{page}体力・冥力が回復した！{close}",
+   "en": "Dark Power is gushing forth.{page}Health and Dark Power restored!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DB90",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DB98",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DBA4",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DBAC",
+   "jp": "あれからレナさんは{br}ずっとお祈りしてるわ{close}",
+   "en": "Lena-san's been praying ever since.{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DBD8",
+   "jp": "ポアラ",
+   "en": "Poala",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DBE0",
+   "jp": "レナさんは　絶対私が守りきるから{br}{hero}は早く{br}悪の親玉を　倒して！！{close}",
+   "en": "I'll keep Lena-san safe, no matter{br}what! {hero}, hurry up and{br}beat the villain behind all this!!{close}",
+   "kind": "msg",
+   "speaker": "ポアラ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DF94",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DFA0",
+   "jp": "おい　この役立たず・・・{page}さぼってないで{br}さっさと　やるべきことを{br}やってこい・・・！{close}",
+   "en": "Hey, you useless fool...{page}Quit slacking off and get on with{br}your job...!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1DFFC",
+   "jp": "ハーデン",
+   "en": "Harden",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E008",
+   "jp": "おい　この役立たず・・・{page}さぼってないで{br}さっさと　やるべきことを{br}やってこい・・・！{close}",
+   "en": "Hey, you useless fool...{page}Quit slacking off and get on with{br}your job...!{close}",
+   "kind": "msg",
+   "speaker": "ハーデン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E0E8",
+   "jp": "マスターカタナを　手に入れた{close}",
+   "en": "Obtained Master Katana.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E198",
+   "jp": "マスターグレイブを　手に入れた！{close}",
+   "en": "Obtained Master Glaive!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E3F8",
+   "jp": "マスターバンダナを{br}手に入れた{close}",
+   "en": "Obtained Master Bandanna.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E41C",
+   "jp": "ポイズンビーを　手に入れた！{close}",
+   "en": "Obtained Poison Bee!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E43C",
+   "jp": "ワームを　手に入れた{close}",
+   "en": "Obtained Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E454",
+   "jp": "マスターカフスを　手に入れた{close}",
+   "en": "Obtained Master Cuffs.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1E588",
+   "jp": "マスターバングルを　手に入れた{close}",
+   "en": "Obtained Master Bangle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EBB4",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EBC0",
+   "jp": "ナッシュ平原と{br}ピョンリン火山の遺跡へ{br}行くことができるぞ{close}",
+   "en": "I can fly you to Nash Plains or{br}Byonrin Ruins, my boy.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EC00",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EC0C",
+   "jp": "ピョンリン火山の遺跡へ行くのか？{close}",
+   "en": "Off to Byonrin Ruins, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EC30",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EC3C",
+   "jp": "それじゃ{br}ピョンリン火山の遺跡へ向かうぞ{close}",
+   "en": "Right, then! We're off to Byonrin{br}Ruins!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EC68",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EC74",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ECA4",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ECB0",
+   "jp": "ナッシュ平原へ行くのか？{close}",
+   "en": "Off to Nash Plains, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ECCC",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ECD8",
+   "jp": "それじゃ　ナッシュ平原へ向かうぞ{close}",
+   "en": "Right, then! We're off to Nash Plains!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ECFC",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ED08",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ED38",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ED44",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ED74",
+   "jp": "飛行機はクサリで{br}がんじがらめにされている{page}クサリには　５つのカギが{br}かけられている{page}クサリを　外すには{br}５つのカギが　必要だ・・・{close}",
+   "en": "The Airplane is tightly bound in{br}chains.{page}There are five locks on the chains.{page}You'll need five keys to remove{br}them...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EDFC",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EE3C",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EE58",
+   "jp": "壁を破壊した！{close}",
+   "en": "You broke the wall!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EE6C",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EE88",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EEA4",
+   "jp": "レジスタンス",
+   "en": "Resistance",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EEB4",
+   "jp": "ゆっくり休憩していってくれよ{br}何か手伝えることはあるかい？{close}",
+   "en": "Take your time and get some rest.{br}Anything I can help you with?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EEF4",
+   "jp": "マスタークローを　手に入れた{close}",
+   "en": "Obtained Master Claw.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EF14",
+   "jp": "マスターサークルを{br}手に入れた{close}",
+   "en": "Obtained Master Circle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EF38",
+   "jp": "マスターナイフを　手に入れた{close}",
+   "en": "Obtained Master Knife.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1EF58",
+   "jp": "カギ１を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "Obtained Key 1.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F04C",
+   "jp": "ポイズンビーを　手に入れた{close}",
+   "en": "Obtained Poison Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F158",
+   "jp": "里の門は閉ざされている{br}今は破壊することができない{close}",
+   "en": "The village gate is shut. You can't{br}destroy it right now.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F674",
+   "jp": "黄金城とゼロス雪原へ{br}移動できます{close}",
+   "en": "You can travel to Golden Castle and{br}Zeros Snowfield.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F69C",
+   "jp": "黄金城へ移動しますか？{close}",
+   "en": "Travel to Golden Castle?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F6B8",
+   "jp": "黄金城へ移動します{close}",
+   "en": "Traveling to Golden Castle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F6D0",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F6E8",
+   "jp": "アトスシールドを　手に入れた！{close}",
+   "en": "Obtained Atos Shield!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F70C",
+   "jp": "コンフューズビーを　手に入れた{close}",
+   "en": "Obtained Confusion Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F730",
+   "jp": "ベターバグを　手に入れた{close}",
+   "en": "Obtained Better Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F944",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F94C",
+   "jp": "この砂嵐　全然　やみそうにないね・・・{close}",
+   "en": "This sandstorm doesn't look like it'll{br}let up at all...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F978",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F984",
+   "jp": "ちくしょう・・・{br}ゴーグルが二人分　ありゃなぁ・・・{close}",
+   "en": "Dang it... If only we had Goggles for{br}both of us...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1F9BC",
+   "jp": "ひどい砂嵐だ・・・{br}このままでは　前に進むことができない{close}",
+   "en": "What a terrible sandstorm... You{br}can't go any farther in this.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1FBF4",
+   "jp": "門の向こうから{br}強大な冥力が噴き出している！{page}これ以上進むことができない{close}",
+   "en": "Immense Dark Power is pouring out{br}from beyond the gate!{page}You can't go any farther.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.1FD48",
+   "jp": "里の門は閉ざされている{br}今は破壊することができない{close}",
+   "en": "The village gate is shut. You can't{br}destroy it right now.{close}",
+   "kind": "msg",
+   "refs": 1
+  }
+ ]
+}

@@ -1,0 +1,2300 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.18000",
+   "jp": "なんとかしろよ！！{close}",
+   "en": "Do somethin' about it!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18018",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18024",
+   "jp": "オマエが　金銀取り放題の島だって{br}いうから　危ない思いをして　わざわざ{br}こんな島まで　きたんじゃねぇかっ！{close}",
+   "en": "You're the one who said this island{br}had all the gold and silver we could{br}carry! That's why we risked our{page}necks comin' all this way!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18094",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1809C",
+   "jp": "そ　そうだけどさあ・・・{close}",
+   "en": "Y-yeah, but...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.180B8",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.180C0",
+   "jp": "あ・・・{br}君も　ここを通るつもりなの？{close}",
+   "en": "Oh... Are you trying to get through{br}here, too?{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.180EC",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.180F8",
+   "jp": "やめときな・・・{page}というより　無理だぜ・・・{br}この砂嵐のせいでよ{br}全く前が　見えやしねぇんだからさ{close}",
+   "en": "Forget it...{page}Actually, ya couldn't even if ya{br}tried... This sandstorm's so bad, ya{br}can't see a thing ahead.{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18160",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18168",
+   "jp": "ゴーグルを用意しておけば{br}よかったんだけど・・・{close}",
+   "en": "We should've brought Goggles, but...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1819C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.181A8",
+   "jp": "だから　あれだけ忘れモノがねぇか{br}よーく　確かめろって{br}言ったじゃねぇか！{close}",
+   "en": "That's why I kept tellin' ya to check{br}real carefully that ya hadn't{br}forgotten anything!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.181F8",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18200",
+   "jp": "そ　そうだけどさあ・・・{close}",
+   "en": "Y-yeah, but...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1821C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18228",
+   "jp": "ちくしょう・・・{br}ゴーグルが二人分　ありゃなぁ・・・{close}",
+   "en": "Dang it... If only we had Goggles for{br}both of us...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18260",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1826C",
+   "jp": "ちくしょう・・・{br}ゴーグルが二人分　ありゃなぁ・・・{close}",
+   "en": "Dang it... If only we had Goggles for{br}both of us...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.182A4",
+   "jp": "二人に　ゴーグルを渡しますか？{close}",
+   "en": "Give them both Goggles?{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.182C8",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.182D0",
+   "jp": "え！？　本当に！？{close}",
+   "en": "Huh!? Really!?{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.182E8",
+   "jp": "二人に「ゴーグル」を渡した！！{close}",
+   "en": "Gave them both \"Goggles\"!!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1830C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18318",
+   "jp": "お！？　こいつは　助かるぜ・・・！！{close}",
+   "en": "Oh! You're a lifesaver...!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18340",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1834C",
+   "jp": "・・・うっ{close}",
+   "en": "...Ugh.{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1835C",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18364",
+   "jp": "・・・グレストさん？{br}どうかしました？{close}",
+   "en": "...Grest-san? Is something wrong?{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18390",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1839C",
+   "jp": "・・・うっ　ううっ{br}オレさ・・・人に　こんなに{br}やさしくされたこと　ないからさ・・・{close}",
+   "en": "...Ugh... *sob* It's just... Nobody's{br}ever been this nice to me before...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.183F4",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.183FC",
+   "jp": "グレストさん・・・！？{close}",
+   "en": "Grest-san...!?{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18418",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18424",
+   "jp": "オレ　うれしいぜっ！！{br}うわーーーーーんっ！！{br}おーーい　おいおい・・・{close}",
+   "en": "I'm so happy!! Waaaaah!!{br}Boo-hoo-hoooo...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18470",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18478",
+   "jp": "そうですよねっ！！{br}オレも　うれしいっス！！{br}わーーーーーんっ！！！{close}",
+   "en": "I know what you mean!! I'm happy,{br}too!! Waaaaah!!!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.184C0",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.184CC",
+   "jp": "うわーーーーんっ！！！{close}",
+   "en": "Waaaaah!!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.184E8",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.184F0",
+   "jp": "わーーーーーんっ！！！{close}",
+   "en": "Waaaaah!!!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1850C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18518",
+   "jp": "グスッ・・・{page}にいちゃん・・・{br}アンタ　若いのにえらいぜ・・・{close}",
+   "en": "*sniff*...{page}Kid... You're a fine fella for someone{br}so young...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1855C",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18564",
+   "jp": "・・・グスッ　グスッ{br}ホント　えらいっス！！{close}",
+   "en": "...*sniff* *sniff* You really are!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18594",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.185A0",
+   "jp": "・・・にいちゃんさえ　よければさ{br}オレたちを　仲間にしてくれないか・・？{close}",
+   "en": "...If it's all right with you, kid... Could{br}we join ya...?{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.185EC",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.185F4",
+   "jp": "それは　いいですねっ・・・！！{br}ぜひ　仲間にしてください！！{close}",
+   "en": "That's a great idea...!! Please let us{br}join you!!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18634",
+   "jp": "グレストとバドゥを{br}仲間にしますか？{close}",
+   "en": "Recruit Grest and Badu?{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1865C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18668",
+   "jp": "おお　ありがてぇ！！{br}しっかり　にいちゃんに{br}ついてくぜっ！{close}",
+   "en": "Oh, thanks a bunch!! We'll be right{br}behind ya, kid!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.186A8",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.186B0",
+   "jp": "よろしくっス・・・！！{close}",
+   "en": "Glad to be with you...!!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.186CC",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.186D4",
+   "jp": "いつでも協力しますから{br}仲間が必要になったら{br}声をかけてください・・・{close}",
+   "en": "We're always ready to help, so give{br}us a shout whenever you need{br}company...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18720",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1872C",
+   "jp": "東の里の酒場にいるからさ！！{br}じゃあな！！{close}",
+   "en": "We'll be at the Tavern in East{br}Village!! See ya!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.1875C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18768",
+   "jp": "うぉーーっ！！{br}ショックだぜっ・・・！！{close}",
+   "en": "Waaaugh!! What a blow...!!{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.18794",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.187A0",
+   "jp": "やっぱ　オレたちの　人相が{br}悪っぽいからなのか・・・？？{close}",
+   "en": "Is it 'cause we look like a couple of{br}crooks...??{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.187DC",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.187E4",
+   "jp": "確かに　昔は　人サマに{br}迷惑をかけてきました・・・{close}",
+   "en": "It's true we used to cause folks a{br}lot of trouble...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1881C",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18824",
+   "jp": "でも　今は　改心したんスよ・・・{page}そう・・・{br}あの女神サマに　出会ってからは・・・{close}",
+   "en": "But we've changed our ways now...{page}Yeah... Ever since we met that{br}goddess-sama...{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1887C",
+   "jp": "グレスト",
+   "en": "Grest",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18888",
+   "jp": "そう・・・稲妻に　打たれたように{br}しびれたんだよな・・・オレたち・・・{close}",
+   "en": "Yeah... It was like bein' struck by{br}lightning... We were electrified...{close}",
+   "kind": "msg",
+   "speaker": "グレスト",
+   "refs": 1
+  },
+  {
+   "id": "rom.188D4",
+   "jp": "バドゥ",
+   "en": "Badu",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.188DC",
+   "jp": "そうっス！　しびれたっス！！{close}",
+   "en": "That's right! Totally electrified!{close}",
+   "kind": "msg",
+   "speaker": "バドゥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18A9C",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18AA8",
+   "jp": "あらぁ☆{br}かーわいい　新人さん！{br}また　会ったわね！{close}",
+   "en": "Well, hello! My cuuute rookie-san! We{br}meet again!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18AE0",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18AEC",
+   "jp": "（この再会って　やっぱり　運命の糸で{br}結ばれているからかしら・・・☆）{close}",
+   "en": "(Could it be the thread of fate that{br}keeps bringing us together...?){close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18B38",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18B44",
+   "jp": "ねえ　あなたって{br}もしかして　鑑定士が言ってた{br}{hero}君？？{close}",
+   "en": "Say, could you be the{br}{hero}-kun the Appraiser told{br}me about?{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18B80",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18B8C",
+   "jp": "あら☆{page}やっぱり！？{page}きゅーーんっ☆{page}うれしいわ！！{br}やっぱり　これは運命の出会いかも！！{close}",
+   "en": "Oh!{page}You are!?{page}Oooh, my heart!{page}I'm so happy!! Maybe this really is a{br}fateful encounter!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18BEC",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18BF8",
+   "jp": "あたしね　「封印のリング」の{br}調査の他にも{page}新人バスターの様子を　見るようにって{br}言われてきたの！！{close}",
+   "en": "Besides investigating the \"Sealing{br}Rings\"...{page}I was also sent to see how the{br}rookie Busters are doing!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18C60",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18C6C",
+   "jp": "だからぁ・・・{br}あたしを　仲間にしてほしいんだけど！！{close}",
+   "en": "So... I'd looove for you to let me join{br}you!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18CA8",
+   "jp": "ミルファを仲間にしますか？{close}",
+   "en": "Recruit Milfa?{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18CC8",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18CD4",
+   "jp": "やったぁ！！{close}",
+   "en": "Yaaay!!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18CE4",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18CF0",
+   "jp": "{hero}君・・・☆{br}これから　よろしくね・・・☆{close}",
+   "en": "{hero}-kun... Here's to us!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18D20",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18D2C",
+   "jp": "えぇーーっ！！{page}ショックぅーー・・・{page}（あーーん！！）{page}（せっかくの　運命の{br}出会いかもしれないのにぃ！！）{page}（これくらいで　あきらめなんだから！）{page}（がんばれ！　あたし！！）{close}",
+   "en": "Whaaat!!{page}I'm crushed...{page}(Ohhh!!){page}(This could be my big fateful{br}encounter!!){page}(I'm not giving up over this!){page}(Come on, Milfa! You can do it!){close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18DE0",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18DEC",
+   "jp": "また　あたしが恋しくなったら　いつでも{br}声をかけてね！！{close}",
+   "en": "Whenever you start missing me{br}again, just say the word!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18E28",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18E34",
+   "jp": "あたし　待ってるからね！！{close}",
+   "en": "I'll be waiting!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18E54",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18E60",
+   "jp": "やったぁ！！{page}{hero}君☆{br}あたしを　仲間にしてくれるんだよね？！{close}",
+   "en": "Yaaay!!{page}{hero}-kun! You're going to let{br}me join you, right?!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18EA0",
+   "jp": "ミルファを仲間にしますか？{close}",
+   "en": "Recruit Milfa?{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18EC0",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18ECC",
+   "jp": "やったぁ！！{close}",
+   "en": "Yaaay!!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18EDC",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18EE8",
+   "jp": "{hero}君・・・☆{br}これから　よろしくね・・・☆{close}",
+   "en": "{hero}-kun... Here's to us!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18F18",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18F24",
+   "jp": "えぇーーっ！！{page}ショックぅーー・・・{page}（あーーん！！）{page}（せっかくの運命の出会いよ・・・{br}何度断られても　あきらめなんだから！）{page}（がんばれ！　あたし！！）{close}",
+   "en": "Whaaat!!{page}I'm crushed...{page}(Ohhh!!){page}(This is my big fateful encounter... I{br}won't give up, no matter how many{br}times you turn me down!){page}(Come on, Milfa! You can do it!){close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.18FC4",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.18FD0",
+   "jp": "また　あたしが恋しくなったら　いつでも{br}声をかけてね！！{close}",
+   "en": "Whenever you start missing me{br}again, just say the word!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1900C",
+   "jp": "ミルファ",
+   "en": "Milfa",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19018",
+   "jp": "あたし　待ってるからね！！{close}",
+   "en": "I'll be waiting!{close}",
+   "kind": "msg",
+   "speaker": "ミルファ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19154",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19160",
+   "jp": "・・・フッフッフッ・・・！{page}ようこそ　私の城へ・・・！{page}ん・・・？{br}なんだかやけに砂っぽいですね・・・{close}",
+   "en": "...Hmhmhm...!{page}Welcome to my castle...!{page}Hmm...? It seems awfully sandy here...{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.191CC",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.191D8",
+   "jp": "これは　どういうことですか！{br}計算外です！！{close}",
+   "en": "What is the meaning of this?! This{br}was not in my calculations!!{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.19208",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19214",
+   "jp": "さては・・・{br}あなたたちの仕業ですね・・・{close}",
+   "en": "Aha... This must be your doing...{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.19244",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19250",
+   "jp": "私の計算を乱すヤツは{br}消えろォッ！！！{close}",
+   "en": "Anyone who disrupts my{br}calculations must DISAPPEAR!!!{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1927C",
+   "jp": "ムガイン",
+   "en": "Mugain",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19288",
+   "jp": "私が石像だったなんて・・・{br}計算に・・・合ってな・・・い・・・{close}",
+   "en": "I was a stone statue all along...?{br}That doesn't... add... up...{close}",
+   "kind": "msg",
+   "speaker": "ムガイン",
+   "refs": 1
+  },
+  {
+   "id": "rom.192CC",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.192D8",
+   "jp": "ったく・・・{br}足元には　気をつけるんだな・・・{close}",
+   "en": "Sheesh... Watch your step...{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.1930C",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19318",
+   "jp": "フラフラ歩いてると{br}トラップにひっかかって{br}命がいくらあっても足りないぜ・・・{close}",
+   "en": "Wander around carelessly and you'll{br}blunder into traps. No number of{br}lives will save you...{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.1936C",
+   "jp": "スレッド",
+   "en": "Slade",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19378",
+   "jp": "まったく・・・{br}アイツじゃあるまいし・・・{page}・・・{br}じゃあな・・・{close}",
+   "en": "Honestly... You're acting just like{br}him...{page}...See ya...{close}",
+   "kind": "msg",
+   "speaker": "スレッド",
+   "refs": 1
+  },
+  {
+   "id": "rom.1963C",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19648",
+   "jp": "東の里に戻るなら　ついでに頼まれて{br}ほしいことがあるのじゃが・・・{page}頼まれてくれるか？？{close}",
+   "en": "If you're heading back to East{br}Village, there's a little favor I'd like{br}to ask, my boy...{page}Would you do it for me?{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.196A4",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.196B0",
+   "jp": "おお！！{br}助かるのであーる！！{close}",
+   "en": "Oh!! Most helpful indeeeed!!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.196D4",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.196E0",
+   "jp": "では　この手紙を「橋かけ名人」に{br}渡してくれ{close}",
+   "en": "Then take this Letter to the \"Bridge{br}Master.\"{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19710",
+   "jp": "「ホーレイさんの手紙」を手に入れた！{close}",
+   "en": "Obtained \"Horey's Letter\"!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19738",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19744",
+   "jp": "今　「橋かけ名人」は{br}東の里にいると聞いておる{page}よろしく{br}頼むのであーーる！！{close}",
+   "en": "I hear the \"Bridge Master\" is in East{br}Village now.{page}I'm counting on you, indeeeed!!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19798",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.197A4",
+   "jp": "なぬーーっ！！{page}久しぶりに　橋かけ名ちゃんと{br}連絡を取りたかったのじゃが・・・{page}橋かけ名ちゃん　とは{br}「橋かけ名人」のことなんじゃが{page}古くからの　友だちなのであーる・・・{page}また　気が変わったら{br}頼むのであーる・・・{close}",
+   "en": "Whaaat!!{page}I wanted to get in touch with{br}Bridgey. It's been so long...{page}By Bridgey, I mean the \"Bridge{br}Master.\"{page}We've been friends for ages,{br}indeeeed...{page}If you change your mind, do lend a{br}hand...{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19880",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1988C",
+   "jp": "おおっ！{br}バスターのしょくんっ！！{br}サインがほしいのかな？？？{page}・・・{page}しょ・・・しょくん！{br}元気がないな！！{page}そう！{br}わしが「橋かけ名人」だ！！{br}これからは「名人」とよぶがいい！！{page}・・・{page}うおっほん！{br}サインはいらぬか・・・{br}では　何の用かな？？？{close}",
+   "en": "Oh! My young Buster friends!! Here{br}for an autograph, eh???{page}...{page}M-my friends! Where's your{br}enthusiasm?!{page}Yes! I am the \"Bridge Master\"! You{br}may call me \"Master\" from now on!!{page}...{page}Ahem! No autograph, then... What{br}can I do for you???{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.1998C",
+   "jp": "「ホーレイさんの手紙」を渡した！{close}",
+   "en": "Handed over \"Horey's Letter\"!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.199B0",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.199BC",
+   "jp": "ほうほう・・・{page}この手紙を・・・{page}銀堀職人の・・・{page}ホーレイちゃんが！！{page}おおっ・・・{br}ひさしぶりだーー！！{br}ホーレイちゃん　元気かっ？？{page}おお　確かに　ホーレイちゃんの{br}手紙だぞーー・・・{page}・・・{page}うれしいなあ・・・{page}ウルウル・・・{br}いやはや　友だちは大切にせんと{br}いかんのよ・・・ホント・・・{page}返事書いとくから{br}わたしてくれるかな？{page}また　後できてね・・・{br}ウルウル・・・{close}",
+   "en": "Well, well...{page}This Letter...{page}From the Silver Miner...{page}Old Horey himself!!{page}Oh... It's been so long!! How is Old{br}Horey doing??{page}Oh, this is certainly a Letter from Old{br}Horey...{page}...{page}I'm so happy...{page}*sniff*... Goodness, you've got to{br}treasure your friends... You really{br}do...{page}I'll write a reply. Could you deliver it{br}for me?{page}Come back a little later, eh...?{br}*sniff*...{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.19B38",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19B44",
+   "jp": "おお！　いいところに　来た！{br}ホーレイちゃんへの　手紙の返事が{br}書けたぞ！{close}",
+   "en": "Oh! Perfect timing! I've finished my{br}reply to Old Horey!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.19B94",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19BA0",
+   "jp": "これだけど・・・{br}さあ　届けてくれたまえ！{close}",
+   "en": "Here it is... Now, be so good as to{br}deliver it!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.19BD0",
+   "jp": "「橋かけ名人の手紙」を手に入れた！{close}",
+   "en": "Obtained \"Bridge Master's Letter\"!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.19BF8",
+   "jp": "橋かけ名人",
+   "en": "Master",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19C04",
+   "jp": "よろしく　頼むよ！{close}",
+   "en": "I'm counting on you, my friend!{close}",
+   "kind": "msg",
+   "speaker": "橋かけ名人",
+   "refs": 1
+  },
+  {
+   "id": "rom.19C1C",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19C28",
+   "jp": "おお　手紙を届けてくれたのか？{page}なぬ？　返事をもらってきたとな！？{close}",
+   "en": "Oh, did you deliver my letter?{page}What's that? You brought back a{br}reply!?{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19C70",
+   "jp": "「橋かけ名人の手紙」を渡した！{close}",
+   "en": "Handed over the \"Bridge Master's{br}Letter\"!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19C94",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19CA0",
+   "jp": "おおーーこれか！！{br}どれどれ・・・・・・{page}ウルウル・・・{br}橋かけ名ちゃん・・・{page}名ちゃん・・・ウルウル・・・{page}ウルウル・・・{br}いやはや　友だちは大切にせんと{br}いかんのじゃよ・・・ホントに・・・{page}なぬ？{br}名ちゃんも同じことを{br}言っておったのか？{page}ウルウルウルウル・・・{page}ウルウル・・・{br}名ちゃん・・・{page}ありがとう・・・{br}わしゃ　うれしいよ・・・{page}これは　わしからの　お礼であーる・・・{close}",
+   "en": "Ooh, here it is!! Let's see...{page}*sniff*... Bridgey...{page}Bridgey... *sniff*...{page}*sniff*... Ah, you must treasure your{br}friends, my boy... You truly must...{page}What's that? Bridgey said the same{br}thing?{page}*sniff, sniff, sniff*...{page}*sniff*... Bridgey...{page}Thank you... You've made an old man{br}happy...{page}Allow me to present this token of{br}my gratitude...{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19E24",
+   "jp": "「するどく光る銀」を手に入れた！{close}",
+   "en": "Obtained \"Keen Silver\"!{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19E48",
+   "jp": "ホーレイ",
+   "en": "Horey",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19E54",
+   "jp": "その銀は　鍛えればおそろしく{br}切れ味するどい{br}剣が作れるはずじゃ・・・{page}「聖なる銀」と比べても{br}負けないくらい　貴重な銀じゃ・・・{page}里の武器屋で{br}鍛えてもらうとよいぞ・・・{page}あいつの　腕は{br}たしかじゃからな・・・{page}おぬしの　おかげで　友情を{br}確認できた・・・{br}ありがとう・・・{close}",
+   "en": "Forge that silver, and you should{br}have a sword with a fearsomely{br}sharp edge...{page}It's every bit as precious as \"Holy{br}Silver\", I tell you...{page}Have it forged at the village Weapon{br}Shop...{page}That fellow knows his craft...{page}Thanks to you, I know our friendship{br}is as strong as ever... Thank you...{close}",
+   "kind": "msg",
+   "speaker": "ホーレイ",
+   "refs": 1
+  },
+  {
+   "id": "rom.19F6C",
+   "jp": "武器屋",
+   "en": "Arms Dealer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.19F74",
+   "jp": "いらっしゃい！{page}お！　今日は　めずらしいものを{br}持ってるじゃねぇか{page}どれどれ{br}その銀をちょっと見せてみな！{close}",
+   "en": "Welcome!{page}Hey! You've got something mighty{br}unusual today.{page}Let's see. Lemme take a look at{br}that silver!{close}",
+   "kind": "msg",
+   "speaker": "武器屋",
+   "refs": 1
+  },
+  {
+   "id": "rom.19FE4",
+   "jp": "「するどく光る銀」を渡した！{close}",
+   "en": "Handed over the \"Keen Silver\"!{close}",
+   "kind": "msg",
+   "speaker": "武器屋",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A004",
+   "jp": "武器屋",
+   "en": "Arms Dealer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A00C",
+   "jp": "ふむふむ・・・{page}これは　鍛えれば{br}すばらしい名剣になりそうだ・・・{page}なんと！{page}あのホーレイさんの　お墨付きだって！？{page}よし！これは　私が責任を持って{br}鍛えさせていただこう{page}少ししてから{br}またのぞいてみてくれるかな？{page}少々時間は　かかるが{br}きっと　満足してもらえる　一品に{br}仕上げてみせるぞ！！{close}",
+   "en": "Hmm, hmm...{page}This could be forged into a truly{br}magnificent sword...{page}What's that!?{page}Horey-san himself vouches for it!?{page}All right! I'll take it upon myself to{br}forge it for you.{page}Could you drop by again in a little{br}while?{page}It'll take some time, but I'll make you{br}a blade you're sure to love!!{close}",
+   "kind": "msg",
+   "speaker": "武器屋",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A134",
+   "jp": "武器屋",
+   "en": "Arms Dealer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A13C",
+   "jp": "いらっしゃい！{page}お待たせ！{br}できたよ！{page}ジャーン！！{close}",
+   "en": "Welcome!{page}Thanks for waiting! It's ready!{page}Ta-da!!{close}",
+   "kind": "msg",
+   "speaker": "武器屋",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A174",
+   "jp": "「銀の剣」を手に入れた！{close}",
+   "en": "Obtained the \"Silver Sword\"!{close}",
+   "kind": "msg",
+   "speaker": "武器屋",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A190",
+   "jp": "武器屋",
+   "en": "Arms Dealer",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A198",
+   "jp": "どうだい？{br}腕によりをかけた自信作だぞ！！{page}これで　この島の平和を{br}とりもどしてくれな！{close}",
+   "en": "Well? I put all my skill into that blade,{br}and I'm proud of it!!{page}Use it to bring peace back to this{br}island!{close}",
+   "kind": "msg",
+   "speaker": "武器屋",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A424",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A42C",
+   "jp": "おい！　見ろよ！{br}あのステキな女性（ひと）！！{close}",
+   "en": "Hey! Look! What a gorgeous woman!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A460",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A46C",
+   "jp": "あーーー・・・{close}",
+   "en": "Ahhh...{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A480",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A488",
+   "jp": "また　始まったよぉ・・・{close}",
+   "en": "Here we go again...{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A4A4",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A4AC",
+   "jp": "なに　ボヤボヤしてんだって！！{br}オレが　いただいちゃうぜ！！{close}",
+   "en": "What're you two waiting for!? I'm{br}gonna win her over!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A4EC",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A4F8",
+   "jp": "はい・・・{close}",
+   "en": "Yes...{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A508",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A510",
+   "jp": "どうぞ・・・{br}ご自由に・・・{close}",
+   "en": "Please... Be our guest...{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A530",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A538",
+   "jp": "オマエたち　そんなだから{br}いつまでたっても{br}彼女できないんだって！！{close}",
+   "en": "That's why you two are never{br}gonna get girlfriends!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A580",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A58C",
+   "jp": "えーーっ・・・！？{close}",
+   "en": "Huuuh...!?{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A5A4",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A5AC",
+   "jp": "ジークさんだって{br}いないじゃん・・・{close}",
+   "en": "You don't have one either,{br}Zeke-san...{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A5D4",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A5DC",
+   "jp": "・・・{close}",
+   "en": "...{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A5E8",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A5F0",
+   "jp": "行くぜ・・・！！{close}",
+   "en": "Here goes...!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A604",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A60C",
+   "jp": "やあっ・・・！！{page}なんてステキな女性（ひと）なんだ・・・{close}",
+   "en": "Hi there...!!{page}What a lovely lady you are...{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A648",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A650",
+   "jp": "いきなりなんだけどっ・・・！！{page}ぜひ　オレを・・・{br}いや　オレたちジーク戦士団を{br}仲間に　入れてくださいっ・・・！！{close}",
+   "en": "I know this is sudden, but...!!{page}Please let me... I mean, let us, Zeke's{br}Squad, join you...!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A6C8",
+   "jp": "ジーク戦士団{br}（ジーク　リュック　ナック）{br}を仲間にしますか？{close}",
+   "en": "Recruit Zeke's Squad (Zeke, Ryuk{br}and Nack)?{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A70C",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A714",
+   "jp": "やったぜ！！{close}",
+   "en": "All right!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A724",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A72C",
+   "jp": "おーいっ！{br}リュック　ナック！{br}こっちこっち！！{close}",
+   "en": "Heeey! Ryuk! Nack! Over here!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A760",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A768",
+   "jp": "こちらの戦士団の{br}仲間に入れてもらったぜ・・・！！{close}",
+   "en": "They said we could join their Buster{br}Squad...!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A7A0",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A7AC",
+   "jp": "ハハ・・・{br}リュックです　よろしく・・・！{close}",
+   "en": "Haha... I'm Ryuk. Nice to meet you...!{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A7DC",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A7E4",
+   "jp": "ボクは{br}ナックです　よろしく・・・！{close}",
+   "en": "I'm Nack. Pleased to meet you...!{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A80C",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A814",
+   "jp": "オレは　ジーク！！{br}これから　よろしく！！{close}",
+   "en": "I'm Zeke!! Here's to teaming up!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A844",
+   "jp": "ジーク",
+   "en": "Zeke",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A84C",
+   "jp": "がーーんっ！！{page}うう・・・{page}オ・・・オレは　あきらめないぜ！！{page}東の里の酒場で{br}ずーーーーっと　待ってるから{br}いつでも　呼んでくれよなっ！！{close}",
+   "en": "Nooo!!{page}Ugh...{page}I... I'm not giving up!!{page}I'll be waiting at the East Village{br}Tavern for as looong as it takes, so{br}come get me anytime!!{close}",
+   "kind": "msg",
+   "speaker": "ジーク",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A8DC",
+   "jp": "リュック",
+   "en": "Ryuk",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A8E8",
+   "jp": "よ・・・よろしくお願いします・・・{close}",
+   "en": "W... We hope you'll have us...{close}",
+   "kind": "msg",
+   "speaker": "リュック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A910",
+   "jp": "ナック",
+   "en": "Nack",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1A918",
+   "jp": "お願いします・・・！{close}",
+   "en": "Please consider us...!{close}",
+   "kind": "msg",
+   "speaker": "ナック",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AC28",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AC30",
+   "jp": "ちょっと　あんた・・・！{close}",
+   "en": "Hey, you...!{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AC4C",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AC54",
+   "jp": "なんだぁ・・・？{close}",
+   "en": "What is it...?{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AC68",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AC70",
+   "jp": "ほら・・・！{br}あの　ボウヤの{br}首飾りを見てみなよ・・・！{close}",
+   "en": "Look...! Take a look at that boy's{br}necklace...!{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ACAC",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ACB4",
+   "jp": "あーーん・・・！？{br}なんでぇ・・・{br}ただの　銀細工じゃねぇか・・・{close}",
+   "en": "Huuuh...!? What about it...? It's just a{br}bit of silverwork...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ACFC",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AD04",
+   "jp": "「ただの」ってあんた・・・！{br}あれは・・・{br}ただの　銀細工じゃないわよ・・・{close}",
+   "en": "\"Just,\" you say...! That... That's no{br}ordinary silverwork...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AD54",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AD5C",
+   "jp": "今日見て回った中で{br}あれが一番だわ・・・{close}",
+   "en": "It's the finest piece I've seen all{br}day...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AD88",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AD90",
+   "jp": "・・・一番って{br}オレには　ただの銀細工に{br}見えるがな・・・{close}",
+   "en": "...The finest? Looks like plain old{br}silverwork to me...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ADD0",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1ADD8",
+   "jp": "もう！！{br}あんたって　ホント見る目が{br}ないねぇっ・・・！{close}",
+   "en": "Oh, honestly!! You really have no eye{br}for quality...!{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AE14",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AE1C",
+   "jp": "あたい・・・{br}あれに決めたわ・・・！{page}あんた・・・！{page}あたい　あれがほしい・・・！{close}",
+   "en": "I... I've made up my mind...!{page}Listen...!{page}I want that one...!{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AE74",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AE7C",
+   "jp": "まったく・・・{br}オマエの　アクセサリー好きには{br}ほとほと　困ったもんだぜ・・・！{close}",
+   "en": "Sheesh... Your love of jewelry is a{br}real pain, ya know...!{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AED0",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AED8",
+   "jp": "おい・・・ボウズ！！{page}オマエさんの　その　首飾りは{br}どこで手に入れたんだ・・・？{close}",
+   "en": "Hey... Kid!!{page}Where'd you get that necklace of{br}yours...?{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AF2C",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AF34",
+   "jp": "・・・・・・{br}フムフム・・・{page}願いが込められた　手作りのお守り・・・{br}って{close}",
+   "en": "... Uh-huh...{page}A handmade charm with a wish{br}woven into it... You mean...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AF84",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AF8C",
+   "jp": "なんだよ・・・！{br}それじゃぁっ　そいつは　もう他に{br}手に入らねぇってのか！？{close}",
+   "en": "What the...! So you're sayin' there's{br}no way to get another one!?{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AFDC",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1AFE4",
+   "jp": "ちくしょう・・・{br}それじゃぁ　そいつを寄こせ・・・！{close}",
+   "en": "Blast it... Then hand yours over...!{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B01C",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B024",
+   "jp": "寄こせって　言ってんだよ！！{close}",
+   "en": "I said hand it over!!{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B044",
+   "jp": "酒場の女",
+   "en": "Barmaid",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B050",
+   "jp": "キャーーーーーッ！！{close}",
+   "en": "Aaaaaah!!{close}",
+   "kind": "msg",
+   "speaker": "酒場の女",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B068",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B070",
+   "jp": "あんた！　乱暴はよしなって・・・{br}この島にはブロードバスターが{br}いるってウワサだよ・・・{close}",
+   "en": "Hey! Quit throwing your weight{br}around... Word is there's a Broad{br}Buster on this island...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B0CC",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B0D4",
+   "jp": "ちぃっ・・・{close}",
+   "en": "Tch...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B0E4",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B0EC",
+   "jp": "ボウヤ　すまなかったね・・・{br}これに　懲りずに仲間が必要になったら{br}また声を　かけとくれ・・・{close}",
+   "en": "Sorry about that, lad... Don't let this{br}put you off. If you ever need{br}companions, come talk to us...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B150",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B158",
+   "jp": "・・・仲間になるからさ{close}",
+   "en": "...We'll join you.{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B174",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B17C",
+   "jp": "おう・・・ボウズ・・・{br}この前はわるかったな・・・{close}",
+   "en": "Hey... Kid... Sorry about last time...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B1B4",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B1BC",
+   "jp": "あたいたち　あんたの仲間に{br}なってもいいよ・・・{br}ただし・・・{page}契約金をもらうからね・・・！{close}",
+   "en": "We wouldn't mind joining you... But...{page}We'll need a signing fee...!{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B21C",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B224",
+   "jp": "あたいたち　一人１００００マギーだから{br}二人で２００００マギーだよ・・・{page}さあ　どうする・・・？{close}",
+   "en": "We charge 10,000 Maggy each, so{br}that's 20,000 Maggy for the pair of{br}us...{page}Well? What's it to be...?{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B288",
+   "jp": "ゴランと　シバを仲間にしますか？{close}",
+   "en": "Recruit Goran and Shiba?{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B2AC",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B2B4",
+   "jp": "どれどれ・・・{br}確かに２００００マギーだ・・・{br}じゃあ　よろしく頼むね・・・{close}",
+   "en": "Let's see... Yes, that's 20,000{br}Maggy... Here's to working together...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B304",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B30C",
+   "jp": "フン・・・心配するな・・・{br}いただいた分は　働くぜ・・・{close}",
+   "en": "Hmph... Don't you worry... You'll get{br}your money's worth...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B348",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B350",
+   "jp": "どれどれ・・・{br}足りないみたいだね・・・{br}残念だけど仲間にはなれないよ{close}",
+   "en": "Let's see... Looks like you're short...{br}Sorry, but we can't join you.{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B39C",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B3A4",
+   "jp": "オレたちは慈善事業を{br}やってるわけじゃねぇからな{br}金ができたらまた声をかけてくれ{close}",
+   "en": "We ain't runnin' a charity here. Come{br}talk to us when you've got the{br}cash.{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B3F8",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B400",
+   "jp": "あら・・・そう・・・{close}",
+   "en": "Oh... I see...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B418",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B420",
+   "jp": "ムム・・・ッ！{br}てめーーっ！！{close}",
+   "en": "Grr...! Why, you...!!{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B444",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B44C",
+   "jp": "あんた・・・{br}やめときなって・・・！{close}",
+   "en": "Hey... Leave it be...!{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B474",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B47C",
+   "jp": "なめんなよ！！　オレたちもプロだ{br}いただいた分は{br}きちんと働くってもんよっ！{close}",
+   "en": "Don't insult us!! We're pros! We earn{br}every bit of what we're paid!{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B4CC",
+   "jp": "シバ",
+   "en": "Shiba",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B4D4",
+   "jp": "仲間が必要になったら{br}また声を　かけとくれ・・・{close}",
+   "en": "If you ever need companions, come{br}talk to us...{close}",
+   "kind": "msg",
+   "speaker": "シバ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B508",
+   "jp": "ゴラン",
+   "en": "Goran",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B510",
+   "jp": "ちぃっ・・・{close}",
+   "en": "Tch...{close}",
+   "kind": "msg",
+   "speaker": "ゴラン",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B594",
+   "jp": "レジスタンス",
+   "en": "Resistance",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B5A4",
+   "jp": "やあ・・・！{br}こんにちは！！{close}",
+   "en": "Oh, hello there!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B5C4",
+   "jp": "レジスタンス",
+   "en": "Resistance",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B5D4",
+   "jp": "みなさんのおかげで{br}ここは以前に比べて　すっかり{br}安全になりました・・・！！{page}と言っても・・・{br}まだまだ{br}油断できないですけどね・・・！！{page}でも　この状態なら{br}船が出せそうなんです・・・！！{page}パセロ湿原の北東エリアの浜から{br}東の里そばのナッシュ平原の浜まで{br}運行します・・・！！{page}一度のぞいてみてください・・・！{page}「封印のリング」が　破壊されてしまうと{br}モンスターが増えて　また運行が{br}できなくなってしまいます・・・{page}「封印のリング」をしっかり　守りつつ{br}この船を有効活用して　冒険を進めて{br}ください・・・！！{page}では　がんばってくださいね・・・！！{close}",
+   "en": "Thanks! It's safer here, but stay{br}alert! Boats now run from northeast{br}Pasero Marsh beach to Nash{page}Plains beach near East Village. Come{br}see! Broken Sealing Rings mean more{br}monsters and no boats. Guard{page}the rings and use our boat on your{br}quest! Good luck!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンス",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B8DC",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B8EC",
+   "jp": "やあやあ・・・！{br}どうもどうも・・・！！{close}",
+   "en": "Hey, hey...! Good to see ya...!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B918",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B928",
+   "jp": "みなさんのおかげで{br}ここは以前に比べて　すっかり安全に{br}なったっス・・・！！{close}",
+   "en": "Thanks to you folks, it's gotten a{br}whole lot safer around here...!!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B978",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B988",
+   "jp": "と言っても・・・{br}まだまだ{br}油断できないわけっスけど・・・{close}",
+   "en": "Mind you... That doesn't mean we{br}can let our guard down yet...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B9C8",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1B9D8",
+   "jp": "でも　この状態なら{br}船が出せそうっス・・・！{close}",
+   "en": "But with things like this, we oughta{br}be able to run a boat...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BA08",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BA18",
+   "jp": "ゼロス雪原の南西エリアの浜から{br}東の里そばのナッシュ平原の浜まで{br}運行するっス・・・！{close}",
+   "en": "We'll run from the beach in{br}southwestern Zeros Snowfield to{br}the beach on Nash Plains, near{page}East Village...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BA74",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BA84",
+   "jp": "一度　見てみてほしいっス・・・！{close}",
+   "en": "You really oughta take a look...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BAA8",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BAB8",
+   "jp": "でも・・・「封印のリング」が{br}破壊されてしまうと{page}モンスターが増えて　また運行が{br}できなくなるっス・・・{close}",
+   "en": "But... if the \"Sealing Rings\" get{br}destroyed...{page}The monsters'll multiply, and we'll{br}have to stop running the boat{br}again...{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BB24",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BB34",
+   "jp": "「封印のリング」を{br}バッチリ　守りつつ{page}この船を有効活用して{br}冒険を進めるっス・・・！{close}",
+   "en": "Keep those \"Sealing Rings\" safe and{br}sound...{page}And make good use of this boat on{br}your adventures...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BB90",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BBA0",
+   "jp": "「封印のリング」の修復と{br}モンスター討伐を　進めて{br}安全確保を　よろしくっス・・・！{close}",
+   "en": "Keep repairing the \"Sealing Rings\"{br}and taking out monsters to keep{br}the route safe, okay...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BBF8",
+   "jp": "レジスタンスＪ",
+   "en": "Resist. J",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BC08",
+   "jp": "ではではっス・・・！{close}",
+   "en": "Well, see ya around...!{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＪ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BC60",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BC6C",
+   "jp": "ワシは飛行機乗りの{br}「ガントリィ」じゃ！！{br}よろしくな！！{page}とは言っても　今は失業中じゃ・・・{br}愛する飛行機ちゃんを　ヴァンデルに{br}奪われてしもうての・・・{page}うぅっ・・・{br}きっと　いとしの飛行機ちゃんは{br}ヴァンデルに食われてしまうんじゃ！！{page}おーーいおいおい・・・{br}わしゃぁ　これから　どうすれば{br}いいんじゃぁ・・・{close}",
+   "en": "I'm Gantry, the pilot!! Pleased to{br}meet ya!!{page}Though I'm out of work just now... A{br}Vandel stole my dear Airplane, you{br}see...{page}*sob*... Those Vandels are bound to{br}eat my darling Airplane!!{page}Waaaah... What am I going to do{br}now...?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BDAC",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BDB8",
+   "jp": "・・・・・・{br}たのむ・・・兄ちゃん・・・{page}ワシの飛行機を{br}助け出してくれんか・・・{page}助け出してくれたら・・・{br}着陸場所は選ぶが　好きなだけ{br}乗せてやるから・・・{page}のう・・・{br}なんとか　ならんかのう・・・{page}もしワシの　飛行機を見つけたら{br}また　教えてくれ・・・{page}よろしく　頼むぞ・・・{close}",
+   "en": "...... Please... my boy...{page}Could you rescue my Airplane...?{page}If you save her... I'll give you all the{br}rides you want, though we can only{br}land in certain places...{page}Please... Can't you help an old man{br}out...?{page}If you find my Airplane, come back{br}and tell me...{page}I'm counting on you...{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BED8",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.1BEE4",
+   "jp": "なぬ！？{br}オーラン坑道の奥で　飛行機を{br}見つけたとなっ！！！{page}で？{br}どんな　飛行機じゃった！？{page}フムフム・・・{page}まちがいない！！{br}それが　ワシの{br}かわいい飛行機ちゃんじゃっ！！！{page}さっそく　ワシを　そこに{br}連れて行ってくれっ！！{page}なぬ？{br}クサリで　がんじがらめで{br}動かせない？{page}カギが　５つも必要じゃと？？{page}ムムム・・・そうか・・・{br}それで　カギをさがして{br}くれているわけじゃな・・・{page}すまんのぉ・・・{br}兄ちゃんたち・・・{page}ありがとう・・・{br}ひきつづき　よろしく頼むぞ・・・{close}",
+   "en": "What!? You found an Airplane deep in{br}Oran Mine!!!{page}Well? What did she look like!?{page}Hmm, hmm...{page}No doubt about it!! That's my dear{br}little Airplane!!!{page}Take me there at once!!{page}What's that? She's all bound up in{br}chains and won't budge?{page}You need five keys to free her??{page}Hmmm... I see... So you've been{br}looking for the keys for me...{page}Sorry to put you youngsters to all{br}this trouble...{page}Thank you... Please keep at it...{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  }
+ ]
+}

@@ -1,0 +1,1269 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.2817C",
+   "jp": "模様の入った岩だ{close}",
+   "en": "A rock with a pattern on it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.28190",
+   "jp": "スイッチのようなものがある{br}作動させますか？{close}",
+   "en": "There's something like a switch here.{br}Activate it?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.281C0",
+   "jp": "スイッチを作動しました{close}",
+   "en": "You activated the switch.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.281DC",
+   "jp": "スイッチをそのままにしました{close}",
+   "en": "You left the switch alone.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.281FC",
+   "jp": "スイッチをそのままにしました{close}",
+   "en": "You left the switch alone.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2821C",
+   "jp": "しかし、何も起きなかった{close}",
+   "en": "But nothing happened.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.28238",
+   "jp": "橋がかかった！{close}",
+   "en": "A bridge appeared!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2837C",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.28388",
+   "jp": "ナッシュ平原とオーラン坑道へ{br}行くことができるぞ{close}",
+   "en": "I can take you to Nash Plains and{br}Oran Mine, my boy.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.283BC",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.283C8",
+   "jp": "オーラン坑道へ行くのか？{close}",
+   "en": "Off to Oran Mine, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.283E4",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.283F0",
+   "jp": "それじゃ、{br}オーラン坑道へ向かうぞ{close}",
+   "en": "Well then, off to Oran Mine we go!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.28418",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.28424",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.285BC",
+   "jp": "この壁は他の壁とは違うようだ{br}才牙を使えば壁を破壊できそうだ{close}",
+   "en": "This wall looks different from the{br}others. You could probably break it{br}with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.285FC",
+   "jp": "才牙で壁を破壊しますか？{close}",
+   "en": "Break the wall with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.28618",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.28634",
+   "jp": "壁を壊すのをやめました{close}",
+   "en": "You decided not to break the wall.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.28650",
+   "jp": "レジスタンス",
+   "en": "Resistance",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.28660",
+   "jp": "ゆっくり休憩していってくれよ{br}何か手伝えることはあるかい？{close}",
+   "en": "Take your time and get some rest.{br}Anything I can help you with?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンス",
+   "refs": 1
+  },
+  {
+   "id": "rom.288C0",
+   "jp": "カギ５を　手に入れた{page}冥力を　感じるカギだ・・・{br}人間の物では　なさそうだ・・・{close}",
+   "en": "Obtained Key 5.{page}You can sense Dark Power in this{br}key... It doesn't seem to belong to a{br}human...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.28FD8",
+   "jp": "黄金城とミレイ森の里へ{br}移動できます{close}",
+   "en": "You can travel to Golden Castle and{br}Mirei Forest Village.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29000",
+   "jp": "黄金城へ移動しますか？{close}",
+   "en": "Travel to Golden Castle?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2901C",
+   "jp": "黄金城へ移動します{close}",
+   "en": "Traveling to Golden Castle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29034",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2904C",
+   "jp": "黄金城へ移動しますか？{close}",
+   "en": "Travel to Golden Castle?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29068",
+   "jp": "黄金城へ移動します{close}",
+   "en": "Traveling to Golden Castle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29080",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29098",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.291A0",
+   "jp": "倒れた木が邪魔をして先へ進めない{br}才牙を使えば破壊できそうだ{close}",
+   "en": "A fallen tree blocks the way. You{br}could probably break it with a Saiga.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.291E0",
+   "jp": "才牙で破壊しますか？{close}",
+   "en": "Break it with a Saiga?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.291F8",
+   "jp": "倒れた木を壊した！{close}",
+   "en": "You broke the fallen tree!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29210",
+   "jp": "壊すのをやめました{close}",
+   "en": "You decided not to break it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29228",
+   "jp": "壊すのをやめました{close}",
+   "en": "You decided not to break it.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.297F0",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.297FC",
+   "jp": "オーラン坑道とピョンリン火山の遺跡へ{br}行くことができるぞ{close}",
+   "en": "I can take you to Oran Mine and{br}Byonrin Ruins, my boy.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29838",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29844",
+   "jp": "オーラン坑道へ行くのか？{close}",
+   "en": "Off to Oran Mine, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29860",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2986C",
+   "jp": "それじゃ、{br}オーラン坑道へ向かうぞ{close}",
+   "en": "Well then, off to Oran Mine we go!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29894",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.298A0",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.298D0",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.298DC",
+   "jp": "オーラン坑道へ行くのか？{close}",
+   "en": "Off to Oran Mine, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.298F8",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29904",
+   "jp": "それじゃ、{br}オーラン坑道へ向かうぞ{close}",
+   "en": "Well then, off to Oran Mine we go!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2992C",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29938",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29968",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29974",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.299A4",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.299B0",
+   "jp": "ピョンリン火山の遺跡へ行くのか？{close}",
+   "en": "Off to Byonrin Ruins, eh?{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.299D4",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.299E0",
+   "jp": "それじゃ、{br}ピョンリン火山の遺跡へ向かうぞ{close}",
+   "en": "Well then, off to Byonrin Ruins we go!{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29A10",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29A1C",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29A4C",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29A58",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29A88",
+   "jp": "里の門は閉ざされている{br}今は破壊することができない{close}",
+   "en": "The village gate is shut. You can't{br}destroy it right now.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.29AC0",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29AD0",
+   "jp": "パセロ湿地へ行くかい？{close}",
+   "en": "Heading to Pasero Marsh?{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29AEC",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29AFC",
+   "jp": "それじゃ、パセロ湿地へ向かうよ{close}",
+   "en": "All right, off to Pasero Marsh.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29B20",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29B30",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.29B60",
+   "jp": "レジスタンスＥ",
+   "en": "Resist. E",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.29B70",
+   "jp": "移動したくなったら{br}いつでも声をかけてくれ{close}",
+   "en": "Just give me a shout whenever you{br}want a ride.{close}",
+   "kind": "msg",
+   "speaker": "レジスタンスＥ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A2D8",
+   "jp": "ねぇ　お兄ちゃん！{br}武器って　持ってるだけじゃ{br}ダメなんだよね！{page}ちゃんと　装備　しないとね！{close}",
+   "en": "Hey, big bro! Just having a weapon{br}isn't enough, right?{page}You've gotta equip it!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A33C",
+   "jp": "おいらはさー{br}ゼナは　この双子島のどこかに{br}いると思うね！！{close}",
+   "en": "Me? I reckon Zena's somewhere on{br}the Twin Islands!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A37C",
+   "jp": "サンキュー！{br}{hero}！{page}レナの言った通り{br}ゼナはピンチだったんだね{page}そんなのが分かるなんて{br}双子って　不思議だねー{close}",
+   "en": "Thanks, {hero}!{page}Zena really was in trouble, just like{br}Lena said.{page}How could she tell? Twins sure are{br}mysterious!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A3F0",
+   "jp": "{hero}かっこいいなー{br}おいらも{hero}みたいに{br}バスターになれるかなー？{close}",
+   "en": "You're so cool, {hero}! Think I{br}could be a Buster like you,{br}{hero}?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A434",
+   "jp": "おまえなら　大丈夫だろう・・・{br}よろしく　頼むぜ！！{close}",
+   "en": "You'll do just fine... We're counting{br}on ya!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A46C",
+   "jp": "ゼナを　助けてくれたんだって！{br}さすが　{hero}！{br}これからも　よろしくな！！{close}",
+   "en": "I hear you saved Zena! That's our{br}{hero}! We're counting on ya!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A4B8",
+   "jp": "{hero}{br}いつも　すげー　がんばってるな！{br}応援してるぜ！！{close}",
+   "en": "{hero}, you're always working{br}so hard! I'm rooting for ya!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A4F4",
+   "jp": "防具だって　持ってるだけじゃ{br}ダメなんだから！{br}ちゃんと　装備　してね！{close}",
+   "en": "Just having armor isn't enough,{br}either! Make sure you equip it!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A540",
+   "jp": "ガントリィ",
+   "en": "Gantry",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A54C",
+   "jp": "もしワシの　飛行機を見つけたら{br}また　教えてくれ・・・{br}よろしく　頼むぞ{close}",
+   "en": "If you find my Airplane, come back{br}and let me know... I'm counting on{br}you, my boy.{close}",
+   "kind": "msg",
+   "speaker": "ガントリィ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A598",
+   "jp": "あら{br}ひさしぶりねぇ・・・{page}早く　昔みたいに　里の外に{br}遊びに　行けるように　なれば{br}いいのにね・・・{page}その時は　デートしてねっ！{br}約束よ！！{close}",
+   "en": "Oh, it's been a while...{page}I wish we could go outside the village{br}and have fun like we used to...{page}When we can, take me on a date! It's{br}a promise!!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A62C",
+   "jp": "{hero}じゃない{br}私とデートのために{br}がんばってくれてるのね？{page}あ、そういえばゼナって{br}どこにいるか知ってる？{close}",
+   "en": "Why, {hero}! You're working{br}hard for our date, aren't you?{page}Oh, speaking of which, do you know{br}where Zena is?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A698",
+   "jp": "たぶんゼナは今頃{br}パセロ湿地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Pasero Marsh by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A6EC",
+   "jp": "たぶんゼナは今頃{br}ゼロス雪原にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Zeros Snowfield{br}by now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A740",
+   "jp": "たぶんゼナは今頃{br}ソーレ谷にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Sole Valley by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A790",
+   "jp": "たぶんゼナは今頃{br}ミレイの森にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Mirei Forest by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A7E4",
+   "jp": "たぶんゼナは今頃{br}ベヌル荒野にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Benuru Wastes by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A838",
+   "jp": "たぶんゼナは今頃{br}バコソン山地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Bakoson{br}Mountains by now. I hope she's{br}safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A88C",
+   "jp": "たぶんゼナは今頃{br}ナッシュ平原にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Nash Plains by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A8E0",
+   "jp": "たぶんゼナは今頃{br}ダチャレイ洞窟にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Dacharei Cave by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A938",
+   "jp": "たぶんゼナは今頃{br}ビム砂漠にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I'd guess Zena's in Bim Desert by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A988",
+   "jp": "たぶんゼナは今頃{br}リンブロ平原にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's in Rinburo Plains by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2A9DC",
+   "jp": "たぶんゼナは今頃{br}ビョンリン火山にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's at Byonrin Volcano{br}by now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AA34",
+   "jp": "たぶんゼナは今頃{br}ミュテリン山地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's in the Muterin{br}Mountains by now. I hope she's{br}safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AA8C",
+   "jp": "たぶんゼナは今頃{br}ノルナージの森にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's in Norunaji Forest by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AAE4",
+   "jp": "たぶんゼナは今頃{br}リンラーゴ山地にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's in the Rinrago{br}Mountains by now. I hope she's{br}safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AB3C",
+   "jp": "たぶんゼナは今頃{br}リンナム氷河にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's at Rinnam Glacier by{br}now. I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AB90",
+   "jp": "たぶんゼナは今頃{br}オーラン洞窟にいるんじゃないかな？{br}無事だといいんだけど・・・{close}",
+   "en": "I imagine Zena's in Oran Cave by now.{br}I hope she's safe...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2ABE4",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2ABEC",
+   "jp": "あなたを　危険な目に{br}あわせるなんて・・・{br}ごめんなさい・・・{close}",
+   "en": "To think I've put you in danger... I'm{br}so sorry...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AC30",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AC38",
+   "jp": "ゼナを　助けてくれたのね！{br}ありがとう　{hero}！{close}",
+   "en": "You saved Zena! Thank you,{br}{hero}!{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AC68",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AC70",
+   "jp": "もうゼナったら{br}なんど言っても　聞かないんだから・・・{page}あいかわらず{br}あぶないことばかりして・・・{close}",
+   "en": "Oh, that Zena! No matter how often I{br}tell her, she never listens...{page}Always doing such dangerous{br}things...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2ACD8",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2ACE0",
+   "jp": "{hero}・・・{br}これからも　ゼナのこと{br}よろしくね{close}",
+   "en": "{hero}... Please keep looking{br}out for Zena.{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AD10",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AD18",
+   "jp": "{hero}に{br}押し付けているだけなのよね・・・{page}危険なことは　全部{br}{hero}に　やらせて・・・{page}{hero}に{br}もしものことがあったら・・・{br}わたし・・・　わたし・・・{page}ウッ・・・　グスッ・・・{close}",
+   "en": "We're just leaving it all to you,{br}{hero}...{page}Making you do everything{br}dangerous, {hero}...{page}If anything happened to you,{br}{hero}... I... I...{page}Ugh... *sniff*...{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2ADC8",
+   "jp": "レナ",
+   "en": "Lena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2ADD0",
+   "jp": "{hero}{br}いつもありがとう・・・{br}ゼナは元気にしてる？{close}",
+   "en": "{hero}, thank you for{br}everything... Is Zena doing well?{close}",
+   "kind": "msg",
+   "speaker": "レナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AE04",
+   "jp": "ゼナ",
+   "en": "Zena",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AE0C",
+   "jp": "「封印のリング」の修復に行くんだろ？{br}途中でいろんなモンスターに会うけど{br}モンスターなんかぶっ飛ばしちゃえ！{close}",
+   "en": "You're off to fix the \"Sealing Rings,\"{br}right? You'll run into all sorts of{br}monsters on the way, but just{page}knock 'em flying!{close}",
+   "kind": "msg",
+   "speaker": "ゼナ",
+   "refs": 1
+  },
+  {
+   "id": "rom.2AE7C",
+   "jp": "門はかたく閉ざされている{br}今は破壊することができない{close}",
+   "en": "The gate is shut tight. It cannot be{br}destroyed right now.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B0BC",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B0C4",
+   "jp": "すまんが鑑定小屋を開くまで{br}もう少し準備が必要じゃ{br}また後で寄ってくれ{close}",
+   "en": "Sorry, my boy, but I need a little more{br}time to get the Appraisal Hut ready.{br}Come back later.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B110",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B118",
+   "jp": "よくきたな{close}",
+   "en": "Welcome, my boy.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B128",
+   "jp": "鑑定小屋",
+   "en": "Appraisal Hut",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B134",
+   "jp": "バスター協会",
+   "en": "Buster Assoc.",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B144",
+   "jp": "鑑定小屋",
+   "en": "Appraisal Hut",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B150",
+   "jp": "バスター協会",
+   "en": "Buster Assoc.",
+   "kind": "quest",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B160",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B168",
+   "jp": "たのんだぞ{close}",
+   "en": "I'm counting on you, my boy.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B178",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B180",
+   "jp": "おまえさんには{br}まだ難しかったかのぉ{close}",
+   "en": "A bit too difficult for you yet, eh?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B1A8",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B1B0",
+   "jp": "たしかに依頼品の「薬花」じゃ{br}よくやった{br}これが報酬じゃ{close}",
+   "en": "Yes, that's the \"Medicinal Flower\"{br}requested. Well done, my boy. Here's{br}your reward.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B1EC",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B1F4",
+   "jp": "たのんだぞ{close}",
+   "en": "I'm counting on you, my boy.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B204",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B20C",
+   "jp": "おまえさんには{br}まだ難しかったかのぉ{close}",
+   "en": "A bit too difficult for you yet, eh?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B234",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B23C",
+   "jp": "たしかに依頼品の「鉱石」じゃ{br}よくやった{br}これが報酬じゃ{close}",
+   "en": "Yes, that's the \"Ore\" requested.{br}Well done, my boy. Here's your{br}reward.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B278",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B280",
+   "jp": "気をつけていくんじゃぞ{close}",
+   "en": "Take care out there, my boy.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B29C",
+   "jp": "依頼されていたモンスターを{br}無事に討伐することができた！{br}鑑定小屋へ報告に行こう！{close}",
+   "en": "You defeated the monsters for the{br}request! Go report to the Appraisal{br}Hut!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B2F4",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B2FC",
+   "jp": "おまえさんには{br}まだ難しかったかのぉ{close}",
+   "en": "A bit too difficult for you yet, eh?{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B324",
+   "jp": "鑑定士",
+   "en": "Appraiser",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B32C",
+   "jp": "よくやった{br}これが報酬じゃ{close}",
+   "en": "Well done, my boy. Here's your{br}reward.{close}",
+   "kind": "msg",
+   "speaker": "鑑定士",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B444",
+   "jp": "ビィト",
+   "en": "Beet",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B44C",
+   "jp": "スー・・・スー・・・{close}",
+   "en": "Zzz... Zzz...{close}",
+   "kind": "msg",
+   "speaker": "ビィト",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B464",
+   "jp": "ベッドがある{br}少し休んでいきますか？{close}",
+   "en": "There's a bed. Rest for a while?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B48C",
+   "jp": "体力・天力が回復した！{close}",
+   "en": "Health and Divine Power restored!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B4A8",
+   "jp": "休むのをやめた{close}",
+   "en": "You decided not to rest.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B4BC",
+   "jp": "休むのをやめた{close}",
+   "en": "You decided not to rest.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B4D0",
+   "jp": "母親",
+   "en": "Mother",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B4D8",
+   "jp": "悔いのないように　おやり・・・{br}母さんは　いつでも　ここで{br}おまえの　帰りを　待っているからね{page}せっかく家に戻ったんだから{br}少し休んでおいき{close}",
+   "en": "Do what you must, so you'll have no{br}regrets... Your mother will always be{br}here, waiting for you to come{page}home.{page}Now that you're home, stay and{br}rest a little.{close}",
+   "kind": "msg",
+   "speaker": "母親",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B568",
+   "jp": "母親",
+   "en": "Mother",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B570",
+   "jp": "気をつけて行っておいで{close}",
+   "en": "Take care out there, dear.{close}",
+   "kind": "msg",
+   "speaker": "母親",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B608",
+   "jp": "ここは武器屋だ{close}",
+   "en": "This is the Weapon Shop.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B660",
+   "jp": "ここは防具屋だが{close}",
+   "en": "This is the Armor Shop. What is it?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B6E4",
+   "jp": "キャンキャン・・・{br}ハッハッハッ・・・{close}",
+   "en": "Yip, yip... *pant, pant, pant*...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B710",
+   "jp": "おぉ・・・{br}おまえさん・・・{br}元気にしとるかぁいぃ・・・？{close}",
+   "en": "Ohhh... It's you, dear... Have you been{br}well...?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2B750",
+   "jp": "うちの　ばあちゃんは　犬と　話が{br}できるらしい・・・{page}いや　犬だけではない・・・{br}木とも　水とも　石ころとも　話を{br}しておる{page}しかし・・・{br}ワシのことは　すっかり忘れてしもうた{br}みたいなんじゃ・・・{page}あれは　いつじゃったか・・・{page}そうそう・・・　西の里の　女神像が{br}破壊されてからかのぉ・・・{page}寂しい毎日じゃて・・・{close}",
+   "en": "My old wife seems to be able to talk{br}to dogs...{page}No, not just dogs... She talks to{br}trees, water, even pebbles.{page}But... she seems to have forgotten{br}all about me...{page}When did it start, now...?{page}Ah, yes... Was it when the goddess{br}statue in West Village was{br}destroyed...?{page}Such lonely days, I tell you...{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BAB4",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BABC",
+   "jp": "おお　おまえさんか{br}よくきたのー{page}もう　里のみんなとは　話を{br}したかの？{close}",
+   "en": "Oh, it's you. Welcome, my boy.{page}Have you spoken to everyone in the{br}village yet?{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BB08",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BB10",
+   "jp": "戦士団と言えば、{br}グリニデを倒したビィト戦士団が{br}この島に来ているらしいの{page}里の者の話では、ソーレ谷の迷宮へ{br}向かったそうじゃが・・・{close}",
+   "en": "Speaking of Buster Squads, I hear{br}the Beet Warriors, who defeated{br}Grineed, have come to this island.{page}The villagers tell me they headed for{br}Sole Valley Labyrinth...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BB9C",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BBA4",
+   "jp": "よいか・・・{br}くれぐれも無茶をしてはいかんぞ{page}まずは鑑定小屋の依頼をうけながら{br}バスターとしての仕事をこなしつつ{br}東の島で修行するのじゃ{page}そうして　十分に力をつけた時こそ{br}西の島への道が開けよう・・・{close}",
+   "en": "Listen, my boy... Whatever you do,{br}don't be reckless.{page}First, train on East Island while{br}carrying out your Buster duties{br}through requests from the{page}Appraisal Hut.{page}Once you've grown strong enough,{br}the way to West Island shall open...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BC70",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BC78",
+   "jp": "レナがどこに行ったのか？{br}里の外へ出て行くのを見た者がいたが{br}どこへ行ったのかは分らんのじゃが{page}ひょっとするとホーレイ氏の住んでいる{br}ダチャレイ坑道へ{br}向かったのかもしれんのう・・・{close}",
+   "en": "Where has Lena gone, you ask?{br}Someone saw her leaving the village,{br}but I don't know where she went.{page}Perhaps she headed for Dacharei{br}Mine, where Mr. Horey lives...{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BD34",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BD3C",
+   "jp": "いよいよ西の島に突入じゃ{br}これまで以上の強敵が待ち受けておる{br}心してかかるのじゃ{close}",
+   "en": "At last, it's time to venture onto{br}West Island. Foes stronger than any{br}you've faced await you. Be on{page}your guard, my boy.{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BD90",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BD98",
+   "jp": "レナがさらわれてしまうとは・・・{br}まずは鑑定士に会って今後の対策を{br}考えてくれ{close}",
+   "en": "To think Lena has been abducted...{br}First, go see the Appraiser and work{br}out what to do next.{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BDEC",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BDF4",
+   "jp": "さらわれたレナのことも心配だが{br}ミュテリン山の里で働かされている{br}多くの人々のことも気になる{page}まずはミュテリン山の里にできた{br}金の鉱山を目指すのじゃ{close}",
+   "en": "I worry for Lena, but also for all{br}those people being forced to work in{br}Muterin Mountain Village.{page}First, make for the gold mine they've{br}built in Muterin Mountain Village, my{br}boy.{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BE8C",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BE94",
+   "jp": "まさか黄金城への橋が壊されてしまうとは・・・{br}いったいどうすればいいんじゃ・・・{page}そういえば、この里に{br}橋をかける名人がきていたはず・・・{br}その者と話をしてみてくれんか？{close}",
+   "en": "To think they'd destroy the bridge{br}to the Golden Castle... What are we{br}to do...?{page}Come to think of it, a Master bridge{br}builder should be here in the village...{br}Would you speak with him?{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BF44",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BF4C",
+   "jp": "レナが囚われているのは・・・{br}きっと敵の本拠地となっている{br}黄金城に決まっておる！{page}{hero}よ{br}一刻も早くレナを助け出してくれ{close}",
+   "en": "Where could Lena be held...? Surely it{br}must be the Golden Castle, the{br}enemy's stronghold!{page}{hero}, please rescue Lena as{br}quickly as you can.{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BFC8",
+   "jp": "里長",
+   "en": "Village Chief",
+   "kind": "speaker",
+   "refs": 1
+  },
+  {
+   "id": "rom.2BFD0",
+   "jp": "いよいよ最後の決戦じゃ{br}この戦いに勝つことで{br}きっと島に平和が訪れることじゃろう{page}頼んだぞ{hero}{close}",
+   "en": "At last, the final showdown is upon{br}us. Surely victory in this battle will{br}bring peace to the islands.{page}We're counting on you, {hero}.{close}",
+   "kind": "msg",
+   "speaker": "里長",
+   "refs": 1
+  }
+ ]
+}

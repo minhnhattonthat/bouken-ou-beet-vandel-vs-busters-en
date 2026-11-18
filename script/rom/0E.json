@@ -1,0 +1,586 @@
+{
+ "src": "field/script/rom.img",
+ "entries": [
+  {
+   "id": "rom.38004",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38018",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3802C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38040",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38054",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38068",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3807C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38090",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.380A4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.380B8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.380CC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.380E0",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.380F4",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38108",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3811C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38130",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38144",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38158",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3816C",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38180",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.38194",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.381A8",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.381BC",
+   "jp": "移動しますか？{close}",
+   "en": "Move on?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3829C",
+   "jp": "冥力が噴出している{br}体力・冥力が回復した！{close}",
+   "en": "Dark Power is gushing out. Health{br}and Dark Power restored!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.395E8",
+   "jp": "薬水の噴水だ{br}体力・天力が回復した！{close}",
+   "en": "It's a fountain of medicinal water.{br}Health and Divine Power restored!{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.396E0",
+   "jp": "封印のリングを修復した{close}",
+   "en": "Repaired the Sealing Ring.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.396FC",
+   "jp": "リングは銀色に輝いている{close}",
+   "en": "The ring shines silver.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39718",
+   "jp": "封印のリングに島の地図が描かれている{br}地図を読んで東の里へ戻りますか？{close}",
+   "en": "A map of the island is drawn on the{br}Sealing Ring. Read the map and{br}return to East Village?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39764",
+   "jp": "東の里へ戻ります{close}",
+   "en": "Returning to East Village.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39778",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39790",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.397A8",
+   "jp": "封印のリングに島の地図が描かれている{br}地図を読んで黄金城へ戻りますか？{close}",
+   "en": "A map of the island is drawn on the{br}Sealing Ring. Read the map and{br}return to the Golden Castle?{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.397F4",
+   "jp": "黄金城へ戻ります{close}",
+   "en": "Returning to the Golden Castle.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39808",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39820",
+   "jp": "移動を中止しました{close}",
+   "en": "Travel canceled.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39838",
+   "jp": "リングは金色に輝いている{close}",
+   "en": "The ring shines gold.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.39854",
+   "jp": "封印のリングを破壊した{close}",
+   "en": "Destroyed the Sealing Ring.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A4A8",
+   "jp": "体力丸を{br}手に入れた{close}",
+   "en": "Obtained Vitality Pill.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A4C0",
+   "jp": "コンフューズビーを{br}手に入れた{close}",
+   "en": "Obtained Confusion Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A4E4",
+   "jp": "治療薬を{br}手に入れた{close}",
+   "en": "Obtained Healing Medicine.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A4FC",
+   "jp": "アイスビーを{br}手に入れた{close}",
+   "en": "Obtained Ice Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A518",
+   "jp": "ハーブティーを{br}手に入れた{close}",
+   "en": "Obtained Herbal Tea.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A538",
+   "jp": "リカバーワームを{br}手に入れた{close}",
+   "en": "Obtained Recovery Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A558",
+   "jp": "ホットジェルを{br}手に入れた{close}",
+   "en": "Obtained Hot Gel.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A578",
+   "jp": "リターンスコルピオを{br}手に入れた{close}",
+   "en": "Obtained Return Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A59C",
+   "jp": "里のおばばの秘薬を{br}手に入れた{close}",
+   "en": "Obtained Granny's Elixir.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A5C0",
+   "jp": "バグを{br}手に入れた{close}",
+   "en": "Obtained Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A5D8",
+   "jp": "治療薬を{br}手に入れた{close}",
+   "en": "Obtained Healing Medicine.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A5F0",
+   "jp": "ポイズンビーを{br}手に入れた{close}",
+   "en": "Obtained Poison Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A610",
+   "jp": "天力丸を{br}手に入れた{close}",
+   "en": "Obtained Divine Pill.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A628",
+   "jp": "パラライズビーを{br}手に入れた{close}",
+   "en": "Obtained Paralysis Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A648",
+   "jp": "クールジェルを{br}手に入れた{close}",
+   "en": "Obtained Cool Gel.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A668",
+   "jp": "スコルピオを{br}手に入れた{close}",
+   "en": "Obtained Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A684",
+   "jp": "しびれ取りを{br}手に入れた{close}",
+   "en": "Obtained Paralysis Cure.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A6A0",
+   "jp": "ライズスコルピオを{br}手に入れた{close}",
+   "en": "Obtained Rise Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A6C4",
+   "jp": "おじぃの妙薬を{br}手に入れた{close}",
+   "en": "Obtained Grandpa's Cure.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A6E4",
+   "jp": "バグを{br}手に入れた{close}",
+   "en": "Obtained Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A6FC",
+   "jp": "イモリの黒焼きを{br}手に入れた{close}",
+   "en": "Obtained Charred Newt.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A71C",
+   "jp": "ワームを{br}手に入れた{close}",
+   "en": "Obtained Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A734",
+   "jp": "万能薬を{br}手に入れた{close}",
+   "en": "Obtained Panacea.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A74C",
+   "jp": "マックススコルピオを{br}手に入れた{close}",
+   "en": "Obtained Max Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A770",
+   "jp": "イモリの干物を{br}手に入れた{close}",
+   "en": "Obtained Dried Newt.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A790",
+   "jp": "ベターワームを{br}手に入れた{close}",
+   "en": "Obtained Better Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A7B0",
+   "jp": "イモリの干物を{br}手に入れた{close}",
+   "en": "Obtained Dried Newt.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A7D0",
+   "jp": "リカバーバグを{br}手に入れた{close}",
+   "en": "Obtained Recovery Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A7F0",
+   "jp": "天力丸を{br}手に入れた{close}",
+   "en": "Obtained Divine Pill.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A808",
+   "jp": "バグを{br}手に入れた{close}",
+   "en": "Obtained Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A820",
+   "jp": "体力丸を{br}手に入れた{close}",
+   "en": "Obtained Vitality Pill.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A838",
+   "jp": "ワームを{br}手に入れた{close}",
+   "en": "Obtained Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A850",
+   "jp": "トラキラの葉を{br}手に入れた{close}",
+   "en": "Obtained Torakira Leaf.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A870",
+   "jp": "リカバリーバグを{br}手に入れた{close}",
+   "en": "Obtained Recovery Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A890",
+   "jp": "薬草を{br}手に入れた{close}",
+   "en": "Obtained Medicinal Herb.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A8A8",
+   "jp": "マックスワームを{br}手に入れた{close}",
+   "en": "Obtained Max Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A8C8",
+   "jp": "薬草を{br}手に入れた{close}",
+   "en": "Obtained Medicinal Herb.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A8E0",
+   "jp": "リカバーワームを{br}手に入れた{close}",
+   "en": "Obtained Recovery Worm.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A900",
+   "jp": "気付け剤を{br}手に入れた{close}",
+   "en": "Obtained Smelling Salts.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A91C",
+   "jp": "ベターバグを{br}手に入れた{close}",
+   "en": "Obtained Better Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A938",
+   "jp": "栄養剤を{br}手に入れた{close}",
+   "en": "Obtained Nutrient Tonic.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A950",
+   "jp": "ファイアビーを{br}手に入れた{close}",
+   "en": "Obtained Fire Bee.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A970",
+   "jp": "解毒剤を{br}手に入れた{close}",
+   "en": "Obtained Antidote.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A988",
+   "jp": "リターンスコルピオを{br}手に入れた{close}",
+   "en": "Obtained Return Scorpio.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A9AC",
+   "jp": "薬草を{br}手に入れた{close}",
+   "en": "Obtained Medicinal Herb.{close}",
+   "kind": "msg",
+   "refs": 1
+  },
+  {
+   "id": "rom.3A9C4",
+   "jp": "マックスバグを{br}手に入れた{close}",
+   "en": "Obtained Max Bug.{close}",
+   "kind": "msg",
+   "refs": 1
+  }
+ ]
+}
