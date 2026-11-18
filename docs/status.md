@@ -3,9 +3,40 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (sessions 8-9), check.py green (65 tests). Tour work/qa/en
-  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (6,892/9,472,
-  Next (2)) and the Vandel-mode list (Next (4)).
+  Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (sessions 8-11), check.py green (66 tests). Tour work/qa/en
+  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (~6,911 shown
+  + 91 waived of 9,472, session 11 notes, Next (2)) and the Vandel-mode list (Next (4)).
+- **Phase 8 session 11 (2026-11-19), Orca worker: map-table waiver, party sweep, area2 switch (context limit).**
+  - Coverage report with waivers: `python -X utf8 tools/textcov.py report work/qa/en work/qa/gallery work/qa/cover
+    --waive docs/text_unshown.tsv` (textcov now expands `prefix*` waiver ids; every waiver needs a reason and must
+    match an id). Release must pass the same `--waive`.
+  - `a9.title.*` waived (docs/text_unshown.tsv): the "title" table is the map table, its name a dev label never drawn
+    (one accessor 0x0201419C, one table literal; callers 0x0203DF3C / 0x0204E35C read only fields 0x14-0x48).
+    Note the 39 "shown" title records were only fetched by map loads, never drawn either.
+  - Party names (accessor 0x020140DC, 1-based) are copied into the member struct when a member joins (call from
+    0x02018D38 at new-game f952), and the menus draw from RAM. `tools/debug/idsweep.py` (new): one warp run per id,
+    idloop forcing the first call; `--scene menu_status --acc 0x020140DC --ids 1-53 --out work/qa/cover/party`:
+    the status screen then shows that record's name (id 2 -> "Beet", `work/qa/cover/party/002/final.png`).
+    22 ids draw (1 2 B F 10 16-1F 2A-2E 34 35; strip `work/qa/p8_party_reset/ok_sheet*.png`). The other 31
+    (3-A C-E 11-15 20-29 2F-33) **reset the game to the title** at f2316 as the hero record (exit 2), so they are
+    moved to `work/qa/p8_party_reset/` and do NOT count (the report still says party 0 missing only while those runs
+    were in cover/: now 31 missing). Next: force a later join instead (b29_my_castle joins id 5 at f1613, lr
+    0x02018D38: `--var IDLOOP_AFTER=1600`) and show that member's status page.
+  - Coverage now (waivers on): 6,942 - 31 party = ~6,911 shown, 91 waived; left: quest desc/title 637, weapon 380,
+    rom.msg 278, name 256, skill 134, buster 132, meigeki 126, tengeki 108, ptr 99, keyitem 90, vandel 78,
+    wpntype 68, party 31, special 30, area2 25.
+  - Key items: the real accessor starts at 0x020141FC (`and r0,#0xFF`, falls into 0x02014200, so textlog's hook
+    still fires); callers 0x02023994 0x020239A8 0x02023F48 0x02023F5C 0x02076DD0 0x02077060 0x02077E38 0x0207AFBC
+    0x020BF4E0 0x020BFE68 0x020C019C. No tour scene holds a key item.
+  - New probes: `tools/lua/callcount.lua` (every call of FNS with frame, lr, r0: when/how often a screen fetches),
+    `tools/lua/memset.lua` (hold any RAM word, direct or [ptr]+off).
+  - area2 (25): accessor 0x020146E0 is used instead of area when [[0x021BEDA4]+0xC] is not 0/1 (0x020D3084;
+    0 in the Beet story). Holding it at 2 on field_nash makes the field board fetch 70 area2 ids
+    (lr 0x020D30B8) but draws no names there (`work/qa/p8_area2/m2`). Next: find the screen that labels areas
+    (what mode 2 is: GBA link / wireless / Vandel side?), else waive with that reason.
+  - Skills (Saiga list, accessor 0x020142E0) are never fetched: the hero has none learned in any tour scene (the
+    Saiga screen is empty); 23 BL callers (0x0205FF7C, 0x020A7628.., 0x020C864C..). Next: find the learned-skill
+    list in the member struct and fill it (then the Saiga screen pages through them), same for tengeki/meigeki.
 - **Phase 8 session 10 (2026-11-19), Orca worker: shout sweep, quest-board probe (context limit).**
   - Coverage report now: `python -X utf8 tools/textcov.py report work/qa/en work/qa/gallery work/qa/cover`
     (`work/qa/cover/` = probe runs that count). **6,892/9,472**; shouts complete (891/891).

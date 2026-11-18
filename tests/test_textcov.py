@@ -80,3 +80,18 @@ def test_gallery_spans_cover_dialogue():
     assert all(any(a <= p < b for a, b in spans) for p in pcs)       # every site inside a span
     assert all(data[a] in (0x2A, 0x9E, 0x70) for a, _ in spans)
     assert len(pcs) >= 4100
+
+
+def test_waiver_prefix_expands_and_needs_reason(tmp_path):
+    src = tmp_path / 'w.tsv'
+    src.write_text('# comment\na9.title.*\tdev label\na9.area.000.name\tone id\n', encoding='utf-8')
+    rows = textcov.expand_waivers(src, tmp_path / 'out.tsv').read_text(encoding='utf-8').split('\n')
+    ids = [r.split('\t')[0] for r in rows if r]
+    assert 'a9.title.000.name' in ids and 'a9.area.000.name' in ids
+    assert sum(i.startswith('a9.title.') for i in ids) == 130
+    for bad in ('a9.title.*\n', 'a9.title.*\t \n', 'no.such.id\twhy\n', 'no.such.*\twhy\n'):
+        src.write_text(bad, encoding='utf-8')
+        with pytest.raises(SystemExit):
+            textcov.expand_waivers(src, tmp_path / 'out.tsv')
+    # the real waiver file parses
+    textcov.expand_waivers(ROOT / 'docs' / 'text_unshown.tsv', tmp_path / 'real.tsv')

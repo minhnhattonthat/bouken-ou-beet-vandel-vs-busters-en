@@ -153,6 +153,26 @@ def convert(logdir, outdir, tag=''):
     return runs, bad
 
 
+def expand_waivers(src, dst):
+    """Waiver rows `id<TAB>reason`; an id ending in `*` stands for every string id with that prefix (one line per
+    proven group, e.g. a whole table never drawn). Writes the expanded file textcover.py reads and returns its path."""
+    ids = [e['id'] for e in entries()]
+    rows = []
+    for ln in src.read_text(encoding='utf-8-sig').splitlines():
+        f = ln.split('\t')
+        if not f[0] or f[0].startswith('#'):
+            continue
+        if len(f) < 2 or not f[1].strip():
+            raise SystemExit('waiver without a reason: ' + ln)
+        hits = [i for i in ids if i.startswith(f[0][:-1])] if f[0].endswith('*') else [f[0]]
+        if not hits or (not f[0].endswith('*') and f[0] not in ids):
+            raise SystemExit('waiver matches no string id: ' + f[0])
+        rows += ['%s\t%s' % (i, f[1].strip()) for i in hits]
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    dst.write_text('\n'.join(rows) + '\n', encoding='utf-8')
+    return dst
+
+
 def cmd_report(a):
     out = ROOT / 'work' / 'qa' / '_textcov'
     if out.exists():
@@ -167,7 +187,7 @@ def cmd_report(a):
     print('strings %d, runs with text %d, SCR pcs not at a 70/9E opcode %d' % (n, runs, len(bad)))
     cmd = [sys.executable, '-X', 'utf8', str(Path(SKILL) / 'scripts' / 'textcover.py'), str(out), str(strings)]
     if a.waive:
-        cmd += ['--waive', a.waive]
+        cmd += ['--waive', str(expand_waivers(Path(a.waive), out / '_waive.tsv'))]
     r = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8')
     missing = [ln.split()[2] for ln in r.stdout.splitlines() if ln.startswith('NEVER SHOWN')]
     kind = {e['id']: e.get('kind', '?') for e in entries()}

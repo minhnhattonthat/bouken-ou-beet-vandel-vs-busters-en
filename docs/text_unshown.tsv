@@ -1,0 +1,3 @@
+# Strings accepted as never shown, with the proof. `id<TAB>reason`; an id ending in * covers every string id with
+# that prefix. Read by `python -X utf8 tools/textcov.py report ... --waive docs/text_unshown.tsv`.
+a9.title.*	map table (0x02123400, 0x4C-byte records): the name field is a dev label, never drawn. Only accessor 0x0201419C reads the table (the one word 0x02123400 in arm9), and its two callers (0x0203DF3C map load, 0x0204E35C map set) use only fields 0x14-0x48 (map files, links), never offset 0 (2026-11-19)
