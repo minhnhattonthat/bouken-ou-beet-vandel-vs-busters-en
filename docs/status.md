@@ -3,9 +3,9 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 5. Engine spike and marker build (in progress: engine done and proven, marker build boots 100/100 scenes;
-  width gate partly measured).
+  every kind now has a budget, measured or jp-bound; left: Latin name entry, ptr budgets, pointer-string relocation).
   Last build: 2026-11-18 `python -X utf8 tools/build.py --marker` -> `build/beet_marker.nds` sha1
-  4c7b113c86c919b978e81a6e228827dccae737a8, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
+  da444dcc6a72850903ced0349d674cdce80e9832, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
   dump, `--qa ID=TEXT` overrides one entry.)
 - **Phase 5 so far (2026-11-18):**
   - Font decision made and proven in game: VWF with **letter-pair codes** (0x2000 + a*128 + b), letters cropped from
@@ -30,16 +30,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Save RAM dump probe `tools/lua/ramsave.lua` (diff two dumps to find a field). Inventory layout in
     `docs/re/scripts.md`.
   - Marker tour re-run (`work/qa/marker2`, 100/100 ok, 966 ids): Japanese left only in name entry and the monster
-    area stray 沼 (cap lowered 18 -> 16 bytes; marker build NOT rebuilt/re-toured since).
-- **Next (rest of phase 5):** rebuild the marker build and check menu_monsters (no 沼); fill the other empty lists
-  the way `inv` does and measure them: inventory categories other than 4 (weapons, armor, key items: try INV_CATS),
-  skills / tengeki / meigeki (menu_skills shows none), quests (quest.img `title`/`desc`, menu_quests empty), books
-  (buster/vandel names + desc; the `books` cheat shows only entry 0), area names, `special.name`, `title.name`, menus
-  (`ptr`), 8x8 texts; add each budget to `tools/budgets.json` + `docs/windows.md`. Speaker tag: confirm 72 px in a
-  shot. Find any other `count * 12` centring or column math; arm9 pointer-string relocation into the hook block;
-  decide which `reading`/`name2`/`desc` placeholder fields are never shown and mark them kept; `jp_left.py` on the
-  marker build; Latin name-entry keyboard (`a9.021AA0F8`..); `{hero}` etc. stand-ins in `tools/lint.py` VARS are
-  guesses until the name entry's English limit is known; full-width digits still look wide (polish).
+    book's 属性 沼.
+  - Session 2 (2026-11-18): the 沼 is the monster attribute, also in the original: new arm9 table `elem` (10 one-kanji
+    4-byte slots at 0x021233D8, wrongly in NOT_TEXT before), extracted to `script/arm9/elem.json` and **relocated**
+    into the hook block at 16-byte slots (`engine.RELOC`: accessor literal + stride patched; inserter writes
+    `Engine.reloc`; tested in `tests/test_engine.py`, seen in game). Its canvas shows only ~18 px (2 letters):
+    budget 18, widening = draw-code work (docs/windows.md). The `monster.area` 16-byte KIND_CAP was a misdiagnosis
+    (removed); monster name/area measured at 120 px (10-code canvases clip). Inventory regions mapped (weapons
+    save+0x11E0, armor +0x136C; docs/re/scripts.md). warp.lua: `EXTRA='tokens'` var (append cheats/inputs to any
+    scene), `INV_FROM`. Budgets for every remaining kind in `tools/budgets.json`: `jp-bound` (longest JP line at
+    12 px; lists not reachable yet, verify in phase 8) or `not-drawn` (readings = sort keys, 説明 placeholders);
+    lint skips width for `not-drawn`.
+- **Next (rest of phase 5):** Latin name-entry keyboard (`a9.021AA0F8`.., ptr strings) and the English name length,
+  then fix `{hero}` etc. stand-ins in `tools/lint.py` VARS; `ptr` budgets (per string, 115 entries: menus, 通信
+  screens); arm9 pointer-string relocation into the hook block (same pattern as `engine.RELOC`); re-run the marker
+  tour + `tools/markerscan.py` on the new build; `jp_left.py` on the marker build. Then phase 6 (translators get
+  `tools/budgets.json` + `docs/windows.md`; readings = English name, 説明 placeholders stay). Optional: speaker tag
+  72 px in a shot; other `count * 12` centring; widen the 属性 canvas; full-width digits look wide (polish);
+  fill skills/quests/books/key items in the debug tool to replace the jp-bound budgets (phase 8 at the latest).
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), DeSmuME QA fork qa-2 in `tools/desmume/`, guard hook wired in
     `.claude/settings.json` (canary blocked), pre-commit runs `tools/check.py` (a failing test was rejected), smoke boot

@@ -55,7 +55,13 @@
   [save+0x1580+8] (bit n = byte n>>3, mask 1<<(n&7)); **event-seen** bits at [save+0x158C+8]. `tools/lua/varlog.lua`
   logs changes. **Inventory** (found 2026-11-18 by diffing a shop buy, `tools/lua/ramsave.lua`): object at
   save+0x10D4 (vtable 0x021A95DC), 4-byte entries from save+0x10D8 = [id+1, category, 0, count]; category 4 =
-  items (others not yet mapped); money u32 at save+0x14F8. warp.lua `inv` fills it.
+  items (66 slots to 0x11E0); weapons from save+0x11E0 ([id+1, 1, 0, 0], one per weapon), armor from save+0x136C
+  ([id+1, 2, 0, 0]) up to the money u32 at save+0x14F8 (shop buy diffs, 2026-11-18). The item menu ignores byte 1
+  and white-screens on ids >= 34. Key items: a u16 list at [ui+0x118] read at 0x02076DC4 takes entries with
+  byte1 & 3 as key items (accessor 0x020141FC), others as items (0x02014218); screen not identified yet.
+  warp.lua `inv` fills the item region (INV_CATS / INV_FROM / INV_N).
+- Monster attribute (属性) kanji: table `elem` at 0x021233D8 (10 x 4 bytes), accessor 0x020140F4, drawn by
+  0x0208FF20 (monster book) and 0x02065504 (a six-row list) into a small canvas; relocated by `engine.RELOC`.
 - Event entries begin `9A id; 66; 64 map; ...` and end `17 <next event or map setup>; FF`. Setting PC to an entry
   while the opening event starts (PC 0x871-0x875) plays that event with its own map, actors and battle: this is
   `tools/debug/warp.lua`. Setting PC mid-event hangs (actors not spawned).

@@ -62,5 +62,15 @@ def test_arm9_patch(rom, eng):
     assert blocks[-1][0] == engine.BLOCK
     arena = struct.unpack_from('<I', a, engine.ARENA_LIT - engine.A9)[0]
     assert arena == engine.BLOCK + blocks[-1][1]
-    assert len(log) == len(engine.SITES)
-    assert all(v < engine.BLOCK + 0x400 for v in labels.values())
+    assert len(log) == len(engine.SITES) + len(engine.RELOC)
+    assert all(v < engine.BLOCK + 0x400 for k, v in labels.items() if not k.startswith('R_'))
+    # relocated tables: the accessor literal points at the copy in the block (block = autoload at BLOCK, stored
+    # at file offset p[0] - size), which holds the original records at the new stride
+    size = blocks[-1][1]
+    blk = p[0] - engine.A9 - size
+    for key, rl in engine.RELOC.items():
+        new_base = struct.unpack_from('<I', a, rl['lit'] - engine.A9)[0]
+        assert new_base == labels['R_' + key]
+        o = blk + new_base - engine.BLOCK
+        assert a[o:o + rl['count'] * rl['new']] == eng.reloc_default(rom.arm9, key)
+        assert a[rl['insn'] - engine.A9:rl['insn'] - engine.A9 + 4].hex() != rl['orig']

@@ -19,6 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
+import engine  # noqa: E402
 import scr  # noqa: E402
 
 SCRIPT = ROOT / 'script'
@@ -27,11 +28,20 @@ NAME_FILES = {'m': 'status/bustername/busterman.bin', 'w': 'status/bustername/bu
 NAME_REC, NAME_MAX = 22, 14
 # Byte caps tighter than the slot, measured in the marker tour (docs/windows.md): the monster book copies `area`
 # through a 10-code buffer with no room for a terminator (10 codes drew a stray glyph after them).
-KIND_CAP = {'monster.area': 16}   # 18 still drew a stray 沼 (marker2 tour, menu_monsters)
+KIND_CAP = {}   # (monster.area was capped at 16 for a "stray 沼": that was the 属性 attribute, table `elem`)
+
+
+def reloc_of(e):
+    """The engine.RELOC spec of the table an arm9 slot entry moved to, or None."""
+    r = engine.RELOC.get(e['kind'].split('.')[0])
+    return r if r and e['id'].startswith('a9.') and 'addr' in e else None
 
 
 def text_cap(e):
     """Most bytes of text (without the 0000) an arm9 slot entry may hold."""
+    r = reloc_of(e)
+    if r:
+        return r['new'] - 2
     return min(e['max'] - 2, KIND_CAP.get(e['kind'], 1 << 30))
 CTRL = re.compile(r'(\{\w+\}|\[[0-9A-F]{4}\])')
 FILLER = 'the quick brown fox jumps over a lazy dog while five wizards box '
@@ -145,7 +155,15 @@ class Inserter:
             if not text:
                 continue
             new = self.eng.encode(text)
-            if 'addr' in e:
+            r = reloc_of(e)
+            if r:                         # table moved into the hook block (engine.RELOC): write the new slot
+                key = e['kind'].split('.')[0]
+                if key not in self.eng.reloc:
+                    self.eng.reloc[key] = self.eng.reloc_default(self.arm9_orig, key)
+                i = (int(e['addr'], 16) - r['base']) // r['old']
+                assert len(new) <= text_cap(e), (e['id'], text, len(new))
+                self.put(self.eng.reloc[key], i * r['new'], new.ljust(r['new'], b'\0'), 'reloc.' + key)
+            elif 'addr' in e:
                 off, mx = int(e['addr'], 16) - A9, e['max']
                 # always keep a 0000 inside the slot: readers run past a full slot into the next record
                 assert len(new) <= text_cap(e), (e['id'], text, len(new), mx)

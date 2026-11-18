@@ -259,11 +259,40 @@ SITES = {
 }
 
 
+# arm9 tables moved into the hook block because their slots cannot hold English (docs/re/arm9.md). Per table: the
+# accessor's literal-pool word (= the old base), the old base, record count, old/new record size, and the accessor's
+# scale instruction (orig hex -> replacement). The inserter fills Engine.reloc[key] (count * new bytes) before
+# patch_arm9; untranslated records keep their Japanese.
+RELOC = {
+    # monster attribute (属性) kanji 沼 窟 渦 砂 地 鉱 樹 極 骨 絶: 4-byte slots = one code; accessor 0x020140F4
+    'elem': {'lit': 0x02014104, 'base': 0x021233D8, 'count': 10, 'old': 4, 'new': 16,
+             'insn': 0x020140FC, 'orig': '000181e0', 'repl': 'add r0, r1, r0, lsl #4'},
+}
+
+
 class Engine:
     def __init__(self, f12, f8, codec):
         self.w12, self.t12 = crop_font(f12, 12)
         self.w8, self.t8 = crop_font(f8, 8)
         self.codec = codec
+        self.reloc = {}   # RELOC key -> new table bytes (set by insert.Inserter)
+
+    def reloc_default(self, arm9, key):
+        """The table at its new record size, filled with the original records (zero-padded)."""
+        r = RELOC[key]
+        out = bytearray()
+        for i in range(r['count']):
+            o = r['base'] - A9 + i * r['old']
+            out += arm9[o:o + r['old']].ljust(r['new'], b'\0')
+        return out
+
+    def _data(self):
+        blobs = [('W12', self.w12), ('W8', self.w8), ('T12', self.t12), ('T8', self.t8), ('SCR', bytes(4))]
+        for key, r in RELOC.items():
+            blob = self.reloc.get(key) or bytes(r['count'] * r['new'])
+            assert len(blob) == r['count'] * r['new'], key
+            blobs.append(('R_' + key, bytes(blob)))
+        return blobs
 
     @classmethod
     def from_rom(cls, rom):
@@ -338,19 +367,19 @@ class Engine:
         data_off = 0x400
         lay = {}
         pos = data_off
-        for name, blob in (('W12', self.w12), ('W8', self.w8), ('T12', self.t12), ('T8', self.t8),
-                           ('SCR', bytes(4))):
+        data = self._data()
+        for name, blob in data:
             lay[name] = BLOCK + pos
             pos += (len(blob) + 3) & ~3
-        src = ASM.format(**{k: '0x%08X' % v for k, v in lay.items()})
+        src = ASM.format(**{k: '0x%08X' % v for k, v in lay.items() if not k.startswith('R_')})
         ks = Ks(KS_ARCH_ARM, KS_MODE_ARM)
         enc, _ = ks.asm(src, BLOCK)
         code = bytes(enc)
         assert len(code) <= data_off, hex(len(code))
         labels = self._labels(ks, src)
+        labels.update({k: v for k, v in lay.items() if k.startswith('R_')})
         out = bytearray(code.ljust(data_off, b'\0'))
-        for name, blob in (('W12', self.w12), ('W8', self.w8), ('T12', self.t12), ('T8', self.t8),
-                           ('SCR', bytes(4))):
+        for name, blob in data:
             out += blob.ljust((len(blob) + 3) & ~3, b'\0')
         return bytes(out), labels
 
@@ -372,6 +401,8 @@ class Engine:
         """Append the hook block as a new autoload section, raise the arena start, patch the call sites."""
         from keystone import Ks, KS_ARCH_ARM, KS_MODE_ARM
         a = bytearray(rom.arm9)
+        for key in RELOC:
+            self.reloc.setdefault(key, self.reloc_default(a, key))
         blob, labels = self.block()
         p = list(struct.unpack_from('<9I', a, MODPARAMS - A9))
         lst_start, lst_end = p[0] - A9, p[1] - A9
@@ -398,5 +429,14 @@ class Engine:
             if log is not None:
                 log.append('arm9 %08X %s %s %s' % (site, want.hex(), enc.hex(), repl))
             new[o:o + 4] = enc
+        for key, r in RELOC.items():
+            lit, o = r['lit'] - A9, r['insn'] - A9
+            assert struct.unpack_from('<I', a, lit)[0] == r['base'], key
+            assert a[o:o + 4].hex() == r['orig'], key
+            enc = bytes(ks.asm(r['repl'], r['insn'])[0])
+            new[lit:lit + 4] = struct.pack('<I', labels['R_' + key])
+            new[o:o + 4] = enc
+            if log is not None:
+                log.append('arm9 %08X reloc %s -> %08X (%s)' % (r['lit'], key, labels['R_' + key], r['repl']))
         rom.arm9 = bytes(new)
         return labels

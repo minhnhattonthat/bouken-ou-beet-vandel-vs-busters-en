@@ -1,5 +1,8 @@
 # Skill gotchas (one line each: reference file it belongs in, then the fact)
 
+- references/emulator-qa.md: `emu.py --var OUT=...` is refused (OUT is a driver global, already the --out dir); a `--state-in` savestate made on one build loads as a grey screen on another ROM.
+- references/pipeline.md §Marker: a glyph that "leaks" after a capped field may be a separate unextracted string drawn next to it (Beet: the 属性 kanji table); compare with the original ROM's shot before capping the field.
+
 - SKILL.md Step 0: the plugin was enabled but not in installed_plugins.json, so its guard hook never loaded (canary `sed -i` ran); fixed by the `hooks` block in `.claude/settings.json` pointing at the marketplace path.
 - references/platform-nds.md: font glyph order can be JIS X 0208 with the unassigned rows 9-15 dropped and row 13 (NEC specials) kept, so kana decode right with a plain JIS index while every kanji is off by 6 rows. Check a kanji, not only kana, before trusting a table.
 - references/pipeline.md (Recon): a hand-written JIS->Shift-JIS converter used 0x7D instead of 0x7E for even rows, shifting all hiragana by one; check against a known string after any table generator change.

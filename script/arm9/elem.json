@@ -1,0 +1,85 @@
+{
+ "src": "arm9.bin table 021233D8 x10 (0x4 bytes, accessor 020140F4)",
+ "entries": [
+  {
+   "id": "a9.elem.000.name",
+   "jp": "沼",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233D8",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.001.name",
+   "jp": "窟",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233DC",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.002.name",
+   "jp": "渦",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233E0",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.003.name",
+   "jp": "砂",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233E4",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.004.name",
+   "jp": "地",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233E8",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.005.name",
+   "jp": "鉱",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233EC",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.006.name",
+   "jp": "樹",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233F0",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.007.name",
+   "jp": "極",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233F4",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.008.name",
+   "jp": "骨",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233F8",
+   "max": 4
+  },
+  {
+   "id": "a9.elem.009.name",
+   "jp": "絶",
+   "en": "",
+   "kind": "elem.name",
+   "addr": "021233FC",
+   "max": 4
+  }
+ ]
+}

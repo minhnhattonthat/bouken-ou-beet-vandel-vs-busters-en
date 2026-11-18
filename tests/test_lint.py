@@ -66,7 +66,22 @@ def test_slot_cap(eng):
 def test_every_budget_kind_names_its_evidence():
     for k, b in lint.BUDGETS.items():
         if not k.startswith('_'):
-            assert b['status'] in ('measured', 'guess') and b.get('shot'), k
+            assert b['status'] in ('measured', 'jp-bound', 'not-drawn') and b.get('shot'), k
+            assert ('px' in b) == (b['status'] != 'not-drawn'), k
+
+
+def test_not_drawn_kind_has_no_width_check(eng):
+    e = {'id': 'a9.item.000.reading', 'kind': 'item.reading', 'jp': 'あ', 'max': 40,
+         'en': 'Return Scorpio Remedy'}
+    assert lint.lint_entry(e, eng) == []
+
+
+def test_relocated_slot_uses_the_new_cap(eng):
+    e = {'id': 'a9.elem.000.name', 'kind': 'elem.name', 'jp': '沼', 'max': 4, 'addr': '021233D8', 'en': 'Sw'}
+    assert insert.text_cap(e) == 14
+    assert lint.lint_entry(e, eng) == []
+    e['en'] = 'Swamp'   # fits the 14-byte slot, not the 16 px canvas
+    assert any('px' in m for m in lint.lint_entry(e, eng))
 
 
 def test_current_script_is_clean(eng):

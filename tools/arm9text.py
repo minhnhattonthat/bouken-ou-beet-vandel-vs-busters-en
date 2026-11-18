@@ -21,6 +21,8 @@ TABLES = [
     ('armor', 0x02014040, 0x0210D430, 0xA0, 71, {'name': (4, 24), 'reading': (24, 44), 'desc': (44, 122)}),
     ('shout', 0x020140B0, 0x0211A6AC, 0x168, 81, {'s%02d' % i: (32 * i, 32 * i + 32) for i in range(11)}),
     ('party', 0x020140DC, 0x02121BD4, 0x74, 53, {'name': (0, 20)}),
+    # monster attribute (属性, monster book top right): one kanji per 4-byte slot; relocated (engine.RELOC)
+    ('elem', 0x020140F4, 0x021233D8, 0x4, 10, {'name': (0, 4)}),
     ('title', 0x0201419C, 0x02123400, 0x4C, 130, {'name': (0, 20)}),
     ('keyitem', 0x02014200, 0x0212AFE4, 0x88, 30, {'name': (4, 24), 'reading': (24, 44), 'desc': (44, 122)}),
     ('item', 0x0201421C, 0x0212BFD4, 0xA4, 34, {'name': (4, 24), 'reading': (24, 44), 'desc': (44, 122),
@@ -43,9 +45,10 @@ TABLES = [
 
 
 # Pointer targets that decode as text but are not text (checked by eye, 2026-11-18): table bases and numeric words
-# (0210D328, 0210D338, 021233D8 = the 4-byte array before the title table, 02194FD8, 021958B8), kana class lists
-# used by the name-entry code (021AE0C8-021AE34C; not displayed), and numeric data near the end (021B6E9C-021B6FEC).
-NOT_TEXT = {0x0210D328, 0x0210D338, 0x021233D8, 0x02194FD8, 0x021958B8, 0x021AE0C8, 0x021AE13C, 0x021AE15C,
+# (0210D328, 0210D338, 02194FD8, 021958B8), kana class lists used by the name-entry code (021AE0C8-021AE34C; not
+# displayed), and numeric data near the end (021B6E9C-021B6FEC). 021233D8 was listed here until phase 5: it is the
+# `elem` table (the monster book's 属性 kanji).
+NOT_TEXT = {0x0210D328, 0x0210D338, 0x02194FD8, 0x021958B8, 0x021AE0C8, 0x021AE13C, 0x021AE15C,
             0x021AE1F0, 0x021AE2A4, 0x021AE2F0, 0x021AE34C, 0x021B6E9C, 0x021B6EA8, 0x021B6EE4, 0x021B6EF0,
             0x021B6FEC}
 # Name-entry kana keyboard rows (021AA0F8-021AA2A8) stay in as text: they are drawn on the entry screen.

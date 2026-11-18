@@ -77,7 +77,7 @@ def lint_entry(e, eng):
             errs.append('message over 255 codes')
     b = budget(e['kind'])
     if b:
-        checks = [b] + b.get('also', [])
+        checks = [c for c in [b] + b.get('also', []) if 'px' in c]   # no px: not drawn (sort keys, placeholders)
         for pg in pages(en):
             if len(pg) > b.get('lines', 1):
                 errs.append('%d lines > %d per page' % (len(pg), b.get('lines', 1)))

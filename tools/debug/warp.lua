@@ -69,6 +69,9 @@ local function load_scene(name)
 end
 
 local sc, scpath = load_scene(SCENE or error("set --var \"SCENE='name'\""))
+-- EXTRA='tok tok': tokens appended to the scene's `set` for one run: warp-time ones (inv, wOFF=HEX, fNNN ...)
+-- and further inputs after the scene's own (e.g. EXTRA='t128,56 w100 a' to buy from a shop list)
+if EXTRA then sc.set = (sc.set or "") .. " " .. EXTRA end
 local kind = sc.kind
 local target = tonumber(sc.arg ~= "" and sc.arg or "0", 16) or 0
 local mash = tonumber(sc.mash) or 0
@@ -169,7 +172,7 @@ end
 function fill_inventory()
   local base, k = memory.readdword(0x021BA3A0) + 0x10D8, 0
   for cat in (INV_CATS or "4"):gmatch("%x+") do
-    for id = 0, (INV_N or 34) - 1 do
+    for id = INV_FROM or 0, (INV_FROM or 0) + (INV_N or 34) - 1 do
       memory.writedword(base + 4 * k, 0x01000000 + tonumber(cat, 16) * 0x100 + id + 1)
       k = k + 1
     end
