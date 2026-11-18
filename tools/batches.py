@@ -361,6 +361,25 @@ def fill_readings(files):
     return touched
 
 
+LONG = ROOT / 'docs' / 'long-messages.tsv'
+
+
+def defer_long(name, ids):
+    """Keep translations over the 255-code message buffer in docs/long-messages.tsv (id, batch, English) until the
+    engine's expansion buffer is enlarged; they are not merged."""
+    got, _, _ = read_out(name)
+    have = {}
+    if LONG.exists():
+        for line in LONG.read_text(encoding='utf-8').splitlines()[1:]:
+            c = line.split('\t')
+            have[c[0]] = line
+    for i in ids:
+        have[i] = '%s\t%s\t%s' % (i, name, got[i])
+        print('  deferred (over 255 codes): %s -> %s' % (i, LONG.name))
+    LONG.write_text('id\tbatch\ten\n' + '\n'.join(have[k] for k in sorted(have)) + '\n', encoding='utf-8',
+                    newline='\n')
+
+
 def cmd_check(a, write=False):
     files = load_files()
     byid = {e['id']: e for f, e in all_entries(files)}
@@ -368,6 +387,13 @@ def cmd_check(a, write=False):
     bad, allfinal = [], {}
     for name in a.batches:
         errs, warns, final = check_batch(name, byid, gl)
+        if getattr(a, 'defer_long', False):
+            longs = [x.split(':')[0] for x in errs if x.endswith('message over 255 codes')]
+            if longs:
+                defer_long(name, longs)
+                errs = [x for x in errs if x.split(':')[0] not in longs]
+                for i in longs:
+                    final.pop(i, None)
         _, _, report = read_out(name)
         for w in warns if a.verbose else []:
             print('  warn', w)
@@ -424,6 +450,8 @@ def main():
         p = sp.add_parser(c)
         p.add_argument('batches', nargs='+')
         p.add_argument('-v', '--verbose', action='store_true')
+        p.add_argument('--defer-long', action='store_true',
+                       help='merge the batch without messages over 255 codes; keep those in docs/long-messages.tsv')
     p = sp.add_parser('wrap')
     p.add_argument('text', nargs='+')
     p.add_argument('--kind', default='msg')

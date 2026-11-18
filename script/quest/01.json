@@ -732,7 +732,7 @@
   {
    "id": "quest.02E64",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -753,7 +753,7 @@
   {
    "id": "quest.02EB4",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -774,7 +774,7 @@
   {
    "id": "quest.02F04",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -795,7 +795,7 @@
   {
    "id": "quest.02F54",
    "jp": "リンラーゴ山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinrago Mountains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -816,7 +816,7 @@
   {
    "id": "quest.02FA8",
    "jp": "リンラーゴ山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinrago Mountains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -837,7 +837,7 @@
   {
    "id": "quest.02FFC",
    "jp": "リンラーゴ山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinrago Mountains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -858,7 +858,7 @@
   {
    "id": "quest.03050",
    "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -879,7 +879,7 @@
   {
    "id": "quest.030A4",
    "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -900,7 +900,7 @@
   {
    "id": "quest.030F8",
    "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Norunaji Forest and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -921,7 +921,7 @@
   {
    "id": "quest.0314C",
    "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -942,7 +942,7 @@
   {
    "id": "quest.0319C",
    "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -963,14 +963,14 @@
   {
    "id": "quest.031EC",
    "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Oran Cave and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03220",
    "jp": "氷河の魔物討伐",
-   "en": "",
+   "en": "Glacier Hunt",
    "kind": "title",
    "refs": 1
   },
@@ -984,14 +984,14 @@
   {
    "id": "quest.0323C",
    "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03270",
    "jp": "氷河の魔物討伐",
-   "en": "",
+   "en": "Glacier Hunt",
    "kind": "title",
    "refs": 1
   },
@@ -1005,14 +1005,14 @@
   {
    "id": "quest.0328C",
    "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.032C0",
    "jp": "氷河の魔物討伐",
-   "en": "",
+   "en": "Glacier Hunt",
    "kind": "title",
    "refs": 1
   },
@@ -1026,14 +1026,14 @@
   {
    "id": "quest.032DC",
    "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Rinnam Glacier and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03310",
    "jp": "火山の魔物討伐",
-   "en": "",
+   "en": "Volcano Hunt",
    "kind": "title",
    "refs": 1
   },
@@ -1047,14 +1047,14 @@
   {
    "id": "quest.0332C",
    "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03364",
    "jp": "火山の魔物討伐",
-   "en": "",
+   "en": "Volcano Hunt",
    "kind": "title",
    "refs": 1
   },
@@ -1068,14 +1068,14 @@
   {
    "id": "quest.03380",
    "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.033B8",
    "jp": "火山の魔物討伐",
-   "en": "",
+   "en": "Volcano Hunt",
    "kind": "title",
    "refs": 1
   },
@@ -1089,7 +1089,7 @@
   {
    "id": "quest.033D4",
    "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Byonrin Volcano and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1110,7 +1110,7 @@
   {
    "id": "quest.03428",
    "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1131,7 +1131,7 @@
   {
    "id": "quest.03478",
    "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1152,7 +1152,7 @@
   {
    "id": "quest.034C8",
    "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Rinburo Plains and{br}elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1173,7 +1173,7 @@
   {
    "id": "quest.03518",
    "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Muterin Mountains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1194,7 +1194,7 @@
   {
    "id": "quest.0356C",
    "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Muterin Mountains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
@@ -1215,42 +1215,42 @@
   {
    "id": "quest.035C0",
    "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "",
+   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Muterin Mountains{br}and elsewhere.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03FBC",
    "jp": "潜入、双子島",
-   "en": "",
+   "en": "Twin Islands Entry",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.03FCC",
    "jp": "双子島へ上陸",
-   "en": "",
+   "en": "Land on the Twin Islands.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03FDC",
    "jp": "双子島へ上陸",
-   "en": "",
+   "en": "Land on the Twin Islands.",
    "kind": "desc",
    "refs": 1
   },
   {
    "id": "quest.03FEC",
    "jp": "初めてのバトル",
-   "en": "",
+   "en": "First Battle",
    "kind": "title",
    "refs": 1
   },
   {
    "id": "quest.03FFC",
    "jp": "ガブリ貝２匹を倒す",
-   "en": "",
+   "en": "Defeat two Snapclams.",
    "kind": "desc",
    "refs": 1
   }

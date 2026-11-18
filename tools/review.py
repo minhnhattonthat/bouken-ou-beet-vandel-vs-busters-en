@@ -98,8 +98,8 @@ def cmd_apply(a):
             m = batches.LINE.match(l)
             if m:
                 idx[m.group(1)] = i
-        n = 0
-        byid = {e['id']: e for f, e in batches.all_entries(batches.load_files())}
+        n, kept = 0, []
+        byid ={e['id']: e for f, e in batches.all_entries(batches.load_files())}
         for sev in ('Critical', 'Important'):
             for i, text in res[sev]:
                 en = suggested(text)
@@ -109,6 +109,7 @@ def cmd_apply(a):
                     errs = batches.lint.lint_entry(dict(byid[i], en=batches.finish(en, byid[i])), batches.eng())
                     if errs:
                         print('  %s: %s kept (suggestion fails: %s)' % (name, i, errs[0][:80]))
+                        kept.append((i, 'review suggestion blocked by width: %s' % errs[0][:100]))
                         continue
                     lines[idx[i]] = '%s\t%s' % (i, en)
                     n += 1
@@ -121,7 +122,7 @@ def cmd_apply(a):
             outp.write_text('\n'.join(lines) + '\n', encoding='utf-8')
         rc = batches.cmd_check(argparse.Namespace(batches=[name], verbose=False), write=True)
         bad += rc
-        polish_minors(name, res['Minor'])
+        polish_minors(name, res['Minor'] + kept)
         print('%s: %d fixes applied, merge rc %d' % (name, n, rc))
     return 1 if bad else 0
 

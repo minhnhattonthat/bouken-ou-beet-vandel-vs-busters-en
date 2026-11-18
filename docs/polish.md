@@ -397,3 +397,64 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.49AA8 - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance H'
 - [ ] rom.4A220 - b017 review: line 1: 86 px > 80 (12 px font) 'Resistance K'
 - [ ] rom.4A324 - b017 review: line 1: 85 px > 80 (12 px font) 'Resistance L'
+
+## Review minors b018
+- [ ] quest.009C0 - "渦の杯をみたせ" means fill the Whirlpool Chalice - Drops the objective verb retained in the other chalice titles - Fill the Whirlpool Chalice
+- [ ] quest.00C0C - "極の杯をみたせ" means fill the Ultimate Chalice - Drops the objective verb retained in the other chalice titles - Fill the Ultimate Chalice
+- [ ] quest.00E44 - "ジーク戦士団登場" announces Zeke's Squad's appearance - "Is In" sounds awkward and leaves its meaning unclear - Enter Zeke's Squad
+- [ ] quest.0059C - review suggestion blocked by width: Lurker in the Underground Lake (120 px title)
+- [ ] quest.00658 - review suggestion blocked by width: The Underground Lake Gate
+- [ ] quest.01108 - review suggestion blocked by width: All Sealing Rings Destroyed
+- [ ] quest.04430 - CUT: 再会、ビィト戦士団 "The Beet Warriors" drops the reunion ("Beet Warriors Again" 126 px > 120 jp-bound title)
+
+## Flagged cuts (added)
+- [ ] quest.0059C - CUT (b018): "Underground" omitted from the title to fit.
+- [ ] quest.00658 - CUT (b018): "Underground" omitted from the title to fit.
+- [ ] quest.009C0 - CUT (b018): "Fill" omitted from the title to preserve Whirlpool Chalice.
+- [ ] quest.00C0C - CUT (b018): "Fill" omitted from the title to preserve Ultimate Chalice.
+- [ ] quest.00D6C - CUT (b018): Former crookedness left implicit in "Reformed" to fit.
+- [ ] quest.01E40 - CUT (b018): Gathering action omitted from the title to preserve Medicinal Flowers.
+- [ ] quest.025E4 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.026D4 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.027D0 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.028C0 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.029A4 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.02A94 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.02B78 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.02C68 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.02D58 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.02E48 - CUT (b018): "Monster" omitted from the title to fit.
+- [ ] quest.04070 - CUT (b019): Omitted explicit "Arrive" from the title.
+- [ ] quest.04194 - CUT (b019): Omitted explicit "Monsters" from the title.
+- [ ] quest.04254 - CUT (b019): Omitted "Buster" from the title.
+- [ ] quest.04298 - CUT (b019): Omitted "Silver" from the title.
+- [ ] quest.049E4 - CUT (b019): Shortened "Bridge Master" to "Master" in the title.
+- [ ] quest.04A74 - CUT (b019): Omitted "Learn" from the title.
+- [ ] quest.05578 - CUT (b019): Omitted "village" from the title.
+- [ ] quest.055B4 - CUT (b019): Omitted "Statue" from the title.
+- [ ] quest.055D8 - CUT (b019): Omitted "Golden" from the title.
+- [ ] quest.05900 - CUT (b020): Omitted Dark Notes from the lender's title.
+- [ ] quest.05ABC - CUT (b020): Omitted explicit mention of the mine to fit the title.
+- [ ] quest.05C3C - CUT (b020): Omitted Sealing to fit the title.
+- [ ] quest.05CA8 - CUT (b020): Omitted Lord of Dreams to fit the title.
+- [ ] quest.05ED0 - CUT (b020): Omitted explicit emphasis on total conquest to fit the title.
+- [ ] quest.05F00 - CUT (b020): Omitted explicit mention of hope to fit the title.
+- [ ] quest.06564 - CUT (b020): Omitted Deadly Blade to fit the title.
+- [ ] quest.06594 - CUT (b020): Omitted Immovable Giant to fit the title.
+- [ ] quest.06708 - CUT (b020): Omitted Giant Butterfly to fit the title.
+- [ ] quest.06750 - CUT (b020): Omitted Vandel from the epithet to fit the title.
+- [ ] rom.011F4 - CUT (b021): Compressed to fit: omitted the sudden arrival, explicit castle-base role, and Appraiser's expected role in opposing the invasion.
+- [ ] rom.0393C - CUT (b022): Shortened the worldwide origins and combat explanation; omitted the explicit size of Vandel bounties.
+- [ ] rom.03B54 - CUT (b022): Shortened Kingdom of Gransista to Gransista; omitted the father reference, Association support explanation, nationwide hut network and request-based reward scaling.
+- [ ] rom.0410C - CUT (b022): Omitted the conversational replies, offer to teach basics and final comprehension question; compressed the branding explanation and gradual improvement.
+- [ ] rom.07B00 - CUT (b025): Shortened recognition, pauses, repeated throat-clearing and emphasis on the silver's special nature to fit 255 codes.
+- [ ] rom.08944 - CUT (b025): Shortened the uncertain causal explanation, monsters' location in golden areas, island-protection motive, mining and flame-keeping details, and the hero's return as a strong Buster to fit 255 codes.
+- [ ] rom.1352C - CUT (b031): Condensed repeated musings and omitted hearsay qualifiers to fit the code cap.
+- [ ] rom.1CCC4 - CUT (b035): Shortened titles and repeated names; omitted panting, stammering, hell imagery, repeated urgency and farewell to fit the 255-code cap.
+- [ ] rom.27BA0 - CUT (b036): Condensed repeated purchasing instructions and verbal flourishes to fit the code cap.
+- [ ] rom.2B134 - CUT (b037): Abbreviated Association to Assoc. to fit the width limit.
+- [ ] rom.41168 - CUT (b042): Compressed the Lounge's value as a social gathering place and the invitation to use the door on future visits.
+- [ ] rom.41378 - CUT (b042): Omitted the explicit explanation that the Dark Vein is a vein of Dark Power.
+- [ ] rom.419B0 - CUT (b042): Compressed the Dark Note standard metaphor and repeated emphasis on the tiny interest charge.
+- [ ] rom.4F2B0 - CUT (b049): Condensed greetings, praise and the reference to the magnificent plan to fit the code cap.
+- [ ] rom.4F468 - CUT (b049): Condensed the introductory explanation, repeated promotion and location references, and closing invitations to fit the code cap.
