@@ -2,13 +2,26 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 9599030726e8d5a6f1f474019096512de9b01d7e (session 22: appraiser level-up {page}), check.py green
-  (71 tests). **Text coverage done: `textcov.py report work/qa/en work/qa/gallery work/qa/cover --waive
-  docs/text_unshown.tsv` = 0 failing (9009 shown, 463 waived).**
-  Left for the done-when: **only the re-tour + vqasheets + qa_gate on this build** (Next (1), (5)). The tour
-  work/qa/en is mixed: the session-22 re-tour was killed by Claude Code for low system memory partway (some scene
-  dirs are new, most from 50c319fb), so run the whole tour again, with `--jobs 1` if memory is short.
+- **Phase:** 9. Release, next (phase 8 done 2026-11-19, session 24).
+  Build sha1 058c9386752b9c9b7ecea34f4a3279cc026fba95, check.py green (71 tests), smoke ok.
+  Phase 8 done-when met on this build: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0 (207 sheets,
+  all ok; tour on 95990307 + waiver for the one-entry hotfix to 058c9386, see session 24), `textcov.py report
+  work/qa/en work/qa/gallery work/qa/cover --waive docs/text_unshown.tsv` = 0 failing (9009 shown, 463 waived),
+  `tools/tagbox.py work/qa/en` 184 tag shots / 0 off-centre, graphics survey closed (radio screens: wireless only,
+  unreachable). Phase 9 next: story-pass verdicts per chapter, `docs/polish.md` unticked lines, release script.
+- **Phase 8 session 24 (2026-11-19), Orca worker: re-tour finished, all verdicts, gate green.**
+  - Re-tour completed on 95990307 in foreground chunks (`--only`, `--jobs 1`, `timeout 590`; background runs were
+    being reaped for low memory). b27_golden_castle and v07_debt had been cut off by the session-23 kill (no
+    final.png): re-run. Check `for d in work/qa/en/*/; do [ -f $d/final.png ] || echo $d; done` after any killed tour.
+  - vqasheets + `qa_gate init --build`, 33 chunks of 6 through `tools/visualqa.py --jobs 4` (~1 min per 4 chunks).
+    Stale manifest lines whose sheet no longer exists (b15_west_island, v17_noah, b27 before the rerun,
+    vandel_status sheet_9: fewer changed frames now) dropped from work/qa/manifest.tsv.
+  - Fixed from verdicts: rom.3ED04 (Vandel intro, "Sealing Rings") broke a sentence across pages ("...enshrined
+    on{page}sacred silver pedestals."); now 3 pages like the JP. Seen in game (vandel_uptake/sheet (2,4)). The two
+    Vandel scenes re-toured and re-judged on 058c9386, then `qa_gate waive` for that build. vandel_status/sheet_4
+    "you." flagged as a widow is mid-typing (recheck ok, `verdicts/recheck_main_7.tsv`).
+  - Gotcha: every scene that saves (savepoint_yes, book_monsters, ...) leaves
+    `tools/desmume/desmume-qa/Battery/beet_en.dsv`; warp_all moves it at start, but move it before any lone emu.py run.
 - **Phase 8 session 23 (2026-11-19), Orca worker: re-tour killed again for low memory (no code change).**
   - Rebuilt: sha1 unchanged (9599030726e8...). Started `warp_all.py build/beet_en.nds --jobs 1 --out work/qa/en
     --script tools/lua/glyphlog.lua --script tools/lua/textlog.lua`; Claude Code killed it for low system memory
