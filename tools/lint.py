@@ -4,7 +4,7 @@
 
 Errors (exit 1): Japanese left in `en`; text the engine cannot encode; control codes differing from the JP (line
 and page breaks may differ in `msg`); an arm9 / name slot over its byte cap (insert.text_cap); a dialogue message over
-255 codes; a line wider than its kind's budget, or more lines per page than the box has (tools/budgets.json, measured
+engine.MSG_CODES (511) codes or a speaker over engine.SPEAKER_CODES (11), the expansion buffers; a line wider than its kind's budget, or more lines per page than the box has (tools/budgets.json, measured
 in phase 5, evidence in docs/windows.md). Kinds with English but no budget yet are counted in one warning line.
 Runtime variables are measured with stand-ins (VARS): `{hero}` as the widest name the name entry allows.
 """
@@ -17,6 +17,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'tools'))
+import engine  # noqa: E402
 import insert  # noqa: E402
 
 BUDGETS = json.loads((ROOT / 'tools' / 'budgets.json').read_text(encoding='utf-8'))
@@ -73,12 +74,13 @@ def lint_entry(e, eng):
         cap = insert.text_cap(e)
         if n > cap:
             errs.append('%d bytes > slot cap %d' % (n, cap))
-    if e['kind'] == 'msg':
+    lim = {'msg': engine.MSG_CODES, 'speaker': engine.SPEAKER_CODES}.get(e['kind'])
+    if lim:
         full = en
         for k, v in VARS.items():
             full = full.replace(k, v)
-        if len(eng.codes(full)) > 255:
-            errs.append('message over 255 codes')
+        if len(eng.codes(full)) > lim:
+            errs.append('message over %d codes' % lim)
     b = budget(e['kind'])
     if b:
         checks = [c for c in [b] + b.get('also', []) if 'px' in c]   # no px: not drawn (sort keys, placeholders)
@@ -107,6 +109,29 @@ def run(entries, eng):
     return errors, nobudget
 
 
+KEEP_JP = ROOT / 'script' / 'keep_jp.txt'
+
+
+def keep_list(path=KEEP_JP):
+    """{id: reason} from script/keep_jp.txt (`id<TAB>reason` per line, # comments)."""
+    out = {}
+    for line in path.read_text(encoding='utf-8').splitlines() if path.exists() else []:
+        if line.strip() and not line.startswith('#'):
+            i, _, why = line.partition('\t')
+            out[i.strip()] = why.strip()
+    return out
+
+
+def untranslated(entries, keep):
+    """Errors for entries with Japanese and no English that the keep-list does not name, and stale keep lines."""
+    errs = [(e['id'], 'Japanese with no English (translate it or add it to script/keep_jp.txt with a reason)')
+            for e in entries if e['jp'] and not e.get('en') and e['id'] not in keep]
+    have = {e['id']: e for e in entries}
+    errs += [(i, 'in script/keep_jp.txt but %s' % ('translated' if i in have else 'no such id'))
+             for i in keep if i not in have or have[i].get('en')]
+    return errs
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--quiet', action='store_true')
@@ -115,10 +140,13 @@ def main():
     eng = textwidth.load()
     entries = [e for es in insert.load_entries().values() for e in es]
     errors, nobudget = run(entries, eng)
+    keep = keep_list()
+    errors += untranslated(entries, keep)
     for i, m in errors[:200]:
         print('%s: %s' % (i, m))
     done = sum(1 for e in entries if e.get('en'))
-    print('lint: %d entries, %d translated, %d errors' % (len(entries), done, len(errors)))
+    print('lint: %d entries, %d translated, %d kept Japanese (script/keep_jp.txt), %d errors'
+          % (len(entries), done, len(keep), len(errors)))
     if nobudget:
         print('warning: no measured budget for %s' % ', '.join('%s (%d)' % kv for kv in sorted(nobudget.items())))
     return 1 if errors else 0

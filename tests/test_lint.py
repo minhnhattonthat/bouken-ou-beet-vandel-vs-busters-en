@@ -28,6 +28,21 @@ def test_untranslated_is_skipped(eng):
     assert lint.lint_entry(msg(''), eng) == []
 
 
+def test_untranslated_needs_keep_line():
+    ents = [msg(''), dict(msg('Hi.'), id='rom.U')]
+    assert [i for i, _ in lint.untranslated(ents, {})] == ['rom.T']
+    assert lint.untranslated(ents, {'rom.T': 'why'}) == []
+    assert [i for i, _ in lint.untranslated(ents, {'rom.T': 'why', 'rom.U': 'stale', 'rom.X': 'gone'})] == \
+        ['rom.U', 'rom.X']
+
+
+def test_message_code_limits(eng):
+    long = ' '.join(['Mmmm'] * 130) + '{close}'     # > 511 codes (M never pairs)
+    assert any('over 511 codes' in m for m in lint.lint_entry(msg(long, jp='あ{close}'), eng))
+    spk = {'id': 'rom.S', 'kind': 'speaker', 'jp': 'あ', 'en': 'M' * 12}
+    assert any('over 11 codes' in m for m in lint.lint_entry(spk, eng))
+
+
 def test_japanese_left(eng):
     assert any('Japanese' in m for m in lint.lint_entry(msg('Hello あ'), eng))
 

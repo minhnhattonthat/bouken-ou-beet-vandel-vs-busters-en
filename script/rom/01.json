@@ -11,7 +11,7 @@
   {
    "id": "rom.0410C",
    "jp": "{hero}はまだ{br}バスターになって{br}間もない感じだけど・・・{page}そうなんだ{br}まだ新人さんなんだね{page}え？「天撃」のこと・・・かい？{page}基礎なら　ぼくでも{br}教えてあげられると思うよ！{page}{hero}も　鑑定小屋で{br}ブランディングしてもらったよね？{page}じゃあ　天撃が{br}使えるようになっているはずだよ{page}天撃は　大気中のエネルギー「天力」を{br}増幅して　コントロールして使うんだ{page}天撃には{br}「火」「水」「風」「雷」「光」という{br}５つの属性があるよ{page}得意な属性を　たくさん使えば{br}どんどん使いこなして　より強い天撃を{br}マスターできると思うよ！{page}わかったかな？{br}いろいろ　ためしてみてね！{close}",
-   "en": "New, {hero}? Branded at an{br}Appraisal Hut, {hero}? You can{br}use Divine Attacks! Amplify and{page}control Divine Power in the air.{page}Fire, Water, Wind, Lightning, Light: use{br}your best element often to master{br}stronger attacks. Try them!{close}",
+   "en": "You look like you haven't been a{br}Buster for long, {hero}...{page}I see. You're still new to all this.{page}Hm? You want to know about Divine{br}Attacks?{page}I think even I could teach you the{br}basics!{page}You had your branding done at an{br}Appraisal Hut too, right,{br}{hero}?{page}Then you should be able to use{br}Divine Attacks.{page}You use them by amplifying and{br}controlling Divine Power, the energy{br}in the air.{page}Divine Attacks have five elements:{br}Fire, Water, Wind, Lightning, and Light.{page}If you keep using an element you're{br}good at, I think you'll get better and{br}better and master stronger{page}Divine Attacks!{page}Does that make sense? Try{br}experimenting!{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1088,7 +1088,7 @@
   {
    "id": "rom.07B00",
    "jp": "！！{page}おまえはっ・・・{page}フム・・・{br}なかなか　やりそうな{br}バスターだな・・・{page}一応聞いておこう{br}オラに　なんのようだ？{page}フムフム・・・{br}やはり　そうであったか・・・{page}オラの力が　必要とされる時が{br}来たのだな！{page}ウオッホン！！{page}ホレ　これじゃ{br}どうだ　うつくしいだろう！{page}これが　破壊された封印のリングをも{br}修復してしまうという{br}「聖なる銀ホーリーシルバー」であーる！{page}本来は　誰にも　ゆずらん{br}特別な銀なんじゃが・・・{page}この非常事態であーるからして{br}今回は特別に　ゆずってやろう！{page}ホレ　もってけ！！{br}健闘を　祈るのであーる！！{close}",
-   "en": "You're... A fine Buster! What brings{br}you here?{page}Hmm... You need my skills! AHEM! See{br}this lovely \"Holy Silver\"? It repairs{br}broken Sealing Rings! I'd never{page}part with it, but this crisis calls for{br}an exception!{page}Take it! Good luck, my boy!{close}",
+   "en": "!!{page}You're...{page}Hmm... You look to be quite a capable{br}Buster...{page}Still, I shall ask. What brings you to{br}me?{page}Hmm, hmm... Just as I thought...{page}So the time has come when my{br}talents are needed!{page}AHEM!!{page}Here, look at this! Beautiful, isn't it?{page}This is \"Holy Silver,\" said to restore{br}even broken seal rings!{page}Normally, I wouldn't part with this{br}special silver for anyone...{page}But given this emergency, I shall{br}make an exception!{page}Here, take it!! I wish you every{br}success!{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1

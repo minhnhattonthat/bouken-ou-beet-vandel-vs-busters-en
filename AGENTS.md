@@ -4,7 +4,7 @@ Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.js
 
 ## Commands (run from repo root)
 - Build:    `python -X utf8 tools/build.py`        -> build/beet_en.nds (checks the dump against `rom.sha1` first; written in phase 3)
-- Check:    `python -X utf8 tools/check.py`  (tests + lint; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
+- Check:    `python -X utf8 tools/check.py`  (tests + lint + per-file ROM check `tools/romcheck.py`; the pre-commit hook runs this; hooks path: `git config core.hooksPath tools/hooks`)
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/beet_en.nds --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/beet_en.nds --out work/qa/warp --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 900 --sheet` (scenes: `tools/debug/scenes.tsv`; all scenes + states into `work/states/`: `python -X utf8 tools/debug/warp_all.py`, which also writes the battery-save fixtures in `work/saves/` (e.g. `clear_save.dsv` for the post-clear title menus); never ask the user to play to a scene)
 - Release:  `python -X utf8 tools/release.py` (patch + verify; never publish without the user)

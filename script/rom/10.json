@@ -205,7 +205,7 @@
   {
    "id": "rom.409E0",
    "jp": "よし・・・ワシはここに{br}城を建てることにした・・・{page}その名も「黄金城」{page}・・・どうだ・・・{br}「強欲君主」の名に{br}ふさわしかろう・・・{page}金の輝きはすばらしい・・・{page}ワシにとって　全てを忘れさせてくれる{br}至高の存在なのだ・・・{page}いいな・・・{br}島中の「封印のリング」を{br}破壊しろ・・・{page}ワシを待たせるなよ・・・{br}さっさとこの島中を　黄金で{br}埋め尽くせ・・・分かったな・・・{page}さて・・・城を建てるには{br}モンスターの「ビルドアント」が{br}必要だ・・・{page}モンスターの購入は{br}どこでするか・・・{page}それくらいは　貴様にも{br}分かるよな・・・？{close}",
-   "en": "I'll build my Golden Castle here! Fit for{br}the Greedy Overlord, eh? Gold's{br}sublime glow makes me forget all{page}else! Smash every Sealing Ring! Cover{br}this island in gold! Hurry!{page}I need Build Ants to build it. Surely{br}you know where to buy monsters?{close}",
+   "en": "Well... I've decided to build a castle{br}here...{page}I shall call it the \"Golden Castle\"!{page}...Well? A fitting name for the{br}\"Greedy Overlord,\" wouldn't you{br}say...?{page}The brilliance of gold is magnificent...{page}To me, it is perfection itself... It{br}makes me forget everything else...{page}Now listen... Destroy every \"Sealing{br}Ring\" on the island...{page}Don't keep me waiting... Hurry up and{br}cover this entire island in gold...{br}Understood...?{page}Now... To build my castle, I'll need{br}some \"Build Ants\"...{page}And where does one buy{br}monsters...?{page}Surely even you know that much...?{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -325,7 +325,7 @@
   {
    "id": "rom.41168",
    "jp": "あちらの談話スペースには　いろいろな{br}ヴァンデルのみなさまが{br}いらっしゃいます{page}ヴァンデルのみなさまの　貴重な{br}社交場となっておりますので{br}ご活用くださいね・・・！{page}そうそう・・・{page}黄金城完成の折には　私から黄金城に{br}「地脈の扉」を　プレゼントさせて{br}いただきます！{page}「魔賓館」にご来館の際は{br}ぜひ　そちらをご活用くださいませ！！{page}それまでの間は　どうぞお気軽に{br}このシャギーに　お申し付け{br}ください・・・！{page}私は魔賓館を留守にしがちですが{br}お帰りの際は　タロトスに言って{br}いただければ　いつでも戻って参ります{close}",
-   "en": "Do meet the Vandels in our Lounge!{page}Once Golden Castle is built, I'll give it{br}a Leyline Door to Vandel House. Until{br}then, just ask me, Shagie, to{page}escort you! I'm often away, but tell{br}Tarotos when you wish to leave,{br}and I'll return.{close}",
+   "en": "Over in the Lounge, you will find all{br}manner of Vandels...{page}It is a valued gathering place for our{br}Vandel guests, so please do make{br}use of it...!{page}Oh, yes...{page}Once the Golden Castle is complete,{br}I shall present it with a \"Leyline{br}Door\" as my personal gift!{page}Please do use it whenever you wish{br}to visit the \"Vandel House\"!!{page}Until then, simply ask your humble{br}Shagie... I shall be delighted to assist{br}you...!{page}My duties often take me away from{br}the Vandel House, but whenever{br}you wish to leave, just tell{page}Tarotos, and I shall return.{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -340,7 +340,7 @@
   {
    "id": "rom.41378",
    "jp": "それはそうと・・・{br}{vandel}様・・・{page}あの島の　金の鉱脈に複雑に{br}絡み合うようにして眠る　冥力の{page}鉱脈とも言える「冥脈」の存在を{br}知っての　今回のご出陣・・・{page}いやぁ・・・{br}なんともすばらしい！！{page}ハーデン様は「封印のリング」の{br}破壊によってもたらされる黄金が{br}目当てですが{page}あなた様はちがう・・・{page}あなた様は　強大な{br}「冥脈」の力を手に入れ{page}「七ッ星」ヴァンデルにも{br}匹敵する力を　手にいれようと{br}お考えですね・・・{page}いまだ　誰も気付かなかったことを{br}「二ッ星」のあなた様がなされようと{br}している・・・{page}いやぁ・・・{br}考えただけでわくわくしてきます・・・！{close}",
-   "en": "{vandel}-sama! You came{br}knowing the Dark Vein sleeps{br}entwined with the gold! Splendid!{page}Harden-sama wants gold from{br}broken Sealing Rings. You seek Dark{br}Vein power to rival a Seven-Star{page}Vandel! A Two-Star pursuing what{br}none saw before! How exciting!{close}",
+   "en": "Speaking of which...{br}{vandel}-sama...{page}You embarked on this expedition{br}knowing of the \"Dark Vein\" that lies{br}dormant, intricately entwined with{page}the island's gold deposits...{page}A vein of Dark Power, one might call{br}it...{page}My, my... How utterly splendid!!{page}Harden-sama seeks the gold{br}released by destroying the \"Sealing{br}Rings\"...{page}But you have something else in{br}mind...{page}You intend to claim the tremendous{br}power of the \"Dark Vein\"...{page}And gain strength to rival even a{br}\"Seven-Star\" Vandel... Is that not{br}so...?{page}Though you are still \"Two-Star,\" you{br}are pursuing an opportunity no one{br}else has even noticed...{page}Oh, just thinking about it fills me{br}with excitement...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -429,7 +429,7 @@
   {
    "id": "rom.419B0",
    "jp": "まぁまぁまぁ・・・{br}そう熱くならずに・・・{page}ビルドアントは{br}値がはりますからね・・・{page}そこで私の出番！{br}ということなんですが・・・{page}はじめまして・・・{br}私は「ガネール」・・・{page}みなさまからは{br}「暗黒の世紀の催促人」と{br}呼ばれております・・・{page}この世は魔札が全て・・・{br}魔札本位制でございます・・・{br}何をするにも魔札が必要・・・{page}しかし　手元の魔札が残り寂しい時も{br}あるでしょう・・・{page}そんな時に　わたくしが魔札を{br}お貸しするわけです・・・{page}もちろん　タダでお貸しするわけには{br}いきません・・・{page}ほんの少し　利子をつけて{br}返していただきます・・・{page}ほんの少しだけね・・・{br}クフフ・・・{close}",
-   "en": "Now, calm down! Build Ants cost a{br}lot. I can help! Ganeer, Debt Collector{br}of the Dark Century, at your{page}service. Dark Notes rule all;{br}everything costs! Short of funds? I{br}lend Dark Notes, for a fee: repay{page}with just a tiny bit of interest...{br}Kuhuhu...{close}",
+   "en": "Now, now... Please, no need to get{br}so heated...{page}Build Ants are rather expensive,{br}after all...{page}And that is where my services come{br}in!{page}A pleasure to meet you... My name is{br}\"Ganeer\"...{page}I am known as the \"Debt Collector of{br}the Dark Century\"...{page}Dark Notes are everything in this{br}world... We operate on the Dark Note{br}standard... Whatever you do, you{page}need Dark Notes...{page}Of course, there may be times when{br}your funds are looking rather{br}meager...{page}That is when I can offer you a loan{br}of Dark Notes...{page}Naturally, I cannot lend them free of{br}charge...{page}You simply repay me with a tiny bit{br}of interest...{page}Just a tiny bit... Kuhuhu...{close}",
    "kind": "msg",
    "speaker": "ガネール",
    "refs": 1

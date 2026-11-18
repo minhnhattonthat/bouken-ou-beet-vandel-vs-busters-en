@@ -1,4 +1,5 @@
 """English engine (tools/engine.py, docs/re/vwf.md): encoder rules and the arm9 patch."""
+import re
 import struct
 import sys
 from pathlib import Path
@@ -94,7 +95,9 @@ def test_arm9_patch(rom, eng):
     assert blocks[-1][0] == engine.BLOCK
     arena = struct.unpack_from('<I', a, engine.ARENA_LIT - engine.A9)[0]
     assert arena == engine.BLOCK + blocks[-1][1]
-    assert len(log) == len(engine.SITES) + len(engine.RELOC)
+    # append + module params + arena literal + one per site + two per relocated table (literal, scale insn)
+    assert len(log) == 3 + len(engine.SITES) + 2 * len(engine.RELOC)
+    assert all(re.match(r'arm9 (append [0-9A-F]+ |[0-9A-F]+ [0-9a-f]+ [0-9a-f]+ )', line) for line in log)
     assert all(v < engine.BLOCK + 0x400 for k, v in labels.items() if not k.startswith('R_'))
     # relocated tables: the accessor literal points at the copy in the block (block = autoload at BLOCK, stored
     # at file offset p[0] - size), which holds the original records at the new stride

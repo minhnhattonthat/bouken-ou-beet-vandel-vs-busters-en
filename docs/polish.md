@@ -447,10 +447,10 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.0393C - CUT (b022): Shortened the worldwide origins and combat explanation; omitted the explicit size of Vandel bounties.
 - [ ] rom.03B54 - CUT (b022): Shortened Kingdom of Gransista to Gransista; omitted the father reference, Association support explanation, nationwide hut network and request-based reward scaling.
 - [ ] rom.0410C - CUT (b022): Omitted the conversational replies, offer to teach basics and final comprehension question; compressed the branding explanation and gradual improvement.
-- [ ] rom.07B00 - CUT (b025): Shortened recognition, pauses, repeated throat-clearing and emphasis on the silver's special nature to fit 255 codes.
-- [ ] rom.08944 - CUT (b025): Shortened the uncertain causal explanation, monsters' location in golden areas, island-protection motive, mining and flame-keeping details, and the hero's return as a strong Buster to fit 255 codes.
+- [x] rom.07B00 - CUT (b025): Shortened recognition, pauses, repeated throat-clearing and emphasis on the silver's special nature to fit 255 codes. (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.08944 - CUT (b025): Shortened the uncertain causal explanation, monsters' location in golden areas, island-protection motive, mining and flame-keeping details, and the hero's return as a strong Buster to fit 255 codes. (done: limit raised to 511 codes, review suggestion applied)
 - [ ] rom.1352C - CUT (b031): Condensed repeated musings and omitted hearsay qualifiers to fit the code cap.
-- [ ] rom.1CCC4 - CUT (b035): Shortened titles and repeated names; omitted panting, stammering, hell imagery, repeated urgency and farewell to fit the 255-code cap.
+- [x] rom.1CCC4 - CUT (b035): Shortened titles and repeated names; omitted panting, stammering, hell imagery, repeated urgency and farewell to fit the 255-code cap. (done: limit raised to 511 codes, review suggestion applied)
 - [ ] rom.27BA0 - CUT (b036): Condensed repeated purchasing instructions and verbal flourishes to fit the code cap.
 - [ ] rom.2B134 - CUT (b037): Abbreviated Association to Assoc. to fit the width limit.
 - [ ] rom.41168 - CUT (b042): Compressed the Lounge's value as a social gathering place and the invitation to use the door on future visits.
@@ -494,24 +494,24 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 ## Review minors b026
 - [ ] rom.0ADA4 - "いつもの夫婦ゲンカ" teasingly calls their familiar bickering a marital spat - "Another married-couple quarrel" sounds stiff and weakens the joke - (Here we go again! Bickering like an old married couple!)
 - [ ] rom.0AF20 - "おまえ 二刀流なのか!?" expresses surprise that the hero fights with two weapons - "You use Dual Wielding" sounds like a menu description - Oh... // Whoa!! {hero}, you know Dual Wielding?!
-- [ ] rom.09A98 - review suggestion blocked by width: message over 255 codes
+- [x] rom.09A98 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b021
-- [ ] rom.011F4 - review suggestion blocked by width: message over 255 codes
+- [x] rom.011F4 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b022
 - [ ] rom.03294 - "いつもの夫婦ゲンカ" teasingly calls their habitual bickering a marital quarrel - "Their usual married-couple quarrel" sounds stiff and weakens the joke - suggested EN: (They always bicker like an old married couple...)
-- [ ] rom.0393C - review suggestion blocked by width: message over 255 codes
-- [ ] rom.03B54 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.0410C - review suggestion blocked by width: message over 255 codes
+- [x] rom.0393C - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.03B54 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.0410C - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b024
 - [ ] rom.06050 - "たすけて あ げ る": flirtatiously drawn-out offer to help - "A helping... little... hand" sounds awkward and misplaces the teasing emphasis - Let this superheroine of justice, BB Milfa, help... you... out! // Let's see...
 - [ ] rom.066A0 - "おそらく": probably; monsters are suspected of stopping the pigeons - "No doubt" overstates the Chief's certainty - A carrier pigeon recently arrived from Mirei Forest Village... // They report that many monsters have begun appearing in Mirei Forest... // Monsters alone would be troubling enough, but something resembling a Vandel has also been sighted... // East Island, too, may be falling into the Vandels' clutches, starting with Mirei Forest... // I wish I knew what has happened since, but no more pigeons have arrived... // Likely the work of monsters... // I fear for Mirei Forest Village, my boy...
 
 ## Review minors b025
-- [ ] rom.07B00 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.08944 - review suggestion blocked by width: message over 255 codes
+- [x] rom.07B00 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.08944 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b027
 - [ ] rom.0CF48 - "モンスターとは桁違いのプレッシャーじゃん" describes the Vandel's overwhelmingly intimidating presence - "The pressure's on a whole other level from a monster" is a stiff calque - Th-this is bad... So this is a Vandel... // Monsters have nothing on this guy... Talk about intimidating...
@@ -525,26 +525,26 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.12D2C - 「知的に考えたまえ」 tells them to use their intellect - "Think intellectually" is a stiff calque - suggested EN: Are you the one who awakened me? // Apply your intellect... The fact that I emerged from a stone statue means...
 
 ## Review minors b031
-- [ ] rom.1352C - review suggestion blocked by width: message over 255 codes
+- [x] rom.1352C - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b032
-- [ ] rom.169D8 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.16CA8 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.17450 - review suggestion blocked by width: message over 255 codes
+- [x] rom.169D8 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.16CA8 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.17450 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b033
 - [ ] rom.19318 - 「命がいくらあっても足りない」 means even countless lives would not be enough - "No number of lives will save you" is a stiff calque that weakens Slade's dry warning - Wander around carelessly and you'll blunder into traps. You'll run out of lives fast...
 
 ## Review minors b034
 - [ ] rom.1AF34 - "願いが込められた手作りのお守り・・・って" repeats the explanation incredulously: a handmade charm imbued with a wish - "You mean..." awkwardly suggests an unfinished clarification - suggested EN: ... Uh-huh... // A handmade charm with a wish woven into it... You're sayin'...
-- [ ] rom.1B5D4 - review suggestion blocked by width: message over 255 codes
+- [x] rom.1B5D4 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b035
-- [ ] rom.1CCC4 - review suggestion blocked by width: message over 255 codes
+- [x] rom.1CCC4 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b036
 - [ ] rom.23FEC - "倒れた木を壊した!" means the fallen tree was destroyed - "Broke the fallen tree" sounds unnatural for clearing an obstacle - You smashed the fallen tree!
-- [ ] rom.27BA0 - review suggestion blocked by width: message over 255 codes
+- [x] rom.27BA0 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b037
 - [ ] rom.2AD18 - "ウッ・・・ グスッ・・・" conveys choked sobbing - "Ugh" suggests disgust or frustration rather than tears - We're just leaving it all to you, {hero}... // Making you do everything dangerous... // If anything happened to you, {hero}... I... I... // *sob*... *sniff*...
@@ -560,10 +560,10 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.3E568 - 「アイテムゲット」 labels item acquisition - "Item Get" is unnatural English, even as a debug sound label - Item Obtained
 
 ## Review minors b042
-- [ ] rom.409E0 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.41168 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.41378 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.419B0 - review suggestion blocked by width: message over 255 codes
+- [x] rom.409E0 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.41168 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.41378 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.419B0 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b043
 - [ ] rom.42518 - 島中を黄金に染める: turn the whole island to gold - "These whole islands" is unnatural English - A Vandel's power can destroy a mere "Sealing Ring" in one blow... // You might not even need to strike it... // When you find a "Sealing Ring," just try touching it... // That's all it takes to destroy a "Sealing Ring"!! // Heh heh heh... // I can hardly stand it... // Oh, don't worry... // Even a greenhorn like you can't possibly mess this up... // Go...! Turn every inch of the island to gold, just as I desire!!
@@ -571,7 +571,7 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 
 ## Review minors b044
 - [ ] rom.45344 - Diam boasts that the island's rumors have reached even him, then realizes who he is addressing - "Even I... heard!" is awkwardly incomplete, and the compressed opening loses his suspicious question - Hey! Don't tell me you've come to uncover this island's secret too... // This island's been quite the topic of conversation around the Bekatorte Seas lately... // Naturally, those rumors reached even me, "Steel Claw" Diam-sama, the strongest in the Bekatorte Seas... // If the "Greedy Overlord" himself has come here, there must be something to it... // They say he's brought an underling with conspicuously long horns... // ...!! // Oh, no! Those horns! Don't tell me...! I let that slip! // No matter... I'll just have to silence you! // SEYAAAAAA!!
-- [ ] rom.44EEC - review suggestion blocked by width: message over 255 codes
+- [x] rom.44EEC - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b045
 - [ ] rom.46E34 - "このあたいが キャーだって" expresses disbelief that she herself screamed - "Like a little girl" adds a disparaging comparison absent from the Japanese - Haha... Seriously? Me, screaming like that...? This is really bad... // {hero}... I don't think I'm gonna make it...
@@ -580,16 +580,16 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.49564 - "ふざけるな" means "Don't give me that!" - "Don't you dare" suggests a warning rather than defiant rejection of the question - D-don't give me that...!
 
 ## Review minors b047
-- [ ] rom.49E64 - review suggestion blocked by width: message over 255 codes
+- [x] rom.49E64 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b048
-- [ ] rom.4C7E4 - review suggestion blocked by width: message over 255 codes
+- [x] rom.4C7E4 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b049
-- [ ] rom.4F2B0 - review suggestion blocked by width: message over 255 codes
-- [ ] rom.4F468 - review suggestion blocked by width: message over 255 codes
+- [x] rom.4F2B0 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
+- [x] rom.4F468 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 
 ## Review minors b050
 - [ ] rom.4FD60 - "長らく販売を中止しており ご迷惑をおかけしていた" apologizes for the prolonged suspension of sales - "Sorry for the long wait!" and the subsequent fragments make Shagie's sales pitch noticeably brusquer than neighboring dialogue - suggested EN: We apologize for the prolonged inconvenience, but "Hoverfish" are now back on sale at the Vandel House! // Although their stops are limited, they allow you to travel long distances far faster than on foot...! // Here on the Twin Islands, for instance... Yes, you can travel from the Golden Castle to Rinnam Glacier...! // They are a little costly, but do consider purchasing one...! // Tarotos awaits you at the Vandel House with lively "Hoverfish" ready for sale...! // Please do make use of our services...! // Was that explanation clear?
 - [ ] rom.503EC - "ぜひお買い求めくださいませ" courteously urges a purchase - "A little pricier ... but do buy one!" sounds blunt; restoring the courteous sales language would better match Shagie's other announcements - suggested EN: We apologize for the prolonged inconvenience, but the "Giant Butterfly" is now back on sale at the Vandel House! // Although its stops are limited, it allows you to travel long distances far faster even than a "Hoverfish"...! // Here on the Twin Islands, for instance... Yes, you can travel from the Golden Castle to Zeros Snowfield...! // It is a little more costly than a "Hoverfish," but do consider purchasing one...! // Tarotos awaits you at the Vandel House with a lively "Giant Butterfly" ready for sale...! // Please do make use of our services...! // Was that explanation clear?
-- [ ] rom.4F8C8 - review suggestion blocked by width: message over 255 codes
+- [x] rom.4F8C8 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)

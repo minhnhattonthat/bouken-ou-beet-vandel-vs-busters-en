@@ -109,7 +109,7 @@
   {
    "id": "rom.4C7E4",
    "jp": "石像トラップは全７種・・・！{page}いずれのトラップも{br}今は亡き　優秀なヴァンデルの{br}みなさまを石像として形にしたもの・・・{page}そのどれもが　私ども魔賓館が{br}魂を込めて彫りあげた{br}おすすめの一品でございます！{page}「石像トラップ」は　バスターどもの姿を{br}近くに感じますと{page}石像として刻まれた方の　在りし日の姿が{br}よみがえるのです！！{page}よみがえったみなさまは　消し去ることの{br}できない恨みを晴らすべく　目の前の{br}バスター共に　おそいかかります！{page}そのパワーは　ご健在の頃と{br}変わらぬものであると{br}保障いたします！！{page}これほど強力なトラップが{br}他にあるでしょうか・・・{page}まちがいなく　バスター共を{br}大いに苦しめることでしょう・・・！{page}使い方は　簡単です{page}バスター共を　大いに苦しめるであろう{br}ポイントに　石像を置くだけで{br}ございます・・・！{close}",
-   "en": "All seven Statue Traps depict{br}great, late Vandels! We at the{br}Vandel House carved each with{page}heart and soul. All come{br}recommended!{page}Sensing Busters, they revive their{br}subjects as they were in life! They{br}attack to avenge undying{page}grudges! Their full former power is{br}guaranteed!{page}Could any trap be stronger? Busters{br}will surely suffer!{page}Simply place one where it will{br}torment Busters most!{close}",
+   "en": "There are seven types of Statue{br}Trap...!{page}Each depicts one of those{br}distinguished Vandels who are sadly{br}no longer with us...{page}We at the Vandel House poured our{br}hearts and souls into carving each{br}one. We recommend them all most{page}highly!{page}When a Statue Trap senses Busters{br}nearby...{page}The Vandel it depicts returns in{br}their former glory!!{page}To settle their undying grudges,{br}they attack the Busters before{br}them!{page}We guarantee that their power is{br}every bit as great as it was in life!!{page}Could you possibly find a more{br}powerful trap...?{page}Those Busters are certain to suffer{br}most terribly...!{page}Using one could not be simpler.{page}Just place the statue wherever it{br}will cause those Busters the{br}greatest suffering...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1197,7 +1197,7 @@
   {
    "id": "rom.4F2B0",
    "jp": "これは　これは{br}{vandel}様！{page}封印のリングの破壊の方は{br}順調に　進んでいますか・・・？{page}ご活躍なさっているようで・・・{br}すばらしいですね！{page}この調子で行けば　近い将来{br}{vandel}様が{br}ヴァンデル最高位の「七ッ星」にっ！{page}いやぁ　楽しみです・・・！！{page}その　すばらしい計画の{br}手助けとなるモンスターを{br}手に入れられたようですね・・・！{page}そこで{vandel}様に{br}ぜひともおすすめしたいことが{br}ございます！{page}それはモンスターの{br}「腹心モンスター化」です！{close}",
-   "en": "Ah, {vandel}-sama! Breaking rings{br}well? Splendid! Soon,{br}{vandel}-sama, you'll reach{page}the top rank: Seven-Star! I can't{br}wait!{page}Your new monster will help!{br}{vandel}-sama, I recommend{br}promoting it to a \"Lieutenant{page}Monster\"!{close}",
+   "en": "Well, well, {vandel}-sama!{page}Is the destruction of the Sealing{br}Rings proceeding smoothly...?{page}You seem to be doing splendidly...{br}Truly marvelous!{page}At this rate, {vandel}-sama, you{br}will soon attain the highest Vandel{br}rank: \"Seven-Star\"!{page}Oh, how I look forward to it...!{page}I understand you have acquired a{br}monster that will help further your{br}magnificent plans...!{page}With that in mind, {vandel}-sama,{br}there is something I most heartily{br}recommend!{page}Promoting your monster to a{br}\"Lieutenant Monster\"!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1212,7 +1212,7 @@
   {
    "id": "rom.4F468",
    "jp": "「腹心モンスター」とは何かを{br}ご説明させていただきます{page}複数のモンスターを{br}部下にお持ちの方には{page}面倒な雑務を　あなたの代わりにこなす{br}「腹心モンスター化」を{br}おすすめしています{page}「腹心モンスター化」は{br}「魔賓館」で行っております{page}「魔賓館」にて　配下のモンスターの{br}中からお好みのモンスターを{br}選んでいただきます{page}そしてそのモンスターを「魔賓館」にて{br}人語を授ける調整を施しまして{page}「腹心モンスター」へと{br}強化させていただきます{page}必ずや皆様の{br}ご期待にそう働きをお見せいたします{page}集団での配下としての戦闘はもちろん{br}モンスターを配下として{page}戦闘の陣頭指揮を{br}とらせることも可能です{page}ぜひ　ご利用くださいませ！{page}ぜひ　「魔賓館」を{br}ご活用くださいね・・・！{close}",
-   "en": "Several minions? Let one do your{br}chores! Pick one at the Vandel{br}House: we'll grant it human{page}speech as a \"Lieutenant Monster.\"{br}It can fight in your ranks or command{br}its own monsters on the front{page}lines. You'll be pleased! Do try our{br}Vandel House services!{close}",
+   "en": "Allow me to explain what a{br}\"Lieutenant Monster\" is.{page}For those of you with several{br}monsters under your command,{page}we recommend promoting one to a{br}\"Lieutenant Monster\" to handle{br}tedious chores on your behalf.{page}This promotion is available at the{br}\"Vandel House.\"{page}Simply visit the \"Vandel House\" and{br}select whichever of your monster{br}minions you prefer.{page}We will then perform adjustments{br}here at the \"Vandel House\" to grant{br}it human speech,{page}upgrading it to a \"Lieutenant{br}Monster.\"{page}Its service is certain to meet your{br}expectations.{page}Naturally, it can fight alongside your{br}other minions, but it can also{br}command monsters of its own,{page}leading them into battle from the{br}front lines.{page}We do hope you will try this service!{page}Please make full use of the \"Vandel{br}House\"...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1257,7 +1257,7 @@
   {
    "id": "rom.4F8C8",
    "jp": "効率よく　「封印のリング」の破壊を{br}進める方法の一つに{br}「軍団の派遣」がございます！{page}{vandel}様以外にも{br}リングの破壊を進める軍団があれば{page}多方向から島の攻略を進めることが{br}可能になります・・・！{page}軍団は　最大５名から構成されます{page}そして　その中の１名はリーダーとして{br}登録していただく必要があります{page}リーダーになることができるのは{br}ヴァンデルの　みなさんです{page}しかし　モンスターでも　魔賓館で{br}腹心モンスターの手続きをしていただくと{br}リーダーにすることが　可能なのです！{page}しかし　残念ながら　腹心モンスターの{br}下には　ヴァンデルのみなさまを{br}編成に加えることはできません・・・{page}あしからず　ご了承くださいませ・・・{page}今の説明は{br}ご理解いただけましたか？{close}",
-   "en": "\"Dispatch an Army\" to destroy{br}\"Sealing Rings\" efficiently!{page}With troops breaking rings too,{br}{vandel}-sama, you can conquer{br}on several fronts!{page}An army has up to five members.{br}Register one as leader. Any Vandel{br}can lead.{page}Monsters can lead too, once{br}promoted to monster lieutenants at{br}the Vandel House!{page}Sadly, Vandels cannot serve under{br}monster lieutenants. We ask your{br}understanding...{page}Was that clear?{close}",
+   "en": "One way to destroy \"Sealing Rings\"{br}efficiently is to \"Dispatch an Army\"!{page}With another army destroying rings{br}alongside you, {vandel}-sama,{br}you can conquer the island on{page}several fronts...!{page}Each army may contain up to five{br}members. You will need to register{br}one of them as its leader.{page}Any Vandel may serve as a leader.{page}Monsters can also lead, provided{br}you complete our monster{br}lieutenant promotion procedure{page}at the Vandel House!{page}Regrettably, Vandels cannot be{br}assigned to serve under a monster{br}lieutenant...{page}We kindly ask for your{br}understanding...{page}Was that explanation clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

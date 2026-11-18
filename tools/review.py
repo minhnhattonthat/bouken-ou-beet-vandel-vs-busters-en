@@ -87,6 +87,7 @@ def suggested(text):
 
 def cmd_apply(a):
     bad = 0
+    only = set(a.only.split(',')) if getattr(a, 'only', None) else None
     for name in a.batches:
         res, assess = findings(name)
         if res is None:
@@ -103,6 +104,8 @@ def cmd_apply(a):
         byid ={e['id']: e for f, e in batches.all_entries(batches.load_files())}
         for sev in ('Critical', 'Important'):
             for i, text in res[sev]:
+                if only and i not in only:
+                    continue
                 en = suggested(text)
                 for k, v in batches.NORMALISE.items():
                     en = en.replace(k, v)
@@ -153,6 +156,7 @@ def main():
     p.add_argument('--jobs', type=int, default=6)
     p = sp.add_parser('apply')
     p.add_argument('batches', nargs='+')
+    p.add_argument('--only', help='comma-separated ids: apply just these suggestions (others may carry hand fixes)')
     sp.add_parser('summary')
     a = ap.parse_args()
     if a.cmd == 'run':

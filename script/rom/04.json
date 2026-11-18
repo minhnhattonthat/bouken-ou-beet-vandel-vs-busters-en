@@ -1772,7 +1772,7 @@
   {
    "id": "rom.1352C",
    "jp": "{hero}！{br}聞いたぞ！{page}黄金城に　入場する　唯一の橋が{br}破壊されたそうじゃな！{page}やっかいじゃのう・・・{br}しかし　打つ手はあるぞ！{page}橋がないのならば　橋をかければ{br}よいのじゃ！{page}ふむふむ・・・{br}確かにそうじゃ・・・{page}敵の本拠地に　橋をかけるのじゃから{br}それはそれは　困難を{br}極めるであろう・・・{page}しかし！{br}あの男ならば　やってくれるはずじゃ！{br}彼の名前は　「橋かけ名人」！！{page}トロワナのアサド山地にも{br}彼のかけた立派な橋があるそうじゃ！！{page}なんと　その有名な名人が{br}この東の里に　来てるらしいんじゃ！！{close}",
-   "en": "{hero}! The castle's only{br}bridge is gone, eh? Trouble! But we{br}can build one!{page}A tough job at the enemy's base!{br}Bridge Master can do it! He built a{br}fine bridge in Torowana's Asado{page}Mountains! And that famous Master{br}is here in East Village!{close}",
+   "en": "{hero}! I've heard the news!{page}They say the only bridge into the{br}Golden Castle has been destroyed!{page}A troublesome business, eh... But{br}there's still something we can do!{page}If there's no bridge, we need only{br}build one!{page}Hmm, hmm... Yes, quite so...{page}Building a bridge to the enemy's{br}stronghold will be a difficult{br}undertaking indeed...{page}But! There's one man who should be{br}up to the task! His name is the{br}\"Bridge Master\"!!{page}I hear there's a splendid bridge of his{br}in Torowana's Asado Mountains,{br}too!!{page}And would you believe it? That{br}famous Master is apparently here in{br}East Village!!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1

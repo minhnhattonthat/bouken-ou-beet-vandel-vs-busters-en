@@ -17,14 +17,19 @@
   line (3 per page), text inline at +0x5E or at [+0x64] (bit 0 of +0x5C). x = col*12 + 8, y = line*16 + 16, one
   char per call of 0x020201BC. Auto line break after 19 codes (`cmp r0, #0x13` at 0x02022884) unless the next code
   is FF70/71/72.
-- Message expansion 0x0201F4A4 ({hero} etc., FF90-FF94) into a **0x200-byte stack buffer** (0x0204BEE0: sp+0x1C):
-  a message may hold at most 255 codes after expansion.
+- Message expansion 0x0201F4A4 ({hero} etc., FF90-FF94; writes a 0000 after every code) has two callers:
+  - dialogue 0x0204BE9C: frame 0x41C, buffer sp+0x1C..sp+0x41C = **0x400 bytes = 511 codes** + terminator. The game
+    clears only 0x200 of it (`mov r2, #0x200` at 0x0204BF00, patched to 0x400 by `engine.SITES`); phase 6 wrongly
+    read that memset as the buffer size (limit 255). Proven 2026-11-18: a 411-code, 12-page message (rom.4F468 put
+    into rom.0213C, `work/qa/p7_long`) draws every page and the event carries on.
+  - speaker tag 0x0204BDCC: buffer sp+0xC..sp+0x24 = 0x18 bytes = **11 codes** + terminator (longest English
+    speaker: 7 codes). Lint: `engine.MSG_CODES`, `engine.SPEAKER_CODES`.
 
 ## English engine (`tools/engine.py`, tests `tests/test_engine.py`)
 - Codes 0x2000-0x5FFF = letter pairs: `0x2000 + a*128 + b` (slots in `engine.LETTERS`: ASCII 0x20-0x7E then
   `…×♪★☆○●◎→←↑↓「」『』・※〜―`; b = 0 means a single letter). Pairs are formed greedily while the two widths
   (12 px font) sum to <= 16 px. A pair costs one code (2 bytes): about half the bytes of one-code-per-letter, which
-  is what lets English fit the arm9 fixed slots and the 255-code message buffer.
+  is what lets English fit the arm9 fixed slots and the 511-code message buffer.
 - Letters = the game's own full-width Latin/punctuation glyphs from `lc12x12.bin` / `lc8x8.bin`, cropped to ink +
   1 px gap; space = 4 px (12) / 3 px (8). About 35 characters per 228 px dialogue line.
 - Hook block (6.4 KB) = a new autoload section at 0x021C7EC0 (the old main-arena start; the arena-lo literal at

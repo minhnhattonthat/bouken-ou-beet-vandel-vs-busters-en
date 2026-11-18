@@ -290,7 +290,14 @@ SITES = {
     0x02095318: ('910000e0', 'mov r0, r0'),       #   -> half the pixel width
     0x0202B6F0: ('c7f8ffeb', 'bl ne_init'),       # name entry constructor: bl 0x02029A14 (keyboard rows), then
                                                   #   the keyboard opens on 英字 (mode obj+0xDC = 1; docs/re/vwf.md)
+    0x0204BF00: ('022ca0e3', 'mov r2, #0x400'),   # dialogue expansion buffer (frame 0x41C, buffer sp+0x1C..0x41C):
+                                                  #   clear all 0x400 bytes, not 0x200 (MSG_CODES)
 }
+
+# Codes a message may hold after expansion (0x0201F4A4 writes a 0 after every code): dialogue buffer 0x400 bytes at
+# sp+0x1C in 0x0204BE9C; speaker buffer 0x18 bytes at sp+0xC in 0x0204BDCC. Both include the terminator.
+MSG_CODES = 0x400 // 2 - 1
+SPEAKER_CODES = 0x18 // 2 - 1
 
 # Name entry writes full-width Latin codes (Ａ-Ｚ 0x00DD.., ａ-ｚ 0x00FD..); the hooks draw and measure them as
 # the single proportional letter, so a typed name looks like the English around it (FW_* = first code, PC_* = the
@@ -476,11 +483,18 @@ class Engine:
         size = (len(blob) + 31) & ~31
         blob = blob.ljust(size, b'\0')
         new = a[:lst_start] + blob + entries + struct.pack('<3I', BLOCK, size, 0)
+
+        def logw(o, data, what):   # every write: arm9 file offset, original bytes, new bytes (tools/romcheck.py)
+            if log is not None:
+                log.append('arm9 %X %s %s %s' % (o, bytes(a[o:o + len(data)]).hex(), bytes(data).hex(), what))
+            new[o:o + len(data)] = data
+        if log is not None:
+            log.append('arm9 append %X hook block + autoload list' % lst_start)
         p[0], p[1] = A9 + lst_start + size, A9 + len(new)
-        struct.pack_into('<2I', new, MODPARAMS - A9, p[0], p[1])
+        logw(MODPARAMS - A9, struct.pack('<2I', p[0], p[1]), 'module params: autoload list start/end')
         lit = ARENA_LIT - A9
         assert struct.unpack_from('<I', new, lit)[0] == BLOCK
-        struct.pack_into('<I', new, lit, BLOCK + size)
+        logw(lit, struct.pack('<I', BLOCK + size), 'arena-lo literal')
         ks = Ks(KS_ARCH_ARM, KS_MODE_ARM)
         for site, (orig, repl) in SITES.items():
             o = site - A9
@@ -490,26 +504,20 @@ class Engine:
             assert len(enc) == 4, repl
             want = bytes.fromhex(orig) if orig else bytes(ks.asm('bl #0x02020230', site)[0])
             assert a[o:o + 4] == want, 'site %08X holds %s, expected %s' % (site, a[o:o + 4].hex(), want.hex())
-            if log is not None:
-                log.append('arm9 %08X %s %s %s' % (site, want.hex(), enc.hex(), repl))
-            new[o:o + 4] = enc
+            logw(o, enc, 'site %08X: %s' % (site, repl))
         for key, r in RELOC.items():
             lit, o = r['lit'] - A9, r['insn'] - A9
             assert struct.unpack_from('<I', a, lit)[0] == r['base'], key
             assert a[o:o + 4].hex() == r['orig'], key
             enc = bytes(ks.asm(r['repl'], r['insn'])[0])
-            new[lit:lit + 4] = struct.pack('<I', labels['R_' + key])
-            new[o:o + 4] = enc
-            if log is not None:
-                log.append('arm9 %08X reloc %s -> %08X (%s)' % (r['lit'], key, labels['R_' + key], r['repl']))
+            logw(lit, struct.pack('<I', labels['R_' + key]), 'reloc %s base literal' % key)
+            logw(o, enc, 'reloc %s: %s' % (key, r['repl']))
         offs = self._pool()[1]
         for old, ptrs, _ in self.strings:
             to = labels['R_STRINGS'] + offs[old]
             for w in ptrs:
                 o = w - A9
                 assert struct.unpack_from('<I', a, o)[0] == old, 'pointer word %08X does not hold %08X' % (w, old)
-                struct.pack_into('<I', new, o, to)
-                if log is not None:
-                    log.append('arm9 %08X ptr %08X -> %08X' % (w, old, to))
+                logw(o, struct.pack('<I', to), 'ptr %08X -> %08X' % (old, to))
         rom.arm9 = bytes(new)
         return labels

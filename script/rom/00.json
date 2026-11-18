@@ -184,7 +184,7 @@
   {
    "id": "rom.011F4",
    "jp": "しかし　突如現れた{br}ヴァンデルと　モンスターたちが{br}その平和を切り裂いた！{page}ヴァンデルは　西の里の銀の女神像を{br}破壊して　そこに「黄金城」を{br}建設したのである{page}ヴァンデルたちは　その「黄金城」を{br}拠点にして　次々に島を侵略していった{page}ヴァンデルに対抗すべき　バスター協会の{br}鑑定士は殺され　双子島唯一の{br}鑑定小屋は　焼き払われてしまった・・・{page}島の人間では　ヴァンデルたちの{br}侵略を　食い止めることができなかった{page}そして島の大部分が　ヴァンデルの手に{br}落ちてしまったのだった・・・{close}",
-   "en": "Vandels and monsters shattered{br}the peace!{page}They razed West Village's Silver{br}Goddess Statue, built the Golden{br}Castle and invaded.{page}The Buster Association's Appraiser{br}was slain; the only Appraisal Hut{br}burned.{page}Resistance failed. Most land fell...{close}",
+   "en": "But Vandels and monsters suddenly{br}appeared, shattering the peace!{page}The Vandels destroyed West{br}Village's Silver Goddess Statue and{br}built the Golden Castle in its{page}place.{page}Using the Golden Castle as their{br}base, they steadily overran the{br}islands.{page}The Buster Association's Appraiser,{br}who should have helped oppose the{br}Vandels, was killed. The Twin{page}Islands' only Appraisal Hut was{br}burned to the ground...{page}The islanders could not stop the{br}Vandel invasion.{page}And so, most of the islands fell into{br}the Vandels' hands...{close}",
    "kind": "msg",
    "speaker": "船員",
    "refs": 1
@@ -1461,7 +1461,7 @@
   {
    "id": "rom.0393C",
    "jp": "我々は　いつ終わるとも知れぬ{br}「暗黒の世紀」を　生きておる・・・{page}この状況を　打破するために誕生したのが{br}「ヴァンデルバスター」じゃ・・・{page}世界で活躍しておった　賞金稼ぎたちが{br}その　元祖になったと{br}言われておる・・・{page}バスターは　己の戦闘技術を駆使して{br}各地に存在する　ヴァンデルと{br}モンスターを倒すことで{page}報奨金を　獲得して{br}生計を立てておる・・・{page}ヴァンデルには　莫大な報奨金が{br}かけられておるため　一攫千金を狙って{br}バスターになる腕自慢も多いが・・・{page}その多くが　命を落とすという{br}非常に　危険な職業なのじゃ・・・{close}",
-   "en": "This endless \"Dark Century\"...{br}Vandel Busters arose to end it.{br}They began as bounty hunters,{page}they say.{page}They earn their living slaying{br}Vandels and monsters. Vandel{br}bounties lure skilled fighters{page}seeking riches, but many die. Perilous{br}work, my boy...{close}",
+   "en": "We live in the \"Dark Century,\" with no{br}telling when it will end...{page}To break free of this plight, the{br}\"Vandel Busters\" arose...{page}It is said that bounty hunters{br}already active throughout the world{br}were the first of their kind...{page}Busters use their fighting skills to{br}defeat Vandels and monsters{br}wherever they may be, earning{page}bounties to make their living...{page}The enormous bounties on Vandels{br}draw many confident fighters hoping{br}to make their fortunes...{page}But many lose their lives. A perilous{br}profession indeed, my boy...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1476,7 +1476,7 @@
   {
    "id": "rom.03B54",
    "jp": "・・・そなたは　父君の仇を討とうと{br}しておるわけじゃが{page}危険なことに　なんら変わりは{br}ないのじゃ・・・{page}そんな　バスターの活動を支援するために{br}バスター協会が　存在しておる・・・{page}「暗黒の世紀」に　終止符を打つために　{br}グランシスタ王国が母体となって{br}バスター協会が発足したわけじゃが・・・{page}バスター協会は　バスターの活動を{br}支援するために　先刻各地に{br}「鑑定小屋」を設置しておる・・・{page}「鑑定小屋」は　バスターにとって{br}重要な施設じゃぞ{page}まずは　ここで　依頼を受けるのじゃ{br}それから　その依頼を　達成させて{br}必ず　その終了報告をすること{page}そうすれば　網膜鑑定の後　その依頼に{br}見合った　報奨金と昇格値を{br}手に入れることが　できるのじゃ・・・{page}バスターたるもの「鑑定小屋」に{br}マメに通い　情報収集を怠っては{br}ならぬぞ・・・{close}",
-   "en": "Revenge is perilous, my boy.{br}Gransista founded the Buster{br}Association to end the Dark{page}Century.{page}Visit an Appraisal Hut often for{br}news and requests. Complete and{br}report them: a retinal appraisal{page}earns you the bounty and promotion{br}points.{close}",
+   "en": "...You seek to avenge your father,{br}but that makes the work no less{br}dangerous, my boy...{page}The Buster Association exists to{br}support Busters in their duties...{page}It was founded under the auspices{br}of the Kingdom of Gransista to bring{br}the \"Dark Century\" to an end...{page}To aid Busters, the Association has{br}established \"Appraisal Huts\"{br}throughout the land...{page}These huts are vital to a Buster's{br}work, you see.{page}First, accept a request here. Then{br}carry it out, and be sure to report{br}its completion.{page}After a retinal appraisal, you will{br}receive the bounty and promotion{br}points appropriate to the{page}request...{page}A Buster must visit the Appraisal{br}Hut regularly and never neglect to{br}gather information!{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1

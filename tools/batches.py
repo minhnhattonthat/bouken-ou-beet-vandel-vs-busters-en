@@ -365,8 +365,8 @@ LONG = ROOT / 'docs' / 'long-messages.tsv'
 
 
 def defer_long(name, ids):
-    """Keep translations over the 255-code message buffer in docs/long-messages.tsv (id, batch, English) until the
-    engine's expansion buffer is enlarged; they are not merged."""
+    """Keep translations over the message expansion buffer (engine.MSG_CODES) in docs/long-messages.tsv (id, batch,
+    English); they are not merged."""
     got, _, _ = read_out(name)
     have = {}
     if LONG.exists():
@@ -375,7 +375,7 @@ def defer_long(name, ids):
             have[c[0]] = line
     for i in ids:
         have[i] = '%s\t%s\t%s' % (i, name, got[i])
-        print('  deferred (over 255 codes): %s -> %s' % (i, LONG.name))
+        print('  deferred (over the code limit): %s -> %s' % (i, LONG.name))
     LONG.write_text('id\tbatch\ten\n' + '\n'.join(have[k] for k in sorted(have)) + '\n', encoding='utf-8',
                     newline='\n')
 
@@ -388,7 +388,7 @@ def cmd_check(a, write=False):
     for name in a.batches:
         errs, warns, final = check_batch(name, byid, gl)
         if getattr(a, 'defer_long', False):
-            longs = [x.split(':')[0] for x in errs if x.endswith('message over 255 codes')]
+            longs = [x.split(':')[0] for x in errs if re.search(r'message over \d+ codes$', x)]
             if longs:
                 defer_long(name, longs)
                 errs = [x for x in errs if x.split(':')[0] not in longs]

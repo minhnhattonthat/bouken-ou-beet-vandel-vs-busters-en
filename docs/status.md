@@ -2,18 +2,39 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check (phase 6 done 2026-11-18: all 51 batches reviewed, every Critical/Important
-  applied or listed in `docs/polish.md`; phase 5 done 2026-11-18: marker tour `work/qa/marker3` 101/101 ok).
-- **Next (phase 7):**
-  1. Enlarge the 255-code message expansion buffer (docs/re/vwf.md: 0x200-byte stack buffer at 0x0201F4A4 /
-     sp+0x1C; move it to a static buffer in the hook block), raise the lint limit, then merge the 3 deferred
-     appraiser messages from `docs/long-messages.tsv` (rom.169D8 16CA8 17450) and re-apply the review fixes that
-     were blocked only by "message over 255 codes" (polish.md lines "review suggestion blocked by width: message
-     over 255 codes", ~35; suggested EN is in `work/tr/review/bNNN.md`): `python -X utf8 tools/review.py apply
-     <batch>` re-applies a batch's suggestions once the limit is raised.
-  2. Phase 7 checks: width/overflow lint clean, control codes matched (lint), `romdiff.py` with the allowed
-     ranges, build write log.
-  3. `elem.name` (10 属性 kanji, 18 px canvas): widen the draw code, then translate (`batches.DEFER_KINDS`).
+- **Phase:** 8. QA in the emulator (phase 7 done 2026-11-18: lint 0 errors, controls matched, `tools/romcheck.py`
+  0 errors, smoke ok; build `build/beet_en.nds` sha1 389e44f1d490e83decc31076e8d1e7d2974045fe).
+- **Next (phase 8):** read `$SKILL/references/emulator-qa.md` and `graphics.md`. Tour every scene
+  (`tools/debug/warp_all.py`) on the English build, visual-QA verdicts per sheet (`qa_gate.py`; no reviewer
+  subagents in Orca: do it in a fresh read-only pass or `codex exec`), graphics-text redraws
+  (`docs/re/graphics-survey.tsv`, 279 panels), `inkbox.py` on choice/centred boxes, `textcover.py`. Open items
+  carried into phase 8:
+  - `elem.name` (属性, 10 one-kanji values, still Japanese, listed TEMPORARY in `script/keep_jp.txt`): the value
+    canvas is window [[ui]+4]+0x100, drawn by `bl 0x02020240` (12 px) at 0x0208FF3C, at x ~232 next to the 属性
+    label graphic; only ~24 px of screen are left. Glossary names from the chalice chain: Marsh, Cavern,
+    Whirlpool, Sand, Earth, Ore, Tree, Ultimate, Bone, Severance (up to ~40 px even in the 8 px font). Plan: redraw
+    the 属性 label shorter (or drop it) with the monster-book graphics, move/widen the window (its x/y/w live in the
+    window object, cf. +0x64/+0x66 for window +0x160 read at 0x0208FF88), switch the call to the 8 px loop
+    0x02020660 (same args) if needed; then translate, remove the keep lines and `batches.DEFER_KINDS`.
+  - Second caller 0x02065504 draws 属性 in a six-row list (screen not identified).
+  - Polish list from phase 5 (below) and `docs/polish.md` (review minors, all unticked lines must be done by phase 9).
+- **Phase 7 session (2026-11-18), Orca worker, no subagents:**
+  - The "255-code" limit was a misreading: the dialogue expansion buffer is 0x400 bytes (frame 0x41C, sp+0x1C), the
+    0x200 was only the memset, now patched to 0x400 (`engine.SITES` 0x0204BF00). Limit 511 codes
+    (`engine.MSG_CODES`); speaker tags go through a second, 12-code buffer (`engine.SPEAKER_CODES` = 11, lint
+    checks both). Proven in game: 411-code, 12-page message (`work/qa/p7_long`). docs/re/vwf.md updated.
+  - Merged the 3 deferred appraiser messages (`docs/long-messages.tsv` now empty) and the 24 review suggestions that
+    had been blocked by the old limit (`tools/review.py apply bNNN --only id,...`; polish.md lines ticked, 27 incl.
+    three translator CUT notes). Do not run `review.py apply` without `--only` on a reviewed batch: it re-applies
+    every suggestion over hand fixes (Sealing Ring spellings).
+  - `tools/romcheck.py` (per NitroFS file; a whole-image romdiff is meaningless after ndspy re-lays files): only
+    arm9, rom.img, quest.img and the two buster-name files may change; every changed byte is behind a logged write
+    whose original bytes match the clean dump, no overlaps or overwritten writes, appends past the old end,
+    relocated pointer strings leave no un-repointed word. `engine.patch_arm9` now logs every write (sites, module
+    params, arena literal, reloc literals, pointer words) as `arm9 OFF ORIG NEW what`. Tests:
+    `tests/test_romcheck.py` (synthetic failures + the real English build), wired into `tools/check.py` via pytest.
+  - Lint: `script/keep_jp.txt` (99 ids with reasons: 82 説明 placeholders, 7 kana-keyboard rows, 10 elem.name
+    TEMPORARY); any other entry with Japanese and no English, or a stale keep line, is an error.
 - **Phase 6 session 2 (2026-11-18):** review run for b021-b051 finished (`--jobs 3`, memory) and applied; NEW TERM
   reports merged (missing ones added to glossary Terms: 封印のリング Sealing Ring with "Seal Ring" in Avoid, so lint
   now errors on it; エルファスト Elfast; 網膜鑑定 retinal appraisal; 昇格値 Rank Points); all 31 "Seal Ring"/lower-case
