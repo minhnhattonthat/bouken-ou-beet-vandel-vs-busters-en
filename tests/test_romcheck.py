@@ -58,6 +58,44 @@ def test_english_build_passes(tmp_path):
     assert 'arm9' in summary
 
 
+def _header_pair():
+    import build
+    orig = build.ROM.read_bytes()[:romcheck.HEADER_LEN]
+    return orig, bytearray(orig)
+
+
+def _image(h):
+    """Header padded to the 32 MB cartridge, so its offsets and used size lie inside the image."""
+    return bytes(h) + bytes(0x2000000 - len(h))
+
+
+def _fix_crc(h):
+    h[romcheck.HEADER_CRC:romcheck.HEADER_CRC + 2] = romcheck.crc16(h[:romcheck.HEADER_CRC]).to_bytes(2, 'little')
+
+
+def test_header_unchanged_passes():
+    orig, new = _header_pair()
+    assert romcheck.check_header(orig, _image(new)) == []
+
+
+def test_header_arm9_entry_changed():
+    """Zeroing the ARM9 entry address (0x24) must fail even with a valid CRC and an unchanged write log."""
+    orig, new = _header_pair()
+    new[0x24:0x28] = bytes(4)
+    _fix_crc(new)
+    errs = romcheck.check_header(orig, _image(new))
+    assert any('header 24 changed' in e for e in errs)
+
+
+def test_header_regenerated_word_and_bad_crc():
+    orig, new = _header_pair()
+    new[0x80:0x84] = (0x1000).to_bytes(4, 'little')  # used size may change ...
+    errs = romcheck.check_header(orig, _image(new))
+    assert errs and all('CRC' in e for e in errs)   # ... but the CRC must then be recomputed
+    _fix_crc(new)
+    assert romcheck.check_header(orig, _image(new)) == []
+
+
 def test_script_append_inside_data():
     errs = run(ORIG + b'\1\2', [], append=16, name='field/script/rom.img')
     assert any('inside the original data' in e for e in errs)

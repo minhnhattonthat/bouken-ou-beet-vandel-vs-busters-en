@@ -4,6 +4,9 @@
 
 ndspy re-lays the files out, so a whole-image byte diff says nothing; this compares file by file instead and fails
 (exit 1) when
+  - a ROM header byte outside the regenerated words (offsets, sizes, used size, CRC) differs from the dump (entry
+    and RAM addresses, autoload hooks, game code, secure area, logo, ...), the header CRC is wrong, a section runs
+    past the image, or a size word disagrees with the parsed file;
   - a file outside CHANGEABLE differs (arm7, overlays, banner, graphics, fonts, ...), or the file count changes;
   - a write in the build log (`FILE OFFSET ORIG_HEX NEW_HEX [what]`) does not find ORIG_HEX in the clean dump's
     file (stale address, wrong revision, write planned on a patched buffer) or its NEW_HEX is not in the built file
@@ -106,11 +109,59 @@ def check_relocated(orig_arm9, log_path):
     return errs, len(ids)
 
 
-def run(built, log_path):
-    orig = files_of(ndspy.rom.NintendoDSRom(build.ROM.read_bytes()))
-    new = files_of(ndspy.rom.NintendoDSRom(Path(built).read_bytes()))
-    writes, appends = parse_log(log_path)
+# header words ndspy regenerates when it re-lays the image (ROM offsets, sizes, used size); all other header bytes
+# (title, game code, entry/RAM addresses, autoload hooks, port settings, secure area, logo, ...) must stay identical
+HEADER_LEN = 0x200
+REGEN_WORDS = {0x20: 'arm9 offset', 0x2C: 'arm9 size', 0x30: 'arm7 offset', 0x3C: 'arm7 size', 0x40: 'FNT offset',
+               0x44: 'FNT size', 0x48: 'FAT offset', 0x4C: 'FAT size', 0x50: 'ovt9 offset', 0x54: 'ovt9 size',
+               0x58: 'ovt7 offset', 0x5C: 'ovt7 size', 0x68: 'banner offset', 0x80: 'used ROM size'}
+HEADER_CRC = 0x15E  # CRC-16 of header bytes 0..0x15D
+
+
+def crc16(data):
+    crc = 0xFFFF
+    for b in data:
+        crc ^= b
+        for _ in range(8):
+            crc = (crc >> 1) ^ 0xA001 if crc & 1 else crc >> 1
+    return crc
+
+
+def check_header(orig, new, rom=None):
+    """Invariant header bytes equal the dump; regenerated words are consistent with the built image."""
     errs = []
+    regen = set()
+    for o in REGEN_WORDS:
+        regen.update(range(o, o + 4))
+    regen.update((HEADER_CRC, HEADER_CRC + 1))
+    for w in range(0, HEADER_LEN, 4):  # one error per changed word
+        if any(o not in regen and orig[o] != new[o] for o in range(w, w + 4)):
+            errs.append('header %X changed %s -> %s (invariant field)' % (w, orig[w:w + 4].hex(), new[w:w + 4].hex()))
+    word = lambda o: struct.unpack_from('<I', new, o)[0]  # noqa: E731
+    want = crc16(new[:HEADER_CRC])
+    if struct.unpack_from('<H', new, HEADER_CRC)[0] != want:
+        errs.append('header CRC %04X, computed %04X' % (struct.unpack_from('<H', new, HEADER_CRC)[0], want))
+    for off_o, size_o in ((0x20, 0x2C), (0x30, 0x3C), (0x40, 0x44), (0x48, 0x4C), (0x50, 0x54), (0x58, 0x5C)):
+        if word(off_o) + word(size_o) > len(new):
+            errs.append('header %s %X + %X runs past the image (%X)'
+                        % (REGEN_WORDS[off_o], word(off_o), word(size_o), len(new)))
+    if word(0x80) > len(new):
+        errs.append('header used ROM size %X > image %X' % (word(0x80), len(new)))
+    if rom is not None:
+        for size_o, data in ((0x2C, rom.arm9), (0x3C, rom.arm7), (0x54, rom.arm9OverlayTable),
+                             (0x5C, rom.arm7OverlayTable)):
+            if word(size_o) != len(data):
+                errs.append('header %s %X, file is %X' % (REGEN_WORDS[size_o], word(size_o), len(data)))
+    return errs
+
+
+def run(built, log_path):
+    orig_img, new_img = build.ROM.read_bytes(), Path(built).read_bytes()
+    new_rom = ndspy.rom.NintendoDSRom(new_img)
+    orig = files_of(ndspy.rom.NintendoDSRom(orig_img))
+    new = files_of(new_rom)
+    writes, appends = parse_log(log_path)
+    errs = check_header(orig_img, new_img, new_rom)
     if set(orig) != set(new):
         errs.append('file set differs: only orig %s, only built %s'
                     % (sorted(set(orig) - set(new))[:5], sorted(set(new) - set(orig))[:5]))

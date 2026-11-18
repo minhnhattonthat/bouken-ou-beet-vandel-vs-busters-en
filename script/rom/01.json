@@ -1088,7 +1088,7 @@
   {
    "id": "rom.07B00",
    "jp": "！！{page}おまえはっ・・・{page}フム・・・{br}なかなか　やりそうな{br}バスターだな・・・{page}一応聞いておこう{br}オラに　なんのようだ？{page}フムフム・・・{br}やはり　そうであったか・・・{page}オラの力が　必要とされる時が{br}来たのだな！{page}ウオッホン！！{page}ホレ　これじゃ{br}どうだ　うつくしいだろう！{page}これが　破壊された封印のリングをも{br}修復してしまうという{br}「聖なる銀ホーリーシルバー」であーる！{page}本来は　誰にも　ゆずらん{br}特別な銀なんじゃが・・・{page}この非常事態であーるからして{br}今回は特別に　ゆずってやろう！{page}ホレ　もってけ！！{br}健闘を　祈るのであーる！！{close}",
-   "en": "!!{page}You're...{page}Hmm... You look to be quite a capable{br}Buster...{page}Still, I shall ask. What brings you to{br}me?{page}Hmm, hmm... Just as I thought...{page}So the time has come when my{br}talents are needed!{page}AHEM!!{page}Here, look at this! Beautiful, isn't it?{page}This is \"Holy Silver,\" said to restore{br}even broken seal rings!{page}Normally, I wouldn't part with this{br}special silver for anyone...{page}But given this emergency, I shall{br}make an exception!{page}Here, take it!! I wish you every{br}success!{close}",
+   "en": "!!{page}You're...{page}Hmm... You look to be quite a capable{br}Buster...{page}Still, I shall ask. What brings you to{br}me?{page}Hmm, hmm... Just as I thought...{page}So the time has come when my{br}talents are needed!{page}AHEM!!{page}Here, look at this! Beautiful, isn't it?{page}This is \"Holy Silver,\" said to restore{br}even broken Sealing Rings!{page}Normally, I wouldn't part with this{br}special silver for anyone...{page}But given this emergency, I shall{br}make an exception!{page}Here, take it!! I wish you every{br}success!{close}",
    "kind": "msg",
    "speaker": "ホーレイ",
    "refs": 1

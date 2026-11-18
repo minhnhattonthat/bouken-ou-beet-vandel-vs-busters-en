@@ -36,6 +36,23 @@ def test_untranslated_needs_keep_line():
         ['rom.U', 'rom.X']
 
 
+def test_glossary_avoid_any_case_across_breaks():
+    """A re-applied review suggestion that lower-cases or line-breaks an Avoid spelling still fails."""
+    rows = [('封印のリング', 'Sealing Ring', ['Seal Ring']), ('昇格値', 'Rank Points', ['promotion points'])]
+    bad = [msg('the seal{br}rings!', jp='封印のリング'), dict(msg('the bounty and promotion{br}points', jp='昇格値'),
+                                                             id='rom.U')]
+    errs, _ = lint.glossary_check(bad, rows)
+    assert [i for i, _ in errs] == ['rom.T', 'rom.U']
+    good = [msg('broken Sealing Rings!', jp='封印のリング'), msg('Rank{br}Points', jp='昇格値')]
+    assert lint.glossary_check(good, rows) == ([], [])
+
+
+def test_script_has_no_avoided_glossary_spellings():
+    entries = [e for es in insert.load_entries().values() for e in es]
+    errs, _ = lint.glossary_check(entries)
+    assert errs == [], errs[:5]
+
+
 def test_message_code_limits(eng):
     long = ' '.join(['Mmmm'] * 130) + '{close}'     # > 511 codes (M never pairs)
     assert any('over 511 codes' in m for m in lint.lint_entry(msg(long, jp='あ{close}'), eng))

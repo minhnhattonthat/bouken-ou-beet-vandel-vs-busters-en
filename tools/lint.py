@@ -132,9 +132,35 @@ def untranslated(entries, keep):
     return errs
 
 
+def flat(en):
+    """English with line/page breaks as spaces, for phrase searches across wrapped lines."""
+    return re.sub(r'\s+', ' ', re.sub(r'\{(br|page)\}', ' ', en))
+
+
+def glossary_check(entries, rows=None):
+    """(errors, misses): an Avoid spelling of a glossary term the entry's Japanese uses is an error (any case,
+    across line breaks), so re-applied review suggestions cannot undo a terminology fix; a term whose English is
+    missing is only listed (paraphrase, plural, a longer term containing it)."""
+    import batches
+    rows = batches.glossary() if rows is None else rows
+    errs, misses = [], []
+    for e in entries:
+        if not e.get('en'):
+            continue
+        en = flat(e['en'])
+        for jp, ten, avoid in batches.terms_in([e['jp']], rows):
+            if ten.lower() not in en.lower():
+                misses.append((e['id'], jp, ten))
+            for v in avoid:
+                if v and re.search(r'(?i)(?<![A-Za-z])%s' % re.escape(v), en):
+                    errs.append((e['id'], 'glossary: %s is %r, not %r' % (jp, ten, v)))
+    return errs, misses
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--quiet', action='store_true')
+    ap.add_argument('--terms', action='store_true', help='list entries whose glossary term English is missing')
     a = ap.parse_args()
     import textwidth
     eng = textwidth.load()
@@ -142,11 +168,18 @@ def main():
     errors, nobudget = run(entries, eng)
     keep = keep_list()
     errors += untranslated(entries, keep)
+    gerrs, misses = glossary_check(entries)
+    errors += gerrs
+    if a.terms:
+        for i, jp, ten in misses:
+            print('%s: glossary %s -> %s not used' % (i, jp, ten))
     for i, m in errors[:200]:
         print('%s: %s' % (i, m))
     done = sum(1 for e in entries if e.get('en'))
     print('lint: %d entries, %d translated, %d kept Japanese (script/keep_jp.txt), %d errors'
           % (len(entries), done, len(keep), len(errors)))
+    if misses:
+        print('note: %d glossary terms not used in their entry (lint --terms lists them)' % len(misses))
     if nobudget:
         print('warning: no measured budget for %s' % ', '.join('%s (%d)' % kv for kv in sorted(nobudget.items())))
     return 1 if errors else 0
