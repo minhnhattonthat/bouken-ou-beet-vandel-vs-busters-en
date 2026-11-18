@@ -61,8 +61,24 @@
 - Top-level mode word **0x021BEBF0**: 0 boot, 2 title (0x020274D0), 3 0x02028E1C, 4 0x020D8274 (runs sub-modes from
   table 0x02195918; sub-mode 1 = 0x020DF480, owner of the 0x021959B8 methods), 5 0x020E96BC. Which mode is story
   play and which is the shop is not proven yet.
-- Field main 0x0202CC70 (called from 0x02002E30, which also runs battles); shop UI state table 0x0219527C (dispatcher
-  0x0203B598, owner object methods at 0x021959B8). How the player opens a shop is still open (see status.md).
+- Field main 0x0202CC70 (called from 0x02002E30, which also runs battles) runs two state machines per frame: field
+  state (0x0203123C, r8) and the **bottom-screen UI** (dispatcher 0x0203B598, table 0x0219527C, 58 states, r7; 2 =
+  board idle, 3 main menu, 13 Info screen 0x02039674, 34 monster book, 55 transition). `tools/lua/uistate.lua` logs both.
+  Info screen button id = [[ui+0x1C]+0x30] (2 quests, 3 monster book, 4 vandel book, 5 buster book); a book opens only
+  if its list has a first entry ([[ui+0x6C]+0x48], [[ui+0x70]+0x40], [[ui+0x74]+0x4C] ~= -1).
+- **Doors / step triggers**: a tree at field_obj+0xCC keyed by tile (x,y bytes at node+0xC, script at +0x10), looked up
+  by 0x0203D84C; filled from map data at load (script opcode `07` -> 0x0204B218 -> 0x0203D920 also registers rects).
+  `tools/lua/trigdump.lua` dumps it. Opcode `05 x y w h` fills a collision rect (0x0204B2E0), `04 x y w h <script>`
+  registers a talk zone (shop counters).
+- **East Village (map 70) facilities** (door script -> interior map, counter script, service opcode): 2AEB5 -> 71
+  appraiser, 2AEDF (`4F` choice, needs story var 0x93); 2B39D -> 72 inn, 2B3C4 (`B4 01` yes/no); 2B58B -> 73 weapon
+  shop, 2B5C2 (`AF 0`); 2B61B -> 74 armor shop, 2B652 (`10 2`); 2FC5F -> 78 item shop, 2FC89 (`53 3`); 2C0EF -> 77
+  guild (party recruit NPCs, `78` choice); 2B675 -> 75, 2B891 -> 76 houses. Shop menus: 買う/売る/鍛える/やめる.
+- **魔賓館** (Vandel monster hall) = map 7A, map-load 305DA (no `77 45` prelude: works queued from an idle field, hangs as
+  a warp target); reception タロトス counter 307CA: 道具売買 / モンスター売買 / モンスター腹心.
+- Quest message routines 3C53E (クエストをあきらめます), 3C546 (クエストの終了条件を満たしました). Buster ending after the
+  staff roll: 16770 `A0 00 01; 0F; 17 459` (clear data, then save) -> back to the title, which then offers
+  Story (Buster / Vandel) / 通信 (wireless link: 通信受付 / 通信検索) / GBA link. Before a clear: Story (Buster) / GBA link.
 
 ## Insertion plan (guess, prove in phase 3/4)
 Because text is reached only through absolute u32 operands, English can be **appended to the end of the file** and the

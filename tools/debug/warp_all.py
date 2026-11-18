@@ -3,12 +3,13 @@
     python -X utf8 tools/debug/warp_all.py [ROM] [--only a,b] [--jobs 3] [--out work/qa/warps] [--states work/states]
 
 Per scene: work/qa/warps/<scene>/ (shots every 300 frames, sheet.png, final.png, log.txt) and
-work/states/<scene>.dst. A scene passes when emu.py exits 0, warp.lua logged WARP (or the scene is `title`),
+work/states/<scene>.dst. A scene passes when emu.py exits 0, warp.lua logged WARP (or the scene is `title`, or a `titletouch` that logged TOUCH),
 and the final frame is not a flat colour. Summary: <out>/summary.tsv. Exit 1 if any scene fails.
 Regenerate the whole state library with this after engine, font or graphics changes (cold boot every time).
 """
 import argparse
 import csv
+import shutil
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -19,6 +20,7 @@ sys.path.insert(0, str(REPO / 'tools'))
 from skill import SKILL  # noqa: E402
 
 DEFAULT_ROM = REPO / 'rom' / 'Bouken-ou Beet - Vandel vs. Busters (Japan).nds'
+SAVES = REPO / 'work/saves'  # battery-save fixtures written by `writesave` scenes, used by `sav=NAME` scenes
 
 
 def scenes():
@@ -28,6 +30,12 @@ def scenes():
     for r in rows[1:]:
         assert len(r) == len(head), 'scenes.tsv row has %d columns, want %d: %r' % (len(r), len(head), r)
         yield dict(zip(head, r))
+
+
+def battery(rom):
+    """Where DeSmuME writes the game's save when a run has no --sav: shared by every run, so a save left there
+    would turn later 'cold boots' into continues. warp_all moves it out after each `writesave` scene."""
+    return REPO / 'tools/desmume/desmume-qa/Battery' / (Path(rom).stem + '.dsv')
 
 
 def flat(png):
@@ -44,9 +52,23 @@ def run(sc, rom, out, states):
            '--script', str(REPO / 'tools/debug/warp.lua'), '--var', "SCENE='%s'" % sc['name'],
            '--frames', sc['frames'], '--shot-every', '300', '--sheet', '--state-out', str(state),
            '--timeout', '900']
+    toks = sc.get('set', '').split()
+    if 'books' in toks:
+        cmd.append('--debugger')  # the books cheat hooks mid-function return addresses the JIT skips
+    sav = next((t[4:] for t in toks if t.startswith('sav=')), None)
+    if sav:
+        fixture = SAVES / (sav + '.dsv')
+        if not fixture.exists():
+            return sc['name'], False, '', 'save fixture %s missing (run scene %s first)' % (fixture, sav)
+        cmd += ['--sav', str(fixture)]
     p = subprocess.run(cmd, capture_output=True, text=True, encoding='utf-8', errors='replace')
+    if 'writesave' in toks:  # no --sav: DeSmuME wrote the shared Battery folder; keep it as a fixture, leave it clean
+        bat = battery(rom)
+        if bat.exists():
+            SAVES.mkdir(parents=True, exist_ok=True)
+            shutil.move(str(bat), str(SAVES / (sc['name'] + '.dsv')))
     log = (d / 'log.txt').read_text(encoding='utf-8', errors='replace') if (d / 'log.txt').exists() else ''
-    warped = 'WARP' in log or sc['kind'] == 'title'
+    warped = 'WARP' in log or sc['kind'] == 'title' or (sc['kind'] == 'titletouch' and 'TOUCH' in log)
     final = d / 'final.png'
     ok_img = final.exists() and not flat(final)
     ok = p.returncode == 0 and warped and ok_img
@@ -67,8 +89,21 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     states.mkdir(parents=True, exist_ok=True)
     todo = [s for s in scenes() if not a.only or s['name'] in a.only.split(',')]
+    bat = battery(a.rom)
+    if bat.exists():  # a save left by an earlier run would make every "cold boot" load it
+        SAVES.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(bat), str(SAVES / 'stray.dsv'))
+        print('moved a stray battery save to %s' % (SAVES / 'stray.dsv'))
+    # cold scenes in parallel, then save-writing scenes one at a time, then scenes that start from a written save
+    toks = lambda s: s.get('set', '').split()  # noqa: E731
+    writers = [s for s in todo if 'writesave' in toks(s)]
+    users = [s for s in todo if any(t.startswith('sav=') for t in toks(s))]
+    cold = [s for s in todo if s not in writers and s not in users]
     with ThreadPoolExecutor(a.jobs) as ex:
-        res = list(ex.map(lambda s: run(s, a.rom, out, states), todo))
+        res = list(ex.map(lambda s: run(s, a.rom, out, states), cold))
+    res += [run(s, a.rom, out, states) for s in writers]
+    with ThreadPoolExecutor(a.jobs) as ex:
+        res += list(ex.map(lambda s: run(s, a.rom, out, states), users))
     bad = 0
     with open(out / 'summary.tsv', 'w', encoding='utf-8', newline='\n') as f:
         f.write('scene\tok\tend\twhy\n')

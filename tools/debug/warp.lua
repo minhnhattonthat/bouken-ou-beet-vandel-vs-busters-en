@@ -14,11 +14,19 @@
 --   namentry    new game, stop pressing at the name-entry screen
 --   event       warp PC to hex file offset `arg` (an event entry: a `17 <u32>` jump target, docs/re/scripts.md)
 --   gameover    warp to event `arg` (one with a battle), then force battle state 13 (game-over screen)
---   touch       warp to event `arg`, and after `frames`-300 frames tap the touch points in `set`
--- `mash` = press A every N frames after the warp (0 = never). `set` (event kind): space-separated writes applied at
--- warp time: fNNN = story flag bit (opcode 41/96), sNNN = event-seen bit (opcode 9A), hex ids; qXXXX = queue the
--- script at hex offset XXXX to run when `arg` ends (NPC talk events that load no map: warp `arg` = a map-load script,
--- e.g. 29BFA = East Village; the field's script-running state 0x02030D44 chains to [field_obj+0x3D8]).
+--   touch       warp to event `arg`, then at @FRAME press the inputs in `set`
+--   titletouch  no new game: at @FRAME press the inputs in `set` on the title screen (Story / 通信 / GBA link menus)
+-- `mash` = press A every N frames after the warp (0 = never). `set`: space-separated tokens:
+--   fNNN / sNNN   story flag bit (opcode 41/96) / event-seen bit (opcode 9A), hex ids, set at warp time
+--   qXXXX         queue the script at hex offset XXXX to run from the idle field after `arg` (repeatable, run in
+--                 order): NPC talk events, shop/inn counters, routines (save 459); `arg` = a map-load script, e.g.
+--                 29BFA = East Village (the field's script-running state 0x02030D44 chains to [field_obj+0x3D8])
+--   @FRAME tok..  inputs from absolute frame FRAME (touch/titletouch, and event scenes that have one): a button,
+--                 tX,Y (pressed 6 frames, then 90 idle) or wN (idle N frames)
+--   books         force the empty buster/vandel book open (see BOOKS below; warp_all adds --debugger)
+--   writesave     the scene saves and returns to the title on purpose: no reset check; warp_all runs it alone and
+--                 keeps the battery save as work/saves/<scene>.dsv
+--   sav=NAME      (warp_all) boot with work/saves/NAME.dsv, e.g. sav=clear_save for the post-clear title menus
 -- RAM layout (docs/re/scripts.md §Interpreter state): ctx ptr 0x021BEDAC (ctx+8 = PC), save base [0x021BA3A0],
 -- slot [0x021BEBE0], flags = [save+0x1580+8], seen = [save+0x158C+8], battle state 0x021BEE90.
 
@@ -83,7 +91,8 @@ local function setbit(base, id)
 end
 
 -- Input: title -> Story -> new game. Same as tools/routes/newgame.txt up to the first event.
-if kind ~= "title" then
+local titleish = (kind == "title" or kind == "titletouch")
+if not titleish then
   L.press("-", 500); L.press("t95,88", 6); L.press("-", 200); L.press("t128,88", 6); L.press("-", 200)
   L.press("t128,88", 6); L.press("-", 300)
 end
@@ -125,22 +134,50 @@ local function god_tick()
   end
 end
 
+-- BOOKS cheat (scene `set` token `books`, or --var BOOKS=1; needs emu.py --debugger, which warp_all.py adds): the
+-- Info screen (UI state 13, 0x02039674; button id [[ui+0x1C]+0x30]: 3 monster, 4 vandel, 5 buster book) opens a
+-- book only if the list it builds has a first entry ([[ui+0x70]+0x40] vandel / [[ui+0x74]+0x4C] buster ~= -1);
+-- early in the story both are empty. Force entry 0 so the book screen opens (debug only; shows entry 0's page).
+local books = BOOKS or (" " .. (sc.set or "") .. " "):match("%sbooks%s")
+if books then
+  local function force(field, off)
+    return function()
+      local ui = memory.getregister("arm9.r4")
+      local lst = memory.readdword(ui + field)
+      if ram(lst) and memory.readdword(lst + off) == 0xFFFFFFFF then
+        memory.writedword(lst + off, 0)
+        L.log(string.format("BOOKS f%d forced list %08X+%X = 0", L.frame, lst, off))
+      end
+    end
+  end
+  -- hooks on the return addresses of the list builders (block starts: mid-block addresses miss under the JIT)
+  L.on_exec(0x02039A3C, force(0x74, 0x4C))  -- buster book, after bl 0x0202EFEC
+  L.on_exec(0x0203990C, force(0x70, 0x40))  -- vandel book, after bl 0x0202F068
+end
+
 local warped, warp_frame = false, nil
 local idle, reset_at = 0, nil
 
 -- queued follow-up script (qXXXX in `set`): once the field is idle after the warp (field state 1, handler
 -- 0x02030EB4), it asks 0x0203D84C for a script triggered at the player's position; the hook on the instruction after
 -- that call (0x02030F50 `movs r4, r0`) hands back the queued offset, so the field runs it like a stepped-on trigger.
-local queued = tonumber((" " .. (sc.set or "")):match("%sq(%x+)") or "", 16)
+-- Several q tokens run in order, each once the field has been idle 60 frames again (e.g. a map-load script that
+-- does not work as a warp target, then a counter script on that map).
+local queue = {}
+for tok in (sc.set or ""):gmatch("%S+") do
+  local q = tok:match("^q(%x+)$")
+  if q then queue[#queue + 1] = tonumber(q, 16) end
+end
 local idle_field = 0
-if queued then
+if #queue > 0 then
   L.on_exec(0x02030F50, function()
-    if warped and queued then
+    if warped and #queue > 0 then
       idle_field = idle_field + 1
       if idle_field >= 60 then
-        memory.setregister("arm9.r0", queued)
-        L.log(string.format("QUEUE f%d run script %05X", L.frame, queued))
-        queued = nil
+        local q = table.remove(queue, 1)
+        memory.setregister("arm9.r0", q)
+        L.log(string.format("QUEUE f%d run script %05X", L.frame, q))
+        idle_field = 0
       end
     end
   end)
@@ -148,11 +185,14 @@ end
 local pc_after = nil
 -- touch kind: `set` = "@FRAME tok tok ..." ; tok = a button or tX,Y (pressed 6 frames, then 90 frames idle),
 -- or wN (idle N frames). Inputs start at FRAME (absolute, from boot); A-mashing stops 60 frames before it.
+-- Event scenes take the same "@FRAME tok .." inputs when `set` has an @FRAME (e.g. close a shopkeeper's greeting
+-- and open the shop menu); fNNN/sNNN/qXXXX tokens are warp writes, not inputs.
 local touches, touch_at = {}, nil
-if kind == "touch" then
+if kind == "touch" or kind == "titletouch" or (kind == "event" and (sc.set or ""):match("@%d+")) then
   for tok in (sc.set or ""):gmatch("%S+") do
     local at = tok:match("^@(%d+)$")
-    if at then touch_at = tonumber(at) else touches[#touches + 1] = tok end
+    if at then touch_at = tonumber(at)
+    elseif not tok:match("^[fsq]%x+$") and tok ~= "books" and tok ~= "writesave" and not tok:match("=") then touches[#touches + 1] = tok end
   end
   touch_at = touch_at or 3600
 end
@@ -163,7 +203,7 @@ L.on_frame(function(n)
     local pc = memory.readdword(c + 8)
     if kind == "newgame" or kind == "namentry" then
       if pc >= 0x871 and pc <= 0x875 then warped, warp_frame = true, n; L.log("WARP newgame f" .. n) end
-    elseif kind ~= "title" and pc >= 0x871 and pc <= 0x875 then
+    elseif not titleish and pc >= 0x871 and pc <= 0x875 then
       local fl, se = save_obj(0x1580), save_obj(0x158C)
       for tok in (sc.set or ""):gmatch("%S+") do
         local k, id = tok:match("^([fs])(%x+)$")
@@ -179,7 +219,8 @@ L.on_frame(function(n)
     if god ~= 0 then god_tick() end
     -- reset check: after a lost battle the game goes back to the BANDAI logo and title, where there is no script
     -- context and the battle state word is 0. 600 such frames in a row after the warp = the scene was not reached.
-    if kind ~= "gameover" then
+    -- `writesave` scenes end by saving and going back to the title on purpose (clear data), so no reset check.
+    if kind ~= "gameover" and not (" " .. (sc.set or "") .. " "):match("%swritesave%s") then
       if not c and memory.readdword(0x021BEE90) == 0 then
         idle = idle + 1
         if idle == 600 then reset_at = n; L.log(string.format("RESET f%d (no script context, no battle)", n)) end
@@ -205,20 +246,20 @@ L.on_frame(function(n)
         L.log(string.format("SHOT gameover.png f%d battle state %d", n, memory.readdword(0x021BEE90)))
       end
     end
-    if kind == "touch" and n == touch_at then
-      for _, t in ipairs(touches) do
-        local w = t:match("^w(%d+)$")
-        if w then L.press("-", tonumber(w)) else L.press(t, 6); L.press("-", 90) end
-      end
-      L.log(string.format("TOUCH f%d %s", n, table.concat(touches, " ")))
+  end
+  if touch_at and n == touch_at and (warped or kind == "titletouch") then
+    for _, t in ipairs(touches) do
+      local w = t:match("^w(%d+)$")
+      if w then L.press("-", tonumber(w)) else L.press(t, 6); L.press("-", 90) end
     end
+    L.log(string.format("TOUCH f%d %s", n, table.concat(touches, " ")))
   end
   if FRAMES and n == FRAMES - 1 then
     local cc = ctx()
     L.log(string.format("END f%d warped=%s ctx=%s pc=%s battle_state=%d", n, tostring(warped),
       cc and string.format("%08X", cc) or "-", cc and string.format("%05X", memory.readdword(cc + 8)) or "-",
       memory.readdword(0x021BEE90)))
-    if kind ~= "title" and not warped then L.fail("warp never fired (interpreter never reached 0x871)") end
+    if not titleish and not warped then L.fail("warp never fired (interpreter never reached 0x871)") end
     if reset_at then L.fail(string.format("game reset to the title after the warp (f%d)", reset_at)) end
   end
 end)

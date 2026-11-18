@@ -2,7 +2,16 @@
 # jump targets in field/script/rom.img (tools/debug/events.py, docs/re/scripts.md). Regenerate states:
 # python -X utf8 tools/debug/warp_all.py
 name	kind	arg	mash	frames	set	note
-title	title		0	900		title screen with Story / VS menu
+title	title		0	900		title screen with Story / GBA link buttons
+title_story	titletouch		0	900	@500 t95,88 w200	Story submenu
+clear_save	event	16770	60	3000	writesave	after the Buster staff roll: A0 00 01, 0F, save routine 0x459, back to the title (writes work/saves/clear_save.dsv)
+title_clear	titletouch		0	900	sav=clear_save @500 w10	title after a clear: Story / 対戦 (VS) / GBA link
+title_story_clear	titletouch		0	1000	sav=clear_save @500 t59,88 w300	Story submenu after a clear (Buster / Vandel mode)
+title_comm	titletouch		0	1200	sav=clear_save @500 t122,88 w500	通信 (wireless link battle) check screen, unlocked by the clear save
+title_comm_host	titletouch		0	1500	sav=clear_save @500 t122,88 w300 t88,83 w400	通信 > 通信受付 (host, waits for a partner)
+title_comm_search	titletouch		0	1500	sav=clear_save @500 t122,88 w300 t190,83 w400	通信 > 通信検索 (search for a partner)
+title_vandel_new	titletouch		0	1600	sav=clear_save @500 t59,88 w300 t160,88 w600	Story > Vandel mode start (after a clear)
+title_gbalink	titletouch		0	1000	@500 t160,88 w300	GBA link screen
 newgame	newgame		30	2400		opening ship event (event 60 @0x871)
 namentry	namentry		0	3600		name-entry screen after the opening
 credits	event	2EE	0	7000		staff roll routine (bg/credit01-19), called from both endings (17 @0x1676C, @0x51B6F)
@@ -21,10 +30,30 @@ menu_orders	touch	1ACB	30	4128	@3600 start t18,40 t210,120	party > party orders
 menu_info	touch	1ACB	30	4032	@3600 start t18,80	info menu
 menu_quests	touch	1ACB	30	4128	@3600 start t18,80 t76,64	info > quests (quest/quest.img text)
 menu_monsters	touch	1ACB	30	4128	@3600 start t18,80 t180,64	info > monster book
-menu_busters	touch	1ACB	30	4128	@3600 start t18,80 t76,148	info > buster book
-menu_vandels	touch	1ACB	30	4128	@3600 start t18,80 t180,148	info > vandel book
+menu_busters	touch	1ACB	30	4128	@3600 start t18,80 t76,120 books	info > buster book (books cheat: empty book forced open)
+menu_vandels	touch	1ACB	30	4128	@3600 start t18,80 t180,120 books	info > vandel book (books cheat)
 menu_option	touch	1ACB	30	4032	@3600 start t18,118	option screen
 menu_save	touch	1ACB	30	4032	@3600 start t18,158	save prompt
+shop_weapon	event	2B58B	0	1800	q2B5C2 @1200 a w300	East Village weapon shop (map 73, counter 04 -> opcode AF 0)
+shop_armor	event	2B61B	0	1800	q2B652 @1200 a w300	East Village map 74 shop (counter -> opcode 10 2)
+shop_item	event	2FC5F	0	1800	q2FC89 @1200 a w300	East Village map 78 shop (counter -> opcode 53 3)
+shop_weapon_buy	event	2B58B	0	1900	q2B5C2 @1200 a w300 t128,36 w200	weapon shop > buy list
+shop_weapon_sell	event	2B58B	0	1900	q2B5C2 @1200 a w300 t128,60 w200	weapon shop > sell list
+shop_weapon_forge	event	2B58B	0	1900	q2B5C2 @1200 a w300 t128,83 w200	weapon shop > forge (鍛える)
+shop_armor_buy	event	2B61B	0	1900	q2B652 @1200 a w300 t128,36 w200	armor shop > buy list
+shop_item_buy	event	2FC5F	0	1900	q2FC89 @1200 a w300 t128,36 w200	item shop > buy list
+mhall	event	29BFA	0	2200	q305DA q307CA @1600 a w300	Vandel mode 魔賓館 (map 7A, load 305DA queued from East Village): reception Tarotos 307CA
+mhall_items	event	29BFA	0	2400	q305DA q307CA @1600 a w300 t134,35 w200	魔賓館 > 道具売買 (item trade)
+mhall_monsters	event	29BFA	0	2400	q305DA q307CA @1600 a w300 t134,59 w200	魔賓館 > モンスター売買 (monster trade)
+mhall_aide	event	29BFA	0	2400	q305DA q307CA @1600 a w300 t134,82 w200	魔賓館 > モンスター腹心 (aide monsters)
+mhall_items_buy	event	29BFA	0	2600	q305DA q307CA @1600 a w300 t134,35 w200 t134,35 w200	魔賓館 > item trade > buy list
+mhall_monsters_buy	event	29BFA	0	2600	q305DA q307CA @1600 a w300 t134,59 w200 t134,35 w200	魔賓館 > monster trade > buy list
+savepoint	event	29BFA	0	1500	q459	save routine 0x459 run from the East Village field ("ゲームデータをセーブします")
+savepoint_yes	event	29BFA	0	1700	q459 @1150 a w300 writesave	save routine: past the prompt (yes/no or result)
+quest_abandon	event	29BFA	0	1300	q3C53E	quest message routine 0x3C53E ("クエストをあきらめます")
+quest_done	event	29BFA	0	1300	q3C546	quest message routine 0x3C546 ("クエストの終了条件を満たしました")
+appraiser	event	2AEB5	0	1260	q2AEDF	East Village appraiser greeting (map 71; the 4F appraisal choice needs story var 0x93)
+inn	event	2B39D	0	1800	q2B3C4 @1200 a w300	East Village inn (map 72, rest yes/no)
 b02_boat	event	1ACB	30	4000		boat landing, first battle (map 6F, battle 129)
 b03_village	event	1DC5	30	4000		East Village, Lena (map 70)
 b04_rescue	event	2CF7	30	4000		map 5A/50, battle EF
