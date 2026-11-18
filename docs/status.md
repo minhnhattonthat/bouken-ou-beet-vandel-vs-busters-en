@@ -3,7 +3,26 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 bf77ae4518d91f6ff8dff19bddcbe334c9066491 (session 6, unchanged in 7), check.py green (62 tests).
+  Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (session 8), check.py green (64 tests). **The tour in
+  work/qa/en is older than this build** (398 messages rewrapped, tag hook): full re-tour first (Next (1)).
+- **Phase 8 session 8 (2026-11-19), Orca worker: verdict run 4 fixed, widows, tag centring (context limit).**
+  - Verdict run 4's 13 issues fixed. Speaker tags: 里の門 now "Village Gate" (78 px); "Master" (橋かけ名人, 89 px in
+    full), "Mirei Chief" (112 px) and area "Muterin Range" (119 px) kept as short forms with glossary notes
+    (rechecks in `work/qa/verdicts/recheck_main_5.tsv`). Graphics: cut-left `button_detail`/`button_order` (only
+    sprite x 32..60 is on screen) now font `s` in box x 32 w 28; shop 必要Lv. = "Req. Lv" (gfx/shops.tsv; the
+    digit is 47 px in). Re-toured those scenes (work/qa/en, build 14508a33), run 5 verdicts all ok but one more
+    widow, which led to:
+  - **One-word last lines everywhere:** `lint.widow` (error: a page of 2+ lines ends on one word and the line above
+    has 2+ words and no sentence end) + `batches.py unwidow [-v] [--write]` (moves the last word of the line above
+    down when it fits; also run by `wrap()` on merge). 398 entries rewrapped (rom 343, quest 53, ptr 2), one
+    reworded (rom.4CF10). Tests in tests/test_lint.py.
+  - **Speaker tags off-centre** (`tools/tagbox.py work/qa/en`, new: inkbox on every shot with the tag, rect
+    178,121,77,17 --ink 90,66,74): 81 of 148 off by up to 7 px. The tag x had a second `6*count` site at 0x020951C8
+    (the branch dialogue uses); hooked with `name_half2` (docs/re/vwf.md). After: 11/11 centred (`work/qa/p8_tag`).
+  - Coverage: `--debugger` makes no difference to textlog (same 80 TAB lines on menu_items_all), so drop it. The
+    table gap is because list screens fetch only the visible rows: menu_items_all shows page 1/9 (4 items). Close it
+    with scenes (or `EXTRA`) that page through each list (R / d-pad; check warp.lua's button tokens) and select each
+    row for its description.
 - **Phase 8 session 7 (2026-11-19), Orca worker: re-tour, message gallery, coverage probes, verdict run 4.**
   - Tour `work/qa/en` on bf77ae45: 101/101 ok (cold scenes in the first run, whose summary was lost to a crash; the
     9 save scenes + menu_quests re-run from `work/qa/beet_tour.nds`, same bytes, `summary_save.tsv`). Sheets
@@ -153,15 +172,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8), in order:** (1) act on verdict run 4 (`qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`;
-  fix text issues, recheck; the tour is current for bf77ae45 unless the build changes). Tours: textlog's exec hooks
-  are block starts, so `--debugger` is probably not needed for warp_all either (only `books`): test, it is 20x faster;
+- **Next (phase 8), in order:** (1) full re-tour on the current build: `python -X utf8 tools/debug/warp_all.py
+  build/beet_en.nds --jobs 2 --out work/qa/en --script tools/lua/glyphlog.lua --script tools/lua/textlog.lua`
+  (no --debugger: tested, same logs; `books` scenes add it themselves), then `tools/tagbox.py work/qa/en` (expect 0),
+  vqasheets, `qa_gate.py init work/qa/manifest.tsv work/qa/vqa_en --build build/beet_en.nds` (drop manifest lines
+  whose sheet is now `missing`), todo `--size 6`, `tools/visualqa.py ... --jobs 2`, fix and recheck. Also re-run the
+  message gallery (text moved: 398 rewraps);
   (2) coverage: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
   registration bit set, skills); quests and names need the random pick forced (quest board 4F at 0x3C288; name
   index r0 at 0x02019608, docs/re/scripts.md); waive only what is shown unreachable in `docs/text_unshown.tsv`
-  (ptr.comm = wireless partner, ptr.gba = GBA game in slot 2, ptr.keyboard = kept Japanese by design); (3) inkbox on speaker tags (above); (4) the Vandel-mode list screen
+  (ptr.comm = wireless partner, ptr.gba = GBA game in slot 2, ptr.keyboard = kept Japanese by design); lists fetch only
+  their visible rows, so page through them (session 8); (3) inkbox: speaker tags fixed and checked by tagbox.py
+  (above), choices/menus are gfx.py buttons (centred by construction); (4) the Vandel-mode list screen
   (0x02065504, above); (5) `qa_gate check` exit 0 on the final build. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
   for wave-3 screens not yet warped (radio screens need a wireless partner: note as unreachable).
   Open items carried into phase 8:
