@@ -114,7 +114,7 @@ a batch line has the JP term without the EN form.
 | ダチャレイ洞窟 | Dacharei Cave |  | Place: Outer cave area. |  |
 | ダチャレイ坑道 | Dacharei Mine |  | Place: Deeper workings where Horey hides; distinct from cave. |  |
 | ミレイの森 | Mirei Forest |  | Place: Forest region. |  |
-| ミレイ森の里 | Mirei Forest Village |  | Place: Destroyed village. |  |
+| ミレイ森の里 | Mirei Forest Village |  | Place: Destroyed village. Map labels (area.name, 96 px): short form "Mirei Village". |  |
 | ビム砂漠 | Bim Desert |  | Place: Sandstorms require goggles. |  |
 | ビム砂漠の塔 | Bim Desert Tower |  | Place: Near the chief's false cache location. |  |
 | ゼロス雪原/ゼロセス雪原 | Zeros Snowfield |  | Place: ゼロセス is an isolated variant; normalize provisionally. |  |

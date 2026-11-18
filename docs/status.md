@@ -3,7 +3,26 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build: see session 3 below; smoke ok, check.py green.
+  Build: see session 4 below; check.py green.
+- **Phase 8 session 4 (2026-11-19), Orca worker: last graphics, re-tour, verdict run.**
+  - Graphics survey closed: `tools/gfxgroups.py` lists 0 pending. Credits (19 panels, `gfx/credits.tsv`, codex via
+    gfxagent; provisional name readings in its comments) seen in game on the `credits` warp, all panels clean
+    (`work/qa/p8_credits/crops*.png`). By hand: radio win/lose/draw banners (YOU|WIN!, YOU|LOSE, D|R|A|W, new font
+    scale `sx3`/`sx4` in gfx.py; wireless only, no warp), skill-type tags Atk/Buff/Weak/Heal, body-part buttons,
+    ★ for the 8x8 星 mark (glyph added to smallfont), Vandel House tab without shadow. `gfxgroups.SKIP` records
+    files with no text (all 23 cut-ins: portraits only; tengeki arrows; main_v_parts is Latin "BL") and the kept
+    title logo (D5).
+  - Build sha1 41aad77da2470fb3728585b046af3131c908042a (after the fixes below). Full tour `work/qa/en` 101/101 ok on
+    the build before them; v14_battle7 + credits re-run on this one. `qa_gate.py check work/qa/manifest.tsv
+    work/qa/verdicts`: 155 sheets, all with verdicts, **1 not ok: menu_monsters/sheet_2 (沼 element value, below)**.
+    Run 3: 48 ok, 104 issue, 101 of them the title logo only (accepted under D5 in `verdicts/recheck_logo_3.tsv`;
+    `docs/visual-qa-brief.md` now says so). Fixed: orphaned "expenses..." page in rom.4B7F8; stale
+    v06_wrong_way/sheet_2 manifest line (that scene now has one sheet). Main-thread rechecks
+    (`verdicts/recheck_main_4.tsv`): "Ribenin Lake" was a misread (crop reads Riberin), "Mirei Village" is the 96 px
+    area.name short form (glossary note added).
+  - gfx.py: font 10/12 `j` overlaps its hook under the previous letter ("Ko ji" gap in the credits).
+  - Not yet set up: `textcover.py` (needs `build/strings.tsv` from the build and a `TEXT <addr>` log line from a
+    text hook, e.g. in glyphlog.lua or a new probe) and `inkbox.py` on choice/centred boxes.
 - **Phase 8 session 3 (2026-11-19), Orca worker: graphics waves.**
   - Waves via `tools/gfxagent.py` (codex): menus, windows, shopbuttons, shops, radio, info, title, obj, nameopt all
     merged; agents' reports in `work/gfx_agents/<group>.md`. Build sha1 e36a3686a71980fa832391ad958f6f53656eac0d,
@@ -63,10 +82,12 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8):** review wave-3 rows (previews), finish the pending graphics listed in session 3, run
-  `cutins` and `credits` (own approach), build, re-tour (`work/qa/en`) + vqasheets + qa_gate init + visualqa on all
-  chunks; title logo katakana line and credits need their own approach (credits: whole
-  panels, `bg/credit*.nbfc` + map). Then re-tour, re-verdict; `inkbox.py` on choice/centred boxes; `textcover.py`.
+- **Next (phase 8), in order:** (1) `elem.name` engine work (plan below), then re-run menu_monsters, vqasheets,
+  `qa_gate init --build`, visualqa on the todo chunk; (2) `textcover.py`: have the build write `build/strings.tsv`,
+  log `TEXT <addr>` from the text hook during the tour, add scenes or waivers (`docs/text_unshown.tsv`) for the gaps;
+  (3) `inkbox.py` on every choice and centred menu box in the tour shots; (4) a full re-tour on the final build +
+  `qa_gate check` exit 0. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
+  for wave-3 screens not yet warped (radio screens need a wireless partner: note as unreachable).
   Open items carried into phase 8:
   - `elem.name` (属性, 10 one-kanji values, still Japanese, listed TEMPORARY in `script/keep_jp.txt`): the value
     canvas is window [[ui]+4]+0x100, drawn by `bl 0x02020240` (12 px) at 0x0208FF3C, at x ~232 next to the 属性

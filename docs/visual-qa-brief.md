@@ -31,6 +31,8 @@ Standing non-bugs, `ok`:
 - a map or scene still loading after a warp, black or white transition frames;
 - anything identical in the original's sheet that is not Japanese text;
 - the name-entry kana keyboard (Japanese by decision; the player types English on the 英字 tab);
+- the title logo (冒険王ビィト / ヴァンデル バーサス バスターズ art): kept by decision D5, the game has no official
+  English logo;
 - full-width digits that look wide (the game's own digits).
 
 ## Output

@@ -1818,7 +1818,7 @@
   {
    "id": "rom.4B7F8",
    "jp": "{vandel}様は{br}これから　この双子島のトップに{br}立つお方として　何かとご入用かと・・・{page}どうぞご活用くださいませ・・・{page}では・・・　失礼いたします！！{close}",
-   "en": "As the new ruler of these Twin{br}Islands, {vandel}-sama, I imagine{br}you will have all manner of{page}expenses...{page}Please put it to good use...{page}Now, if you will excuse me!!{close}",
+   "en": "As ruler of the Twin Islands,{br}{vandel}-sama, I imagine you will{br}have all manner of expenses...{page}Please put it to good use...{page}Now, if you will excuse me!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

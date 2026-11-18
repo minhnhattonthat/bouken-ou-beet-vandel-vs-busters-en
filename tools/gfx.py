@@ -114,8 +114,17 @@ class Glyphs:
             g = self.glyph(ch, size)
             if bold and ch != ' ':
                 g = [[a | b for a, b in zip(r + [0], [0] + r)] for r in g]
+            # j's hook reaches left under the previous letter (else "Ko ji"): overlap the columns where only it inks
+            kern = 0
+            if ch == 'j' and k and size != 's':
+                while kern < len(g[0]) - 1 and not any(g[r][kern] for r in range(rows - 3)):
+                    kern += 1
+                kern = min(kern, GAP + 1)
             for r in range(rows):
-                out[r] += g[r] + ([0] * GAP if k < len(text) - 1 else [])
+                if kern:
+                    tail = out[r][-kern:]
+                    out[r][-kern:] = [a | b for a, b in zip(tail, g[r][:kern])]
+                out[r] += g[r][kern:] + ([0] * GAP if k < len(text) - 1 else [])
         return len(out[0]), out
 
 
