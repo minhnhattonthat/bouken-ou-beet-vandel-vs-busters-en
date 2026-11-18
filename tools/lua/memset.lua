@@ -1,5 +1,5 @@
 -- Hold one RAM word (any address, not just the save struct; warp.lua's wOFF tokens cover that): from frame
--- MEMSET_FROM (default 0) on, write MEMSET_VAL to MEMSET_ADDR, or to [MEMSET_PTR] + MEMSET_OFF once that pointer is
+-- MEMSET_FROM (default 0) on (only once with MEMSET_ONCE=1), write MEMSET_VAL to MEMSET_ADDR, or to [MEMSET_PTR] + MEMSET_OFF once that pointer is
 -- set. MEMSET_SIZE 1/2/4 (default 4). Logs the value it found the first time: MEMSET <addr> was <old> now <val>.
 -- e.g. the area/area2 table switch [[0x021BEDA4]+0xC] (0/1 = area, else area2; 0x020D3084):
 --   --script tools/lua/memset.lua --var MEMSET_PTR=0x021BEDA4 --var MEMSET_OFF=0xC --var MEMSET_VAL=2
@@ -19,6 +19,8 @@ L.on_frame(function(f)
   if not told then
     told = true
     L.log(string.format("MEMSET %08X was %X now %X f%d", a, rd(a), val, f))
+  elseif MEMSET_ONCE then
+    return
   end
   wr(a, val)
 end)

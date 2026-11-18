@@ -5,9 +5,32 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,221 shown + 200 waived of 9,472, 1,051 failing; party complete in
-  session 15) and the Vandel-mode list (Next (4)). Biggest left: weapon 336, rom.msg 278, buster 132, keyitem 90,
-  vandel 78, wpntype 68, special 30, area2 25, ptr 21.
+  Left for the done-when: **text coverage** (8,561 shown + 200 waived of 9,472, 711 failing; buster, vandel and
+  key items complete in session 16) and the Vandel-mode list (Next (4)). Left: weapon 296 (74 records), rom.msg 278,
+  wpntype 65, special 26, area2 25, ptr 21.
+- **Phase 8 session 16 (2026-11-19), Orca worker: buster/vandel books, vandel battles, key-item shop (context limit).**
+  - **Books:** the list builders test one registration bit per entry: buster book 0x0208E0B8, ids 0..0x32, bitset
+    object 0x021BEC58 (0x0200AEA8); vandel book 0x02090960, ids 0..0x12, object 0x021BEC4C (0x0200AEB4); test
+    0x0201B1D8 = byte [[obj+8] + id>>3] & bit. warp.lua token `bookbits` sets them every frame (replaces the `books`
+    hack for coverage). Scenes `book_busters` / `book_vandels` page with R: `work/qa/cover/book_{busters,vandels}`,
+    all 51 / 19 pages draw right (sheets in those dirs; NO. 1 "Buster" = original バスター, checked on the JP ROM).
+  - **Vandels 19-30** (Mugain .. Water Vandel) and the vandel weapons: battle unit init 0x020B4AD4 takes the vandel id
+    in r1 (0x13F + record; 0x159-0x15D = Vandel-hero types get extra setup). One battle per id with it swapped:
+    `python -X utf8 tools/debug/idsweep.py --scene b20_lena_sleep --acc 0x020B4AD4 --var "IDLOOP_REG='r1'"
+    --var GOD_WIN=900 --ids 0x13F-0x15D --frames 3200 --out ...` (session 16 ran it by hand into
+    `work/qa/cover/vbattle_v<id>`; the swapped vandels fight and shout, `work/qa/p16_vb/sheet.png`). Vandel table
+    complete. Vandels 0x145, 0x147, 0x149-0x151 never fetch a weapon (also with GOD_WIN 4000), so weapon records 224-226,
+    240, 243-248, 250-253 are still missing: find where those vandels' weapon is read, or waive.
+  - **Key items:** script op `5E <shop>` = buy shop (only uses: rom 0x2FEEE / 0x2FF06, shop 0x0C = Holy Silver Drops).
+    Shop lists: table 0x021AE21C[shop id] (0-based, read at 0x02076034) -> 0-terminated u16 lists; in this shop mode
+    (list [ui+0x118], 0x02076DB4) any entry with 0x300 bits set is a key item (low byte = id+1). The field-board
+    switch on [ui+0x430] (0x0203ADBC; codes 1/4/7/9 build the list screen 0x0202EF70; requested via 0x02048C30 from
+    ops 5E / 6F / 53) is the route. warp.lua token `mADDR=HEX` (absolute RAM poke at warp time). Scene
+    `shop_keyitems` repoints shop 0x0C to all 30 key items and pages: `work/qa/cover/shop_keyitems`, all 30 draw
+    right. The Items menu's key branch (category 0x300 at 0x020BF3EC) is dead: [obj+0x914] is only ever 0x400.
+  - Tried: weapons in the 5E shop list are read as key items (`work/qa/p16_wshop`), so a weapon shop list (ops 53 /
+    AF / 10, docs/re/scripts.md) is the next thing to try for the 74 weapon records that hang Equip/sell.
+  - `tools/lua/memset.lua` got `MEMSET_ONCE=1`. **Re-tour needed** before the final gate (still on 50c319fb).
 - **Phase 8 session 15 (2026-11-19), Orca worker: party names complete, weapon-list sweep, key-item screen RE.**
   - **Party names done:** every named member has a real story join (`5A <type> <slot>`), listed by the new
     `tools/debug/joinsites.py --types 1-0x10` (e.g. type 6 Milfa at rom.img 0x1899E, 9/A 0x17E2E, 7/8 0x1AB76,
@@ -341,7 +364,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (2) coverage, biggest first (shouts done in session 10, quests in session 12; report over work/qa/en
   work/qa/gallery work/qa/cover with `--waive docs/text_unshown.tsv`):
   names (done), skills/tengeki/meigeki (done session 14; skill rows draw blank, see there), specials, buster/vandel books
-  (session 9 note), key items (screen unknown: u16 list at [ui+0x118]), the weapon records that hang the sell list,
+  (done session 16), key items (done session 16), the weapon records that hang the sell list (try a weapon shop list),
   rom.msg 278 (session 7 note). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every

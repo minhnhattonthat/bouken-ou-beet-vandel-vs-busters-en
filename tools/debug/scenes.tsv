@@ -61,6 +61,7 @@ savepoint_yes	event	29BFA	0	1700	q459 @1150 a w300 writesave	save routine: past 
 quest_board	event	29BFA	0	2400	q3C288	random quest board (rom.img 4F at 0x3C288, table 0)
 buster_join	event	29BFA	30	2400	q2D14F	generic buster joins (rom.img join block 0x2D133 past its check: 5A 1B = type 0x1B into slot 0x1A; name from 0x02019590)
 member_join	event	29BFA	30	2400		East Village idle field, nothing queued: add EXTRA='q<pc>' with a story join pc from tools/debug/joinsites.py (party name coverage)
+shop_keyitems	event	29BFA	30	4400	m021AE104=0103020303030403050306030703080309030A030B030C030D030E030F0310031103120313031403150316031703180319031A031B031C031D031E030000 m021AE24C=04E11A02 q2FEEE @2400 w600 r r r r r r r r r r r	key-item shop (op 5E 0C at rom 0x2FEEE): shop 0x0C list (table 0x021AE21C[id], 0-term u16 0x300|id) repointed to all 30 key items, paged (coverage)
 quest_counter	event	29BFA	0	2400	q2AFC0	guild quest counter (rom.img 4F at 0x2AFC0: story slots 0x1144 + random boards table 0x11D4)
 quest_counter2	event	29BFA	0	2400	q2AFA6	the other guild counter (4F at 0x2AFA6, random boards table 0x11E4)
 quest_abandon	event	29BFA	0	1300	q3C53E	quest message routine 0x3C53E ("クエストをあきらめます")

@@ -282,6 +282,11 @@ L.on_frame(function(n)
         if base then setbit(base, tonumber(id, 16)) end
         local off, hex = tok:match("^w(%x+)=(%x+)$")
         if off then poke(tonumber(off, 16), hex) end
+        local ma, mhex = tok:match("^m(%x%x%x%x%x%x%x%x)=(%x+)$")  -- mADDR=HEX: bytes at an absolute RAM address
+        if ma then
+          for i = 1, #mhex - 1, 2 do memory.writebyte(tonumber(ma, 16) + (i - 1) / 2, tonumber(mhex:sub(i, i + 1), 16)) end
+          L.log(string.format("POKE %s = %s", ma, mhex))
+        end
         if tok == "inv" then fill_inventory() end
         local spec = tok:match("^inv=(.+)$")
         if spec then fill_region(spec) end
