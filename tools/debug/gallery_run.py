@@ -28,7 +28,8 @@ def run(k, lo, hi, rom, out, shots):
            '--script', str(REPO / 'tools/debug/warp.lua'), '--var', "SCENE='newgame'", '--var', 'NOMASH=1',
            '--script', str(REPO / 'tools/debug/gallery.lua'), '--var', "GALLERY='%d-%d'" % (lo, hi),
            '--var', "GALLERY_PCS='%s'" % (out / 'pcs.txt').as_posix(),
-           '--script', str(REPO / 'tools/lua/textlog.lua'), '--debugger',
+           # no --debugger: every hook here is on a block start, and the JIT runs ~20x faster (same SCR lines)
+           '--script', str(REPO / 'tools/lua/textlog.lua'),
            '--frames', str(BOOT + FRAMES_PER_SPAN * (hi - lo + 1)), '--timeout', '7200']
     if shots:
         cmd += ['--var', 'GALLERY_SHOTS=1']

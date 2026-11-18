@@ -60,6 +60,15 @@
   and white-screens on ids >= 34. Key items: a u16 list at [ui+0x118] read at 0x02076DC4 takes entries with
   byte1 & 3 as key items (accessor 0x020141FC), others as items (0x02014218); screen not identified yet.
   warp.lua `inv` fills the item region (INV_CATS / INV_FROM / INV_N).
+- **quest.img interpreter** (2026-11-19): loop 0x020111D0(ctx, pc, ..), ctx [0x021BA39C] (+8 = PC), length table
+  0x0210D338, handlers 0x0210D36C (20 title 0x02011F70, 1A 0x020123E0, 2D 0x020116F4). Called from 0x02010F38
+  (quest offer, via the state wrapper 0x02048494) and 0x0204A860 (rom.img op `99` handler at 0x0204FD40: quest update
+  with a fixed quest.img pc). rom.img has only 3 `4F` offer sites (0x2AFA6 / 0x2AFC0 tables 0x11E4 / 0x11D4, 0x3C288
+  table 0 = the random quest board) and 7 `99` sites, so most of the 210 quests only come from the board's random
+  pick: a quest gallery has to force that pick. `tools/lua/textlog.lua` logs `QST <pc>`.
+- **Generic buster names** (status/bustername/busterman.bin / busterwoman.bin, 128 x 22 bytes): made at 0x02019590
+  (types 0x11-0x1F man, 0x20-0x33 woman), random index from bl 0x0201A938 (returns at 0x02019608, r0), re-rolled
+  while it equals a party member's name; `NAM m|w <idx>` in textlog.lua.
 - Monster attribute (属性) kanji: table `elem` at 0x021233D8 (10 x 4 bytes), accessor 0x020140F4, drawn by
   0x0208FF20 (monster book) and 0x02065504 (a six-row list) into a small canvas; relocated by `engine.RELOC`.
 - Event entries begin `9A id; 66; 64 map; ...` and end `17 <next event or map setup>; FF`. Setting PC to an entry

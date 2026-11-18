@@ -1,5 +1,6 @@
 -- gallery.lua: message gallery for text coverage (phase 8). Append after tools/debug/warp.lua on the `newgame`
--- scene with NOMASH=1, plus tools/lua/textlog.lua and --debugger (tools/debug/gallery_run.py does all that).
+-- scene with NOMASH=1, plus tools/lua/textlog.lua (tools/debug/gallery_run.py does all that; no --debugger needed:
+-- both hooks are block starts).
 -- The opening event runs until its first message has been closed (PC 0x8C1: the message window and the top screen
 -- are set up); from then on the field-script interpreter is fed one dialogue span after another from the list
 -- tools/debug/gallery.py writes (work/qa/gallery/pcs.txt, `START END` hex per line: `2A` open window, [`9E`
