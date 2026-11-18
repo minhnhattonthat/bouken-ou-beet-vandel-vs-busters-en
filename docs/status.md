@@ -3,11 +3,24 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 3909a14479f32eb10e16fd535b9fe9d78a95f690 (session 21: Vandel Status part cells, " joined the party!"),
-  check.py green (70 tests), smoke ok.
-  **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage: the 4 Saiga learn lines** (021B424C-29C; the other 10 ptr seen in
-  session 21) and the re-tour + qa_gate on the final build (Next (1), (5)). Vandel-mode list (Next (4)) done.
+  Build sha1 9599030726e8d5a6f1f474019096512de9b01d7e (session 22: appraiser level-up {page}), check.py green
+  (71 tests). **Text coverage done: `textcov.py report work/qa/en work/qa/gallery work/qa/cover --waive
+  docs/text_unshown.tsv` = 0 failing (9009 shown, 463 waived).**
+  Left for the done-when: **only the re-tour + vqasheets + qa_gate on this build** (Next (1), (5)). The tour
+  work/qa/en is mixed: the session-22 re-tour was killed by Claude Code for low system memory partway (some scene
+  dirs are new, most from 50c319fb), so run the whole tour again, with `--jobs 1` if memory is short.
+- **Phase 8 session 22 (2026-11-19), Orca worker: Saiga learn + appraiser level-up shown, tour killed (memory).**
+  - **Saiga learn prompt seen** (all 4 lines, Yes/No pass inkbox with `--ink 74,74,74 --diff 40`, rects
+    74,304,36,15 155,304,37,15): new `tools/lua/saigalearn.lua` with scene menu_skills, `work/qa/cover/saiga_learn`.
+    RE in docs/re/arm9.md (UI state table 0x0219525C; 24 -> 25 when [[ui+0xCC]+0x38] == 6).
+  - **Bug fixed: appraiser "[FF00] is now level [FF01]." (a9.021AAED8) had lost the JP's trailing {page}**, so
+    the box closed before it could be read. Found by forcing the level-up (idloop IDLOOP_ACC=0x020487AC
+    IDLOOP_FROM=1 IDLOOP_N=1 on scene appraiser with `EXTRA='q2AF8B @1300 a*6 w300'`); seen fixed
+    (`work/qa/cover/appraisal_levelup/shot.png`: "Hero is now level 1."). New lint rule + test: an en must keep a
+    JP's trailing {page} (no other entry broke it).
+  - **vandel_status / vandel_uptake end fixed:** the hero ends on the Golden Castle heal point, so the extra A
+    presses kept reopening "Health and Dark Power restored!". The route now ends `a*125 down*3 a down*3 ... w300
+    start ...` (steps off the point). Verified: Force Menu > Status reached at ~f24500 (`work/qa/p22_vs3`).
 - **Phase 8 session 21 (2026-11-19), Orca worker: real Vandel mode reached, part cells fixed, 10 ptr seen (context limit).**
   - **Real Vandel mode from a cold boot:** `title_vandel_new` (`--sav work/saves/clear_save.dsv` when run alone; warp_all
     applies `sav=`) + New Game t128,90, then A through the intro, OK t235,176 on the name and the epithet entry. New

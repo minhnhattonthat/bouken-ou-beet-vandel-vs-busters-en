@@ -56,6 +56,15 @@ no run of kana outside the extracted slots, except 7 numeric words (`tests/test_
 - Scattered: 0x0211A6AC (さぁーて！！はじめようぜ！), 0x02121BD4, 0x02123400, and clusters at 0x0219B030, 0x021A9D04,
   0x021AA110, 0x021AAE9C (strings just before the path `/field/script/rom.img`), 0x021ADF44, 0x021AE554, 0x021B424C,
   0x021B60A4, 0x021B63A8. ~134 strings in all; can be repointed into new space.
+- **Saiga learn prompt** (0x021B424C-0x021B429C): UI state handlers are a table at 0x0219525C.. (state 24 Saiga
+  screen = 0x0203614C at 0x021952DC, 25 = 0x02035F0C, 26 = the prompt). State 24 -> 25 when
+  [[ui+0xCC]+0x30] == 0, +0x34 == 0 and +0x38 == 6 (0x020364D4). State 25 -> 26 (prompt object [ui+0xD4], 0x020CBC1C,
+  drawn by 0x020CBD18) when the list object [ui+0xD0] has a selected row (+0x34 != 0) and byte +0xBF == 1; with
+  +0xBF == 0 it learns at once. `tools/lua/saigalearn.lua` forces both (shot `work/qa/cover/saiga_learn`).
+- **Appraiser** (0x02048670, state word [0x02048AF0-literal]): state 1 builds one line per party member whose test
+  0x02017A9C returns non-zero (0x020487AC; idloop can force r0 = 1), "[FF00] is now level [FF01]." (021AAED8, must end in
+  {page}: without it the box closes at once), then state 2 waits for the window, state 3 = reward (021AAEF4) or
+  "nothing" (021AAF14).
 
 ## Free space for code and data (candidates, not yet proven)
 - Append a new autoload block or grow arm9 (see `references/platform-nds.md` "Reserve hook RAM"); arena bounds must be

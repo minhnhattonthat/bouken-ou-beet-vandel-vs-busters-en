@@ -11,8 +11,8 @@ title_comm	titletouch		0	1200	sav=clear_save @500 t122,88 w500	通信 (wireless 
 title_comm_host	titletouch		0	1500	sav=clear_save @500 t122,88 w300 t88,83 w400	通信 > 通信受付 (host, waits for a partner)
 title_comm_search	titletouch		0	1500	sav=clear_save @500 t122,88 w300 t190,83 w400	通信 > 通信検索 (search for a partner)
 title_vandel_new	titletouch		0	1600	sav=clear_save @500 t59,88 w300 t160,88 w600	Story > Vandel mode start (after a clear)
-vandel_status	titletouch		0	27600	sav=clear_save @500 t59,88 w300 t160,88 w600 t128,90 w300 a*40 t235,176 w300 a*30 t235,176 w300 a*170 w300 start t18,40 t210,62	real Vandel mode from a cold boot: New Game, name + epithet entry, intro, Golden Castle idle, Force Menu > Status (part cells: tools/lua/pokeseq.lua)
-vandel_uptake	titletouch		0	27600	sav=clear_save @500 t59,88 w300 t160,88 w600 t128,90 w300 a*40 t235,176 w300 a*30 t235,176 w300 a*170 w300 start t18,40 t174,62	real Vandel mode: Force Menu > Monster Uptake
+vandel_status	titletouch		0	27600	sav=clear_save @500 t59,88 w300 t160,88 w600 t128,90 w300 a*40 t235,176 w300 a*30 t235,176 w300 a*125 down*3 a down*3 a down*3 a down*3 a down*3 a down*3 w300 start t18,40 t210,62	real Vandel mode from a cold boot: New Game, name + epithet entry, intro, Golden Castle idle, Force Menu > Status (part cells: tools/lua/pokeseq.lua)
+vandel_uptake	titletouch		0	27600	sav=clear_save @500 t59,88 w300 t160,88 w600 t128,90 w300 a*40 t235,176 w300 a*30 t235,176 w300 a*125 down*3 a down*3 a down*3 a down*3 a down*3 a down*3 w300 start t18,40 t174,62	real Vandel mode: Force Menu > Monster Uptake
 title_gbalink	titletouch		0	1000	@500 t160,88 w300	GBA link screen
 newgame	newgame		30	2400		opening ship event (event 60 @0x871)
 namentry	namentry		0	3600		name-entry screen after the opening
