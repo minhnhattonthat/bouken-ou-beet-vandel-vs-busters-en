@@ -53,7 +53,9 @@
   panel/NPC triggers with an event offset (map setup scripts, e.g. 0x29392).
 - Save block: base [0x021BA3A0] + slot*0x159C (slot [0x021BEBE0], 2 treated as 0). **Story flags** = bitfield at
   [save+0x1580+8] (bit n = byte n>>3, mask 1<<(n&7)); **event-seen** bits at [save+0x158C+8]. `tools/lua/varlog.lua`
-  logs changes.
+  logs changes. **Inventory** (found 2026-11-18 by diffing a shop buy, `tools/lua/ramsave.lua`): object at
+  save+0x10D4 (vtable 0x021A95DC), 4-byte entries from save+0x10D8 = [id+1, category, 0, count]; category 4 =
+  items (others not yet mapped); money u32 at save+0x14F8. warp.lua `inv` fills it.
 - Event entries begin `9A id; 66; 64 map; ...` and end `17 <next event or map setup>; FF`. Setting PC to an entry
   while the opening event starts (PC 0x871-0x875) plays that event with its own map, actors and battle: this is
   `tools/debug/warp.lua`. Setting PC mid-event hangs (actors not spawned).

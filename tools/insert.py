@@ -27,7 +27,7 @@ NAME_FILES = {'m': 'status/bustername/busterman.bin', 'w': 'status/bustername/bu
 NAME_REC, NAME_MAX = 22, 14
 # Byte caps tighter than the slot, measured in the marker tour (docs/windows.md): the monster book copies `area`
 # through a 10-code buffer with no room for a terminator (10 codes drew a stray glyph after them).
-KIND_CAP = {'monster.area': 18}
+KIND_CAP = {'monster.area': 16}   # 18 still drew a stray 沼 (marker2 tour, menu_monsters)
 
 
 def text_cap(e):

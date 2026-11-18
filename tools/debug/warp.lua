@@ -24,6 +24,8 @@
 --   @FRAME tok..  inputs from absolute frame FRAME (touch/titletouch, and event scenes that have one): a button,
 --                 tX,Y (pressed 6 frames, then 90 idle) or wN (idle N frames)
 --   books         force the empty buster/vandel book open (see BOOKS below; warp_all adds --debugger)
+--   wOFF=HEX      write the hex bytes at save+OFF at warp time ([0x021BA3A0] + OFF, hex)
+--   inv           fill the inventory with every item (INV_CATS / INV_N globals; see fill_inventory below)
 --   writesave     the scene saves and returns to the title on purpose: no reset check; warp_all runs it alone and
 --                 keeps the battery save as work/saves/<scene>.dsv
 --   sav=NAME      (warp_all) boot with work/saves/NAME.dsv, e.g. sav=clear_save for the post-clear title menus
@@ -155,6 +157,26 @@ if books then
   L.on_exec(0x0203990C, force(0x70, 0x40))  -- vandel book, after bl 0x0202F068
 end
 
+-- Save-struct pokes (warp-time `set` tokens): wOFF=HEX writes the hex bytes at [0x021BA3A0]+OFF; `inv` fills the
+-- inventory list. Inventory (found by a buy diff, 2026-11-18): object at save+0x10D4 (vtable 0x021A95DC), entries
+-- of 4 bytes from save+0x10D8: [id+1, category, 0, count]; category 4 = item. INV_CATS (default "4") picks
+-- the categories `inv` fills, ids 0..INV_N-1 (default 34) each, count 1.
+local function poke(off, hex)
+  local base = memory.readdword(0x021BA3A0)
+  for i = 1, #hex - 1, 2 do memory.writebyte(base + off + (i - 1) / 2, tonumber(hex:sub(i, i + 1), 16)) end
+  L.log(string.format("POKE save+%X = %s", off, hex))
+end
+function fill_inventory()
+  local base, k = memory.readdword(0x021BA3A0) + 0x10D8, 0
+  for cat in (INV_CATS or "4"):gmatch("%x+") do
+    for id = 0, (INV_N or 34) - 1 do
+      memory.writedword(base + 4 * k, 0x01000000 + tonumber(cat, 16) * 0x100 + id + 1)
+      k = k + 1
+    end
+  end
+  L.log(string.format("INV %d entries", k))
+end
+
 local warped, warp_frame = false, nil
 local idle, reset_at = 0, nil
 
@@ -192,7 +214,8 @@ if kind == "touch" or kind == "titletouch" or (kind == "event" and (sc.set or ""
   for tok in (sc.set or ""):gmatch("%S+") do
     local at = tok:match("^@(%d+)$")
     if at then touch_at = tonumber(at)
-    elseif not tok:match("^[fsq]%x+$") and tok ~= "books" and tok ~= "writesave" and not tok:match("=") then touches[#touches + 1] = tok end
+    elseif not tok:match("^[fsq]%x+$") and tok ~= "books" and tok ~= "writesave" and tok ~= "inv"
+      and not tok:match("=") then touches[#touches + 1] = tok end
   end
   touch_at = touch_at or 3600
 end
@@ -209,6 +232,9 @@ L.on_frame(function(n)
         local k, id = tok:match("^([fs])(%x+)$")
         local base = k and ((k == "f") and fl or se)
         if base then setbit(base, tonumber(id, 16)) end
+        local off, hex = tok:match("^w(%x+)=(%x+)$")
+        if off then poke(tonumber(off, 16), hex) end
+        if tok == "inv" then fill_inventory() end
       end
       memory.writedword(c + 8, target)
       warped, warp_frame = true, n

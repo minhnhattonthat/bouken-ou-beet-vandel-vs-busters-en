@@ -20,15 +20,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/markerscan.py work/qa/marker` (Japanese still drawn, ids seen, draw sites) and `tools/kindreport.py
     work/qa/marker/scan_ids.tsv` (per kind: seen, site, x). Last run: 100/100 ok, 966 ids seen, Japanese left only
     in name entry (kana keyboard) and one stray glyph (fixed by `KIND_CAP`, not re-toured).
-  - Budgets so far: `docs/windows.md`.
-- **Next (rest of phase 5):** re-run the marker tour; measure every remaining variant in `docs/windows.md` (item /
-  shop / forge lists and descriptions, quest title + desc screens, books, battle shouts, area names, menus, 8x8
-  texts, speaker tag); make long list names fit (wrap or relocate); find any other `count * 12` centring or column
-  math (look for draws that start off-box in the marker shots); arm9 pointer-string relocation into the hook block;
-  decide which `reading`/`name2`/`desc` placeholder fields are never shown (0 ids seen so far: readings, name2,
-  buster/vandel desc) and mark them `data`/keep; `jp_left.py` on the marker build; a width lint wired into
-  `tools/check.py`; Latin name-entry keyboard (`a9.021AA0F8`..); full-width digits from number formatting still
-  look wide (polish).
+  - Budgets: `docs/windows.md` (evidence) + `tools/budgets.json` (lint data). Measured 2026-11-18: dialogue,
+    speaker tag (64 px), item/weapon/armor list rows (126 px + 18-byte slot), descriptions (one line, 194 px at
+    12 px; shop 8 px 210 px), battle shouts (204 px), battle party panel (62 px), monster area (16 bytes).
+  - Lint `tools/lint.py` (Japanese left, encodable, controls JP==EN, slot caps, 255-code messages, px per line and
+    lines per page from budgets.json, one warning line for kinds without a budget) wired into `tools/check.py`;
+    tests `tests/test_lint.py`. Width helper `tools/textwidth.py` (`--fill N` makes N-px test strings).
+  - Debug tool: `wOFF=HEX` save pokes and `inv` (every item in the inventory) set tokens; scene `menu_items_all`.
+    Save RAM dump probe `tools/lua/ramsave.lua` (diff two dumps to find a field). Inventory layout in
+    `docs/re/scripts.md`.
+  - Marker tour re-run (`work/qa/marker2`, 100/100 ok, 966 ids): Japanese left only in name entry and the monster
+    area stray 沼 (cap lowered 18 -> 16 bytes; marker build NOT rebuilt/re-toured since).
+- **Next (rest of phase 5):** rebuild the marker build and check menu_monsters (no 沼); fill the other empty lists
+  the way `inv` does and measure them: inventory categories other than 4 (weapons, armor, key items: try INV_CATS),
+  skills / tengeki / meigeki (menu_skills shows none), quests (quest.img `title`/`desc`, menu_quests empty), books
+  (buster/vandel names + desc; the `books` cheat shows only entry 0), area names, `special.name`, `title.name`, menus
+  (`ptr`), 8x8 texts; add each budget to `tools/budgets.json` + `docs/windows.md`. Speaker tag: confirm 72 px in a
+  shot. Find any other `count * 12` centring or column math; arm9 pointer-string relocation into the hook block;
+  decide which `reading`/`name2`/`desc` placeholder fields are never shown and mark them kept; `jp_left.py` on the
+  marker build; Latin name-entry keyboard (`a9.021AA0F8`..); `{hero}` etc. stand-ins in `tools/lint.py` VARS are
+  guesses until the name entry's English limit is known; full-width digits still look wide (polish).
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), DeSmuME QA fork qa-2 in `tools/desmume/`, guard hook wired in
     `.claude/settings.json` (canary blocked), pre-commit runs `tools/check.py` (a failing test was rejected), smoke boot

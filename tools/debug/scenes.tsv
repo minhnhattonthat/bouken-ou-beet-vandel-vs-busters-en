@@ -20,6 +20,7 @@ field_nash	event	1ACB	30	5600		field board Nash Plain after the boat battle (idl
 menu_main	touch	1ACB	30	3936	@3600 start	field main menu (Party/Info/Option/Save)
 menu_party	touch	1ACB	30	4032	@3600 start t18,40	party menu
 menu_items	touch	1ACB	30	4128	@3600 start t18,40 t46,62	party > items
+menu_items_all	touch	1ACB	30	4128	inv @3600 start t18,40 t46,62	party > items, every item (inv cheat)
 menu_skills	touch	1ACB	30	4128	@3600 start t18,40 t110,62	party > special skills
 menu_equip	touch	1ACB	30	4128	@3600 start t18,40 t174,62	party > equipment
 menu_status	touch	1ACB	30	4128	@3600 start t18,40 t210,62	party > status

@@ -1,0 +1,14 @@
+{
+  "_doc": "Width gate data (docs/windows.md has the evidence per row). Per kind: font (12/8), px = widest line, lines = lines per page (msg) or 1, last_px = last line of a page (page arrow), status measured|guess. Kinds not listed get a 'no budget' warning from tools/lint.py. Byte caps of arm9 slots come from insert.text_cap (max-2, KIND_CAP).",
+  "msg":          {"font": 12, "px": 240, "lines": 3, "last_px": 222, "status": "measured", "shot": "work/qa/p5_t2/f001250.png"},
+  "speaker":      {"font": 12, "px": 64, "lines": 1, "status": "measured", "shot": "work/qa/p5_spk2/f001300.png (64 px fits; 90 px is not drawn at all)"},
+  "item.name":    {"font": 12, "px": 126, "lines": 1, "status": "measured", "shot": "work/qa/p5_inv/final.png (x 48, count digits from ~179)"},
+  "item.desc":    {"font": 12, "px": 194, "lines": 1, "status": "measured", "shot": "work/qa/p5_inv/final.png (box x 6-216, text x 16; one line, the 2nd row is off the box)"},
+  "weapon.name":  {"font": 12, "px": 126, "lines": 1, "status": "measured", "shot": "work/qa/marker2/shop_weapon_buy/final.png (x 46, MG price label from ~200; equip/item lists share the item-row budget)"},
+  "armor.name":   {"font": 12, "px": 126, "lines": 1, "status": "measured", "shot": "as weapon.name (same shop list)"},
+  "weapon.desc":  {"font": 12, "px": 194, "lines": 1, "also": [{"font": 8, "px": 210}], "status": "measured", "shot": "work/qa/marker2/shop_weapon_buy/final.png (shop: 8 px, wraps at ~x 222, 2nd line off screen); 12 px desc box as item.desc in the menus"},
+  "armor.desc":   {"font": 12, "px": 194, "lines": 1, "also": [{"font": 8, "px": 210}], "status": "measured", "shot": "as weapon.desc (shop_armor_buy)"},
+  "shout":        {"font": 12, "px": 204, "lines": 1, "status": "measured", "shot": "work/qa/p5_shout/f002460.png (x 40, box to ~248)"},
+  "party.name":   {"font": 12, "px": 62, "lines": 1, "status": "measured", "shot": "work/qa/p5_shout/f002460.png (battle panel, name x ~68, window edge ~136)"},
+  "monster.area": {"font": 12, "px": 120, "lines": 1, "status": "guess", "shot": "byte cap 16 binds first (10-code copy buffer)"}
+}
