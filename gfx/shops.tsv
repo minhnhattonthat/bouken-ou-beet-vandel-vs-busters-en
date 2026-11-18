@@ -5,8 +5,8 @@ screen/shop_arm.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Armor Shop
 screen/shop_inn.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Inn
 screen/shop_item.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Item Shop
 screen/shop_wepon.nbfc@8	0	1	55	13	s	15	13	c	12,13,14,15	Weapon Shop
-# shop_mahin.nbfc@8: glossary name Vandel House needs 56 px including shadow;
-# the intact caption interior has only 55 px. Needs a narrower lettering option or wider tab.
+# shop_mahin.nbfc@8: Vandel House is 56 px with its shadow and the tab has 55: drawn without the shadow.
+screen/shop_mahin.nbfc@8	0	1	55	13	s	15	-	c	12,13,14,15	Vandel House
 screen/monster_confidental_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Promote
 screen/monster_confidental_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
 screen/monster_confidental_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back

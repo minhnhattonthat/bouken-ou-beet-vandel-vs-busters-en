@@ -28,10 +28,11 @@ screen/button_shop_report.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Quest Report
 screen/button_shop_return.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Back
 screen/button_shop_sell2.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Sell
 screen/button_shop_weapon.nbfc@8x4	3	3	98	17	12b	1	2	c	1,2	Weapons
-# Pending (map files with .nbfs, scrambled): body-part buttons
-# screen/button_v_arm_L.nbfc
-# screen/button_v_arm_R.nbfc
-# screen/button_v_body.nbfc
-# screen/button_v_head.nbfc
-# screen/button_v_leg_L.nbfc
-# screen/button_v_leg_R.nbfc
+# Body-part (uptake slot) buttons: 96x48 map files, the kanji sits at 7-27 x 11-20 on a gradient; labels from the
+# glossary (Head / Torso / Right Arm / Left Arm / Right Leg / Left Leg), left-aligned where the kanji started.
+screen/button_v_head.nbfc	7	10	70	12	10	15	13	l	13,15	Head
+screen/button_v_body.nbfc	7	10	70	12	10	15	13	l	13,15	Torso
+screen/button_v_arm_R.nbfc	7	10	70	12	10	15	13	l	13,15	Right Arm
+screen/button_v_arm_L.nbfc	7	10	70	12	10	15	13	l	13,15	Left Arm
+screen/button_v_leg_R.nbfc	7	10	70	12	10	15	13	l	13,15	Right Leg
+screen/button_v_leg_L.nbfc	7	10	70	12	10	15	13	l	13,15	Left Leg

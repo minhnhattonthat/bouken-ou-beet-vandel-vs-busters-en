@@ -14,11 +14,16 @@ tengeki/skill_range_all.ob@4	12	4	20	12	s	15	13	c	13,15	All
 screen/waiting_0.nbfc@4	0	0	32	32	s	1	o:5	c	1,2,3,4,5	Please
 screen/waiting_1.nbfc@4	0	0	32	32	s	1	o:5	c	1,2,3,4,5	wait
 screen/waiting_2.nbfc@4	0	0	32	32	s	1	o:5	c	1,2,3,4,5	...
-# BLOCKED: screen/skill_type.nbfc and tengeki/skill_type_{attack,heal,statusdown,statusup}.ob.
-# Each 32x16 sprite has only 20 columns beside its icon. Minimum accepted labels with font s,
-# without shadow: Attack 26px, Restore 31px, Weaken 30px, Boost 22px.
-# Need a wider runtime sprite/layout (and corresponding generator support), or an approved
-# narrower lettering option. Preserve the icons and original text pending that work.
-# BLOCKED: status/bitmap/main_char_v_parts3.ob is a 16x8 sprite (@2).
-# Glossary Star is 17px wide with font s, without shadow; font 8 is 20px.
-# Need one extra runtime column or a narrower font; no abbreviation substituted.
+# Skill type tags: 32x16 sprites, icon in columns 0-11, 20 px left for the word (Attack 26, Weaken 30, Boost 22 px
+# do not fit): flagged short forms Atk / Heal / Buff / Weak (glossary §Graphics UI labels). screen/skill_type is the
+# four stacked: attack, statusup, statusdown, heal.
+screen/skill_type.nbfc@4	12	4	20	12	s	15	13	c	13,15	Atk
+screen/skill_type.nbfc@4	12	20	20	12	s	15	13	c	13,15	Buff
+screen/skill_type.nbfc@4	11	36	21	12	s	15	13	c	13,15	Weak
+screen/skill_type.nbfc@4	12	52	20	12	s	15	13	c	13,15	Heal
+tengeki/skill_type_attack.ob@4	12	4	20	12	s	15	13	c	13,15	Atk
+tengeki/skill_type_statusup.ob@4	12	4	20	12	s	15	13	c	13,15	Buff
+tengeki/skill_type_statusdown.ob@4	11	4	21	12	s	15	13	c	13,15	Weak
+tengeki/skill_type_heal.ob@4	12	4	20	12	s	15	13	c	13,15	Heal
+# 星 Vandel rank mark: an 8x8 kanji in a 16x8 sprite (the right tile is a bar); drawn as a star symbol.
+status/bitmap/main_char_v_parts3.ob@2	0	0	8	8	s	14	-	c	7,14	★

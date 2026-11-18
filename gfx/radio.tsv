@@ -1,5 +1,14 @@
 file	x	y	w	h	font	ink	shadow	align	erase	en
-# Result banners remain pending: radio_battle_draw1-4, lose1-2, win1-2.
+# Result banners (wireless battle only): one brush kanji per 64x32 sprite, 勝|利 敗|北 引|き|分|け, so one word per
+# sprite (YOU|WIN! YOU|LOSE D|R|A|W) reads in order however the game spaces them. Ink 5, outline 1, scaled font.
+screen/radio_battle_win1.nbfc@8	0	0	64	32	sx3	5	o:1	c	fill:0	YOU
+screen/radio_battle_win2.nbfc@8	0	0	64	32	sx3	5	o:1	c	fill:0	WIN!
+screen/radio_battle_lose1.nbfc@8	0	0	64	32	sx3	5	o:1	c	fill:0	YOU
+screen/radio_battle_lose2.nbfc@8	0	0	64	32	sx3	5	o:1	c	fill:0	LOSE
+screen/radio_battle_draw1.nbfc@8	0	0	64	32	sx4	5	o:1	c	fill:0	D
+screen/radio_battle_draw2.nbfc@8	0	0	64	32	sx4	5	o:1	c	fill:0	R
+screen/radio_battle_draw3.nbfc@8	0	0	64	32	sx4	5	o:1	c	fill:0	A
+screen/radio_battle_draw4.nbfc@8	0	0	64	32	sx4	5	o:1	c	fill:0	W
 # Each file is one animated Japanese glyph; require composite sprite positions before lettering whole English words.
 screen/radio_buster_exchange_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Distribute
 screen/radio_buster_exchange_base.nbfc	229	169	26	15	sb	15	13	c	13,15	Back

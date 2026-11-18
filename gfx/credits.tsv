@@ -1,0 +1,117 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Credits: original lettering is index 2; backgrounds are 1 (3 on credit13).
+# Headings 10, names/body s. Preserve existing GAME STAFF, SPECIAL THANKS, dentsu and BANDAI copyright art.
+# Western name order, ASCII Hepburn. Unverified personal-name readings below are provisional for review.
+# Reference for shared GBA staff: https://gamefaqs.gamespot.com/gba/921241-bouken-ou-beet-busters-road/credit
+# Bandai name cross-check: https://www.mobygames.com/game/62824/keroro-gunso-meromero-battle-royale/credits/ps2/
+# Survey corrections visible in art: credit14 星合 真樹 (not 星谷); credit15 金 旻秀 (not 金 晃秀).
+# Offline QA: all 92 rows fit, original Japanese ink covered, no pixel differences outside declared rects.
+# Integration must verify BG VRAM for tile growth: credit03 +17, 04 +11, 06 +1, 09 +5, 12 +13, 13 +11, 18 +12.
+# No generator changes required. Font 10 avoids filled-in lowercase m in the bold small font.
+bg/credit01.nbfc	8	61	240	15	s	2	-	c	2	Story: Riku Sanjo
+bg/credit01.nbfc	8	79	240	15	s	2	-	c	2	Manga: Koji Inada
+bg/credit01.nbfc	8	97	240	15	s	2	-	c	2	Design Support: Katsuyoshi Nakatsuru
+bg/credit01.nbfc	4	115	248	31	s	2	-	c	2	Beet the Vandel Buster, serialized in|Monthly Shonen Jump (Shueisha)
+bg/credit02.nbfc	8	102	240	25	s	2	-	c	2	Developed by|Digital Media Lab, Inc.
+bg/credit03.nbfc	8	18	240	15	10	2	-	c	2	Programming
+bg/credit03.nbfc	8	54	120	15	s	2	-	c	2	Mikiya Muramatsu
+bg/credit03.nbfc	128	54	120	15	s	2	-	c	2	Toshihiko Mukai
+bg/credit03.nbfc	8	72	120	15	s	2	-	c	2	Hiroaki Yokoyama
+bg/credit03.nbfc	128	72	120	15	s	2	-	c	2	Tomoki Takaura
+bg/credit03.nbfc	8	90	120	15	s	2	-	c	2	Takuya Hikono
+# Provisional: 向井 利彦 Toshihiko Mukai; 横山 啓明 Hiroaki Yokoyama; 高浦 友基 Tomoki Takaura; 彦野 拓也 Takuya Hikono.
+bg/credit04.nbfc	8	18	240	15	10	2	-	c	2	Planning
+bg/credit04.nbfc	8	54	240	15	s	2	-	c	2	Kenshin Nii
+bg/credit04.nbfc	8	72	240	15	s	2	-	c	2	Satoshi Murakami
+bg/credit04.nbfc	8	90	240	15	s	2	-	c	2	Munehiko Yasunami
+# Provisional: 村上 聡 Satoshi Murakami; 安浪 宗彦 Munehiko Yasunami.
+bg/credit05.nbfc	8	18	240	15	10	2	-	c	2	Graphics
+bg/credit05.nbfc	8	54	120	15	s	2	-	c	2	Michiyo Hamada
+bg/credit05.nbfc	128	54	120	15	s	2	-	c	2	Noboru Toda
+bg/credit05.nbfc	8	72	120	15	s	2	-	c	2	Narimichi Ozaki
+bg/credit05.nbfc	128	72	120	15	s	2	-	c	2	Takahiro Nishino
+bg/credit05.nbfc	8	90	120	15	s	2	-	c	2	Yosuke Chikaraishi
+bg/credit05.nbfc	8	108	120	15	s	2	-	c	2	Kenichi Kanahara
+bg/credit05.nbfc	128	108	120	15	s	2	-	c	2	Norie Onishi
+bg/credit05.nbfc	8	126	120	15	s	2	-	c	2	Akiko Kawamoto
+bg/credit05.nbfc	128	126	120	15	s	2	-	c	2	Fumi Nada
+# Provisional: 尾崎 成道 Narimichi Ozaki; 西野 貴博 Takahiro Nishino; 力石 洋介 Yosuke Chikaraishi;
+# 金原 賢一 Kenichi Kanahara; 大西 紀江 Norie Onishi; 川本 亜希子 Akiko Kawamoto; 名田 芙美 Fumi Nada.
+bg/credit06.nbfc	8	70	240	15	10	2	-	c	2	Sound
+bg/credit06.nbfc	8	106	240	15	s	2	-	c	2	Morihiro Iwamoto
+# Provisional: 岩本 守弘 Morihiro Iwamoto.
+bg/credit07.nbfc	8	50	240	15	10	2	-	c	2	Monster & Package Design
+bg/credit07.nbfc	8	86	240	15	s	2	-	c	2	Koji Inada
+bg/credit07.nbfc	8	104	240	15	s	2	-	c	2	Katsuyoshi Nakatsuru
+bg/credit08.nbfc	8	18	240	15	10	2	-	c	2	Supervision
+bg/credit08.nbfc	8	54	240	15	s	2	-	c	2	Muneharu Machida / Yuta Momiyama
+bg/credit08.nbfc	8	72	240	25	s	2	-	c	2	Monthly Shonen Jump Editorial Team|Shueisha
+bg/credit08.nbfc	8	108	240	15	s	2	-	c	2	Characterex Co., Ltd.
+bg/credit08.nbfc	8	126	240	15	s	2	-	c	2	Toei Animation Co., Ltd.
+# Provisional: 町田 宗治 Muneharu Machida.
+bg/credit09.nbfc	8	55	240	15	s	2	-	c	2	Monthly Shonen Jump Editorial Team
+bg/credit09.nbfc	8	73	240	15	s	2	-	c	2	Weekly Shonen Jump Editorial Team
+bg/credit09.nbfc	8	91	240	15	s	2	-	c	2	V Jump Editorial Team
+bg/credit10.nbfc	8	55	240	15	s	2	-	c	2	Hiromi Seki / Toei Animation Co., Ltd.
+bg/credit10.nbfc	8	73	240	15	s	2	-	c	2	Natsuo Kobayashi / Toei Animation Co., Ltd.
+bg/credit10.nbfc	8	91	240	15	s	2	-	c	2	Kotaro Ono / Jump Comics Editorial Team
+bg/credit10.nbfc	8	109	240	15	s	2	-	c	2	Shigeru Nakamichi / Brain Navi
+bg/credit10.nbfc	8	127	240	15	s	2	-	c	2	Noriko Muramoto / Caramel Mama
+bg/credit10.nbfc	8	145	240	15	s	2	-	c	2	Kenji Nakamura / Layup
+# Provisional: 小林 夏生 Natsuo Kobayashi; 小野 孝太郎 Kotaro Ono; 中道 茂 Shigeru Nakamichi;
+# 村本 倫子 Noriko Muramoto; 中村 憲二 Kenji Nakamura.
+bg/credit11.nbfc	8	73	240	15	s	2	-	c	2	TAC
+bg/credit11.nbfc	8	91	240	15	s	2	-	c	2	Shinatec
+bg/credit11.nbfc	8	109	240	15	s	2	-	c	2	Niko Printing
+# Provisional corporate romanizations: タック TAC; シナテック Shinatec; ニコー印刷 Niko Printing.
+bg/credit12.nbfc	8	18	240	15	10	2	-	c	2	Bandai Co., Ltd.
+bg/credit12.nbfc	8	54	120	15	s	2	-	c	2	Yoshiaki Orihara
+bg/credit12.nbfc	128	54	120	15	s	2	-	c	2	Tadaya Ishida
+bg/credit12.nbfc	8	72	120	15	s	2	-	c	2	Isao Kaneki
+bg/credit12.nbfc	128	72	120	15	s	2	-	c	2	Satoshi Matsunaga
+bg/credit12.nbfc	8	90	120	15	s	2	-	c	2	Fuyuki Nishizawa
+bg/credit12.nbfc	128	90	120	15	s	2	-	c	2	Takahiko Kusuda
+bg/credit12.nbfc	8	108	120	15	s	2	-	c	2	Tomoaki Imanishi
+bg/credit12.nbfc	128	108	120	15	s	2	-	c	2	Toshihiro Suzuki
+bg/credit12.nbfc	8	126	120	15	s	2	-	c	2	Minoru Tanaka
+bg/credit12.nbfc	128	126	120	15	s	2	-	c	2	Daisuke Uchiyama
+bg/credit12.nbfc	8	144	120	15	s	2	-	c	2	Masafumi Harada
+bg/credit12.nbfc	128	144	120	15	s	2	-	c	2	Yusuke Sasaki
+bg/credit12.nbfc	8	162	120	15	s	2	-	c	2	Ryo Mito
+bg/credit12.nbfc	128	162	120	15	s	2	-	c	2	Yoshiya Tanaka
+# Provisional: 折原 能章 Yoshiaki Orihara; 石田 忠也 Tadaya Ishida; 金木 勲 Isao Kaneki;
+# 松永 聡 Satoshi Matsunaga; 楠田 貴彦 Takahiko Kusuda; 今西 智明 Tomoaki Imanishi;
+# 鈴木 敏弘 Toshihiro Suzuki; 原田 真史 Masafumi Harada; 三戸 亮 Ryo Mito; 田中 良也 Yoshiya Tanaka.
+bg/credit13.nbfc	8	18	240	15	10	2	-	c	2	Publicity Staff
+bg/credit13.nbfc	8	54	120	15	s	2	-	c	2	Hirotaka Watanabe
+bg/credit13.nbfc	128	54	120	15	s	2	-	c	2	Go Kurosawa
+bg/credit13.nbfc	8	72	120	15	s	2	-	c	2	Taiki Anko
+bg/credit13.nbfc	128	72	120	15	s	2	-	c	2	Yoko Yatsuzuka
+bg/credit13.nbfc	8	90	120	15	s	2	-	c	2	Rie Mukaiyama
+# Provisional: 安子 太樹 Taiki Anko.
+bg/credit14.nbfc	8	18	240	15	10	2	-	c	2	Sales & Promotion Staff
+bg/credit14.nbfc	8	54	120	15	s	2	-	c	2	Mami Furuta
+bg/credit14.nbfc	128	54	120	15	s	2	-	c	2	Masaki Hoshiai
+bg/credit14.nbfc	8	72	120	15	s	2	-	c	2	Hideyuki Yamazaki
+bg/credit14.nbfc	128	72	120	15	s	2	-	c	2	Yuka Takei
+bg/credit14.nbfc	8	90	120	15	s	2	-	c	2	Asuka Shimizu
+bg/credit14.nbfc	128	90	120	15	s	2	-	c	2	Shoya Kawasaki
+bg/credit14.nbfc	8	108	120	15	s	2	-	c	2	Aya Morioka
+bg/credit14.nbfc	128	108	120	15	s	2	-	c	2	Meyo Nozawa
+bg/credit14.nbfc	8	126	120	15	s	2	-	c	2	Nanae Yamada
+bg/credit14.nbfc	128	126	120	15	s	2	-	c	2	Koji Nakajima
+# Provisional: 川崎 翔也 Shoya Kawasaki; 森岡 彩 Aya Morioka; 野澤 芽与 Meyo Nozawa;
+# 山田 七絵 Nanae Yamada; 中島 光司 Koji Nakajima.
+bg/credit15.nbfc	8	71	240	15	10	2	-	c	2	Producer
+bg/credit15.nbfc	8	107	240	15	s	2	-	c	2	Minsu Kim
+bg/credit16.nbfc	8	62	240	15	10	2	-	c	2	Chief Producers
+bg/credit16.nbfc	8	98	240	15	s	2	-	c	2	Yoshimi Sawada
+bg/credit16.nbfc	8	116	240	15	s	2	-	c	2	Daisuke Uchiyama
+bg/credit17.nbfc	8	62	240	15	10	2	-	c	2	Executive Producers
+bg/credit17.nbfc	8	98	240	15	s	2	-	c	2	Shin Unozawa
+bg/credit17.nbfc	8	116	240	15	s	2	-	c	2	Takashi Shoji
+bg/credit18.nbfc	8	78	240	15	10	2	-	c	2	Planning & Production
+bg/credit18.nbfc	8	96	240	15	s	2	-	c	2	Bandai Co., Ltd.
+bg/credit19.nbfc	8	79	240	15	s	2	-	c	2	(C) Riku Sanjo / Koji Inada
+bg/credit19.nbfc	8	97	240	15	s	2	-	c	2	Shueisha / TV Tokyo / dentsu
+bg/credit19.nbfc	8	115	240	25	s	2	-	c	2	Toei Animation /|Beet Production Committee

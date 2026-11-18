@@ -9,7 +9,7 @@ Row format (tab-separated, `#` comments, header line `file ...`):
   out as sprites of WxH tiles side by side (a 128x32 button of two 64x32 OBJs = @8x4, a 64x16 banner = @4x2).
 - x y w h: the clear rect in that image's pixels (`python -X utf8 tools/gfx.py show FILE` draws a ruler).
 - font: 8, 10 or 12 (the game's own full-width Latin glyphs, lc8x8 / lc10x10 / lc12x12, cropped proportionally);
-  add `b` for a bold (doubled) stroke: `12b`.
+  add `b` for a bold (doubled) stroke: `12b`; `xN` draws each font pixel as an NxN block (`12bx2`, big banners).
 - ink: colour index (4bpp: 0-15 within the cell's palette bank); shadow: index drawn at +1,+1 under the ink, `o:N`
   for a 1 px outline, `-` for none.
 - align: l c r (the text box is the rect; vertically centred).
@@ -287,6 +287,7 @@ def draw(img, r, glyphs):
     if not text:
         return
     if '|' in text:
+        assert 'x' not in r['font'], '%s: two-line labels take no scale' % r['where']
         lines = text.split('|')
         size = r['font'].rstrip('b')
         pitch = LINE['s' if size == 's' else int(size)]
@@ -298,19 +299,24 @@ def draw(img, r, glyphs):
             sub['h'] = min(sub['h'], pitch + 1)
             draw(img, sub, glyphs)
         return
-    size = r['font'].rstrip('b')
+    spec, _, sc = r['font'].partition('x')      # `12bx2`: every font pixel drawn as a 2x2 block
+    scale = int(sc) if sc else 1
+    size = spec.rstrip('b')
     size = 's' if size == 's' else int(size)
-    bold = r['font'].endswith('b')
+    bold = spec.endswith('b')
     shadow = r['shadow']
     w, bm = glyphs.render(text, size, bold=bold)
-    if bold and w + (shadow != '-') > r['w']:     # a tight bold label drops its drop shadow, then to regular
+    if scale > 1:
+        bm = [[v for v in row for _ in range(scale)] for row in bm for _ in range(scale)]
+        w *= scale
+    elif bold and w + (shadow != '-') > r['w']:     # a tight bold label drops its drop shadow, then to regular
         if w <= r['w'] and not shadow.startswith('o:'):
             shadow = '-'
         else:
             w, bm = glyphs.render(text, size)
     # vertical box: cap top to baseline (descenders hang below it); the 12/10/8 fonts: their ink rows
     if size == 's':
-        top, bot = 0, 6
+        top, bot = 0, 7 * scale - 1
     else:
         ink_rows = [i for i, row in enumerate(bm) if any(row)]
         top, bot = min(ink_rows), max(ink_rows)

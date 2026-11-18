@@ -26,6 +26,20 @@ RULES = [
 ]
 # text the survey left as '?' (read in game)
 EXTRA = {'screen/mode_begin.nbfc': 'はじめから'}
+# survey rows that need no redraw, with the reason (checked by rendering each file through its map / sprite layout)
+SKIP = {
+    'battle/cutin/': 'portraits and speed lines only, no lettering (rendered through their .nbfs maps, 2026-11-19)',
+    'screen/main_v_parts.nbfc': 'Latin "BL", not 星',
+    'screen/tengeki_D.nbfc': 'arrow button, no text', 'screen/tengeki_U.nbfc': 'arrow button, no text',
+    'screen/tengeki_v_parts2.nbfc': 'diamond marker, no text',
+    'screen/title.nbfc': 'title logo: kept, no official English logo (decision D5)',
+    'screen/debug_bg.nbfc': 'debug-menu backdrop with the logo (D5); not in the release build',
+    'screen/monster_exchange_take_sub1_1.nbfc': 'survey misspelling of monster_exchange_take_sub_1 (gfx/windows.tsv)',
+}
+
+
+def skipped(f):
+    return next((why for k, why in SKIP.items() if f.startswith(k)), None)
 
 
 def group(f):
@@ -39,7 +53,7 @@ def main():
     rows = [(r[1], EXTRA.get(r[1], r[2]), r[3]) for r in rows if len(r) >= 4]
     out, c = ['group\tfile\tjp\twhat'], Counter()
     for f, jp, what in rows:
-        if f in done or not (JP.search(jp) or jp == '?'):
+        if f in done or skipped(f) or not (JP.search(jp) or jp == '?'):
             continue
         g = group(f)
         c[g] += 1
