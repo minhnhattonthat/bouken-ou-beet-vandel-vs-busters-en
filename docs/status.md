@@ -4,7 +4,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (sessions 8-11), check.py green (66 tests). Tour work/qa/en
-  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (~6,911 shown
+  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (6,912 shown
   + 91 waived of 9,472, session 11 notes, Next (2)) and the Vandel-mode list (Next (4)).
 - **Phase 8 session 11 (2026-11-19), Orca worker: map-table waiver, party sweep, area2 switch (context limit).**
   - Coverage report with waivers: `python -X utf8 tools/textcov.py report work/qa/en work/qa/gallery work/qa/cover
@@ -22,7 +22,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     moved to `work/qa/p8_party_reset/` and do NOT count (the report still says party 0 missing only while those runs
     were in cover/: now 31 missing). Next: force a later join instead (b29_my_castle joins id 5 at f1613, lr
     0x02018D38: `--var IDLOOP_AFTER=1600`) and show that member's status page.
-  - Coverage now (waivers on): 6,942 - 31 party = ~6,911 shown, 91 waived; left: quest desc/title 637, weapon 380,
+  - Coverage now (waivers on): 6,912 shown, 91 waived, 2,469 failing (party 28: 3 of the reset ids are reached in
+    other scenes); left: quest desc/title 637, weapon 380,
     rom.msg 278, name 256, skill 134, buster 132, meigeki 126, tengeki 108, ptr 99, keyitem 90, vandel 78,
     wpntype 68, party 31, special 30, area2 25.
   - Key items: the real accessor starts at 0x020141FC (`and r0,#0xFF`, falls into 0x02014200, so textlog's hook
