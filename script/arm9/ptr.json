@@ -195,7 +195,7 @@
   {
    "id": "a9.021AAED8",
    "jp": "[FF00]は{br}これでレベル[FF01]だ{page}",
-   "en": "[FF00] is now level [FF01].",
+   "en": "[FF00] is now level [FF01].{page}",
    "kind": "ptr.msg",
    "ptrs": [
     "02048B0C"

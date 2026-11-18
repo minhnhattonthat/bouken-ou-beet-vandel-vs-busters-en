@@ -38,6 +38,14 @@ def test_unwidow_moves_a_word_down(eng):
     assert lint.lint_entry(msg(out, 'あ{close}'), eng) == []
 
 
+def test_trailing_page_kept(eng):
+    # a9.021AAED8: the JP ends in {page}; without it the box closed before it could be read (session 22)
+    e = {'id': 'a9.T', 'kind': 'ptr.msg', 'jp': 'あ{br}い{page}', 'en': 'Beet is now level 2.'}
+    assert any('ends with {page}' in m for m in lint.lint_entry(e, eng))
+    e['en'] += '{page}'
+    assert lint.lint_entry(e, eng) == []
+
+
 def test_untranslated_is_skipped(eng):
     assert lint.lint_entry(msg(''), eng) == []
 

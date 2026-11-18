@@ -81,6 +81,9 @@ def lint_entry(e, eng):
             ce.pop(b, None)
     if cj != ce:
         errs.append('controls differ: jp %s en %s' % (dict(cj), dict(ce)))
+    # a box that ends in {page} waits for a press; dropping it (re-wrap leaves the end alone) closes the box at once
+    if e['jp'].endswith('{page}') and not en.endswith('{page}'):
+        errs.append('jp ends with {page}, en does not (the box would close before it is read)')
     if 'max' in e:
         n = len(eng.encode(en))
         cap = insert.text_cap(e)
