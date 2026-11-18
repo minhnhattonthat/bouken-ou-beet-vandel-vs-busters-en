@@ -4,8 +4,27 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 50c319fb9cd82c43e55739173e6ac4de01f7d9bc (sessions 8-9), check.py green (65 tests). Tour work/qa/en
-  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (6,075/9,472,
+  is on this build and `qa_gate check` exits 0 (171 sheets). Left for the done-when: **text coverage** (6,892/9,472,
   Next (2)) and the Vandel-mode list (Next (4)).
+- **Phase 8 session 10 (2026-11-19), Orca worker: shout sweep, quest-board probe (context limit).**
+  - Coverage report now: `python -X utf8 tools/textcov.py report work/qa/en work/qa/gallery work/qa/cover`
+    (`work/qa/cover/` = probe runs that count). **6,892/9,472**; shouts complete (891/891).
+  - `tools/lua/idloop.lua` (new): every call of one accessor gets the next id in r0 (append before textlog.lua).
+    Shouts: v14_battle7 with `GOD_WIN=100000`, accessor 0x020140B0 (one caller, lr 0x020A55A4), ids 1..0x51
+    (1-based: id 0 reads before the table and draws junk in the original too; the 0..0x50 run in
+    `work/qa/cover/shout` plus `cover/shout_51`). Banners draw right with the matching portrait
+    (`work/qa/p8_shout_shots/strip.png`, `work/qa/cover/shout_51/strip.png`). No contact sheets for the 81 yet.
+  - Quests: scene `quest_board` (29BFA + q3C288) opens the guild counter menu (Appraisal / Take a Quest / ...);
+    "Take a Quest" = t135,59 opens an **empty** Quest Select this early in the story. The board runs quest.img
+    0x1144 (slot checks `11 00 00; 1C <flag> 00; 12; 06; ...; 03 <next slot>; 05 <quest pc>`; op 05 handler
+    0x02013A14 calls 0x02003CE0(obj, pc) at 0x02013AE0; op 03 calls 0x02003E00). `tools/lua/questloop.lua`
+    starts the interpreter at 0x115B and rewrites the 05 pc to each of the 152 quest blocks (`20` title right after
+    an FF; the other 58 titles are inside the random generators 0x11F4..): QST lines appear for the title and
+    description, **but the board still draws empty**, so those runs (`work/qa/p8_quests`) are NOT in work/qa/cover.
+    Next: find what filters the added quest (the block's later ops 30/2F/2E/27/17, or the board's 5 slots of 0x58
+    bytes at [obj+0x28], free when [slot+0x3C] == -1, filled at 0x02010E30) and make one row draw; then Details
+    (t14,176) shows title + description.
+  - Names: generic busters come from script opcodes 58/5A/5B (callers of 0x02019590); no tour scene makes one.
 - **Phase 8 session 9 (2026-11-19), Orca worker: re-tour, verdict run 5, list/book coverage probes.**
   - Full re-tour on 50c319fb: 101/101 ok (`work/qa/tour_run.txt`), `tools/tagbox.py`: 160 tag shots, 0 off-centre.
     vqasheets + `qa_gate init` (2 stale v04/v05 sheet_2 lines dropped), verdict run 5 through codex
@@ -201,8 +220,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   change: re-tour (`python -X utf8 tools/debug/warp_all.py build/beet_en.nds --jobs 2 --out work/qa/en --script
   tools/lua/glyphlog.lua --script tools/lua/textlog.lua`; `book_monsters` needs `--script tools/lua/bookloop.lua`
   too: run it with `--only book_monsters`), tagbox, vqasheets, `qa_gate init`, todo `--size 6`, visualqa;
-  (2) coverage, biggest first: shouts (81 records x 11, battle cries: find the battle code that reads 0x020140B0 and
-  force the speaker id, as bookloop does), quests (quest board 4F at 0x3C288: force the random pick), titles (130),
+  (2) coverage, biggest first (shouts done in session 10; report over work/qa/en work/qa/gallery work/qa/cover):
+  quests (desc 427 + 210 of title: session 10 note, make the forced board row draw), arm9 titles (130),
   names (force r0 at 0x02019608), skills/tengeki/meigeki (skill menu / tactics lists, page them), buster/vandel books
   (session 9 note), key items (screen unknown: u16 list at [ui+0x118]), the weapon records that hang the sell list,
   rom.msg 278 (session 7 note). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
