@@ -14,7 +14,7 @@ Row format (tab-separated, `#` comments, header line `file ...`):
 - align: l c r (the text box is the rect; vertically centred).
 - erase: `fill:N` fills the rect with N; `a,b,c` replaces pixels of those indices (the old lettering) with the
   nearest pixel of another index (keeps gradients and dithered backgrounds); `-` keeps the rect as is.
-- en: the English; empty -> the row only erases.
+- en: the English; empty or `-` -> the row only erases.
 
 Map files are re-tiled: cells the edit did not change keep their entries; changed cells reuse a tile with the same
 pixels (any flip) or take a tile no unchanged cell uses, else a new tile at the end (reported: the BG's VRAM budget
@@ -54,6 +54,8 @@ def load_rows(groups=None):
             f = line.split('\t')
             assert len(f) == len(COLS), '%s:%d has %d columns, want %d' % (p.name, n, len(f), len(COLS))
             r = dict(zip(COLS, f))
+            if r['en'] == '-':      # erase-only row (an empty last column is lost to editors that trim lines)
+                r['en'] = ''
             for k in 'xywh':
                 r[k] = int(r[k])
             r['where'] = '%s:%d' % (p.name, n)
@@ -303,7 +305,8 @@ def draw(img, r, glyphs):
     pad = 1 if shadow != '-' else 0
     if w + pad > r['w'] or h + pad > r['h']:
         raise SystemExit('%s: %r is %dx%d px, rect %dx%d' % (r['where'], text, w + pad, h + pad, r['w'], r['h']))
-    x = {'l': r['x'], 'c': r['x'] + (r['w'] - w - pad) // 2 + (1 if shadow.startswith('o:') else 0),
+    x = {'l': r['x'] + (1 if shadow.startswith('o:') else 0),      # the outline ring needs a column on the left
+         'c': r['x'] + (r['w'] - w - pad) // 2 + (1 if shadow.startswith('o:') else 0),
          'r': r['x'] + r['w'] - w - pad}[r['align']]
     y = r['y'] + (r['h'] - h - pad + 1) // 2 + (1 if shadow.startswith('o:') else 0)
     ink = int(r['ink'])
@@ -316,6 +319,9 @@ def draw(img, r, glyphs):
     if shadow.startswith('o:'):
         sv = int(shadow[2:])
         ring = {(a + dx, b + dy) for a, b in on for dx in (-1, 0, 1) for dy in (-1, 0, 1)} - on
+        bad = [(a, b) for a, b in ring if not (0 <= a < img.W and 0 <= b < img.H)]
+        if bad:     # a negative index would wrap to the far edge of the image
+            raise SystemExit('%s: %r outline leaves the image at %s' % (r['where'], text, bad[:3]))
         for a, b in ring:
             img.px[b][a] = sv
     elif shadow != '-':

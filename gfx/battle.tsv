@@ -7,3 +7,9 @@ screen/battle_base.nbfc	0	113	36	14	sb	15	13	c	12,13,14,15	Tactics
 screen/battle_base.nbfc	0	153	36	14	sb	15	13	c	12,13,14,15	Skills
 screen/battle_base.nbfc	35	182	42	10	s	14	-	l	13,14	Target
 screen/battle_base.nbfc	122	182	40	10	s	14	-	l	13,14	Pause
+# 昇格値 battle-result banner (OBJ, two 32x16 sprites in 1D order: @4 shows the left one at y 0-15, the right at
+# 16-31; found with warp DUMP_AT + vramfind, work/qa/p8_banner). Arrows are 5-7 (and 1 highlights): text rects stop short.
+screen/exp.nbfc@4	11	0	21	15	sb	1	o:4	r	fill:0	Rank
+screen/exp.nbfc@4	9	13	2	2	sb	1	o:4	l	fill:0	-
+screen/exp.nbfc@4	0	16	19	13	sb	1	o:4	l	fill:0	Pts
+screen/exp.nbfc@4	0	29	17	2	sb	1	o:4	l	fill:0	-

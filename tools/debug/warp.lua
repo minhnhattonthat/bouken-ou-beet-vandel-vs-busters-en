@@ -5,7 +5,8 @@
 --   emu.py ROM --out DIR --script tools/debug/warp.lua --var "SCENE='name'" --frames N [--sheet]
 --   optional globals: SCENES='abs/path/scenes.tsv' (default: found relative to the emulator dir or repo),
 --                     GOD=0/1 (default 1 for event/touch: party HP pinned, enemies set down after GOD_WIN
---                     frames of battle; see god_tick), NOMASH=1 (no auto A presses after the warp).
+--                     frames of battle; see god_tick), NOMASH=1 (no auto A presses after the warp),
+--                     DUMP_AT={f1,f2,..} (L.dump_ppu("fN") at those frames, for vramfind.py).
 --   The run fails (exit 2) if the warp never fires or the game resets to the title afterwards (RESET in log).
 --
 -- Scene kinds (tools/debug/scenes.tsv, columns: name kind arg mash frames set note):
@@ -223,6 +224,12 @@ if kind == "touch" or kind == "titletouch"
       and not tok:match("=") then touches[#touches + 1] = tok end
   end
   touch_at = touch_at or 3600
+end
+
+if DUMP_AT then
+  local at = {}
+  for _, f in ipairs(DUMP_AT) do at[f] = true end
+  L.on_frame(function(n) if at[n] then L.dump_ppu("f" .. n) end end)
 end
 
 L.on_frame(function(n)

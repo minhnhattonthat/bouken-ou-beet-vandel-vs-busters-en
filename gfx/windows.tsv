@@ -1,0 +1,38 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Monster exchange captions; retain the original English subtitle.
+screen/monster_exchange_base.nbfc	1	2	52	12	s	15	13	c	12,13,14,15	Exchange
+screen/monster_exchange_base.nbfc	228	170	25	13	sb	15	13	c	13,15	Back
+screen/monster_exchange_base2.nbfc	1	2	52	12	s	15	13	c	12,13,14,15	Exchange
+screen/monster_exchange_base2.nbfc	228	170	25	13	sb	15	13	c	13,15	Back
+screen/monster_exchange_give_sub1_1.nbfc	80	36	94	14	s	15	13	c	13,15	How many to give?
+screen/monster_exchange_give_sub1_2.nbfc	173	29	22	13	sb	15	13	c	13,15	OK
+screen/monster_exchange_give_sub2.nbfc	12	7	180	30	s	15	13	c	13,15	Give this monster?|Are you sure?
+screen/monster_exchange_give_sub2.nbfc	49	58	30	13	sb	15	13	c	13,15	Yes
+screen/monster_exchange_give_sub2.nbfc	129	58	30	13	sb	15	13	c	13,15	No
+# Survey calls this take_sub1_1; the actual ROM file is take_sub_1.
+# The Japanese question crosses the seam between the two pieces.
+screen/monster_exchange_take_sub_1.nbfc	12	7	180	14	s	15	13	c	13,15	Receive this monster?
+screen/monster_exchange_take_sub_1.nbfc	80	55	120	9	s	15	13	c	13,15	
+screen/monster_exchange_take_sub_2.nbfc	80	0	120	4	s	15	13	c	13,15	
+screen/monster_exchange_take_sub_2.nbfc	89	35	30	13	sb	15	13	c	13,15	Yes
+screen/monster_exchange_take_sub_2.nbfc	161	35	30	13	sb	15	13	c	13,15	No
+screen/party_breakup_str.nbfc	0	0	208	16	s	15	13	c	13,15	Disband this party?
+screen/party_breakup_v_str.nbfc	0	0	208	16	s	15	13	c	13,15	Disband this force?
+screen/party_leader_create_str.nbfc	0	0	208	16	s	15	13	c	13,15	Choose a party leader.
+screen/party_leader_str.nbfc	0	0	208	16	s	15	13	c	13,15	The hero must stay in the party.
+screen/party_leader_v_str.nbfc	0	0	208	16	s	15	13	c	13,15	The hero must stay in the force.
+screen/party_v_leader_create_str.nbfc	0	0	208	16	s	15	13	c	13,15	Choose a force leader.
+screen/party_yn_win.nbfc	49	42	30	13	sb	15	13	c	13,15	Yes
+screen/party_yn_win.nbfc	129	42	30	13	sb	15	13	c	13,15	No
+screen/save2_win.nbfc	7	8	194	29	s	15	13	c	13,15	Saving game data.|Do not turn off the power!
+screen/save3_win.nbfc	55	8	96	15	s	15	13	c	13,15	Game saved!
+screen/save4_win.nbfc	36	8	136	15	s	15	13	c	13,15	Could not save.
+screen/save_finish_str.nbfc	0	0	208	16	s	15	13	c	13,15	Game saved!
+screen/save_win.nbfc	7	8	194	15	s	15	13	c	13,15	Save game data?
+screen/save_win.nbfc	49	42	30	13	sb	15	13	c	13,15	Yes
+screen/save_win.nbfc	129	42	30	13	sb	15	13	c	13,15	No
+screen/trap_win.nbfc	16	8	124	15	s	15	13	c	13,15	Place a trap here?
+screen/trap_win.nbfc	49	42	30	13	sb	15	13	c	13,15	Yes
+screen/trap_win.nbfc	129	42	30	13	sb	15	13	c	13,15	No
+screen/trap_win2.nbfc	16	24	120	15	s	15	13	c	13,15	Trap placed here.
+screen/trap_win3.nbfc	16	24	176	15	s	15	13	c	13,15	A trap is already placed here.

@@ -1,0 +1,156 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+screen/battle_taget_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Target
+screen/equip2_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Equip
+screen/equip_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Equip
+screen/formation_base.nbfc	2	1	44	13	s	15	13	c	12,13,14,15	Lineup
+screen/hone2.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Hone
+screen/hone_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Hone
+screen/item_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Items
+screen/main_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Main Menu
+screen/party_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Party Menu
+screen/party_base_v_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Force Menu
+screen/party_order2_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Party Orders
+screen/party_order2_v_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Force Orders
+screen/party_order3_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Party Orders
+screen/party_order3_v_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Force Orders
+screen/party_order_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Party Orders
+screen/party_order_base2.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Party Orders
+screen/party_order_v_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Force Orders
+screen/saiga_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Saiga
+screen/saiga_beet.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Saiga
+screen/status_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Status
+# クイックコマンド: Quick Command is 61 px with shadow, the tab 53 (glossary §Graphics UI labels: Quick Cmd.)
+screen/quick_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Quick Cmd.
+screen/quick_base2.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Quick Cmd.
+screen/tactics2_base.nbfc	2	1	44	13	s	15	13	c	12,13,14,15	Tactics
+screen/tactics_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Tactics
+screen/tengeki_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Divine Attack
+screen/tengeki_v_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Dark Attack
+screen/v_status2_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Status
+screen/v_status3_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Status
+screen/v_status_base.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Status
+screen/waza_v_parts.nbfc	2	1	53	13	s	15	13	c	12,13,14,15	Skills
+screen/battle_taget_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/equip2_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/equip_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/formation_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/hone2.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/hone_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/item_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/party_order_base2.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/quick_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/quick_base2.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/saiga_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/saiga_beet.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/status_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/v_status2_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/v_status3_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/v_status_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/equip2_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/hone_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/quick_base2.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/item_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+# そうびアイテム bar label: the whole 8-row strip between the frame lines (y 8-15), up to the frame at x 217;
+# 8 rows leave no room for descenders (Equipment/Equipped spill), so Gear
+screen/hone_base.nbfc	173	8	44	8	s	14	-	c	12,13,14	Gear
+screen/equip2_base.nbfc	9	136	53	12	s	15	13	c	13,15	Required Lv
+screen/equip2_base.nbfc	9	160	38	12	s	15	13	c	13,15	Attack
+screen/equip2_base.nbfc	113	160	38	12	s	15	13	c	13,15	Defense
+screen/equip2_base.nbfc	9	176	38	12	s	15	13	c	13,15	Accuracy
+screen/equip2_base.nbfc	113	176	38	12	s	15	13	c	13,15	Evade
+# 熟練度 tab: 42 px inside its frame, Proficiency is 45 with shadow; Mastery (glossary §Graphics UI labels)
+screen/equip_base.nbfc	0	154	42	11	s	15	13	c	13,15	Mastery
+screen/formation_base.nbfc	2	32	33	17	sb	15	13	c	13,15	Details
+screen/formation_base.nbfc	208	18	38	12	s	15	13	c	13,15	Attacker
+screen/hone2.nbfc	32	144	38	12	s	15	13	c	13,15	Attack
+screen/hone2.nbfc	96	144	38	12	s	15	13	c	13,15	Defense
+screen/hone2.nbfc	160	144	38	12	s	15	13	c	13,15	Accuracy
+screen/hone2.nbfc	32	160	38	12	s	15	13	c	13,15	Evade
+screen/hone2.nbfc	96	160	53	12	s	15	13	c	13,15	Required Lv
+screen/hone_base.nbfc	32	144	38	12	s	15	13	c	13,15	Attack
+screen/hone_base.nbfc	96	144	38	12	s	15	13	c	13,15	Defense
+screen/hone_base.nbfc	160	144	38	12	s	15	13	c	13,15	Accuracy
+screen/hone_base.nbfc	32	160	38	12	s	15	13	c	13,15	Evade
+screen/hone_base.nbfc	96	160	53	12	s	15	13	c	13,15	Required Lv
+screen/main_base.nbfc	2	32	33	17	sb	15	13	c	13,15	Party
+screen/main_base.nbfc	2	72	33	17	sb	15	13	c	13,15	Info
+screen/main_base.nbfc	2	112	33	17	sb	15	13	c	13,15	Options
+screen/main_base.nbfc	2	152	33	17	sb	15	13	c	13,15	Save
+screen/party_base.nbfc	25	54	38	23	sb	15	13	c	13,15	Items
+screen/party_base.nbfc	81	54	38	23	sb	15	13	c	13,15	Skills
+screen/party_base.nbfc	137	54	38	23	sb	15	13	c	13,15	Equip
+screen/party_base.nbfc	193	54	38	23	sb	15	13	c	13,15	Status
+screen/party_base.nbfc	25	110	38	23	s	15	13	c	13,15	Quick|Command
+screen/party_base.nbfc	81	110	38	23	sb	15	13	c	13,15	Lineup
+screen/party_base.nbfc	137	110	38	23	sb	15	13	c	13,15	Tactics
+screen/party_base.nbfc	193	110	38	23	s	15	13	c	13,15	Party|Orders
+screen/party_order_base.nbfc	44	17	32	11	s	15	13	c	13,15	Party
+screen/party_order_base.nbfc	79	18	32	9	s	15	13	c	13,15	Leader
+screen/party_order_base2.nbfc	44	17	32	11	s	15	13	c	13,15	Party
+screen/party_order_base2.nbfc	79	18	32	9	s	15	13	c	13,15	Leader
+screen/party_order_v_parts.nbfc	44	18	32	9	s	15	13	c	13,15	Force
+screen/party_order_v_parts.nbfc	79	18	32	9	s	15	13	c	13,15	Leader
+screen/party_order_base.nbfc	1	169	28	19	sb	15	13	c	13,15	Orders
+screen/party_order_base2.nbfc	1	169	28	19	sb	15	13	c	13,15	Orders
+screen/saiga_base.nbfc	211	63	36	10	s	15	13	c	13,15	Timing
+screen/saiga_base.nbfc	211	111	39	10	s	15	13	c	13,15	Command
+screen/saiga_base.nbfc	1	165	27	22	s	15	13	c	13,15	Divine|Attack
+screen/status_base.nbfc	186	48	38	12	s	15	13	c	13,15	Strength
+screen/status_base.nbfc	186	64	38	12	s	15	13	c	13,15	Agility
+screen/status_base.nbfc	186	80	38	12	s	15	13	c	13,15	Spirit
+screen/status_base.nbfc	186	96	38	12	s	15	13	c	13,15	Attack
+screen/status_base.nbfc	186	112	38	12	s	15	13	c	13,15	Defense
+screen/status_base.nbfc	186	128	38	12	s	15	13	c	13,15	Accuracy
+screen/status_base.nbfc	186	144	38	12	s	15	13	c	13,15	Evade
+screen/v_status_base.nbfc	186	48	38	12	s	15	13	c	13,15	Strength
+screen/v_status_base.nbfc	186	64	38	12	s	15	13	c	13,15	Agility
+screen/v_status_base.nbfc	186	80	38	12	s	15	13	c	13,15	Spirit
+screen/v_status_base.nbfc	186	96	38	12	s	15	13	c	13,15	Attack
+screen/v_status_base.nbfc	186	112	38	12	s	15	13	c	13,15	Defense
+screen/v_status_base.nbfc	186	128	38	12	s	15	13	c	13,15	Accuracy
+screen/v_status_base.nbfc	186	144	38	12	s	15	13	c	13,15	Evade
+screen/status_base.nbfc	82	84	58	12	s	15	13	c	13,15	Rank Points
+screen/status_base.nbfc	12	172	40	20	sb	15	13	c	13,15	Saiga
+screen/status_base.nbfc	76	172	40	20	s	15	13	c	13,15	Divine|Attack
+screen/status_base.nbfc	140	172	40	20	sb	15	13	c	13,15	Equip
+screen/v_status_base.nbfc	82	84	25	12	s	15	13	c	13,15	Star
+screen/v_status_base.nbfc	12	172	40	20	sb	15	13	c	13,15	Skills
+screen/v_status_base.nbfc	76	172	40	20	s	15	13	c	13,15	Dark|Attack
+screen/v_status2_base.nbfc	82	84	25	12	s	15	13	c	13,15	Star
+screen/v_status2_base.nbfc	12	172	40	20	sb	15	13	c	13,15	Skills
+screen/v_status2_base.nbfc	76	172	40	20	s	15	13	c	13,15	Dark|Attack
+screen/v_status_base.nbfc	10	114	36	12	s	15	13	c	13,15	Head
+screen/v_status_base.nbfc	50	114	36	12	s	15	13	c	13,15	Torso
+screen/v_status_base.nbfc	10	130	39	12	s	15	13	c	13,15	Left Arm
+screen/v_status_base.nbfc	50	130	44	12	s	15	13	c	13,15	Right Arm
+screen/v_status_base.nbfc	10	146	39	12	s	15	13	c	13,15	Left Leg
+screen/v_status_base.nbfc	50	146	44	12	s	15	13	c	13,15	Right Leg
+screen/v_status2_base.nbfc	186	48	38	12	s	15	13	c	13,15	Attack
+screen/v_status2_base.nbfc	186	64	38	12	s	15	13	c	13,15	Defense
+screen/v_status2_base.nbfc	186	80	38	12	s	15	13	c	13,15	Accuracy
+screen/v_status2_base.nbfc	186	96	38	12	s	15	13	c	13,15	Evade
+screen/v_status3_base.nbfc	186	48	38	12	s	15	13	c	13,15	Attack
+screen/v_status3_base.nbfc	186	64	38	12	s	15	13	c	13,15	Defense
+screen/v_status3_base.nbfc	186	80	38	12	s	15	13	c	13,15	Accuracy
+screen/v_status3_base.nbfc	186	96	38	12	s	15	13	c	13,15	Evade
+screen/tengeki_base.nbfc	212	63	34	10	s	15	13	c	13,15	Type
+screen/tengeki_base.nbfc	212	103	34	10	s	15	13	c	13,15	Range
+screen/tengeki_v_parts.nbfc	182	12	25	11	s	15	13	c	13,15	Star
+screen/waza_v_parts.nbfc	182	12	25	11	s	15	13	c	13,15	Star
+screen/char_status_v.nbfc	130	5	25	11	s	14	7	c	7,14	Star
+screen/world_win_buster.nbfc	42	5	51	13	s	15	13	c	13,15	Buster
+screen/world_win_vandel.nbfc	41	5	54	13	s	15	13	c	13,15	Vandel
+screen/world_win_vandel.nbfc	178	24	25	12	s	15	13	c	13,15	Star
+# Tactics category plates: interiors 25x13 (回復・防御 50x13); short forms in glossary §Graphics UI labels.
+screen/tactics_base.nbfc	42	69	25	13	s	15	13	c	13,15	Arms
+screen/tactics_base.nbfc	188	69	25	13	s	15	13	c	13,15	Strike
+screen/tactics_base.nbfc	17	173	50	13	s	15	13	c	13,15	Heal/Guard
+screen/tactics_base.nbfc	188	173	25	13	s	15	13	c	13,15	Divine
+screen/tactics2_base.nbfc	17	173	50	13	s	15	13	c	13,15	Heal/Guard
+screen/tactics2_base.nbfc	188	173	25	13	s	15	13	c	13,15	Divine
+screen/tactics2_v_parts.nbfc	4	5	25	13	s	15	13	c	13,15	Dark
+screen/tactics_v_parts2.nbfc	4	5	25	13	s	15	13	c	13,15	Dark
+# Pending: main_v_parts: 16x16 Star label needs a wider mapped overlay.
+# Kept: tengeki_D, tengeki_U are arrow/button fragments; tengeki_v_parts2 is a diamond icon, not Japanese.
+# Pending: party_order2_base/party_order2_v_parts sort strip contains corrupt-looking tile assembly; requires layout investigation.screen/tactics_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back
+screen/tactics2_base.nbfc	229	169	26	19	sb	15	13	c	13,15	Back

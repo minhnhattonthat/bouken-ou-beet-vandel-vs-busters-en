@@ -1,0 +1,90 @@
+file	x	y	w	h	font	ink	shadow	align	erase	en
+# Shop captions: 64x32 OBJ tile grids. Keep the frame and background indices.
+screen/shop_appraise.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Appraise
+screen/shop_arm.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Armor Shop
+screen/shop_inn.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Inn
+screen/shop_item.nbfc@8	3	1	52	13	s	15	13	c	12,13,14,15	Item Shop
+screen/shop_wepon.nbfc@8	0	1	55	13	s	15	13	c	12,13,14,15	Weapon Shop
+# shop_mahin.nbfc@8: glossary name Vandel House needs 56 px including shadow;
+# the intact caption interior has only 55 px. Needs a narrower lettering option or wider tab.
+screen/monster_confidental_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Promote
+screen/monster_confidental_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/monster_confidental_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/monster_confidental_str.nbfc	24	0	160	15	s	15	13	c	13,15	Promote this monster to lieutenant.
+screen/shop_arm_buy_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Buy Armor
+screen/shop_arm_buy_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_arm_buy_base.nbfc	32	144	32	12	s	15	13	l	13,15	Attack
+screen/shop_arm_buy_base.nbfc	96	144	34	12	s	15	13	l	13,15	Defense
+screen/shop_arm_buy_base.nbfc	160	144	38	12	s	15	13	l	13,15	Accuracy
+screen/shop_arm_buy_base.nbfc	32	160	32	12	s	15	13	l	13,15	Evasion
+screen/shop_arm_buy_base.nbfc	96	160	49	12	s	15	13	l	13,15	Required Lv
+screen/shop_arm_buy_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_arm_sell_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Sell Armor
+screen/shop_arm_sell_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_arm_sell_base.nbfc	32	144	32	12	s	15	13	l	13,15	Attack
+screen/shop_arm_sell_base.nbfc	96	144	34	12	s	15	13	l	13,15	Defense
+screen/shop_arm_sell_base.nbfc	160	144	38	12	s	15	13	l	13,15	Accuracy
+screen/shop_arm_sell_base.nbfc	32	160	32	12	s	15	13	l	13,15	Evasion
+screen/shop_arm_sell_base.nbfc	96	160	49	12	s	15	13	l	13,15	Required Lv
+screen/shop_arm_sell_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_weapon_buy_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Buy Weapons
+screen/shop_weapon_buy_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_weapon_buy_base.nbfc	32	144	32	12	s	15	13	l	13,15	Attack
+screen/shop_weapon_buy_base.nbfc	96	144	34	12	s	15	13	l	13,15	Defense
+screen/shop_weapon_buy_base.nbfc	160	144	38	12	s	15	13	l	13,15	Accuracy
+screen/shop_weapon_buy_base.nbfc	32	160	32	12	s	15	13	l	13,15	Evasion
+screen/shop_weapon_buy_base.nbfc	96	160	49	12	s	15	13	l	13,15	Required Lv
+screen/shop_weapon_buy_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_weapon_sell_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Sell Weapons
+screen/shop_weapon_sell_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_weapon_sell_base.nbfc	32	144	32	12	s	15	13	l	13,15	Attack
+screen/shop_weapon_sell_base.nbfc	96	144	34	12	s	15	13	l	13,15	Defense
+screen/shop_weapon_sell_base.nbfc	160	144	38	12	s	15	13	l	13,15	Accuracy
+screen/shop_weapon_sell_base.nbfc	32	160	32	12	s	15	13	l	13,15	Evasion
+screen/shop_weapon_sell_base.nbfc	96	160	49	12	s	15	13	l	13,15	Required Lv
+screen/shop_weapon_sell_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_item_buy_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Buy Items
+screen/shop_item_buy_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_item_buy_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_item_sell_base.nbfc	3	1	52	13	s	15	13	c	12,13,14,15	Sell Items
+screen/shop_item_sell_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_item_sell_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_monster_buy_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Buy Monster
+screen/shop_monster_buy_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_monster_buy_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_monster_sell_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Sell Monster
+screen/shop_monster_sell_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/shop_monster_sell_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/shop_arm_hone_win.nbfc	18	108	34	12	s	15	13	l	13,15	Defense
+screen/shop_arm_hone_win.nbfc	106	108	32	12	s	15	13	l	13,15	Evasion
+screen/shop_arm_hone_win.nbfc	24	122	72	14	s	15	13	l	13,15	Hone this armor?
+screen/shop_arm_hone_win.nbfc	50	151	30	12	sb	15	13	c	13,15	Yes
+screen/shop_arm_hone_win.nbfc	137	151	31	12	sb	15	13	c	13,15	No
+screen/shop_weapon_hone_win.nbfc	18	108	34	12	s	15	13	l	13,15	Attack
+screen/shop_weapon_hone_win.nbfc	106	108	37	12	s	15	13	l	13,15	Accuracy
+screen/shop_weapon_hone_win.nbfc	24	122	82	14	s	15	13	l	13,15	Hone this weapon?
+screen/shop_weapon_hone_win.nbfc	50	151	30	12	sb	15	13	c	13,15	Yes
+screen/shop_weapon_hone_win.nbfc	137	151	31	12	sb	15	13	c	13,15	No
+screen/shop_arm_sell_sub.nbfc	168	50	32	12	s	15	13	c	13,15	Owned
+screen/shop_arm_sell_sub.nbfc	24	106	72	14	s	15	13	l	13,15	Sell these?
+screen/shop_arm_sell_sub.nbfc	50	135	30	12	sb	15	13	c	13,15	Yes
+screen/shop_arm_sell_sub.nbfc	137	135	31	12	sb	15	13	c	13,15	No
+screen/v_uptake2_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Uptake
+screen/v_uptake2_base.nbfc	98	8	34	8	s	14	-	c	12,13,14	Sort
+screen/v_uptake2_base.nbfc	128	76	32	12	s	15	13	l	13,15	Attack
+screen/v_uptake2_base.nbfc	128	92	37	12	s	15	13	l	13,15	Accuracy
+screen/v_uptake2_base.nbfc	128	108	34	12	s	15	13	l	13,15	Defense
+screen/v_uptake2_base.nbfc	128	124	32	12	s	15	13	l	13,15	Evasion
+screen/v_uptake2_base.nbfc	128	140	25	12	s	15	13	l	13,15	Skills
+screen/v_uptake2_base.nbfc	43	176	34	14	sb	15	13	c	13,15	Uptake
+screen/v_uptake2_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
+screen/v_uptake_base.nbfc	0	1	55	13	s	15	13	c	12,13,14,15	Uptake
+screen/v_uptake_base.nbfc	10	26	24	12	s	15	13	l	13,15	Head
+screen/v_uptake_base.nbfc	170	26	24	12	s	15	13	l	13,15	Body
+screen/v_uptake_base.nbfc	10	66	38	12	s	15	13	l	13,15	Left Arm
+screen/v_uptake_base.nbfc	170	66	43	12	s	15	13	l	13,15	Right Arm
+screen/v_uptake_base.nbfc	10	106	38	12	s	15	13	l	13,15	Left Leg
+screen/v_uptake_base.nbfc	170	106	43	12	s	15	13	l	13,15	Right Leg
+# Proficiency does not fit the 40 px tab; Mastery is the full-word UI synonym.
+screen/v_uptake_base.nbfc	3	154	37	12	s	15	13	c	13,15	Mastery
+screen/v_uptake_base.nbfc	229	171	24	11	sb	15	13	c	13,15	Back
