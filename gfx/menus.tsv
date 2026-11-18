@@ -119,12 +119,20 @@ screen/v_status_base.nbfc	76	172	40	20	s	15	13	c	13,15	Dark|Attack
 screen/v_status2_base.nbfc	82	84	25	12	s	15	13	c	13,15	Star
 screen/v_status2_base.nbfc	12	172	40	20	sb	15	13	c	13,15	Skills
 screen/v_status2_base.nbfc	76	172	40	20	s	15	13	c	13,15	Dark|Attack
-screen/v_status_base.nbfc	10	114	36	12	s	15	13	c	13,15	Head
-screen/v_status_base.nbfc	50	114	36	12	s	15	13	c	13,15	Torso
-screen/v_status_base.nbfc	10	130	39	12	s	15	13	c	13,15	Left Arm
-screen/v_status_base.nbfc	50	130	44	12	s	15	13	c	13,15	Right Arm
-screen/v_status_base.nbfc	10	146	39	12	s	15	13	c	13,15	Left Leg
-screen/v_status_base.nbfc	50	146	44	12	s	15	13	c	13,15	Right Leg
+# Part labels: erase the kanji (y 114-125), then draw each label in the top half of its 16 px row; the element cell
+# of a taken part (engine.SITES 0x02066640.., windows 25-30) now sits under its label at tile x 1 / 6.
+screen/v_status_base.nbfc	5	114	38	12	s	15	13	l	13,15	-
+screen/v_status_base.nbfc	45	114	40	12	s	15	13	l	13,15	-
+screen/v_status_base.nbfc	5	130	38	12	s	15	13	l	13,15	-
+screen/v_status_base.nbfc	45	130	40	12	s	15	13	l	13,15	-
+screen/v_status_base.nbfc	5	146	38	12	s	15	13	l	13,15	-
+screen/v_status_base.nbfc	45	146	40	12	s	15	13	l	13,15	-
+screen/v_status_base.nbfc	5	112	38	10	s	15	13	l	-	Head
+screen/v_status_base.nbfc	45	112	40	10	s	15	13	l	-	Torso
+screen/v_status_base.nbfc	5	128	38	10	s	15	13	l	-	Left Arm
+screen/v_status_base.nbfc	45	128	40	10	s	15	13	l	-	Right Arm
+screen/v_status_base.nbfc	5	144	38	10	s	15	13	l	-	Left Leg
+screen/v_status_base.nbfc	45	144	40	10	s	15	13	l	-	Right Leg
 screen/v_status2_base.nbfc	186	48	38	12	s	15	13	c	13,15	Attack
 screen/v_status2_base.nbfc	186	64	38	12	s	15	13	c	13,15	Defense
 screen/v_status2_base.nbfc	186	80	38	12	s	15	13	c	13,15	Accuracy

@@ -23,4 +23,10 @@ L.on_exec(assert(POKE_PC, "set POKE_PC"), function()
     L.log(string.format("POKEAT %08X was %X now %X f%d", a, rd(a), POKE_VAL or 0, L.frame))
   end
   wr(a, POKE_VAL or 0)
+  -- optional second field of the same object, no deref: reg(POKE_REG) + POKE2_OFF = POKE2_VAL (POKE2_SIZE, default 4)
+  if POKE2_OFF then
+    local b = memory.getregister("arm9." .. (POKE_REG or "r0")) + POKE2_OFF
+    local s2 = POKE2_SIZE or 4
+    ;({ [1] = memory.writebyte, [2] = memory.writeword, [4] = memory.writedword })[s2](b, POKE2_VAL or 0)
+  end
 end)

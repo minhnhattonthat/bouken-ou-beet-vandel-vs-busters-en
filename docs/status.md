@@ -3,10 +3,41 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
+  Build sha1 3909a14479f32eb10e16fd535b9fe9d78a95f690 (session 21: Vandel Status part cells, " joined the party!"),
+  check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,994 shown + 464 waived of 9,472, **14 failing**, all ptr: list in
-  session 20 below) and the Vandel-mode list (Next (4)).
+  Left for the done-when: **text coverage: the 4 Saiga learn lines** (021B424C-29C; the other 10 ptr seen in
+  session 21) and the re-tour + qa_gate on the final build (Next (1), (5)). Vandel-mode list (Next (4)) done.
+- **Phase 8 session 21 (2026-11-19), Orca worker: real Vandel mode reached, part cells fixed, 10 ptr seen (context limit).**
+  - **Real Vandel mode from a cold boot:** `title_vandel_new` (`--sav work/saves/clear_save.dsv` when run alone; warp_all
+    applies `sav=`) + New Game t128,90, then A through the intro, OK t235,176 on the name and the epithet entry. New
+    scenes `vandel_status` / `vandel_uptake` (warp.lua input token `tok*N` = N repeats, e.g. `a*170`). **Their end
+    is not robust yet:** under `--debugger` (warp_all) the last A presses restart the Dark Tower talk at the Golden
+    Castle and the Force Menu taps land in it (`work/qa/en/vandel_status/final.png`); B does not close it. Tune the
+    `a*170` count (or tap away) before the re-tour. A state of the idle field: `work/states/p21_vn4.dst` (route
+    `start t18,40 t210,62` after 2 A presses, `work/qa/p21_vst2/route.txt`). The v01..v18 warps run the Vandel story
+    in Buster mode (Status = Beet); the save+0 = 1 memset gives a Force Menu whose Status hangs.
+  - **0x02065504 = Vandel Status part cells** (loop 0x020654D0: [[obj+0x78]+0x254+4*i] = monster id per body part or
+    -1; the element short form in window 25+i). Bugs fixed (English only): "Right Arm"/"Right Leg" ran under the
+    element-icon panel, and a taken part's element drew over the labels (cells sat right of one-kanji labels at tile
+    x 4/9). Labels now in the top half of each row (gfx/menus.tsv v_status_base), cells moved under them
+    (`engine.SITES` 0x02066640..0x020667C0). Seen with all 10 short forms via new `tools/lua/pokeseq.lua`
+    (`work/qa/cover/vstatus_parts_b/zoom.png` + `work/qa/p21_parts.png`: state run with the code words poked; the
+    cold-boot rerun overwrote `vstatus_parts_a` with a tower-talk shot and was then stopped for low memory: redo it
+    once the scene end is tuned).
+  - **ptr seen:** two-hander/shield (`work/qa/cover/twohand`: menu_equip + `t160,53 w200`, pokeat 0x0205C958 r8+0xC8=1),
+    roster full (`rosterfull`: mhall_monsters_buy, pokeat 0x020785D0 r10+0x114=1 + new POKE2 r10+0xE8=3), joined
+    (`joined`: b20_lena_sleep GOD_WIN=900, pokeat 0x020A4ABC r1+0xE98=1, POKE2 0xE94 = monster 5), ring destroyed /
+    restored (`ring_destroyed` / `ring_restored`: field_nash, pokeat 0x02046578 r0+0 = 0x14 = op 77 state ring 0
+    substep 1; the line is chosen by save+0, the mode word: memset it to 1 for "restored"), appraiser tag + "nothing"
+    + reward (`appraisal_nothing`, `appraisal_reward`: appraiser + `EXTRA='q2AF8B @1300 a*6 w300'`, reward = pokeat
+    0x02048908 r0+0 = 100). Rerun the textcov report to confirm the count (these runs used work/beet_t.nds, a copy).
+  - **Bug fixed:** "Jarmousejoined the party!" (a9.021B1820 is appended to a monster name): English now starts with a
+    space; seen on the new build (`work/qa/cover/joined/zoom.png`: "Jarmouse joined the party!").
+  - **Saiga learn (left):** forcing UI state 25 (idloop on r7 at 0x0202D248, the caller; forcing r0 at the dispatcher
+    entry did not take) runs handler 0x02035F0C, but [ui+0xD0] (the prompt object) is null: state 24 creates it on a
+    learn tap. Find that tap path in 0x0203614C (Saiga screen state) next.
+  - Logged for phase 9 (docs/polish.md): numbers in dialogue are full-width digits at 12 px ("1 0 0 Maggy").
 - **Phase 8 session 20 (2026-11-19), Orca worker: wpntype + special complete, save errors (59 -> 14 failing).**
   - **wpntype done.** Member 2's weapon is save+0x1988 (member stride 0x12C from 0x185C); in b29 the event script
     rewrites it at f1626 (0x02018EB4), so hold it after that with memset.lua (FROM=1640): every Saiga weapon and
@@ -456,15 +487,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   names (done), skills/tengeki/meigeki (done session 14; skill rows draw blank, see there), specials, buster/vandel books
   (done session 16), key items (done session 16), weapon records (done session 19, battle sweep), Saiga wpntypes /
   specials (done session 20),
-  rom.msg (done session 17), ptr 14 (session 20 list). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
+  rom.msg (done session 17), ptr (session 21: Saiga learn x4 left). Then waivers with reasons in `docs/text_unshown.tsv`. Earlier notes: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
   `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
   data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
   registration bit set, skills); quests and names need the random pick forced (quest board 4F at 0x3C288; name
   index r0 at 0x02019608, docs/re/scripts.md); waive only what is shown unreachable in `docs/text_unshown.tsv`
   (ptr.comm = wireless partner, ptr.gba = GBA game in slot 2, ptr.keyboard = kept Japanese by design); lists fetch only
   their visible rows, so page through them (session 8); (3) inkbox: speaker tags fixed and checked by tagbox.py
-  (above), choices/menus are gfx.py buttons (centred by construction); (4) the Vandel-mode list screen
-  (0x02065504, above); (5) `qa_gate check` exit 0 on the final build. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
+  (above), choices/menus are gfx.py buttons (centred by construction); (4) done in session 21 (Vandel Status part
+  cells); (5) `qa_gate check` exit 0 on the final build. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
   for wave-3 screens not yet warped (radio screens need a wireless partner: note as unreachable).
   Open items carried into phase 8:
   - `elem.name`: done in session 5 (above); leftovers are in Next (1). Also seen: the longest monster name (119 px,

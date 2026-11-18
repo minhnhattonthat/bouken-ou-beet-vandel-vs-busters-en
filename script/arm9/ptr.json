@@ -285,12 +285,12 @@
   {
    "id": "a9.021B1820",
    "jp": "が仲間になった",
-   "en": "joined the party!",
+   "en": " joined the party!",
    "kind": "ptr.line",
    "ptrs": [
     "020A4BF0"
    ],
-   "notes": "appended after a buster name: \"<name> joined the party\""
+   "notes": "appended straight after a monster name (battle win, 0x020A4B34 strcat), so it starts with a space: \"Jarmouse joined the party!\" (work/qa/cover/joined)"
   },
   {
    "id": "a9.021B424C",

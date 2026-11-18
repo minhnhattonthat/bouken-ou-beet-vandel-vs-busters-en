@@ -359,8 +359,18 @@ SITES = {
                                                   #   clear all 0x400 bytes, not 0x200 (MSG_CODES)
     0x0208F7D0: ('0172feeb', 'bl elem_rect'),     # monster book 属性 value window: rect(x 25, y 3, w 2, [sp] h 2)
                                                   #   -> ELEM_WIN (under the Element label, clear of the R button)
-    0x02065504: ('fabafeeb', 'bl elem_short'),    # 魔賓館 monster cards: the element sits in a 16 px book icon, so
-    0x0206551C: ('47ebfeeb', 'bl #0x02020660'),   #   draw the 2-letter short form (ESHORT) with the 8 px loop
+    0x02065504: ('fabafeeb', 'bl elem_short'),    # Vandel-mode Status part cells (loop 0x020654D0, one per taken
+    0x0206551C: ('47ebfeeb', 'bl #0x02020660'),   #   monster part): the 2-letter short form (ESHORT), 8 px loop
+    # Those six cells (windows 25-30, 2x2 tiles, rects built at 0x02066640..0x020667C0) sat right of one-kanji part
+    # labels (tile x 4 / 9, y 14 / 16 / 18), where "Left Arm" / "Right Arm" now run: move each one tile down and to
+    # x 1 / 6, under its label (gfx/menus.tsv v_status_base: labels in the top half of each 16 px row). Seen in game:
+    # work/qa/cover/vstatus_parts_a.
+    0x02066640: ('0410a0e3', 'mov r1, #1'), 0x02066644: ('0e20a0e3', 'mov r2, #0xf'),     # 25 Head
+    0x0206668C: ('0910a0e3', 'mov r1, #6'), 0x02066690: ('0e20a0e3', 'mov r2, #0xf'),     # 26 Torso
+    0x020666D8: ('0910a0e3', 'mov r1, #6'), 0x020666DC: ('1020a0e3', 'mov r2, #0x11'),    # 27 Right Arm
+    0x02066724: ('0410a0e3', 'mov r1, #1'), 0x02066728: ('1020a0e3', 'mov r2, #0x11'),    # 28 Left Arm
+    0x02066770: ('0910a0e3', 'mov r1, #6'), 0x02066774: ('1220a0e3', 'mov r2, #0x13'),    # 29 Right Leg
+    0x020667BC: ('0410a0e3', 'mov r1, #1'), 0x020667C0: ('1220a0e3', 'mov r2, #0x13'),    # 30 Left Leg
 }
 
 # Monster book element value window, in tiles (h stays the caller's 2): 72 x 16 px at (184, 40), one row under the
