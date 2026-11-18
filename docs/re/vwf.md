@@ -24,6 +24,10 @@
     into rom.0213C, `work/qa/p7_long`) draws every page and the event carries on.
   - speaker tag 0x0204BDCC: buffer sp+0xC..sp+0x24 = 0x18 bytes = **11 codes** + terminator (longest English
     speaker: 7 codes). Lint: `engine.MSG_CODES`, `engine.SPEAKER_CODES`.
+  - tag layout 0x02095008: window width w = 10 tiles (count < 6) else count + 5; text x = 4w - 6*count (+ 8*(13-w)
+    in the [obj+0x10] = 0 branch at 0x02095314; the other branch at 0x020951C8 is the one dialogue tags use). Both
+    `6*count` products are hooked to half the pixel width (`name_half`, `name_half2`); before the second hook tags
+    drifted up to 7 px (2026-11-19, `tools/tagbox.py work/qa/p8_tag`: 11/11 centred after).
 
 ## English engine (`tools/engine.py`, tests `tests/test_engine.py`)
 - Codes 0x2000-0x5FFF = letter pairs: `0x2000 + a*128 + b` (slots in `engine.LETTERS`: ASCII 0x20-0x7E then

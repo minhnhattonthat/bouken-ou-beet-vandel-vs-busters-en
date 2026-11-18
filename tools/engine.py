@@ -260,6 +260,14 @@ nhd:
     pop {{r1, r2, r3, r4, r5, r6, lr}}
     bx lr
 
+name_half2:
+    push {{lr}}
+    mov r1, r2
+    bl name_half
+    mov r1, r0
+    pop {{lr}}
+    bx lr
+
 ne_init:
     push {{lr}}
     bl #0x02029A14
@@ -304,6 +312,8 @@ SITES = {
     0x02022884: ('130050e3', 'cmp r0, #0xFF'),   # typewriter auto-wrap after 19 codes -> off (explicit breaks)
     0x02095314: ('0600a0e3', 'bl name_half'),     # speaker tag centring: mov r0, #6; mul r0, r1, r0 (6 px x count)
     0x02095318: ('910000e0', 'mov r0, r0'),       #   -> half the pixel width
+    0x020951C8: ('0600a0e3', 'bl name_half2'),    # the other tag layout ([obj+0x10] set): mov r0, #6; mul r1, r2, r0
+    0x020951CC: ('920001e0', 'mov r0, r0'),       #   (count in r2, string r3) -> r1 = half the pixel width
     0x0202B6F0: ('c7f8ffeb', 'bl ne_init'),       # name entry constructor: bl 0x02029A14 (keyboard rows), then
                                                   #   the keyboard opens on 英字 (mode obj+0xDC = 1; docs/re/vwf.md)
     0x0204BF00: ('022ca0e3', 'mov r2, #0x400'),   # dialogue expansion buffer (frame 0x41C, buffer sp+0x1C..0x41C):
