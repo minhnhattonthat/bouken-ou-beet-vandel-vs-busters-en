@@ -3,7 +3,39 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
-  Build sha1 bf77ae4518d91f6ff8dff19bddcbe334c9066491 (session 6), check.py green (60 tests).
+  Build sha1 bf77ae4518d91f6ff8dff19bddcbe334c9066491 (session 6, unchanged in 7), check.py green (62 tests).
+- **Phase 8 session 7 (2026-11-19), Orca worker: re-tour, message gallery, coverage probes, verdict run 4.**
+  - Tour `work/qa/en` on bf77ae45: 101/101 ok (cold scenes in the first run, whose summary was lost to a crash; the
+    9 save scenes + menu_quests re-run from `work/qa/beet_tour.nds`, same bytes, `summary_save.tsv`). Sheets
+    `work/qa/vqa_en`, manifest re-initialised (156 sheets, 148 changed), chunks `work/qa/chunks/chunk_ac7f49ec0b5d_*`,
+    verdict run 4 via `tools/visualqa.py` (log `work/qa/vqa_run4.txt`). `qa_gate check`: 153 sheets, all with
+    verdicts, **13 not ok** (3 stale sheet_2 ids of scenes that now make one sheet were dropped from the manifest by
+    hand; old copy `work/qa/manifest_stale.tsv`). To fix:
+    - one-word last lines: b07_newbie "job...", b08_guild "reach...", b12_zena/sheet_2 "business!!", b20_lena_sleep
+      "dreamland!", b27_golden_castle "splendor?", v09_charge/sheet_2 "Rings" (rewrap or reword those messages);
+    - speaker tags vs glossary: "Gate" (Village Gate, v05/v11), "Master" (橋かけ名人 Bridge Master, b23), "Mirei Chief"
+      (Mirei Forest Chief, v10); place "Muterin Range" vs Muterin Mountains (v05). Check the 80 px tag budget: if
+      the full form does not fit, add the short form to the glossary note and record a recheck verdict;
+    - graphics: "Orders" button (menu_orders/sheet_2 (1,3)) and "Details" button (menu_quests/sheet_2 (1,3)) clipped at
+      the left screen edge; shop_weapon_buy "Required Lv" label overlaps the level digit 1.
+    After fixes: rebuild, re-tour the changed scenes, vqasheets, `qa_gate init --build`, visualqa on the todo chunks.
+  - **Message gallery** `tools/debug/gallery.py` + `gallery.lua` + `gallery_run.py`: every script string a `70`/`9E`
+    op points at (4,100 of 4,120) goes through the real interpreter as a dialogue span (`2A` open, `9E`, `70`, `34`;
+    a bare `70` draws nothing), fed at the loop's read points 0x0204E630 / 0x0204E6F4 after the opening's first
+    message. 2,243 spans in 8 chunks into `work/qa/gallery/c<k>/` (g<NNNN>.png = first page). Runs under the JIT
+    (no --debugger: 260 fps vs 12). It copies the ROM to `gallery.nds`: a shared Battery/beet_en.dsv made warp_all's
+    writesave scene crash.
+  - textlog.lua now also logs `QST <pc>` (quest.img interpreter, docs/re/scripts.md), `PTR <word>` (read watch on the
+    146 ptr.json pointer words) and `NAM m|w <idx>` (generic buster name pick); textcov.py maps them, and `report`
+    takes several dirs (`report work/qa/en work/qa/gallery`, converted logs in `work/qa/_textcov`).
+  - Coverage with tour + full gallery: **4,254/9,472** (rom.msg 3,842/4,120). The 278 rom strings left: 129
+    speaker+message pairs whose span was fed but whose 9E/70 handlers never logged (the pc of a 9E/70 in
+    work/qa/rom_missing.txt's strings, e.g. 0x134CB-area span at 79051 = 0x134CB? check with GAL lines: maybe the span
+    starts at an op the loop never reads, or a branch inside it), 20 reached only by quest ops 4F/99, 4 spans stuck
+    (GALSTUCK 0x3B6B7 0x3BD3B 0x3C2D7 0x3C2EB in c6: likely choices/waits other than 34). (Earlier: 2,720.) Left
+    besides: table records (weapon ~1012
+    fields, monster 897, shout 770, title/desc = quest.img 637, name 256, buster 153, skill 134, tengeki/meigeki,
+    keyitem 90, vandel 93, ptr 103). menu_quests logs no QST (no quests in the list that early).
 - **Phase 8 session 6 (2026-11-19), Orca worker: element icons, coverage pipeline (tour killed for low memory).**
   - The 魔賓館 card element book icon is `battle/face/mon_<elem>_{l,m,s}.ob` (30 files, 24x24, 4bpp, @3; not
     mastery_icon, which holds weapon/element pictograms with no text). Redrawn with the elem.json short forms in the
@@ -121,13 +153,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
     the final gate.
   - Fixed from verdicts: ASCII `"` always drew the closing ”; `engine.OPEN_QUOTE` now draws an opening one as “
     (new letter slot; seen in game, `work/qa/p8_quote/bot.png`); one-word last line in rom.0D434.
-- **Next (phase 8), in order:** (1) full tour on the current build:
-  `python -X utf8 tools/debug/warp_all.py build/beet_en.nds --out work/qa/en --script tools/lua/glyphlog.lua
-  --script tools/lua/textlog.lua --debugger --jobs 2`, then `tools/vqasheets.py work/qa/en work/qa/vqa_en`,
-  `qa_gate init --build`, visualqa on the todo chunks (the element icons changed menu_monsters / shop sheets);
-  (2) coverage: `tools/textcov.py report work/qa/en`; add probes for quest.img / names / ptr strings, add scenes for
-  the big gaps (dialogue: more event warps; tables: monster/weapon book pages, shops with `inv`), waive only what is
-  shown unreachable in `docs/text_unshown.tsv`; (3) inkbox on speaker tags (above); (4) the Vandel-mode list screen
+- **Next (phase 8), in order:** (1) act on verdict run 4 (`qa_gate.py check work/qa/manifest.tsv work/qa/verdicts`;
+  fix text issues, recheck; the tour is current for bf77ae45 unless the build changes). Tours: textlog's exec hooks
+  are block starts, so `--debugger` is probably not needed for warp_all either (only `books`): test, it is 20x faster;
+  (2) coverage: `python -X utf8 tools/debug/gallery_run.py` (if not complete: `--only K`), then
+  `tools/textcov.py report work/qa/en work/qa/gallery --list`; close the table gaps with list scenes that fill the
+  data first (weapons/armor via `inv` + INV_CATS 1/2 in the shop sell lists, monster/buster/vandel books with every
+  registration bit set, skills); quests and names need the random pick forced (quest board 4F at 0x3C288; name
+  index r0 at 0x02019608, docs/re/scripts.md); waive only what is shown unreachable in `docs/text_unshown.tsv`
+  (ptr.comm = wireless partner, ptr.gba = GBA game in slot 2, ptr.keyboard = kept Japanese by design); (3) inkbox on speaker tags (above); (4) the Vandel-mode list screen
   (0x02065504, above); (5) `qa_gate check` exit 0 on the final build. Graphics: all survey rows done or in `gfxgroups.SKIP`; zoomed in-game shots still to take
   for wave-3 screens not yet warped (radio screens need a wireless partner: note as unreachable).
   Open items carried into phase 8:

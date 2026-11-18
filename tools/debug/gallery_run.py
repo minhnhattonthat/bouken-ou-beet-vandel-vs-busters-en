@@ -9,6 +9,7 @@ Prints per chunk: spans started, spans skipped as stuck, and whether GALDONE was
 finish.
 """
 import argparse
+import shutil
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
@@ -55,6 +56,14 @@ def main():
     out.mkdir(parents=True, exist_ok=True)
     subprocess.run([sys.executable, '-X', 'utf8', str(REPO / 'tools/debug/gallery.py'), '--out',
                     str(out / 'pcs.txt')], check=True)
+    # own ROM name: DeSmuME keeps Battery/<rom stem>.dsv open while it runs, and warp_all's writesave scene must
+    # move the shared beet_en.dsv (a gallery on the same name made that fail)
+    rom = out / 'gallery.nds'
+    shutil.copyfile(a.rom, rom)
+    a.rom = str(rom)
+    bat = REPO / 'tools/desmume/desmume-qa/Battery/gallery.dsv'   # a save there would turn the new game into a load
+    if bat.exists():
+        bat.unlink()
     n = sum(1 for ln in (out / 'pcs.txt').read_text().splitlines() if ln.strip())
     size = -(-n // a.chunks)
     jobs = [(k, lo + 1, min(lo + size, n)) for k, lo in enumerate(range(0, n, size))]
