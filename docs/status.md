@@ -5,9 +5,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator, in progress (phase 7 done 2026-11-18; phase-7 review fixes done 2026-11-19).
   Build sha1 20f9525c2ef5153b6947f6a862f62997e4a22497 (session 15; gfx menus.tsv "Req. Lv"), check.py green (70 tests), smoke ok.
   **The tour work/qa/en is on the old build 50c319fb: re-tour + vqasheets + qa_gate before the final gate** (Next (1)).
-  Left for the done-when: **text coverage** (8,581 shown + 462 waived of 9,472, 429 failing; rom.msg complete in
-  session 17) and the Vandel-mode list (Next (4)). Left: weapon 296 (74 records), wpntype 65, special 26, area2 25,
+  Left for the done-when: **text coverage** (8,606 shown + 462 waived of 9,472, 404 failing; area2 complete in
+  session 18) and the Vandel-mode list (Next (4)). Left: weapon 296 (74 records), wpntype 64, special 26,
   ptr 18 (list in session 17 below).
+- **Phase 8 session 18 (2026-11-19), Orca worker: area2 covered, VS-mode findings (context limit).**
+  - **area2 done** (25/25 drawn, `work/qa/cover/area2/labels.png`). The board label (0x020D19A0 -> 0x020D3488 for
+    area2, 0x020D350C for area; chosen by board+0xC > 1) draws the name of the node the hero walks to. Recipe:
+    field_nash + `memset.lua MEMSET_PTR=0x021BEDA4 MEMSET_OFF=0xC MEMSET_VAL=2 MEMSET_FROM=4900` + `idloop.lua
+    IDLOOP_ACC=0x020D34AC IDLOOP_N=25 IDLOOP_AFTER=4900` + textlog, `EXTRA='@5000' + 18 x 't165,85 w200 t163,138
+    w200'`, `--frames 16000` (one id per move, every 296 frames from f5008).
+  - What mode 2 is: board+0xC is copied from global 0x021BEBE4 by the board ctor 0x020D21F4 (caller 0x0202D0E4);
+    the save init 0x0200A934 (r1 = save+0 mode) builds a 70-node board for modes 0/1 and a 25-node one (0x0200AD78)
+    for mode 2, and mode 2 is only passed from 0x020D79F4, the wireless code (0x020DD8E8, next to the 陣営を選択
+    "choose your side" message): **mode 2 = wireless VS**. Holding 0x021BEBE4 = 2 from boot breaks the field
+    (`work/qa/p18_area2`, black board).
+  - Player/Hero weapons (weapon 174-223, wpntype 29-78, special 11-35: 5 types x 10 levels, likely the VS-mode
+    avatar's): with weapon 174 equipped (`w185C=AF01`) Buster-mode Status draws in both builds and fetches weapon
+    0x1AF + wpntype 0x1E for the stats, but shows no weapon name (`work/qa/p18_bstat/cmp.png`); Status > Equip
+    hangs (white), Saiga is empty; Vandel-mode (save+0 = 1) Status hangs in the original too
+    (`work/qa/p18_vstat_jp.png`). Next: grep the shop lists (0x021AE21C) and script give-weapon ops for ids >= 174;
+    if none, waive these as VS-only with this proof. Not done: Vandel-weapons 224-253, Hero wpntypes 15-28.
+  - New: `tools/debug/blscan.py ADDR..` (every direct ARM/Thumb BL into an address; callers.py misses leaf
+    accessors with no push).
 - **Phase 8 session 17 (2026-11-19), Orca worker: rom.msg coverage complete, shop-full lines.**
   - rom.msg 278 -> 0. `tools/debug/romleft.py MISSING.txt [-v]` (new) groups unseen rom strings by the opcode
     pointing at them; `tools/debug/xrefs.py FROM TO` (new) lists every rom.img operand / quest.img / arm9 u32 into a
