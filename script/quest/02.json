@@ -1,0 +1,2112 @@
+{
+ "src": "quest/quest.img",
+ "entries": [
+  {
+   "id": "quest.04010",
+   "jp": "ガブリ貝２匹を倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04024",
+   "jp": "ゼナ救出",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04030",
+   "jp": "行方不明となったゼナを探しだす",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04050",
+   "jp": "行方不明となったゼナを探しだす",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04070",
+   "jp": "ビィト戦士団登場",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04084",
+   "jp": "ビィト戦士団との出会い",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0409C",
+   "jp": "ビィト戦士団との出会い",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.040B4",
+   "jp": "鑑定小屋開設",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.040C4",
+   "jp": "鑑定小屋が開設された",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.040DC",
+   "jp": "鑑定小屋が開設された",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.040F4",
+   "jp": "母との再会",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04100",
+   "jp": "母親と出会う",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04110",
+   "jp": "母親と出会う",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04120",
+   "jp": "浜辺の魔物",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0412C",
+   "jp": "浜辺に出現する{br}モンスター（ガブリ貝）５匹を{br}倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04160",
+   "jp": "浜辺に出現する{br}モンスター（ガブリ貝）５匹を倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04194",
+   "jp": "山の魔物",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.041A0",
+   "jp": "バコソン山地の{br}モンスターを倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.041C4",
+   "jp": "バコソン山地に出現する{br}モンスター（カネック）を８匹倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04200",
+   "jp": "行く手をふさぐワナ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04214",
+   "jp": "行く手をふさぐワナを解除する",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04234",
+   "jp": "行く手をふさぐワナを解除する",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04254",
+   "jp": "配達バスターを救え",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04268",
+   "jp": "配達のバスターを救う",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04280",
+   "jp": "配達のバスターを救う",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04298",
+   "jp": "銀堀職人ホーレイさん",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.042B0",
+   "jp": "銀堀職人のホーレイさんを訪れる",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.042D0",
+   "jp": "銀堀職人のホーレイさんを訪れる",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.042F0",
+   "jp": "行く手をふさぐ壁",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04304",
+   "jp": "行く手をふさぐ壁を除去",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0431C",
+   "jp": "行く手をふさぐ壁を除去",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04334",
+   "jp": "坑道内を照らせ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04344",
+   "jp": "坑道内を照らせ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04354",
+   "jp": "坑道内を照らせ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04364",
+   "jp": "聖なる炎",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04370",
+   "jp": "聖なる炎",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0437C",
+   "jp": "聖なる炎",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04388",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0439C",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.043B0",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.043C4",
+   "jp": "脅威の砂嵐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.043D0",
+   "jp": "脅威の砂嵐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.043DC",
+   "jp": "脅威の砂嵐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.043E8",
+   "jp": "バスター同士協力せよ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04400",
+   "jp": "バスター同士協力せよ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04418",
+   "jp": "バスター同士協力せよ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04430",
+   "jp": "再会、ビィト戦士団",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04444",
+   "jp": "再会、ビィト戦士団",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04458",
+   "jp": "再会、ビィト戦士団",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0446C",
+   "jp": "荒れ狂う雪男",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0447C",
+   "jp": "最近　ゼロス雪原で{br}行方不明者が　続出している{br}この原因を　調査してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.044C8",
+   "jp": "ゼロス雪原に出現する{br}雪男とウワサされる{br}モンスターを１匹倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04508",
+   "jp": "ルブレイ湖",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04514",
+   "jp": "最近　ルブレイ湖で{br}人々を襲っているモンスターを{br}討伐してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04558",
+   "jp": "ルブレイ湖に出現する{br}モンスター（アクアドッグ）を５匹倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04594",
+   "jp": "ゼナ行方不明",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.045A4",
+   "jp": "ゼナ行方不明",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.045B4",
+   "jp": "ゼナ行方不明",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.045C4",
+   "jp": "ゼナの危機",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.045D0",
+   "jp": "ゼナの危機",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.045DC",
+   "jp": "ゼナの危機",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.045E8",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.045F8",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04608",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04618",
+   "jp": "アーク戦士団登場",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0462C",
+   "jp": "アーク戦士団登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04640",
+   "jp": "アーク戦士団登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04654",
+   "jp": "いざ、西方の島へ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04668",
+   "jp": "いざ、西方の島へ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0467C",
+   "jp": "いざ、西方の島へ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04690",
+   "jp": "仇",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04694",
+   "jp": "仇のヴァンデルと出会う",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.046AC",
+   "jp": "仇のヴァンデルと出会う",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.046C4",
+   "jp": "再会　ゼナ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.046D0",
+   "jp": "再会　ゼナ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.046DC",
+   "jp": "再会　ゼナ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.046E8",
+   "jp": "レナの危機",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.046F4",
+   "jp": "レナの危機",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04700",
+   "jp": "レナの危機",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0470C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0471C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0472C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0473C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0474C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0475C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0476C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0477C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0478C",
+   "jp": "行く手を阻む敵",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0479C",
+   "jp": "姉妹抹殺命令",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.047AC",
+   "jp": "姉妹抹殺命令",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.047BC",
+   "jp": "姉妹抹殺命令",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.047CC",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.047DC",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.047EC",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.047FC",
+   "jp": "レナの危機",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04808",
+   "jp": "レナの危機",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04814",
+   "jp": "レナの危機",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04820",
+   "jp": "シルバーチャームが",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04834",
+   "jp": "シルバーチャームが",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04848",
+   "jp": "シルバーチャームが",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0485C",
+   "jp": "東の里の異変",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0486C",
+   "jp": "東の里の異変",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0487C",
+   "jp": "東の里の異変",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0488C",
+   "jp": "才牙の真髄",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04898",
+   "jp": "才牙の真髄",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.048A4",
+   "jp": "才牙の真髄",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.048B0",
+   "jp": "採掘所の人々を救え",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.048C4",
+   "jp": "採掘所の人々を救え",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.048D8",
+   "jp": "採掘所の人々を救え",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.048EC",
+   "jp": "採掘所の人々を救え",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04900",
+   "jp": "採掘所の人々を救え",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04914",
+   "jp": "採掘所の人々を救え",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04928",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04930",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04938",
+   "jp": "黄金城",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04940",
+   "jp": "橋かけ名人",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0494C",
+   "jp": "橋かけ名人",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04958",
+   "jp": "橋かけ名人",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04964",
+   "jp": "モンスター討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04974",
+   "jp": "黄金城前に出現する{br}モンスター（赤銅巨人）５匹を{br}倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.049AC",
+   "jp": "黄金城前に出現する{br}モンスター（赤銅巨人）５匹を倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.049E4",
+   "jp": "橋かけ名人を守れ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.049F8",
+   "jp": "橋かけ名人を守れ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A0C",
+   "jp": "橋かけ名人を守れ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A20",
+   "jp": "突入！　黄金城",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A30",
+   "jp": "突入！　黄金城",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A40",
+   "jp": "突入！　黄金城",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A50",
+   "jp": "敵の総攻撃",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A5C",
+   "jp": "敵の総攻撃",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A68",
+   "jp": "敵の総攻撃",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A74",
+   "jp": "奥義修得",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A80",
+   "jp": "奥義修得",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A8C",
+   "jp": "奥義修得",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04A98",
+   "jp": "レナ救出",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04AA4",
+   "jp": "レナ救出",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04AB0",
+   "jp": "レナ救出",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04ABC",
+   "jp": "突入！　謁見の間",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04AD0",
+   "jp": "突入！　謁見の間",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04AE4",
+   "jp": "突入！　謁見の間",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04AF8",
+   "jp": "ボスを倒せ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B04",
+   "jp": "ボスを倒せ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B10",
+   "jp": "ボスを倒せ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B1C",
+   "jp": "ファイナルバトル",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B30",
+   "jp": "ファイナルバトル",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B44",
+   "jp": "ファイナルバトル",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B58",
+   "jp": "エンディング",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B68",
+   "jp": "エンディング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B78",
+   "jp": "エンディング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B88",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.04B9C",
+   "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.04BC8",
+   "jp": "ソーレ谷にある封印のリングを{br}修復する{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05524",
+   "jp": "出撃",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0552C",
+   "jp": "出撃",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05534",
+   "jp": "出撃",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0553C",
+   "jp": "西の里",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05544",
+   "jp": "西の里",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0554C",
+   "jp": "西の里",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05554",
+   "jp": "門を破れ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05560",
+   "jp": "門を破れ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0556C",
+   "jp": "門を破れ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05578",
+   "jp": "里の兵士をたおせ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0558C",
+   "jp": "里の兵士をたおせ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.055A0",
+   "jp": "里の兵士をたおせ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.055B4",
+   "jp": "銀の女神像",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.055C0",
+   "jp": "銀の女神像",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.055CC",
+   "jp": "銀の女神像",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.055D8",
+   "jp": "建設！　黄金城",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.055E8",
+   "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05634",
+   "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05680",
+   "jp": "建設　急げ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0568C",
+   "jp": "黄金城を建設するために必要な{br}「ビルドアント」を１０匹{br}魔賓館で買ってくる",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.056D8",
+   "jp": "黄金城を建設するために必要な{br}「ビルドアント」をさらに１０匹{br}魔賓館で買ってくる",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0572C",
+   "jp": "封印のリング",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0573C",
+   "jp": "封印のリング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0574C",
+   "jp": "封印のリング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0575C",
+   "jp": "金の増産指示",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0576C",
+   "jp": "金の増産指示",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0577C",
+   "jp": "金の増産指示",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0578C",
+   "jp": "行く手をふさぐ障害物",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.057A4",
+   "jp": "行く手をふさぐ障害物",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.057BC",
+   "jp": "行く手をふさぐ障害物",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.057D4",
+   "jp": "山門を破れ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.057E0",
+   "jp": "山門を破れ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.057EC",
+   "jp": "山門を破れ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.057F8",
+   "jp": "里の兵士をたおせ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0580C",
+   "jp": "里の兵士をたおせ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05820",
+   "jp": "里の兵士をたおせ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05834",
+   "jp": "金の採掘場建設",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05844",
+   "jp": "金の採掘場建設",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05854",
+   "jp": "金の採掘場建設",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05864",
+   "jp": "バスター登場",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05874",
+   "jp": "バスター登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05884",
+   "jp": "バスター登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05894",
+   "jp": "借金取立て屋",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.058A4",
+   "jp": "借金取立て屋",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.058B4",
+   "jp": "借金取立て屋",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.058C4",
+   "jp": "ＢＢミルファ登場",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.058D8",
+   "jp": "ＢＢミルファ登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.058EC",
+   "jp": "ＢＢミルファ登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05900",
+   "jp": "魔札貸し屋　ガネール",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05918",
+   "jp": "魔札貸し屋　ガネール",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05930",
+   "jp": "魔札貸し屋　ガネール",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05948",
+   "jp": "初めてのごほうび",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0595C",
+   "jp": "初めてのごほうび",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05970",
+   "jp": "初めてのごほうび",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05984",
+   "jp": "シャギーの依頼",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05994",
+   "jp": "シャギーの依頼",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.059A4",
+   "jp": "シャギーの依頼",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.059B4",
+   "jp": "ディアム登場",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.059C4",
+   "jp": "ディアム登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.059D4",
+   "jp": "ディアム登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.059E4",
+   "jp": "赤熱の烈火　ギルス",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.059F8",
+   "jp": "赤熱の烈火　ギルス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A0C",
+   "jp": "赤熱の烈火　ギルス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A20",
+   "jp": "吹き上がるマグマ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A34",
+   "jp": "吹き上がるマグマ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A48",
+   "jp": "吹き上がるマグマ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A5C",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A6C",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A7C",
+   "jp": "レジスタンス",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A8C",
+   "jp": "ハーデンの言葉",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05A9C",
+   "jp": "ハーデンの言葉",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05AAC",
+   "jp": "ハーデンの言葉",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05ABC",
+   "jp": "坑道　暗闇の先に",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05AD0",
+   "jp": "坑道　暗闇の先に",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05AE4",
+   "jp": "坑道　暗闇の先に",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05AF8",
+   "jp": "ハーデンの真意",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B08",
+   "jp": "ハーデンの真意",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B18",
+   "jp": "ハーデンの真意",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B28",
+   "jp": "バスター",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B34",
+   "jp": "バスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B40",
+   "jp": "バスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B4C",
+   "jp": "里を守りし人々",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B5C",
+   "jp": "里を守りし人々",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B6C",
+   "jp": "里を守りし人々",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B7C",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05B90",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05BA4",
+   "jp": "封印のリング修復",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05BB8",
+   "jp": "門を破壊しろ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05BC8",
+   "jp": "門を破壊しろ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05BD8",
+   "jp": "門を破壊しろ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05BE8",
+   "jp": "里長を捕まえろ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05BF8",
+   "jp": "里長を捕まえろ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C08",
+   "jp": "里長を捕まえろ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C18",
+   "jp": "滅び行く里",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C24",
+   "jp": "滅び行く里",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C30",
+   "jp": "滅び行く里",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C3C",
+   "jp": "破壊　封印のリング",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C50",
+   "jp": "破壊　封印のリング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C64",
+   "jp": "破壊　封印のリング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C78",
+   "jp": "目障りな姉妹",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C88",
+   "jp": "目障りな姉妹",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05C98",
+   "jp": "目障りな姉妹",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05CA8",
+   "jp": "夢幻の覇者オロゾン",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05CBC",
+   "jp": "夢幻の覇者オロゾン",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05CD0",
+   "jp": "夢幻の覇者オロゾン",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05CE4",
+   "jp": "里の民をあざむけ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05CF8",
+   "jp": "里の民をあざむけ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D0C",
+   "jp": "里の民をあざむけ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D20",
+   "jp": "おとり",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D28",
+   "jp": "おとり",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D30",
+   "jp": "おとり",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D38",
+   "jp": "修復アイテムの炎",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D4C",
+   "jp": "修復アイテムの炎",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D60",
+   "jp": "修復アイテムの炎",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D74",
+   "jp": "最後のリング",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D84",
+   "jp": "最後のリング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05D94",
+   "jp": "最後のリング",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05DA4",
+   "jp": "開放されない冥力",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05DB8",
+   "jp": "開放されない冥力",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05DCC",
+   "jp": "開放されない冥力",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05DE0",
+   "jp": "最後の防御線",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05DF0",
+   "jp": "最後の防御線",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E00",
+   "jp": "最後の防御線",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E10",
+   "jp": "最後の扉",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E1C",
+   "jp": "最後の扉",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E28",
+   "jp": "最後の扉",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E34",
+   "jp": "アーク戦士団登場",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E48",
+   "jp": "アーク戦士団登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E5C",
+   "jp": "アーク戦士団登場",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E70",
+   "jp": "最後の戦い",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E7C",
+   "jp": "最後の戦い",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E88",
+   "jp": "最後の戦い",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E94",
+   "jp": "父の仇",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05E9C",
+   "jp": "父の仇",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05EA4",
+   "jp": "父の仇",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05EAC",
+   "jp": "最後の一撃",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05EB8",
+   "jp": "最後の一撃",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05EC4",
+   "jp": "最後の一撃",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05ED0",
+   "jp": "双子島完全征服",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05EE0",
+   "jp": "双子島完全征服",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05EF0",
+   "jp": "双子島完全征服",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F00",
+   "jp": "人間　希望の逆転",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F14",
+   "jp": "人間　希望の逆転",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F28",
+   "jp": "人間　希望の逆転",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F3C",
+   "jp": "下克上",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F44",
+   "jp": "下克上",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F4C",
+   "jp": "下克上",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F54",
+   "jp": "ビィト戦士団",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F64",
+   "jp": "ビィト戦士団",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.05F74",
+   "jp": "ビィト戦士団",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  }
+ ]
+}

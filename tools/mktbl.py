@@ -17,6 +17,11 @@ CONTROLS = {
     0xFF70: "{br}",     # line break (verified on screen)
     0xFF71: "{close}",  # wait, close message (guess)
     0xFF72: "{page}",   # wait, clear box (guess)
+    0xFF90: "{hero}",   # Buster-story player name (guess: alone as a speaker; 250 uses)
+    0xFF92: "{vandel}",  # Vandel-story player name (guess: alone as a speaker in Vandel scenes; 82 uses)
+    0xFF93: "{name93}",  # a name in quotes, rom.49BA8 「..」だっ！！ (unknown; 1 use)
+    0xFFA4: "{monster}",  # quest target monster name (guess: 「..の討伐」 quest titles)
+    0xFFA5: "{count}",  # quest kill count (guess: 「..を..匹倒してほしい」)
 }
 
 

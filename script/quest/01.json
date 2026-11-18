@@ -1,0 +1,1258 @@
+{
+ "src": "quest/quest.img",
+ "entries": [
+  {
+   "id": "quest.02010",
+   "jp": "現在　よりよい薬を　研究中だ{br}「ノルナージの森」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02080",
+   "jp": "ミュテリン山地の薬花の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0209C",
+   "jp": "現在　よりよい薬を　研究中だ{br}「ミュテリン山地」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0210C",
+   "jp": "リンブロ平原の薬花の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02128",
+   "jp": "現在　よりよい薬を　研究中だ{br}「リンブロ平原」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02198",
+   "jp": "リンラーゴ山地の薬花の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.021B4",
+   "jp": "現在　よりよい薬を　研究中だ{br}「リンラーゴ山地」にある{br}薬花が　必要だ{br}これを　さっそく　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02224",
+   "jp": "鉱石の採掘",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02230",
+   "jp": "ダチャレイ洞窟の鉱石の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0224C",
+   "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ダチャレイ洞窟にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.022D0",
+   "jp": "ベヌル荒野の鉱石の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.022E8",
+   "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ベヌル荒野にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02368",
+   "jp": "ソーレ谷の鉱石の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02380",
+   "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ソーレ谷にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02400",
+   "jp": "鉱石の採掘",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0240C",
+   "jp": "ビム砂漠の鉱石の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02424",
+   "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ビム砂漠にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.024A4",
+   "jp": "オーラン洞窟の鉱石の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.024C0",
+   "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}オーラン洞窟にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02544",
+   "jp": "ビョンリン火山の鉱石の採集",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02560",
+   "jp": "現在　この島で　ベカトルテ鋼の{br}精製を　検討中だ{br}ビョンリン火山にある{br}ベカトルテ鋼の鉱石が　必要だ{br}これを　手に入れて　ほしい{close}",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.025E4",
+   "jp": "平原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.025F4",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02600",
+   "jp": "ナッシュ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02634",
+   "jp": "平原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02644",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02650",
+   "jp": "ナッシュ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02684",
+   "jp": "平原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02694",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.026A0",
+   "jp": "ナッシュ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.026D4",
+   "jp": "洞窟の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.026E4",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.026F0",
+   "jp": "ダチャレイ洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02728",
+   "jp": "洞窟の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02738",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02744",
+   "jp": "ダチャレイ洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0277C",
+   "jp": "洞窟の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0278C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02798",
+   "jp": "ダチャレイ洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.027D0",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.027E0",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.027EC",
+   "jp": "バコソン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02820",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02830",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0283C",
+   "jp": "バコソン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02870",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02880",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0288C",
+   "jp": "バコソン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.028C0",
+   "jp": "砂漠の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.028D0",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.028DC",
+   "jp": "ビム砂漠などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0290C",
+   "jp": "砂漠の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0291C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02928",
+   "jp": "ビム砂漠などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02958",
+   "jp": "砂漠の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02968",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02974",
+   "jp": "ビム砂漠などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.029A4",
+   "jp": "荒野の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.029B4",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.029C0",
+   "jp": "ベヌル荒野などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.029F4",
+   "jp": "荒野の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02A04",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02A10",
+   "jp": "ベヌル荒野などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02A44",
+   "jp": "荒野の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02A54",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02A60",
+   "jp": "ベヌル荒野などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02A94",
+   "jp": "谷の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02AA4",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02AB0",
+   "jp": "ソーレ谷などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02AE0",
+   "jp": "谷の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02AF0",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02AFC",
+   "jp": "ソーレ谷などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02B2C",
+   "jp": "谷の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02B3C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02B48",
+   "jp": "ソーレ谷などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02B78",
+   "jp": "森の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02B88",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02B94",
+   "jp": "ミレイの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02BC8",
+   "jp": "森の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02BD8",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02BE4",
+   "jp": "ミレイの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02C18",
+   "jp": "森の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02C28",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02C34",
+   "jp": "ミレイの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02C68",
+   "jp": "湖の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02C78",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02C84",
+   "jp": "ルブレイ湖などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02CB8",
+   "jp": "湖の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02CC8",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02CD4",
+   "jp": "ルブレイ湖などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02D08",
+   "jp": "湖の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02D18",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02D24",
+   "jp": "ルブレイ湖などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02D58",
+   "jp": "雪原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02D68",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02D74",
+   "jp": "ゼロス雪原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02DA8",
+   "jp": "雪原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02DB8",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02DC4",
+   "jp": "ゼロス雪原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02DF8",
+   "jp": "雪原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02E08",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02E14",
+   "jp": "ゼロス雪原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02E48",
+   "jp": "湿地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02E58",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02E64",
+   "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02E98",
+   "jp": "湿地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02EA8",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02EB4",
+   "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02EE8",
+   "jp": "湿地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02EF8",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02F04",
+   "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02F38",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02F48",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02F54",
+   "jp": "リンラーゴ山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02F8C",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02F9C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02FA8",
+   "jp": "リンラーゴ山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02FE0",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.02FF0",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.02FFC",
+   "jp": "リンラーゴ山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03034",
+   "jp": "森の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03044",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03050",
+   "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03088",
+   "jp": "森の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03098",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.030A4",
+   "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.030DC",
+   "jp": "森の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.030EC",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.030F8",
+   "jp": "ノルナージの森などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03130",
+   "jp": "洞窟の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03140",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0314C",
+   "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03180",
+   "jp": "洞窟の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03190",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0319C",
+   "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.031D0",
+   "jp": "洞窟の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.031E0",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.031EC",
+   "jp": "オーラン洞窟などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03220",
+   "jp": "氷河の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03230",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0323C",
+   "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03270",
+   "jp": "氷河の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03280",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0328C",
+   "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.032C0",
+   "jp": "氷河の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.032D0",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.032DC",
+   "jp": "リンナム氷河などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03310",
+   "jp": "火山の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03320",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0332C",
+   "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03364",
+   "jp": "火山の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03374",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03380",
+   "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.033B8",
+   "jp": "火山の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.033C8",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.033D4",
+   "jp": "ビョンリン火山などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0340C",
+   "jp": "平原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0341C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03428",
+   "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0345C",
+   "jp": "平原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0346C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03478",
+   "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.034AC",
+   "jp": "平原の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.034BC",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.034C8",
+   "jp": "リンブロ平原などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.034FC",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0350C",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03518",
+   "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03550",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03560",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0356C",
+   "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.035A4",
+   "jp": "山地の魔物討伐",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.035B4",
+   "jp": "{monster}の討伐",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.035C0",
+   "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03FBC",
+   "jp": "潜入、双子島",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03FCC",
+   "jp": "双子島へ上陸",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03FDC",
+   "jp": "双子島へ上陸",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.03FEC",
+   "jp": "初めてのバトル",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.03FFC",
+   "jp": "ガブリ貝２匹を倒す",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  }
+ ]
+}

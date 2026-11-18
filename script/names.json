@@ -1,0 +1,1797 @@
+{
+ "src": "status/bustername/busterman.bin, status/bustername/busterwoman.bin",
+ "entries": [
+  {
+   "id": "name.m000",
+   "jp": "ラファット",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m001",
+   "jp": "アーノルディ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m002",
+   "jp": "アダ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m003",
+   "jp": "アッシュック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m004",
+   "jp": "アラニス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m005",
+   "jp": "アル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m006",
+   "jp": "アルバッティ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m007",
+   "jp": "アレック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m008",
+   "jp": "アンソー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m009",
+   "jp": "アンドリュック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m010",
+   "jp": "イワム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m011",
+   "jp": "ウィーリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m012",
+   "jp": "ウルス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m013",
+   "jp": "エディ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m014",
+   "jp": "エリックス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m015",
+   "jp": "オスキック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m016",
+   "jp": "ギムル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m017",
+   "jp": "クウピー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m018",
+   "jp": "クラウス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m019",
+   "jp": "クリスピン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m020",
+   "jp": "クリンティ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m021",
+   "jp": "クレイグ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m022",
+   "jp": "グレゴック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m023",
+   "jp": "ケイリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m024",
+   "jp": "ゲックル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m025",
+   "jp": "ケネス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m026",
+   "jp": "ケビー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m027",
+   "jp": "ケリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m028",
+   "jp": "ケン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m029",
+   "jp": "コーデリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m030",
+   "jp": "ゴッサル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m031",
+   "jp": "ゴン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m032",
+   "jp": "サッシー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m033",
+   "jp": "サミュエリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m034",
+   "jp": "サラム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m035",
+   "jp": "サント",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m036",
+   "jp": "サンフォー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m037",
+   "jp": "ジェイコビー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m038",
+   "jp": "ジェフス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m039",
+   "jp": "ジェリック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m040",
+   "jp": "シディ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m041",
+   "jp": "ジミック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m042",
+   "jp": "ジムス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m043",
+   "jp": "ジャッシュ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m044",
+   "jp": "ジュード",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m045",
+   "jp": "ショー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m046",
+   "jp": "ジョセフィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m047",
+   "jp": "ジョネス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m048",
+   "jp": "シルバック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m049",
+   "jp": "スコッティス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m050",
+   "jp": "スチューワー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m051",
+   "jp": "スパイクル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m052",
+   "jp": "スパイラス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m053",
+   "jp": "スピードル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m054",
+   "jp": "スピック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m055",
+   "jp": "ゼザ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m056",
+   "jp": "セルゲイ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m057",
+   "jp": "ダグラシー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m058",
+   "jp": "ダッガー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m059",
+   "jp": "ダニー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m060",
+   "jp": "チャール",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m061",
+   "jp": "チャリック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m062",
+   "jp": "チャンシー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m063",
+   "jp": "ティム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m064",
+   "jp": "デッカー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m065",
+   "jp": "テッド",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m066",
+   "jp": "デッキー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m067",
+   "jp": "デポ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m068",
+   "jp": "デミトリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m069",
+   "jp": "テリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m070",
+   "jp": "トーザー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m071",
+   "jp": "トミーサー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m072",
+   "jp": "トムル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m073",
+   "jp": "トラッグ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m074",
+   "jp": "ニコラック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m075",
+   "jp": "ニッキー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m076",
+   "jp": "ネック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m077",
+   "jp": "ネリウス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m078",
+   "jp": "ノーラン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m079",
+   "jp": "パーシー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m080",
+   "jp": "バーナード",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m081",
+   "jp": "パジィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m082",
+   "jp": "バッカ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m083",
+   "jp": "パブロ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m084",
+   "jp": "パメラス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m085",
+   "jp": "ハリソニー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m086",
+   "jp": "ハンフル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m087",
+   "jp": "ビィボー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m088",
+   "jp": "ピィン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m089",
+   "jp": "ビダル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m090",
+   "jp": "ビック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m091",
+   "jp": "ビル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m092",
+   "jp": "ビンセス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m093",
+   "jp": "フィリッパー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m094",
+   "jp": "ブルー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m095",
+   "jp": "フレッディー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m096",
+   "jp": "ペート",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m097",
+   "jp": "ヘクター",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m098",
+   "jp": "ホーミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m099",
+   "jp": "ポーリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m100",
+   "jp": "ホセイン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m101",
+   "jp": "ホッター",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m102",
+   "jp": "ボブ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m103",
+   "jp": "マーカス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m104",
+   "jp": "マークル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m105",
+   "jp": "マーティー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m106",
+   "jp": "マーロス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m107",
+   "jp": "マカリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m108",
+   "jp": "ミゲル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m109",
+   "jp": "メッカー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m110",
+   "jp": "メル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m111",
+   "jp": "メン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m112",
+   "jp": "ヤック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m113",
+   "jp": "ヨッカー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m114",
+   "jp": "ライナス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m115",
+   "jp": "ラッティー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m116",
+   "jp": "ラリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m117",
+   "jp": "ランディス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m118",
+   "jp": "リチャードック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m119",
+   "jp": "レイス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m120",
+   "jp": "レオナルダス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m121",
+   "jp": "レン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m122",
+   "jp": "ロジャー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m123",
+   "jp": "ロックス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m124",
+   "jp": "ロドニス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m125",
+   "jp": "ロベロス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m126",
+   "jp": "ワカロス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.m127",
+   "jp": "ワッティ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w000",
+   "jp": "ロザリム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w001",
+   "jp": "アシュレイ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w002",
+   "jp": "アピー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w003",
+   "jp": "アメリル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w004",
+   "jp": "アリーシー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w005",
+   "jp": "アンジェル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w006",
+   "jp": "イングリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w007",
+   "jp": "ウィノニー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w008",
+   "jp": "ウーピス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w009",
+   "jp": "ウル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w010",
+   "jp": "エコーダ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w011",
+   "jp": "エビータ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w012",
+   "jp": "エミム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w013",
+   "jp": "エリザ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w014",
+   "jp": "エリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w015",
+   "jp": "エレン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w016",
+   "jp": "オードル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w017",
+   "jp": "カースティ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w018",
+   "jp": "カリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w019",
+   "jp": "カリスタ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w020",
+   "jp": "カレンス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w021",
+   "jp": "キーミィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w022",
+   "jp": "キャシル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w023",
+   "jp": "キュリム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w024",
+   "jp": "キラリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w025",
+   "jp": "グラス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w026",
+   "jp": "クラスル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w027",
+   "jp": "クリーミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w028",
+   "jp": "クローディア",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w029",
+   "jp": "ケミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w030",
+   "jp": "コートニー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w031",
+   "jp": "コッコ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w032",
+   "jp": "コニー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w033",
+   "jp": "コリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w034",
+   "jp": "ザミィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w035",
+   "jp": "サラム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w036",
+   "jp": "サラリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w037",
+   "jp": "サリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w038",
+   "jp": "ジィン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w039",
+   "jp": "ジェシカス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w040",
+   "jp": "ジェナ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w041",
+   "jp": "ジェミル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w042",
+   "jp": "ジェラル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w043",
+   "jp": "ジェリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w044",
+   "jp": "ジェリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w045",
+   "jp": "ジッピ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w046",
+   "jp": "シビィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w047",
+   "jp": "ジャーノン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w048",
+   "jp": "シャル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w049",
+   "jp": "ジャンエーン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w050",
+   "jp": "シャンソ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w051",
+   "jp": "ジュリアス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w052",
+   "jp": "ジョティー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w053",
+   "jp": "ゾラ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w054",
+   "jp": "ターシア",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w055",
+   "jp": "ダイアン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w056",
+   "jp": "タミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w057",
+   "jp": "ダリル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w058",
+   "jp": "チェミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w059",
+   "jp": "チャミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w060",
+   "jp": "チューヒン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w061",
+   "jp": "ドリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w062",
+   "jp": "ナスター",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w063",
+   "jp": "ナトナン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w064",
+   "jp": "ナナ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w065",
+   "jp": "ナミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w066",
+   "jp": "ナミル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w067",
+   "jp": "ナリスル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w068",
+   "jp": "ニアーチン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w069",
+   "jp": "ニーコ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w070",
+   "jp": "ニコール",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w071",
+   "jp": "ネグ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w072",
+   "jp": "ネマ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w073",
+   "jp": "ネミリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w074",
+   "jp": "ネムム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w075",
+   "jp": "ハシーヌ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w076",
+   "jp": "パミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w077",
+   "jp": "パメラ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w078",
+   "jp": "パリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w079",
+   "jp": "ハル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w080",
+   "jp": "ハロヤー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w081",
+   "jp": "ビーティ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w082",
+   "jp": "ピィン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w083",
+   "jp": "ビュティック",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w084",
+   "jp": "ピュミィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w085",
+   "jp": "フェイ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w086",
+   "jp": "フェイミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w087",
+   "jp": "フェリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w088",
+   "jp": "ポーデー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w089",
+   "jp": "ポーミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w090",
+   "jp": "ポーラム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w091",
+   "jp": "ホム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w092",
+   "jp": "マーリン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w093",
+   "jp": "マユル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w094",
+   "jp": "ミィン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w095",
+   "jp": "ミシェリー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w096",
+   "jp": "ミニム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w097",
+   "jp": "ミフュー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w098",
+   "jp": "ミム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w099",
+   "jp": "ミャン",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w100",
+   "jp": "ミラス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w101",
+   "jp": "ミラル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w102",
+   "jp": "メイム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w103",
+   "jp": "メギー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w104",
+   "jp": "メリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w105",
+   "jp": "メリッシー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w106",
+   "jp": "メリム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w107",
+   "jp": "メリル",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w108",
+   "jp": "モーラ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w109",
+   "jp": "モニム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w110",
+   "jp": "ユーボ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w111",
+   "jp": "ユママ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w112",
+   "jp": "ユミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w113",
+   "jp": "ユリス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w114",
+   "jp": "ヨッキー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w115",
+   "jp": "ラジィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w116",
+   "jp": "ラムム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w117",
+   "jp": "リーナ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w118",
+   "jp": "リリィム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w119",
+   "jp": "ルチェヌ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w120",
+   "jp": "ルノ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w121",
+   "jp": "ルペ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w122",
+   "jp": "ルリ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w123",
+   "jp": "ルルム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w124",
+   "jp": "レイス",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w125",
+   "jp": "レジィ",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w126",
+   "jp": "レンミー",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  },
+  {
+   "id": "name.w127",
+   "jp": "ローラム",
+   "en": "",
+   "kind": "name",
+   "max": 14
+  }
+ ]
+}

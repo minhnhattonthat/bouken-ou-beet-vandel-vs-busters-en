@@ -1,0 +1,467 @@
+{
+ "src": "quest/quest.img",
+ "entries": [
+  {
+   "id": "quest.06390",
+   "jp": "飛行機確保",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0639C",
+   "jp": "黄金城の上を飛び回る{br}飛行機を無傷で確保する",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.063CC",
+   "jp": "黄金城の上を飛び回る{br}飛行機を無傷で確保する",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.063FC",
+   "jp": "モンスター取込",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.0640C",
+   "jp": "モンスター取込",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0641C",
+   "jp": "モンスター取込",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0642C",
+   "jp": "石像トラップ設置",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06440",
+   "jp": "石像トラップ設置",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06454",
+   "jp": "石像トラップ設置",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06468",
+   "jp": "定期収入",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06474",
+   "jp": "定期収入",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06480",
+   "jp": "定期収入",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0648C",
+   "jp": "角",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06490",
+   "jp": "角",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06494",
+   "jp": "角",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06498",
+   "jp": "存在しない薬",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.064A8",
+   "jp": "存在しない薬",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.064B8",
+   "jp": "存在しない薬",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.064C8",
+   "jp": "貴様のモノは・・・",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.064DC",
+   "jp": "貴様のモノは・・・",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.064F0",
+   "jp": "貴様のモノは・・・",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06504",
+   "jp": "シャギーガール",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06514",
+   "jp": "シャギーガール",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06524",
+   "jp": "シャギーガール",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06534",
+   "jp": "天空王バロン",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06544",
+   "jp": "天空王バロン",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06554",
+   "jp": "天空王バロン",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06564",
+   "jp": "凶刃ヒスタリオ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06574",
+   "jp": "凶刃ヒスタリオ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06584",
+   "jp": "凶刃ヒスタリオ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06594",
+   "jp": "不動巨人ガロニュート",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.065AC",
+   "jp": "不動巨人ガロニュート",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.065C4",
+   "jp": "不動巨人ガロニュート",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.065DC",
+   "jp": "腕試しガロニュート",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.065F0",
+   "jp": "腕試しガロニュート",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06604",
+   "jp": "腕試しガロニュート",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06618",
+   "jp": "腹心モンスター",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06628",
+   "jp": "腹心モンスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06638",
+   "jp": "腹心モンスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06648",
+   "jp": "軍団の派遣",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06654",
+   "jp": "軍団の派遣",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06660",
+   "jp": "軍団の派遣",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0666C",
+   "jp": "ホバーフィッシュ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06680",
+   "jp": "ホバーフィッシュ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06694",
+   "jp": "ホバーフィッシュ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.066A8",
+   "jp": "ホバーフィッシュ延長",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.066C0",
+   "jp": "ホバーフィッシュ延長",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.066D8",
+   "jp": "ホバーフィッシュ延長",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.066F0",
+   "jp": "大怪蝶",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.066F8",
+   "jp": "大怪蝶",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06700",
+   "jp": "大怪蝶",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06708",
+   "jp": "大怪蝶　さらに遠くへ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06720",
+   "jp": "大怪蝶　さらに遠くへ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06738",
+   "jp": "大怪蝶　さらに遠くへ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06750",
+   "jp": "魔人博士ノア",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06760",
+   "jp": "魔人博士ノア",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06770",
+   "jp": "魔人博士ノア",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.06780",
+   "jp": "小悪魔ロディーナ",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.06794",
+   "jp": "小悪魔ロディーナ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.067A8",
+   "jp": "小悪魔ロディーナ",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.067BC",
+   "jp": "レアモンスター",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.067CC",
+   "jp": "レアモンスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.067DC",
+   "jp": "レアモンスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.067EC",
+   "jp": "レアモンスター",
+   "en": "",
+   "kind": "title",
+   "refs": 1
+  },
+  {
+   "id": "quest.067FC",
+   "jp": "レアモンスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  },
+  {
+   "id": "quest.0680C",
+   "jp": "レアモンスター",
+   "en": "",
+   "kind": "desc",
+   "refs": 1
+  }
+ ]
+}
