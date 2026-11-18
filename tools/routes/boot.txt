@@ -1,0 +1,4 @@
+# Cold boot to the title screen, then touch "Story" (bottom screen) to prove touch input.
+500 -
+6 t95,88
+300 -
