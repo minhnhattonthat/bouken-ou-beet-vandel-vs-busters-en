@@ -2,9 +2,33 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build (not started; phase 4 extract done 2026-11-18).
-  Last build: 2026-11-18 identity build, `build/beet_en.nds` sha1 45fb3632177b1b8490069630b798dc7e52846a1d (= dump),
-  smoke ok.
+- **Phase:** 5. Engine spike and marker build (in progress: engine done and proven, marker build boots 100/100 scenes;
+  width gate partly measured).
+  Last build: 2026-11-18 `python -X utf8 tools/build.py --marker` -> `build/beet_marker.nds` sha1
+  4c7b113c86c919b978e81a6e228827dccae737a8, smoke ok. (`tools/build.py` default = English from `en`, `--identity` =
+  dump, `--qa ID=TEXT` overrides one entry.)
+- **Phase 5 so far (2026-11-18):**
+  - Font decision made and proven in game: VWF with **letter-pair codes** (0x2000 + a*128 + b), letters cropped from
+    the game's own full-width Latin glyphs, rendered by an arm9 hook block (new autoload section at 0x021C7EC0,
+    arena-lo raised). ~35 chars per dialogue line. RE + design: `docs/re/vwf.md`; code `tools/engine.py`; tests
+    `tests/test_engine.py`. Glyph torture line (all ASCII, `…×♪★`, double spaces) renders right
+    (`work/qa/p5_t2/f001250.png`). Speaker-tag centring patched (0x02095314) but not yet seen in a shot.
+  - Inserter `tools/insert.py`: rom.img/quest.img in place or append + repoint refs; names; arm9 slots (max-2 bytes,
+    `KIND_CAP`); arm9 pointer strings in place only (relocation still to do). Marker mode = `[id]` + filler.
+  - Marker tour: `python -X utf8 tools/debug/warp_all.py build/beet_marker.nds --jobs 6 --out work/qa/marker
+    --states work/states_marker --script tools/lua/glyphlog.lua` (warp_all got `--script`), then
+    `tools/markerscan.py work/qa/marker` (Japanese still drawn, ids seen, draw sites) and `tools/kindreport.py
+    work/qa/marker/scan_ids.tsv` (per kind: seen, site, x). Last run: 100/100 ok, 966 ids seen, Japanese left only
+    in name entry (kana keyboard) and one stray glyph (fixed by `KIND_CAP`, not re-toured).
+  - Budgets so far: `docs/windows.md`.
+- **Next (rest of phase 5):** re-run the marker tour; measure every remaining variant in `docs/windows.md` (item /
+  shop / forge lists and descriptions, quest title + desc screens, books, battle shouts, area names, menus, 8x8
+  texts, speaker tag); make long list names fit (wrap or relocate); find any other `count * 12` centring or column
+  math (look for draws that start off-box in the marker shots); arm9 pointer-string relocation into the hook block;
+  decide which `reading`/`name2`/`desc` placeholder fields are never shown (0 ids seen so far: readings, name2,
+  buster/vandel desc) and mark them `data`/keep; `jp_left.py` on the marker build; a width lint wired into
+  `tools/check.py`; Latin name-entry keyboard (`a9.021AA0F8`..); full-width digits from number formatting still
+  look wide (polish).
 - **Done:**
   - Step 0: ROM pinned (`rom.sha1`), DeSmuME QA fork qa-2 in `tools/desmume/`, guard hook wired in
     `.claude/settings.json` (canary blocked), pre-commit runs `tools/check.py` (a failing test was rejected), smoke boot

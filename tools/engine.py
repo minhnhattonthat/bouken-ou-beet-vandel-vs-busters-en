@@ -214,6 +214,25 @@ twd:
     pop {{r0, r2, r3, r4, r5, ip, lr}}
     bx lr
 
+name_half:
+    push {{r1, r2, r3, r4, r5, r6, lr}}
+    mov r4, r3
+    mov r5, r1
+    mov r6, #0
+nhl:
+    cmp r5, #0
+    beq nhd
+    ldrh r1, [r4], #2
+    mov r0, #2
+    bl wcode
+    add r6, r6, r0
+    sub r5, r5, #1
+    b nhl
+nhd:
+    mov r0, r6, lsr #1
+    pop {{r1, r2, r3, r4, r5, r6, lr}}
+    bx lr
+
 lit_ones: .word 0x11111111
 lit_t12: .word {T12}
 lit_t8: .word {T8}
@@ -235,6 +254,8 @@ SITES = {
     0x020206A0: (None, 'bl adv_r6m'),
     0x02022828: ('081082e2', 'bl tw_x'),      # typewriter: add r1, r2, #8 (x = col*12 + 8) -> sum of widths
     0x02022884: ('130050e3', 'cmp r0, #0xFF'),   # typewriter auto-wrap after 19 codes -> off (explicit breaks)
+    0x02095314: ('0600a0e3', 'bl name_half'),     # speaker tag centring: mov r0, #6; mul r0, r1, r0 (6 px x count)
+    0x02095318: ('910000e0', 'mov r0, r0'),       #   -> half the pixel width
 }
 
 

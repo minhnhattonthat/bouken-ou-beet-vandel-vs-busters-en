@@ -25,6 +25,14 @@ SCRIPT = ROOT / 'script'
 A9 = 0x02000000
 NAME_FILES = {'m': 'status/bustername/busterman.bin', 'w': 'status/bustername/busterwoman.bin'}
 NAME_REC, NAME_MAX = 22, 14
+# Byte caps tighter than the slot, measured in the marker tour (docs/windows.md): the monster book copies `area`
+# through a 10-code buffer with no room for a terminator (10 codes drew a stray glyph after them).
+KIND_CAP = {'monster.area': 18}
+
+
+def text_cap(e):
+    """Most bytes of text (without the 0000) an arm9 slot entry may hold."""
+    return min(e['max'] - 2, KIND_CAP.get(e['kind'], 1 << 30))
 CTRL = re.compile(r'(\{\w+\}|\[[0-9A-F]{4}\])')
 FILLER = 'the quick brown fox jumps over a lazy dog while five wizards box '
 
@@ -140,7 +148,7 @@ class Inserter:
             if 'addr' in e:
                 off, mx = int(e['addr'], 16) - A9, e['max']
                 # always keep a 0000 inside the slot: readers run past a full slot into the next record
-                assert len(new) <= mx - 2, (e['id'], text, len(new), mx)
+                assert len(new) <= text_cap(e), (e['id'], text, len(new), mx)
                 self.put(a, off, new.ljust(mx, b'\0'), 'arm9')
             else:
                 off = int(e['id'].split('.')[1], 16) - A9
@@ -167,7 +175,7 @@ class Inserter:
 def text_marker(eng):
     def f(e):
         if 'max' in e:
-            return fit_bytes(short_id(e) + ' ' + FILLER, eng, e['max'] - 2)
+            return fit_bytes(short_id(e) + ' ' + FILLER, eng, text_cap(e))
         if e['id'].startswith('a9.0'):
             return short_id(e) + ' ' + FILLER   # cut to the old string's room (Inserter.fit)
         return marker(e, eng)

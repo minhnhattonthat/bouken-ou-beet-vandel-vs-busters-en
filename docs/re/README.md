@@ -17,6 +17,8 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 | `rom.md` | header, filesystem, compression, free ROM space | verified (ndspy) |
 | `graphics.md` + `graphics-survey.tsv` | graphics formats, every Japanese tile graphic found by the static sweep, unswept banks | formats verified by render; survey by codex review |
 | `prior-work.md` | earlier patches (none), official English name sources | checked 2026-11-18 |
+| `vwf.md` | text renderer (glyph fetch, string loops, typewriter, name tag) and the English pair-code VWF engine | verified in game 2026-11-18 |
+| `../windows.md` | width gate: budgets per box variant | partly measured |
 
 Tools: `tools/romls.py` (list/unpack), `tools/textscan.py` (text finder), `tools/scrscan.py` (script string/pointer
 survey), `tools/mktbl.py` (table), `tools/fontsheet.py` (font sheets), `tools/gfxsweep.py` + `tools/gfxreview.sh`
