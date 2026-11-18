@@ -252,7 +252,7 @@
   {
    "id": "a9.shout.002.s09",
    "jp": "うあっ！！",
-   "en": "",
+   "en": "Uagh!!",
    "kind": "shout.s09",
    "addr": "0211AA9C",
    "max": 32
@@ -260,7 +260,7 @@
   {
    "id": "a9.shout.002.s10",
    "jp": "くっ！！",
-   "en": "",
+   "en": "Gh!!",
    "kind": "shout.s10",
    "addr": "0211AABC",
    "max": 32
@@ -268,7 +268,7 @@
   {
    "id": "a9.shout.003.s00",
    "jp": "さぁ　行こう",
-   "en": "",
+   "en": "Come on, let's go.",
    "kind": "shout.s00",
    "addr": "0211AAE4",
    "max": 32
@@ -276,7 +276,7 @@
   {
    "id": "a9.shout.003.s01",
    "jp": "敵だ！",
-   "en": "",
+   "en": "An enemy!",
    "kind": "shout.s01",
    "addr": "0211AB04",
    "max": 32
@@ -284,7 +284,7 @@
   {
    "id": "a9.shout.003.s02",
    "jp": "えぇい！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211AB24",
    "max": 32
@@ -292,7 +292,7 @@
   {
    "id": "a9.shout.003.s03",
    "jp": "たああああーーーっ！！！",
-   "en": "",
+   "en": "Taaaaah!!!",
    "kind": "shout.s03",
    "addr": "0211AB44",
    "max": 32
@@ -300,7 +300,7 @@
   {
    "id": "a9.shout.003.s04",
    "jp": "これでどうだい",
-   "en": "",
+   "en": "How about this?",
    "kind": "shout.s04",
    "addr": "0211AB64",
    "max": 32
@@ -308,7 +308,7 @@
   {
    "id": "a9.shout.003.s05",
    "jp": "これでどうだい",
-   "en": "",
+   "en": "How about this?",
    "kind": "shout.s05",
    "addr": "0211AB84",
    "max": 32
@@ -316,7 +316,7 @@
   {
    "id": "a9.shout.003.s06",
    "jp": "行くよ",
-   "en": "",
+   "en": "Here I go.",
    "kind": "shout.s06",
    "addr": "0211ABA4",
    "max": 32
@@ -324,7 +324,7 @@
   {
    "id": "a9.shout.003.s07",
    "jp": "少し時間を稼いで！",
-   "en": "",
+   "en": "Buy me a little time!",
    "kind": "shout.s07",
    "addr": "0211ABC4",
    "max": 32
@@ -332,7 +332,7 @@
   {
    "id": "a9.shout.003.s08",
    "jp": "うわぁっ！",
-   "en": "",
+   "en": "Waagh!",
    "kind": "shout.s08",
    "addr": "0211ABE4",
    "max": 32
@@ -340,7 +340,7 @@
   {
    "id": "a9.shout.003.s09",
    "jp": "ううっ！",
-   "en": "",
+   "en": "Ugh!",
    "kind": "shout.s09",
    "addr": "0211AC04",
    "max": 32
@@ -348,7 +348,7 @@
   {
    "id": "a9.shout.003.s10",
    "jp": "ぐっ！！！",
-   "en": "",
+   "en": "Gh!!!",
    "kind": "shout.s10",
    "addr": "0211AC24",
    "max": 32
@@ -356,7 +356,7 @@
   {
    "id": "a9.shout.004.s00",
    "jp": "！！",
-   "en": "",
+   "en": "!!",
    "kind": "shout.s00",
    "addr": "0211AC4C",
    "max": 32
@@ -364,7 +364,7 @@
   {
    "id": "a9.shout.004.s01",
    "jp": "いくぞ！",
-   "en": "",
+   "en": "Let's go!",
    "kind": "shout.s01",
    "addr": "0211AC6C",
    "max": 32
@@ -372,7 +372,7 @@
   {
    "id": "a9.shout.004.s02",
    "jp": "フッ",
-   "en": "",
+   "en": "Hmph.",
    "kind": "shout.s02",
    "addr": "0211AC8C",
    "max": 32
@@ -380,7 +380,7 @@
   {
    "id": "a9.shout.004.s03",
    "jp": "・・・",
-   "en": "",
+   "en": "...",
    "kind": "shout.s03",
    "addr": "0211ACAC",
    "max": 32
@@ -388,7 +388,7 @@
   {
    "id": "a9.shout.004.s04",
    "jp": "！",
-   "en": "",
+   "en": "!",
    "kind": "shout.s04",
    "addr": "0211ACCC",
    "max": 32
@@ -396,7 +396,7 @@
   {
    "id": "a9.shout.004.s05",
    "jp": "行くぞ！",
-   "en": "",
+   "en": "Let's go!",
    "kind": "shout.s05",
    "addr": "0211ACEC",
    "max": 32
@@ -404,7 +404,7 @@
   {
    "id": "a9.shout.004.s06",
    "jp": "これで・・・どうだ！",
-   "en": "",
+   "en": "How about... this!",
    "kind": "shout.s06",
    "addr": "0211AD0C",
    "max": 32
@@ -412,7 +412,7 @@
   {
    "id": "a9.shout.004.s07",
    "jp": "覚悟！",
-   "en": "",
+   "en": "Brace yourself!",
    "kind": "shout.s07",
    "addr": "0211AD2C",
    "max": 32
@@ -420,7 +420,7 @@
   {
    "id": "a9.shout.004.s08",
    "jp": "ちっ・・・！！",
-   "en": "",
+   "en": "Tch...!!",
    "kind": "shout.s08",
    "addr": "0211AD4C",
    "max": 32
@@ -428,7 +428,7 @@
   {
    "id": "a9.shout.004.s09",
    "jp": "・・・くっ！",
-   "en": "",
+   "en": "...Gh!",
    "kind": "shout.s09",
    "addr": "0211AD6C",
    "max": 32
@@ -436,7 +436,7 @@
   {
    "id": "a9.shout.004.s10",
    "jp": "まだだっ！！",
-   "en": "",
+   "en": "Not yet!!",
    "kind": "shout.s10",
    "addr": "0211AD8C",
    "max": 32
@@ -444,7 +444,7 @@
   {
    "id": "a9.shout.005.s00",
    "jp": "邪魔しちゃダメよぉ！",
-   "en": "",
+   "en": "No getting in my waaay!",
    "kind": "shout.s00",
    "addr": "0211ADB4",
    "max": 32
@@ -452,7 +452,7 @@
   {
    "id": "a9.shout.005.s01",
    "jp": "さぁ！大掃除のはじまりよ",
-   "en": "",
+   "en": "Now! Time for a big cleanup!",
    "kind": "shout.s01",
    "addr": "0211ADD4",
    "max": 32
@@ -460,7 +460,7 @@
   {
    "id": "a9.shout.005.s02",
    "jp": "そうはイカの・・・金時計よ！！",
-   "en": "",
+   "en": "Not on my... gold watch!!",
    "kind": "shout.s02",
    "addr": "0211ADF4",
    "max": 32
@@ -468,7 +468,7 @@
   {
    "id": "a9.shout.005.s03",
    "jp": "ハァッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211AE14",
    "max": 32
@@ -476,7 +476,7 @@
   {
    "id": "a9.shout.005.s04",
    "jp": "とぅ！！",
-   "en": "",
+   "en": "Hyah!!",
    "kind": "shout.s04",
    "addr": "0211AE34",
    "max": 32
@@ -484,7 +484,7 @@
   {
    "id": "a9.shout.005.s05",
    "jp": "行くわよ！",
-   "en": "",
+   "en": "Here I come!",
    "kind": "shout.s05",
    "addr": "0211AE54",
    "max": 32
@@ -492,7 +492,7 @@
   {
    "id": "a9.shout.005.s06",
    "jp": "天撃のぉ・・・",
-   "en": "",
+   "en": "Divine Attack...",
    "kind": "shout.s06",
    "addr": "0211AE74",
    "max": 32
@@ -500,7 +500,7 @@
   {
    "id": "a9.shout.005.s07",
    "jp": "まだまだこれからよ！",
-   "en": "",
+   "en": "I'm just getting started!",
    "kind": "shout.s07",
    "addr": "0211AE94",
    "max": 32
@@ -508,7 +508,7 @@
   {
    "id": "a9.shout.005.s08",
    "jp": "！！！",
-   "en": "",
+   "en": "!!!",
    "kind": "shout.s08",
    "addr": "0211AEB4",
    "max": 32
@@ -516,7 +516,7 @@
   {
    "id": "a9.shout.005.s09",
    "jp": "キャァ！",
-   "en": "",
+   "en": "Eek!",
    "kind": "shout.s09",
    "addr": "0211AED4",
    "max": 32
@@ -532,7 +532,7 @@
   {
    "id": "a9.shout.006.s00",
    "jp": "いっくぜぇ！！",
-   "en": "",
+   "en": "Let's gooo!!",
    "kind": "shout.s00",
    "addr": "0211AF1C",
    "max": 32
@@ -540,7 +540,7 @@
   {
    "id": "a9.shout.006.s01",
    "jp": "じゃまするな！",
-   "en": "",
+   "en": "Stay outta my way!",
    "kind": "shout.s01",
    "addr": "0211AF3C",
    "max": 32
@@ -548,7 +548,7 @@
   {
    "id": "a9.shout.006.s02",
    "jp": "甘ぇよ！",
-   "en": "",
+   "en": "Too soft!",
    "kind": "shout.s02",
    "addr": "0211AF5C",
    "max": 32
@@ -556,7 +556,7 @@
   {
    "id": "a9.shout.006.s03",
    "jp": "おらぁ！",
-   "en": "",
+   "en": "Hyaah!",
    "kind": "shout.s03",
    "addr": "0211AF7C",
    "max": 32
@@ -564,7 +564,7 @@
   {
    "id": "a9.shout.006.s04",
    "jp": "まだまだぁ！",
-   "en": "",
+   "en": "I'm not done yet!",
    "kind": "shout.s04",
    "addr": "0211AF9C",
    "max": 32
@@ -572,7 +572,7 @@
   {
    "id": "a9.shout.006.s05",
    "jp": "これでもくらえ！",
-   "en": "",
+   "en": "Take a load of this!",
    "kind": "shout.s05",
    "addr": "0211AFBC",
    "max": 32
@@ -580,7 +580,7 @@
   {
    "id": "a9.shout.006.s06",
    "jp": "どうだぁ！",
-   "en": "",
+   "en": "How's that!",
    "kind": "shout.s06",
    "addr": "0211AFDC",
    "max": 32
@@ -588,7 +588,7 @@
   {
    "id": "a9.shout.006.s07",
    "jp": "おりゃぁ！",
-   "en": "",
+   "en": "Hyaaah!",
    "kind": "shout.s07",
    "addr": "0211AFFC",
    "max": 32
@@ -596,7 +596,7 @@
   {
    "id": "a9.shout.006.s08",
    "jp": "うおっ！！！",
-   "en": "",
+   "en": "Whoa!!!",
    "kind": "shout.s08",
    "addr": "0211B01C",
    "max": 32
@@ -604,7 +604,7 @@
   {
    "id": "a9.shout.006.s09",
    "jp": "グアッ",
-   "en": "",
+   "en": "Guagh!",
    "kind": "shout.s09",
    "addr": "0211B03C",
    "max": 32
@@ -612,7 +612,7 @@
   {
    "id": "a9.shout.006.s10",
    "jp": "グオッ",
-   "en": "",
+   "en": "Gwugh!",
    "kind": "shout.s10",
    "addr": "0211B05C",
    "max": 32
@@ -620,7 +620,7 @@
   {
    "id": "a9.shout.007.s00",
    "jp": "行くよ！",
-   "en": "",
+   "en": "Here I go!",
    "kind": "shout.s00",
    "addr": "0211B084",
    "max": 32
@@ -628,7 +628,7 @@
   {
    "id": "a9.shout.007.s01",
    "jp": "さぁ　気を引きしめなよ！",
-   "en": "",
+   "en": "Come on, stay sharp!",
    "kind": "shout.s01",
    "addr": "0211B0A4",
    "max": 32
@@ -636,7 +636,7 @@
   {
    "id": "a9.shout.007.s02",
    "jp": "それ！",
-   "en": "",
+   "en": "Take that!",
    "kind": "shout.s02",
    "addr": "0211B0C4",
    "max": 32
@@ -644,7 +644,7 @@
   {
    "id": "a9.shout.007.s03",
    "jp": "えい！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s03",
    "addr": "0211B0E4",
    "max": 32
@@ -652,7 +652,7 @@
   {
    "id": "a9.shout.007.s04",
    "jp": "そこ！！",
-   "en": "",
+   "en": "Right there!!",
    "kind": "shout.s04",
    "addr": "0211B104",
    "max": 32
@@ -660,7 +660,7 @@
   {
    "id": "a9.shout.007.s05",
    "jp": "天撃いくよぉ！",
-   "en": "",
+   "en": "Divine Attack coming up!",
    "kind": "shout.s05",
    "addr": "0211B124",
    "max": 32
@@ -668,7 +668,7 @@
   {
    "id": "a9.shout.007.s06",
    "jp": "みんな、どいたどいたぁ！",
-   "en": "",
+   "en": "Everyone, move it, move it!",
    "kind": "shout.s06",
    "addr": "0211B144",
    "max": 32
@@ -676,7 +676,7 @@
   {
    "id": "a9.shout.007.s07",
    "jp": "行くよーーー！",
-   "en": "",
+   "en": "Here I gooo!",
    "kind": "shout.s07",
    "addr": "0211B164",
    "max": 32
@@ -684,7 +684,7 @@
   {
    "id": "a9.shout.007.s08",
    "jp": "うっ！",
-   "en": "",
+   "en": "Ugh!",
    "kind": "shout.s08",
    "addr": "0211B184",
    "max": 32
@@ -692,7 +692,7 @@
   {
    "id": "a9.shout.007.s09",
    "jp": "何だって！！",
-   "en": "",
+   "en": "What was that!!",
    "kind": "shout.s09",
    "addr": "0211B1A4",
    "max": 32
@@ -700,7 +700,7 @@
   {
    "id": "a9.shout.007.s10",
    "jp": "まだまだだよ！",
-   "en": "",
+   "en": "I'm not done yet!",
    "kind": "shout.s10",
    "addr": "0211B1C4",
    "max": 32
@@ -708,7 +708,7 @@
   {
    "id": "a9.shout.008.s00",
    "jp": "どけッどけッ！！邪魔だ！！！",
-   "en": "",
+   "en": "Move! Move! Outta my way!!",
    "kind": "shout.s00",
    "addr": "0211B1EC",
    "max": 32
@@ -716,7 +716,7 @@
   {
    "id": "a9.shout.008.s01",
    "jp": "軽くひねってやる！",
-   "en": "",
+   "en": "I'll crush ya easy!",
    "kind": "shout.s01",
    "addr": "0211B20C",
    "max": 32
@@ -724,7 +724,7 @@
   {
    "id": "a9.shout.008.s02",
    "jp": "ふざけんな！",
-   "en": "",
+   "en": "Quit fooling around!",
    "kind": "shout.s02",
    "addr": "0211B22C",
    "max": 32
@@ -732,7 +732,7 @@
   {
    "id": "a9.shout.008.s03",
    "jp": "この！！",
-   "en": "",
+   "en": "Why, you!!",
    "kind": "shout.s03",
    "addr": "0211B24C",
    "max": 32
@@ -740,7 +740,7 @@
   {
    "id": "a9.shout.008.s04",
    "jp": "てめぇ！！",
-   "en": "",
+   "en": "You punk!!",
    "kind": "shout.s04",
    "addr": "0211B26C",
    "max": 32
@@ -748,7 +748,7 @@
   {
    "id": "a9.shout.008.s05",
    "jp": "うりゃぁ！",
-   "en": "",
+   "en": "Hyaaah!",
    "kind": "shout.s05",
    "addr": "0211B28C",
    "max": 32
@@ -756,7 +756,7 @@
   {
    "id": "a9.shout.008.s06",
    "jp": "おっしゃー！！",
-   "en": "",
+   "en": "All riiight!!",
    "kind": "shout.s06",
    "addr": "0211B2AC",
    "max": 32
@@ -764,7 +764,7 @@
   {
    "id": "a9.shout.008.s07",
    "jp": "そりゃぁ！",
-   "en": "",
+   "en": "Hyaah!",
    "kind": "shout.s07",
    "addr": "0211B2CC",
    "max": 32
@@ -772,7 +772,7 @@
   {
    "id": "a9.shout.008.s08",
    "jp": "ちっ！！",
-   "en": "",
+   "en": "Tch!!",
    "kind": "shout.s08",
    "addr": "0211B2EC",
    "max": 32
@@ -788,7 +788,7 @@
   {
    "id": "a9.shout.008.s10",
    "jp": "ぐはっ！！！",
-   "en": "",
+   "en": "Guagh!!!",
    "kind": "shout.s10",
    "addr": "0211B32C",
    "max": 32
@@ -796,7 +796,7 @@
   {
    "id": "a9.shout.009.s00",
    "jp": "ちっ　敵だぜ！",
-   "en": "",
+   "en": "Tch, we've got company!",
    "kind": "shout.s00",
    "addr": "0211B354",
    "max": 32
@@ -804,7 +804,7 @@
   {
    "id": "a9.shout.009.s01",
    "jp": "死なないていどにがんばるか",
-   "en": "",
+   "en": "Guess I'll try not to die.",
    "kind": "shout.s01",
    "addr": "0211B374",
    "max": 32
@@ -812,7 +812,7 @@
   {
    "id": "a9.shout.009.s02",
    "jp": "よっ！",
-   "en": "",
+   "en": "Hup!",
    "kind": "shout.s02",
    "addr": "0211B394",
    "max": 32
@@ -820,7 +820,7 @@
   {
    "id": "a9.shout.009.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211B3B4",
    "max": 32
@@ -828,7 +828,7 @@
   {
    "id": "a9.shout.009.s04",
    "jp": "たー！",
-   "en": "",
+   "en": "Hyaa!",
    "kind": "shout.s04",
    "addr": "0211B3D4",
    "max": 32
@@ -836,7 +836,7 @@
   {
    "id": "a9.shout.009.s05",
    "jp": "天撃いくぞ！！",
-   "en": "",
+   "en": "Divine Attack coming up!!",
    "kind": "shout.s05",
    "addr": "0211B3F4",
    "max": 32
@@ -844,7 +844,7 @@
   {
    "id": "a9.shout.009.s06",
    "jp": "これでもくらいな！",
-   "en": "",
+   "en": "Have a taste of this!",
    "kind": "shout.s06",
    "addr": "0211B414",
    "max": 32
@@ -852,7 +852,7 @@
   {
    "id": "a9.shout.009.s07",
    "jp": "こいつで　どうだ！！",
-   "en": "",
+   "en": "How d'ya like this!!",
    "kind": "shout.s07",
    "addr": "0211B434",
    "max": 32
@@ -860,7 +860,7 @@
   {
    "id": "a9.shout.009.s08",
    "jp": "ううっ・・・",
-   "en": "",
+   "en": "Ugh...",
    "kind": "shout.s08",
    "addr": "0211B454",
    "max": 32
@@ -868,7 +868,7 @@
   {
    "id": "a9.shout.009.s09",
    "jp": "くぅ！",
-   "en": "",
+   "en": "Gh!",
    "kind": "shout.s09",
    "addr": "0211B474",
    "max": 32
@@ -876,7 +876,7 @@
   {
    "id": "a9.shout.009.s10",
    "jp": "うぉ！！",
-   "en": "",
+   "en": "Whoa!!",
    "kind": "shout.s10",
    "addr": "0211B494",
    "max": 32
@@ -884,7 +884,7 @@
   {
    "id": "a9.shout.010.s00",
    "jp": "見慣れないヤツだな",
-   "en": "",
+   "en": "I've never seen you before.",
    "kind": "shout.s00",
    "addr": "0211B4BC",
    "max": 32
@@ -892,7 +892,7 @@
   {
    "id": "a9.shout.010.s01",
    "jp": "我々は負けないぞ！",
-   "en": "",
+   "en": "We will not lose!",
    "kind": "shout.s01",
    "addr": "0211B4DC",
    "max": 32
@@ -900,7 +900,7 @@
   {
    "id": "a9.shout.010.s02",
    "jp": "くらえっ！",
-   "en": "",
+   "en": "Take this!",
    "kind": "shout.s02",
    "addr": "0211B4FC",
    "max": 32
@@ -908,7 +908,7 @@
   {
    "id": "a9.shout.010.s03",
    "jp": "受けてみろ！",
-   "en": "",
+   "en": "Try taking this!",
    "kind": "shout.s03",
    "addr": "0211B51C",
    "max": 32
@@ -916,7 +916,7 @@
   {
    "id": "a9.shout.010.s04",
    "jp": "にがさんぞ！",
-   "en": "",
+   "en": "You won't escape!",
    "kind": "shout.s04",
    "addr": "0211B53C",
    "max": 32
@@ -924,7 +924,7 @@
   {
    "id": "a9.shout.010.s05",
    "jp": "援護を頼むっ！",
-   "en": "",
+   "en": "Cover me!",
    "kind": "shout.s05",
    "addr": "0211B55C",
    "max": 32
@@ -932,7 +932,7 @@
   {
    "id": "a9.shout.010.s06",
    "jp": "かわせるか！",
-   "en": "",
+   "en": "Can you dodge this!",
    "kind": "shout.s06",
    "addr": "0211B57C",
    "max": 32
@@ -940,7 +940,7 @@
   {
    "id": "a9.shout.010.s07",
    "jp": "これでトドメだ！",
-   "en": "",
+   "en": "This will finish you!",
    "kind": "shout.s07",
    "addr": "0211B59C",
    "max": 32
@@ -948,7 +948,7 @@
   {
    "id": "a9.shout.010.s08",
    "jp": "うっ！",
-   "en": "",
+   "en": "Ugh!",
    "kind": "shout.s08",
    "addr": "0211B5BC",
    "max": 32
@@ -956,7 +956,7 @@
   {
    "id": "a9.shout.010.s09",
    "jp": "なにっ！",
-   "en": "",
+   "en": "What!",
    "kind": "shout.s09",
    "addr": "0211B5DC",
    "max": 32
@@ -964,7 +964,7 @@
   {
    "id": "a9.shout.010.s10",
    "jp": "こんな所で負けるわけにはいかん！",
-   "en": "",
+   "en": "I cannot afford to lose here!",
    "kind": "shout.s10",
    "addr": "0211B5FC",
    "max": 32
@@ -972,7 +972,7 @@
   {
    "id": "a9.shout.011.s00",
    "jp": "いきますよ！",
-   "en": "",
+   "en": "Here I come!",
    "kind": "shout.s00",
    "addr": "0211B624",
    "max": 32
@@ -980,7 +980,7 @@
   {
    "id": "a9.shout.011.s01",
    "jp": "いっちょやりますか！",
-   "en": "",
+   "en": "Let's give it a go!",
    "kind": "shout.s01",
    "addr": "0211B644",
    "max": 32
@@ -988,7 +988,7 @@
   {
    "id": "a9.shout.011.s02",
    "jp": "おりゃ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211B664",
    "max": 32
@@ -996,7 +996,7 @@
   {
    "id": "a9.shout.011.s03",
    "jp": "負けないぞ！",
-   "en": "",
+   "en": "I won't lose!",
    "kind": "shout.s03",
    "addr": "0211B684",
    "max": 32
@@ -1004,7 +1004,7 @@
   {
    "id": "a9.shout.011.s04",
    "jp": "とりゃーーーーっ！！",
-   "en": "",
+   "en": "Hyaaaaah!!",
    "kind": "shout.s04",
    "addr": "0211B6A4",
    "max": 32
@@ -1012,7 +1012,7 @@
   {
    "id": "a9.shout.011.s05",
    "jp": "相手をひきつけて！",
-   "en": "",
+   "en": "Keep the enemy occupied!",
    "kind": "shout.s05",
    "addr": "0211B6C4",
    "max": 32
@@ -1020,7 +1020,7 @@
   {
    "id": "a9.shout.011.s06",
    "jp": "これでいただきー！",
-   "en": "",
+   "en": "This one's miiine!",
    "kind": "shout.s06",
    "addr": "0211B6E4",
    "max": 32
@@ -1028,7 +1028,7 @@
   {
    "id": "a9.shout.011.s07",
    "jp": "こいつを受けてみろ！",
-   "en": "",
+   "en": "Try taking this!",
    "kind": "shout.s07",
    "addr": "0211B704",
    "max": 32
@@ -1036,7 +1036,7 @@
   {
    "id": "a9.shout.011.s08",
    "jp": "いてて！",
-   "en": "",
+   "en": "Ow, ow!",
    "kind": "shout.s08",
    "addr": "0211B724",
    "max": 32
@@ -1044,7 +1044,7 @@
   {
    "id": "a9.shout.011.s09",
    "jp": "ちくしょう！",
-   "en": "",
+   "en": "Darn it!",
    "kind": "shout.s09",
    "addr": "0211B744",
    "max": 32
@@ -1052,7 +1052,7 @@
   {
    "id": "a9.shout.011.s10",
    "jp": "油断したーっ！",
-   "en": "",
+   "en": "I let my guard dooown!",
    "kind": "shout.s10",
    "addr": "0211B764",
    "max": 32
@@ -1060,7 +1060,7 @@
   {
    "id": "a9.shout.012.s00",
    "jp": "頑張りましょう！",
-   "en": "",
+   "en": "Let's do our best!",
    "kind": "shout.s00",
    "addr": "0211B78C",
    "max": 32
@@ -1068,7 +1068,7 @@
   {
    "id": "a9.shout.012.s01",
    "jp": "油断しちゃダメよ！",
-   "en": "",
+   "en": "Don't let your guard down!",
    "kind": "shout.s01",
    "addr": "0211B7AC",
    "max": 32
@@ -1076,7 +1076,7 @@
   {
    "id": "a9.shout.012.s02",
    "jp": "えいっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211B7CC",
    "max": 32
@@ -1084,7 +1084,7 @@
   {
    "id": "a9.shout.012.s03",
    "jp": "逃がさないわよ！",
-   "en": "",
+   "en": "You're not getting away!",
    "kind": "shout.s03",
    "addr": "0211B7EC",
    "max": 32
@@ -1092,7 +1092,7 @@
   {
    "id": "a9.shout.012.s04",
    "jp": "あっち行って！",
-   "en": "",
+   "en": "Go away!",
    "kind": "shout.s04",
    "addr": "0211B80C",
    "max": 32
@@ -1100,7 +1100,7 @@
   {
    "id": "a9.shout.012.s05",
    "jp": "これがよけられるかしら？",
-   "en": "",
+   "en": "Can you dodge this, I wonder?",
    "kind": "shout.s05",
    "addr": "0211B82C",
    "max": 32
@@ -1108,7 +1108,7 @@
   {
    "id": "a9.shout.012.s06",
    "jp": "とっておきの技よ！",
-   "en": "",
+   "en": "This is my special move!",
    "kind": "shout.s06",
    "addr": "0211B84C",
    "max": 32
@@ -1116,7 +1116,7 @@
   {
    "id": "a9.shout.012.s07",
    "jp": "ここはわたしにまかせて！",
-   "en": "",
+   "en": "Please leave this to me!",
    "kind": "shout.s07",
    "addr": "0211B86C",
    "max": 32
@@ -1124,7 +1124,7 @@
   {
    "id": "a9.shout.012.s08",
    "jp": "きゃっ！",
-   "en": "",
+   "en": "Eek!",
    "kind": "shout.s08",
    "addr": "0211B88C",
    "max": 32
@@ -1132,7 +1132,7 @@
   {
    "id": "a9.shout.012.s09",
    "jp": "ま　まだまだよ！",
-   "en": "",
+   "en": "I-I'm not done yet!",
    "kind": "shout.s09",
    "addr": "0211B8AC",
    "max": 32
@@ -1140,7 +1140,7 @@
   {
    "id": "a9.shout.012.s10",
    "jp": "なかなか強いわね！",
-   "en": "",
+   "en": "You're quite strong!",
    "kind": "shout.s10",
    "addr": "0211B8CC",
    "max": 32
@@ -1148,7 +1148,7 @@
   {
    "id": "a9.shout.013.s00",
    "jp": "よーし　いくぜ！",
-   "en": "",
+   "en": "All right, let's go!",
    "kind": "shout.s00",
    "addr": "0211B8F4",
    "max": 32
@@ -1156,7 +1156,7 @@
   {
    "id": "a9.shout.013.s01",
    "jp": "さっさと片付けようぜ！",
-   "en": "",
+   "en": "Let's make this quick!",
    "kind": "shout.s01",
    "addr": "0211B914",
    "max": 32
@@ -1164,7 +1164,7 @@
   {
    "id": "a9.shout.013.s02",
    "jp": "くらいやがれ！",
-   "en": "",
+   "en": "Eat this!",
    "kind": "shout.s02",
    "addr": "0211B934",
    "max": 32
@@ -1172,7 +1172,7 @@
   {
    "id": "a9.shout.013.s03",
    "jp": "なめんなよ！",
-   "en": "",
+   "en": "Don't underestimate me!",
    "kind": "shout.s03",
    "addr": "0211B954",
    "max": 32
@@ -1180,7 +1180,7 @@
   {
    "id": "a9.shout.013.s04",
    "jp": "ザコめ！どきやがれ！",
-   "en": "",
+   "en": "Outta my way, small fry!",
    "kind": "shout.s04",
    "addr": "0211B974",
    "max": 32
@@ -1188,7 +1188,7 @@
   {
    "id": "a9.shout.013.s05",
    "jp": "ここはオレに任せろ！",
-   "en": "",
+   "en": "Leave this to me!",
    "kind": "shout.s05",
    "addr": "0211B994",
    "max": 32
@@ -1196,7 +1196,7 @@
   {
    "id": "a9.shout.013.s06",
    "jp": "カッコいいとこ見せるぜ！",
-   "en": "",
+   "en": "Watch me look cool!",
    "kind": "shout.s06",
    "addr": "0211B9B4",
    "max": 32
@@ -1204,7 +1204,7 @@
   {
    "id": "a9.shout.013.s07",
    "jp": "こいつでおしまいだ！",
-   "en": "",
+   "en": "This'll finish ya!",
    "kind": "shout.s07",
    "addr": "0211B9D4",
    "max": 32
@@ -1212,7 +1212,7 @@
   {
    "id": "a9.shout.013.s08",
    "jp": "ぐわっ！",
-   "en": "",
+   "en": "Gwaagh!",
    "kind": "shout.s08",
    "addr": "0211B9F4",
    "max": 32
@@ -1220,7 +1220,7 @@
   {
    "id": "a9.shout.013.s09",
    "jp": "こしゃくな！",
-   "en": "",
+   "en": "You cheeky little...!",
    "kind": "shout.s09",
    "addr": "0211BA14",
    "max": 32
@@ -1228,7 +1228,7 @@
   {
    "id": "a9.shout.013.s10",
    "jp": "みんな　気をつけろ！",
-   "en": "",
+   "en": "Everyone, watch out!",
    "kind": "shout.s10",
    "addr": "0211BA34",
    "max": 32
@@ -1236,7 +1236,7 @@
   {
    "id": "a9.shout.014.s00",
    "jp": "よし！本気でいくぜ！",
-   "en": "",
+   "en": "All right! I'm going all out!",
    "kind": "shout.s00",
    "addr": "0211BA5C",
    "max": 32
@@ -1244,7 +1244,7 @@
   {
    "id": "a9.shout.014.s01",
    "jp": "一匹も逃がさないぞ！",
-   "en": "",
+   "en": "Not one of you gets away!",
    "kind": "shout.s01",
    "addr": "0211BA7C",
    "max": 32
@@ -1252,7 +1252,7 @@
   {
    "id": "a9.shout.014.s02",
    "jp": "しぶといヤツ！",
-   "en": "",
+   "en": "You just won't quit!",
    "kind": "shout.s02",
    "addr": "0211BA9C",
    "max": 32
@@ -1260,7 +1260,7 @@
   {
    "id": "a9.shout.014.s03",
    "jp": "こいつ　手ごわい！",
-   "en": "",
+   "en": "This one's tough!",
    "kind": "shout.s03",
    "addr": "0211BABC",
    "max": 32
@@ -1268,7 +1268,7 @@
   {
    "id": "a9.shout.014.s04",
    "jp": "いっちょやるか！",
-   "en": "",
+   "en": "Let's give it a go!",
    "kind": "shout.s04",
    "addr": "0211BADC",
    "max": 32
@@ -1276,7 +1276,7 @@
   {
    "id": "a9.shout.014.s05",
    "jp": "こいつの弱点は・・・っと",
-   "en": "",
+   "en": "Where's its weak spot...",
    "kind": "shout.s05",
    "addr": "0211BAFC",
    "max": 32
@@ -1284,7 +1284,7 @@
   {
    "id": "a9.shout.014.s06",
    "jp": "おりゃー！！",
-   "en": "",
+   "en": "Hyaaah!!",
    "kind": "shout.s06",
    "addr": "0211BB1C",
    "max": 32
@@ -1292,7 +1292,7 @@
   {
    "id": "a9.shout.014.s07",
    "jp": "かくごしろ！",
-   "en": "",
+   "en": "Brace yourself!",
    "kind": "shout.s07",
    "addr": "0211BB3C",
    "max": 32
@@ -1300,7 +1300,7 @@
   {
    "id": "a9.shout.014.s08",
    "jp": "いたっ！",
-   "en": "",
+   "en": "Ow!",
    "kind": "shout.s08",
    "addr": "0211BB5C",
    "max": 32
@@ -1308,7 +1308,7 @@
   {
    "id": "a9.shout.014.s09",
    "jp": "ちくしょう！",
-   "en": "",
+   "en": "Darn it!",
    "kind": "shout.s09",
    "addr": "0211BB7C",
    "max": 32
@@ -1316,7 +1316,7 @@
   {
    "id": "a9.shout.014.s10",
    "jp": "なかなかやるな！",
-   "en": "",
+   "en": "You're pretty good!",
    "kind": "shout.s10",
    "addr": "0211BB9C",
    "max": 32
@@ -1324,7 +1324,7 @@
   {
    "id": "a9.shout.015.s00",
    "jp": "ガンガンいくぞ！",
-   "en": "",
+   "en": "Let's hit 'em hard!",
    "kind": "shout.s00",
    "addr": "0211BBC4",
    "max": 32
@@ -1332,7 +1332,7 @@
   {
    "id": "a9.shout.015.s01",
    "jp": "さてと　やってやるか！",
-   "en": "",
+   "en": "Well, let's get to it!",
    "kind": "shout.s01",
    "addr": "0211BBE4",
    "max": 32
@@ -1340,7 +1340,7 @@
   {
    "id": "a9.shout.015.s02",
    "jp": "消えろ！",
-   "en": "",
+   "en": "Disappear!",
    "kind": "shout.s02",
    "addr": "0211BC04",
    "max": 32
@@ -1348,7 +1348,7 @@
   {
    "id": "a9.shout.015.s03",
    "jp": "しぶといヤツだな",
-   "en": "",
+   "en": "You just won't quit.",
    "kind": "shout.s03",
    "addr": "0211BC24",
    "max": 32
@@ -1356,7 +1356,7 @@
   {
    "id": "a9.shout.015.s04",
    "jp": "とっととやっつけよう！",
-   "en": "",
+   "en": "Let's finish 'em off quick!",
    "kind": "shout.s04",
    "addr": "0211BC44",
    "max": 32
@@ -1364,7 +1364,7 @@
   {
    "id": "a9.shout.015.s05",
    "jp": "まだまだぁ！",
-   "en": "",
+   "en": "I'm not done yet!",
    "kind": "shout.s05",
    "addr": "0211BC64",
    "max": 32
@@ -1372,7 +1372,7 @@
   {
    "id": "a9.shout.015.s06",
    "jp": "どけどけぇ！",
-   "en": "",
+   "en": "Move it, move it!",
    "kind": "shout.s06",
    "addr": "0211BC84",
    "max": 32
@@ -1380,7 +1380,7 @@
   {
    "id": "a9.shout.015.s07",
    "jp": "遊びはおわりだ！",
-   "en": "",
+   "en": "Playtime's over!",
    "kind": "shout.s07",
    "addr": "0211BCA4",
    "max": 32
@@ -1388,7 +1388,7 @@
   {
    "id": "a9.shout.015.s08",
    "jp": "くそっ！やられた！",
-   "en": "",
+   "en": "Dang it! They got me!",
    "kind": "shout.s08",
    "addr": "0211BCC4",
    "max": 32
@@ -1396,7 +1396,7 @@
   {
    "id": "a9.shout.015.s09",
    "jp": "こ　こいつ！！",
-   "en": "",
+   "en": "Y-you!!",
    "kind": "shout.s09",
    "addr": "0211BCE4",
    "max": 32
@@ -1404,7 +1404,7 @@
   {
    "id": "a9.shout.015.s10",
    "jp": "このやろう！！",
-   "en": "",
+   "en": "You jerk!!",
    "kind": "shout.s10",
    "addr": "0211BD04",
    "max": 32
@@ -1412,7 +1412,7 @@
   {
    "id": "a9.shout.016.s00",
    "jp": "いきます！",
-   "en": "",
+   "en": "Here I go!",
    "kind": "shout.s00",
    "addr": "0211BD2C",
    "max": 32
@@ -1420,7 +1420,7 @@
   {
    "id": "a9.shout.016.s01",
    "jp": "みなさん　お願いします！",
-   "en": "",
+   "en": "Everyone, please help me!",
    "kind": "shout.s01",
    "addr": "0211BD4C",
    "max": 32
@@ -1428,7 +1428,7 @@
   {
    "id": "a9.shout.016.s02",
    "jp": "やぁっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211BD6C",
    "max": 32
@@ -1436,7 +1436,7 @@
   {
    "id": "a9.shout.016.s03",
    "jp": "はぁっ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211BD8C",
    "max": 32
@@ -1444,7 +1444,7 @@
   {
    "id": "a9.shout.016.s04",
    "jp": "たぁっ！",
-   "en": "",
+   "en": "Tah!",
    "kind": "shout.s04",
    "addr": "0211BDAC",
    "max": 32
@@ -1452,7 +1452,7 @@
   {
    "id": "a9.shout.016.s05",
    "jp": "天撃いきます！",
-   "en": "",
+   "en": "Divine Attack coming up!",
    "kind": "shout.s05",
    "addr": "0211BDCC",
    "max": 32
@@ -1460,7 +1460,7 @@
   {
    "id": "a9.shout.016.s06",
    "jp": "やぁーーっ！",
-   "en": "",
+   "en": "Hyaaaah!",
    "kind": "shout.s06",
    "addr": "0211BDEC",
    "max": 32
@@ -1468,7 +1468,7 @@
   {
    "id": "a9.shout.016.s07",
    "jp": "たぁーーっ！",
-   "en": "",
+   "en": "Taaaah!",
    "kind": "shout.s07",
    "addr": "0211BE0C",
    "max": 32
@@ -1476,7 +1476,7 @@
   {
    "id": "a9.shout.016.s08",
    "jp": "あぁっ！",
-   "en": "",
+   "en": "Aaah!",
    "kind": "shout.s08",
    "addr": "0211BE2C",
    "max": 32
@@ -1500,7 +1500,7 @@
   {
    "id": "a9.shout.017.s00",
    "jp": "いきます！",
-   "en": "",
+   "en": "Here I go!",
    "kind": "shout.s00",
    "addr": "0211BE94",
    "max": 32
@@ -1508,7 +1508,7 @@
   {
    "id": "a9.shout.017.s01",
    "jp": "みなさん　お願いします！",
-   "en": "",
+   "en": "Everyone, please help me!",
    "kind": "shout.s01",
    "addr": "0211BEB4",
    "max": 32
@@ -1516,7 +1516,7 @@
   {
    "id": "a9.shout.017.s02",
    "jp": "やぁっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211BED4",
    "max": 32
@@ -1524,7 +1524,7 @@
   {
    "id": "a9.shout.017.s03",
    "jp": "はぁっ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211BEF4",
    "max": 32
@@ -1532,7 +1532,7 @@
   {
    "id": "a9.shout.017.s04",
    "jp": "たぁっ！",
-   "en": "",
+   "en": "Tah!",
    "kind": "shout.s04",
    "addr": "0211BF14",
    "max": 32
@@ -1540,7 +1540,7 @@
   {
    "id": "a9.shout.017.s05",
    "jp": "天撃いきます！",
-   "en": "",
+   "en": "Divine Attack coming up!",
    "kind": "shout.s05",
    "addr": "0211BF34",
    "max": 32
@@ -1548,7 +1548,7 @@
   {
    "id": "a9.shout.017.s06",
    "jp": "やぁーーっ！",
-   "en": "",
+   "en": "Hyaaaah!",
    "kind": "shout.s06",
    "addr": "0211BF54",
    "max": 32
@@ -1556,7 +1556,7 @@
   {
    "id": "a9.shout.017.s07",
    "jp": "たぁーーっ！",
-   "en": "",
+   "en": "Taaaah!",
    "kind": "shout.s07",
    "addr": "0211BF74",
    "max": 32
@@ -1564,7 +1564,7 @@
   {
    "id": "a9.shout.017.s08",
    "jp": "あぁっ！",
-   "en": "",
+   "en": "Aaah!",
    "kind": "shout.s08",
    "addr": "0211BF94",
    "max": 32
@@ -1588,7 +1588,7 @@
   {
    "id": "a9.shout.018.s00",
    "jp": "いきます！",
-   "en": "",
+   "en": "Here I go!",
    "kind": "shout.s00",
    "addr": "0211BFFC",
    "max": 32
@@ -1596,7 +1596,7 @@
   {
    "id": "a9.shout.018.s01",
    "jp": "みなさん　お願いします！",
-   "en": "",
+   "en": "Everyone, please help me!",
    "kind": "shout.s01",
    "addr": "0211C01C",
    "max": 32
@@ -1604,7 +1604,7 @@
   {
    "id": "a9.shout.018.s02",
    "jp": "やぁっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211C03C",
    "max": 32
@@ -1612,7 +1612,7 @@
   {
    "id": "a9.shout.018.s03",
    "jp": "はぁっ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C05C",
    "max": 32
@@ -1620,7 +1620,7 @@
   {
    "id": "a9.shout.018.s04",
    "jp": "たぁっ！",
-   "en": "",
+   "en": "Tah!",
    "kind": "shout.s04",
    "addr": "0211C07C",
    "max": 32
@@ -1628,7 +1628,7 @@
   {
    "id": "a9.shout.018.s05",
    "jp": "天撃いきます！",
-   "en": "",
+   "en": "Divine Attack coming up!",
    "kind": "shout.s05",
    "addr": "0211C09C",
    "max": 32
@@ -1636,7 +1636,7 @@
   {
    "id": "a9.shout.018.s06",
    "jp": "やぁーーっ！",
-   "en": "",
+   "en": "Hyaaaah!",
    "kind": "shout.s06",
    "addr": "0211C0BC",
    "max": 32
@@ -1644,7 +1644,7 @@
   {
    "id": "a9.shout.018.s07",
    "jp": "たぁーーっ！",
-   "en": "",
+   "en": "Taaaah!",
    "kind": "shout.s07",
    "addr": "0211C0DC",
    "max": 32
@@ -1652,7 +1652,7 @@
   {
    "id": "a9.shout.018.s08",
    "jp": "あぁっ！",
-   "en": "",
+   "en": "Aaah!",
    "kind": "shout.s08",
    "addr": "0211C0FC",
    "max": 32
@@ -1676,7 +1676,7 @@
   {
    "id": "a9.shout.019.s00",
    "jp": "いきます！",
-   "en": "",
+   "en": "Here I go!",
    "kind": "shout.s00",
    "addr": "0211C164",
    "max": 32
@@ -1684,7 +1684,7 @@
   {
    "id": "a9.shout.019.s01",
    "jp": "みなさん　お願いします！",
-   "en": "",
+   "en": "Everyone, please help me!",
    "kind": "shout.s01",
    "addr": "0211C184",
    "max": 32
@@ -1692,7 +1692,7 @@
   {
    "id": "a9.shout.019.s02",
    "jp": "やぁっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211C1A4",
    "max": 32
@@ -1700,7 +1700,7 @@
   {
    "id": "a9.shout.019.s03",
    "jp": "はぁっ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C1C4",
    "max": 32
@@ -1708,7 +1708,7 @@
   {
    "id": "a9.shout.019.s04",
    "jp": "たぁっ！",
-   "en": "",
+   "en": "Tah!",
    "kind": "shout.s04",
    "addr": "0211C1E4",
    "max": 32
@@ -1716,7 +1716,7 @@
   {
    "id": "a9.shout.019.s05",
    "jp": "天撃いきます！",
-   "en": "",
+   "en": "Divine Attack coming up!",
    "kind": "shout.s05",
    "addr": "0211C204",
    "max": 32
@@ -1724,7 +1724,7 @@
   {
    "id": "a9.shout.019.s06",
    "jp": "やぁーーっ！",
-   "en": "",
+   "en": "Hyaaaah!",
    "kind": "shout.s06",
    "addr": "0211C224",
    "max": 32
@@ -1732,7 +1732,7 @@
   {
    "id": "a9.shout.019.s07",
    "jp": "たぁーーっ！",
-   "en": "",
+   "en": "Taaaah!",
    "kind": "shout.s07",
    "addr": "0211C244",
    "max": 32
@@ -1740,7 +1740,7 @@
   {
    "id": "a9.shout.019.s08",
    "jp": "あぁっ！",
-   "en": "",
+   "en": "Aaah!",
    "kind": "shout.s08",
    "addr": "0211C264",
    "max": 32
@@ -1764,7 +1764,7 @@
   {
    "id": "a9.shout.020.s00",
    "jp": "いきます！",
-   "en": "",
+   "en": "Here I go!",
    "kind": "shout.s00",
    "addr": "0211C2CC",
    "max": 32
@@ -1772,7 +1772,7 @@
   {
    "id": "a9.shout.020.s01",
    "jp": "みなさん　お願いします！",
-   "en": "",
+   "en": "Everyone, please help me!",
    "kind": "shout.s01",
    "addr": "0211C2EC",
    "max": 32
@@ -1780,7 +1780,7 @@
   {
    "id": "a9.shout.020.s02",
    "jp": "やぁっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211C30C",
    "max": 32
@@ -1788,7 +1788,7 @@
   {
    "id": "a9.shout.020.s03",
    "jp": "はぁっ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C32C",
    "max": 32
@@ -1796,7 +1796,7 @@
   {
    "id": "a9.shout.020.s04",
    "jp": "たぁっ！",
-   "en": "",
+   "en": "Tah!",
    "kind": "shout.s04",
    "addr": "0211C34C",
    "max": 32
@@ -1804,7 +1804,7 @@
   {
    "id": "a9.shout.020.s05",
    "jp": "天撃いきます！",
-   "en": "",
+   "en": "Divine Attack coming up!",
    "kind": "shout.s05",
    "addr": "0211C36C",
    "max": 32
@@ -1812,7 +1812,7 @@
   {
    "id": "a9.shout.020.s06",
    "jp": "やぁーーっ！",
-   "en": "",
+   "en": "Hyaaaah!",
    "kind": "shout.s06",
    "addr": "0211C38C",
    "max": 32
@@ -1820,7 +1820,7 @@
   {
    "id": "a9.shout.020.s07",
    "jp": "たぁーーっ！",
-   "en": "",
+   "en": "Taaaah!",
    "kind": "shout.s07",
    "addr": "0211C3AC",
    "max": 32
@@ -1828,7 +1828,7 @@
   {
    "id": "a9.shout.020.s08",
    "jp": "あぁっ！",
-   "en": "",
+   "en": "Aaah!",
    "kind": "shout.s08",
    "addr": "0211C3CC",
    "max": 32
@@ -1876,7 +1876,7 @@
   {
    "id": "a9.shout.021.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C494",
    "max": 32
@@ -1964,7 +1964,7 @@
   {
    "id": "a9.shout.022.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C5FC",
    "max": 32
@@ -2052,7 +2052,7 @@
   {
    "id": "a9.shout.023.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C764",
    "max": 32
@@ -2140,7 +2140,7 @@
   {
    "id": "a9.shout.024.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211C8CC",
    "max": 32
@@ -2228,7 +2228,7 @@
   {
    "id": "a9.shout.025.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211CA34",
    "max": 32
@@ -3244,7 +3244,7 @@
   {
    "id": "a9.shout.036.s09",
    "jp": "なにっ！",
-   "en": "",
+   "en": "What!",
    "kind": "shout.s09",
    "addr": "0211DA6C",
    "max": 32
@@ -3332,7 +3332,7 @@
   {
    "id": "a9.shout.037.s09",
    "jp": "なにっ！",
-   "en": "",
+   "en": "What!",
    "kind": "shout.s09",
    "addr": "0211DBD4",
    "max": 32
@@ -3420,7 +3420,7 @@
   {
    "id": "a9.shout.038.s09",
    "jp": "なにっ！",
-   "en": "",
+   "en": "What!",
    "kind": "shout.s09",
    "addr": "0211DD3C",
    "max": 32
@@ -3508,7 +3508,7 @@
   {
    "id": "a9.shout.039.s09",
    "jp": "なにっ！",
-   "en": "",
+   "en": "What!",
    "kind": "shout.s09",
    "addr": "0211DEA4",
    "max": 32
@@ -3596,7 +3596,7 @@
   {
    "id": "a9.shout.040.s09",
    "jp": "なにっ！",
-   "en": "",
+   "en": "What!",
    "kind": "shout.s09",
    "addr": "0211E00C",
    "max": 32
@@ -4068,7 +4068,7 @@
   {
    "id": "a9.shout.046.s02",
    "jp": "えいっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211E79C",
    "max": 32
@@ -4156,7 +4156,7 @@
   {
    "id": "a9.shout.047.s02",
    "jp": "えいっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211E904",
    "max": 32
@@ -4244,7 +4244,7 @@
   {
    "id": "a9.shout.048.s02",
    "jp": "えいっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211EA6C",
    "max": 32
@@ -4332,7 +4332,7 @@
   {
    "id": "a9.shout.049.s02",
    "jp": "えいっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211EBD4",
    "max": 32
@@ -4420,7 +4420,7 @@
   {
    "id": "a9.shout.050.s02",
    "jp": "えいっ！",
-   "en": "",
+   "en": "Hyah!",
    "kind": "shout.s02",
    "addr": "0211ED3C",
    "max": 32
@@ -4604,7 +4604,7 @@
   {
    "id": "a9.shout.052.s03",
    "jp": "ハッ！",
-   "en": "",
+   "en": "Hah!",
    "kind": "shout.s03",
    "addr": "0211F02C",
    "max": 32
@@ -4772,7 +4772,7 @@
   {
    "id": "a9.shout.054.s02",
    "jp": "それ！",
-   "en": "",
+   "en": "Take that!",
    "kind": "shout.s02",
    "addr": "0211F2DC",
    "max": 32
@@ -4796,7 +4796,7 @@
   {
    "id": "a9.shout.054.s05",
    "jp": "これでもくらえ！",
-   "en": "",
+   "en": "Take a load of this!",
    "kind": "shout.s05",
    "addr": "0211F33C",
    "max": 32
@@ -4972,7 +4972,7 @@
   {
    "id": "a9.shout.056.s05",
    "jp": "これでもくらえ！",
-   "en": "",
+   "en": "Take a load of this!",
    "kind": "shout.s05",
    "addr": "0211F60C",
    "max": 32
@@ -5324,7 +5324,7 @@
   {
    "id": "a9.shout.060.s05",
    "jp": "これでもくらえ！",
-   "en": "",
+   "en": "Take a load of this!",
    "kind": "shout.s05",
    "addr": "0211FBAC",
    "max": 32
@@ -6956,7 +6956,7 @@
   {
    "id": "a9.shout.079.s00",
    "jp": "！！",
-   "en": "",
+   "en": "!!",
    "kind": "shout.s00",
    "addr": "021215C4",
    "max": 32
@@ -6964,7 +6964,7 @@
   {
    "id": "a9.shout.079.s01",
    "jp": "いくぞ！",
-   "en": "",
+   "en": "Let's go!",
    "kind": "shout.s01",
    "addr": "021215E4",
    "max": 32
@@ -6972,7 +6972,7 @@
   {
    "id": "a9.shout.079.s02",
    "jp": "フッ",
-   "en": "",
+   "en": "Hmph.",
    "kind": "shout.s02",
    "addr": "02121604",
    "max": 32
@@ -6980,7 +6980,7 @@
   {
    "id": "a9.shout.079.s03",
    "jp": "・・・",
-   "en": "",
+   "en": "...",
    "kind": "shout.s03",
    "addr": "02121624",
    "max": 32
@@ -6988,7 +6988,7 @@
   {
    "id": "a9.shout.079.s04",
    "jp": "！",
-   "en": "",
+   "en": "!",
    "kind": "shout.s04",
    "addr": "02121644",
    "max": 32
@@ -6996,7 +6996,7 @@
   {
    "id": "a9.shout.079.s05",
    "jp": "行くぞ！",
-   "en": "",
+   "en": "Let's go!",
    "kind": "shout.s05",
    "addr": "02121664",
    "max": 32
@@ -7004,7 +7004,7 @@
   {
    "id": "a9.shout.079.s06",
    "jp": "これで・・・どうだ！",
-   "en": "",
+   "en": "How about... this!",
    "kind": "shout.s06",
    "addr": "02121684",
    "max": 32
@@ -7012,7 +7012,7 @@
   {
    "id": "a9.shout.079.s07",
    "jp": "覚悟！",
-   "en": "",
+   "en": "Brace yourself!",
    "kind": "shout.s07",
    "addr": "021216A4",
    "max": 32
@@ -7020,7 +7020,7 @@
   {
    "id": "a9.shout.079.s08",
    "jp": "ちっ・・・！！",
-   "en": "",
+   "en": "Tch...!!",
    "kind": "shout.s08",
    "addr": "021216C4",
    "max": 32
@@ -7028,7 +7028,7 @@
   {
    "id": "a9.shout.079.s09",
    "jp": "・・・くっ！",
-   "en": "",
+   "en": "...Gh!",
    "kind": "shout.s09",
    "addr": "021216E4",
    "max": 32
@@ -7036,7 +7036,7 @@
   {
    "id": "a9.shout.079.s10",
    "jp": "まだだっ！！",
-   "en": "",
+   "en": "Not yet!!",
    "kind": "shout.s10",
    "addr": "02121704",
    "max": 32
@@ -7044,7 +7044,7 @@
   {
    "id": "a9.shout.080.s00",
    "jp": "いっくぜぇ！！",
-   "en": "",
+   "en": "Let's gooo!!",
    "kind": "shout.s00",
    "addr": "0212172C",
    "max": 32
@@ -7052,7 +7052,7 @@
   {
    "id": "a9.shout.080.s01",
    "jp": "じゃまするな！",
-   "en": "",
+   "en": "Stay outta my way!",
    "kind": "shout.s01",
    "addr": "0212174C",
    "max": 32
@@ -7060,7 +7060,7 @@
   {
    "id": "a9.shout.080.s02",
    "jp": "甘ぇよ！",
-   "en": "",
+   "en": "Too soft!",
    "kind": "shout.s02",
    "addr": "0212176C",
    "max": 32
@@ -7068,7 +7068,7 @@
   {
    "id": "a9.shout.080.s03",
    "jp": "おらぁ！",
-   "en": "",
+   "en": "Hyaah!",
    "kind": "shout.s03",
    "addr": "0212178C",
    "max": 32
@@ -7076,7 +7076,7 @@
   {
    "id": "a9.shout.080.s04",
    "jp": "まだまだぁ！",
-   "en": "",
+   "en": "I'm not done yet!",
    "kind": "shout.s04",
    "addr": "021217AC",
    "max": 32
@@ -7084,7 +7084,7 @@
   {
    "id": "a9.shout.080.s05",
    "jp": "これでもくらえ！",
-   "en": "",
+   "en": "Take a load of this!",
    "kind": "shout.s05",
    "addr": "021217CC",
    "max": 32
@@ -7092,7 +7092,7 @@
   {
    "id": "a9.shout.080.s06",
    "jp": "どうだぁ！",
-   "en": "",
+   "en": "How's that!",
    "kind": "shout.s06",
    "addr": "021217EC",
    "max": 32
@@ -7100,7 +7100,7 @@
   {
    "id": "a9.shout.080.s07",
    "jp": "おりゃぁ！",
-   "en": "",
+   "en": "Hyaaah!",
    "kind": "shout.s07",
    "addr": "0212180C",
    "max": 32
@@ -7108,7 +7108,7 @@
   {
    "id": "a9.shout.080.s08",
    "jp": "うおっ！！！",
-   "en": "",
+   "en": "Whoa!!!",
    "kind": "shout.s08",
    "addr": "0212182C",
    "max": 32
@@ -7116,7 +7116,7 @@
   {
    "id": "a9.shout.080.s09",
    "jp": "グアッ",
-   "en": "",
+   "en": "Guagh!",
    "kind": "shout.s09",
    "addr": "0212184C",
    "max": 32
@@ -7124,7 +7124,7 @@
   {
    "id": "a9.shout.080.s10",
    "jp": "グオッ",
-   "en": "",
+   "en": "Gwugh!",
    "kind": "shout.s10",
    "addr": "0212186C",
    "max": 32
