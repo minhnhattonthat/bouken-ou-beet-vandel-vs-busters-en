@@ -1,5 +1,8 @@
 # Skill gotchas (one line each: reference file it belongs in, then the fact)
 
+- SKILL.md Step 0 / template .gitignore: unanchored `rom/` also ignores `script/rom/` (an extractor folder named after the ROM file it came from), so this repo's 4,100 dialogue strings were never committed through phases 4-6; the template should anchor top-level ignores (`/rom/ /build/ /work/ /dist/ /release/`) and Step 0 should check `git status -uall` after the first extract.
+- tools/review.py pattern (references/translation.md §Review): reviewers write the fix as `... - suggested EN: <text>`; strip that label before applying, and merge with the same `--defer-long` the translate step used, or a batch holding one deferred message never merges.
+
 - references/emulator-qa.md: `emu.py --var OUT=...` is refused (OUT is a driver global, already the --out dir); a `--state-in` savestate made on one build loads as a grey screen on another ROM.
 - references/pipeline.md §Marker: a glyph that "leaks" after a capped field may be a separate unextracted string drawn next to it (Beet: the 属性 kanji table); compare with the original ROM's shot before capping the field.
 
