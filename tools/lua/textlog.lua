@@ -7,7 +7,9 @@
 --   TAB <acc> <id>    an arm9 table accessor (get(id) leaf, tools/arm9text.py TABLES) was called with id in r0
 -- Handlers: words at 0x02195490 + op*4 (docs/re/scripts.md §Interpreter state). Keep TEXT_ACCESSORS in step with
 -- arm9text.TABLES (tests/test_textcov.py checks it).
-local SCR_HANDLERS = { 0x0205128C, 0x0204F630 }
+-- Also 4F (quest offer, 0x02053080) and 99 (quest update, 0x0204FAFC): their place / client operands (+13/+17,
+-- +5/+9) are what the Quest Detail screen draws as Location / Requester (work/qa/cover/qrand_quest_counter).
+local SCR_HANDLERS = { 0x0205128C, 0x0204F630, 0x02053080, 0x0204FAFC }
 local TEXT_ACCESSORS = {
   0x02014040, 0x020140B0, 0x020140DC, 0x020140F4, 0x0201419C, 0x02014200, 0x0201421C, 0x02014234, 0x020142C8,
   0x020142E0, 0x020145D8, 0x020145F0, 0x02014608, 0x02014628, 0x0201466C, 0x02014684, 0x020146CC, 0x020146E0,

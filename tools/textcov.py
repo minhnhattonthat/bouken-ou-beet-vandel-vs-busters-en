@@ -41,7 +41,9 @@ FS = ROOT / 'work' / 'fs' / 'fs'
 ROM_IMG = FS / 'field' / 'script' / 'rom.img'
 ARM9 = ROOT / 'work' / 'fs' / 'arm9.bin'
 QUEST_IMG = FS / 'quest' / 'quest.img'
-SCR_OPS = (0x70, 0x9E)
+# opcode -> string operand offsets: 70 message, 9E speaker, 4F / 99 quest place + client (Quest Detail Location /
+# Requester; docs/re/scripts.md)
+SCR_OPS = {0x70: (1,), 0x9E: (1,), 0x4F: (13, 17), 0x99: (5, 9)}
 QUEST_OPS = (0x20, 0x1A, 0x2D)
 ROM_KEY, QUEST_KEY, TAB_KEY, PTR_KEY, NONE_KEY = 0x10000000, 0x20000000, 0x30000000, 0x40000000, 0x50000000
 NAME_KEY = 0x60000000
@@ -124,7 +126,8 @@ def convert(logdir, outdir, tag=''):
             if len(f) == 2 and f[0] == 'SCR':
                 pc = int(f[1], 16)
                 if pc + 5 <= len(img) and img[pc] in SCR_OPS:
-                    keys.add(ROM_KEY + struct.unpack_from('<I', img, pc + 1)[0])
+                    for k in SCR_OPS[img[pc]]:
+                        keys.add(ROM_KEY + struct.unpack_from('<I', img, pc + k)[0])
                 else:
                     bad[pc] += 1
             elif len(f) == 3 and f[0] == 'NAM' and f[1] in ('m', 'w'):
@@ -155,8 +158,10 @@ def convert(logdir, outdir, tag=''):
 
 def expand_waivers(src, dst):
     """Waiver rows `id<TAB>reason`; an id ending in `*` stands for every string id with that prefix (one line per
-    proven group, e.g. a whole table never drawn). Writes the expanded file textcover.py reads and returns its path."""
+    proven group, e.g. a whole table never drawn); the id column may also hold several ids separated by spaces (one
+    reason for a scattered group). Writes the expanded file textcover.py reads and returns its path."""
     ids = [e['id'] for e in entries()]
+    known = set(ids)
     rows = []
     for ln in src.read_text(encoding='utf-8-sig').splitlines():
         f = ln.split('\t')
@@ -164,10 +169,11 @@ def expand_waivers(src, dst):
             continue
         if len(f) < 2 or not f[1].strip():
             raise SystemExit('waiver without a reason: ' + ln)
-        hits = [i for i in ids if i.startswith(f[0][:-1])] if f[0].endswith('*') else [f[0]]
-        if not hits or (not f[0].endswith('*') and f[0] not in ids):
-            raise SystemExit('waiver matches no string id: ' + f[0])
-        rows += ['%s\t%s' % (i, f[1].strip()) for i in hits]
+        for w in f[0].split():
+            hits = [i for i in ids if i.startswith(w[:-1])] if w.endswith('*') else [w]
+            if not hits or (not w.endswith('*') and w not in known):
+                raise SystemExit('waiver matches no string id: ' + w)
+            rows += ['%s\t%s' % (i, f[1].strip()) for i in hits]
     dst.parent.mkdir(parents=True, exist_ok=True)
     dst.write_text('\n'.join(rows) + '\n', encoding='utf-8')
     return dst
