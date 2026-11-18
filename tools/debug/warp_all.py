@@ -45,13 +45,15 @@ def flat(png):
     return max(h - l for l, h in zip(lo, hi)) < 8
 
 
-def run(sc, rom, out, states):
+def run(sc, rom, out, states, extra=()):
     d = out / sc['name']
     state = states / (sc['name'] + '.dst')
     cmd = [sys.executable, '-X', 'utf8', str(Path(SKILL) / 'scripts/emu.py'), str(rom), '--out', str(d),
            '--script', str(REPO / 'tools/debug/warp.lua'), '--var', "SCENE='%s'" % sc['name'],
            '--frames', sc['frames'], '--shot-every', '300', '--sheet', '--state-out', str(state),
            '--timeout', '900']
+    for s in extra:
+        cmd += ['--script', str(Path(s).resolve())]
     toks = sc.get('set', '').split()
     if 'books' in toks:
         cmd.append('--debugger')  # the books cheat hooks mid-function return addresses the JIT skips
@@ -84,6 +86,8 @@ def main():
     ap.add_argument('--jobs', type=int, default=3)
     ap.add_argument('--out', default=str(REPO / 'work/qa/warps'))
     ap.add_argument('--states', default=str(REPO / 'work/states'))
+    ap.add_argument('--script', action='append', help='extra Lua appended after warp.lua (repeatable), e.g. '
+                    'tools/lua/glyphlog.lua for the marker tour')
     a = ap.parse_args()
     out, states = Path(a.out), Path(a.states)
     out.mkdir(parents=True, exist_ok=True)
@@ -99,11 +103,12 @@ def main():
     writers = [s for s in todo if 'writesave' in toks(s)]
     users = [s for s in todo if any(t.startswith('sav=') for t in toks(s))]
     cold = [s for s in todo if s not in writers and s not in users]
+    ex_scripts = a.script or []
     with ThreadPoolExecutor(a.jobs) as ex:
-        res = list(ex.map(lambda s: run(s, a.rom, out, states), cold))
-    res += [run(s, a.rom, out, states) for s in writers]
+        res = list(ex.map(lambda s: run(s, a.rom, out, states, ex_scripts), cold))
+    res += [run(s, a.rom, out, states, ex_scripts) for s in writers]
     with ThreadPoolExecutor(a.jobs) as ex:
-        res += list(ex.map(lambda s: run(s, a.rom, out, states), users))
+        res += list(ex.map(lambda s: run(s, a.rom, out, states, ex_scripts), users))
     bad = 0
     with open(out / 'summary.tsv', 'w', encoding='utf-8', newline='\n') as f:
         f.write('scene\tok\tend\twhy\n')

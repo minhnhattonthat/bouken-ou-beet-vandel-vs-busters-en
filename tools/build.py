@@ -75,25 +75,45 @@ def finish(orig, new):
     return bytes(new)
 
 
-def build(out=OUT):
+def build(out=OUT, mode="en", qa=None, identity=False):
+    """mode: 'en' (English where `en` is set), 'marker' (every entry -> id + filler). qa: {id: text} overrides.
+    identity: no edits at all (phase 3 check)."""
+    import engine
+    import insert
     check_rom.check()
     orig = ROM.read_bytes()
     rom = ndspy.rom.NintendoDSRom(orig)
-    # Edits go here (phase 7: insert text, fonts, graphics, code hooks).
+    log = []
+    if not identity:
+        eng = engine.Engine.from_rom(rom)
+        base = insert.text_marker(eng) if mode == "marker" else insert.text_en
+        qa = qa or {}
+
+        def text_for(e):
+            return qa.get(e["id"]) or base(e)
+        counts = insert.Inserter(rom, eng, text_for, log, fit=(mode == "marker")).run(insert.load_entries())
+        eng.patch_arm9(rom, log)
+        print("inserted", counts)
     data = finish(orig, rom.save())
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_bytes(data)
+    out.with_name(out.stem + ".writes.txt").write_text("\n".join(log) + "\n", encoding="utf-8")
     return data
 
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--out", type=Path, default=OUT)
+    ap.add_argument("--out", type=Path, default=None)
+    ap.add_argument("--marker", action="store_true", help="marker build: every entry shows its id (build/beet_marker.nds)")
+    ap.add_argument("--identity", action="store_true", help="no edits (byte-identical to the dump)")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT", help="override one entry's text")
     a = ap.parse_args()
     import hashlib
-    data = build(a.out)
+    out = a.out or (OUT.with_name("beet_marker.nds") if a.marker else OUT)
+    qa = dict(s.split("=", 1) for s in a.qa)
+    data = build(out, "marker" if a.marker else "en", qa, a.identity)
     same = data == ROM.read_bytes()
-    print(f"{a.out}  {len(data)} bytes  sha1 {hashlib.sha1(data).hexdigest()}  identical to dump: {same}")
+    print(f"{out}  {len(data)} bytes  sha1 {hashlib.sha1(data).hexdigest()}  identical to dump: {same}")
 
 
 if __name__ == "__main__":
