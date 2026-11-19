@@ -2,9 +2,11 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release done: v1.0 zip built and verified by `tools/release.py` (all steps ok). Build sha1
-  9e061555591232215808ce2c9c16615fb70344ac (patched CRC32 06BB5C91), check.py green (71 tests). Publishing
-  (`gh release create`, repo visibility) is the owner's call; nothing else is open.
+- **Phase:** 9. Published 2026-11-19 (D14): repo public, GitHub release `v1.0` with
+  `Bouken-ou_Beet_Vandel_vs_Busters_EN_v1.0.zip` (sha1 cc2630624e52d331b982ae0b6a1e7aa24471b09c). Build sha1
+  9e061555591232215808ce2c9c16615fb70344ac (patched CRC32 06BB5C91; rebuilt at HEAD and patch re-applied before
+  publishing: identical), check.py green (71 tests). Next: player bug reports (`gh issue list --label bug`); any
+  later release waits for the owner's word.
 - **Phase 9 session 27 (2026-11-19), Orca worker: gates closed, release built.**
   - Story: `storyreview.py rom_01 --tag r6 --fixed` -> fixed; story gate 25/25.
   - Visual: b08_guild re-toured on 9e061555, vqasheets + `qa_gate init --build`, 52 open sheets judged by
