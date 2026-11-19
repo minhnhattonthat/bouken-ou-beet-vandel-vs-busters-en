@@ -2,9 +2,19 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress (session 26: polish 0 unticked, release.py + README written; left: 51 visual
-  verdicts, b08_guild re-tour, rom_01 story re-review, then `tools/release.py`). Build sha1
-  9e061555591232215808ce2c9c16615fb70344ac, check.py green (71 tests).
+- **Phase:** 9. Release done: v1.0 zip built and verified by `tools/release.py` (all steps ok). Build sha1
+  9e061555591232215808ce2c9c16615fb70344ac (patched CRC32 06BB5C91), check.py green (71 tests). Publishing
+  (`gh release create`, repo visibility) is the owner's call; nothing else is open.
+- **Phase 9 session 27 (2026-11-19), Orca worker: gates closed, release built.**
+  - Story: `storyreview.py rom_01 --tag r6 --fixed` -> fixed; story gate 25/25.
+  - Visual: b08_guild re-toured on 9e061555, vqasheets + `qa_gate init --build`, 52 open sheets judged by
+    `visualqa.py` (chunks `chunk_05f03f59e7e9_000..008`). Two non-issues: v12_last_gate tag misread as "Rena" (it
+    reads "Rend", checked by eye and by a fresh codex run `chunk_recheck_s27_000`); `vandel_uptake/sheet_9` was a
+    stale manifest row (the scene now gives 8 sheets), removed from `work/qa/manifest.tsv`. Gate 208/208.
+    Gotcha: `sheet.py X.png --crop ...` on a sheet inside `vqa_en` rewrites it (re-run vqasheets + init after).
+    The 118 changed ids seen only in cover/gallery runs were not re-shot (width lint clean, textcov ok).
+  - Release: `release/Bouken-ou_Beet_Vandel_vs_Busters_EN_v1.0.zip` (sha1 cc2630624e52d331b982ae0b6a1e7aa24471b09c;
+    xdelta a71d0650d1b72df524583b828c14d1105e250d76, 461937 bytes); jp_left 0 runs, textcov 0 failing, re-apply = build.
 - **Phase 9 session 26 (2026-11-19), Orca worker: polish pass done, digits fixed, release script; stopped for low memory.**
   - **Polish:** p001-p005 run through codex (`codex_run.py raw` now resolves the out path; it used to land nowhere
     because codex runs in work/tr), proposals reviewed by hand before merge (rejected: a stray `{close}`, "Damn",
