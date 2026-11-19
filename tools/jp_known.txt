@@ -1,0 +1,2 @@
+11B6E0 data, not text: repeated-kanji run (手手ー邇) decoded from binary data by the 16-bit table (jp_left, session 26)
+11C580 data, not text: repeated-kanji run (鉛鉛ヽ邇) decoded from binary data by the 16-bit table (jp_left, session 26)
