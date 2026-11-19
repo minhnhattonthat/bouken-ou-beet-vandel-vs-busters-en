@@ -594,3 +594,103 @@ line `[x]` with `fixed` or `waived: reason`; the release script refuses to run w
 - [ ] rom.503EC - "ぜひお買い求めくださいませ" courteously urges a purchase - "A little pricier ... but do buy one!" sounds blunt; restoring the courteous sales language would better match Shagie's other announcements - suggested EN: We apologize for the prolonged inconvenience, but the "Giant Butterfly" is now back on sale at the Vandel House! // Although its stops are limited, it allows you to travel long distances far faster even than a "Hoverfish"...! // Here on the Twin Islands, for instance... Yes, you can travel from the Golden Castle to Zeros Snowfield...! // It is a little more costly than a "Hoverfish," but do consider purchasing one...! // Tarotos awaits you at the Vandel House with a lively "Giant Butterfly" ready for sale...! // Please do make use of our services...! // Was that explanation clear?
 - [x] rom.4F8C8 - review suggestion blocked by width: message over 255 codes (done: limit raised to 511 codes, review suggestion applied)
 - [ ] engine - numbers expanded into dialogue ({count}/[FF01], e.g. a9.021AAEF4 "Your reward this time is 1 0 0 Maggy.", work/qa/cover/appraisal_reward) are full-width digit codes drawn at 12 px pitch; map full-width digits to proportional digits in the dialogue expansion only (status columns right-align full-width digits and must keep them)
+
+## Story pass minors quest_00
+- [ ] quest.00E44 - Zeke's Squad makes its entrance - "Zeke's Squad Is In" sounds awkward and departs from the recurring "Enter..." introduction phrasing, including this event's other two entries - Suggested EN: "Enter Zeke's Squad".
+
+## Story pass minors quest_01
+- [ ] quest.02E64, quest.02EB4, quest.02F04; recurring hunt descriptions through quest.035C0 - Defeat {count} of {monster} found in the named region and elsewhere - "The monsters called {monster}" is cumbersome stock phrasing and unnecessarily departs from the earlier hunt template. Standardize these descriptions while preserving each location. Suggested EN for quest.02E64: "Hunt {monster} in Pasero Marsh and elsewhere. Please defeat {count} in all." Apply the same pattern to the subsequent regions, using "at" for Byonrin Volcano.
+
+## Story pass minors quest_02
+- [ ] quest.04430 - Reunion with the Beet Warriors - "The Beet Warriors" drops the reunion cue distinguishing this event from their introduction. - Suggested EN: "Beet Warriors Return"
+- [ ] quest.04618, quest.05E34 - Ark's Squad appears - "Ark's Squad Here" is awkward stock phrasing in both routes. - Suggested EN: "Enter Ark's Squad"
+- [ ] quest.05B7C - Sealing Ring restoration - The imperative "Repair Sealing Ring" sounds like a Vandel objective, whereas the accompanying descriptions correctly describe restoration as an event. - Suggested EN: "Ring Restoration"
+- [ ] quest.05DE0 - Last line of defense - "Last Defense Line" is unnatural compared with the accompanying descriptions. - Suggested EN: "Last Defense"
+
+## Story pass minors quest_03
+- [ ] quest.06564 - Deadly Blade Histario - Omits the epithet retained in both corresponding descriptions, weakening consistency with the other named encounters. Suggested EN: "Deadly Blade Histario".
+- [ ] quest.06594 - Immovable Giant Garonute - Drops the identifying epithet retained in the descriptions. Suggested EN: "Immovable Giant Garonute".
+- [ ] quest.06618, quest.06628, quest.06638 - Lieutenant monster - "Monster Aide" and "Monster Lieutenant" give the same mechanic different names within one entry. Suggested EN: "Lieutenant Monster" throughout.
+- [ ] quest.066A8 - Hoverfish extension - "Extend Hoverfish" sounds like physically lengthening the creature; the descriptions already offer clearer stock phrasing. Suggested EN: "Hoverfish Extension".
+- [ ] quest.06750 - Vandel Scholar Noa - Shortens the binding epithet to "Scholar," unlike the corresponding descriptions. Suggested EN: "Vandel Scholar Noa".
+
+## Story pass minors rom_00
+- [ ] rom.03E34 - They must quickly find the Vandel responsible - “The Vandel you seek revenge on soon” is awkward and makes “soon” attach ambiguously. Suggested EN: “We must soon find the Vandel who killed your father...” Keep the remaining pages unchanged.
+
+## Story pass minors rom_01
+- [ ] rom.04C74 - Poala associates Busters with Saiga - "Busters mean Saiga, right?" sounds like a terminology definition rather than her enthusiastic recommendation - Suggested EN: "And what's a Buster without a Saiga? Master your best weapon, and I think you'll learn to form one."
+- [ ] rom.066A0 - Someone apparently resembling a Vandel has been spotted - "A possible Vandel" sounds clinical in the Chief's worried account - Suggested EN: "Worse, something that looked like a Vandel was sighted..."
+- [ ] rom.05820 - Zena advertises generous purchase prices - "Buyback sale" muddles her offer to buy the player's goods with selling discounted stock - Suggested EN: "I'll give ya a good deal, so buy something! I buy stuff, too!! Paying top coin for your goods right now!!"
+
+## Story pass minors rom_02
+- [ ] rom.096F4 - The murdered Mirei Forest Chief was the Village Chief's younger brother - "Younger brother-san" sounds unintentionally comic during a bereavement revelation; attach the retained honorific to his title - Suggested EN: "{hero}... The murdered Mirei Forest Chief-san was the Village Chief's younger brother."
+- [ ] rom.0AF20 - Beet excitedly notices the hero fighting with two weapons - "You use Dual Wielding?!" sounds like interface terminology spoken aloud - Suggested EN: "Oh... // Whoa!! {hero}, you fight with two weapons?!"
+- [ ] rom.0AF60 - Beet eagerly asks to learn the technique - "Teach me Dual Wielding" repeats the stiff phrasing and blunts his enthusiasm - Suggested EN: "A-awesome! That's so cool!! // Hey, hey! Teach me to fight like that!!"
+
+## Story pass minors rom_03
+- [ ] rom.0CF48 - Zena feels a Vandel's overwhelming menace - "The pressure's on a whole other level" sounds analytical during her frightened breakdown. - Suggested EN: "Th-this is bad... So this is a Vandel... // Monsters don't come close to being this scary..."
+- [ ] rom.0F5D4 - Zena masks a sincere request for company with her recurring joke - "I'd be happy if you came along" briefly loses her casual voice. Preserve "Just kidding..." as the callback. - Suggested EN: "It'd be great if you came along too!! Just kidding..."
+
+## Story pass minors rom_04
+- [ ] rom.11438 - Friendly acknowledgment after welcoming the hero - "Glad to join you!" suggests recruitment rather than the hideout's promised support - Suggested EN: "Glad to help!"
+- [ ] rom.1263C - The castle's Vandel may have killed the hero's father - "the father of {hero}" sounds stiff during a sensitive exchange - Suggested EN: "Beet... That Vandel might have killed his father... That's who {hero} is looking for..."
+- [ ] rom.1342C - Shagie laughs at the stranded Busters - "Oho... Ohohohoho" changes his recurring laugh and conflicts with the binding ウフフ rendering - Suggested EN: "Ufu... Ufufufufu...! I can hardly wait to see how they respond!!"
+
+## Story pass minors rom_05
+- [ ] rom.17FD0 - Grest repeats Badu's automatic "Yes..." before protesting - "Right..." obscures the verbal echo that sets up the joke after Badu's two identical replies. Suggested EN: "Yes... Hey, you...!"
+
+## Story pass minors rom_06
+- [ ] rom.19318 - Careless wandering into traps will cost you your life, however many lives you have - "No number of lives will save you" sounds unnatural and weakens Slade's dry warning - Suggested EN: "Wander around carelessly and you'll stumble into traps. You'd need nine lives..."
+
+## Story pass minors rom_09
+- [ ] rom.25DC0, rom.25DEC, rom.25E04 - Break the obstructing ice / cancel breaking it - Singular "it" conflicts with "ice pillars" and "them" in the surrounding prompts. - Suggested EN: "Break them with a Saiga?" / "You decided not to break them."
+
+## Story pass minors rom_0A
+- [ ] rom.2AD18 - Lena breaks down crying over the danger imposed on the hero - "Ugh" suggests disgust or discomfort rather than a choked sob, weakening the end of her emotional speech - Suggested EN ending: "*sob*... *sniff*..."
+- [ ] rom.2B134, rom.2B150 - Buster Association label - "Buster Assoc." breaks the binding spelling and no-abbreviations ruling - Suggested EN: "Buster Association".
+- [ ] rom.2BE94 - The Chief remembers a bridge-building expert visiting the village - "a Master bridge builder" awkwardly mixes a capitalized title with a generic description and obscures the established role name - Suggested EN: "Come to think of it, the Bridge Master should be here in the village... Would you speak with him?"
+
+## Story pass minors rom_0B
+- [ ] rom.2FA98 - A flirtatious greeting ends with a coy laugh - "Hmhm" obscures the laugh and departs from the glossary's ウフフ → "Ufufu" convention - Suggested EN: "Oh, you look as cute as ever today, dear... // Ufu."
+
+## Story pass minors rom_0C
+- [ ] rom.30CF8 - Tarotos respectfully welcomes the player - "{vandel}-sama" attaches a suffix to a player-name variable, contrary to the glossary ruling - Suggested EN: "Welcome, {vandel}. How may we serve you today?"
+- [ ] rom.32360 - Canbal accepts defeat without undignified excuses - "Sully a loss" sounds unnatural and muddies his otherwise suave acceptance of the wager's outcome - Suggested EN: "I won't make excuses for losing. That's a gambler's etiquette..."
+- [ ] rom.326C0 - Shaderiko's characteristic snicker - "Gehihi" deviates from the binding ゲヒヒ → "Gehehe" rendering - Suggested EN: "Gehehe!!"
+
+## Story pass minors rom_0E
+- [ ] rom.395E8 - A healing fountain restores health and Divine Power - "It's a fountain of medicinal water" sounds clinical and cumbersome for a recurring recovery message - Suggested EN: "It's a healing fountain. / Health and Divine Power restored!"
+
+## Story pass minors rom_0F
+- [ ] rom.3EF50, rom.3F514, rom.3FC88 - Harden's booming laugh - "Gwahaha" shortens the glossary's prescribed laugh shape. Suggested EN: "Gwahahaha!!" (rom.3FC88: "Gwahahaha!! Look at that trash...").
+- [ ] rom.3E568 - Item acquisition sound-test label - "Item Get" is awkward English stock phrasing. Suggested EN: "Item Acquired".
+- [ ] rom.3E588 - Quest completion sound-test label - "Quest Clear" is less natural than the established stock phrasing. Suggested EN: "Quest Complete".
+
+## Story pass minors rom_10
+- [ ] rom.401A0, rom.40510, rom.40F2C, rom.4102C, rom.41378, rom.415B0, rom.43214 - Shagie respectfully addresses the player Vandel - `{vandel}-sama` glues a suffix onto a player-name variable, contrary to the binding rule. Preserve his deference through wording instead - Suggested EN: use `{vandel}` without the suffix; retain the surrounding courteous phrasing.
+- [ ] rom.419B0, rom.41CD8 - Ganeer's sinister クフフ laugh - “Kuhuhu” conflicts with both the prescribed “Kufufu” and his later laugh at rom.41EE0 - Suggested EN: “Just a tiny bit... Kufufu...” / “Th-thank you very much... Then, here you are... Kufufu...”
+- [ ] rom.40618 - Congratulations on attaining two stars - “Congratulations on becoming ‘Two-Star’” is awkward stock phrasing - Suggested EN: “Congratulations on your promotion to ‘Two-Star’!!”
+- [ ] rom.42518 - Harden commands that the islands be turned gold - “These whole islands” is unnatural and weakens the closing command - Suggested EN: “Go...! Turn these entire islands to gold, just as I desire!!”
+
+## Story pass minors rom_11
+- [ ] rom.45344 - Diam boasts about hearing the island rumors, then recognizes the subordinate's horns - Compressed phrases such as “strongest in these seas, heard!” make his theatrical boasting sound like notes rather than dialogue - Suggested EN: `Hey! You're not after this island's secret too, are you? // It's the talk of the Bekatorte Seas! Even I, "Steel Claw" Diam-sama, the strongest here, heard the rumors! // If the "Greedy Overlord" came, something must be here! His underling has long horns, they say... // ...!! Those horns!? Blast! I said too much! // No matter... I'll silence you! SEYAAAAAA!!`
+- [ ] rom.45BD0; rom.465BC; rom.46698; rom.46D94 - Desperate or angry curses - “Daaarn it” and “Darn it” soften the Resistance's desperation and Baleas's rough voice, particularly beside Diam's “D-damn you” - Suggested EN: `Damn it!!` / `Damn it!` / `Damn it!` / `Damn it! Zena, get out of here!!`
+- [ ] rom.47C88 - Shagie gleefully watches the consequences of the chief's deception - “Hmhm... Hmhmhmhm” loses his binding, recognizable laugh - Suggested EN for the closing laugh: `Ufu... Ufufufufu...!!`
+- [ ] rom.47C88; rom.47DDC; rom.47F40 - Shagie's deferential address to the player - The detached `-sama` introduces inconsistent spacing and, at rom.47C88, an awkward line break - Suggested EN fragments: `Now, what will you do, {vandel}-sama...? Allow me to observe...` / `My, my... {vandel}-sama, splendid work as always!!` / `{vandel}-sama, you are as magnificent as ever...!!`
+
+## Story pass minors rom_12
+- [ ] rom.49D64, rom.4AEB8, rom.4B650, rom.4B7F8 - Shagie addresses the player respectfully - `{vandel}-sama` glues a suffix onto a player variable, contrary to the glossary and earlier chapter usage - Suggested EN: use `{vandel} -sama` throughout.
+- [ ] rom.4A9BC - A fallen militiaman begs the hero for help - `{hero}-san` likewise glues an honorific onto the variable - Suggested EN: `{hero} -san... // H-help... Please...`
+- [ ] rom.49E64 - Shagie chuckles with excitement at the final seal's impending destruction - “Hmhm... Hmhmhm...” departs from his binding ウフフ laugh and weakens his recognizable mannerism - Suggested EN: “Ufu... Ufufu... How very exciting...!! Do give it your all...!!”
+- [ ] rom.4BFAC - Gantry admits he loses track of time admiring the castle - The final “eh...” makes his absorbed observation sound like a request for agreement - Suggested EN: “And yet... I lose track of time just gazing at it...”
+
+## Story pass minors rom_13
+- [ ] rom.4C228 - Monsters help torment humans efficiently and powerfully - "With ease and force" is awkward stock phrasing that weakens Harden's sneering delivery - Suggested EN: "Oh... A monster servant...? Handy for tormenting humans efficiently and brutally..."
+- [ ] rom.4F798, rom.4F8C8 - Promotion grants monsters lieutenant status and command privileges - Switching from "Lieutenant Monster" to "monster lieutenant" immediately after the introductory explanation makes the recurring service terminology inconsistent - Suggested EN: Use "Lieutenant Monster" throughout; "I see you've used our Lieutenant Monster promotion service."
+- [ ] rom.4FD60 - Shagie courteously announces resumed Hoverfish sales - The compressed "Sorry for the long wait!" and "A little pricey, but do buy one!" lose some of his established lavish salesmanship - Suggested EN: "We apologize for the long wait! \"Hoverfish\" are back on sale at the Vandel House!" / "A little costly, but we do hope you will purchase one!"
+- [ ] rom.4E1F4, rom.4ECD4 - Harden's booming signature laugh - "Gwahaha" shortens the glossary's binding laugh shape - Suggested EN: "Gwahahaha!!" / "Gwahahaha!!!"
+- [ ] rom.4E518 - Histario's instrument sounds - Sound effects lack the glossary's required asterisks - Suggested EN: "*strum*... *strummm*... *strum*..."
+
+## Story pass minors rom_14
+- [ ] rom.50DF0 - Rodina coyly asks whether she looks like a "Little Devil," then laughs ウフフ - "Hmhmhm..." misses the binding laugh rendering - Suggested EN: `Do I look like a "Little Devil" to you...? / Ufufu...`
+- [ ] rom.51398, rom.5143C, rom.515AC, rom.51660, rom.51728 - Harden's booming ガーッハッハッ punctuates his recurring "Instinct!!" boast - Consistent within this chapter, but shortened from the glossary's prescribed laugh - Suggested EN: `Gwahahaha!!`

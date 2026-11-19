@@ -1656,14 +1656,14 @@
   {
    "id": "quest.05B90",
    "jp": "封印のリング修復",
-   "en": "Repair the Sealing Ring.",
+   "en": "Sealing Ring restoration.",
    "kind": "brief",
    "refs": 1
   },
   {
    "id": "quest.05BA4",
    "jp": "封印のリング修復",
-   "en": "Repair the Sealing Ring.",
+   "en": "Sealing Ring restoration.",
    "kind": "desc",
    "refs": 1
   },

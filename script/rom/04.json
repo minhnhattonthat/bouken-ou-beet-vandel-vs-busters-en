@@ -236,7 +236,7 @@
   {
    "id": "rom.10C60",
    "jp": "・・・{br}そうです！{br}その小娘です・・・！{page}そうですよね{br}ご存知ですよね・・・！！{close}",
-   "en": "...Yes! That very girl...!{page}Of course. You already know{br}about her...!!{close}",
+   "en": "...Yes! Those very girls...!{page}Of course. You already know{br}about them...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -281,7 +281,7 @@
   {
    "id": "rom.10D38",
    "jp": "さすがでございます・・・！{page}では　すでに抹殺のために{br}動かれていることかと・・・{page}これで　この島も{br}少しは静かになりますね・・・！{close}",
-   "en": "As expected of you...!{page}Then I assume you have already{br}taken steps to eliminate her...{page}The island should be a little{br}quieter now...!{close}",
+   "en": "As expected of you...!{page}Then I assume you have already{br}taken steps to eliminate them...{page}The island should be a little{br}quieter now...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

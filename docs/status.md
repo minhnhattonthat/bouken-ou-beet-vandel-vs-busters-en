@@ -2,8 +2,38 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release, next (phase 8 done 2026-11-19, session 24).
-  Build sha1 058c9386752b9c9b7ecea34f4a3279cc026fba95, check.py green (71 tests), smoke ok.
+- **Phase:** 9. Release in progress (session 25: story pass done, story gate `qa_gate check work/qa/story/manifest.tsv
+  work/qa/story/verdicts` exit 0 (25/25); polish pass tooled, 518 polish lines unticked incl. 56 story Minors).
+  Build sha1 71ac24a43f0105cb42b39d78844b3d3fe4db38ff, check.py green (71 tests), smoke ok. The visual gate's build
+  hash is now stale (5 text entries changed since 058c9386): after the polish pass, re-tour the changed scenes or
+  `qa_gate waive` with the reason.
+- **Phase 9 session 25 (2026-11-19), Orca worker: story pass, polish tooling, key-item boxes measured.**
+  - **Story pass:** `tools/storych.py` writes one chapter file per script file (25, `work/qa/story/chapters/`);
+    `tools/storyreview.py [CH..] [--tag r2] [--fixed]` runs `docs/story-reviewer-brief.md` through `codex exec`
+    (prompt inlines synopsis + glossary + chapter) -> `work/qa/story/reports/<ch>.md` + `verdicts/<ch>[_tag].tsv`.
+    First round: 20 ok, 4 issue, fixed: rom.10C60/10D38 (Shagie: "that girl/her" -> "those girls/them", JP 小娘 after
+    双子の小娘), rom.1CCC4 (JP slip West -> East, D10), quest.05B90/05BA4 (Vandel label "Repair the Sealing Ring." ->
+    "Sealing Ring restoration."). rom_05's Critical (rom.157C0 tagged {hero}) is the JP's own speaker tag: kept (D10),
+    controller verdict `verdicts/rom_05_controller.tsv`. Re-review (r2): all 7 changed chapters ok/fixed. Regenerate the
+    chapters (`storych.py`) + `qa_gate init` after every script edit; `tools/storyminors.py` appends report Minors to
+    docs/polish.md once per chapter.
+  - **Polish tooling:** `tools/polishls.py [--from L --to L] [--kind K]` lists unticked lines with en, px vs budget,
+    bytes vs cap. `tools/polishbatch.py make pNNN --from L --to L` -> batch rows + codex prompt;
+    `tools/codex_run.py raw work/tr/prompts/pNNN.md work/tr/out/pNNN.raw.md`; `polishbatch.py fit pNNN` keeps the
+    proposals that pass batches.finish + lint (others: waived with the failing check); `tools/batches.py merge pNNN`;
+    `polishbatch.py tick pNNN` ticks the lines. p001 (lines 14-191, the flagged cuts) is made, not yet run.
+  - **jp-bound boxes:** `tools/qaruler.py build KIND..` = a build with every entry of those kinds a ruler string
+    (cut to its byte cap); warp with `warp_all.py build/beet_ruler.nds --only .. --out work/qa/ruler`. Measured:
+    keyitem.name >= 130 px (the 18-byte cap binds first), keyitem.desc 182 px (budgets.json updated). Not reachable
+    in the current scenes: skill/tengeki/meigeki (menu_skills: the hero has none; needs a party member with skills),
+    title.name (menu_status shows none), quest `title` (quest_counter stops on the counter menu), area/area2 names
+    (all 70 fetched by a boot loop; where they draw is unknown: find the caller of 0x020146CC that draws). Until
+    measured, polish lines of those kinds can only be fixed within the jp-bound px.
+  - **Next (phase 9):** (1) measure the remaining jp-bound kinds (ruler build + a scene with skills / titles / quest
+    list / area names), update budgets.json; (2) run polish batches p001.. over all unticked lines (General items by
+    hand: speaker-tag canvas, 1H/2H) until `grep -c '^- \[ \]' docs/polish.md` = 0; (3) story re-review of changed
+    chapters; (4) re-tour changed scenes (or waive) so `qa_gate check` passes on the final build; (5) write
+    `tools/release.py` per `references/pipeline.md` §Release (xdelta for NDS, README hashes, jp_left, debug tool off).
   Phase 8 done-when met on this build: `qa_gate.py check work/qa/manifest.tsv work/qa/verdicts` exit 0 (207 sheets,
   all ok; tour on 95990307 + waiver for the one-entry hotfix to 058c9386, see session 24), `textcov.py report
   work/qa/en work/qa/gallery work/qa/cover --waive docs/text_unshown.tsv` = 0 failing (9009 shown, 463 waived),
