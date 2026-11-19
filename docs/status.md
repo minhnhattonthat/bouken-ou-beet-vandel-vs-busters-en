@@ -2,11 +2,38 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress (session 25: story pass done, story gate `qa_gate check work/qa/story/manifest.tsv
-  work/qa/story/verdicts` exit 0 (25/25); polish pass tooled, 518 polish lines unticked incl. 56 story Minors).
-  Build sha1 71ac24a43f0105cb42b39d78844b3d3fe4db38ff, check.py green (71 tests), smoke ok. The visual gate's build
-  hash is now stale (5 text entries changed since 058c9386): after the polish pass, re-tour the changed scenes or
-  `qa_gate waive` with the reason.
+- **Phase:** 9. Release in progress (session 26: polish 0 unticked, release.py + README written; left: 51 visual
+  verdicts, b08_guild re-tour, rom_01 story re-review, then `tools/release.py`). Build sha1
+  9e061555591232215808ce2c9c16615fb70344ac, check.py green (71 tests).
+- **Phase 9 session 26 (2026-11-19), Orca worker: polish pass done, digits fixed, release script; stopped for low memory.**
+  - **Polish:** p001-p005 run through codex (`codex_run.py raw` now resolves the out path; it used to land nowhere
+    because codex runs in work/tr), proposals reviewed by hand before merge (rejected: a stray `{close}`, "Damn",
+    romanized laughs; `{vandel}-sama` restored, D11/D12). `grep -c '^- \[ \]' docs/polish.md` = 0. General items:
+    1H/2H weapon descs in full words; speaker tag and jp-bound boxes waived with reasons. Gotcha fixed:
+    `polishbatch.py fit` overwrote its own row list (a re-fit dropped the waived rows); make now also writes
+    `<name>.all.tsv` and fit reads that.
+  - **Engine: proportional digits in messages** (D13, `docs/re/vwf.md` §Numbers): hook `num_pc` at 0x0201F6E8
+    ([FF01]) and 0x02024E98 (quest {count}). Seen: `work/qa/p26_reward` "100 Maggy"; status unchanged. Quest
+    {count} not seen in game (the quest_board save has no quests); same hook, low risk.
+  - **Story:** r3 over the 20 changed chapters + r4/r5; fixed quest.05B7C titles "Sealing Ring Repair", rom.4C7E4
+    (statue = likeness comes to life; page split "most{page}highly" removed); rom_05 controller verdict
+    `verdicts/rom_05_controller_r3.tsv` (D10). Gate was 25/25, then rom.068A0 (rom_01) changed (below):
+    **re-run** `python -X utf8 tools/storyreview.py rom_01 --tag r6 --fixed` (init is already done; always init
+    BEFORE the review, or the verdict predates the change).
+  - **Visual re-tour:** the 35 tour scenes whose textlog showed a changed id + appraiser re-run on b9bf60db (via
+    `work/qa/_textcov` keys x build/strings.tsv x `work/qa/changed_ids_s26.txt`); vqasheets, `qa_gate init --build`.
+    visualqa (chunks `work/qa/chunks/chunk_f79378bd69a5_000..012`) was killed by Claude Code's low-memory reaper
+    (0.4 GB free) after chunks 000-003. One issue fixed: rom.068A0 (b08_guild, "Messenger at{page}once"), so the
+    build is now 9e061555. **Resume:** free memory, then `warp_all.py build/beet_en.nds --only b08_guild --jobs 1
+    --out work/qa/en --script tools/lua/glyphlog.lua --script tools/lua/textlog.lua`, `vqasheets.py work/qa/en
+    work/qa/vqa_en`, `qa_gate init work/qa/manifest.tsv work/qa/vqa_en --build build/beet_en.nds`, `qa_gate todo
+    ... --size 6 --out-dir work/qa/chunks`, `visualqa.py <chunks> --jobs 2` in the FOREGROUND (`timeout 590`,
+    a few chunks per call), until `qa_gate check work/qa/manifest.tsv work/qa/verdicts` exits 0. The 118 changed ids
+    seen only in cover/gallery runs were not re-shot (lint-checked widths); say so in a waiver if the gate needs it.
+  - **Release:** `tools/release.py [--version 1.0]` (build -> check -> smoke -> jp_left with `tools/jp_known.txt`
+    (2 data runs) -> every qa manifest -> textcov -> polish -> README -> xdelta3 (`tools/xdelta3/xdelta3.exe`,
+    gitignored, URL in the script) -> re-apply compare -> zip patch + README.txt from `docs/release_readme.txt`).
+    README.md filled (Bandai 2005, base hashes). Not run yet: it stops at the qa gate until the steps above pass.
 - **Phase 9 session 25 (2026-11-19), Orca worker: story pass, polish tooling, key-item boxes measured.**
   - **Story pass:** `tools/storych.py` writes one chapter file per script file (25, `work/qa/story/chapters/`);
     `tools/storyreview.py [CH..] [--tag r2] [--fixed]` runs `docs/story-reviewer-brief.md` through `codex exec`

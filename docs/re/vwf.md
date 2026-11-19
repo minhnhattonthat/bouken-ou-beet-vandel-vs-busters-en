@@ -56,3 +56,13 @@
 - `ne_init` (site 0x0202B6F0) makes the keyboard open on 英字. Proven 2026-11-18 (`work/qa/ne_m`, `ne_hero`,
   `ne_w`, `ne_w2`): 8 x W fits the speaker tag (it widens), `{hero}` in dialogue spaces right. The key cells now draw
   their letter at the cell's left edge instead of centred (polish).
+
+## Numbers in messages (phase 9, session 26)
+- 0x0201F7EC: int -> full-width digit string (`add r3, r1, #0xCC`, leading ０ skipped; static buffer 0x021BED14,
+  returns a pointer into it). ~60 callers (status columns, shops, ...), which right-align with count x 12 px.
+- Message formatter 0x0201F670 (varargs wrapper 0x0201F730, callers 0x02048804 / 0x02048944 = appraiser):
+  FF00 = string arg, FF01 = int arg via `bl 0x0201F7EC` at **0x0201F6E8**. Quest expansion 0x02024D.. (switch on
+  FFA0+): `{count}` via `bl 0x0201F7EC` at **0x02024E98**.
+- Both bls -> engine `num_pc`: calls 0x0201F7EC, then rewrites 0x00CC..0x00D5 in the returned string as the
+  single-letter pair codes of '0'..'9' (PC_D0 + d*128), so they draw and measure proportionally. Seen in game:
+  `work/qa/p26_reward` ("Your reward this time is 100 Maggy."); status unchanged (`work/qa/p26_menu_status`).

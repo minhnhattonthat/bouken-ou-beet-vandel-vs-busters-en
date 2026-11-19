@@ -16,6 +16,7 @@ reviewer's KEEP reason, or why the proposal failed the checks). docs/polish.md i
 import argparse
 import json
 import re
+import shutil
 import sys
 from pathlib import Path
 
@@ -93,7 +94,8 @@ def cmd_make(a):
         '\n'.join([head] + ['%s\t%s\t%s\t%s\t%s' % (e['id'], e.get('speaker', ''), e['kind'], batches.limit_of(e),
                                                     batches.show_jp(e['jp'])) for e in rows]) + '\n',
         encoding='utf-8', newline='\n')
-    terms = batches.terms_in([e['jp'] for e in rows], batches.glossary())
+    shutil.copyfile(batches.BATCH / ('%s.tsv' % a.name), batches.BATCH / ('%s.all.tsv' % a.name))
+    terms =batches.terms_in([e['jp'] for e in rows], batches.glossary())
     gl = '\n'.join('| %s | %s | %s |' % (j, en, ', '.join(v)) for j, en, v in terms)
     prompt = BRIEF + '\n## Glossary terms in these rows (JP | EN | avoid)\n\n' + gl + '\n\n## Rows\n\n' + \
         '\n'.join(text) + '\n'
@@ -106,7 +108,12 @@ def cmd_make(a):
 def cmd_fit(a):
     files = batches.load_files()
     byid = {e['id']: e for f, e in batches.all_entries(files)}
-    rows = batches.read_batch(a.name) if (batches.BATCH / ('%s.tsv' % a.name)).exists() else []
+    # fit rewrites <name>.tsv with only the fixed rows (for merge), so read make's full list from <name>.all.tsv:
+    # a second fit (after editing the raw answers) then still sees every row
+    full = batches.BATCH / ('%s.all.tsv' % a.name)
+    if not full.exists() and (batches.BATCH / ('%s.tsv' % a.name)).exists():
+        shutil.copyfile(batches.BATCH / ('%s.tsv' % a.name), full)
+    rows = batches.read_batch(a.name + '.all') if full.exists() else []
     raw = (batches.OUT / ('%s.raw.md' % a.name)).read_text(encoding='utf-8').splitlines()
     want = {r['id'] for r in rows}
     props, keeps = {}, {}

@@ -737,7 +737,7 @@
   {
    "id": "rom.068A0",
    "jp": "あちらの里長ならば　伝書鳩が{br}だめならば　間違いなく　すぐに伝達兵を{br}使うじゃろうな・・・{page}しかし・・・{close}",
-   "en": "Knowing their Village Chief, if the{br}pigeons could not get through, he'd{br}surely send a Messenger at{page}once...{page}And yet...{close}",
+   "en": "Knowing their Village Chief, if the{br}pigeons failed, he'd surely{br}send a Messenger at once...{page}And yet...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
