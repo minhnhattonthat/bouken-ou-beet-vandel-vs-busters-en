@@ -702,7 +702,7 @@
   {
    "id": "rom.096F4",
    "jp": "{hero}・・・{br}殺された　ミレイ森の里長は{br}里長の弟さんなのじゃ・・・{close}",
-   "en": "{hero}... The Mirei Forest Chief{br}who was killed was the Village{br}Chief's younger brother-san.{close}",
+   "en": "{hero}... The murdered Mirei{br}Forest Chief was the Village Chief's{br}younger brother.{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1
@@ -1152,7 +1152,7 @@
   {
    "id": "rom.0ADA4",
    "jp": "（またまた出ました！{br}いつもの　夫婦ゲンカ！）{close}",
-   "en": "(Here we go again! Another{br}married-couple quarrel!){close}",
+   "en": "(Here we go again! Bickering like an{br}old married couple!){close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1272,7 +1272,7 @@
   {
    "id": "rom.0AF20",
    "jp": "お・・・{page}おーっ！！{br}{hero}　おまえ{br}二刀流なのか！？{close}",
-   "en": "Oh...{page}Whoa!! {hero}, you use{br}Dual Wielding?!{close}",
+   "en": "Oh...{page}Whoa!! {hero}, is that{br}Dual Wielding?!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1287,7 +1287,7 @@
   {
    "id": "rom.0AF60",
    "jp": "す　すっげー！{br}かっこいいじゃん！！{page}なーなー{br}おれに　二刀流教えてくれよ！！{close}",
-   "en": "A-awesome! That's so cool!!{page}Hey, hey! Teach me Dual Wielding!!{close}",
+   "en": "A-awesome! That's so cool!!{page}Hey, hey! Show me how Dual{br}Wielding works!!{close}",
    "kind": "msg",
    "speaker": "ビィト",
    "refs": 1
@@ -1385,7 +1385,7 @@
   {
    "id": "rom.0B20C",
    "jp": "よろしく！{close}",
-   "en": "Glad to join you!{close}",
+   "en": "Glad to help!{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1559,7 +1559,7 @@
   {
    "id": "rom.0B508",
    "jp": "よろしく！{close}",
-   "en": "Glad to join you!{close}",
+   "en": "Glad to help!{close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1694,7 +1694,7 @@
   {
    "id": "rom.0BF3C",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },

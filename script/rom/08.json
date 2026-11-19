@@ -260,14 +260,14 @@
   {
    "id": "rom.23FD4",
    "jp": "才牙で破壊しますか？{close}",
-   "en": "Break it with a Saiga?{close}",
+   "en": "Break them with a Saiga?{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.23FEC",
    "jp": "倒れた木を壊した！{close}",
-   "en": "You broke the fallen tree!{close}",
+   "en": "You smashed the fallen tree!{close}",
    "kind": "msg",
    "refs": 1
   }

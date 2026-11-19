@@ -20,7 +20,7 @@
   {
    "id": "a9.armor.000.desc",
    "jp": "見習いバスターのジャケット",
-   "en": "Apprentice Buster jacket.",
+   "en": "Apprentice Buster's jacket.",
    "kind": "armor.desc",
    "addr": "0210D45C",
    "max": 72
@@ -212,7 +212,7 @@
   {
    "id": "a9.armor.008.desc",
    "jp": "百戦錬磨バスターのジャケット",
-   "en": "War-tested Buster jacket.",
+   "en": "A veteran Buster's jacket.",
    "kind": "armor.desc",
    "addr": "0210D95C",
    "max": 72
@@ -452,7 +452,7 @@
   {
    "id": "a9.armor.018.desc",
    "jp": "かなり強い素材でできたシャツ",
-   "en": "Shirt of tough material.",
+   "en": "Shirt of very tough material.",
    "kind": "armor.desc",
    "addr": "0210DF9C",
    "max": 72
@@ -476,7 +476,7 @@
   {
    "id": "a9.armor.019.desc",
    "jp": "非常に強い素材でできたシャツ",
-   "en": "Ultra-tough material shirt.",
+   "en": "Shirt of very tough material.",
    "kind": "armor.desc",
    "addr": "0210E03C",
    "max": 72
@@ -692,7 +692,7 @@
   {
    "id": "a9.armor.028.desc",
    "jp": "非常に強い素材でできたシールド",
-   "en": "Ultra-tough material shield.",
+   "en": "Made of ultra-tough material.",
    "kind": "armor.desc",
    "addr": "0210E5DC",
    "max": 72
@@ -956,7 +956,7 @@
   {
    "id": "a9.armor.039.desc",
    "jp": "達人が愛用する強い腕輪",
-   "en": "Tough bangle masters favor.",
+   "en": "A tough bangle masters love.",
    "kind": "armor.desc",
    "addr": "0210ECBC",
    "max": 72
@@ -1196,7 +1196,7 @@
   {
    "id": "a9.armor.049.desc",
    "jp": "非常に強い素材でできたマント",
-   "en": "Ultra-tough material cape.",
+   "en": "Cape of very tough material.",
    "kind": "armor.desc",
    "addr": "0210F2FC",
    "max": 72
@@ -1388,7 +1388,7 @@
   {
    "id": "a9.armor.057.desc",
    "jp": "多くのバスターが愛用するバンダナ",
-   "en": "A bandanna Busters love",
+   "en": "A Bandanna Busters love",
    "kind": "armor.desc",
    "addr": "0210F7FC",
    "max": 72
@@ -1652,7 +1652,7 @@
   {
    "id": "a9.armor.068.desc",
    "jp": "複合特殊鋼材を織り込んだグローブ",
-   "en": "Special alloy-woven gloves",
+   "en": "Special steel-woven gloves",
    "kind": "armor.desc",
    "addr": "0210FEDC",
    "max": 72

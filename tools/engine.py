@@ -316,6 +316,25 @@ elem_rect:
     mov r3, #{EW}
     b #0x0202BFDC
 
+num_pc:
+    push {{r4, lr}}
+    bl #0x0201F7EC
+    mov r4, r0
+npl:
+    ldrh r1, [r4]
+    cmp r1, #0
+    beq npd
+    sub r2, r1, #0xCC
+    cmp r2, #10
+    movlo r2, r2, lsl #7
+    addlo r2, r2, #{PC_D0}
+    strhlo r2, [r4]
+    add r4, r4, #2
+    b npl
+npd:
+    pop {{r4, lr}}
+    bx lr
+
 lit_eshort: .word {ESHORT}
 lit_ones: .word 0x11111111
 lit_t12: .word {T12}
@@ -355,7 +374,10 @@ SITES = {
     0x020951CC: ('920001e0', 'mov r0, r0'),       #   (count in r2, string r3) -> r1 = half the pixel width
     0x0202B6F0: ('c7f8ffeb', 'bl ne_init'),       # name entry constructor: bl 0x02029A14 (keyboard rows), then
                                                   #   the keyboard opens on 英字 (mode obj+0xDC = 1; docs/re/vwf.md)
-    0x0204BF00: ('022ca0e3', 'mov r2, #0x400'),   # dialogue expansion buffer (frame 0x41C, buffer sp+0x1C..0x41C):
+    0x0201F6E8: ('3f0000eb', 'bl num_pc'),        # message formatter 0x0201F670 [FF01] (appraiser reward/level) and
+    0x02024E98: ('53eaffeb', 'bl num_pc'),        #   quest {count}: int -> full-width digits (0x0201F7EC, 12 px
+    #   pitch: "1 0 0 Maggy") -> the proportional digit codes. Status columns call 0x0201F7EC directly: unchanged.
+    0x0204BF00: ('022ca0e3', 'mov r2, #0x400'),  # dialogue expansion buffer (frame 0x41C, buffer sp+0x1C..0x41C):
                                                   #   clear all 0x400 bytes, not 0x200 (MSG_CODES)
     0x0208F7D0: ('0172feeb', 'bl elem_rect'),     # monster book 属性 value window: rect(x 25, y 3, w 2, [sp] h 2)
                                                   #   -> ELEM_WIN (under the Element label, clear of the R button)
@@ -389,7 +411,8 @@ SPEAKER_CODES = 0x18 // 2 - 1
 # Name entry writes full-width Latin codes (Ａ-Ｚ 0x00DD.., ａ-ｚ 0x00FD..); the hooks draw and measure them as
 # the single proportional letter, so a typed name looks like the English around it (FW_* = first code, PC_* = the
 # pair code of the single letter 'A' / 'a').
-FW = {'FW_UP': 0xDD, 'FW_LO': 0xFD, 'PC_UP': 0x2000 + SLOT['A'] * 128, 'PC_LO': 0x2000 + SLOT['a'] * 128}
+FW = {'FW_UP': 0xDD, 'FW_LO': 0xFD, 'PC_UP': 0x2000 + SLOT['A'] * 128, 'PC_LO': 0x2000 + SLOT['a'] * 128,
+      'PC_D0': 0x2000 + SLOT['0'] * 128}   # num_pc: full-width digit 0x00CC + d -> PC_D0 + d * 128
 
 
 def fullwidth_code(code):

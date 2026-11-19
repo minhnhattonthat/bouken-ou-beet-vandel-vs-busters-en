@@ -18,7 +18,7 @@
   {
    "id": "quest.04030",
    "jp": "行方不明となったゼナを探しだす",
-   "en": "Find the missing Zena.",
+   "en": "Find Zena, who has{br}gone missing.",
    "kind": "brief",
    "refs": 1
   },
@@ -179,7 +179,7 @@
   {
    "id": "quest.04298",
    "jp": "銀堀職人ホーレイさん",
-   "en": "Miner Horey-san",
+   "en": "Silver Miner Horey",
    "kind": "title",
    "refs": 1
   },
@@ -452,7 +452,7 @@
   {
    "id": "quest.04618",
    "jp": "アーク戦士団登場",
-   "en": "Ark's Squad Here",
+   "en": "Enter Ark's Squad",
    "kind": "title",
    "refs": 1
   },
@@ -1901,7 +1901,7 @@
   {
    "id": "quest.05DE0",
    "jp": "最後の防御線",
-   "en": "Last Defense Line",
+   "en": "Last Defense",
    "kind": "title",
    "refs": 1
   },
@@ -1943,7 +1943,7 @@
   {
    "id": "quest.05E34",
    "jp": "アーク戦士団登場",
-   "en": "Ark's Squad Here",
+   "en": "Enter Ark's Squad",
    "kind": "title",
    "refs": 1
   },

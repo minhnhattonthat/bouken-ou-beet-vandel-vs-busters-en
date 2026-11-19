@@ -79,7 +79,7 @@ def main():
     p.add_argument('out')
     a = ap.parse_args()
     if a.cmd == 'raw':
-        rc = codex(Path(a.prompt).read_text(encoding='utf-8'), Path(a.out), LOGS / (Path(a.out).stem + '.log'))
+        rc = codex(Path(a.prompt).read_text(encoding='utf-8'), Path(a.out).resolve(),LOGS / (Path(a.out).stem + '.log'))
         print('rc', rc, '->', a.out)
         return rc
     with ThreadPoolExecutor(a.jobs) as ex:

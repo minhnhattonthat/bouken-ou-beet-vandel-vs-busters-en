@@ -4,14 +4,14 @@
   {
    "id": "rom.24004",
    "jp": "壊すのをやめました{close}",
-   "en": "You decided not to break it.{close}",
+   "en": "You decided not to break them.{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.2401C",
    "jp": "壊すのをやめました{close}",
-   "en": "You decided not to break it.{close}",
+   "en": "You decided not to break them.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -159,7 +159,7 @@
   {
    "id": "rom.25DC0",
    "jp": "才牙で破壊しますか？{close}",
-   "en": "Break it with a Saiga?{close}",
+   "en": "Break them with a Saiga?{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -173,14 +173,14 @@
   {
    "id": "rom.25DEC",
    "jp": "壊すのをやめました{close}",
-   "en": "You decided not to break it.{close}",
+   "en": "You decided not to break them.{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.25E04",
    "jp": "壊すのをやめました{close}",
-   "en": "You decided not to break it.{close}",
+   "en": "You decided not to break them.{close}",
    "kind": "msg",
    "refs": 1
   },

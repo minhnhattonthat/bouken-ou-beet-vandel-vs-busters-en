@@ -331,7 +331,7 @@
   {
    "id": "rom.30CF8",
    "jp": "{vandel}様、{br}ようこそおこしくださいました{br}本日はどのような御用向きで？{close}",
-   "en": "{vandel}-sama, welcome. What{br}may we do for you today?{close}",
+   "en": "Welcome, {vandel}-sama. How{br}may we serve you today?{close}",
    "kind": "msg",
    "speaker": "タロトス",
    "refs": 1
@@ -862,7 +862,7 @@
   {
    "id": "rom.32360",
    "jp": "負けても　見苦しい言い訳はしない{br}これが賭け事のマナーというものだ・・・{close}",
-   "en": "I won't sully a loss with excuses.{br}That's a gambler's etiquette...{close}",
+   "en": "I won't make excuses for losing.{br}That's a gambler's etiquette...{close}",
    "kind": "msg",
    "speaker": "キャンバル",
    "refs": 1
@@ -1096,7 +1096,7 @@
   {
    "id": "rom.325D4",
    "jp": "ゲヒヒヒャハッ！{br}オレは「闇の爪」シャデリコ！{page}暗殺者とおそれられる{br}この二ッ星の切れ味を味わえっ！！{close}",
-   "en": "Gehihyaha! I'm Shaderiko, the{br}\"Dark Claw\"!{page}Taste the cutting edge of this{br}Two-Star, feared as an assassin!!{close}",
+   "en": "Gehihyaha! I'm Shaderiko, the{br}\"Dark Claw\"!{page}Taste my blades! I'm a Two-Star{br}feared as an assassin!!{close}",
    "kind": "msg",
    "speaker": "シャデリコ",
    "refs": 1
@@ -1134,7 +1134,7 @@
   {
    "id": "rom.326C0",
    "jp": "ゲヒヒッ！！{close}",
-   "en": "Gehihi!!{close}",
+   "en": "Gehehe!!{close}",
    "kind": "msg",
    "speaker": "シャデリコ",
    "refs": 1

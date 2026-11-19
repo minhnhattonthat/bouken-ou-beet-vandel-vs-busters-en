@@ -4,7 +4,7 @@
   {
    "id": "rom.0C054",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -49,7 +49,7 @@
   {
    "id": "rom.0C144",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -139,7 +139,7 @@
   {
    "id": "rom.0C290",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -184,7 +184,7 @@
   {
    "id": "rom.0C348",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -252,7 +252,7 @@
   {
    "id": "rom.0C50C",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -282,7 +282,7 @@
   {
    "id": "rom.0C568",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -327,7 +327,7 @@
   {
    "id": "rom.0C644",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -372,7 +372,7 @@
   {
    "id": "rom.0C694",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -402,7 +402,7 @@
   {
    "id": "rom.0C738",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -462,7 +462,7 @@
   {
    "id": "rom.0C7F8",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -598,7 +598,7 @@
   {
    "id": "rom.0CA9C",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -659,7 +659,7 @@
   {
    "id": "rom.0CBB4",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -696,7 +696,7 @@
   {
    "id": "rom.0CF48",
    "jp": "や　やばいな・・・{br}さすが　ヴァンデル・・・{page}モンスターとは　桁違いの{br}プレッシャーじゃん・・・{close}",
-   "en": "Th-this is bad... So this is a Vandel...{page}The pressure's on a whole other{br}level from a monster...{close}",
+   "en": "Th-this is bad... So this is a Vandel...{page}Monsters don't come close to being{br}this scary...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1071,7 +1071,7 @@
   {
    "id": "rom.0DD68",
    "jp": "本当か！？{br}この島の出身とは心強い！{br}ね　アークさん！{close}",
-   "en": "Really!? Having someone from this{br}island is reassuring! Right, Ark-san?{close}",
+   "en": "Really!? It's good to have someone{br}who knows this island!{br}Right, Ark-san?{close}",
    "kind": "msg",
    "speaker": "レンド",
    "refs": 1
@@ -1349,7 +1349,7 @@
   {
    "id": "rom.0E6CC",
    "jp": "{hero}・・・{br}わたし・・・{page}わたしね・・・{br}今まで自分の気持ちしか{br}考えてなかったわ・・・{page}でも・・・{br}それじゃだめなのよね・・・{page}今でもね・・・{br}あなたを　危険な目に{br}あわせるのはいやなの・・・{page}でも・・・{br}それじゃ・・・{page}待ってるだけじゃ{br}何もよくならないのよね・・{close}",
-   "en": "{hero}... I...{page}You see... Until now, I've only{br}thought about my own feelings...{page}But... I can't go on like that, can I...?{page}Even now... I don't want you to be{br}put in danger...{page}But... If I...{page}Nothing will get better if all I do{br}is wait...{close}",
+   "en": "{hero}... I...{page}You see... Until now, I've only{br}thought about my own feelings...{page}But... I can't go on like that, can I...?{page}Even now... I don't want you to be{br}put in danger...{page}But... If things stay that way...{page}Nothing will get better if all I do{br}is wait...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -1747,7 +1747,7 @@
   {
    "id": "rom.0F5D4",
    "jp": "一緒に来てくれたら{br}うれしいなっ！！{br}なんちて・・・{close}",
-   "en": "I'd be happy if you came along!!{br}Just kidding...{close}",
+   "en": "It'd be great if you came along too!!{br}Just kidding...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1

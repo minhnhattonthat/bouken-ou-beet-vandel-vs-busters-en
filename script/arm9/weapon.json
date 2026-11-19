@@ -1076,7 +1076,7 @@
   {
    "id": "a9.weapon.033.desc",
    "jp": "複合特殊鋼材でできた槍",
-   "en": "Special steel blend spear.",
+   "en": "Spear of special steel blend.",
    "kind": "weapon.desc",
    "addr": "0215965C",
    "max": 72
@@ -1396,7 +1396,7 @@
   {
    "id": "a9.weapon.043.desc",
    "jp": "複合特殊鋼材でできた槍斧",
-   "en": "Special steel blend glaive.",
+   "en": "Glaive of special steel blend.",
    "kind": "weapon.desc",
    "addr": "0215C08C",
    "max": 72
@@ -1684,7 +1684,7 @@
   {
    "id": "a9.weapon.052.desc",
    "jp": "ベカトルテ鋼でできた片手剣",
-   "en": "Bekatorte Steel 1H sword",
+   "en": "Bekatorte Steel one-hander",
    "kind": "weapon.desc",
    "addr": "0215E684",
    "max": 72
@@ -1748,7 +1748,7 @@
   {
    "id": "a9.weapon.054.desc",
    "jp": "非常に強い金属でできた片手剣",
-   "en": "Superstrong metal 1H sword",
+   "en": "Superstrong one-hand sword",
    "kind": "weapon.desc",
    "addr": "0215EEF4",
    "max": 72
@@ -2004,7 +2004,7 @@
   {
    "id": "a9.weapon.062.desc",
    "jp": "ベカトルテ鋼でできた投剣",
-   "en": "Bekatorte Steel throwknife",
+   "en": "Made of Bekatorte Steel.",
    "kind": "weapon.desc",
    "addr": "021610B4",
    "max": 72
@@ -2068,7 +2068,7 @@
   {
    "id": "a9.weapon.064.desc",
    "jp": "非常に強い金属でできた投剣",
-   "en": "Superstrong metal throwknife",
+   "en": "Ultra-tough Throwing Sword",
    "kind": "weapon.desc",
    "addr": "02161924",
    "max": 72
@@ -2260,7 +2260,7 @@
   {
    "id": "a9.weapon.070.desc",
    "jp": "レアメタルでできた両手剣",
-   "en": "Rare metal two-hand sword",
+   "en": "Rare metal Two-Hand Sword",
    "kind": "weapon.desc",
    "addr": "02163274",
    "max": 72
@@ -2324,7 +2324,7 @@
   {
    "id": "a9.weapon.072.desc",
    "jp": "ベカトルテ鋼でできた両手剣",
-   "en": "Bekatorte Steel 2H sword",
+   "en": "Bekatorte Steel two-hander",
    "kind": "weapon.desc",
    "addr": "02163AE4",
    "max": 72
@@ -2356,7 +2356,7 @@
   {
    "id": "a9.weapon.073.desc",
    "jp": "複合特殊鋼材でできた両手剣",
-   "en": "Composite steel 2H sword",
+   "en": "Composite steel two-hander",
    "kind": "weapon.desc",
    "addr": "02163F1C",
    "max": 72
@@ -2388,7 +2388,7 @@
   {
    "id": "a9.weapon.074.desc",
    "jp": "非常に強い金属でできた両手剣",
-   "en": "Superstrong metal 2H sword",
+   "en": "Superstrong two-hand sword",
    "kind": "weapon.desc",
    "addr": "02164354",
    "max": 72
@@ -3060,7 +3060,7 @@
   {
    "id": "a9.weapon.095.desc",
    "jp": "青銅で強化した合成弓",
-   "en": "Bronze-set composite bow",
+   "en": "Bronze-bound composite bow",
    "kind": "weapon.desc",
    "addr": "02169BEC",
    "max": 72
@@ -3092,7 +3092,7 @@
   {
    "id": "a9.weapon.096.desc",
    "jp": "銅で強化した合成弓",
-   "en": "Copper-set composite bow",
+   "en": "Copper-bound composite bow",
    "kind": "weapon.desc",
    "addr": "0216A024",
    "max": 72
@@ -3668,7 +3668,7 @@
   {
    "id": "a9.weapon.114.desc",
    "jp": "銃とナックルの長所を持つ武器",
-   "en": "Gun and knuckle strengths",
+   "en": "Gun and knuckle hybrid",
    "kind": "weapon.desc",
    "addr": "0216EC14",
    "max": 72
@@ -5204,7 +5204,7 @@
   {
    "id": "a9.weapon.162.desc",
    "jp": "複合特殊鋼材でできた円月輪",
-   "en": "Special steel composite ring",
+   "en": "Composite steel Chakram",
    "kind": "weapon.desc",
    "addr": "0217B694",
    "max": 72

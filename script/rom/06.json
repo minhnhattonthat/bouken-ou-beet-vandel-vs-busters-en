@@ -899,7 +899,7 @@
   {
    "id": "rom.19318",
    "jp": "フラフラ歩いてると{br}トラップにひっかかって{br}命がいくらあっても足りないぜ・・・{close}",
-   "en": "Wander around carelessly and you'll{br}blunder into traps. No number of{br}lives will save you...{close}",
+   "en": "Wander around carelessly and you'll{br}stumble into traps. You could never{br}have enough lives...{close}",
    "kind": "msg",
    "speaker": "スレッド",
    "refs": 1
@@ -1743,7 +1743,7 @@
   {
    "id": "rom.1AF34",
    "jp": "・・・・・・{br}フムフム・・・{page}願いが込められた　手作りのお守り・・・{br}って{close}",
-   "en": "... Uh-huh...{page}A handmade charm with a wish{br}woven into it... You mean...{close}",
+   "en": "... Uh-huh...{page}A handmade charm with a wish{br}woven into it... You say?{close}",
    "kind": "msg",
    "speaker": "ゴラン",
    "refs": 1

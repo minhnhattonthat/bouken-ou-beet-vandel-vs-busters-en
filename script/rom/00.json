@@ -597,7 +597,7 @@
   {
    "id": "rom.02130",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -657,7 +657,7 @@
   {
    "id": "rom.022BC",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -687,7 +687,7 @@
   {
    "id": "rom.02338",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -777,7 +777,7 @@
   {
    "id": "rom.024CC",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -807,7 +807,7 @@
   {
    "id": "rom.02564",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -837,7 +837,7 @@
   {
    "id": "rom.0260C",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -943,7 +943,7 @@
   {
    "id": "rom.0285C",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -973,7 +973,7 @@
   {
    "id": "rom.02940",
    "jp": "おじさん",
-   "en": "Old Man",
+   "en": "Man",
    "kind": "speaker",
    "refs": 1
   },
@@ -1311,7 +1311,7 @@
   {
    "id": "rom.03294",
    "jp": "（これはね{br}いつもの夫婦ゲンカなんだ・・・）{close}",
-   "en": "(See, this is their usual{br}married-couple quarrel...){close}",
+   "en": "(They always bicker like an old{br}married couple...){close}",
    "kind": "msg",
    "speaker": "キッス",
    "refs": 1
@@ -1491,7 +1491,7 @@
   {
    "id": "rom.03E34",
    "jp": "早く　仇のヴァンデルを{br}見つけなければな・・・{page}こちらでも情報を　集めようと{br}思っておるぞ・・・{page}引き続き　全面的に協力するつもりじゃ{br}お互いがんばろう・・・{page}{hero}も{br}情報を集めてくれ・・・{br}よろしく頼むぞ・・・{close}",
-   "en": "We must find the Vandel you seek{br}revenge on soon...{page}I intend to gather information here{br}as well...{page}You shall continue to have my full{br}support. Let us both do our best...{page}Gather whatever information you{br}can too, {hero}... I'm counting{br}on you...{close}",
+   "en": "We must soon find the Vandel who{br}killed your father...{page}I intend to gather information here{br}as well...{page}You shall continue to have my full{br}support. Let us both do our best...{page}Gather whatever information you{br}can too, {hero}... I'm counting{br}on you...{close}",
    "kind": "msg",
    "speaker": "鑑定士",
    "refs": 1

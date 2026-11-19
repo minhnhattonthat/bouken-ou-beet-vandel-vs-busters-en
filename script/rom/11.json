@@ -350,7 +350,7 @@
   {
    "id": "rom.45344",
    "jp": "おい！　まさか　君も{br}この島のヒミツを　探しに{br}きたんじゃないだろうね・・・{page}このベカトルテ近海では{br}この島は　最近ちょっとした{br}話題なんだ・・・{page}もちろん　このベカトルテ近海最強の{br}「鋼鉄の爪」ディアム様の耳にも{br}そのウワサが届いたってわけさ・・・{page}なんせあの「強欲君主」が乗り込んで{br}きたんだから　なにかあるに{br}ちがいないってね・・・{page}長い角が目立つ部下を　連れているって{br}ウワサだけど・・・{page}・・・！！{page}しまった！！　まさかその角っ！？{br}・・・つい　口がすべってしまった！！{page}まぁ　いい・・・{br}口を封じれば　いいだけだからな！！{page}セアーーーーーーッ！！{close}",
-   "en": "Hey! Seeking this island's{br}secret too?{page}It's the talk of the Bekatorte Seas{br}lately! Even I, \"Steel Claw\"{br}Diam-sama, strongest in these{page}seas, heard!{page}If the \"Greedy Overlord\" came,{br}something must be here! They say{br}his underling has striking long{page}horns...{page}...!! Blast! Those horns!? I let that slip!{page}No matter... I'll silence you!{br}SEYAAAAAA!!{close}",
+   "en": "Hey! You're not after this island's{br}secret too, are you?{page}This island is the talk of the{br}Bekatorte Seas lately...{page}Even I, \"Steel Claw\" Diam-sama, the{br}strongest in these seas, have heard{br}the rumors...{page}If the \"Greedy Overlord\" himself{br}came here, there must be something{br}to it...{page}They say he has an underling with{br}strikingly long horns...{page}...!!{page}Blast!! Those horns!? I've said{br}too much!!{page}No matter... I'll just have to{br}silence you!!{page}SEYAAAAAA!!{close}",
    "kind": "msg",
    "speaker": "ディアム",
    "refs": 1
@@ -1019,7 +1019,7 @@
   {
    "id": "rom.46E34",
    "jp": "ハハ・・・　マジ？{br}このあたいが　キャーだって・・・{br}これ　マジで　やばいよ・・・{page}{hero}・・・{br}あたい　ダメかもしれない・・・{close}",
-   "en": "Haha... Seriously? Did I just scream{br}like a little girl...? This is really bad...{page}{hero}... I don't think I'm gonna{br}make it...{close}",
+   "en": "Haha... Seriously? Me, screaming like{br}that...? This is really bad...{page}{hero}... I don't think I'm gonna{br}make it...{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -1521,7 +1521,7 @@
   {
    "id": "rom.47C88",
    "jp": "あの里長{br}ウソをついていましたね・・・{page}里長は　生かしておくべきでしたね・・・{page}さて{vandel}様は{br}どうされますか・・・・・・{br}拝見させていただきましょう・・・{page}ウフ・・・{br}ウフフフフッ・・・！！{close}",
-   "en": "That Village Chief was lying...{page}We really should have kept him alive...{page}Now, what will you do, {vandel}{br}-sama...? Allow me to observe...{page}Hmhm... Hmhmhmhm...!!{close}",
+   "en": "That Village Chief was lying...{page}We really should have kept him alive...{page}Now, what will you do, {vandel}...?{br}Allow me to observe...{page}Ufu... Ufufufufu...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1536,7 +1536,7 @@
   {
    "id": "rom.47DDC",
    "jp": "いやいや・・・{br}{vandel}様{br}毎度　お見事です！！{page}この邪悪なる冥力にあふれた{br}金のかがやき！！{page}相変わらず{br}すばらしいですね・・・！！{page}では　またひとつ里を　征服されたので{br}「星」　をひとつ進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
-   "en": "My, my... {vandel} -sama, splendid{br}work as always!!{page}This golden radiance, brimming with{br}wicked Dark Power!!{page}As magnificent as ever...!!{page}Now, for conquering another village, I{br}present you with another \"Star\"!!{page}Please, accept it...!{close}",
+   "en": "My, my... {vandel}-sama, splendid{br}work as always!!{page}This golden radiance, brimming with{br}wicked Dark Power!!{page}As magnificent as ever...!!{page}Now, for conquering another village, I{br}present you with another \"Star\"!!{page}Please, accept it...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1551,7 +1551,7 @@
   {
    "id": "rom.47F40",
    "jp": "いやいや・・・お見事です！！{page}{vandel}様{br}相変わらず　すばらしいですね・・・！！{page}西の島の「封印のリング」の発見と破壊{br}そしてご報告　ご苦労さまでした{page}では　またひとつ{br}「星」　を進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
-   "en": "My, my... Splendid work!!{page}{vandel} -sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}West Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with{br}another \"Star\"!!{page}Please, accept it...!{close}",
+   "en": "My, my... Splendid work!!{page}{vandel}-sama, you are as{br}magnificent as ever...!!{page}Thank you for finding and destroying{br}West Island's \"Sealing Rings,\" and{br}reporting back.{page}Now, I present you with{br}another \"Star\"!!{page}Please, accept it...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

@@ -732,7 +732,7 @@
   {
    "id": "quest.02E64",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh{br}and elsewhere.",
+   "en": "Hunt {monster} in Pasero{br}Marsh and elsewhere. Please{br}defeat {count} in all.",
    "kind": "desc",
    "refs": 1
   },
@@ -753,7 +753,7 @@
   {
    "id": "quest.02EB4",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh{br}and elsewhere.",
+   "en": "Hunt {monster} in Pasero{br}Marsh and elsewhere. Please{br}defeat {count} in all.",
    "kind": "desc",
    "refs": 1
   },
@@ -774,7 +774,7 @@
   {
    "id": "quest.02F04",
    "jp": "パセロ湿地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in Pasero Marsh{br}and elsewhere.",
+   "en": "Hunt {monster} in Pasero{br}Marsh and elsewhere. Please{br}defeat {count} in all.",
    "kind": "desc",
    "refs": 1
   },
@@ -1173,7 +1173,7 @@
   {
    "id": "quest.03518",
    "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Muterin Mountains{br}and elsewhere.",
+   "en": "Hunt {monster} in the{br}Muterin Mountains and{br}elsewhere. Please defeat {count}{br}in all.",
    "kind": "desc",
    "refs": 1
   },
@@ -1194,7 +1194,7 @@
   {
    "id": "quest.0356C",
    "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Muterin Mountains{br}and elsewhere.",
+   "en": "Hunt {monster} in the{br}Muterin Mountains and{br}elsewhere. Please defeat {count}{br}in all.",
    "kind": "desc",
    "refs": 1
   },
@@ -1215,7 +1215,7 @@
   {
    "id": "quest.035C0",
    "jp": "ミュテリン山地などに出没する{br}{monster}を{count}匹{br}倒してほしい",
-   "en": "Please defeat {count} of the{br}monsters called {monster}{br}found in the Muterin Mountains{br}and elsewhere.",
+   "en": "Hunt {monster} in the{br}Muterin Mountains and{br}elsewhere. Please defeat {count}{br}in all.",
    "kind": "desc",
    "refs": 1
   },

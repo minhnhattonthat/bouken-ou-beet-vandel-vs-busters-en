@@ -172,7 +172,7 @@
   {
    "id": "rom.395E8",
    "jp": "薬水の噴水だ{br}体力・天力が回復した！{close}",
-   "en": "It's a fountain of medicinal water.{br}Health and Divine Power restored!{close}",
+   "en": "It's a healing fountain. Health and{br}Divine Power restored!{close}",
    "kind": "msg",
    "refs": 1
   },

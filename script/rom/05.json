@@ -2275,7 +2275,7 @@
   {
    "id": "rom.17FD0",
    "jp": "はい・・・{br}って　オマエ・・・{close}",
-   "en": "Right... Wait, you...!{close}",
+   "en": "Yes... Hey, you...!{close}",
    "kind": "msg",
    "speaker": "グレスト",
    "refs": 1

@@ -226,28 +226,28 @@
   {
    "id": "rom.291E0",
    "jp": "才牙で破壊しますか？{close}",
-   "en": "Break it with a Saiga?{close}",
+   "en": "Break them with a Saiga?{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.291F8",
    "jp": "倒れた木を壊した！{close}",
-   "en": "You broke the fallen tree!{close}",
+   "en": "You smashed the fallen tree!{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.29210",
    "jp": "壊すのをやめました{close}",
-   "en": "You decided not to break it.{close}",
+   "en": "You decided not to break them.{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.29228",
    "jp": "壊すのをやめました{close}",
-   "en": "You decided not to break it.{close}",
+   "en": "You decided not to break them.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -765,7 +765,7 @@
   {
    "id": "rom.2AD18",
    "jp": "{hero}に{br}押し付けているだけなのよね・・・{page}危険なことは　全部{br}{hero}に　やらせて・・・{page}{hero}に{br}もしものことがあったら・・・{br}わたし・・・　わたし・・・{page}ウッ・・・　グスッ・・・{close}",
-   "en": "We're just leaving it all to{br}you, {hero}...{page}Making you do everything{br}dangerous, {hero}...{page}If anything happened to you,{br}{hero}... I... I...{page}Ugh... *sniff*...{close}",
+   "en": "We're just leaving it all to{br}you, {hero}...{page}Making you do everything{br}dangerous, {hero}...{page}If anything happened to you,{br}{hero}... I... I...{page}*sob*... *sniff*...{close}",
    "kind": "msg",
    "speaker": "レナ",
    "refs": 1
@@ -973,7 +973,7 @@
   {
    "id": "rom.2B29C",
    "jp": "依頼されていたモンスターを{br}無事に討伐することができた！{br}鑑定小屋へ報告に行こう！{close}",
-   "en": "You defeated the monsters for the{br}request! Go report to the{br}Appraisal Hut!{close}",
+   "en": "You defeated the monsters named{br}in the request! Go report to the{br}Appraisal Hut!{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -1230,7 +1230,7 @@
   {
    "id": "rom.2BE94",
    "jp": "まさか黄金城への橋が壊されてしまうとは・・・{br}いったいどうすればいいんじゃ・・・{page}そういえば、この里に{br}橋をかける名人がきていたはず・・・{br}その者と話をしてみてくれんか？{close}",
-   "en": "To think they'd destroy the bridge{br}to the Golden Castle... What are we{br}to do...?{page}Come to think of it, a Master bridge{br}builder should be here in the village...{br}Would you speak with him?{close}",
+   "en": "To think they'd destroy the bridge{br}to the Golden Castle... What are we{br}to do...?{page}Come to think of it, the Bridge{br}Master should be here in the village...{br}Would you speak with him?{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1

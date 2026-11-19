@@ -86,7 +86,7 @@
   {
    "id": "rom.401A0",
    "jp": "またまた{br}「強欲君主」ハーデンさま・・・！{page}毎度　お険しい顔を{br}されてますねぇ・・・！！{page}いやぁ・・・{br}すばらしいです・・・！！{page}ヴァンデルたるもの{br}こうでなくてはっ・・・！{page}しかし　このまばゆいばかりの{br}金の輝き！{page}本当に　すばらしいですね・・・！！{page}この双子島で産出される　主な鉱石は{br}銀ですが　実際にはそれとほぼ同量の{br}金の鉱脈も存在しております・・・{page}そして　この島に住んでいた古代人は{br}その存在を知り　巨大な２体の女神像と{page}各地に散らばった　銀の台座に祭られた{br}１８個の「封印のリング」によって{br}この金の鉱脈を封印したのです・・・{page}そこに目をつけたのが{br}{vandel}様・・・{br}あなただった・・・！{close}",
-   "en": "Oh, \"Greedy Overlord\" Harden-sama!{br}As stern as ever! Splendid! Just as a{br}Vandel should be!{page}And this dazzling gold! Truly superb!{page}Silver is the Twin Islands' main Ore,{br}yet their gold veins hold almost{br}as much.{page}The ancient islanders knew this.{br}They sealed the gold veins with two{br}giant goddess statues and{page}eighteen \"Sealing Rings\" enshrined{br}on silver pedestals across{br}the islands.{page}You saw the{br}opportunity, {vandel}-sama!{close}",
+   "en": "Ah, \"Greedy{br}Overlord\" Harden-sama...!{page}As stern as ever...!!{page}My... How splendid...!!{page}Just as a Vandel should be...!{page}And this dazzling golden glow!{page}Truly superb...!!{page}Silver is the Twin Islands' main Ore,{br}yet their gold veins hold almost{br}as much...{page}The ancient islanders knew of this{br}gold. They sealed it with two giant{br}goddess statues and{page}eighteen \"Sealing Rings\" enshrined{br}on silver pedestals across{br}the islands...{page}And you saw the{br}opportunity, {vandel}-sama...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -116,7 +116,7 @@
   {
    "id": "rom.40510",
    "jp": "いやぁ・・・これはこれは・・・{br}私としたことが{br}申し訳ございません・・・！！{page}ハーデン様・・・{br}{vandel}様・・・{br}ご苦労さまでした{page}では「銀の女神像」を破壊して{br}里を滅ぼした{br}{vandel}様には{page}「星」を　ひとつ進呈いたします！！{page}さぁ　受け取ってください・・・！{close}",
-   "en": "Oh dear... Dear me... How very{br}careless of me! My{br}sincerest apologies...!!{page}Harden-sama... {vandel}-sama...{br}Splendid work.{page}Now, for destroying the \"Silver{br}Goddess Statue\" and wiping out the{br}village, I hereby present{page}{vandel}-sama with one \"Star\"!!{page}Please, accept your reward...!{close}",
+   "en": "Oh dear... Dear me... How very{br}careless of me! My{br}sincerest apologies...!!{page}Harden-sama... {vandel}-sama...{br}Splendid work.{page}Now, {vandel}-sama, for{br}destroying the \"Silver Goddess{br}Statue\" and wiping out the{page}village...{page}I hereby award you one \"Star\"!!{page}Please, accept your reward...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -131,7 +131,7 @@
   {
    "id": "rom.40618",
    "jp": "「二ッ星」おめでとうございます！！{page}しかし目指す「七ッ星」までは{br}まだまだ遠い道のりですね・・・！！{page}そういえば　門の前の噴水ですが{br}冥力が噴出しているようですね{page}みなさまの体力や冥力の回復に{br}役に立ちそうな気がしますので{br}ご活用されてはいかがでしょうか？{page}ひきつづき{br}がんばってくださいね・・・！{page}では　失礼します・・・！！{close}",
-   "en": "Congratulations on{br}becoming \"Two-Star\"!!{page}Though you still have quite a way to{br}go before reaching your goal{br}of \"Seven-Star\"...!!{page}Oh, that fountain in front of the{br}gate appears to be gushing{br}Dark Power.{page}I suspect it could restore your{br}health and Dark Power. Why not put{br}it to use?{page}Do keep up the good work...!{page}Now, if you'll excuse me...!!{close}",
+   "en": "Congratulations on your promotion{br}to \"Two-Star\"!!{page}Though you still have quite a way to{br}go before reaching your goal{br}of \"Seven-Star\"...!!{page}Oh, that fountain in front of the{br}gate appears to be gushing{br}Dark Power.{page}I suspect it could restore your{br}health and Dark Power. Why not put{br}it to use?{page}Do keep up the good work...!{page}Now, if you'll excuse me...!!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -340,7 +340,7 @@
   {
    "id": "rom.41378",
    "jp": "それはそうと・・・{br}{vandel}様・・・{page}あの島の　金の鉱脈に複雑に{br}絡み合うようにして眠る　冥力の{page}鉱脈とも言える「冥脈」の存在を{br}知っての　今回のご出陣・・・{page}いやぁ・・・{br}なんともすばらしい！！{page}ハーデン様は「封印のリング」の{br}破壊によってもたらされる黄金が{br}目当てですが{page}あなた様はちがう・・・{page}あなた様は　強大な{br}「冥脈」の力を手に入れ{page}「七ッ星」ヴァンデルにも{br}匹敵する力を　手にいれようと{br}お考えですね・・・{page}いまだ　誰も気付かなかったことを{br}「二ッ星」のあなた様がなされようと{br}している・・・{page}いやぁ・・・{br}考えただけでわくわくしてきます・・・！{close}",
-   "en": "Speaking of which...{br}{vandel}-sama...{page}You embarked on this expedition{br}knowing of the \"Dark Vein\" that lies{br}dormant, intricately entwined with{page}the island's gold deposits...{page}A vein of Dark Power, one might{br}call it...{page}My, my... How utterly splendid!!{page}Harden-sama seeks the gold{br}released by destroying the{br}\"Sealing Rings\"...{page}But you have something else{br}in mind...{page}You intend to claim the tremendous{br}power of the \"Dark Vein\"...{page}And gain strength to rival even a{br}\"Seven-Star\" Vandel... Is that{br}not so...?{page}Though you are still \"Two-Star,\" you{br}are pursuing an opportunity no one{br}else has even noticed...{page}Oh, just thinking about it fills me{br}with excitement...!{close}",
+   "en": "Speaking of which...{br}{vandel}-sama...{page}You set out knowing what lies{br}entwined with the island's{br}gold deposits...{page}The \"Dark Vein\"... A vein of dormant{br}Dark Power...{page}My, my... How utterly splendid!!{page}Harden-sama seeks the gold{br}released by destroying the{br}\"Sealing Rings\"...{page}But you have something else{br}in mind...{page}You intend to claim the tremendous{br}power of the \"Dark Vein\"...{page}And gain strength to rival even a{br}\"Seven-Star\" Vandel... Is that{br}not so...?{page}Though you are still \"Two-Star,\" you{br}are pursuing an opportunity no one{br}else has even noticed...{page}Oh, just thinking about it fills me{br}with excitement...!{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -429,7 +429,7 @@
   {
    "id": "rom.419B0",
    "jp": "まぁまぁまぁ・・・{br}そう熱くならずに・・・{page}ビルドアントは{br}値がはりますからね・・・{page}そこで私の出番！{br}ということなんですが・・・{page}はじめまして・・・{br}私は「ガネール」・・・{page}みなさまからは{br}「暗黒の世紀の催促人」と{br}呼ばれております・・・{page}この世は魔札が全て・・・{br}魔札本位制でございます・・・{br}何をするにも魔札が必要・・・{page}しかし　手元の魔札が残り寂しい時も{br}あるでしょう・・・{page}そんな時に　わたくしが魔札を{br}お貸しするわけです・・・{page}もちろん　タダでお貸しするわけには{br}いきません・・・{page}ほんの少し　利子をつけて{br}返していただきます・・・{page}ほんの少しだけね・・・{br}クフフ・・・{close}",
-   "en": "Now, now... Please, no need to get{br}so heated...{page}Build Ants are rather expensive,{br}after all...{page}And that is where my services{br}come in!{page}A pleasure to meet you... My name{br}is \"Ganeer\"...{page}I am known as the \"Debt Collector of{br}the Dark Century\"...{page}Dark Notes are everything in this{br}world... We operate on the Dark Note{br}standard... Whatever you do, you{page}need Dark Notes...{page}Of course, there may be times when{br}your funds are looking{br}rather meager...{page}That is when I can offer you a loan{br}of Dark Notes...{page}Naturally, I cannot lend them free{br}of charge...{page}You simply repay me with a tiny bit{br}of interest...{page}Just a tiny bit... Kuhuhu...{close}",
+   "en": "Now, now... Please, no need to get{br}so heated...{page}Build Ants are rather expensive,{br}after all...{page}And that is where my services{br}come in!{page}A pleasure to meet you... My name{br}is \"Ganeer\"...{page}I am known as the \"Debt Collector of{br}the Dark Century\"...{page}Dark Notes are everything... They{br}set the standard here... You need{br}them for everything...{page}Of course, there may be times when{br}your funds are looking{br}rather meager...{page}That is when I can offer you a loan{br}of Dark Notes...{page}Naturally, I cannot lend them free{br}of charge...{page}You simply repay me with a tiny bit{br}of interest...{page}Just a tiny bit... Kufufu...{close}",
    "kind": "msg",
    "speaker": "ガネール",
    "refs": 1
@@ -474,7 +474,7 @@
   {
    "id": "rom.41CD8",
    "jp": "はい・・・？{br}もっとでございますか・・・？{page}あ　ありがとうございます・・・{br}では　これで・・・クフフ・・・{close}",
-   "en": "Pardon...? You would like more...?{page}Th-thank you very much... Then,{br}here you are... Kuhuhu...{close}",
+   "en": "Pardon...? You would like more...?{page}Th-thank you very much... Then,{br}here you are... Kufufu...{close}",
    "kind": "msg",
    "speaker": "ガネール",
    "refs": 1
@@ -737,7 +737,7 @@
   {
    "id": "rom.42518",
    "jp": "「封印のリング」ごとき{br}ヴァンデルの力ならば{br}一撃で破壊できる・・・{page}一撃すら　必要ないかもな・・・{page}「封印のリング」を見つけたら{br}とにかく　触れてみろ・・・{page}たったこれだけで{br}「封印のリング」の破壊は完了！！{page}クックックッ・・・{page}たまらんな・・・{page}なーに　心配するな・・・{page}いくら　ひよっこの貴様でも{br}間違いなく楽勝だ・・・{page}行けっ・・・！{br}そして　ワシの思い通り{br}島中を　黄金に染めるのだっ！！{close}",
-   "en": "A Vandel's power can destroy a{br}mere \"Sealing Ring\" in one blow...{page}You might not even need to{br}strike it...{page}When you find a \"Sealing Ring,\" just{br}try touching it...{page}That's all it takes to destroy a{br}\"Sealing Ring\"!!{page}Heh heh heh...{page}I can hardly stand it...{page}Oh, don't worry...{page}Even a greenhorn like you can't{br}possibly mess this up...{page}Go...! Turn these whole islands to{br}gold, just as I desire!!{close}",
+   "en": "A Vandel's power can destroy a{br}mere \"Sealing Ring\" in one blow...{page}You might not even need to{br}strike it...{page}When you find a \"Sealing Ring,\" just{br}try touching it...{page}That's all it takes to destroy a{br}\"Sealing Ring\"!!{page}Heh heh heh...{page}I can hardly stand it...{page}Oh, don't worry...{page}Even a greenhorn like you can't{br}possibly mess this up...{page}Go...! Turn every inch of these{br}islands to gold, just as I desire!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -782,7 +782,7 @@
   {
    "id": "rom.42828",
    "jp": "ガーッハッハッ！！{close}",
-   "en": "Gwahaha!!{close}",
+   "en": "Gwahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -827,7 +827,7 @@
   {
    "id": "rom.42A18",
    "jp": "ガーッハッハッ！！{close}",
-   "en": "Gwahaha!!{close}",
+   "en": "Gwahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1172,7 +1172,7 @@
   {
    "id": "rom.4330C",
    "jp": "おめでとうございます！！{page}しかし目指す「七ッ星」までは{br}まだまだ遠い道のりですね・・・！！{page}ひきつづき{br}がんばってください・・・！{br}では　・・・！！{page}あ　そうそう・・・{br}これは　ハーデン様から{br}お預かりしていた　ビルドアントです{page}金の採掘所の　建設用にご注文{br}いただきました{close}",
-   "en": "Congratulations!!{page}Though you still have quite a way to{br}go before your goal{br}of \"Seven-Star\"...!!{page}Keep up the fine work...!{br}Now, farewell...!!{page}Oh, yes... These are the Build Ants{br}entrusted to me by Harden-sama.{page}He ordered them to build a gold mine.{close}",
+   "en": "Congratulations!!{page}Though you still have a long way to{br}go to reach the rank{br}of \"Seven-Star\"...!!{page}Keep up the fine work...!{br}Now, farewell...!!{page}Oh, yes... These are the Build Ants{br}entrusted to me by Harden-sama.{page}He ordered them to build a gold mine.{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

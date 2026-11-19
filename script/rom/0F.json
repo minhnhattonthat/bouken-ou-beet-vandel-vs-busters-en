@@ -3209,14 +3209,14 @@
   {
    "id": "rom.3E4B4",
    "jp": "薬草を手に入れた{close}",
-   "en": "Obtained Medicinal Herb.{close}",
+   "en": "Obtained a Medicinal Herb.{close}",
    "kind": "msg",
    "refs": 1
   },
   {
    "id": "rom.3E4C8",
    "jp": "薬草を手に入れた{close}",
-   "en": "Obtained Medicinal Herb.{close}",
+   "en": "Obtained a Medicinal Herb.{close}",
    "kind": "msg",
    "refs": 1
   },
@@ -3286,7 +3286,7 @@
   {
    "id": "rom.3E568",
    "jp": "アイテムゲット",
-   "en": "Item Get",
+   "en": "Item Acquired",
    "kind": "msg",
    "refs": 1
   },
@@ -3300,7 +3300,7 @@
   {
    "id": "rom.3E588",
    "jp": "クエストクリア",
-   "en": "Quest Clear",
+   "en": "Quest Complete",
    "kind": "msg",
    "refs": 1
   },
@@ -3510,7 +3510,7 @@
   {
    "id": "rom.3EF50",
    "jp": "ガーッハッハッ！！{close}",
-   "en": "Gwahaha!!{close}",
+   "en": "Gwahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3623,7 +3623,7 @@
   {
    "id": "rom.3F514",
    "jp": "ガーッハッハッ！！{close}",
-   "en": "Gwahaha!!{close}",
+   "en": "Gwahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -3803,7 +3803,7 @@
   {
    "id": "rom.3FC88",
    "jp": "ガーッハッハッ！！{br}見ろ　あのゴミをっ・・・{close}",
-   "en": "Gwahaha!! Look at that trash...{close}",
+   "en": "Gwahahaha!! Look at that trash...{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1

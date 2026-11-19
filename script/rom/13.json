@@ -738,7 +738,7 @@
   {
    "id": "rom.4E1F4",
    "jp": "ガーッハッハッ！！{close}",
-   "en": "Gwahaha!!{close}",
+   "en": "Gwahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -806,7 +806,7 @@
   {
    "id": "rom.4E518",
    "jp": "ボロロッ♪　ボロォン♪　ボロン♪{close}",
-   "en": "Strum... Strummm... Strum...{close}",
+   "en": "*strum*... *strummm*... *strum*...{close}",
    "kind": "msg",
    "speaker": "シャギーガール",
    "refs": 1
@@ -1024,7 +1024,7 @@
   {
    "id": "rom.4ECD4",
    "jp": "ガーッハッハッ！！！{close}",
-   "en": "Gwahaha!!!{close}",
+   "en": "Gwahahaha!!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -1242,7 +1242,7 @@
   {
    "id": "rom.4F798",
    "jp": "これは　これは{br}{vandel}様！{br}魔賓館へようこそ！！{page}腹心モンスター化を{br}ご利用いただいたようですね{page}ありがとうございます！！{page}腹心モンスターは{br}{vandel}様が{page}「七ッ星」になることを{br}強力にバックアップするでしょう{page}いやぁ　楽しみです・・・！！{page}その腹心モンスターのおすすめの{br}ご利用方法ですが・・・{close}",
-   "en": "Well, well, {vandel}-sama!{br}Welcome to the Vandel House!{page}I see you have used our monster{br}lieutenant promotion service.{page}Thank you very much!{page}Your monster lieutenant will be a{br}powerful ally in helping you become a{br}\"Seven-Star,\" {vandel}-sama.{page}Oh, I can hardly wait...!{page}Now, as for how best to employ your{br}monster lieutenant...{close}",
+   "en": "Well, well, {vandel}-sama!{br}Welcome to the Vandel House!{page}I see you've used our Lieutenant{br}Monster promotion service.{page}Thank you very much!{page}Your Lieutenant Monster will help{br}you, {vandel}-sama,{page}become a \"Seven-Star\" with its{br}powerful support.{page}Oh, I can hardly wait...!{page}Now, as for how best to employ your{br}Lieutenant Monster...{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1257,7 +1257,7 @@
   {
    "id": "rom.4F8C8",
    "jp": "効率よく　「封印のリング」の破壊を{br}進める方法の一つに{br}「軍団の派遣」がございます！{page}{vandel}様以外にも{br}リングの破壊を進める軍団があれば{page}多方向から島の攻略を進めることが{br}可能になります・・・！{page}軍団は　最大５名から構成されます{page}そして　その中の１名はリーダーとして{br}登録していただく必要があります{page}リーダーになることができるのは{br}ヴァンデルの　みなさんです{page}しかし　モンスターでも　魔賓館で{br}腹心モンスターの手続きをしていただくと{br}リーダーにすることが　可能なのです！{page}しかし　残念ながら　腹心モンスターの{br}下には　ヴァンデルのみなさまを{br}編成に加えることはできません・・・{page}あしからず　ご了承くださいませ・・・{page}今の説明は{br}ご理解いただけましたか？{close}",
-   "en": "One way to destroy \"Sealing Rings\"{br}efficiently is to \"Dispatch an Army\"!{page}With another army destroying rings{br}alongside you, {vandel}-sama,{br}you can conquer the island on{page}several fronts...!{page}Each army may contain up to five{br}members. You will need to register{br}one of them as its leader.{page}Any Vandel may serve as a leader.{page}Monsters can also lead, provided{br}you complete our monster{br}lieutenant promotion procedure{page}at the Vandel House!{page}Regrettably, Vandels cannot be{br}assigned to serve under a{br}monster lieutenant...{page}We kindly ask for{br}your understanding...{page}Was that explanation clear?{close}",
+   "en": "One way to destroy \"Sealing Rings\"{br}efficiently is to \"Dispatch an Army\"!{page}With another army destroying rings{br}alongside you, {vandel}-sama...{page}You can conquer the island on{br}several fronts...!{page}Each army may contain up to{br}five members.{page}You will need to register one of{br}them as its leader.{page}Any Vandel may serve as a leader.{page}Monsters can also lead if promoted{br}to Lieutenant Monster at the{br}Vandel House!{page}Regrettably, Vandels cannot be{br}assigned to serve under a{br}Lieutenant Monster...{page}We kindly ask for{br}your understanding...{page}Was that explanation clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1
@@ -1287,7 +1287,7 @@
   {
    "id": "rom.4FD60",
    "jp": "長らく　販売を中止しており　ご迷惑を{br}おかけしていた「ホバーフィッシュ」が{br}魔賓館で　販売再開となりました！{page}移動できるポイントは{br}限られるものの{page}陸上を　コツコツ移動するよりも{br}はるかに早く{br}長距離を移動できます・・・！{page}この双子島ですと　そうですね・・・{br}黄金城から　リンナム氷河へ{br}移動できます・・・！！{page}少し　値は張りますが{br}ぜひお買い求めくださいませ・・・！！{page}魔賓館で　タロトスが　活きの良い{br}「ホバーフィッシュ」を　ご用意して{br}お待ちいたしております・・・！{page}ぜひ　魔賓館をご活用くださいね・・・！{page}今の説明は{br}ご理解いただけましたか？{close}",
-   "en": "Sorry for the long wait! \"Hoverfish\"{br}are back on sale at the{br}Vandel House!{page}Stops are limited, but long trips are{br}far faster than on foot!{page}Here on the Twin Islands... Yes, from{br}the Golden Castle to Rinnam Glacier!{page}A little pricey, but do buy one!{page}Tarotos awaits you at the Vandel{br}House with lively \"Hoverfish\"! Do{br}make use of our services!{page}Was that clear?{close}",
+   "en": "We apologize for the long wait!{br}\"Hoverfish\" are back on sale at the{br}Vandel House!{page}Though their stops are limited...{page}They make long journeys far swifter{br}than traveling on foot...!{page}Here on the Twin Islands... Yes, from{br}the Golden Castle to Rinnam Glacier!{page}A little costly, but we do hope you{br}will purchase one!{page}Tarotos awaits you at the Vandel{br}House with lively \"Hoverfish\"!{page}Do make use of the Vandel House...!{page}Was that explanation clear?{close}",
    "kind": "msg",
    "speaker": "シャギー",
    "refs": 1

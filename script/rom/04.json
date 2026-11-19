@@ -266,7 +266,7 @@
   {
    "id": "rom.10D14",
    "jp": "ガーッハッハッ！！{close}",
-   "en": "Gwahaha!!{close}",
+   "en": "Gwahahaha!!{close}",
    "kind": "msg",
    "speaker": "ハーデン",
    "refs": 1
@@ -581,7 +581,7 @@
   {
    "id": "rom.11438",
    "jp": "よろしく！{close}",
-   "en": "Glad to join you!{close}",
+   "en": "Glad to help!{close}",
    "kind": "msg",
    "speaker": "レジスタンスＢ",
    "refs": 1
@@ -1412,7 +1412,7 @@
   {
    "id": "rom.12D2C",
    "jp": "私を　呼び覚ましたのは君かね？{page}知的に考えたまえ・・・{br}私が石像から　出たという{br}ことはだな・・・{close}",
-   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone{br}statue means...{close}",
+   "en": "Are you the one who awakened me?{page}Apply your intellect... The fact that I{br}emerged from a stone{br}statue means...{close}",
    "kind": "msg",
    "speaker": "グリニデ",
    "refs": 1
@@ -1547,7 +1547,7 @@
   {
    "id": "rom.12FBC",
    "jp": "私を　呼び覚ましたのは君かね？{page}知的に考えたまえ・・・{br}私が石像から　出たという{br}ことはだな・・・{close}",
-   "en": "Are you the one who awakened me?{page}Think intellectually... The fact that I{br}emerged from a stone{br}statue means...{close}",
+   "en": "Are you the one who awakened me?{page}Apply your intellect... The fact that I{br}emerged from a stone{br}statue means...{close}",
    "kind": "msg",
    "speaker": "グリニデ",
    "refs": 1

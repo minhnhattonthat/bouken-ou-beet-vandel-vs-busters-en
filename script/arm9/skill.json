@@ -124,7 +124,7 @@
   {
    "id": "a9.skill.007.desc",
    "jp": "敵の左右を往復して攻撃",
-   "en": "Hits side to side",
+   "en": "Strikes from both sides",
    "kind": "skill.desc",
    "addr": "02142AAC",
    "max": 28
@@ -300,7 +300,7 @@
   {
    "id": "a9.skill.018.desc",
    "jp": "鉄球を回転させ水柱で攻撃",
-   "en": "Spin ball: water pillars",
+   "en": "Iron Ball: water pillars",
    "kind": "skill.desc",
    "addr": "02142DC4",
    "max": 28
@@ -316,7 +316,7 @@
   {
    "id": "a9.skill.019.desc",
    "jp": "鉄球で相手引き寄せ攻撃",
-   "en": "Ball pulls foes in to hit",
+   "en": "Iron Ball pulls foes in",
    "kind": "skill.desc",
    "addr": "02142E0C",
    "max": 28
@@ -444,7 +444,7 @@
   {
    "id": "a9.skill.027.desc",
    "jp": "振り回して周囲の敵を攻撃",
-   "en": "Swings at all round",
+   "en": "Swings at nearby foes",
    "kind": "skill.desc",
    "addr": "0214304C",
    "max": 28
@@ -572,7 +572,7 @@
   {
    "id": "a9.skill.035.desc",
    "jp": "前後方向へ同時攻撃",
-   "en": "Hits both sides at once",
+   "en": "Hits front and rear",
    "kind": "skill.desc",
    "addr": "0214328C",
    "max": 28
@@ -908,7 +908,7 @@
   {
    "id": "a9.skill.056.desc",
    "jp": "前方に冥力球を放つ",
-   "en": "Fires Dark Power orb",
+   "en": "Dark Power orb forward",
    "kind": "skill.desc",
    "addr": "02143874",
    "max": 28
@@ -940,7 +940,7 @@
   {
    "id": "a9.skill.058.desc",
    "jp": "その場に冥力輪を放つ",
-   "en": "Dark Power ring on spot",
+   "en": "Sets a Dark Power ring",
    "kind": "skill.desc",
    "addr": "02143904",
    "max": 28

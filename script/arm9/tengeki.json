@@ -860,7 +860,7 @@
   {
    "id": "a9.tengeki.035.desc",
    "jp": "攻撃を雷属性にする",
-   "en": "Attacks become thunder",
+   "en": "Adds thunder to attacks",
    "kind": "tengeki.desc",
    "addr": "021453C4",
    "max": 76

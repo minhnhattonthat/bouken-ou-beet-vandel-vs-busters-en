@@ -130,7 +130,7 @@
   {
    "id": "rom.04A90",
    "jp": "{hero}！{br}これからモンスター退治？{page}キッスから　聞いたわ・・・{br}まだ　新人さんなんだってね{page}ビィトが　お世話になってるお礼と{br}言っちゃ　なんだけど・・・{br}武器について教えてあげるね{page}{hero}って{br}何の武器が得意なの？{page}あのね　武器にはいろんな種類があるの{br}剣とか　槍とか　銃とか・・・{br}武器屋を　のぞいてみるといいわ・・・{page}{hero}にも{br}得手不得手が　あると思うから{br}装備できない武器も　あると思うの・・・{page}わたしなんか　斧は重たいから{br}持てないし・・・{br}その辺は　いろいろ試してみてね{close}",
-   "en": "{hero}! Off to hunt monsters?{br}Kissu says you're new at this.{page}To thank you for helping Beet, I'll{br}explain weapons. What do you{br}use, {hero}?{page}Swords, spears, guns... There are{br}lots of types. Try the Weapon Shop.{page}You'll have strengths and{br}weaknesses, {hero}, so some{br}weapons may be off limits. I can't{page}carry axes. Too heavy! Try different{br}ones, okay?{close}",
+   "en": "{hero}! Off to hunt monsters?{br}Kissu says you're new at this.{page}To thank you for helping Beet, I'll{br}explain weapons. What weapon are{br}you best with, {hero}?{page}Swords, spears, guns... There are{br}lots of types. Try the Weapon Shop.{page}You'll have strengths and{br}weaknesses, {hero}, so some{br}weapons may be off limits.{page}I can't carry axes. Too heavy! Try{br}different ones, okay?{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -145,7 +145,7 @@
   {
    "id": "rom.04C74",
    "jp": "で　やっぱり　バスターと言えば{br}才牙だと思うの・・・{page}得意の武器を　とことん使い込めば{br}きっと　才牙が生成できるように{br}なると思うわ{page}才牙は　天力を極限まで高める{br}必要があるから{page}得意な天撃の属性が　才牙の生成に{br}影響を　与えるかもしれないわね・・・{page}わたし　自分で才牙を出せないから{br}えらそうなことは{br}いえないんだけどね・・・！{page}どう？　わかったかしら？{br}簡単に言えば　どんどん修行しなきゃ！{br}ってことね・・・！！{page}がんばってね！！{close}",
-   "en": "Busters mean Saiga, right? Master{br}your best weapon, and I think you'll{br}learn to form one.{page}It takes Divine Power at its peak, so{br}your best Divine Attack element{br}may affect it.{page}I can't form a Saiga myself, so who{br}am I to act like an expert...!{page}Well? Make sense? Basically, keep{br}training! Give it your best!{close}",
+   "en": "And what's a Buster without{br}a Saiga?{page}Master your best weapon, and I{br}think you'll learn to form one.{page}A Saiga requires you to raise your{br}Divine Power to its limit.{page}So your strongest Divine Attack{br}element might affect the Saiga{br}you form...{page}I can't form a Saiga myself, so who{br}am I to act like an expert...!{page}Well? Make sense? Basically, you've{br}got to keep training...!!{page}Give it your best!!{close}",
    "kind": "msg",
    "speaker": "ポアラ",
    "refs": 1
@@ -272,7 +272,7 @@
   {
    "id": "rom.05820",
    "jp": "安くしとくから　買ってよね！{br}買い取りもするよ！！{br}高価買取キャンペーン中なのだ！！{close}",
-   "en": "I'll give ya a good deal, so buy{br}something! I buy stuff, too!! Paying{br}top coin in my special buyback{page}sale!!{close}",
+   "en": "I'll give ya a good deal, so buy{br}something! I buy stuff, too!! Paying{br}top coin for your goods right now!!{close}",
    "kind": "msg",
    "speaker": "ゼナ",
    "refs": 1
@@ -572,7 +572,7 @@
   {
    "id": "rom.06050",
    "jp": "この正義の　スーパーヒロイン{br}ＢＢ・ミルファが　たすけて{br}あ　げ　る☆{page}えーっと・・・{close}",
-   "en": "Let this superheroine of justice, BB{br}Milfa, give you a helping... little...{br}hand!{page}Let's see...{close}",
+   "en": "Let this superheroine of justice, BB{br}Milfa, help... you... out!{page}Let's see...{close}",
    "kind": "msg",
    "speaker": "ミルファ",
    "refs": 1
@@ -722,7 +722,7 @@
   {
    "id": "rom.066A0",
    "jp": "実は先日　ミレイ森の里から{br}伝書鳩が届いての・・・{page}ミレイの森にも　かなりの数の{br}モンスターが見られるように{br}なってきたとのことじゃ・・・{page}モンスターだけでも　ただごとではないが{br}なんと　ヴァンデルらしき姿も{br}目撃されているとのことじゃ・・・{page}この東の島も　ミレイの森から{br}ヴァンデルの魔の手に　かかろうと{br}しているのかもしれん・・・{page}その後の　状況を知りたいのじゃが・・・{br}それから　伝書鳩が途絶えての・・・{page}おそらく　モンスターの{br}仕業じゃろう・・・{page}ミレイ森の里が　心配される{br}ところじゃ・・・{close}",
-   "en": "A carrier pigeon recently came from{br}Mirei Forest Village... Many monsters{br}now roam the forest. Worse, a{page}possible Vandel was sighted...{page}East Island may be falling into evil{br}hands, starting there...{page}I wish for more news, but no pigeons{br}have come since. The monsters'{br}work, no doubt... I fear for the{page}village, my boy...{close}",
+   "en": "A carrier pigeon recently came from{br}Mirei Forest Village...{page}It seems quite a few monsters now{br}roam Mirei Forest...{page}Monsters alone are worrying enough,{br}but something that looked like a{br}Vandel was sighted too...{page}East Island may be falling into{br}Vandel hands, starting with{br}Mirei Forest...{page}I wish for more news, but no pigeons{br}have come since...{page}Probably the monsters' doing...{page}I fear for Mirei Forest Village...{close}",
    "kind": "msg",
    "speaker": "里長",
    "refs": 1

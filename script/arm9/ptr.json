@@ -449,7 +449,7 @@
   {
    "id": "a9.021B5758",
    "jp": "同じ陣営では対戦できません。",
-   "en": "Same sides cannot fight.",
+   "en": "Allies cannot fight.",
    "kind": "ptr.comm",
    "ptrs": [
     "020DDD34"

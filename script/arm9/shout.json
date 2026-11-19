@@ -908,7 +908,7 @@
   {
    "id": "a9.shout.010.s03",
    "jp": "受けてみろ！",
-   "en": "Try taking this!",
+   "en": "Let's see you take this!",
    "kind": "shout.s03",
    "addr": "0211B51C",
    "max": 32
@@ -1028,7 +1028,7 @@
   {
    "id": "a9.shout.011.s07",
    "jp": "こいつを受けてみろ！",
-   "en": "Try taking this!",
+   "en": "Let's see you take this!",
    "kind": "shout.s07",
    "addr": "0211B704",
    "max": 32
@@ -1196,7 +1196,7 @@
   {
    "id": "a9.shout.013.s06",
    "jp": "カッコいいとこ見せるぜ！",
-   "en": "Watch me look cool!",
+   "en": "Watch me show off!",
    "kind": "shout.s06",
    "addr": "0211B9B4",
    "max": 32
@@ -1340,7 +1340,7 @@
   {
    "id": "a9.shout.015.s02",
    "jp": "消えろ！",
-   "en": "Disappear!",
+   "en": "Begone!",
    "kind": "shout.s02",
    "addr": "0211BC04",
    "max": 32
@@ -2764,7 +2764,7 @@
   {
    "id": "a9.shout.031.s04",
    "jp": "うりゃっ！",
-   "en": "Hurrah!",
+   "en": "Hyaah!",
    "kind": "shout.s04",
    "addr": "0211D2C4",
    "max": 32
@@ -2788,7 +2788,7 @@
   {
    "id": "a9.shout.031.s07",
    "jp": "うりゃーーっ！",
-   "en": "Hurraaaah!",
+   "en": "Hyaaaah!",
    "kind": "shout.s07",
    "addr": "0211D324",
    "max": 32
@@ -2852,7 +2852,7 @@
   {
    "id": "a9.shout.032.s04",
    "jp": "うりゃっ！",
-   "en": "Hurrah!",
+   "en": "Hyaah!",
    "kind": "shout.s04",
    "addr": "0211D42C",
    "max": 32
@@ -2876,7 +2876,7 @@
   {
    "id": "a9.shout.032.s07",
    "jp": "うりゃーーっ！",
-   "en": "Hurraaaah!",
+   "en": "Hyaaaah!",
    "kind": "shout.s07",
    "addr": "0211D48C",
    "max": 32
@@ -2940,7 +2940,7 @@
   {
    "id": "a9.shout.033.s04",
    "jp": "うりゃっ！",
-   "en": "Hurrah!",
+   "en": "Hyaah!",
    "kind": "shout.s04",
    "addr": "0211D594",
    "max": 32
@@ -2964,7 +2964,7 @@
   {
    "id": "a9.shout.033.s07",
    "jp": "うりゃーーっ！",
-   "en": "Hurraaaah!",
+   "en": "Hyaaaah!",
    "kind": "shout.s07",
    "addr": "0211D5F4",
    "max": 32
@@ -3028,7 +3028,7 @@
   {
    "id": "a9.shout.034.s04",
    "jp": "うりゃっ！",
-   "en": "Hurrah!",
+   "en": "Hyaah!",
    "kind": "shout.s04",
    "addr": "0211D6FC",
    "max": 32
@@ -3052,7 +3052,7 @@
   {
    "id": "a9.shout.034.s07",
    "jp": "うりゃーーっ！",
-   "en": "Hurraaaah!",
+   "en": "Hyaaaah!",
    "kind": "shout.s07",
    "addr": "0211D75C",
    "max": 32
@@ -3116,7 +3116,7 @@
   {
    "id": "a9.shout.035.s04",
    "jp": "うりゃっ！",
-   "en": "Hurrah!",
+   "en": "Hyaah!",
    "kind": "shout.s04",
    "addr": "0211D864",
    "max": 32
@@ -3140,7 +3140,7 @@
   {
    "id": "a9.shout.035.s07",
    "jp": "うりゃーーっ！",
-   "en": "Hurraaaah!",
+   "en": "Hyaaaah!",
    "kind": "shout.s07",
    "addr": "0211D8C4",
    "max": 32
@@ -3620,7 +3620,7 @@
   {
    "id": "a9.shout.041.s01",
    "jp": "わたしの拳を　受けてみろっ！",
-   "en": "Try taking my fist!",
+   "en": "Take this punch!",
    "kind": "shout.s01",
    "addr": "0211E074",
    "max": 32
@@ -3708,7 +3708,7 @@
   {
    "id": "a9.shout.042.s01",
    "jp": "わたしの拳を　受けてみろっ！",
-   "en": "Try taking my fist!",
+   "en": "Take this punch!",
    "kind": "shout.s01",
    "addr": "0211E1DC",
    "max": 32
@@ -3796,7 +3796,7 @@
   {
    "id": "a9.shout.043.s01",
    "jp": "わたしの拳を　受けてみろっ！",
-   "en": "Try taking my fist!",
+   "en": "Take this punch!",
    "kind": "shout.s01",
    "addr": "0211E344",
    "max": 32
@@ -3884,7 +3884,7 @@
   {
    "id": "a9.shout.044.s01",
    "jp": "わたしの拳を　受けてみろっ！",
-   "en": "Try taking my fist!",
+   "en": "Take this punch!",
    "kind": "shout.s01",
    "addr": "0211E4AC",
    "max": 32
@@ -3972,7 +3972,7 @@
   {
    "id": "a9.shout.045.s01",
    "jp": "わたしの拳を　受けてみろっ！",
-   "en": "Try taking my fist!",
+   "en": "Take this punch!",
    "kind": "shout.s01",
    "addr": "0211E614",
    "max": 32
@@ -4692,7 +4692,7 @@
   {
    "id": "a9.shout.053.s03",
    "jp": "うりゃぁーーっ！！",
-   "en": "Hurraaaah!!",
+   "en": "Hyaaaah!!",
    "kind": "shout.s03",
    "addr": "0211F194",
    "max": 32
@@ -5852,7 +5852,7 @@
   {
    "id": "a9.shout.066.s05",
    "jp": "この世で美しきものは　才牙・・・",
-   "en": "Saiga are this world's beauty.",
+   "en": "Such beauty in Saiga...",
    "kind": "shout.s05",
    "addr": "0212041C",
    "max": 32
@@ -6780,7 +6780,7 @@
   {
    "id": "a9.shout.077.s00",
    "jp": "お見せしよう、我が冥力の極致・・",
-   "en": "Behold my peak Dark Power...",
+   "en": "Behold! My full Dark Power!",
    "kind": "shout.s00",
    "addr": "021212F4",
    "max": 32
